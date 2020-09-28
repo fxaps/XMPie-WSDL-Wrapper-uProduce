@@ -15,7 +15,7 @@ class AddUserTokenResponse
      */
     public function __construct($AddUserTokenResult = null)
     {
-      $this->AddUserTokenResult = $AddUserTokenResult;
+        $this->AddUserTokenResult = $AddUserTokenResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddUserTokenResponse
      */
     public function getAddUserTokenResult()
     {
-      return $this->AddUserTokenResult;
+        return $this->AddUserTokenResult;
     }
 
     /**
      * @param boolean $AddUserTokenResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\User_SSP\AddUserTokenResponse
+     * @return AddUserTokenResponse
      */
     public function setAddUserTokenResult($AddUserTokenResult)
     {
-      $this->AddUserTokenResult = $AddUserTokenResult;
-      return $this;
+        $this->AddUserTokenResult = $AddUserTokenResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class DeleteDataSourcesResponse
      */
     public function __construct($DeleteDataSourcesResult = null)
     {
-      $this->DeleteDataSourcesResult = $DeleteDataSourcesResult;
+        $this->DeleteDataSourcesResult = $DeleteDataSourcesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteDataSourcesResponse
      */
     public function getDeleteDataSourcesResult()
     {
-      return $this->DeleteDataSourcesResult;
+        return $this->DeleteDataSourcesResult;
     }
 
     /**
      * @param boolean $DeleteDataSourcesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteDataSourcesResponse
+     * @return DeleteDataSourcesResponse
      */
     public function setDeleteDataSourcesResult($DeleteDataSourcesResult)
     {
-      $this->DeleteDataSourcesResult = $DeleteDataSourcesResult;
-      return $this;
+        $this->DeleteDataSourcesResult = $DeleteDataSourcesResult;
+        return $this;
     }
 
 }

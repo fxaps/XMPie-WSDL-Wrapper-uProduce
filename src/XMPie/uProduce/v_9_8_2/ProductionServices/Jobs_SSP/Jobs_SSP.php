@@ -3,70 +3,71 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP;
 
 
+use SoapClient;
 use SoapFault;
 
 /**
  * Jobs Web Service.
  */
-class Jobs_SSP extends \SoapClient
+class Jobs_SSP extends SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array (
-  'Get' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\Get',
-  'GetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetResponse',
-  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfString',
-  'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetDataSet',
-  'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetDataSetResponse',
-  'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetDataSetResult',
-  'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetXMPTblDataSet',
-  'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetXMPTblDataSetResponse',
-  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\XMPTblDataSet',
-  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfXMPTbl',
-  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\XMPTbl',
-  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfXMPTblColumn',
-  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\XMPTblColumn',
-  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfXMPTblRow',
-  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\XMPTblRow',
-  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfXMPRowField',
-  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\XMPRowField',
-  'DeleteAll' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteAll',
-  'DeleteAllResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteAllResponse',
-  'AbortAll' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\AbortAll',
-  'AbortAllResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\AbortAllResponse',
-  'Abort' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\Abort',
-  'AbortResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\AbortResponse',
-  'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\Delete',
-  'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteResponse',
-  'GetJobType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobType',
-  'GetJobTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypeResponse',
-  'GetJobTypeResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypeResult',
-  'GetJobTypeXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypeXMPTblDataSet',
-  'GetJobTypeXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypeXMPTblDataSetResponse',
-  'GetJobTypes' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypes',
-  'GetJobTypesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypesResponse',
-  'GetJobTypesResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypesResult',
-  'GetJobTypesXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypesXMPTblDataSet',
-  'GetJobTypesXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypesXMPTblDataSetResponse',
-  'GetJobsByFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobsByFilter',
-  'ArrayOfJobQueryPart' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfJobQueryPart',
-  'JobQueryPart' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\JobQueryPart',
-  'JobOrderPart' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\JobOrderPart',
-  'ArrayOfEJobField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfEJobField',
-  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfProperty',
-  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\Property',
-  'GetJobsByFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobsByFilterResponse',
-  'GetJobPageByFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobPageByFilter',
-  'GetJobPageByFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobPageByFilterResponse',
-  'GetJobCountByFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobCountByFilter',
-  'GetJobCountByFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobCountByFilterResponse',
-  'DeleteJobsByFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteJobsByFilter',
-  'DeleteJobsByFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteJobsByFilterResponse',
-  'DeleteAllJobsByFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteAllJobsByFilter',
-  'DeleteAllJobsByFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteAllJobsByFilterResponse',
-);
+    private static $classmap = array(
+        'Get' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\Get',
+        'GetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetResponse',
+        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfString',
+        'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetDataSet',
+        'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetDataSetResponse',
+        'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetDataSetResult',
+        'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetXMPTblDataSet',
+        'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetXMPTblDataSetResponse',
+        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\XMPTblDataSet',
+        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfXMPTbl',
+        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\XMPTbl',
+        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfXMPTblColumn',
+        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\XMPTblColumn',
+        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfXMPTblRow',
+        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\XMPTblRow',
+        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfXMPRowField',
+        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\XMPRowField',
+        'DeleteAll' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteAll',
+        'DeleteAllResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteAllResponse',
+        'AbortAll' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\AbortAll',
+        'AbortAllResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\AbortAllResponse',
+        'Abort' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\Abort',
+        'AbortResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\AbortResponse',
+        'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\Delete',
+        'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteResponse',
+        'GetJobType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobType',
+        'GetJobTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypeResponse',
+        'GetJobTypeResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypeResult',
+        'GetJobTypeXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypeXMPTblDataSet',
+        'GetJobTypeXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypeXMPTblDataSetResponse',
+        'GetJobTypes' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypes',
+        'GetJobTypesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypesResponse',
+        'GetJobTypesResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypesResult',
+        'GetJobTypesXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypesXMPTblDataSet',
+        'GetJobTypesXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobTypesXMPTblDataSetResponse',
+        'GetJobsByFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobsByFilter',
+        'ArrayOfJobQueryPart' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfJobQueryPart',
+        'JobQueryPart' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\JobQueryPart',
+        'JobOrderPart' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\JobOrderPart',
+        'ArrayOfEJobField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfEJobField',
+        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\ArrayOfProperty',
+        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\Property',
+        'GetJobsByFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobsByFilterResponse',
+        'GetJobPageByFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobPageByFilter',
+        'GetJobPageByFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobPageByFilterResponse',
+        'GetJobCountByFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobCountByFilter',
+        'GetJobCountByFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\GetJobCountByFilterResponse',
+        'DeleteJobsByFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteJobsByFilter',
+        'DeleteJobsByFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteJobsByFilterResponse',
+        'DeleteAllJobsByFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteAllJobsByFilter',
+        'DeleteAllJobsByFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Jobs_SSP\\DeleteAllJobsByFilterResponse',
+    );
 
     /**
      * @param array $options A array of config values
@@ -75,19 +76,19 @@ class Jobs_SSP extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-    
-  foreach (self::$classmap as $key => $value) {
-    if (!isset($options['classmap'][$key])) {
-      $options['classmap'][$key] = $value;
-    }
-  }
-      $options = array_merge(array (
-  'features' => 1,
-), $options);
-      if (!$wsdl) {
-        $wsdl = 'http://localhost/xmpiewsapi/Jobs_SSP.asmx?wsdl';
-      }
-      parent::__construct($wsdl, $options);
+
+        foreach (self::$classmap as $key => $value) {
+            if (!isset($options['classmap'][$key])) {
+                $options['classmap'][$key] = $value;
+            }
+        }
+        $options = array_merge(array(
+            'features' => 1,
+        ), $options);
+        if (!$wsdl) {
+            $wsdl = 'http://localhost/xmpiewsapi/Jobs_SSP.asmx?wsdl';
+        }
+        parent::__construct($wsdl, $options);
     }
 
     /**
@@ -98,7 +99,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function Get(Get $parameters)
     {
-      return $this->__soapCall('Get', array($parameters));
+        return $this->__soapCall('Get', array($parameters));
     }
 
     /**
@@ -109,7 +110,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function GetDataSet(GetDataSet $parameters)
     {
-      return $this->__soapCall('GetDataSet', array($parameters));
+        return $this->__soapCall('GetDataSet', array($parameters));
     }
 
     /**
@@ -120,7 +121,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function GetXMPTblDataSet(GetXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -131,7 +132,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function DeleteAll(DeleteAll $parameters)
     {
-      return $this->__soapCall('DeleteAll', array($parameters));
+        return $this->__soapCall('DeleteAll', array($parameters));
     }
 
     /**
@@ -142,7 +143,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function AbortAll(AbortAll $parameters)
     {
-      return $this->__soapCall('AbortAll', array($parameters));
+        return $this->__soapCall('AbortAll', array($parameters));
     }
 
     /**
@@ -153,7 +154,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function Abort(Abort $parameters)
     {
-      return $this->__soapCall('Abort', array($parameters));
+        return $this->__soapCall('Abort', array($parameters));
     }
 
     /**
@@ -164,7 +165,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function Delete(Delete $parameters)
     {
-      return $this->__soapCall('Delete', array($parameters));
+        return $this->__soapCall('Delete', array($parameters));
     }
 
     /**
@@ -175,7 +176,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function GetJobType(GetJobType $parameters)
     {
-      return $this->__soapCall('GetJobType', array($parameters));
+        return $this->__soapCall('GetJobType', array($parameters));
     }
 
     /**
@@ -186,7 +187,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function GetJobTypeXMPTblDataSet(GetJobTypeXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetJobTypeXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetJobTypeXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -197,7 +198,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function GetJobTypes(GetJobTypes $parameters)
     {
-      return $this->__soapCall('GetJobTypes', array($parameters));
+        return $this->__soapCall('GetJobTypes', array($parameters));
     }
 
     /**
@@ -208,7 +209,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function GetJobTypesXMPTblDataSet(GetJobTypesXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetJobTypesXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetJobTypesXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -219,7 +220,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function GetJobsByFilter(GetJobsByFilter $parameters)
     {
-      return $this->__soapCall('GetJobsByFilter', array($parameters));
+        return $this->__soapCall('GetJobsByFilter', array($parameters));
     }
 
     /**
@@ -230,7 +231,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function GetJobPageByFilter(GetJobPageByFilter $parameters)
     {
-      return $this->__soapCall('GetJobPageByFilter', array($parameters));
+        return $this->__soapCall('GetJobPageByFilter', array($parameters));
     }
 
     /**
@@ -241,7 +242,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function GetJobCountByFilter(GetJobCountByFilter $parameters)
     {
-      return $this->__soapCall('GetJobCountByFilter', array($parameters));
+        return $this->__soapCall('GetJobCountByFilter', array($parameters));
     }
 
     /**
@@ -252,7 +253,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function DeleteJobsByFilter(DeleteJobsByFilter $parameters)
     {
-      return $this->__soapCall('DeleteJobsByFilter', array($parameters));
+        return $this->__soapCall('DeleteJobsByFilter', array($parameters));
     }
 
     /**
@@ -263,7 +264,7 @@ class Jobs_SSP extends \SoapClient
      */
     public function DeleteAllJobsByFilter(DeleteAllJobsByFilter $parameters)
     {
-      return $this->__soapCall('DeleteAllJobsByFilter', array($parameters));
+        return $this->__soapCall('DeleteAllJobsByFilter', array($parameters));
     }
 
 }

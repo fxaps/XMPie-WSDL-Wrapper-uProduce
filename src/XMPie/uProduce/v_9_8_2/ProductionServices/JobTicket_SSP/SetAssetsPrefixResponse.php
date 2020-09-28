@@ -15,7 +15,7 @@ class SetAssetsPrefixResponse
      */
     public function __construct($SetAssetsPrefixResult = null)
     {
-      $this->SetAssetsPrefixResult = $SetAssetsPrefixResult;
+        $this->SetAssetsPrefixResult = $SetAssetsPrefixResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetAssetsPrefixResponse
      */
     public function getSetAssetsPrefixResult()
     {
-      return $this->SetAssetsPrefixResult;
+        return $this->SetAssetsPrefixResult;
     }
 
     /**
      * @param boolean $SetAssetsPrefixResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetsPrefixResponse
+     * @return SetAssetsPrefixResponse
      */
     public function setSetAssetsPrefixResult($SetAssetsPrefixResult)
     {
-      $this->SetAssetsPrefixResult = $SetAssetsPrefixResult;
-      return $this;
+        $this->SetAssetsPrefixResult = $SetAssetsPrefixResult;
+        return $this;
     }
 
 }

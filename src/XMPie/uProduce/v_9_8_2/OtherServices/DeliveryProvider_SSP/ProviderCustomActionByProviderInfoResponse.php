@@ -15,7 +15,7 @@ class ProviderCustomActionByProviderInfoResponse
      */
     public function __construct($ProviderCustomActionByProviderInfoResult = null)
     {
-      $this->ProviderCustomActionByProviderInfoResult = $ProviderCustomActionByProviderInfoResult;
+        $this->ProviderCustomActionByProviderInfoResult = $ProviderCustomActionByProviderInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ProviderCustomActionByProviderInfoResponse
      */
     public function getProviderCustomActionByProviderInfoResult()
     {
-      return $this->ProviderCustomActionByProviderInfoResult;
+        return $this->ProviderCustomActionByProviderInfoResult;
     }
 
     /**
      * @param string $ProviderCustomActionByProviderInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\ProviderCustomActionByProviderInfoResponse
+     * @return ProviderCustomActionByProviderInfoResponse
      */
     public function setProviderCustomActionByProviderInfoResult($ProviderCustomActionByProviderInfoResult)
     {
-      $this->ProviderCustomActionByProviderInfoResult = $ProviderCustomActionByProviderInfoResult;
-      return $this;
+        $this->ProviderCustomActionByProviderInfoResult = $ProviderCustomActionByProviderInfoResult;
+        return $this;
     }
 
 }

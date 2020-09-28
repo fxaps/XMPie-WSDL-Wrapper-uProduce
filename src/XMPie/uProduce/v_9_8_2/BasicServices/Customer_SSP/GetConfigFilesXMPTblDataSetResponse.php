@@ -15,7 +15,7 @@ class GetConfigFilesXMPTblDataSetResponse
      */
     public function __construct($GetConfigFilesXMPTblDataSetResult = null)
     {
-      $this->GetConfigFilesXMPTblDataSetResult = $GetConfigFilesXMPTblDataSetResult;
+        $this->GetConfigFilesXMPTblDataSetResult = $GetConfigFilesXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetConfigFilesXMPTblDataSetResponse
      */
     public function getGetConfigFilesXMPTblDataSetResult()
     {
-      return $this->GetConfigFilesXMPTblDataSetResult;
+        return $this->GetConfigFilesXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetConfigFilesXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetConfigFilesXMPTblDataSetResponse
+     * @return GetConfigFilesXMPTblDataSetResponse
      */
     public function setGetConfigFilesXMPTblDataSetResult($GetConfigFilesXMPTblDataSetResult)
     {
-      $this->GetConfigFilesXMPTblDataSetResult = $GetConfigFilesXMPTblDataSetResult;
-      return $this;
+        $this->GetConfigFilesXMPTblDataSetResult = $GetConfigFilesXMPTblDataSetResult;
+        return $this;
     }
 
 }

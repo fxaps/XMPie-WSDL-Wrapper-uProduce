@@ -15,7 +15,7 @@ class GetRIOnDemandRecipientInfoResponse
      */
     public function __construct($GetRIOnDemandRecipientInfoResult = null)
     {
-      $this->GetRIOnDemandRecipientInfoResult = $GetRIOnDemandRecipientInfoResult;
+        $this->GetRIOnDemandRecipientInfoResult = $GetRIOnDemandRecipientInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetRIOnDemandRecipientInfoResponse
      */
     public function getGetRIOnDemandRecipientInfoResult()
     {
-      return $this->GetRIOnDemandRecipientInfoResult;
+        return $this->GetRIOnDemandRecipientInfoResult;
     }
 
     /**
      * @param string $GetRIOnDemandRecipientInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetRIOnDemandRecipientInfoResponse
+     * @return GetRIOnDemandRecipientInfoResponse
      */
     public function setGetRIOnDemandRecipientInfoResult($GetRIOnDemandRecipientInfoResult)
     {
-      $this->GetRIOnDemandRecipientInfoResult = $GetRIOnDemandRecipientInfoResult;
-      return $this;
+        $this->GetRIOnDemandRecipientInfoResult = $GetRIOnDemandRecipientInfoResult;
+        return $this;
     }
 
 }

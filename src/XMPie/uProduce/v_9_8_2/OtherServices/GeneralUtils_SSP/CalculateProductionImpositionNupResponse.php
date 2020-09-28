@@ -15,7 +15,7 @@ class CalculateProductionImpositionNupResponse
      */
     public function __construct($CalculateProductionImpositionNupResult = null)
     {
-      $this->CalculateProductionImpositionNupResult = $CalculateProductionImpositionNupResult;
+        $this->CalculateProductionImpositionNupResult = $CalculateProductionImpositionNupResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CalculateProductionImpositionNupResponse
      */
     public function getCalculateProductionImpositionNupResult()
     {
-      return $this->CalculateProductionImpositionNupResult;
+        return $this->CalculateProductionImpositionNupResult;
     }
 
     /**
      * @param NupValues $CalculateProductionImpositionNupResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNupResponse
+     * @return CalculateProductionImpositionNupResponse
      */
     public function setCalculateProductionImpositionNupResult($CalculateProductionImpositionNupResult)
     {
-      $this->CalculateProductionImpositionNupResult = $CalculateProductionImpositionNupResult;
-      return $this;
+        $this->CalculateProductionImpositionNupResult = $CalculateProductionImpositionNupResult;
+        return $this;
     }
 
 }

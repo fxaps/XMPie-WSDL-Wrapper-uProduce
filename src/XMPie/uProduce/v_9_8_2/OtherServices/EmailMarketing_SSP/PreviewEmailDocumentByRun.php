@@ -45,12 +45,12 @@ class PreviewEmailDocumentByRun
      */
     public function __construct($inUsername = null, $inPassword = null, $inRunGUID = null, $inDocument = null, $inIsHTML = null, $inRecipientID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inRunGUID = $inRunGUID;
-      $this->inDocument = $inDocument;
-      $this->inIsHTML = $inIsHTML;
-      $this->inRecipientID = $inRecipientID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inRunGUID = $inRunGUID;
+        $this->inDocument = $inDocument;
+        $this->inIsHTML = $inIsHTML;
+        $this->inRecipientID = $inRecipientID;
     }
 
     /**
@@ -58,17 +58,17 @@ class PreviewEmailDocumentByRun
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByRun
+     * @return PreviewEmailDocumentByRun
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class PreviewEmailDocumentByRun
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByRun
+     * @return PreviewEmailDocumentByRun
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class PreviewEmailDocumentByRun
      */
     public function getInRunGUID()
     {
-      return $this->inRunGUID;
+        return $this->inRunGUID;
     }
 
     /**
      * @param string $inRunGUID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByRun
+     * @return PreviewEmailDocumentByRun
      */
     public function setInRunGUID($inRunGUID)
     {
-      $this->inRunGUID = $inRunGUID;
-      return $this;
+        $this->inRunGUID = $inRunGUID;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class PreviewEmailDocumentByRun
      */
     public function getInDocument()
     {
-      return $this->inDocument;
+        return $this->inDocument;
     }
 
     /**
      * @param string $inDocument
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByRun
+     * @return PreviewEmailDocumentByRun
      */
     public function setInDocument($inDocument)
     {
-      $this->inDocument = $inDocument;
-      return $this;
+        $this->inDocument = $inDocument;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class PreviewEmailDocumentByRun
      */
     public function getInIsHTML()
     {
-      return $this->inIsHTML;
+        return $this->inIsHTML;
     }
 
     /**
      * @param boolean $inIsHTML
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByRun
+     * @return PreviewEmailDocumentByRun
      */
     public function setInIsHTML($inIsHTML)
     {
-      $this->inIsHTML = $inIsHTML;
-      return $this;
+        $this->inIsHTML = $inIsHTML;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class PreviewEmailDocumentByRun
      */
     public function getInRecipientID()
     {
-      return $this->inRecipientID;
+        return $this->inRecipientID;
     }
 
     /**
      * @param string $inRecipientID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByRun
+     * @return PreviewEmailDocumentByRun
      */
     public function setInRecipientID($inRecipientID)
     {
-      $this->inRecipientID = $inRecipientID;
-      return $this;
+        $this->inRecipientID = $inRecipientID;
+        return $this;
     }
 
 }

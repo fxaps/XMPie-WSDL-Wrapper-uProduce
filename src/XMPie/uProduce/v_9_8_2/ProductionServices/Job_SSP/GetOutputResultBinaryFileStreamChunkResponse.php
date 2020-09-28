@@ -21,8 +21,8 @@ class GetOutputResultBinaryFileStreamChunkResponse
      */
     public function __construct($GetOutputResultBinaryFileStreamChunkResult = null, $inoutCount = null)
     {
-      $this->GetOutputResultBinaryFileStreamChunkResult = $GetOutputResultBinaryFileStreamChunkResult;
-      $this->inoutCount = $inoutCount;
+        $this->GetOutputResultBinaryFileStreamChunkResult = $GetOutputResultBinaryFileStreamChunkResult;
+        $this->inoutCount = $inoutCount;
     }
 
     /**
@@ -30,17 +30,17 @@ class GetOutputResultBinaryFileStreamChunkResponse
      */
     public function getGetOutputResultBinaryFileStreamChunkResult()
     {
-      return $this->GetOutputResultBinaryFileStreamChunkResult;
+        return $this->GetOutputResultBinaryFileStreamChunkResult;
     }
 
     /**
      * @param base64Binary $GetOutputResultBinaryFileStreamChunkResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultBinaryFileStreamChunkResponse
+     * @return GetOutputResultBinaryFileStreamChunkResponse
      */
     public function setGetOutputResultBinaryFileStreamChunkResult($GetOutputResultBinaryFileStreamChunkResult)
     {
-      $this->GetOutputResultBinaryFileStreamChunkResult = $GetOutputResultBinaryFileStreamChunkResult;
-      return $this;
+        $this->GetOutputResultBinaryFileStreamChunkResult = $GetOutputResultBinaryFileStreamChunkResult;
+        return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class GetOutputResultBinaryFileStreamChunkResponse
      */
     public function getInoutCount()
     {
-      return $this->inoutCount;
+        return $this->inoutCount;
     }
 
     /**
      * @param int $inoutCount
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultBinaryFileStreamChunkResponse
+     * @return GetOutputResultBinaryFileStreamChunkResponse
      */
     public function setInoutCount($inoutCount)
     {
-      $this->inoutCount = $inoutCount;
-      return $this;
+        $this->inoutCount = $inoutCount;
+        return $this;
     }
 
 }

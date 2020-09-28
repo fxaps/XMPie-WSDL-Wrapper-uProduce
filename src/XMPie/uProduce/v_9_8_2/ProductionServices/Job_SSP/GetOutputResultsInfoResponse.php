@@ -15,7 +15,7 @@ class GetOutputResultsInfoResponse
      */
     public function __construct($GetOutputResultsInfoResult = null)
     {
-      $this->GetOutputResultsInfoResult = $GetOutputResultsInfoResult;
+        $this->GetOutputResultsInfoResult = $GetOutputResultsInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetOutputResultsInfoResponse
      */
     public function getGetOutputResultsInfoResult()
     {
-      return $this->GetOutputResultsInfoResult;
+        return $this->GetOutputResultsInfoResult;
     }
 
     /**
      * @param ArrayOfOutputResult $GetOutputResultsInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultsInfoResponse
+     * @return GetOutputResultsInfoResponse
      */
     public function setGetOutputResultsInfoResult($GetOutputResultsInfoResult)
     {
-      $this->GetOutputResultsInfoResult = $GetOutputResultsInfoResult;
-      return $this;
+        $this->GetOutputResultsInfoResult = $GetOutputResultsInfoResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetUserViewResponse
      */
     public function __construct($GetUserViewResult = null)
     {
-      $this->GetUserViewResult = $GetUserViewResult;
+        $this->GetUserViewResult = $GetUserViewResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUserViewResponse
      */
     public function getGetUserViewResult()
     {
-      return $this->GetUserViewResult;
+        return $this->GetUserViewResult;
     }
 
     /**
      * @param PlanObject $GetUserViewResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetUserViewResponse
+     * @return GetUserViewResponse
      */
     public function setGetUserViewResult($GetUserViewResult)
     {
-      $this->GetUserViewResult = $GetUserViewResult;
-      return $this;
+        $this->GetUserViewResult = $GetUserViewResult;
+        return $this;
     }
 
 }

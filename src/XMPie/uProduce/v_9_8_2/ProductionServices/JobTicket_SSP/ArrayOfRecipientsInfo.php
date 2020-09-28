@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP;
 
-class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfRecipientsInfo implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     protected $RecipientsInfo = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function getRecipientsInfo()
     {
-      return $this->RecipientsInfo;
+        return $this->RecipientsInfo;
     }
 
     /**
      * @param RecipientsInfo[] $RecipientsInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\ArrayOfRecipientsInfo
+     * @return ArrayOfRecipientsInfo
      */
     public function setRecipientsInfo(array $RecipientsInfo = null)
     {
-      $this->RecipientsInfo = $RecipientsInfo;
-      return $this;
+        $this->RecipientsInfo = $RecipientsInfo;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->RecipientsInfo[$offset]);
+        return isset($this->RecipientsInfo[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->RecipientsInfo[$offset];
+        return $this->RecipientsInfo[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->RecipientsInfo[] = $value;
-      } else {
-        $this->RecipientsInfo[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->RecipientsInfo[] = $value;
+        } else {
+            $this->RecipientsInfo[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->RecipientsInfo[$offset]);
+        unset($this->RecipientsInfo[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->RecipientsInfo);
+        return current($this->RecipientsInfo);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->RecipientsInfo);
+        next($this->RecipientsInfo);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->RecipientsInfo);
+        return key($this->RecipientsInfo);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->RecipientsInfo);
+        reset($this->RecipientsInfo);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfRecipientsInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->RecipientsInfo);
+        return count($this->RecipientsInfo);
     }
 
 }

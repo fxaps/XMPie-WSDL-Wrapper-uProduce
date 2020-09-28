@@ -15,7 +15,7 @@ class IsFTPDeleteSourceResponse
      */
     public function __construct($IsFTPDeleteSourceResult = null)
     {
-      $this->IsFTPDeleteSourceResult = $IsFTPDeleteSourceResult;
+        $this->IsFTPDeleteSourceResult = $IsFTPDeleteSourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsFTPDeleteSourceResponse
      */
     public function getIsFTPDeleteSourceResult()
     {
-      return $this->IsFTPDeleteSourceResult;
+        return $this->IsFTPDeleteSourceResult;
     }
 
     /**
      * @param boolean $IsFTPDeleteSourceResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsFTPDeleteSourceResponse
+     * @return IsFTPDeleteSourceResponse
      */
     public function setIsFTPDeleteSourceResult($IsFTPDeleteSourceResult)
     {
-      $this->IsFTPDeleteSourceResult = $IsFTPDeleteSourceResult;
-      return $this;
+        $this->IsFTPDeleteSourceResult = $IsFTPDeleteSourceResult;
+        return $this;
     }
 
 }

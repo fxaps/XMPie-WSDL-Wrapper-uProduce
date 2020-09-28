@@ -45,12 +45,12 @@ class CreateNew
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inTicket = null, $inEmailMarketingName = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inCampaignID = $inCampaignID;
-      $this->inTicket = $inTicket;
-      $this->inEmailMarketingName = $inEmailMarketingName;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inCampaignID = $inCampaignID;
+        $this->inTicket = $inTicket;
+        $this->inEmailMarketingName = $inEmailMarketingName;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -58,17 +58,17 @@ class CreateNew
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class CreateNew
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class CreateNew
      */
     public function getInCampaignID()
     {
-      return $this->inCampaignID;
+        return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInCampaignID($inCampaignID)
     {
-      $this->inCampaignID = $inCampaignID;
-      return $this;
+        $this->inCampaignID = $inCampaignID;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class CreateNew
      */
     public function getInTicket()
     {
-      return $this->inTicket;
+        return $this->inTicket;
     }
 
     /**
      * @param string $inTicket
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInTicket($inTicket)
     {
-      $this->inTicket = $inTicket;
-      return $this;
+        $this->inTicket = $inTicket;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class CreateNew
      */
     public function getInEmailMarketingName()
     {
-      return $this->inEmailMarketingName;
+        return $this->inEmailMarketingName;
     }
 
     /**
      * @param string $inEmailMarketingName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInEmailMarketingName($inEmailMarketingName)
     {
-      $this->inEmailMarketingName = $inEmailMarketingName;
-      return $this;
+        $this->inEmailMarketingName = $inEmailMarketingName;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class CreateNew
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

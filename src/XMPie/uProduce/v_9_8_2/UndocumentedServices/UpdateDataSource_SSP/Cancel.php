@@ -27,9 +27,9 @@ class Cancel
      */
     public function __construct($inUsername = null, $inPassword = null, $inTransactionId = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTransactionId = $inTransactionId;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTransactionId = $inTransactionId;
     }
 
     /**
@@ -37,17 +37,17 @@ class Cancel
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Cancel
+     * @return Cancel
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class Cancel
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Cancel
+     * @return Cancel
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class Cancel
      */
     public function getInTransactionId()
     {
-      return $this->inTransactionId;
+        return $this->inTransactionId;
     }
 
     /**
      * @param string $inTransactionId
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Cancel
+     * @return Cancel
      */
     public function setInTransactionId($inTransactionId)
     {
-      $this->inTransactionId = $inTransactionId;
-      return $this;
+        $this->inTransactionId = $inTransactionId;
+        return $this;
     }
 
 }

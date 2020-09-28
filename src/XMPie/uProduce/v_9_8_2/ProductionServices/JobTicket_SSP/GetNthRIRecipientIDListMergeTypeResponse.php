@@ -15,7 +15,7 @@ class GetNthRIRecipientIDListMergeTypeResponse
      */
     public function __construct($GetNthRIRecipientIDListMergeTypeResult = null)
     {
-      $this->GetNthRIRecipientIDListMergeTypeResult = $GetNthRIRecipientIDListMergeTypeResult;
+        $this->GetNthRIRecipientIDListMergeTypeResult = $GetNthRIRecipientIDListMergeTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthRIRecipientIDListMergeTypeResponse
      */
     public function getGetNthRIRecipientIDListMergeTypeResult()
     {
-      return $this->GetNthRIRecipientIDListMergeTypeResult;
+        return $this->GetNthRIRecipientIDListMergeTypeResult;
     }
 
     /**
      * @param ERecipientIDListMergeType $GetNthRIRecipientIDListMergeTypeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthRIRecipientIDListMergeTypeResponse
+     * @return GetNthRIRecipientIDListMergeTypeResponse
      */
     public function setGetNthRIRecipientIDListMergeTypeResult($GetNthRIRecipientIDListMergeTypeResult)
     {
-      $this->GetNthRIRecipientIDListMergeTypeResult = $GetNthRIRecipientIDListMergeTypeResult;
-      return $this;
+        $this->GetNthRIRecipientIDListMergeTypeResult = $GetNthRIRecipientIDListMergeTypeResult;
+        return $this;
     }
 
 }

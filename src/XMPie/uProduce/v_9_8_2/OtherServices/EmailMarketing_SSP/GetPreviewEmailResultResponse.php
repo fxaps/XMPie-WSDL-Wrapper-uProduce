@@ -15,7 +15,7 @@ class GetPreviewEmailResultResponse
      */
     public function __construct($GetPreviewEmailResultResult = null)
     {
-      $this->GetPreviewEmailResultResult = $GetPreviewEmailResultResult;
+        $this->GetPreviewEmailResultResult = $GetPreviewEmailResultResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPreviewEmailResultResponse
      */
     public function getGetPreviewEmailResultResult()
     {
-      return $this->GetPreviewEmailResultResult;
+        return $this->GetPreviewEmailResultResult;
     }
 
     /**
      * @param PreviewEmailResult $GetPreviewEmailResultResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetPreviewEmailResultResponse
+     * @return GetPreviewEmailResultResponse
      */
     public function setGetPreviewEmailResultResult($GetPreviewEmailResultResult)
     {
-      $this->GetPreviewEmailResultResult = $GetPreviewEmailResultResult;
-      return $this;
+        $this->GetPreviewEmailResultResult = $GetPreviewEmailResultResult;
+        return $this;
     }
 
 }

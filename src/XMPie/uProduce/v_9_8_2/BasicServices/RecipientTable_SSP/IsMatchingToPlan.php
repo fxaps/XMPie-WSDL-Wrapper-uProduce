@@ -45,12 +45,12 @@ class IsMatchingToPlan
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inDataSourceID = null, $inRecipientTableID = null, $inUseMapping = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPlanID = $inPlanID;
-      $this->inDataSourceID = $inDataSourceID;
-      $this->inRecipientTableID = $inRecipientTableID;
-      $this->inUseMapping = $inUseMapping;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPlanID = $inPlanID;
+        $this->inDataSourceID = $inDataSourceID;
+        $this->inRecipientTableID = $inRecipientTableID;
+        $this->inUseMapping = $inUseMapping;
     }
 
     /**
@@ -58,17 +58,17 @@ class IsMatchingToPlan
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMatchingToPlan
+     * @return IsMatchingToPlan
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class IsMatchingToPlan
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMatchingToPlan
+     * @return IsMatchingToPlan
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class IsMatchingToPlan
      */
     public function getInPlanID()
     {
-      return $this->inPlanID;
+        return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMatchingToPlan
+     * @return IsMatchingToPlan
      */
     public function setInPlanID($inPlanID)
     {
-      $this->inPlanID = $inPlanID;
-      return $this;
+        $this->inPlanID = $inPlanID;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class IsMatchingToPlan
      */
     public function getInDataSourceID()
     {
-      return $this->inDataSourceID;
+        return $this->inDataSourceID;
     }
 
     /**
      * @param string $inDataSourceID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMatchingToPlan
+     * @return IsMatchingToPlan
      */
     public function setInDataSourceID($inDataSourceID)
     {
-      $this->inDataSourceID = $inDataSourceID;
-      return $this;
+        $this->inDataSourceID = $inDataSourceID;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class IsMatchingToPlan
      */
     public function getInRecipientTableID()
     {
-      return $this->inRecipientTableID;
+        return $this->inRecipientTableID;
     }
 
     /**
      * @param string $inRecipientTableID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMatchingToPlan
+     * @return IsMatchingToPlan
      */
     public function setInRecipientTableID($inRecipientTableID)
     {
-      $this->inRecipientTableID = $inRecipientTableID;
-      return $this;
+        $this->inRecipientTableID = $inRecipientTableID;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class IsMatchingToPlan
      */
     public function getInUseMapping()
     {
-      return $this->inUseMapping;
+        return $this->inUseMapping;
     }
 
     /**
      * @param boolean $inUseMapping
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMatchingToPlan
+     * @return IsMatchingToPlan
      */
     public function setInUseMapping($inUseMapping)
     {
-      $this->inUseMapping = $inUseMapping;
-      return $this;
+        $this->inUseMapping = $inUseMapping;
+        return $this;
     }
 
 }

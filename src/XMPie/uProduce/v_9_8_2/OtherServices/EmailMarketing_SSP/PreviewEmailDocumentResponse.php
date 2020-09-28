@@ -15,7 +15,7 @@ class PreviewEmailDocumentResponse
      */
     public function __construct($PreviewEmailDocumentResult = null)
     {
-      $this->PreviewEmailDocumentResult = $PreviewEmailDocumentResult;
+        $this->PreviewEmailDocumentResult = $PreviewEmailDocumentResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class PreviewEmailDocumentResponse
      */
     public function getPreviewEmailDocumentResult()
     {
-      return $this->PreviewEmailDocumentResult;
+        return $this->PreviewEmailDocumentResult;
     }
 
     /**
      * @param PreviewEmailResult $PreviewEmailDocumentResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentResponse
+     * @return PreviewEmailDocumentResponse
      */
     public function setPreviewEmailDocumentResult($PreviewEmailDocumentResult)
     {
-      $this->PreviewEmailDocumentResult = $PreviewEmailDocumentResult;
-      return $this;
+        $this->PreviewEmailDocumentResult = $PreviewEmailDocumentResult;
+        return $this;
     }
 
 }

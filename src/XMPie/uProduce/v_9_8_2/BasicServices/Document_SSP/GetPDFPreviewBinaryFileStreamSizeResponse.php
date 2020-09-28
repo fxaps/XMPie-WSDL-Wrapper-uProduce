@@ -15,7 +15,7 @@ class GetPDFPreviewBinaryFileStreamSizeResponse
      */
     public function __construct($GetPDFPreviewBinaryFileStreamSizeResult = null)
     {
-      $this->GetPDFPreviewBinaryFileStreamSizeResult = $GetPDFPreviewBinaryFileStreamSizeResult;
+        $this->GetPDFPreviewBinaryFileStreamSizeResult = $GetPDFPreviewBinaryFileStreamSizeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPDFPreviewBinaryFileStreamSizeResponse
      */
     public function getGetPDFPreviewBinaryFileStreamSizeResult()
     {
-      return $this->GetPDFPreviewBinaryFileStreamSizeResult;
+        return $this->GetPDFPreviewBinaryFileStreamSizeResult;
     }
 
     /**
      * @param int $GetPDFPreviewBinaryFileStreamSizeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewBinaryFileStreamSizeResponse
+     * @return GetPDFPreviewBinaryFileStreamSizeResponse
      */
     public function setGetPDFPreviewBinaryFileStreamSizeResult($GetPDFPreviewBinaryFileStreamSizeResult)
     {
-      $this->GetPDFPreviewBinaryFileStreamSizeResult = $GetPDFPreviewBinaryFileStreamSizeResult;
-      return $this;
+        $this->GetPDFPreviewBinaryFileStreamSizeResult = $GetPDFPreviewBinaryFileStreamSizeResult;
+        return $this;
     }
 
 }

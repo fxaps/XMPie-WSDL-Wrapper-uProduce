@@ -15,7 +15,7 @@ class GetDownloadURLResponse
      */
     public function __construct($GetDownloadURLResult = null)
     {
-      $this->GetDownloadURLResult = $GetDownloadURLResult;
+        $this->GetDownloadURLResult = $GetDownloadURLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDownloadURLResponse
      */
     public function getGetDownloadURLResult()
     {
-      return $this->GetDownloadURLResult;
+        return $this->GetDownloadURLResult;
     }
 
     /**
      * @param string $GetDownloadURLResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetDownloadURLResponse
+     * @return GetDownloadURLResponse
      */
     public function setGetDownloadURLResult($GetDownloadURLResult)
     {
-      $this->GetDownloadURLResult = $GetDownloadURLResult;
-      return $this;
+        $this->GetDownloadURLResult = $GetDownloadURLResult;
+        return $this;
     }
 
 }

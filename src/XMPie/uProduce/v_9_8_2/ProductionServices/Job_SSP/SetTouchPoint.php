@@ -33,10 +33,10 @@ class SetTouchPoint
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobID = null, $inTouchPointID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inJobID = $inJobID;
-      $this->inTouchPointID = $inTouchPointID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inJobID = $inJobID;
+        $this->inTouchPointID = $inTouchPointID;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetTouchPoint
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\SetTouchPoint
+     * @return SetTouchPoint
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetTouchPoint
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\SetTouchPoint
+     * @return SetTouchPoint
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetTouchPoint
      */
     public function getInJobID()
     {
-      return $this->inJobID;
+        return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\SetTouchPoint
+     * @return SetTouchPoint
      */
     public function setInJobID($inJobID)
     {
-      $this->inJobID = $inJobID;
-      return $this;
+        $this->inJobID = $inJobID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetTouchPoint
      */
     public function getInTouchPointID()
     {
-      return $this->inTouchPointID;
+        return $this->inTouchPointID;
     }
 
     /**
      * @param string $inTouchPointID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\SetTouchPoint
+     * @return SetTouchPoint
      */
     public function setInTouchPointID($inTouchPointID)
     {
-      $this->inTouchPointID = $inTouchPointID;
-      return $this;
+        $this->inTouchPointID = $inTouchPointID;
+        return $this;
     }
 
 }

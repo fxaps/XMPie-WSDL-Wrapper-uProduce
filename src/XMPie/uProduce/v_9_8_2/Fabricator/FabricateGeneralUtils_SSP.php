@@ -94,10 +94,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CalluProduceAPIViaXml
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CalluProduceAPIViaXml
+     */
     public function CalluProduceAPIViaXml($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -112,10 +112,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CalluProduceAPIViaXmlResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CalluProduceAPIViaXmlResponse
+     */
     public function CalluProduceAPIViaXmlResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -130,10 +130,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CalluProduceAPIViaXmlFile
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CalluProduceAPIViaXmlFile
+     */
     public function CalluProduceAPIViaXmlFile($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -148,10 +148,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CalluProduceAPIViaXmlFileResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CalluProduceAPIViaXmlFileResponse
+     */
     public function CalluProduceAPIViaXmlFileResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -166,10 +166,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CalculateProductionImpositionNup
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CalculateProductionImpositionNup
+     */
     public function CalculateProductionImpositionNup($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -184,10 +184,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CalculateProductionImpositionNupResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CalculateProductionImpositionNupResponse
+     */
     public function CalculateProductionImpositionNupResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -202,10 +202,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return NupValues
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return NupValues
+     */
     public function NupValues($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -220,10 +220,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStream
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStream
+     */
     public function GetBinaryFileStream($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -238,10 +238,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStreamResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStreamResponse
+     */
     public function GetBinaryFileStreamResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -256,10 +256,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStreamChunk
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStreamChunk
+     */
     public function GetBinaryFileStreamChunk($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -274,10 +274,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStreamChunkResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStreamChunkResponse
+     */
     public function GetBinaryFileStreamChunkResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -292,10 +292,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStreamSize
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStreamSize
+     */
     public function GetBinaryFileStreamSize($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -310,10 +310,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStreamSizeResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStreamSizeResponse
+     */
     public function GetBinaryFileStreamSizeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -328,10 +328,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileThumbnailStream
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileThumbnailStream
+     */
     public function GetBinaryFileThumbnailStream($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -346,10 +346,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileThumbnailStreamResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileThumbnailStreamResponse
+     */
     public function GetBinaryFileThumbnailStreamResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -364,10 +364,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CreateThumbnailToTempStorage
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CreateThumbnailToTempStorage
+     */
     public function CreateThumbnailToTempStorage($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -382,10 +382,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CreateThumbnailToTempStorageResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CreateThumbnailToTempStorageResponse
+     */
     public function CreateThumbnailToTempStorageResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -400,10 +400,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ClearProductionElementsCache
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ClearProductionElementsCache
+     */
     public function ClearProductionElementsCache($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -418,10 +418,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ClearProductionElementsCacheResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ClearProductionElementsCacheResponse
+     */
     public function ClearProductionElementsCacheResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -436,10 +436,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ClearGlobalPrintCache
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ClearGlobalPrintCache
+     */
     public function ClearGlobalPrintCache($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -454,10 +454,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ClearGlobalPrintCacheResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ClearGlobalPrintCacheResponse
+     */
     public function ClearGlobalPrintCacheResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -472,10 +472,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetHeliconProxyUpdateScript
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetHeliconProxyUpdateScript
+     */
     public function GetHeliconProxyUpdateScript($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -490,10 +490,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetHeliconProxyUpdateScriptResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetHeliconProxyUpdateScriptResponse
+     */
     public function GetHeliconProxyUpdateScriptResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -508,10 +508,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetHeliconSupportedVersion
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetHeliconSupportedVersion
+     */
     public function GetHeliconSupportedVersion($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -526,10 +526,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetHeliconSupportedVersionResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetHeliconSupportedVersionResponse
+     */
     public function GetHeliconSupportedVersionResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -544,10 +544,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsFlashCompatibleReturnCompatibleVersion
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsFlashCompatibleReturnCompatibleVersion
+     */
     public function IsFlashCompatibleReturnCompatibleVersion($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -562,10 +562,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsFlashCompatibleReturnCompatibleVersionResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsFlashCompatibleReturnCompatibleVersionResponse
+     */
     public function IsFlashCompatibleReturnCompatibleVersionResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -580,10 +580,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsFlashCompatible
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsFlashCompatible
+     */
     public function IsFlashCompatible($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -598,10 +598,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsFlashCompatibleResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsFlashCompatibleResponse
+     */
     public function IsFlashCompatibleResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -616,10 +616,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ProcessImageInAIE
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ProcessImageInAIE
+     */
     public function ProcessImageInAIE($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -634,10 +634,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ProcessImageInAIEResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ProcessImageInAIEResponse
+     */
     public function ProcessImageInAIEResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -652,10 +652,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPathLocatorDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPathLocatorDataSet
+     */
     public function GetPathLocatorDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -670,10 +670,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPathLocatorDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPathLocatorDataSetResponse
+     */
     public function GetPathLocatorDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -688,10 +688,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPathLocatorDataSetResult
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPathLocatorDataSetResult
+     */
     public function GetPathLocatorDataSetResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -706,10 +706,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPathLocatorXMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPathLocatorXMPTblDataSet
+     */
     public function GetPathLocatorXMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -724,10 +724,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPathLocatorXMPTblDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPathLocatorXMPTblDataSetResponse
+     */
     public function GetPathLocatorXMPTblDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -742,10 +742,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblDataSet
+     */
     public function XMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -760,10 +760,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTbl
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTbl
+     */
     public function ArrayOfXMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -778,10 +778,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTbl
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTbl
+     */
     public function XMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -796,10 +796,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTblColumn
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTblColumn
+     */
     public function ArrayOfXMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -814,10 +814,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblColumn
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblColumn
+     */
     public function XMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -832,10 +832,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTblRow
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTblRow
+     */
     public function ArrayOfXMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -850,10 +850,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblRow
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblRow
+     */
     public function XMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -868,10 +868,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPRowField
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPRowField
+     */
     public function ArrayOfXMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -886,10 +886,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPRowField
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPRowField
+     */
     public function XMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -904,10 +904,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPathLocatorValue
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPathLocatorValue
+     */
     public function GetPathLocatorValue($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -922,10 +922,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPathLocatorValueResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPathLocatorValueResponse
+     */
     public function GetPathLocatorValueResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -940,10 +940,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetPathLocatorValue
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetPathLocatorValue
+     */
     public function SetPathLocatorValue($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -958,10 +958,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetPathLocatorValueResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetPathLocatorValueResponse
+     */
     public function SetPathLocatorValueResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -976,10 +976,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ValidateFriendlyURL
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ValidateFriendlyURL
+     */
     public function ValidateFriendlyURL($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -994,10 +994,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ValidateFriendlyURLResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ValidateFriendlyURLResponse
+     */
     public function ValidateFriendlyURLResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1012,10 +1012,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetVersionInfo
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetVersionInfo
+     */
     public function GetVersionInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1030,10 +1030,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetVersionInfoResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetVersionInfoResponse
+     */
     public function GetVersionInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1048,10 +1048,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return VersionInfo
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return VersionInfo
+     */
     public function VersionInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1066,10 +1066,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetVersionInfoEx
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetVersionInfoEx
+     */
     public function GetVersionInfoEx($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1084,10 +1084,10 @@ class FabricateGeneralUtils_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetVersionInfoExResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetVersionInfoExResponse
+     */
     public function GetVersionInfoExResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1100,7 +1100,6 @@ class FabricateGeneralUtils_SSP
         }
         return $GetVersionInfoExResponse;
     }
-
 
 
 }

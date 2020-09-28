@@ -39,11 +39,11 @@ class CreateNewTicketForDocument
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inRITableName = null, $inFlatOriented = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDocumentID = $inDocumentID;
-      $this->inRITableName = $inRITableName;
-      $this->inFlatOriented = $inFlatOriented;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDocumentID = $inDocumentID;
+        $this->inRITableName = $inRITableName;
+        $this->inFlatOriented = $inFlatOriented;
     }
 
     /**
@@ -51,17 +51,17 @@ class CreateNewTicketForDocument
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForDocument
+     * @return CreateNewTicketForDocument
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class CreateNewTicketForDocument
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForDocument
+     * @return CreateNewTicketForDocument
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class CreateNewTicketForDocument
      */
     public function getInDocumentID()
     {
-      return $this->inDocumentID;
+        return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForDocument
+     * @return CreateNewTicketForDocument
      */
     public function setInDocumentID($inDocumentID)
     {
-      $this->inDocumentID = $inDocumentID;
-      return $this;
+        $this->inDocumentID = $inDocumentID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class CreateNewTicketForDocument
      */
     public function getInRITableName()
     {
-      return $this->inRITableName;
+        return $this->inRITableName;
     }
 
     /**
      * @param string $inRITableName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForDocument
+     * @return CreateNewTicketForDocument
      */
     public function setInRITableName($inRITableName)
     {
-      $this->inRITableName = $inRITableName;
-      return $this;
+        $this->inRITableName = $inRITableName;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class CreateNewTicketForDocument
      */
     public function getInFlatOriented()
     {
-      return $this->inFlatOriented;
+        return $this->inFlatOriented;
     }
 
     /**
      * @param boolean $inFlatOriented
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForDocument
+     * @return CreateNewTicketForDocument
      */
     public function setInFlatOriented($inFlatOriented)
     {
-      $this->inFlatOriented = $inFlatOriented;
-      return $this;
+        $this->inFlatOriented = $inFlatOriented;
+        return $this;
     }
 
 }

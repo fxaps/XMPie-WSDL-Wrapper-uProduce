@@ -27,9 +27,9 @@ class GetUMailPCThick
      */
     public function __construct($inUsername = null, $inPassword = null, $inPCWT = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPCWT = $inPCWT;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPCWT = $inPCWT;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetUMailPCThick
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetUMailPCThick
+     * @return GetUMailPCThick
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetUMailPCThick
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetUMailPCThick
+     * @return GetUMailPCThick
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetUMailPCThick
      */
     public function getInPCWT()
     {
-      return $this->inPCWT;
+        return $this->inPCWT;
     }
 
     /**
      * @param string $inPCWT
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetUMailPCThick
+     * @return GetUMailPCThick
      */
     public function setInPCWT($inPCWT)
     {
-      $this->inPCWT = $inPCWT;
-      return $this;
+        $this->inPCWT = $inPCWT;
+        return $this;
     }
 
 }

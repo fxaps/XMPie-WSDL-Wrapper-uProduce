@@ -15,7 +15,7 @@ class DeleteRecipientResponse
      */
     public function __construct($DeleteRecipientResult = null)
     {
-      $this->DeleteRecipientResult = $DeleteRecipientResult;
+        $this->DeleteRecipientResult = $DeleteRecipientResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteRecipientResponse
      */
     public function getDeleteRecipientResult()
     {
-      return $this->DeleteRecipientResult;
+        return $this->DeleteRecipientResult;
     }
 
     /**
      * @param boolean $DeleteRecipientResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\DeleteRecipientResponse
+     * @return DeleteRecipientResponse
      */
     public function setDeleteRecipientResult($DeleteRecipientResult)
     {
-      $this->DeleteRecipientResult = $DeleteRecipientResult;
-      return $this;
+        $this->DeleteRecipientResult = $DeleteRecipientResult;
+        return $this;
     }
 
 }

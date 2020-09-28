@@ -15,7 +15,7 @@ class GetSecondaryPathResponse
      */
     public function __construct($GetSecondaryPathResult = null)
     {
-      $this->GetSecondaryPathResult = $GetSecondaryPathResult;
+        $this->GetSecondaryPathResult = $GetSecondaryPathResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSecondaryPathResponse
      */
     public function getGetSecondaryPathResult()
     {
-      return $this->GetSecondaryPathResult;
+        return $this->GetSecondaryPathResult;
     }
 
     /**
      * @param string $GetSecondaryPathResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSecondaryPathResponse
+     * @return GetSecondaryPathResponse
      */
     public function setGetSecondaryPathResult($GetSecondaryPathResult)
     {
-      $this->GetSecondaryPathResult = $GetSecondaryPathResult;
-      return $this;
+        $this->GetSecondaryPathResult = $GetSecondaryPathResult;
+        return $this;
     }
 
 }

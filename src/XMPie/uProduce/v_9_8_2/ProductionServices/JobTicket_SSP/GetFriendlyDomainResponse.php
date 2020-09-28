@@ -15,7 +15,7 @@ class GetFriendlyDomainResponse
      */
     public function __construct($GetFriendlyDomainResult = null)
     {
-      $this->GetFriendlyDomainResult = $GetFriendlyDomainResult;
+        $this->GetFriendlyDomainResult = $GetFriendlyDomainResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFriendlyDomainResponse
      */
     public function getGetFriendlyDomainResult()
     {
-      return $this->GetFriendlyDomainResult;
+        return $this->GetFriendlyDomainResult;
     }
 
     /**
      * @param string $GetFriendlyDomainResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFriendlyDomainResponse
+     * @return GetFriendlyDomainResponse
      */
     public function setGetFriendlyDomainResult($GetFriendlyDomainResult)
     {
-      $this->GetFriendlyDomainResult = $GetFriendlyDomainResult;
-      return $this;
+        $this->GetFriendlyDomainResult = $GetFriendlyDomainResult;
+        return $this;
     }
 
 }

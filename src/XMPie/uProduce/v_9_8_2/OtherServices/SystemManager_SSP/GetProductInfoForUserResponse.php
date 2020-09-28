@@ -15,7 +15,7 @@ class GetProductInfoForUserResponse
      */
     public function __construct($GetProductInfoForUserResult = null)
     {
-      $this->GetProductInfoForUserResult = $GetProductInfoForUserResult;
+        $this->GetProductInfoForUserResult = $GetProductInfoForUserResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetProductInfoForUserResponse
      */
     public function getGetProductInfoForUserResult()
     {
-      return $this->GetProductInfoForUserResult;
+        return $this->GetProductInfoForUserResult;
     }
 
     /**
      * @param ProductInfo $GetProductInfoForUserResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetProductInfoForUserResponse
+     * @return GetProductInfoForUserResponse
      */
     public function setGetProductInfoForUserResult($GetProductInfoForUserResult)
     {
-      $this->GetProductInfoForUserResult = $GetProductInfoForUserResult;
-      return $this;
+        $this->GetProductInfoForUserResult = $GetProductInfoForUserResult;
+        return $this;
     }
 
 }

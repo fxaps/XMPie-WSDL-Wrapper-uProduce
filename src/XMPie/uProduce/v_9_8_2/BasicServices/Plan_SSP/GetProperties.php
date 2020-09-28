@@ -33,10 +33,10 @@ class GetProperties
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inPropertiesNames = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPlanID = $inPlanID;
-      $this->inPropertiesNames = $inPropertiesNames;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPlanID = $inPlanID;
+        $this->inPropertiesNames = $inPropertiesNames;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetProperties
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetProperties
+     * @return GetProperties
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetProperties
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetProperties
+     * @return GetProperties
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetProperties
      */
     public function getInPlanID()
     {
-      return $this->inPlanID;
+        return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetProperties
+     * @return GetProperties
      */
     public function setInPlanID($inPlanID)
     {
-      $this->inPlanID = $inPlanID;
-      return $this;
+        $this->inPlanID = $inPlanID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetProperties
      */
     public function getInPropertiesNames()
     {
-      return $this->inPropertiesNames;
+        return $this->inPropertiesNames;
     }
 
     /**
      * @param ArrayOfString $inPropertiesNames
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetProperties
+     * @return GetProperties
      */
     public function setInPropertiesNames($inPropertiesNames)
     {
-      $this->inPropertiesNames = $inPropertiesNames;
-      return $this;
+        $this->inPropertiesNames = $inPropertiesNames;
+        return $this;
     }
 
 }

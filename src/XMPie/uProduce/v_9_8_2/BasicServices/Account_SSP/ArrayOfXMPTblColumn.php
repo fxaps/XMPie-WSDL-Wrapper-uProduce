@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP;
 
-class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfXMPTblColumn implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     protected $XMPTblColumn = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function getXMPTblColumn()
     {
-      return $this->XMPTblColumn;
+        return $this->XMPTblColumn;
     }
 
     /**
      * @param XMPTblColumn[] $XMPTblColumn
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\ArrayOfXMPTblColumn
+     * @return ArrayOfXMPTblColumn
      */
     public function setXMPTblColumn(array $XMPTblColumn = null)
     {
-      $this->XMPTblColumn = $XMPTblColumn;
-      return $this;
+        $this->XMPTblColumn = $XMPTblColumn;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->XMPTblColumn[$offset]);
+        return isset($this->XMPTblColumn[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->XMPTblColumn[$offset];
+        return $this->XMPTblColumn[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->XMPTblColumn[] = $value;
-      } else {
-        $this->XMPTblColumn[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->XMPTblColumn[] = $value;
+        } else {
+            $this->XMPTblColumn[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->XMPTblColumn[$offset]);
+        unset($this->XMPTblColumn[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->XMPTblColumn);
+        return current($this->XMPTblColumn);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->XMPTblColumn);
+        next($this->XMPTblColumn);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->XMPTblColumn);
+        return key($this->XMPTblColumn);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->XMPTblColumn);
+        reset($this->XMPTblColumn);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfXMPTblColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->XMPTblColumn);
+        return count($this->XMPTblColumn);
     }
 
 }

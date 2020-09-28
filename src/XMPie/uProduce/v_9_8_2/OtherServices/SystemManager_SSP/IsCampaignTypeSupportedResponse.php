@@ -15,7 +15,7 @@ class IsCampaignTypeSupportedResponse
      */
     public function __construct($IsCampaignTypeSupportedResult = null)
     {
-      $this->IsCampaignTypeSupportedResult = $IsCampaignTypeSupportedResult;
+        $this->IsCampaignTypeSupportedResult = $IsCampaignTypeSupportedResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsCampaignTypeSupportedResponse
      */
     public function getIsCampaignTypeSupportedResult()
     {
-      return $this->IsCampaignTypeSupportedResult;
+        return $this->IsCampaignTypeSupportedResult;
     }
 
     /**
      * @param boolean $IsCampaignTypeSupportedResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsCampaignTypeSupportedResponse
+     * @return IsCampaignTypeSupportedResponse
      */
     public function setIsCampaignTypeSupportedResult($IsCampaignTypeSupportedResult)
     {
-      $this->IsCampaignTypeSupportedResult = $IsCampaignTypeSupportedResult;
-      return $this;
+        $this->IsCampaignTypeSupportedResult = $IsCampaignTypeSupportedResult;
+        return $this;
     }
 
 }

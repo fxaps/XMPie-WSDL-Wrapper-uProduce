@@ -27,9 +27,9 @@ class SetCloudGatewayConfiguration
      */
     public function __construct($inUsername = null, $inPassword = null, $inConfiguration = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inConfiguration = $inConfiguration;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inConfiguration = $inConfiguration;
     }
 
     /**
@@ -37,17 +37,17 @@ class SetCloudGatewayConfiguration
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetCloudGatewayConfiguration
+     * @return SetCloudGatewayConfiguration
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class SetCloudGatewayConfiguration
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetCloudGatewayConfiguration
+     * @return SetCloudGatewayConfiguration
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class SetCloudGatewayConfiguration
      */
     public function getInConfiguration()
     {
-      return $this->inConfiguration;
+        return $this->inConfiguration;
     }
 
     /**
      * @param CloudGatewayConfiguration $inConfiguration
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetCloudGatewayConfiguration
+     * @return SetCloudGatewayConfiguration
      */
     public function setInConfiguration($inConfiguration)
     {
-      $this->inConfiguration = $inConfiguration;
-      return $this;
+        $this->inConfiguration = $inConfiguration;
+        return $this;
     }
 
 }

@@ -51,13 +51,13 @@ class CreateNew
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inExternalId = null, $inName = null, $inPopulationInfo = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inCampaignID = $inCampaignID;
-      $this->inExternalId = $inExternalId;
-      $this->inName = $inName;
-      $this->inPopulationInfo = $inPopulationInfo;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inCampaignID = $inCampaignID;
+        $this->inExternalId = $inExternalId;
+        $this->inName = $inName;
+        $this->inPopulationInfo = $inPopulationInfo;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class CreateNew
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class CreateNew
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class CreateNew
      */
     public function getInCampaignID()
     {
-      return $this->inCampaignID;
+        return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInCampaignID($inCampaignID)
     {
-      $this->inCampaignID = $inCampaignID;
-      return $this;
+        $this->inCampaignID = $inCampaignID;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class CreateNew
      */
     public function getInExternalId()
     {
-      return $this->inExternalId;
+        return $this->inExternalId;
     }
 
     /**
      * @param string $inExternalId
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInExternalId($inExternalId)
     {
-      $this->inExternalId = $inExternalId;
-      return $this;
+        $this->inExternalId = $inExternalId;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class CreateNew
      */
     public function getInName()
     {
-      return $this->inName;
+        return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInName($inName)
     {
-      $this->inName = $inName;
-      return $this;
+        $this->inName = $inName;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class CreateNew
      */
     public function getInPopulationInfo()
     {
-      return $this->inPopulationInfo;
+        return $this->inPopulationInfo;
     }
 
     /**
      * @param PopulationInfo $inPopulationInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInPopulationInfo($inPopulationInfo)
     {
-      $this->inPopulationInfo = $inPopulationInfo;
-      return $this;
+        $this->inPopulationInfo = $inPopulationInfo;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class CreateNew
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\CreateNew
+     * @return CreateNew
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

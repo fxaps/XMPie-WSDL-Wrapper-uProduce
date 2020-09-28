@@ -27,9 +27,9 @@ class GetDataSourceType
      */
     public function __construct($inUsername = null, $inPassword = null, $inDataSourceType = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDataSourceType = $inDataSourceType;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDataSourceType = $inDataSourceType;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetDataSourceType
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetDataSourceType
+     * @return GetDataSourceType
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetDataSourceType
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetDataSourceType
+     * @return GetDataSourceType
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetDataSourceType
      */
     public function getInDataSourceType()
     {
-      return $this->inDataSourceType;
+        return $this->inDataSourceType;
     }
 
     /**
      * @param string $inDataSourceType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetDataSourceType
+     * @return GetDataSourceType
      */
     public function setInDataSourceType($inDataSourceType)
     {
-      $this->inDataSourceType = $inDataSourceType;
-      return $this;
+        $this->inDataSourceType = $inDataSourceType;
+        return $this;
     }
 
 }

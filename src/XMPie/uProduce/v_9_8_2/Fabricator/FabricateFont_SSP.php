@@ -121,10 +121,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CreateNew
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CreateNew
+     */
     public function CreateNew($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -139,10 +139,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfProperty
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfProperty
+     */
     public function ArrayOfProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -157,10 +157,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return Property
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return Property
+     */
     public function Property($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -175,10 +175,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CreateNewResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CreateNewResponse
+     */
     public function CreateNewResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -193,10 +193,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CreateNewFromZip
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CreateNewFromZip
+     */
     public function CreateNewFromZip($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -211,10 +211,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CreateNewFromZipResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CreateNewFromZipResponse
+     */
     public function CreateNewFromZipResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -229,10 +229,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfString
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfString
+     */
     public function ArrayOfString($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -247,10 +247,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return Replace
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return Replace
+     */
     public function Replace($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -265,10 +265,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ReplaceResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ReplaceResponse
+     */
     public function ReplaceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -283,10 +283,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return Delete
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return Delete
+     */
     public function Delete($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -301,10 +301,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteResponse
+     */
     public function DeleteResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -319,10 +319,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetCampaign
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetCampaign
+     */
     public function GetCampaign($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -337,10 +337,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetCampaignResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetCampaignResponse
+     */
     public function GetCampaignResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -355,10 +355,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetProperty
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetProperty
+     */
     public function GetProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -373,10 +373,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPropertyResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPropertyResponse
+     */
     public function GetPropertyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -391,10 +391,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetModificationDate
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetModificationDate
+     */
     public function GetModificationDate($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -409,10 +409,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetModificationDateResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetModificationDateResponse
+     */
     public function GetModificationDateResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -427,10 +427,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetProperties
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetProperties
+     */
     public function GetProperties($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -445,10 +445,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPropertiesResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPropertiesResponse
+     */
     public function GetPropertiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -463,10 +463,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAllProperties
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAllProperties
+     */
     public function GetAllProperties($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -481,10 +481,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAllPropertiesResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAllPropertiesResponse
+     */
     public function GetAllPropertiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -499,10 +499,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetDataSet
+     */
     public function GetDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -517,10 +517,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetDataSetResponse
+     */
     public function GetDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -535,10 +535,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetDataSetResult
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetDataSetResult
+     */
     public function GetDataSetResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -553,10 +553,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetXMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetXMPTblDataSet
+     */
     public function GetXMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -571,10 +571,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetXMPTblDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetXMPTblDataSetResponse
+     */
     public function GetXMPTblDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -589,10 +589,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblDataSet
+     */
     public function XMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -607,10 +607,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTbl
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTbl
+     */
     public function ArrayOfXMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -625,10 +625,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTbl
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTbl
+     */
     public function XMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -643,10 +643,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTblColumn
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTblColumn
+     */
     public function ArrayOfXMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -661,10 +661,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblColumn
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblColumn
+     */
     public function XMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -679,10 +679,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTblRow
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTblRow
+     */
     public function ArrayOfXMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -697,10 +697,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblRow
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblRow
+     */
     public function XMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -715,10 +715,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPRowField
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPRowField
+     */
     public function ArrayOfXMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -733,10 +733,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPRowField
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPRowField
+     */
     public function XMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -751,10 +751,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetProperty
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetProperty
+     */
     public function SetProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -769,10 +769,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetPropertyResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetPropertyResponse
+     */
     public function SetPropertyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -787,10 +787,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetProperties
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetProperties
+     */
     public function SetProperties($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -805,10 +805,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetPropertiesResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetPropertiesResponse
+     */
     public function SetPropertiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -823,10 +823,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetName
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetName
+     */
     public function GetName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -841,10 +841,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetNameResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetNameResponse
+     */
     public function GetNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -859,10 +859,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPath
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPath
+     */
     public function GetPath($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -877,10 +877,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPathResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPathResponse
+     */
     public function GetPathResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -895,10 +895,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSecondaryPath
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSecondaryPath
+     */
     public function GetSecondaryPath($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -913,10 +913,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSecondaryPathResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSecondaryPathResponse
+     */
     public function GetSecondaryPathResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -931,10 +931,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStream
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStream
+     */
     public function GetBinaryFileStream($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -949,10 +949,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStreamResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStreamResponse
+     */
     public function GetBinaryFileStreamResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -967,10 +967,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinarySecondaryFileStream
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinarySecondaryFileStream
+     */
     public function GetBinarySecondaryFileStream($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -985,10 +985,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinarySecondaryFileStreamResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinarySecondaryFileStreamResponse
+     */
     public function GetBinarySecondaryFileStreamResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1003,10 +1003,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStreamChunk
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStreamChunk
+     */
     public function GetBinaryFileStreamChunk($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1021,10 +1021,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStreamChunkResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStreamChunkResponse
+     */
     public function GetBinaryFileStreamChunkResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1039,10 +1039,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinarySecondaryFileStreamChunk
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinarySecondaryFileStreamChunk
+     */
     public function GetBinarySecondaryFileStreamChunk($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1057,10 +1057,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinarySecondaryFileStreamChunkResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinarySecondaryFileStreamChunkResponse
+     */
     public function GetBinarySecondaryFileStreamChunkResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1075,10 +1075,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStreamSize
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStreamSize
+     */
     public function GetBinaryFileStreamSize($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1093,10 +1093,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinaryFileStreamSizeResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinaryFileStreamSizeResponse
+     */
     public function GetBinaryFileStreamSizeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1111,10 +1111,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinarySecondaryFileStreamSize
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinarySecondaryFileStreamSize
+     */
     public function GetBinarySecondaryFileStreamSize($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1129,10 +1129,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetBinarySecondaryFileStreamSizeResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetBinarySecondaryFileStreamSizeResponse
+     */
     public function GetBinarySecondaryFileStreamSizeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1147,10 +1147,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFontFileInfo
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFontFileInfo
+     */
     public function GetFontFileInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1165,10 +1165,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFontFileInfoResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFontFileInfoResponse
+     */
     public function GetFontFileInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1183,10 +1183,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return FontInfo
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return FontInfo
+     */
     public function FontInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1201,10 +1201,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFontFileSizeInfo
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFontFileSizeInfo
+     */
     public function GetFontFileSizeInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1219,10 +1219,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFontFileSizeInfoResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFontFileSizeInfoResponse
+     */
     public function GetFontFileSizeInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1237,10 +1237,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return FontSizeInfo
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return FontSizeInfo
+     */
     public function FontSizeInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1255,10 +1255,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetUEditCompatibleFileStream
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetUEditCompatibleFileStream
+     */
     public function GetUEditCompatibleFileStream($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1273,10 +1273,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetUEditCompatibleFileStreamResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetUEditCompatibleFileStreamResponse
+     */
     public function GetUEditCompatibleFileStreamResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1291,10 +1291,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFontFileStream
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFontFileStream
+     */
     public function GetSWFFontFileStream($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1309,10 +1309,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFontFileStreamResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFontFileStreamResponse
+     */
     public function GetSWFFontFileStreamResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1327,10 +1327,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFileStream
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFileStream
+     */
     public function GetSWFFileStream($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1345,10 +1345,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFileStreamResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFileStreamResponse
+     */
     public function GetSWFFileStreamResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1363,10 +1363,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFontFamilyAndStyle
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFontFamilyAndStyle
+     */
     public function GetFontFamilyAndStyle($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1381,10 +1381,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFontFamilyAndStyleResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFontFamilyAndStyleResponse
+     */
     public function GetFontFamilyAndStyleResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1399,10 +1399,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetDownloadURL
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetDownloadURL
+     */
     public function GetDownloadURL($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1417,10 +1417,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetDownloadURLResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetDownloadURLResponse
+     */
     public function GetDownloadURLResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1435,10 +1435,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetID
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetID
+     */
     public function GetID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1453,10 +1453,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetIDResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetIDResponse
+     */
     public function GetIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1471,10 +1471,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFullNameFontStream
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFullNameFontStream
+     */
     public function GetSWFFullNameFontStream($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1489,10 +1489,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFullNameFontStreamResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFullNameFontStreamResponse
+     */
     public function GetSWFFullNameFontStreamResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1507,10 +1507,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFullNameFontFamilyAndFace
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFullNameFontFamilyAndFace
+     */
     public function GetSWFFullNameFontFamilyAndFace($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1525,10 +1525,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFullNameFontFamilyAndFaceResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFullNameFontFamilyAndFaceResponse
+     */
     public function GetSWFFullNameFontFamilyAndFaceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1543,10 +1543,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFullNameFontStreamWithFamilyAndFace
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFullNameFontStreamWithFamilyAndFace
+     */
     public function GetSWFFullNameFontStreamWithFamilyAndFace($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1561,10 +1561,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFullNameFontStreamWithFamilyAndFaceResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFullNameFontStreamWithFamilyAndFaceResponse
+     */
     public function GetSWFFullNameFontStreamWithFamilyAndFaceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1579,10 +1579,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFontVersion
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFontVersion
+     */
     public function GetSWFFontVersion($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1597,10 +1597,10 @@ class FabricateFont_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSWFFontVersionResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSWFFontVersionResponse
+     */
     public function GetSWFFontVersionResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1613,7 +1613,6 @@ class FabricateFont_SSP
         }
         return $GetSWFFontVersionResponse;
     }
-
 
 
 }

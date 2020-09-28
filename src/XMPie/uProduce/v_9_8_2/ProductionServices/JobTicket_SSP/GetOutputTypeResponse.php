@@ -15,7 +15,7 @@ class GetOutputTypeResponse
      */
     public function __construct($GetOutputTypeResult = null)
     {
-      $this->GetOutputTypeResult = $GetOutputTypeResult;
+        $this->GetOutputTypeResult = $GetOutputTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetOutputTypeResponse
      */
     public function getGetOutputTypeResult()
     {
-      return $this->GetOutputTypeResult;
+        return $this->GetOutputTypeResult;
     }
 
     /**
      * @param string $GetOutputTypeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetOutputTypeResponse
+     * @return GetOutputTypeResponse
      */
     public function setGetOutputTypeResult($GetOutputTypeResult)
     {
-      $this->GetOutputTypeResult = $GetOutputTypeResult;
-      return $this;
+        $this->GetOutputTypeResult = $GetOutputTypeResult;
+        return $this;
     }
 
 }

@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP;
 
-class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfCloudSubscription implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     protected $CloudSubscription = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function getCloudSubscription()
     {
-      return $this->CloudSubscription;
+        return $this->CloudSubscription;
     }
 
     /**
      * @param CloudSubscription[] $CloudSubscription
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\ArrayOfCloudSubscription
+     * @return ArrayOfCloudSubscription
      */
     public function setCloudSubscription(array $CloudSubscription = null)
     {
-      $this->CloudSubscription = $CloudSubscription;
-      return $this;
+        $this->CloudSubscription = $CloudSubscription;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->CloudSubscription[$offset]);
+        return isset($this->CloudSubscription[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->CloudSubscription[$offset];
+        return $this->CloudSubscription[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->CloudSubscription[] = $value;
-      } else {
-        $this->CloudSubscription[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->CloudSubscription[] = $value;
+        } else {
+            $this->CloudSubscription[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->CloudSubscription[$offset]);
+        unset($this->CloudSubscription[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->CloudSubscription);
+        return current($this->CloudSubscription);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->CloudSubscription);
+        next($this->CloudSubscription);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->CloudSubscription);
+        return key($this->CloudSubscription);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->CloudSubscription);
+        reset($this->CloudSubscription);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfCloudSubscription implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->CloudSubscription);
+        return count($this->CloudSubscription);
     }
 
 }

@@ -15,7 +15,7 @@ class GetFFPMExecutablePathResponse
      */
     public function __construct($GetFFPMExecutablePathResult = null)
     {
-      $this->GetFFPMExecutablePathResult = $GetFFPMExecutablePathResult;
+        $this->GetFFPMExecutablePathResult = $GetFFPMExecutablePathResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFFPMExecutablePathResponse
      */
     public function getGetFFPMExecutablePathResult()
     {
-      return $this->GetFFPMExecutablePathResult;
+        return $this->GetFFPMExecutablePathResult;
     }
 
     /**
      * @param string $GetFFPMExecutablePathResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFFPMExecutablePathResponse
+     * @return GetFFPMExecutablePathResponse
      */
     public function setGetFFPMExecutablePathResult($GetFFPMExecutablePathResult)
     {
-      $this->GetFFPMExecutablePathResult = $GetFFPMExecutablePathResult;
-      return $this;
+        $this->GetFFPMExecutablePathResult = $GetFFPMExecutablePathResult;
+        return $this;
     }
 
 }

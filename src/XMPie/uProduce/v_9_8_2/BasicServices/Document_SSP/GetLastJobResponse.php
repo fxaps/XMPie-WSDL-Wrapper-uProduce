@@ -15,7 +15,7 @@ class GetLastJobResponse
      */
     public function __construct($GetLastJobResult = null)
     {
-      $this->GetLastJobResult = $GetLastJobResult;
+        $this->GetLastJobResult = $GetLastJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetLastJobResponse
      */
     public function getGetLastJobResult()
     {
-      return $this->GetLastJobResult;
+        return $this->GetLastJobResult;
     }
 
     /**
      * @param string $GetLastJobResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetLastJobResponse
+     * @return GetLastJobResponse
      */
     public function setGetLastJobResult($GetLastJobResult)
     {
-      $this->GetLastJobResult = $GetLastJobResult;
-      return $this;
+        $this->GetLastJobResult = $GetLastJobResult;
+        return $this;
     }
 
 }

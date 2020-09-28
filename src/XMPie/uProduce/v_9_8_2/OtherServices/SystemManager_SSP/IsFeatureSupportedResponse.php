@@ -15,7 +15,7 @@ class IsFeatureSupportedResponse
      */
     public function __construct($IsFeatureSupportedResult = null)
     {
-      $this->IsFeatureSupportedResult = $IsFeatureSupportedResult;
+        $this->IsFeatureSupportedResult = $IsFeatureSupportedResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsFeatureSupportedResponse
      */
     public function getIsFeatureSupportedResult()
     {
-      return $this->IsFeatureSupportedResult;
+        return $this->IsFeatureSupportedResult;
     }
 
     /**
      * @param boolean $IsFeatureSupportedResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsFeatureSupportedResponse
+     * @return IsFeatureSupportedResponse
      */
     public function setIsFeatureSupportedResult($IsFeatureSupportedResult)
     {
-      $this->IsFeatureSupportedResult = $IsFeatureSupportedResult;
-      return $this;
+        $this->IsFeatureSupportedResult = $IsFeatureSupportedResult;
+        return $this;
     }
 
 }

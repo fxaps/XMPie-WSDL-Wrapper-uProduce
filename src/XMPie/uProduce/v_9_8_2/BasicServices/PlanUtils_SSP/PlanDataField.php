@@ -36,8 +36,8 @@ class PlanDataField
      */
     public function __construct($m_IsPrimary = null, $m_IsInternal = null)
     {
-      $this->m_IsPrimary = $m_IsPrimary;
-      $this->m_IsInternal = $m_IsInternal;
+        $this->m_IsPrimary = $m_IsPrimary;
+        $this->m_IsInternal = $m_IsInternal;
     }
 
     /**
@@ -45,17 +45,17 @@ class PlanDataField
      */
     public function getM_Name()
     {
-      return $this->m_Name;
+        return $this->m_Name;
     }
 
     /**
      * @param string $m_Name
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanDataField
+     * @return PlanDataField
      */
     public function setM_Name($m_Name)
     {
-      $this->m_Name = $m_Name;
-      return $this;
+        $this->m_Name = $m_Name;
+        return $this;
     }
 
     /**
@@ -63,17 +63,17 @@ class PlanDataField
      */
     public function getM_Type()
     {
-      return $this->m_Type;
+        return $this->m_Type;
     }
 
     /**
      * @param string $m_Type
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanDataField
+     * @return PlanDataField
      */
     public function setM_Type($m_Type)
     {
-      $this->m_Type = $m_Type;
-      return $this;
+        $this->m_Type = $m_Type;
+        return $this;
     }
 
     /**
@@ -81,17 +81,17 @@ class PlanDataField
      */
     public function getM_Comment()
     {
-      return $this->m_Comment;
+        return $this->m_Comment;
     }
 
     /**
      * @param string $m_Comment
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanDataField
+     * @return PlanDataField
      */
     public function setM_Comment($m_Comment)
     {
-      $this->m_Comment = $m_Comment;
-      return $this;
+        $this->m_Comment = $m_Comment;
+        return $this;
     }
 
     /**
@@ -99,17 +99,17 @@ class PlanDataField
      */
     public function getM_IsPrimary()
     {
-      return $this->m_IsPrimary;
+        return $this->m_IsPrimary;
     }
 
     /**
      * @param boolean $m_IsPrimary
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanDataField
+     * @return PlanDataField
      */
     public function setM_IsPrimary($m_IsPrimary)
     {
-      $this->m_IsPrimary = $m_IsPrimary;
-      return $this;
+        $this->m_IsPrimary = $m_IsPrimary;
+        return $this;
     }
 
     /**
@@ -117,17 +117,17 @@ class PlanDataField
      */
     public function getM_IsInternal()
     {
-      return $this->m_IsInternal;
+        return $this->m_IsInternal;
     }
 
     /**
      * @param boolean $m_IsInternal
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanDataField
+     * @return PlanDataField
      */
     public function setM_IsInternal($m_IsInternal)
     {
-      $this->m_IsInternal = $m_IsInternal;
-      return $this;
+        $this->m_IsInternal = $m_IsInternal;
+        return $this;
     }
 
 }

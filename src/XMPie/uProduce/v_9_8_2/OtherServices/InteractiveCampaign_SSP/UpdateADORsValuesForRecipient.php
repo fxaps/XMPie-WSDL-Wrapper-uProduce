@@ -63,15 +63,15 @@ class UpdateADORsValuesForRecipient
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountName = null, $inCampaignName = null, $inICPName = null, $inADORNames = null, $inADORValues = null, $inRecipientID = null, $inEventContext = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountName = $inAccountName;
-      $this->inCampaignName = $inCampaignName;
-      $this->inICPName = $inICPName;
-      $this->inADORNames = $inADORNames;
-      $this->inADORValues = $inADORValues;
-      $this->inRecipientID = $inRecipientID;
-      $this->inEventContext = $inEventContext;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountName = $inAccountName;
+        $this->inCampaignName = $inCampaignName;
+        $this->inICPName = $inICPName;
+        $this->inADORNames = $inADORNames;
+        $this->inADORValues = $inADORValues;
+        $this->inRecipientID = $inRecipientID;
+        $this->inEventContext = $inEventContext;
     }
 
     /**
@@ -79,17 +79,17 @@ class UpdateADORsValuesForRecipient
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\UpdateADORsValuesForRecipient
+     * @return UpdateADORsValuesForRecipient
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -97,17 +97,17 @@ class UpdateADORsValuesForRecipient
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\UpdateADORsValuesForRecipient
+     * @return UpdateADORsValuesForRecipient
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -115,17 +115,17 @@ class UpdateADORsValuesForRecipient
      */
     public function getInAccountName()
     {
-      return $this->inAccountName;
+        return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\UpdateADORsValuesForRecipient
+     * @return UpdateADORsValuesForRecipient
      */
     public function setInAccountName($inAccountName)
     {
-      $this->inAccountName = $inAccountName;
-      return $this;
+        $this->inAccountName = $inAccountName;
+        return $this;
     }
 
     /**
@@ -133,17 +133,17 @@ class UpdateADORsValuesForRecipient
      */
     public function getInCampaignName()
     {
-      return $this->inCampaignName;
+        return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\UpdateADORsValuesForRecipient
+     * @return UpdateADORsValuesForRecipient
      */
     public function setInCampaignName($inCampaignName)
     {
-      $this->inCampaignName = $inCampaignName;
-      return $this;
+        $this->inCampaignName = $inCampaignName;
+        return $this;
     }
 
     /**
@@ -151,17 +151,17 @@ class UpdateADORsValuesForRecipient
      */
     public function getInICPName()
     {
-      return $this->inICPName;
+        return $this->inICPName;
     }
 
     /**
      * @param string $inICPName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\UpdateADORsValuesForRecipient
+     * @return UpdateADORsValuesForRecipient
      */
     public function setInICPName($inICPName)
     {
-      $this->inICPName = $inICPName;
-      return $this;
+        $this->inICPName = $inICPName;
+        return $this;
     }
 
     /**
@@ -169,17 +169,17 @@ class UpdateADORsValuesForRecipient
      */
     public function getInADORNames()
     {
-      return $this->inADORNames;
+        return $this->inADORNames;
     }
 
     /**
      * @param ArrayOfString $inADORNames
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\UpdateADORsValuesForRecipient
+     * @return UpdateADORsValuesForRecipient
      */
     public function setInADORNames($inADORNames)
     {
-      $this->inADORNames = $inADORNames;
-      return $this;
+        $this->inADORNames = $inADORNames;
+        return $this;
     }
 
     /**
@@ -187,17 +187,17 @@ class UpdateADORsValuesForRecipient
      */
     public function getInADORValues()
     {
-      return $this->inADORValues;
+        return $this->inADORValues;
     }
 
     /**
      * @param ArrayOfString $inADORValues
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\UpdateADORsValuesForRecipient
+     * @return UpdateADORsValuesForRecipient
      */
     public function setInADORValues($inADORValues)
     {
-      $this->inADORValues = $inADORValues;
-      return $this;
+        $this->inADORValues = $inADORValues;
+        return $this;
     }
 
     /**
@@ -205,17 +205,17 @@ class UpdateADORsValuesForRecipient
      */
     public function getInRecipientID()
     {
-      return $this->inRecipientID;
+        return $this->inRecipientID;
     }
 
     /**
      * @param string $inRecipientID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\UpdateADORsValuesForRecipient
+     * @return UpdateADORsValuesForRecipient
      */
     public function setInRecipientID($inRecipientID)
     {
-      $this->inRecipientID = $inRecipientID;
-      return $this;
+        $this->inRecipientID = $inRecipientID;
+        return $this;
     }
 
     /**
@@ -223,17 +223,17 @@ class UpdateADORsValuesForRecipient
      */
     public function getInEventContext()
     {
-      return $this->inEventContext;
+        return $this->inEventContext;
     }
 
     /**
      * @param string $inEventContext
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\UpdateADORsValuesForRecipient
+     * @return UpdateADORsValuesForRecipient
      */
     public function setInEventContext($inEventContext)
     {
-      $this->inEventContext = $inEventContext;
-      return $this;
+        $this->inEventContext = $inEventContext;
+        return $this;
     }
 
 }

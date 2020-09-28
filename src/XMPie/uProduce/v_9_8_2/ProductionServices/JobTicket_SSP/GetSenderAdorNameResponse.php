@@ -15,7 +15,7 @@ class GetSenderAdorNameResponse
      */
     public function __construct($GetSenderAdorNameResult = null)
     {
-      $this->GetSenderAdorNameResult = $GetSenderAdorNameResult;
+        $this->GetSenderAdorNameResult = $GetSenderAdorNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSenderAdorNameResponse
      */
     public function getGetSenderAdorNameResult()
     {
-      return $this->GetSenderAdorNameResult;
+        return $this->GetSenderAdorNameResult;
     }
 
     /**
      * @param string $GetSenderAdorNameResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetSenderAdorNameResponse
+     * @return GetSenderAdorNameResponse
      */
     public function setGetSenderAdorNameResult($GetSenderAdorNameResult)
     {
-      $this->GetSenderAdorNameResult = $GetSenderAdorNameResult;
-      return $this;
+        $this->GetSenderAdorNameResult = $GetSenderAdorNameResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class ValidateFeatureClientResponse
      */
     public function __construct($ValidateFeatureClientResult = null)
     {
-      $this->ValidateFeatureClientResult = $ValidateFeatureClientResult;
+        $this->ValidateFeatureClientResult = $ValidateFeatureClientResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ValidateFeatureClientResponse
      */
     public function getValidateFeatureClientResult()
     {
-      return $this->ValidateFeatureClientResult;
+        return $this->ValidateFeatureClientResult;
     }
 
     /**
      * @param boolean $ValidateFeatureClientResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateFeatureClientResponse
+     * @return ValidateFeatureClientResponse
      */
     public function setValidateFeatureClientResult($ValidateFeatureClientResult)
     {
-      $this->ValidateFeatureClientResult = $ValidateFeatureClientResult;
-      return $this;
+        $this->ValidateFeatureClientResult = $ValidateFeatureClientResult;
+        return $this;
     }
 
 }

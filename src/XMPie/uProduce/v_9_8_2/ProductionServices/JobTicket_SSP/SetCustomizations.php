@@ -39,11 +39,11 @@ class SetCustomizations
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inCustomizations = null, $expressionAsValue = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inCustomizations = $inCustomizations;
-      $this->expressionAsValue = $expressionAsValue;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inCustomizations = $inCustomizations;
+        $this->expressionAsValue = $expressionAsValue;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetCustomizations
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetCustomizations
+     * @return SetCustomizations
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetCustomizations
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetCustomizations
+     * @return SetCustomizations
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetCustomizations
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetCustomizations
+     * @return SetCustomizations
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetCustomizations
      */
     public function getInCustomizations()
     {
-      return $this->inCustomizations;
+        return $this->inCustomizations;
     }
 
     /**
      * @param ArrayOfCustomization $inCustomizations
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetCustomizations
+     * @return SetCustomizations
      */
     public function setInCustomizations($inCustomizations)
     {
-      $this->inCustomizations = $inCustomizations;
-      return $this;
+        $this->inCustomizations = $inCustomizations;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetCustomizations
      */
     public function getExpressionAsValue()
     {
-      return $this->expressionAsValue;
+        return $this->expressionAsValue;
     }
 
     /**
      * @param boolean $expressionAsValue
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetCustomizations
+     * @return SetCustomizations
      */
     public function setExpressionAsValue($expressionAsValue)
     {
-      $this->expressionAsValue = $expressionAsValue;
-      return $this;
+        $this->expressionAsValue = $expressionAsValue;
+        return $this;
     }
 
 }

@@ -21,8 +21,8 @@ class GetBinaryFileStreamChunkResponse
      */
     public function __construct($GetBinaryFileStreamChunkResult = null, $inoutCount = null)
     {
-      $this->GetBinaryFileStreamChunkResult = $GetBinaryFileStreamChunkResult;
-      $this->inoutCount = $inoutCount;
+        $this->GetBinaryFileStreamChunkResult = $GetBinaryFileStreamChunkResult;
+        $this->inoutCount = $inoutCount;
     }
 
     /**
@@ -30,17 +30,17 @@ class GetBinaryFileStreamChunkResponse
      */
     public function getGetBinaryFileStreamChunkResult()
     {
-      return $this->GetBinaryFileStreamChunkResult;
+        return $this->GetBinaryFileStreamChunkResult;
     }
 
     /**
      * @param base64Binary $GetBinaryFileStreamChunkResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileStreamChunkResponse
+     * @return GetBinaryFileStreamChunkResponse
      */
     public function setGetBinaryFileStreamChunkResult($GetBinaryFileStreamChunkResult)
     {
-      $this->GetBinaryFileStreamChunkResult = $GetBinaryFileStreamChunkResult;
-      return $this;
+        $this->GetBinaryFileStreamChunkResult = $GetBinaryFileStreamChunkResult;
+        return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class GetBinaryFileStreamChunkResponse
      */
     public function getInoutCount()
     {
-      return $this->inoutCount;
+        return $this->inoutCount;
     }
 
     /**
      * @param int $inoutCount
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileStreamChunkResponse
+     * @return GetBinaryFileStreamChunkResponse
      */
     public function setInoutCount($inoutCount)
     {
-      $this->inoutCount = $inoutCount;
-      return $this;
+        $this->inoutCount = $inoutCount;
+        return $this;
     }
 
 }

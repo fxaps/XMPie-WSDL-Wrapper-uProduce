@@ -27,9 +27,9 @@ class GetDeliveryProviderType
      */
     public function __construct($inUsername = null, $inPassword = null, $inDeliveryProviderType = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDeliveryProviderType = $inDeliveryProviderType;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDeliveryProviderType = $inDeliveryProviderType;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetDeliveryProviderType
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetDeliveryProviderType
+     * @return GetDeliveryProviderType
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetDeliveryProviderType
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetDeliveryProviderType
+     * @return GetDeliveryProviderType
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetDeliveryProviderType
      */
     public function getInDeliveryProviderType()
     {
-      return $this->inDeliveryProviderType;
+        return $this->inDeliveryProviderType;
     }
 
     /**
      * @param string $inDeliveryProviderType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetDeliveryProviderType
+     * @return GetDeliveryProviderType
      */
     public function setInDeliveryProviderType($inDeliveryProviderType)
     {
-      $this->inDeliveryProviderType = $inDeliveryProviderType;
-      return $this;
+        $this->inDeliveryProviderType = $inDeliveryProviderType;
+        return $this;
     }
 
 }

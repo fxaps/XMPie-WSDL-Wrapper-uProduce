@@ -15,7 +15,7 @@ class SetUseTrivialPlanResponse
      */
     public function __construct($SetUseTrivialPlanResult = null)
     {
-      $this->SetUseTrivialPlanResult = $SetUseTrivialPlanResult;
+        $this->SetUseTrivialPlanResult = $SetUseTrivialPlanResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetUseTrivialPlanResponse
      */
     public function getSetUseTrivialPlanResult()
     {
-      return $this->SetUseTrivialPlanResult;
+        return $this->SetUseTrivialPlanResult;
     }
 
     /**
      * @param boolean $SetUseTrivialPlanResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetUseTrivialPlanResponse
+     * @return SetUseTrivialPlanResponse
      */
     public function setSetUseTrivialPlanResult($SetUseTrivialPlanResult)
     {
-      $this->SetUseTrivialPlanResult = $SetUseTrivialPlanResult;
-      return $this;
+        $this->SetUseTrivialPlanResult = $SetUseTrivialPlanResult;
+        return $this;
     }
 
 }

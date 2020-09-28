@@ -15,7 +15,7 @@ class IsEmptyExpressionResponse
      */
     public function __construct($IsEmptyExpressionResult = null)
     {
-      $this->IsEmptyExpressionResult = $IsEmptyExpressionResult;
+        $this->IsEmptyExpressionResult = $IsEmptyExpressionResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsEmptyExpressionResponse
      */
     public function getIsEmptyExpressionResult()
     {
-      return $this->IsEmptyExpressionResult;
+        return $this->IsEmptyExpressionResult;
     }
 
     /**
      * @param boolean $IsEmptyExpressionResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\IsEmptyExpressionResponse
+     * @return IsEmptyExpressionResponse
      */
     public function setIsEmptyExpressionResult($IsEmptyExpressionResult)
     {
-      $this->IsEmptyExpressionResult = $IsEmptyExpressionResult;
-      return $this;
+        $this->IsEmptyExpressionResult = $IsEmptyExpressionResult;
+        return $this;
     }
 
 }

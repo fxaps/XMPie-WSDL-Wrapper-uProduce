@@ -33,10 +33,10 @@ class GetCompatibleTablesForHosting
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inDataSourceID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPlanID = $inPlanID;
-      $this->inDataSourceID = $inDataSourceID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPlanID = $inPlanID;
+        $this->inDataSourceID = $inDataSourceID;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetCompatibleTablesForHosting
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesForHosting
+     * @return GetCompatibleTablesForHosting
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetCompatibleTablesForHosting
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesForHosting
+     * @return GetCompatibleTablesForHosting
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetCompatibleTablesForHosting
      */
     public function getInPlanID()
     {
-      return $this->inPlanID;
+        return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesForHosting
+     * @return GetCompatibleTablesForHosting
      */
     public function setInPlanID($inPlanID)
     {
-      $this->inPlanID = $inPlanID;
-      return $this;
+        $this->inPlanID = $inPlanID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetCompatibleTablesForHosting
      */
     public function getInDataSourceID()
     {
-      return $this->inDataSourceID;
+        return $this->inDataSourceID;
     }
 
     /**
      * @param string $inDataSourceID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesForHosting
+     * @return GetCompatibleTablesForHosting
      */
     public function setInDataSourceID($inDataSourceID)
     {
-      $this->inDataSourceID = $inDataSourceID;
-      return $this;
+        $this->inDataSourceID = $inDataSourceID;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class DeleteAssetSourcesResponse
      */
     public function __construct($DeleteAssetSourcesResult = null)
     {
-      $this->DeleteAssetSourcesResult = $DeleteAssetSourcesResult;
+        $this->DeleteAssetSourcesResult = $DeleteAssetSourcesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAssetSourcesResponse
      */
     public function getDeleteAssetSourcesResult()
     {
-      return $this->DeleteAssetSourcesResult;
+        return $this->DeleteAssetSourcesResult;
     }
 
     /**
      * @param boolean $DeleteAssetSourcesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAssetSourcesResponse
+     * @return DeleteAssetSourcesResponse
      */
     public function setDeleteAssetSourcesResult($DeleteAssetSourcesResult)
     {
-      $this->DeleteAssetSourcesResult = $DeleteAssetSourcesResult;
-      return $this;
+        $this->DeleteAssetSourcesResult = $DeleteAssetSourcesResult;
+        return $this;
     }
 
 }

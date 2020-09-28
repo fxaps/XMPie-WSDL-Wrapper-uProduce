@@ -51,13 +51,13 @@ class GetADORValuesForRangeDataSet
      */
     public function __construct($inUsername = null, $inPassword = null, $inPopulationOrContextId = null, $inADORNames = null, $inFrom = null, $inTo = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPopulationOrContextId = $inPopulationOrContextId;
-      $this->inADORNames = $inADORNames;
-      $this->inFrom = $inFrom;
-      $this->inTo = $inTo;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPopulationOrContextId = $inPopulationOrContextId;
+        $this->inADORNames = $inADORNames;
+        $this->inFrom = $inFrom;
+        $this->inTo = $inTo;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class GetADORValuesForRangeDataSet
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValuesForRangeDataSet
+     * @return GetADORValuesForRangeDataSet
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class GetADORValuesForRangeDataSet
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValuesForRangeDataSet
+     * @return GetADORValuesForRangeDataSet
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class GetADORValuesForRangeDataSet
      */
     public function getInPopulationOrContextId()
     {
-      return $this->inPopulationOrContextId;
+        return $this->inPopulationOrContextId;
     }
 
     /**
      * @param string $inPopulationOrContextId
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValuesForRangeDataSet
+     * @return GetADORValuesForRangeDataSet
      */
     public function setInPopulationOrContextId($inPopulationOrContextId)
     {
-      $this->inPopulationOrContextId = $inPopulationOrContextId;
-      return $this;
+        $this->inPopulationOrContextId = $inPopulationOrContextId;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class GetADORValuesForRangeDataSet
      */
     public function getInADORNames()
     {
-      return $this->inADORNames;
+        return $this->inADORNames;
     }
 
     /**
      * @param ArrayOfString $inADORNames
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValuesForRangeDataSet
+     * @return GetADORValuesForRangeDataSet
      */
     public function setInADORNames($inADORNames)
     {
-      $this->inADORNames = $inADORNames;
-      return $this;
+        $this->inADORNames = $inADORNames;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class GetADORValuesForRangeDataSet
      */
     public function getInFrom()
     {
-      return $this->inFrom;
+        return $this->inFrom;
     }
 
     /**
      * @param int $inFrom
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValuesForRangeDataSet
+     * @return GetADORValuesForRangeDataSet
      */
     public function setInFrom($inFrom)
     {
-      $this->inFrom = $inFrom;
-      return $this;
+        $this->inFrom = $inFrom;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class GetADORValuesForRangeDataSet
      */
     public function getInTo()
     {
-      return $this->inTo;
+        return $this->inTo;
     }
 
     /**
      * @param int $inTo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValuesForRangeDataSet
+     * @return GetADORValuesForRangeDataSet
      */
     public function setInTo($inTo)
     {
-      $this->inTo = $inTo;
-      return $this;
+        $this->inTo = $inTo;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class GetADORValuesForRangeDataSet
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValuesForRangeDataSet
+     * @return GetADORValuesForRangeDataSet
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

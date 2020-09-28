@@ -15,7 +15,7 @@ class GetFriendlyLandingPageResponse
      */
     public function __construct($GetFriendlyLandingPageResult = null)
     {
-      $this->GetFriendlyLandingPageResult = $GetFriendlyLandingPageResult;
+        $this->GetFriendlyLandingPageResult = $GetFriendlyLandingPageResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFriendlyLandingPageResponse
      */
     public function getGetFriendlyLandingPageResult()
     {
-      return $this->GetFriendlyLandingPageResult;
+        return $this->GetFriendlyLandingPageResult;
     }
 
     /**
      * @param string $GetFriendlyLandingPageResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFriendlyLandingPageResponse
+     * @return GetFriendlyLandingPageResponse
      */
     public function setGetFriendlyLandingPageResult($GetFriendlyLandingPageResult)
     {
-      $this->GetFriendlyLandingPageResult = $GetFriendlyLandingPageResult;
-      return $this;
+        $this->GetFriendlyLandingPageResult = $GetFriendlyLandingPageResult;
+        return $this;
     }
 
 }

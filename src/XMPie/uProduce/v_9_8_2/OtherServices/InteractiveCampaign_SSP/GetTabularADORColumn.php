@@ -51,13 +51,13 @@ class GetTabularADORColumn
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountName = null, $inCampaignName = null, $inICPName = null, $inTabularADORName = null, $inColumnName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountName = $inAccountName;
-      $this->inCampaignName = $inCampaignName;
-      $this->inICPName = $inICPName;
-      $this->inTabularADORName = $inTabularADORName;
-      $this->inColumnName = $inColumnName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountName = $inAccountName;
+        $this->inCampaignName = $inCampaignName;
+        $this->inICPName = $inICPName;
+        $this->inTabularADORName = $inTabularADORName;
+        $this->inColumnName = $inColumnName;
     }
 
     /**
@@ -65,17 +65,17 @@ class GetTabularADORColumn
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetTabularADORColumn
+     * @return GetTabularADORColumn
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class GetTabularADORColumn
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetTabularADORColumn
+     * @return GetTabularADORColumn
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class GetTabularADORColumn
      */
     public function getInAccountName()
     {
-      return $this->inAccountName;
+        return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetTabularADORColumn
+     * @return GetTabularADORColumn
      */
     public function setInAccountName($inAccountName)
     {
-      $this->inAccountName = $inAccountName;
-      return $this;
+        $this->inAccountName = $inAccountName;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class GetTabularADORColumn
      */
     public function getInCampaignName()
     {
-      return $this->inCampaignName;
+        return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetTabularADORColumn
+     * @return GetTabularADORColumn
      */
     public function setInCampaignName($inCampaignName)
     {
-      $this->inCampaignName = $inCampaignName;
-      return $this;
+        $this->inCampaignName = $inCampaignName;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class GetTabularADORColumn
      */
     public function getInICPName()
     {
-      return $this->inICPName;
+        return $this->inICPName;
     }
 
     /**
      * @param string $inICPName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetTabularADORColumn
+     * @return GetTabularADORColumn
      */
     public function setInICPName($inICPName)
     {
-      $this->inICPName = $inICPName;
-      return $this;
+        $this->inICPName = $inICPName;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class GetTabularADORColumn
      */
     public function getInTabularADORName()
     {
-      return $this->inTabularADORName;
+        return $this->inTabularADORName;
     }
 
     /**
      * @param string $inTabularADORName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetTabularADORColumn
+     * @return GetTabularADORColumn
      */
     public function setInTabularADORName($inTabularADORName)
     {
-      $this->inTabularADORName = $inTabularADORName;
-      return $this;
+        $this->inTabularADORName = $inTabularADORName;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class GetTabularADORColumn
      */
     public function getInColumnName()
     {
-      return $this->inColumnName;
+        return $this->inColumnName;
     }
 
     /**
      * @param string $inColumnName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetTabularADORColumn
+     * @return GetTabularADORColumn
      */
     public function setInColumnName($inColumnName)
     {
-      $this->inColumnName = $inColumnName;
-      return $this;
+        $this->inColumnName = $inColumnName;
+        return $this;
     }
 
 }

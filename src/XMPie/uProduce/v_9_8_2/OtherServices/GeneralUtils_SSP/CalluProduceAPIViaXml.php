@@ -27,9 +27,9 @@ class CalluProduceAPIViaXml
      */
     public function __construct($inUsername = null, $inPassword = null, $inXML = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inXML = $inXML;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inXML = $inXML;
     }
 
     /**
@@ -37,17 +37,17 @@ class CalluProduceAPIViaXml
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalluProduceAPIViaXml
+     * @return CalluProduceAPIViaXml
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class CalluProduceAPIViaXml
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalluProduceAPIViaXml
+     * @return CalluProduceAPIViaXml
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class CalluProduceAPIViaXml
      */
     public function getInXML()
     {
-      return $this->inXML;
+        return $this->inXML;
     }
 
     /**
      * @param string $inXML
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalluProduceAPIViaXml
+     * @return CalluProduceAPIViaXml
      */
     public function setInXML($inXML)
     {
-      $this->inXML = $inXML;
-      return $this;
+        $this->inXML = $inXML;
+        return $this;
     }
 
 }

@@ -27,9 +27,9 @@ class GetBinaryFileStream
      */
     public function __construct($inUsername = null, $inPassword = null, $inFilePath = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inFilePath = $inFilePath;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inFilePath = $inFilePath;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetBinaryFileStream
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileStream
+     * @return GetBinaryFileStream
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetBinaryFileStream
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileStream
+     * @return GetBinaryFileStream
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetBinaryFileStream
      */
     public function getInFilePath()
     {
-      return $this->inFilePath;
+        return $this->inFilePath;
     }
 
     /**
      * @param string $inFilePath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileStream
+     * @return GetBinaryFileStream
      */
     public function setInFilePath($inFilePath)
     {
-      $this->inFilePath = $inFilePath;
-      return $this;
+        $this->inFilePath = $inFilePath;
+        return $this;
     }
 
 }

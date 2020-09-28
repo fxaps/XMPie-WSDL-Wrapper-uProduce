@@ -15,7 +15,7 @@ class GetMaximumNumberOfAvailableInstancesResponse
      */
     public function __construct($GetMaximumNumberOfAvailableInstancesResult = null)
     {
-      $this->GetMaximumNumberOfAvailableInstancesResult = $GetMaximumNumberOfAvailableInstancesResult;
+        $this->GetMaximumNumberOfAvailableInstancesResult = $GetMaximumNumberOfAvailableInstancesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMaximumNumberOfAvailableInstancesResponse
      */
     public function getGetMaximumNumberOfAvailableInstancesResult()
     {
-      return $this->GetMaximumNumberOfAvailableInstancesResult;
+        return $this->GetMaximumNumberOfAvailableInstancesResult;
     }
 
     /**
      * @param int $GetMaximumNumberOfAvailableInstancesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetMaximumNumberOfAvailableInstancesResponse
+     * @return GetMaximumNumberOfAvailableInstancesResponse
      */
     public function setGetMaximumNumberOfAvailableInstancesResult($GetMaximumNumberOfAvailableInstancesResult)
     {
-      $this->GetMaximumNumberOfAvailableInstancesResult = $GetMaximumNumberOfAvailableInstancesResult;
-      return $this;
+        $this->GetMaximumNumberOfAvailableInstancesResult = $GetMaximumNumberOfAvailableInstancesResult;
+        return $this;
     }
 
 }

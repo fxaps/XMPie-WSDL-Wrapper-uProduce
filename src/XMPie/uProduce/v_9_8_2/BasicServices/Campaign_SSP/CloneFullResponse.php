@@ -15,7 +15,7 @@ class CloneFullResponse
      */
     public function __construct($CloneFullResult = null)
     {
-      $this->CloneFullResult = $CloneFullResult;
+        $this->CloneFullResult = $CloneFullResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CloneFullResponse
      */
     public function getCloneFullResult()
     {
-      return $this->CloneFullResult;
+        return $this->CloneFullResult;
     }
 
     /**
      * @param CampaignMapping $CloneFullResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneFullResponse
+     * @return CloneFullResponse
      */
     public function setCloneFullResult($CloneFullResult)
     {
-      $this->CloneFullResult = $CloneFullResult;
-      return $this;
+        $this->CloneFullResult = $CloneFullResult;
+        return $this;
     }
 
 }

@@ -15,10 +15,10 @@ class Setting
      */
     protected $m_Value = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -26,17 +26,17 @@ class Setting
      */
     public function getM_Name()
     {
-      return $this->m_Name;
+        return $this->m_Name;
     }
 
     /**
      * @param string $m_Name
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\Setting
+     * @return Setting
      */
     public function setM_Name($m_Name)
     {
-      $this->m_Name = $m_Name;
-      return $this;
+        $this->m_Name = $m_Name;
+        return $this;
     }
 
     /**
@@ -44,17 +44,17 @@ class Setting
      */
     public function getM_Value()
     {
-      return $this->m_Value;
+        return $this->m_Value;
     }
 
     /**
      * @param string $m_Value
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\Setting
+     * @return Setting
      */
     public function setM_Value($m_Value)
     {
-      $this->m_Value = $m_Value;
-      return $this;
+        $this->m_Value = $m_Value;
+        return $this;
     }
 
 }

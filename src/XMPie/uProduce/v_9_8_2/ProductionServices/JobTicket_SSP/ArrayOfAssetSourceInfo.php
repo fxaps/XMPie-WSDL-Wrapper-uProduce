@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP;
 
-class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfAssetSourceInfo implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     protected $AssetSourceInfo = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function getAssetSourceInfo()
     {
-      return $this->AssetSourceInfo;
+        return $this->AssetSourceInfo;
     }
 
     /**
      * @param AssetSourceInfo[] $AssetSourceInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\ArrayOfAssetSourceInfo
+     * @return ArrayOfAssetSourceInfo
      */
     public function setAssetSourceInfo(array $AssetSourceInfo = null)
     {
-      $this->AssetSourceInfo = $AssetSourceInfo;
-      return $this;
+        $this->AssetSourceInfo = $AssetSourceInfo;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->AssetSourceInfo[$offset]);
+        return isset($this->AssetSourceInfo[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->AssetSourceInfo[$offset];
+        return $this->AssetSourceInfo[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->AssetSourceInfo[] = $value;
-      } else {
-        $this->AssetSourceInfo[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->AssetSourceInfo[] = $value;
+        } else {
+            $this->AssetSourceInfo[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->AssetSourceInfo[$offset]);
+        unset($this->AssetSourceInfo[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->AssetSourceInfo);
+        return current($this->AssetSourceInfo);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->AssetSourceInfo);
+        next($this->AssetSourceInfo);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->AssetSourceInfo);
+        return key($this->AssetSourceInfo);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->AssetSourceInfo);
+        reset($this->AssetSourceInfo);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfAssetSourceInfo implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->AssetSourceInfo);
+        return count($this->AssetSourceInfo);
     }
 
 }

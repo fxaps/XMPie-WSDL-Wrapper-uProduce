@@ -27,9 +27,9 @@ class GetSettings
      */
     public function __construct($inUsername = null, $inPassword = null, $inSettingsNames = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inSettingsNames = $inSettingsNames;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inSettingsNames = $inSettingsNames;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetSettings
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetSettings
+     * @return GetSettings
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetSettings
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetSettings
+     * @return GetSettings
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetSettings
      */
     public function getInSettingsNames()
     {
-      return $this->inSettingsNames;
+        return $this->inSettingsNames;
     }
 
     /**
      * @param ArrayOfString $inSettingsNames
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetSettings
+     * @return GetSettings
      */
     public function setInSettingsNames($inSettingsNames)
     {
-      $this->inSettingsNames = $inSettingsNames;
-      return $this;
+        $this->inSettingsNames = $inSettingsNames;
+        return $this;
     }
 
 }

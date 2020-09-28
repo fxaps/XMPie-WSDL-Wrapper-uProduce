@@ -33,10 +33,10 @@ class SetAssetSourcesByID
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inAssetSourceIDArray = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inAssetSourceIDArray = $inAssetSourceIDArray;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inAssetSourceIDArray = $inAssetSourceIDArray;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetAssetSourcesByID
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourcesByID
+     * @return SetAssetSourcesByID
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetAssetSourcesByID
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourcesByID
+     * @return SetAssetSourcesByID
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetAssetSourcesByID
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourcesByID
+     * @return SetAssetSourcesByID
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetAssetSourcesByID
      */
     public function getInAssetSourceIDArray()
     {
-      return $this->inAssetSourceIDArray;
+        return $this->inAssetSourceIDArray;
     }
 
     /**
      * @param ArrayOfString $inAssetSourceIDArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourcesByID
+     * @return SetAssetSourcesByID
      */
     public function setInAssetSourceIDArray($inAssetSourceIDArray)
     {
-      $this->inAssetSourceIDArray = $inAssetSourceIDArray;
-      return $this;
+        $this->inAssetSourceIDArray = $inAssetSourceIDArray;
+        return $this;
     }
 
 }

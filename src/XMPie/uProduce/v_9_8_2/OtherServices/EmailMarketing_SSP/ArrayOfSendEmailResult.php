@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP;
 
-class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfSendEmailResult implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     protected $SendEmailResult = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function getSendEmailResult()
     {
-      return $this->SendEmailResult;
+        return $this->SendEmailResult;
     }
 
     /**
      * @param SendEmailResult[] $SendEmailResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\ArrayOfSendEmailResult
+     * @return ArrayOfSendEmailResult
      */
     public function setSendEmailResult(array $SendEmailResult = null)
     {
-      $this->SendEmailResult = $SendEmailResult;
-      return $this;
+        $this->SendEmailResult = $SendEmailResult;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->SendEmailResult[$offset]);
+        return isset($this->SendEmailResult[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->SendEmailResult[$offset];
+        return $this->SendEmailResult[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->SendEmailResult[] = $value;
-      } else {
-        $this->SendEmailResult[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->SendEmailResult[] = $value;
+        } else {
+            $this->SendEmailResult[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->SendEmailResult[$offset]);
+        unset($this->SendEmailResult[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->SendEmailResult);
+        return current($this->SendEmailResult);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->SendEmailResult);
+        next($this->SendEmailResult);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->SendEmailResult);
+        return key($this->SendEmailResult);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->SendEmailResult);
+        reset($this->SendEmailResult);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfSendEmailResult implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->SendEmailResult);
+        return count($this->SendEmailResult);
     }
 
 }

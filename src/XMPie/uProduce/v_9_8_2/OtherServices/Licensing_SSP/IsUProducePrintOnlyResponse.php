@@ -15,7 +15,7 @@ class IsUProducePrintOnlyResponse
      */
     public function __construct($IsUProducePrintOnlyResult = null)
     {
-      $this->IsUProducePrintOnlyResult = $IsUProducePrintOnlyResult;
+        $this->IsUProducePrintOnlyResult = $IsUProducePrintOnlyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsUProducePrintOnlyResponse
      */
     public function getIsUProducePrintOnlyResult()
     {
-      return $this->IsUProducePrintOnlyResult;
+        return $this->IsUProducePrintOnlyResult;
     }
 
     /**
      * @param boolean $IsUProducePrintOnlyResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\IsUProducePrintOnlyResponse
+     * @return IsUProducePrintOnlyResponse
      */
     public function setIsUProducePrintOnlyResult($IsUProducePrintOnlyResult)
     {
-      $this->IsUProducePrintOnlyResult = $IsUProducePrintOnlyResult;
-      return $this;
+        $this->IsUProducePrintOnlyResult = $IsUProducePrintOnlyResult;
+        return $this;
     }
 
 }

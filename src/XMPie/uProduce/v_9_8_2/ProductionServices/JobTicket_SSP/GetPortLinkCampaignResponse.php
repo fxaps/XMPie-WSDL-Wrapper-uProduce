@@ -15,7 +15,7 @@ class GetPortLinkCampaignResponse
      */
     public function __construct($GetPortLinkCampaignResult = null)
     {
-      $this->GetPortLinkCampaignResult = $GetPortLinkCampaignResult;
+        $this->GetPortLinkCampaignResult = $GetPortLinkCampaignResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPortLinkCampaignResponse
      */
     public function getGetPortLinkCampaignResult()
     {
-      return $this->GetPortLinkCampaignResult;
+        return $this->GetPortLinkCampaignResult;
     }
 
     /**
      * @param string $GetPortLinkCampaignResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetPortLinkCampaignResponse
+     * @return GetPortLinkCampaignResponse
      */
     public function setGetPortLinkCampaignResult($GetPortLinkCampaignResult)
     {
-      $this->GetPortLinkCampaignResult = $GetPortLinkCampaignResult;
-      return $this;
+        $this->GetPortLinkCampaignResult = $GetPortLinkCampaignResult;
+        return $this;
     }
 
 }

@@ -33,10 +33,10 @@ class DeleteFile
      */
     public function __construct($inUsername = null, $inPassword = null, $inFileToken = null, $inDeleteEmptyFolder = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inFileToken = $inFileToken;
-      $this->inDeleteEmptyFolder = $inDeleteEmptyFolder;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inFileToken = $inFileToken;
+        $this->inDeleteEmptyFolder = $inDeleteEmptyFolder;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeleteFile
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\DeleteFile
+     * @return DeleteFile
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeleteFile
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\DeleteFile
+     * @return DeleteFile
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeleteFile
      */
     public function getInFileToken()
     {
-      return $this->inFileToken;
+        return $this->inFileToken;
     }
 
     /**
      * @param string $inFileToken
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\DeleteFile
+     * @return DeleteFile
      */
     public function setInFileToken($inFileToken)
     {
-      $this->inFileToken = $inFileToken;
-      return $this;
+        $this->inFileToken = $inFileToken;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeleteFile
      */
     public function getInDeleteEmptyFolder()
     {
-      return $this->inDeleteEmptyFolder;
+        return $this->inDeleteEmptyFolder;
     }
 
     /**
      * @param boolean $inDeleteEmptyFolder
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\DeleteFile
+     * @return DeleteFile
      */
     public function setInDeleteEmptyFolder($inDeleteEmptyFolder)
     {
-      $this->inDeleteEmptyFolder = $inDeleteEmptyFolder;
-      return $this;
+        $this->inDeleteEmptyFolder = $inDeleteEmptyFolder;
+        return $this;
     }
 
 }

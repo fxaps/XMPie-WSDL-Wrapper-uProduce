@@ -15,7 +15,7 @@ class TestNetworkPathConnectivityResponse
      */
     public function __construct($TestNetworkPathConnectivityResult = null)
     {
-      $this->TestNetworkPathConnectivityResult = $TestNetworkPathConnectivityResult;
+        $this->TestNetworkPathConnectivityResult = $TestNetworkPathConnectivityResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class TestNetworkPathConnectivityResponse
      */
     public function getTestNetworkPathConnectivityResult()
     {
-      return $this->TestNetworkPathConnectivityResult;
+        return $this->TestNetworkPathConnectivityResult;
     }
 
     /**
      * @param boolean $TestNetworkPathConnectivityResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivityResponse
+     * @return TestNetworkPathConnectivityResponse
      */
     public function setTestNetworkPathConnectivityResult($TestNetworkPathConnectivityResult)
     {
-      $this->TestNetworkPathConnectivityResult = $TestNetworkPathConnectivityResult;
-      return $this;
+        $this->TestNetworkPathConnectivityResult = $TestNetworkPathConnectivityResult;
+        return $this;
     }
 
 }

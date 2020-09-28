@@ -33,10 +33,10 @@ class SetPathLocatorValue
      */
     public function __construct($inUsername = null, $inPassword = null, $inName = null, $inValue = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inName = $inName;
-      $this->inValue = $inValue;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inName = $inName;
+        $this->inValue = $inValue;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetPathLocatorValue
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\SetPathLocatorValue
+     * @return SetPathLocatorValue
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetPathLocatorValue
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\SetPathLocatorValue
+     * @return SetPathLocatorValue
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetPathLocatorValue
      */
     public function getInName()
     {
-      return $this->inName;
+        return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\SetPathLocatorValue
+     * @return SetPathLocatorValue
      */
     public function setInName($inName)
     {
-      $this->inName = $inName;
-      return $this;
+        $this->inName = $inName;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetPathLocatorValue
      */
     public function getInValue()
     {
-      return $this->inValue;
+        return $this->inValue;
     }
 
     /**
      * @param string $inValue
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\SetPathLocatorValue
+     * @return SetPathLocatorValue
      */
     public function setInValue($inValue)
     {
-      $this->inValue = $inValue;
-      return $this;
+        $this->inValue = $inValue;
+        return $this;
     }
 
 }

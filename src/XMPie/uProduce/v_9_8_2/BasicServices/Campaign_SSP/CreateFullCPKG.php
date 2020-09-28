@@ -33,10 +33,10 @@ class CreateFullCPKG
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inCampaignID = $inCampaignID;
-      $this->inName = $inName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inCampaignID = $inCampaignID;
+        $this->inName = $inName;
     }
 
     /**
@@ -44,17 +44,17 @@ class CreateFullCPKG
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateFullCPKG
+     * @return CreateFullCPKG
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class CreateFullCPKG
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateFullCPKG
+     * @return CreateFullCPKG
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class CreateFullCPKG
      */
     public function getInCampaignID()
     {
-      return $this->inCampaignID;
+        return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateFullCPKG
+     * @return CreateFullCPKG
      */
     public function setInCampaignID($inCampaignID)
     {
-      $this->inCampaignID = $inCampaignID;
-      return $this;
+        $this->inCampaignID = $inCampaignID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class CreateFullCPKG
      */
     public function getInName()
     {
-      return $this->inName;
+        return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateFullCPKG
+     * @return CreateFullCPKG
      */
     public function setInName($inName)
     {
-      $this->inName = $inName;
-      return $this;
+        $this->inName = $inName;
+        return $this;
     }
 
 }

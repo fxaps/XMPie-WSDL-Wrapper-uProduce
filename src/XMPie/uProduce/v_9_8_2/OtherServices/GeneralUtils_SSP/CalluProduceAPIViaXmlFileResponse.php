@@ -15,7 +15,7 @@ class CalluProduceAPIViaXmlFileResponse
      */
     public function __construct($CalluProduceAPIViaXmlFileResult = null)
     {
-      $this->CalluProduceAPIViaXmlFileResult = $CalluProduceAPIViaXmlFileResult;
+        $this->CalluProduceAPIViaXmlFileResult = $CalluProduceAPIViaXmlFileResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CalluProduceAPIViaXmlFileResponse
      */
     public function getCalluProduceAPIViaXmlFileResult()
     {
-      return $this->CalluProduceAPIViaXmlFileResult;
+        return $this->CalluProduceAPIViaXmlFileResult;
     }
 
     /**
      * @param string $CalluProduceAPIViaXmlFileResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalluProduceAPIViaXmlFileResponse
+     * @return CalluProduceAPIViaXmlFileResponse
      */
     public function setCalluProduceAPIViaXmlFileResult($CalluProduceAPIViaXmlFileResult)
     {
-      $this->CalluProduceAPIViaXmlFileResult = $CalluProduceAPIViaXmlFileResult;
-      return $this;
+        $this->CalluProduceAPIViaXmlFileResult = $CalluProduceAPIViaXmlFileResult;
+        return $this;
     }
 
 }

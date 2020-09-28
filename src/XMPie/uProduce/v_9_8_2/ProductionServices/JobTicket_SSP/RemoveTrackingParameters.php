@@ -33,10 +33,10 @@ class RemoveTrackingParameters
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inParameterNameArray = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inParameterNameArray = $inParameterNameArray;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inParameterNameArray = $inParameterNameArray;
     }
 
     /**
@@ -44,17 +44,17 @@ class RemoveTrackingParameters
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveTrackingParameters
+     * @return RemoveTrackingParameters
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class RemoveTrackingParameters
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveTrackingParameters
+     * @return RemoveTrackingParameters
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class RemoveTrackingParameters
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveTrackingParameters
+     * @return RemoveTrackingParameters
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class RemoveTrackingParameters
      */
     public function getInParameterNameArray()
     {
-      return $this->inParameterNameArray;
+        return $this->inParameterNameArray;
     }
 
     /**
      * @param ArrayOfString $inParameterNameArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveTrackingParameters
+     * @return RemoveTrackingParameters
      */
     public function setInParameterNameArray($inParameterNameArray)
     {
-      $this->inParameterNameArray = $inParameterNameArray;
-      return $this;
+        $this->inParameterNameArray = $inParameterNameArray;
+        return $this;
     }
 
 }

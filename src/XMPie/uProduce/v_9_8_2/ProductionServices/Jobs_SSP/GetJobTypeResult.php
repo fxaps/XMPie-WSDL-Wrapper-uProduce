@@ -21,8 +21,8 @@ class GetJobTypeResult
      */
     public function __construct($schema = null, $any = null)
     {
-      $this->schema = $schema;
-      $this->any = $any;
+        $this->schema = $schema;
+        $this->any = $any;
     }
 
     /**
@@ -30,17 +30,17 @@ class GetJobTypeResult
      */
     public function getSchema()
     {
-      return $this->schema;
+        return $this->schema;
     }
 
     /**
      * @param string $schema
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobTypeResult
+     * @return GetJobTypeResult
      */
     public function setSchema($schema)
     {
-      $this->schema = $schema;
-      return $this;
+        $this->schema = $schema;
+        return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class GetJobTypeResult
      */
     public function getAny()
     {
-      return $this->any;
+        return $this->any;
     }
 
     /**
      * @param string $any
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobTypeResult
+     * @return GetJobTypeResult
      */
     public function setAny($any)
     {
-      $this->any = $any;
-      return $this;
+        $this->any = $any;
+        return $this;
     }
 
 }

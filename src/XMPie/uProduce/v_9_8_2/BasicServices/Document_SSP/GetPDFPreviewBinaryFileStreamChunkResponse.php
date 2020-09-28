@@ -21,8 +21,8 @@ class GetPDFPreviewBinaryFileStreamChunkResponse
      */
     public function __construct($GetPDFPreviewBinaryFileStreamChunkResult = null, $inoutCount = null)
     {
-      $this->GetPDFPreviewBinaryFileStreamChunkResult = $GetPDFPreviewBinaryFileStreamChunkResult;
-      $this->inoutCount = $inoutCount;
+        $this->GetPDFPreviewBinaryFileStreamChunkResult = $GetPDFPreviewBinaryFileStreamChunkResult;
+        $this->inoutCount = $inoutCount;
     }
 
     /**
@@ -30,17 +30,17 @@ class GetPDFPreviewBinaryFileStreamChunkResponse
      */
     public function getGetPDFPreviewBinaryFileStreamChunkResult()
     {
-      return $this->GetPDFPreviewBinaryFileStreamChunkResult;
+        return $this->GetPDFPreviewBinaryFileStreamChunkResult;
     }
 
     /**
      * @param base64Binary $GetPDFPreviewBinaryFileStreamChunkResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewBinaryFileStreamChunkResponse
+     * @return GetPDFPreviewBinaryFileStreamChunkResponse
      */
     public function setGetPDFPreviewBinaryFileStreamChunkResult($GetPDFPreviewBinaryFileStreamChunkResult)
     {
-      $this->GetPDFPreviewBinaryFileStreamChunkResult = $GetPDFPreviewBinaryFileStreamChunkResult;
-      return $this;
+        $this->GetPDFPreviewBinaryFileStreamChunkResult = $GetPDFPreviewBinaryFileStreamChunkResult;
+        return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class GetPDFPreviewBinaryFileStreamChunkResponse
      */
     public function getInoutCount()
     {
-      return $this->inoutCount;
+        return $this->inoutCount;
     }
 
     /**
      * @param int $inoutCount
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewBinaryFileStreamChunkResponse
+     * @return GetPDFPreviewBinaryFileStreamChunkResponse
      */
     public function setInoutCount($inoutCount)
     {
-      $this->inoutCount = $inoutCount;
-      return $this;
+        $this->inoutCount = $inoutCount;
+        return $this;
     }
 
 }

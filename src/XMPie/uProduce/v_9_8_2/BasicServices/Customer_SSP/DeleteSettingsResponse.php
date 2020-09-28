@@ -15,7 +15,7 @@ class DeleteSettingsResponse
      */
     public function __construct($DeleteSettingsResult = null)
     {
-      $this->DeleteSettingsResult = $DeleteSettingsResult;
+        $this->DeleteSettingsResult = $DeleteSettingsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteSettingsResponse
      */
     public function getDeleteSettingsResult()
     {
-      return $this->DeleteSettingsResult;
+        return $this->DeleteSettingsResult;
     }
 
     /**
      * @param boolean $DeleteSettingsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteSettingsResponse
+     * @return DeleteSettingsResponse
      */
     public function setDeleteSettingsResult($DeleteSettingsResult)
     {
-      $this->DeleteSettingsResult = $DeleteSettingsResult;
-      return $this;
+        $this->DeleteSettingsResult = $DeleteSettingsResult;
+        return $this;
     }
 
 }

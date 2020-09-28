@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP;
 
-class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfReportMessage implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     protected $ReportMessage = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function getReportMessage()
     {
-      return $this->ReportMessage;
+        return $this->ReportMessage;
     }
 
     /**
      * @param ReportMessage[] $ReportMessage
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ArrayOfReportMessage
+     * @return ArrayOfReportMessage
      */
     public function setReportMessage(array $ReportMessage = null)
     {
-      $this->ReportMessage = $ReportMessage;
-      return $this;
+        $this->ReportMessage = $ReportMessage;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->ReportMessage[$offset]);
+        return isset($this->ReportMessage[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->ReportMessage[$offset];
+        return $this->ReportMessage[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->ReportMessage[] = $value;
-      } else {
-        $this->ReportMessage[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->ReportMessage[] = $value;
+        } else {
+            $this->ReportMessage[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->ReportMessage[$offset]);
+        unset($this->ReportMessage[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->ReportMessage);
+        return current($this->ReportMessage);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->ReportMessage);
+        next($this->ReportMessage);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->ReportMessage);
+        return key($this->ReportMessage);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->ReportMessage);
+        reset($this->ReportMessage);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfReportMessage implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->ReportMessage);
+        return count($this->ReportMessage);
     }
 
 }

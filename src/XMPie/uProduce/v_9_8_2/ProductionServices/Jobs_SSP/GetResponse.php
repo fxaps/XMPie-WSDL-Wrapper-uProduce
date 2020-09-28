@@ -15,7 +15,7 @@ class GetResponse
      */
     public function __construct($GetResult = null)
     {
-      $this->GetResult = $GetResult;
+        $this->GetResult = $GetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetResponse
      */
     public function getGetResult()
     {
-      return $this->GetResult;
+        return $this->GetResult;
     }
 
     /**
      * @param ArrayOfString $GetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetResponse
+     * @return GetResponse
      */
     public function setGetResult($GetResult)
     {
-      $this->GetResult = $GetResult;
-      return $this;
+        $this->GetResult = $GetResult;
+        return $this;
     }
 
 }

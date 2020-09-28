@@ -15,7 +15,7 @@ class AppendFileBinaryStreamResponse
      */
     public function __construct($AppendFileBinaryStreamResult = null)
     {
-      $this->AppendFileBinaryStreamResult = $AppendFileBinaryStreamResult;
+        $this->AppendFileBinaryStreamResult = $AppendFileBinaryStreamResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AppendFileBinaryStreamResponse
      */
     public function getAppendFileBinaryStreamResult()
     {
-      return $this->AppendFileBinaryStreamResult;
+        return $this->AppendFileBinaryStreamResult;
     }
 
     /**
      * @param boolean $AppendFileBinaryStreamResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\AppendFileBinaryStreamResponse
+     * @return AppendFileBinaryStreamResponse
      */
     public function setAppendFileBinaryStreamResult($AppendFileBinaryStreamResult)
     {
-      $this->AppendFileBinaryStreamResult = $AppendFileBinaryStreamResult;
-      return $this;
+        $this->AppendFileBinaryStreamResult = $AppendFileBinaryStreamResult;
+        return $this;
     }
 
 }

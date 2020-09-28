@@ -117,24 +117,24 @@ class GetDataSet
      */
     public function __construct($inUsername = null, $inPassword = null, $inUserID = null, $inAccountID = null, $inCampaignID = null, $inDocumentID = null, $inStatus = null, $inType = null, $inName = null, $inCampaignName = null, $inAccountName = null, $inOrderBy = null, $inPageSize = null, $inPageIndex = null, $inPageJobId = null, $inEmailMarketingID = null, $inCampaignType = null, $inTouchPointID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inUserID = $inUserID;
-      $this->inAccountID = $inAccountID;
-      $this->inCampaignID = $inCampaignID;
-      $this->inDocumentID = $inDocumentID;
-      $this->inStatus = $inStatus;
-      $this->inType = $inType;
-      $this->inName = $inName;
-      $this->inCampaignName = $inCampaignName;
-      $this->inAccountName = $inAccountName;
-      $this->inOrderBy = $inOrderBy;
-      $this->inPageSize = $inPageSize;
-      $this->inPageIndex = $inPageIndex;
-      $this->inPageJobId = $inPageJobId;
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      $this->inCampaignType = $inCampaignType;
-      $this->inTouchPointID = $inTouchPointID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inUserID = $inUserID;
+        $this->inAccountID = $inAccountID;
+        $this->inCampaignID = $inCampaignID;
+        $this->inDocumentID = $inDocumentID;
+        $this->inStatus = $inStatus;
+        $this->inType = $inType;
+        $this->inName = $inName;
+        $this->inCampaignName = $inCampaignName;
+        $this->inAccountName = $inAccountName;
+        $this->inOrderBy = $inOrderBy;
+        $this->inPageSize = $inPageSize;
+        $this->inPageIndex = $inPageIndex;
+        $this->inPageJobId = $inPageJobId;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        $this->inCampaignType = $inCampaignType;
+        $this->inTouchPointID = $inTouchPointID;
     }
 
     /**
@@ -142,17 +142,17 @@ class GetDataSet
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -160,17 +160,17 @@ class GetDataSet
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -178,17 +178,17 @@ class GetDataSet
      */
     public function getInUserID()
     {
-      return $this->inUserID;
+        return $this->inUserID;
     }
 
     /**
      * @param string $inUserID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInUserID($inUserID)
     {
-      $this->inUserID = $inUserID;
-      return $this;
+        $this->inUserID = $inUserID;
+        return $this;
     }
 
     /**
@@ -196,17 +196,17 @@ class GetDataSet
      */
     public function getInAccountID()
     {
-      return $this->inAccountID;
+        return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInAccountID($inAccountID)
     {
-      $this->inAccountID = $inAccountID;
-      return $this;
+        $this->inAccountID = $inAccountID;
+        return $this;
     }
 
     /**
@@ -214,17 +214,17 @@ class GetDataSet
      */
     public function getInCampaignID()
     {
-      return $this->inCampaignID;
+        return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInCampaignID($inCampaignID)
     {
-      $this->inCampaignID = $inCampaignID;
-      return $this;
+        $this->inCampaignID = $inCampaignID;
+        return $this;
     }
 
     /**
@@ -232,17 +232,17 @@ class GetDataSet
      */
     public function getInDocumentID()
     {
-      return $this->inDocumentID;
+        return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInDocumentID($inDocumentID)
     {
-      $this->inDocumentID = $inDocumentID;
-      return $this;
+        $this->inDocumentID = $inDocumentID;
+        return $this;
     }
 
     /**
@@ -250,17 +250,17 @@ class GetDataSet
      */
     public function getInStatus()
     {
-      return $this->inStatus;
+        return $this->inStatus;
     }
 
     /**
      * @param string $inStatus
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInStatus($inStatus)
     {
-      $this->inStatus = $inStatus;
-      return $this;
+        $this->inStatus = $inStatus;
+        return $this;
     }
 
     /**
@@ -268,17 +268,17 @@ class GetDataSet
      */
     public function getInType()
     {
-      return $this->inType;
+        return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInType($inType)
     {
-      $this->inType = $inType;
-      return $this;
+        $this->inType = $inType;
+        return $this;
     }
 
     /**
@@ -286,17 +286,17 @@ class GetDataSet
      */
     public function getInName()
     {
-      return $this->inName;
+        return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInName($inName)
     {
-      $this->inName = $inName;
-      return $this;
+        $this->inName = $inName;
+        return $this;
     }
 
     /**
@@ -304,17 +304,17 @@ class GetDataSet
      */
     public function getInCampaignName()
     {
-      return $this->inCampaignName;
+        return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInCampaignName($inCampaignName)
     {
-      $this->inCampaignName = $inCampaignName;
-      return $this;
+        $this->inCampaignName = $inCampaignName;
+        return $this;
     }
 
     /**
@@ -322,17 +322,17 @@ class GetDataSet
      */
     public function getInAccountName()
     {
-      return $this->inAccountName;
+        return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInAccountName($inAccountName)
     {
-      $this->inAccountName = $inAccountName;
-      return $this;
+        $this->inAccountName = $inAccountName;
+        return $this;
     }
 
     /**
@@ -340,17 +340,17 @@ class GetDataSet
      */
     public function getInOrderBy()
     {
-      return $this->inOrderBy;
+        return $this->inOrderBy;
     }
 
     /**
      * @param string $inOrderBy
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInOrderBy($inOrderBy)
     {
-      $this->inOrderBy = $inOrderBy;
-      return $this;
+        $this->inOrderBy = $inOrderBy;
+        return $this;
     }
 
     /**
@@ -358,17 +358,17 @@ class GetDataSet
      */
     public function getInPageSize()
     {
-      return $this->inPageSize;
+        return $this->inPageSize;
     }
 
     /**
      * @param int $inPageSize
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInPageSize($inPageSize)
     {
-      $this->inPageSize = $inPageSize;
-      return $this;
+        $this->inPageSize = $inPageSize;
+        return $this;
     }
 
     /**
@@ -376,17 +376,17 @@ class GetDataSet
      */
     public function getInPageIndex()
     {
-      return $this->inPageIndex;
+        return $this->inPageIndex;
     }
 
     /**
      * @param int $inPageIndex
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInPageIndex($inPageIndex)
     {
-      $this->inPageIndex = $inPageIndex;
-      return $this;
+        $this->inPageIndex = $inPageIndex;
+        return $this;
     }
 
     /**
@@ -394,17 +394,17 @@ class GetDataSet
      */
     public function getInPageJobId()
     {
-      return $this->inPageJobId;
+        return $this->inPageJobId;
     }
 
     /**
      * @param int $inPageJobId
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInPageJobId($inPageJobId)
     {
-      $this->inPageJobId = $inPageJobId;
-      return $this;
+        $this->inPageJobId = $inPageJobId;
+        return $this;
     }
 
     /**
@@ -412,17 +412,17 @@ class GetDataSet
      */
     public function getInEmailMarketingID()
     {
-      return $this->inEmailMarketingID;
+        return $this->inEmailMarketingID;
     }
 
     /**
      * @param string $inEmailMarketingID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInEmailMarketingID($inEmailMarketingID)
     {
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      return $this;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        return $this;
     }
 
     /**
@@ -430,17 +430,17 @@ class GetDataSet
      */
     public function getInCampaignType()
     {
-      return $this->inCampaignType;
+        return $this->inCampaignType;
     }
 
     /**
      * @param string $inCampaignType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInCampaignType($inCampaignType)
     {
-      $this->inCampaignType = $inCampaignType;
-      return $this;
+        $this->inCampaignType = $inCampaignType;
+        return $this;
     }
 
     /**
@@ -448,17 +448,17 @@ class GetDataSet
      */
     public function getInTouchPointID()
     {
-      return $this->inTouchPointID;
+        return $this->inTouchPointID;
     }
 
     /**
      * @param string $inTouchPointID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetDataSet
+     * @return GetDataSet
      */
     public function setInTouchPointID($inTouchPointID)
     {
-      $this->inTouchPointID = $inTouchPointID;
-      return $this;
+        $this->inTouchPointID = $inTouchPointID;
+        return $this;
     }
 
 }

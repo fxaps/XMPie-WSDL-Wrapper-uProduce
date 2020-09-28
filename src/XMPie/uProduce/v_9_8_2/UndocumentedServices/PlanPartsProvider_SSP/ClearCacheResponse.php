@@ -15,7 +15,7 @@ class ClearCacheResponse
      */
     public function __construct($ClearCacheResult = null)
     {
-      $this->ClearCacheResult = $ClearCacheResult;
+        $this->ClearCacheResult = $ClearCacheResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ClearCacheResponse
      */
     public function getClearCacheResult()
     {
-      return $this->ClearCacheResult;
+        return $this->ClearCacheResult;
     }
 
     /**
      * @param boolean $ClearCacheResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\ClearCacheResponse
+     * @return ClearCacheResponse
      */
     public function setClearCacheResult($ClearCacheResult)
     {
-      $this->ClearCacheResult = $ClearCacheResult;
-      return $this;
+        $this->ClearCacheResult = $ClearCacheResult;
+        return $this;
     }
 
 }

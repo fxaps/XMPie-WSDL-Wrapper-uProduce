@@ -20,10 +20,10 @@ class Connection
      */
     protected $m_AdditionalInfo = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -31,17 +31,17 @@ class Connection
      */
     public function getM_Type()
     {
-      return $this->m_Type;
+        return $this->m_Type;
     }
 
     /**
      * @param string $m_Type
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\Connection
+     * @return Connection
      */
     public function setM_Type($m_Type)
     {
-      $this->m_Type = $m_Type;
-      return $this;
+        $this->m_Type = $m_Type;
+        return $this;
     }
 
     /**
@@ -49,17 +49,17 @@ class Connection
      */
     public function getM_ConnectionString()
     {
-      return $this->m_ConnectionString;
+        return $this->m_ConnectionString;
     }
 
     /**
      * @param string $m_ConnectionString
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\Connection
+     * @return Connection
      */
     public function setM_ConnectionString($m_ConnectionString)
     {
-      $this->m_ConnectionString = $m_ConnectionString;
-      return $this;
+        $this->m_ConnectionString = $m_ConnectionString;
+        return $this;
     }
 
     /**
@@ -67,17 +67,17 @@ class Connection
      */
     public function getM_AdditionalInfo()
     {
-      return $this->m_AdditionalInfo;
+        return $this->m_AdditionalInfo;
     }
 
     /**
      * @param string $m_AdditionalInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\Connection
+     * @return Connection
      */
     public function setM_AdditionalInfo($m_AdditionalInfo)
     {
-      $this->m_AdditionalInfo = $m_AdditionalInfo;
-      return $this;
+        $this->m_AdditionalInfo = $m_AdditionalInfo;
+        return $this;
     }
 
 }

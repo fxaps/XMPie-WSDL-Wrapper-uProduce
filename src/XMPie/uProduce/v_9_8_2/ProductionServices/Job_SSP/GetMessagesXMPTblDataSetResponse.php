@@ -15,7 +15,7 @@ class GetMessagesXMPTblDataSetResponse
      */
     public function __construct($GetMessagesXMPTblDataSetResult = null)
     {
-      $this->GetMessagesXMPTblDataSetResult = $GetMessagesXMPTblDataSetResult;
+        $this->GetMessagesXMPTblDataSetResult = $GetMessagesXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMessagesXMPTblDataSetResponse
      */
     public function getGetMessagesXMPTblDataSetResult()
     {
-      return $this->GetMessagesXMPTblDataSetResult;
+        return $this->GetMessagesXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetMessagesXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetMessagesXMPTblDataSetResponse
+     * @return GetMessagesXMPTblDataSetResponse
      */
     public function setGetMessagesXMPTblDataSetResult($GetMessagesXMPTblDataSetResult)
     {
-      $this->GetMessagesXMPTblDataSetResult = $GetMessagesXMPTblDataSetResult;
-      return $this;
+        $this->GetMessagesXMPTblDataSetResult = $GetMessagesXMPTblDataSetResult;
+        return $this;
     }
 
 }

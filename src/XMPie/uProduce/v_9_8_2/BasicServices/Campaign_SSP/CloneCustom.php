@@ -69,16 +69,16 @@ class CloneCustom
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inTargetAccountID = null, $inTargetName = null, $inDocumentIDs = null, $inDataSourceIDs = null, $inAssetSourceIDs = null, $inIncludeFonts = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inCampaignID = $inCampaignID;
-      $this->inTargetAccountID = $inTargetAccountID;
-      $this->inTargetName = $inTargetName;
-      $this->inDocumentIDs = $inDocumentIDs;
-      $this->inDataSourceIDs = $inDataSourceIDs;
-      $this->inAssetSourceIDs = $inAssetSourceIDs;
-      $this->inIncludeFonts = $inIncludeFonts;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inCampaignID = $inCampaignID;
+        $this->inTargetAccountID = $inTargetAccountID;
+        $this->inTargetName = $inTargetName;
+        $this->inDocumentIDs = $inDocumentIDs;
+        $this->inDataSourceIDs = $inDataSourceIDs;
+        $this->inAssetSourceIDs = $inAssetSourceIDs;
+        $this->inIncludeFonts = $inIncludeFonts;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -86,7 +86,7 @@ class CloneCustom
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
@@ -95,8 +95,8 @@ class CloneCustom
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -104,7 +104,7 @@ class CloneCustom
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
@@ -113,8 +113,8 @@ class CloneCustom
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -122,7 +122,7 @@ class CloneCustom
      */
     public function getInCampaignID()
     {
-      return $this->inCampaignID;
+        return $this->inCampaignID;
     }
 
     /**
@@ -131,8 +131,8 @@ class CloneCustom
      */
     public function setInCampaignID($inCampaignID)
     {
-      $this->inCampaignID = $inCampaignID;
-      return $this;
+        $this->inCampaignID = $inCampaignID;
+        return $this;
     }
 
     /**
@@ -140,7 +140,7 @@ class CloneCustom
      */
     public function getInTargetAccountID()
     {
-      return $this->inTargetAccountID;
+        return $this->inTargetAccountID;
     }
 
     /**
@@ -149,8 +149,8 @@ class CloneCustom
      */
     public function setInTargetAccountID($inTargetAccountID)
     {
-      $this->inTargetAccountID = $inTargetAccountID;
-      return $this;
+        $this->inTargetAccountID = $inTargetAccountID;
+        return $this;
     }
 
     /**
@@ -158,7 +158,7 @@ class CloneCustom
      */
     public function getInTargetName()
     {
-      return $this->inTargetName;
+        return $this->inTargetName;
     }
 
     /**
@@ -167,8 +167,8 @@ class CloneCustom
      */
     public function setInTargetName($inTargetName)
     {
-      $this->inTargetName = $inTargetName;
-      return $this;
+        $this->inTargetName = $inTargetName;
+        return $this;
     }
 
     /**
@@ -176,7 +176,7 @@ class CloneCustom
      */
     public function getInDocumentIDs()
     {
-      return $this->inDocumentIDs;
+        return $this->inDocumentIDs;
     }
 
     /**
@@ -185,8 +185,8 @@ class CloneCustom
      */
     public function setInDocumentIDs($inDocumentIDs)
     {
-      $this->inDocumentIDs = $inDocumentIDs;
-      return $this;
+        $this->inDocumentIDs = $inDocumentIDs;
+        return $this;
     }
 
     /**
@@ -194,7 +194,7 @@ class CloneCustom
      */
     public function getInDataSourceIDs()
     {
-      return $this->inDataSourceIDs;
+        return $this->inDataSourceIDs;
     }
 
     /**
@@ -203,8 +203,8 @@ class CloneCustom
      */
     public function setInDataSourceIDs($inDataSourceIDs)
     {
-      $this->inDataSourceIDs = $inDataSourceIDs;
-      return $this;
+        $this->inDataSourceIDs = $inDataSourceIDs;
+        return $this;
     }
 
     /**
@@ -212,7 +212,7 @@ class CloneCustom
      */
     public function getInAssetSourceIDs()
     {
-      return $this->inAssetSourceIDs;
+        return $this->inAssetSourceIDs;
     }
 
     /**
@@ -221,8 +221,8 @@ class CloneCustom
      */
     public function setInAssetSourceIDs($inAssetSourceIDs)
     {
-      $this->inAssetSourceIDs = $inAssetSourceIDs;
-      return $this;
+        $this->inAssetSourceIDs = $inAssetSourceIDs;
+        return $this;
     }
 
     /**
@@ -230,7 +230,7 @@ class CloneCustom
      */
     public function getInIncludeFonts()
     {
-      return $this->inIncludeFonts;
+        return $this->inIncludeFonts;
     }
 
     /**
@@ -239,8 +239,8 @@ class CloneCustom
      */
     public function setInIncludeFonts($inIncludeFonts)
     {
-      $this->inIncludeFonts = $inIncludeFonts;
-      return $this;
+        $this->inIncludeFonts = $inIncludeFonts;
+        return $this;
     }
 
     /**
@@ -248,7 +248,7 @@ class CloneCustom
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
@@ -257,8 +257,8 @@ class CloneCustom
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SendMailResponse
      */
     public function __construct($SendMailResult = null)
     {
-      $this->SendMailResult = $SendMailResult;
+        $this->SendMailResult = $SendMailResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SendMailResponse
      */
     public function getSendMailResult()
     {
-      return $this->SendMailResult;
+        return $this->SendMailResult;
     }
 
     /**
      * @param ArrayOfSendEmailResult $SendMailResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMailResponse
+     * @return SendMailResponse
      */
     public function setSendMailResult($SendMailResult)
     {
-      $this->SendMailResult = $SendMailResult;
-      return $this;
+        $this->SendMailResult = $SendMailResult;
+        return $this;
     }
 
 }

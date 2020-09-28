@@ -3,88 +3,89 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP;
 
 
+use SoapClient;
 use SoapFault;
 
 /**
  * Licensing Web Service.
  */
-class Licensing_SSP extends \SoapClient
+class Licensing_SSP extends SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array (
-  'GetServerID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetServerID',
-  'GetServerIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetServerIDResponse',
-  'Activate' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\Activate',
-  'ActivateResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ActivateResponse',
-  'Report' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\Report',
-  'ArrayOfReportMessage' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfReportMessage',
-  'ReportMessage' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ReportMessage',
-  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfProperty',
-  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\Property',
-  'Reactivate' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\Reactivate',
-  'ReactivateResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ReactivateResponse',
-  'IsUProduceLE' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProduceLE',
-  'IsUProduceLEResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProduceLEResponse',
-  'IsUProducePrintOnly' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProducePrintOnly',
-  'IsUProducePrintOnlyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProducePrintOnlyResponse',
-  'IsUProduceEMedia' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProduceEMedia',
-  'IsUProduceEMediaResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProduceEMediaResponse',
-  'GetCustomerClicksView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetCustomerClicksView',
-  'GetCustomerClicksViewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetCustomerClicksViewResponse',
-  'GetCustomerClicksViewResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetCustomerClicksViewResult',
-  'GetCustomerClicksXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetCustomerClicksXMPTblDataSet',
-  'GetCustomerClicksXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetCustomerClicksXMPTblDataSetResponse',
-  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\XMPTblDataSet',
-  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfXMPTbl',
-  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\XMPTbl',
-  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfXMPTblColumn',
-  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\XMPTblColumn',
-  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfXMPTblRow',
-  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\XMPTblRow',
-  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfXMPRowField',
-  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\XMPRowField',
-  'GetAvailableClicks' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableClicks',
-  'GetAvailableClicksResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableClicksResponse',
-  'IsPerpetual' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsPerpetual',
-  'IsPerpetualResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsPerpetualResponse',
-  'GetAvailableOutputFormats' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableOutputFormats',
-  'GetAvailableOutputFormatsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableOutputFormatsResponse',
-  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfString',
-  'GetAvailableInputFormats' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableInputFormats',
-  'GetAvailableInputFormatsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableInputFormatsResponse',
-  'IsTrackingAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsTrackingAvailable',
-  'IsTrackingAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsTrackingAvailableResponse',
-  'GetMarketingConsoleType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMarketingConsoleType',
-  'GetMarketingConsoleTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMarketingConsoleTypeResponse',
-  'GetStatus' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetStatus',
-  'GetStatusResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetStatusResponse',
-  'StatusInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\StatusInfo',
-  'IsMIAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsMIAvailable',
-  'IsMIAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsMIAvailableResponse',
-  'GetMaximumNumberOfAvailableInstances' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumNumberOfAvailableInstances',
-  'GetMaximumNumberOfAvailableInstancesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumNumberOfAvailableInstancesResponse',
-  'GetMaximumNumberOfConnectivityLicenses' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumNumberOfConnectivityLicenses',
-  'GetMaximumNumberOfConnectivityLicensesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumNumberOfConnectivityLicensesResponse',
-  'GetConnectivityLicenses' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetConnectivityLicenses',
-  'GetConnectivityLicensesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetConnectivityLicensesResponse',
-  'GetConnectivityLicensesResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetConnectivityLicensesResult',
-  'ValidateConnectivityLicense' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ValidateConnectivityLicense',
-  'ValidateConnectivityLicenseResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ValidateConnectivityLicenseResponse',
-  'DeleteConnectivityLicense' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\DeleteConnectivityLicense',
-  'DeleteConnectivityLicenseResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\DeleteConnectivityLicenseResponse',
-  'GetMaximumFeatureClients' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumFeatureClients',
-  'GetMaximumFeatureClientsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumFeatureClientsResponse',
-  'GetFeatureClients' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetFeatureClients',
-  'GetFeatureClientsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetFeatureClientsResponse',
-  'GetFeatureClientsResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetFeatureClientsResult',
-  'ValidateFeatureClient' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ValidateFeatureClient',
-  'ValidateFeatureClientResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ValidateFeatureClientResponse',
-  'DeleteFeatureClient' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\DeleteFeatureClient',
-  'DeleteFeatureClientResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\DeleteFeatureClientResponse',
-);
+    private static $classmap = array(
+        'GetServerID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetServerID',
+        'GetServerIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetServerIDResponse',
+        'Activate' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\Activate',
+        'ActivateResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ActivateResponse',
+        'Report' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\Report',
+        'ArrayOfReportMessage' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfReportMessage',
+        'ReportMessage' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ReportMessage',
+        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfProperty',
+        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\Property',
+        'Reactivate' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\Reactivate',
+        'ReactivateResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ReactivateResponse',
+        'IsUProduceLE' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProduceLE',
+        'IsUProduceLEResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProduceLEResponse',
+        'IsUProducePrintOnly' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProducePrintOnly',
+        'IsUProducePrintOnlyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProducePrintOnlyResponse',
+        'IsUProduceEMedia' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProduceEMedia',
+        'IsUProduceEMediaResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsUProduceEMediaResponse',
+        'GetCustomerClicksView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetCustomerClicksView',
+        'GetCustomerClicksViewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetCustomerClicksViewResponse',
+        'GetCustomerClicksViewResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetCustomerClicksViewResult',
+        'GetCustomerClicksXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetCustomerClicksXMPTblDataSet',
+        'GetCustomerClicksXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetCustomerClicksXMPTblDataSetResponse',
+        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\XMPTblDataSet',
+        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfXMPTbl',
+        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\XMPTbl',
+        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfXMPTblColumn',
+        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\XMPTblColumn',
+        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfXMPTblRow',
+        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\XMPTblRow',
+        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfXMPRowField',
+        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\XMPRowField',
+        'GetAvailableClicks' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableClicks',
+        'GetAvailableClicksResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableClicksResponse',
+        'IsPerpetual' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsPerpetual',
+        'IsPerpetualResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsPerpetualResponse',
+        'GetAvailableOutputFormats' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableOutputFormats',
+        'GetAvailableOutputFormatsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableOutputFormatsResponse',
+        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ArrayOfString',
+        'GetAvailableInputFormats' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableInputFormats',
+        'GetAvailableInputFormatsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetAvailableInputFormatsResponse',
+        'IsTrackingAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsTrackingAvailable',
+        'IsTrackingAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsTrackingAvailableResponse',
+        'GetMarketingConsoleType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMarketingConsoleType',
+        'GetMarketingConsoleTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMarketingConsoleTypeResponse',
+        'GetStatus' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetStatus',
+        'GetStatusResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetStatusResponse',
+        'StatusInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\StatusInfo',
+        'IsMIAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsMIAvailable',
+        'IsMIAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\IsMIAvailableResponse',
+        'GetMaximumNumberOfAvailableInstances' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumNumberOfAvailableInstances',
+        'GetMaximumNumberOfAvailableInstancesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumNumberOfAvailableInstancesResponse',
+        'GetMaximumNumberOfConnectivityLicenses' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumNumberOfConnectivityLicenses',
+        'GetMaximumNumberOfConnectivityLicensesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumNumberOfConnectivityLicensesResponse',
+        'GetConnectivityLicenses' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetConnectivityLicenses',
+        'GetConnectivityLicensesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetConnectivityLicensesResponse',
+        'GetConnectivityLicensesResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetConnectivityLicensesResult',
+        'ValidateConnectivityLicense' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ValidateConnectivityLicense',
+        'ValidateConnectivityLicenseResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ValidateConnectivityLicenseResponse',
+        'DeleteConnectivityLicense' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\DeleteConnectivityLicense',
+        'DeleteConnectivityLicenseResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\DeleteConnectivityLicenseResponse',
+        'GetMaximumFeatureClients' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumFeatureClients',
+        'GetMaximumFeatureClientsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetMaximumFeatureClientsResponse',
+        'GetFeatureClients' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetFeatureClients',
+        'GetFeatureClientsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetFeatureClientsResponse',
+        'GetFeatureClientsResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\GetFeatureClientsResult',
+        'ValidateFeatureClient' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ValidateFeatureClient',
+        'ValidateFeatureClientResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\ValidateFeatureClientResponse',
+        'DeleteFeatureClient' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\DeleteFeatureClient',
+        'DeleteFeatureClientResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Licensing_SSP\\DeleteFeatureClientResponse',
+    );
 
     /**
      * @param array $options A array of config values
@@ -93,19 +94,19 @@ class Licensing_SSP extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-    
-  foreach (self::$classmap as $key => $value) {
-    if (!isset($options['classmap'][$key])) {
-      $options['classmap'][$key] = $value;
-    }
-  }
-      $options = array_merge(array (
-  'features' => 1,
-), $options);
-      if (!$wsdl) {
-        $wsdl = 'http://localhost/xmpiewsapi/Licensing_SSP.asmx?wsdl';
-      }
-      parent::__construct($wsdl, $options);
+
+        foreach (self::$classmap as $key => $value) {
+            if (!isset($options['classmap'][$key])) {
+                $options['classmap'][$key] = $value;
+            }
+        }
+        $options = array_merge(array(
+            'features' => 1,
+        ), $options);
+        if (!$wsdl) {
+            $wsdl = 'http://localhost/xmpiewsapi/Licensing_SSP.asmx?wsdl';
+        }
+        parent::__construct($wsdl, $options);
     }
 
     /**
@@ -116,7 +117,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetServerID(GetServerID $parameters)
     {
-      return $this->__soapCall('GetServerID', array($parameters));
+        return $this->__soapCall('GetServerID', array($parameters));
     }
 
     /**
@@ -127,7 +128,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function Activate(Activate $parameters)
     {
-      return $this->__soapCall('Activate', array($parameters));
+        return $this->__soapCall('Activate', array($parameters));
     }
 
     /**
@@ -138,7 +139,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function Reactivate(Reactivate $parameters)
     {
-      return $this->__soapCall('Reactivate', array($parameters));
+        return $this->__soapCall('Reactivate', array($parameters));
     }
 
     /**
@@ -149,7 +150,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function IsUProduceLE(IsUProduceLE $parameters)
     {
-      return $this->__soapCall('IsUProduceLE', array($parameters));
+        return $this->__soapCall('IsUProduceLE', array($parameters));
     }
 
     /**
@@ -160,7 +161,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function IsUProducePrintOnly(IsUProducePrintOnly $parameters)
     {
-      return $this->__soapCall('IsUProducePrintOnly', array($parameters));
+        return $this->__soapCall('IsUProducePrintOnly', array($parameters));
     }
 
     /**
@@ -171,7 +172,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function IsUProduceEMedia(IsUProduceEMedia $parameters)
     {
-      return $this->__soapCall('IsUProduceEMedia', array($parameters));
+        return $this->__soapCall('IsUProduceEMedia', array($parameters));
     }
 
     /**
@@ -182,7 +183,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetCustomerClicksView(GetCustomerClicksView $parameters)
     {
-      return $this->__soapCall('GetCustomerClicksView', array($parameters));
+        return $this->__soapCall('GetCustomerClicksView', array($parameters));
     }
 
     /**
@@ -193,7 +194,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetCustomerClicksXMPTblDataSet(GetCustomerClicksXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetCustomerClicksXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetCustomerClicksXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -204,7 +205,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetAvailableClicks(GetAvailableClicks $parameters)
     {
-      return $this->__soapCall('GetAvailableClicks', array($parameters));
+        return $this->__soapCall('GetAvailableClicks', array($parameters));
     }
 
     /**
@@ -215,7 +216,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function IsPerpetual(IsPerpetual $parameters)
     {
-      return $this->__soapCall('IsPerpetual', array($parameters));
+        return $this->__soapCall('IsPerpetual', array($parameters));
     }
 
     /**
@@ -226,7 +227,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetAvailableOutputFormats(GetAvailableOutputFormats $parameters)
     {
-      return $this->__soapCall('GetAvailableOutputFormats', array($parameters));
+        return $this->__soapCall('GetAvailableOutputFormats', array($parameters));
     }
 
     /**
@@ -237,7 +238,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetAvailableInputFormats(GetAvailableInputFormats $parameters)
     {
-      return $this->__soapCall('GetAvailableInputFormats', array($parameters));
+        return $this->__soapCall('GetAvailableInputFormats', array($parameters));
     }
 
     /**
@@ -248,7 +249,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function IsTrackingAvailable(IsTrackingAvailable $parameters)
     {
-      return $this->__soapCall('IsTrackingAvailable', array($parameters));
+        return $this->__soapCall('IsTrackingAvailable', array($parameters));
     }
 
     /**
@@ -259,7 +260,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetMarketingConsoleType(GetMarketingConsoleType $parameters)
     {
-      return $this->__soapCall('GetMarketingConsoleType', array($parameters));
+        return $this->__soapCall('GetMarketingConsoleType', array($parameters));
     }
 
     /**
@@ -270,7 +271,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetStatus(GetStatus $parameters)
     {
-      return $this->__soapCall('GetStatus', array($parameters));
+        return $this->__soapCall('GetStatus', array($parameters));
     }
 
     /**
@@ -281,7 +282,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function IsMIAvailable(IsMIAvailable $parameters)
     {
-      return $this->__soapCall('IsMIAvailable', array($parameters));
+        return $this->__soapCall('IsMIAvailable', array($parameters));
     }
 
     /**
@@ -292,7 +293,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetMaximumNumberOfAvailableInstances(GetMaximumNumberOfAvailableInstances $parameters)
     {
-      return $this->__soapCall('GetMaximumNumberOfAvailableInstances', array($parameters));
+        return $this->__soapCall('GetMaximumNumberOfAvailableInstances', array($parameters));
     }
 
     /**
@@ -303,7 +304,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetMaximumNumberOfConnectivityLicenses(GetMaximumNumberOfConnectivityLicenses $parameters)
     {
-      return $this->__soapCall('GetMaximumNumberOfConnectivityLicenses', array($parameters));
+        return $this->__soapCall('GetMaximumNumberOfConnectivityLicenses', array($parameters));
     }
 
     /**
@@ -314,7 +315,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetConnectivityLicenses(GetConnectivityLicenses $parameters)
     {
-      return $this->__soapCall('GetConnectivityLicenses', array($parameters));
+        return $this->__soapCall('GetConnectivityLicenses', array($parameters));
     }
 
     /**
@@ -325,7 +326,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function ValidateConnectivityLicense(ValidateConnectivityLicense $parameters)
     {
-      return $this->__soapCall('ValidateConnectivityLicense', array($parameters));
+        return $this->__soapCall('ValidateConnectivityLicense', array($parameters));
     }
 
     /**
@@ -336,7 +337,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function DeleteConnectivityLicense(DeleteConnectivityLicense $parameters)
     {
-      return $this->__soapCall('DeleteConnectivityLicense', array($parameters));
+        return $this->__soapCall('DeleteConnectivityLicense', array($parameters));
     }
 
     /**
@@ -347,7 +348,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetMaximumFeatureClients(GetMaximumFeatureClients $parameters)
     {
-      return $this->__soapCall('GetMaximumFeatureClients', array($parameters));
+        return $this->__soapCall('GetMaximumFeatureClients', array($parameters));
     }
 
     /**
@@ -358,7 +359,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function GetFeatureClients(GetFeatureClients $parameters)
     {
-      return $this->__soapCall('GetFeatureClients', array($parameters));
+        return $this->__soapCall('GetFeatureClients', array($parameters));
     }
 
     /**
@@ -369,7 +370,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function ValidateFeatureClient(ValidateFeatureClient $parameters)
     {
-      return $this->__soapCall('ValidateFeatureClient', array($parameters));
+        return $this->__soapCall('ValidateFeatureClient', array($parameters));
     }
 
     /**
@@ -380,7 +381,7 @@ class Licensing_SSP extends \SoapClient
      */
     public function DeleteFeatureClient(DeleteFeatureClient $parameters)
     {
-      return $this->__soapCall('DeleteFeatureClient', array($parameters));
+        return $this->__soapCall('DeleteFeatureClient', array($parameters));
     }
 
 }

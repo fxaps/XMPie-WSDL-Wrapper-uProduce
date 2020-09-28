@@ -33,10 +33,10 @@ class GetProperty
      */
     public function __construct($inUsername = null, $inPassword = null, $inDeliveryProviderID = null, $PropertyName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDeliveryProviderID = $inDeliveryProviderID;
-      $this->PropertyName = $PropertyName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDeliveryProviderID = $inDeliveryProviderID;
+        $this->PropertyName = $PropertyName;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetProperty
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetProperty
+     * @return GetProperty
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetProperty
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetProperty
+     * @return GetProperty
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetProperty
      */
     public function getInDeliveryProviderID()
     {
-      return $this->inDeliveryProviderID;
+        return $this->inDeliveryProviderID;
     }
 
     /**
      * @param string $inDeliveryProviderID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetProperty
+     * @return GetProperty
      */
     public function setInDeliveryProviderID($inDeliveryProviderID)
     {
-      $this->inDeliveryProviderID = $inDeliveryProviderID;
-      return $this;
+        $this->inDeliveryProviderID = $inDeliveryProviderID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetProperty
      */
     public function getPropertyName()
     {
-      return $this->PropertyName;
+        return $this->PropertyName;
     }
 
     /**
      * @param string $PropertyName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetProperty
+     * @return GetProperty
      */
     public function setPropertyName($PropertyName)
     {
-      $this->PropertyName = $PropertyName;
-      return $this;
+        $this->PropertyName = $PropertyName;
+        return $this;
     }
 
 }

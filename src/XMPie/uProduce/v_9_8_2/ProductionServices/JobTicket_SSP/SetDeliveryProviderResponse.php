@@ -15,7 +15,7 @@ class SetDeliveryProviderResponse
      */
     public function __construct($SetDeliveryProviderResult = null)
     {
-      $this->SetDeliveryProviderResult = $SetDeliveryProviderResult;
+        $this->SetDeliveryProviderResult = $SetDeliveryProviderResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetDeliveryProviderResponse
      */
     public function getSetDeliveryProviderResult()
     {
-      return $this->SetDeliveryProviderResult;
+        return $this->SetDeliveryProviderResult;
     }
 
     /**
      * @param boolean $SetDeliveryProviderResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDeliveryProviderResponse
+     * @return SetDeliveryProviderResponse
      */
     public function setSetDeliveryProviderResult($SetDeliveryProviderResult)
     {
-      $this->SetDeliveryProviderResult = $SetDeliveryProviderResult;
-      return $this;
+        $this->SetDeliveryProviderResult = $SetDeliveryProviderResult;
+        return $this;
     }
 
 }

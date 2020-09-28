@@ -15,7 +15,7 @@ class GetTicketPropertyFromDBResponse
      */
     public function __construct($GetTicketPropertyFromDBResult = null)
     {
-      $this->GetTicketPropertyFromDBResult = $GetTicketPropertyFromDBResult;
+        $this->GetTicketPropertyFromDBResult = $GetTicketPropertyFromDBResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTicketPropertyFromDBResponse
      */
     public function getGetTicketPropertyFromDBResult()
     {
-      return $this->GetTicketPropertyFromDBResult;
+        return $this->GetTicketPropertyFromDBResult;
     }
 
     /**
      * @param string $GetTicketPropertyFromDBResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTicketPropertyFromDBResponse
+     * @return GetTicketPropertyFromDBResponse
      */
     public function setGetTicketPropertyFromDBResult($GetTicketPropertyFromDBResult)
     {
-      $this->GetTicketPropertyFromDBResult = $GetTicketPropertyFromDBResult;
-      return $this;
+        $this->GetTicketPropertyFromDBResult = $GetTicketPropertyFromDBResult;
+        return $this;
     }
 
 }

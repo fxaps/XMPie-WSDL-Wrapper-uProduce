@@ -39,11 +39,11 @@ class GetSettings
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetSourceID = null, $inSettingsNames = null, $inIncludeInheritable = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAssetSourceID = $inAssetSourceID;
-      $this->inSettingsNames = $inSettingsNames;
-      $this->inIncludeInheritable = $inIncludeInheritable;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAssetSourceID = $inAssetSourceID;
+        $this->inSettingsNames = $inSettingsNames;
+        $this->inIncludeInheritable = $inIncludeInheritable;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetSettings
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetSettings
+     * @return GetSettings
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetSettings
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetSettings
+     * @return GetSettings
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetSettings
      */
     public function getInAssetSourceID()
     {
-      return $this->inAssetSourceID;
+        return $this->inAssetSourceID;
     }
 
     /**
      * @param string $inAssetSourceID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetSettings
+     * @return GetSettings
      */
     public function setInAssetSourceID($inAssetSourceID)
     {
-      $this->inAssetSourceID = $inAssetSourceID;
-      return $this;
+        $this->inAssetSourceID = $inAssetSourceID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetSettings
      */
     public function getInSettingsNames()
     {
-      return $this->inSettingsNames;
+        return $this->inSettingsNames;
     }
 
     /**
      * @param ArrayOfString $inSettingsNames
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetSettings
+     * @return GetSettings
      */
     public function setInSettingsNames($inSettingsNames)
     {
-      $this->inSettingsNames = $inSettingsNames;
-      return $this;
+        $this->inSettingsNames = $inSettingsNames;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetSettings
      */
     public function getInIncludeInheritable()
     {
-      return $this->inIncludeInheritable;
+        return $this->inIncludeInheritable;
     }
 
     /**
      * @param boolean $inIncludeInheritable
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetSettings
+     * @return GetSettings
      */
     public function setInIncludeInheritable($inIncludeInheritable)
     {
-      $this->inIncludeInheritable = $inIncludeInheritable;
-      return $this;
+        $this->inIncludeInheritable = $inIncludeInheritable;
+        return $this;
     }
 
 }

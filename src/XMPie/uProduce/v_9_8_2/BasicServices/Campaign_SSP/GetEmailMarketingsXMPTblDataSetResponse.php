@@ -15,7 +15,7 @@ class GetEmailMarketingsXMPTblDataSetResponse
      */
     public function __construct($GetEmailMarketingsXMPTblDataSetResult = null)
     {
-      $this->GetEmailMarketingsXMPTblDataSetResult = $GetEmailMarketingsXMPTblDataSetResult;
+        $this->GetEmailMarketingsXMPTblDataSetResult = $GetEmailMarketingsXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetEmailMarketingsXMPTblDataSetResponse
      */
     public function getGetEmailMarketingsXMPTblDataSetResult()
     {
-      return $this->GetEmailMarketingsXMPTblDataSetResult;
+        return $this->GetEmailMarketingsXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetEmailMarketingsXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetEmailMarketingsXMPTblDataSetResponse
+     * @return GetEmailMarketingsXMPTblDataSetResponse
      */
     public function setGetEmailMarketingsXMPTblDataSetResult($GetEmailMarketingsXMPTblDataSetResult)
     {
-      $this->GetEmailMarketingsXMPTblDataSetResult = $GetEmailMarketingsXMPTblDataSetResult;
-      return $this;
+        $this->GetEmailMarketingsXMPTblDataSetResult = $GetEmailMarketingsXMPTblDataSetResult;
+        return $this;
     }
 
 }

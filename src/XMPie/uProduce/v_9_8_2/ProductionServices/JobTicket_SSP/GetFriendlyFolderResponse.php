@@ -15,7 +15,7 @@ class GetFriendlyFolderResponse
      */
     public function __construct($GetFriendlyFolderResult = null)
     {
-      $this->GetFriendlyFolderResult = $GetFriendlyFolderResult;
+        $this->GetFriendlyFolderResult = $GetFriendlyFolderResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFriendlyFolderResponse
      */
     public function getGetFriendlyFolderResult()
     {
-      return $this->GetFriendlyFolderResult;
+        return $this->GetFriendlyFolderResult;
     }
 
     /**
      * @param string $GetFriendlyFolderResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFriendlyFolderResponse
+     * @return GetFriendlyFolderResponse
      */
     public function setGetFriendlyFolderResult($GetFriendlyFolderResult)
     {
-      $this->GetFriendlyFolderResult = $GetFriendlyFolderResult;
-      return $this;
+        $this->GetFriendlyFolderResult = $GetFriendlyFolderResult;
+        return $this;
     }
 
 }

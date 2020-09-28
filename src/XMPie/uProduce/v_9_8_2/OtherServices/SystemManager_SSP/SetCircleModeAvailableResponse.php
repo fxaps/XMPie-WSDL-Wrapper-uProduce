@@ -15,7 +15,7 @@ class SetCircleModeAvailableResponse
      */
     public function __construct($SetCircleModeAvailableResult = null)
     {
-      $this->SetCircleModeAvailableResult = $SetCircleModeAvailableResult;
+        $this->SetCircleModeAvailableResult = $SetCircleModeAvailableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetCircleModeAvailableResponse
      */
     public function getSetCircleModeAvailableResult()
     {
-      return $this->SetCircleModeAvailableResult;
+        return $this->SetCircleModeAvailableResult;
     }
 
     /**
      * @param boolean $SetCircleModeAvailableResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetCircleModeAvailableResponse
+     * @return SetCircleModeAvailableResponse
      */
     public function setSetCircleModeAvailableResult($SetCircleModeAvailableResult)
     {
-      $this->SetCircleModeAvailableResult = $SetCircleModeAvailableResult;
-      return $this;
+        $this->SetCircleModeAvailableResult = $SetCircleModeAvailableResult;
+        return $this;
     }
 
 }

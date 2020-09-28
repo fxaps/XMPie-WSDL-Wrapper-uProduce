@@ -135,10 +135,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CreateNew
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CreateNew
+     */
     public function CreateNew($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -153,10 +153,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfProperty
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfProperty
+     */
     public function ArrayOfProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -171,10 +171,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return Property
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return Property
+     */
     public function Property($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -189,10 +189,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CreateNewResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CreateNewResponse
+     */
     public function CreateNewResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -207,10 +207,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CreateNewEx
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CreateNewEx
+     */
     public function CreateNewEx($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -225,10 +225,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfAssetSourceParameter
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfAssetSourceParameter
+     */
     public function ArrayOfAssetSourceParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -243,10 +243,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return AssetSourceParameter
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return AssetSourceParameter
+     */
     public function AssetSourceParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -261,10 +261,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CreateNewExResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CreateNewExResponse
+     */
     public function CreateNewExResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -279,10 +279,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return Delete
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return Delete
+     */
     public function Delete($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -297,10 +297,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteResponse
+     */
     public function DeleteResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -315,10 +315,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetCampaign
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetCampaign
+     */
     public function GetCampaign($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -333,10 +333,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetCampaignResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetCampaignResponse
+     */
     public function GetCampaignResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -351,10 +351,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetSourceProviderSupport
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetSourceProviderSupport
+     */
     public function GetAssetSourceProviderSupport($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -369,10 +369,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetSourceProviderSupportResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetSourceProviderSupportResponse
+     */
     public function GetAssetSourceProviderSupportResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -387,10 +387,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return AssetSourceProviderSupport
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return AssetSourceProviderSupport
+     */
     public function AssetSourceProviderSupport($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -405,10 +405,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFolderPath
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFolderPath
+     */
     public function GetFolderPath($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -423,10 +423,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFolderPathResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFolderPathResponse
+     */
     public function GetFolderPathResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -441,10 +441,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetProperty
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetProperty
+     */
     public function GetProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -459,10 +459,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPropertyResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPropertyResponse
+     */
     public function GetPropertyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -477,10 +477,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetProperties
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetProperties
+     */
     public function GetProperties($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -495,10 +495,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfString
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfString
+     */
     public function ArrayOfString($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -513,10 +513,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPropertiesResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPropertiesResponse
+     */
     public function GetPropertiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -531,10 +531,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAllProperties
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAllProperties
+     */
     public function GetAllProperties($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -549,10 +549,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAllPropertiesResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAllPropertiesResponse
+     */
     public function GetAllPropertiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -567,10 +567,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetDataSet
+     */
     public function GetDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -585,10 +585,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetDataSetResponse
+     */
     public function GetDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -603,10 +603,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetDataSetResult
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetDataSetResult
+     */
     public function GetDataSetResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -621,10 +621,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetXMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetXMPTblDataSet
+     */
     public function GetXMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -639,10 +639,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetXMPTblDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetXMPTblDataSetResponse
+     */
     public function GetXMPTblDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -657,10 +657,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblDataSet
+     */
     public function XMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -675,10 +675,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTbl
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTbl
+     */
     public function ArrayOfXMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -693,10 +693,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTbl
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTbl
+     */
     public function XMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -711,10 +711,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTblColumn
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTblColumn
+     */
     public function ArrayOfXMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -729,10 +729,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblColumn
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblColumn
+     */
     public function XMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -747,10 +747,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTblRow
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTblRow
+     */
     public function ArrayOfXMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -765,10 +765,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblRow
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblRow
+     */
     public function XMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -783,10 +783,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPRowField
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPRowField
+     */
     public function ArrayOfXMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -801,10 +801,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPRowField
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPRowField
+     */
     public function XMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -819,10 +819,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetProperty
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetProperty
+     */
     public function SetProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -837,10 +837,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetPropertyResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetPropertyResponse
+     */
     public function SetPropertyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -855,10 +855,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetProperties
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetProperties
+     */
     public function SetProperties($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -873,10 +873,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetPropertiesResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetPropertiesResponse
+     */
     public function SetPropertiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -891,10 +891,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsAssetsViewAvailable
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsAssetsViewAvailable
+     */
     public function IsAssetsViewAvailable($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -909,10 +909,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsAssetsViewAvailableResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsAssetsViewAvailableResponse
+     */
     public function IsAssetsViewAvailableResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -927,10 +927,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetSourceType
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetSourceType
+     */
     public function GetAssetSourceType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -945,10 +945,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetSourceTypeResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetSourceTypeResponse
+     */
     public function GetAssetSourceTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -963,10 +963,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetSourceParameters
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetSourceParameters
+     */
     public function GetAssetSourceParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -981,10 +981,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetSourceParametersResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetSourceParametersResponse
+     */
     public function GetAssetSourceParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -999,10 +999,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetAssetSourceParameters
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetAssetSourceParameters
+     */
     public function SetAssetSourceParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1017,10 +1017,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetAssetSourceParametersResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetAssetSourceParametersResponse
+     */
     public function SetAssetSourceParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1035,10 +1035,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetSourceInfo
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetSourceInfo
+     */
     public function GetAssetSourceInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1053,10 +1053,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetSourceInfoResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetSourceInfoResponse
+     */
     public function GetAssetSourceInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1071,10 +1071,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return AssetSourceStruct
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return AssetSourceStruct
+     */
     public function AssetSourceStruct($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1089,10 +1089,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetSourceInfoEx
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetSourceInfoEx
+     */
     public function GetAssetSourceInfoEx($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1107,10 +1107,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetSourceInfoExResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetSourceInfoExResponse
+     */
     public function GetAssetSourceInfoExResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1125,10 +1125,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return AssetSourceInfo
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return AssetSourceInfo
+     */
     public function AssetSourceInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1143,10 +1143,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetName
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetName
+     */
     public function GetName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1161,10 +1161,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetNameResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetNameResponse
+     */
     public function GetNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1179,10 +1179,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetName
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetName
+     */
     public function SetName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1197,10 +1197,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetNameResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetNameResponse
+     */
     public function SetNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1215,10 +1215,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPriority
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPriority
+     */
     public function GetPriority($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1233,10 +1233,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetPriorityResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetPriorityResponse
+     */
     public function GetPriorityResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1251,10 +1251,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetPriority
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetPriority
+     */
     public function SetPriority($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1269,10 +1269,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetPriorityResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetPriorityResponse
+     */
     public function SetPriorityResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1287,10 +1287,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetActiveness
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetActiveness
+     */
     public function GetActiveness($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1305,10 +1305,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetActivenessResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetActivenessResponse
+     */
     public function GetActivenessResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1323,10 +1323,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetActiveness
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetActiveness
+     */
     public function SetActiveness($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1341,10 +1341,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetActivenessResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetActivenessResponse
+     */
     public function SetActivenessResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1359,10 +1359,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetID
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetID
+     */
     public function GetAssetID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1377,10 +1377,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetIDResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetIDResponse
+     */
     public function GetAssetIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1395,10 +1395,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssets
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssets
+     */
     public function GetAssets($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1413,10 +1413,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetsResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetsResponse
+     */
     public function GetAssetsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1431,10 +1431,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetsDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetsDataSet
+     */
     public function GetAssetsDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1449,10 +1449,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetsDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetsDataSetResponse
+     */
     public function GetAssetsDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1467,10 +1467,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetsDataSetResult
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetsDataSetResult
+     */
     public function GetAssetsDataSetResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1485,10 +1485,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetsXMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetsXMPTblDataSet
+     */
     public function GetAssetsXMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1503,10 +1503,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAssetsXMPTblDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAssetsXMPTblDataSetResponse
+     */
     public function GetAssetsXMPTblDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1521,10 +1521,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteAssets
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteAssets
+     */
     public function DeleteAssets($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1539,10 +1539,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteAssetsResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteAssetsResponse
+     */
     public function DeleteAssetsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1557,10 +1557,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteAllAssets
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteAllAssets
+     */
     public function DeleteAllAssets($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1575,10 +1575,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteAllAssetsResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteAllAssetsResponse
+     */
     public function DeleteAllAssetsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1593,10 +1593,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetID
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetID
+     */
     public function GetID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1611,10 +1611,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetIDResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetIDResponse
+     */
     public function GetIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1629,10 +1629,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsExist
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsExist
+     */
     public function IsExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1647,10 +1647,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsExistResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsExistResponse
+     */
     public function IsExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1665,10 +1665,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetSettings
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetSettings
+     */
     public function SetSettings($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1683,10 +1683,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfSetting
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfSetting
+     */
     public function ArrayOfSetting($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1701,10 +1701,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return Setting
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return Setting
+     */
     public function Setting($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1719,10 +1719,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetSettingsResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetSettingsResponse
+     */
     public function SetSettingsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1737,10 +1737,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSettings
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSettings
+     */
     public function GetSettings($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1755,10 +1755,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetSettingsResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetSettingsResponse
+     */
     public function GetSettingsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1773,10 +1773,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteSettings
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteSettings
+     */
     public function DeleteSettings($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1791,10 +1791,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteSettingsResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteSettingsResponse
+     */
     public function DeleteSettingsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1809,10 +1809,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CloneResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CloneResponse
+     */
     public function CloneResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1827,10 +1827,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return AssetSourceMapping
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return AssetSourceMapping
+     */
     public function AssetSourceMapping($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1845,10 +1845,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IDMapping
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IDMapping
+     */
     public function IDMapping($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1863,10 +1863,10 @@ class FabricateAssetSource_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return CloneAssetSource
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return CloneAssetSource
+     */
     public function CloneAssetSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1879,7 +1879,6 @@ class FabricateAssetSource_SSP
         }
         return $CloneAssetSource;
     }
-
 
 
 }

@@ -39,11 +39,11 @@ class CloneCustom
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inTargetCampaignID = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDocumentID = $inDocumentID;
-      $this->inTargetCampaignID = $inTargetCampaignID;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDocumentID = $inDocumentID;
+        $this->inTargetCampaignID = $inTargetCampaignID;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -51,7 +51,7 @@ class CloneCustom
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
@@ -60,8 +60,8 @@ class CloneCustom
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,7 +69,7 @@ class CloneCustom
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
@@ -78,8 +78,8 @@ class CloneCustom
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,7 +87,7 @@ class CloneCustom
      */
     public function getInDocumentID()
     {
-      return $this->inDocumentID;
+        return $this->inDocumentID;
     }
 
     /**
@@ -96,8 +96,8 @@ class CloneCustom
      */
     public function setInDocumentID($inDocumentID)
     {
-      $this->inDocumentID = $inDocumentID;
-      return $this;
+        $this->inDocumentID = $inDocumentID;
+        return $this;
     }
 
     /**
@@ -105,7 +105,7 @@ class CloneCustom
      */
     public function getInTargetCampaignID()
     {
-      return $this->inTargetCampaignID;
+        return $this->inTargetCampaignID;
     }
 
     /**
@@ -114,8 +114,8 @@ class CloneCustom
      */
     public function setInTargetCampaignID($inTargetCampaignID)
     {
-      $this->inTargetCampaignID = $inTargetCampaignID;
-      return $this;
+        $this->inTargetCampaignID = $inTargetCampaignID;
+        return $this;
     }
 
     /**
@@ -123,7 +123,7 @@ class CloneCustom
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
@@ -132,8 +132,8 @@ class CloneCustom
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

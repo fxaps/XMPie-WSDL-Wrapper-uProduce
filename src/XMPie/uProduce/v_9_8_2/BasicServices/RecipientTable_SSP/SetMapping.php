@@ -33,10 +33,10 @@ class SetMapping
      */
     public function __construct($inUsername = null, $inPassword = null, $inRecipientTableID = null, $inFieldMapping = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inRecipientTableID = $inRecipientTableID;
-      $this->inFieldMapping = $inFieldMapping;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inRecipientTableID = $inRecipientTableID;
+        $this->inFieldMapping = $inFieldMapping;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetMapping
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\SetMapping
+     * @return SetMapping
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetMapping
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\SetMapping
+     * @return SetMapping
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetMapping
      */
     public function getInRecipientTableID()
     {
-      return $this->inRecipientTableID;
+        return $this->inRecipientTableID;
     }
 
     /**
      * @param string $inRecipientTableID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\SetMapping
+     * @return SetMapping
      */
     public function setInRecipientTableID($inRecipientTableID)
     {
-      $this->inRecipientTableID = $inRecipientTableID;
-      return $this;
+        $this->inRecipientTableID = $inRecipientTableID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetMapping
      */
     public function getInFieldMapping()
     {
-      return $this->inFieldMapping;
+        return $this->inFieldMapping;
     }
 
     /**
      * @param FieldMappings $inFieldMapping
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\SetMapping
+     * @return SetMapping
      */
     public function setInFieldMapping($inFieldMapping)
     {
-      $this->inFieldMapping = $inFieldMapping;
-      return $this;
+        $this->inFieldMapping = $inFieldMapping;
+        return $this;
     }
 
 }

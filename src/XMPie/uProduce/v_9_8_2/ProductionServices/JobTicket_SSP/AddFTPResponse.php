@@ -15,7 +15,7 @@ class AddFTPResponse
      */
     public function __construct($AddFTPResult = null)
     {
-      $this->AddFTPResult = $AddFTPResult;
+        $this->AddFTPResult = $AddFTPResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddFTPResponse
      */
     public function getAddFTPResult()
     {
-      return $this->AddFTPResult;
+        return $this->AddFTPResult;
     }
 
     /**
      * @param boolean $AddFTPResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTPResponse
+     * @return AddFTPResponse
      */
     public function setAddFTPResult($AddFTPResult)
     {
-      $this->AddFTPResult = $AddFTPResult;
-      return $this;
+        $this->AddFTPResult = $AddFTPResult;
+        return $this;
     }
 
 }

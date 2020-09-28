@@ -27,9 +27,9 @@ class GetAvailableOutputFormats
      */
     public function __construct($inUsername = null, $inPassword = null, $inFilter = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inFilter = $inFilter;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inFilter = $inFilter;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetAvailableOutputFormats
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetAvailableOutputFormats
+     * @return GetAvailableOutputFormats
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetAvailableOutputFormats
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetAvailableOutputFormats
+     * @return GetAvailableOutputFormats
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetAvailableOutputFormats
      */
     public function getInFilter()
     {
-      return $this->inFilter;
+        return $this->inFilter;
     }
 
     /**
      * @param string $inFilter
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetAvailableOutputFormats
+     * @return GetAvailableOutputFormats
      */
     public function setInFilter($inFilter)
     {
-      $this->inFilter = $inFilter;
-      return $this;
+        $this->inFilter = $inFilter;
+        return $this;
     }
 
 }

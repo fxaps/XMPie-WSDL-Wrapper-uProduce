@@ -15,7 +15,7 @@ class GetTicketResponse
      */
     public function __construct($GetTicketResult = null)
     {
-      $this->GetTicketResult = $GetTicketResult;
+        $this->GetTicketResult = $GetTicketResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTicketResponse
      */
     public function getGetTicketResult()
     {
-      return $this->GetTicketResult;
+        return $this->GetTicketResult;
     }
 
     /**
      * @param string $GetTicketResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetTicketResponse
+     * @return GetTicketResponse
      */
     public function setGetTicketResult($GetTicketResult)
     {
-      $this->GetTicketResult = $GetTicketResult;
-      return $this;
+        $this->GetTicketResult = $GetTicketResult;
+        return $this;
     }
 
 }

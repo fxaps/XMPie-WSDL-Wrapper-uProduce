@@ -15,7 +15,7 @@ class DeleteConnectivityLicenseResponse
      */
     public function __construct($DeleteConnectivityLicenseResult = null)
     {
-      $this->DeleteConnectivityLicenseResult = $DeleteConnectivityLicenseResult;
+        $this->DeleteConnectivityLicenseResult = $DeleteConnectivityLicenseResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteConnectivityLicenseResponse
      */
     public function getDeleteConnectivityLicenseResult()
     {
-      return $this->DeleteConnectivityLicenseResult;
+        return $this->DeleteConnectivityLicenseResult;
     }
 
     /**
      * @param boolean $DeleteConnectivityLicenseResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\DeleteConnectivityLicenseResponse
+     * @return DeleteConnectivityLicenseResponse
      */
     public function setDeleteConnectivityLicenseResult($DeleteConnectivityLicenseResult)
     {
-      $this->DeleteConnectivityLicenseResult = $DeleteConnectivityLicenseResult;
-      return $this;
+        $this->DeleteConnectivityLicenseResult = $DeleteConnectivityLicenseResult;
+        return $this;
     }
 
 }

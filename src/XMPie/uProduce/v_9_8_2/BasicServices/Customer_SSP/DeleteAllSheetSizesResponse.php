@@ -15,7 +15,7 @@ class DeleteAllSheetSizesResponse
      */
     public function __construct($DeleteAllSheetSizesResult = null)
     {
-      $this->DeleteAllSheetSizesResult = $DeleteAllSheetSizesResult;
+        $this->DeleteAllSheetSizesResult = $DeleteAllSheetSizesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAllSheetSizesResponse
      */
     public function getDeleteAllSheetSizesResult()
     {
-      return $this->DeleteAllSheetSizesResult;
+        return $this->DeleteAllSheetSizesResult;
     }
 
     /**
      * @param boolean $DeleteAllSheetSizesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteAllSheetSizesResponse
+     * @return DeleteAllSheetSizesResponse
      */
     public function setDeleteAllSheetSizesResult($DeleteAllSheetSizesResult)
     {
-      $this->DeleteAllSheetSizesResult = $DeleteAllSheetSizesResult;
-      return $this;
+        $this->DeleteAllSheetSizesResult = $DeleteAllSheetSizesResult;
+        return $this;
     }
 
 }

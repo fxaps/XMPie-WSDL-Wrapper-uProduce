@@ -15,7 +15,7 @@ class LoadTicketFromTicketResponse
      */
     public function __construct($LoadTicketFromTicketResult = null)
     {
-      $this->LoadTicketFromTicketResult = $LoadTicketFromTicketResult;
+        $this->LoadTicketFromTicketResult = $LoadTicketFromTicketResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class LoadTicketFromTicketResponse
      */
     public function getLoadTicketFromTicketResult()
     {
-      return $this->LoadTicketFromTicketResult;
+        return $this->LoadTicketFromTicketResult;
     }
 
     /**
      * @param string $LoadTicketFromTicketResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\LoadTicketFromTicketResponse
+     * @return LoadTicketFromTicketResponse
      */
     public function setLoadTicketFromTicketResult($LoadTicketFromTicketResult)
     {
-      $this->LoadTicketFromTicketResult = $LoadTicketFromTicketResult;
-      return $this;
+        $this->LoadTicketFromTicketResult = $LoadTicketFromTicketResult;
+        return $this;
     }
 
 }

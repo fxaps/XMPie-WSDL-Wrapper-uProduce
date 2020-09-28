@@ -15,7 +15,7 @@ class GetFieldNamesResponse
      */
     public function __construct($GetFieldNamesResult = null)
     {
-      $this->GetFieldNamesResult = $GetFieldNamesResult;
+        $this->GetFieldNamesResult = $GetFieldNamesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFieldNamesResponse
      */
     public function getGetFieldNamesResult()
     {
-      return $this->GetFieldNamesResult;
+        return $this->GetFieldNamesResult;
     }
 
     /**
      * @param ArrayOfXMPTblColumn $GetFieldNamesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetFieldNamesResponse
+     * @return GetFieldNamesResponse
      */
     public function setGetFieldNamesResult($GetFieldNamesResult)
     {
-      $this->GetFieldNamesResult = $GetFieldNamesResult;
-      return $this;
+        $this->GetFieldNamesResult = $GetFieldNamesResult;
+        return $this;
     }
 
 }

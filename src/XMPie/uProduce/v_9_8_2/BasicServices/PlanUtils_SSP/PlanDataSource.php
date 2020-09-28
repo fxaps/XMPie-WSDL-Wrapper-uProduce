@@ -20,10 +20,10 @@ class PlanDataSource
      */
     protected $m_Tables = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -31,17 +31,17 @@ class PlanDataSource
      */
     public function getM_Name()
     {
-      return $this->m_Name;
+        return $this->m_Name;
     }
 
     /**
      * @param string $m_Name
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanDataSource
+     * @return PlanDataSource
      */
     public function setM_Name($m_Name)
     {
-      $this->m_Name = $m_Name;
-      return $this;
+        $this->m_Name = $m_Name;
+        return $this;
     }
 
     /**
@@ -49,17 +49,17 @@ class PlanDataSource
      */
     public function getM_Comment()
     {
-      return $this->m_Comment;
+        return $this->m_Comment;
     }
 
     /**
      * @param string $m_Comment
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanDataSource
+     * @return PlanDataSource
      */
     public function setM_Comment($m_Comment)
     {
-      $this->m_Comment = $m_Comment;
-      return $this;
+        $this->m_Comment = $m_Comment;
+        return $this;
     }
 
     /**
@@ -67,17 +67,17 @@ class PlanDataSource
      */
     public function getM_Tables()
     {
-      return $this->m_Tables;
+        return $this->m_Tables;
     }
 
     /**
      * @param ArrayOfPlanDataTable $m_Tables
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanDataSource
+     * @return PlanDataSource
      */
     public function setM_Tables($m_Tables)
     {
-      $this->m_Tables = $m_Tables;
-      return $this;
+        $this->m_Tables = $m_Tables;
+        return $this;
     }
 
 }

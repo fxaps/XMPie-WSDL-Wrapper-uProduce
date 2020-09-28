@@ -75,17 +75,17 @@ class CreateNewFromZip
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inType = null, $inName = null, $inConnectionString = null, $inAdditionalInfo = null, $inZipPath = null, $inDeleteSource = null, $inDeleteEmptySourceFolder = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountID = $inAccountID;
-      $this->inType = $inType;
-      $this->inName = $inName;
-      $this->inConnectionString = $inConnectionString;
-      $this->inAdditionalInfo = $inAdditionalInfo;
-      $this->inZipPath = $inZipPath;
-      $this->inDeleteSource = $inDeleteSource;
-      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountID = $inAccountID;
+        $this->inType = $inType;
+        $this->inName = $inName;
+        $this->inConnectionString = $inConnectionString;
+        $this->inAdditionalInfo = $inAdditionalInfo;
+        $this->inZipPath = $inZipPath;
+        $this->inDeleteSource = $inDeleteSource;
+        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -93,17 +93,17 @@ class CreateNewFromZip
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -111,17 +111,17 @@ class CreateNewFromZip
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -129,17 +129,17 @@ class CreateNewFromZip
      */
     public function getInAccountID()
     {
-      return $this->inAccountID;
+        return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInAccountID($inAccountID)
     {
-      $this->inAccountID = $inAccountID;
-      return $this;
+        $this->inAccountID = $inAccountID;
+        return $this;
     }
 
     /**
@@ -147,17 +147,17 @@ class CreateNewFromZip
      */
     public function getInType()
     {
-      return $this->inType;
+        return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInType($inType)
     {
-      $this->inType = $inType;
-      return $this;
+        $this->inType = $inType;
+        return $this;
     }
 
     /**
@@ -165,17 +165,17 @@ class CreateNewFromZip
      */
     public function getInName()
     {
-      return $this->inName;
+        return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInName($inName)
     {
-      $this->inName = $inName;
-      return $this;
+        $this->inName = $inName;
+        return $this;
     }
 
     /**
@@ -183,17 +183,17 @@ class CreateNewFromZip
      */
     public function getInConnectionString()
     {
-      return $this->inConnectionString;
+        return $this->inConnectionString;
     }
 
     /**
      * @param string $inConnectionString
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInConnectionString($inConnectionString)
     {
-      $this->inConnectionString = $inConnectionString;
-      return $this;
+        $this->inConnectionString = $inConnectionString;
+        return $this;
     }
 
     /**
@@ -201,17 +201,17 @@ class CreateNewFromZip
      */
     public function getInAdditionalInfo()
     {
-      return $this->inAdditionalInfo;
+        return $this->inAdditionalInfo;
     }
 
     /**
      * @param string $inAdditionalInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInAdditionalInfo($inAdditionalInfo)
     {
-      $this->inAdditionalInfo = $inAdditionalInfo;
-      return $this;
+        $this->inAdditionalInfo = $inAdditionalInfo;
+        return $this;
     }
 
     /**
@@ -219,17 +219,17 @@ class CreateNewFromZip
      */
     public function getInZipPath()
     {
-      return $this->inZipPath;
+        return $this->inZipPath;
     }
 
     /**
      * @param string $inZipPath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInZipPath($inZipPath)
     {
-      $this->inZipPath = $inZipPath;
-      return $this;
+        $this->inZipPath = $inZipPath;
+        return $this;
     }
 
     /**
@@ -237,17 +237,17 @@ class CreateNewFromZip
      */
     public function getInDeleteSource()
     {
-      return $this->inDeleteSource;
+        return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInDeleteSource($inDeleteSource)
     {
-      $this->inDeleteSource = $inDeleteSource;
-      return $this;
+        $this->inDeleteSource = $inDeleteSource;
+        return $this;
     }
 
     /**
@@ -255,17 +255,17 @@ class CreateNewFromZip
      */
     public function getInDeleteEmptySourceFolder()
     {
-      return $this->inDeleteEmptySourceFolder;
+        return $this->inDeleteEmptySourceFolder;
     }
 
     /**
      * @param boolean $inDeleteEmptySourceFolder
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInDeleteEmptySourceFolder($inDeleteEmptySourceFolder)
     {
-      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-      return $this;
+        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+        return $this;
     }
 
     /**
@@ -273,17 +273,17 @@ class CreateNewFromZip
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNewFromZip
+     * @return CreateNewFromZip
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

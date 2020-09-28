@@ -69,16 +69,16 @@ class CalculateProductionImpositionNup
      */
     public function __construct($inUsername = null, $inPassword = null, $inPageWidth = null, $inPageHeight = null, $inSheetWidth = null, $inSheetHeight = null, $inMarginWidth = null, $inMarginHeight = null, $inGapX = null, $inGapY = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPageWidth = $inPageWidth;
-      $this->inPageHeight = $inPageHeight;
-      $this->inSheetWidth = $inSheetWidth;
-      $this->inSheetHeight = $inSheetHeight;
-      $this->inMarginWidth = $inMarginWidth;
-      $this->inMarginHeight = $inMarginHeight;
-      $this->inGapX = $inGapX;
-      $this->inGapY = $inGapY;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPageWidth = $inPageWidth;
+        $this->inPageHeight = $inPageHeight;
+        $this->inSheetWidth = $inSheetWidth;
+        $this->inSheetHeight = $inSheetHeight;
+        $this->inMarginWidth = $inMarginWidth;
+        $this->inMarginHeight = $inMarginHeight;
+        $this->inGapX = $inGapX;
+        $this->inGapY = $inGapY;
     }
 
     /**
@@ -86,17 +86,17 @@ class CalculateProductionImpositionNup
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNup
+     * @return CalculateProductionImpositionNup
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -104,17 +104,17 @@ class CalculateProductionImpositionNup
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNup
+     * @return CalculateProductionImpositionNup
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -122,17 +122,17 @@ class CalculateProductionImpositionNup
      */
     public function getInPageWidth()
     {
-      return $this->inPageWidth;
+        return $this->inPageWidth;
     }
 
     /**
      * @param float $inPageWidth
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNup
+     * @return CalculateProductionImpositionNup
      */
     public function setInPageWidth($inPageWidth)
     {
-      $this->inPageWidth = $inPageWidth;
-      return $this;
+        $this->inPageWidth = $inPageWidth;
+        return $this;
     }
 
     /**
@@ -140,17 +140,17 @@ class CalculateProductionImpositionNup
      */
     public function getInPageHeight()
     {
-      return $this->inPageHeight;
+        return $this->inPageHeight;
     }
 
     /**
      * @param float $inPageHeight
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNup
+     * @return CalculateProductionImpositionNup
      */
     public function setInPageHeight($inPageHeight)
     {
-      $this->inPageHeight = $inPageHeight;
-      return $this;
+        $this->inPageHeight = $inPageHeight;
+        return $this;
     }
 
     /**
@@ -158,17 +158,17 @@ class CalculateProductionImpositionNup
      */
     public function getInSheetWidth()
     {
-      return $this->inSheetWidth;
+        return $this->inSheetWidth;
     }
 
     /**
      * @param float $inSheetWidth
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNup
+     * @return CalculateProductionImpositionNup
      */
     public function setInSheetWidth($inSheetWidth)
     {
-      $this->inSheetWidth = $inSheetWidth;
-      return $this;
+        $this->inSheetWidth = $inSheetWidth;
+        return $this;
     }
 
     /**
@@ -176,17 +176,17 @@ class CalculateProductionImpositionNup
      */
     public function getInSheetHeight()
     {
-      return $this->inSheetHeight;
+        return $this->inSheetHeight;
     }
 
     /**
      * @param float $inSheetHeight
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNup
+     * @return CalculateProductionImpositionNup
      */
     public function setInSheetHeight($inSheetHeight)
     {
-      $this->inSheetHeight = $inSheetHeight;
-      return $this;
+        $this->inSheetHeight = $inSheetHeight;
+        return $this;
     }
 
     /**
@@ -194,17 +194,17 @@ class CalculateProductionImpositionNup
      */
     public function getInMarginWidth()
     {
-      return $this->inMarginWidth;
+        return $this->inMarginWidth;
     }
 
     /**
      * @param float $inMarginWidth
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNup
+     * @return CalculateProductionImpositionNup
      */
     public function setInMarginWidth($inMarginWidth)
     {
-      $this->inMarginWidth = $inMarginWidth;
-      return $this;
+        $this->inMarginWidth = $inMarginWidth;
+        return $this;
     }
 
     /**
@@ -212,17 +212,17 @@ class CalculateProductionImpositionNup
      */
     public function getInMarginHeight()
     {
-      return $this->inMarginHeight;
+        return $this->inMarginHeight;
     }
 
     /**
      * @param float $inMarginHeight
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNup
+     * @return CalculateProductionImpositionNup
      */
     public function setInMarginHeight($inMarginHeight)
     {
-      $this->inMarginHeight = $inMarginHeight;
-      return $this;
+        $this->inMarginHeight = $inMarginHeight;
+        return $this;
     }
 
     /**
@@ -230,17 +230,17 @@ class CalculateProductionImpositionNup
      */
     public function getInGapX()
     {
-      return $this->inGapX;
+        return $this->inGapX;
     }
 
     /**
      * @param float $inGapX
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNup
+     * @return CalculateProductionImpositionNup
      */
     public function setInGapX($inGapX)
     {
-      $this->inGapX = $inGapX;
-      return $this;
+        $this->inGapX = $inGapX;
+        return $this;
     }
 
     /**
@@ -248,17 +248,17 @@ class CalculateProductionImpositionNup
      */
     public function getInGapY()
     {
-      return $this->inGapY;
+        return $this->inGapY;
     }
 
     /**
      * @param float $inGapY
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalculateProductionImpositionNup
+     * @return CalculateProductionImpositionNup
      */
     public function setInGapY($inGapY)
     {
-      $this->inGapY = $inGapY;
-      return $this;
+        $this->inGapY = $inGapY;
+        return $this;
     }
 
 }

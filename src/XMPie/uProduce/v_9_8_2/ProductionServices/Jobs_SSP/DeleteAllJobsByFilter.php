@@ -33,10 +33,10 @@ class DeleteAllJobsByFilter
      */
     public function __construct($inUsername = null, $inPassword = null, $inFilter = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inFilter = $inFilter;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inFilter = $inFilter;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeleteAllJobsByFilter
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\DeleteAllJobsByFilter
+     * @return DeleteAllJobsByFilter
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeleteAllJobsByFilter
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\DeleteAllJobsByFilter
+     * @return DeleteAllJobsByFilter
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeleteAllJobsByFilter
      */
     public function getInFilter()
     {
-      return $this->inFilter;
+        return $this->inFilter;
     }
 
     /**
      * @param ArrayOfJobQueryPart $inFilter
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\DeleteAllJobsByFilter
+     * @return DeleteAllJobsByFilter
      */
     public function setInFilter($inFilter)
     {
-      $this->inFilter = $inFilter;
-      return $this;
+        $this->inFilter = $inFilter;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeleteAllJobsByFilter
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\DeleteAllJobsByFilter
+     * @return DeleteAllJobsByFilter
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

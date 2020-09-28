@@ -15,7 +15,7 @@ class IsTrackingADORResponse
      */
     public function __construct($IsTrackingADORResult = null)
     {
-      $this->IsTrackingADORResult = $IsTrackingADORResult;
+        $this->IsTrackingADORResult = $IsTrackingADORResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsTrackingADORResponse
      */
     public function getIsTrackingADORResult()
     {
-      return $this->IsTrackingADORResult;
+        return $this->IsTrackingADORResult;
     }
 
     /**
      * @param boolean $IsTrackingADORResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsTrackingADORResponse
+     * @return IsTrackingADORResponse
      */
     public function setIsTrackingADORResult($IsTrackingADORResult)
     {
-      $this->IsTrackingADORResult = $IsTrackingADORResult;
-      return $this;
+        $this->IsTrackingADORResult = $IsTrackingADORResult;
+        return $this;
     }
 
 }

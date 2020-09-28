@@ -15,7 +15,7 @@ class RemoveOverloadResponse
      */
     public function __construct($RemoveOverloadResult = null)
     {
-      $this->RemoveOverloadResult = $RemoveOverloadResult;
+        $this->RemoveOverloadResult = $RemoveOverloadResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveOverloadResponse
      */
     public function getRemoveOverloadResult()
     {
-      return $this->RemoveOverloadResult;
+        return $this->RemoveOverloadResult;
     }
 
     /**
      * @param boolean $RemoveOverloadResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\RemoveOverloadResponse
+     * @return RemoveOverloadResponse
      */
     public function setRemoveOverloadResult($RemoveOverloadResult)
     {
-      $this->RemoveOverloadResult = $RemoveOverloadResult;
-      return $this;
+        $this->RemoveOverloadResult = $RemoveOverloadResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetSchemaDataSourcesCountResponse
      */
     public function __construct($GetSchemaDataSourcesCountResult = null)
     {
-      $this->GetSchemaDataSourcesCountResult = $GetSchemaDataSourcesCountResult;
+        $this->GetSchemaDataSourcesCountResult = $GetSchemaDataSourcesCountResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSchemaDataSourcesCountResponse
      */
     public function getGetSchemaDataSourcesCountResult()
     {
-      return $this->GetSchemaDataSourcesCountResult;
+        return $this->GetSchemaDataSourcesCountResult;
     }
 
     /**
      * @param int $GetSchemaDataSourcesCountResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetSchemaDataSourcesCountResponse
+     * @return GetSchemaDataSourcesCountResponse
      */
     public function setGetSchemaDataSourcesCountResult($GetSchemaDataSourcesCountResult)
     {
-      $this->GetSchemaDataSourcesCountResult = $GetSchemaDataSourcesCountResult;
-      return $this;
+        $this->GetSchemaDataSourcesCountResult = $GetSchemaDataSourcesCountResult;
+        return $this;
     }
 
 }

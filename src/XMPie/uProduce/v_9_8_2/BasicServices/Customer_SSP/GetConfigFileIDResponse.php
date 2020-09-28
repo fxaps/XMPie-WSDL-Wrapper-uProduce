@@ -15,7 +15,7 @@ class GetConfigFileIDResponse
      */
     public function __construct($GetConfigFileIDResult = null)
     {
-      $this->GetConfigFileIDResult = $GetConfigFileIDResult;
+        $this->GetConfigFileIDResult = $GetConfigFileIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetConfigFileIDResponse
      */
     public function getGetConfigFileIDResult()
     {
-      return $this->GetConfigFileIDResult;
+        return $this->GetConfigFileIDResult;
     }
 
     /**
      * @param string $GetConfigFileIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetConfigFileIDResponse
+     * @return GetConfigFileIDResponse
      */
     public function setGetConfigFileIDResult($GetConfigFileIDResult)
     {
-      $this->GetConfigFileIDResult = $GetConfigFileIDResult;
-      return $this;
+        $this->GetConfigFileIDResult = $GetConfigFileIDResult;
+        return $this;
     }
 
 }

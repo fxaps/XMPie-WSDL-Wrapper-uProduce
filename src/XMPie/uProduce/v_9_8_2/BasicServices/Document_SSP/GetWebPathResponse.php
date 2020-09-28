@@ -15,7 +15,7 @@ class GetWebPathResponse
      */
     public function __construct($GetWebPathResult = null)
     {
-      $this->GetWebPathResult = $GetWebPathResult;
+        $this->GetWebPathResult = $GetWebPathResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetWebPathResponse
      */
     public function getGetWebPathResult()
     {
-      return $this->GetWebPathResult;
+        return $this->GetWebPathResult;
     }
 
     /**
      * @param string $GetWebPathResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetWebPathResponse
+     * @return GetWebPathResponse
      */
     public function setGetWebPathResult($GetWebPathResult)
     {
-      $this->GetWebPathResult = $GetWebPathResult;
-      return $this;
+        $this->GetWebPathResult = $GetWebPathResult;
+        return $this;
     }
 
 }

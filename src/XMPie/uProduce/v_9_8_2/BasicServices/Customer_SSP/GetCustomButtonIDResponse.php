@@ -15,7 +15,7 @@ class GetCustomButtonIDResponse
      */
     public function __construct($GetCustomButtonIDResult = null)
     {
-      $this->GetCustomButtonIDResult = $GetCustomButtonIDResult;
+        $this->GetCustomButtonIDResult = $GetCustomButtonIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCustomButtonIDResponse
      */
     public function getGetCustomButtonIDResult()
     {
-      return $this->GetCustomButtonIDResult;
+        return $this->GetCustomButtonIDResult;
     }
 
     /**
      * @param string $GetCustomButtonIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetCustomButtonIDResponse
+     * @return GetCustomButtonIDResponse
      */
     public function setGetCustomButtonIDResult($GetCustomButtonIDResult)
     {
-      $this->GetCustomButtonIDResult = $GetCustomButtonIDResult;
-      return $this;
+        $this->GetCustomButtonIDResult = $GetCustomButtonIDResult;
+        return $this;
     }
 
 }

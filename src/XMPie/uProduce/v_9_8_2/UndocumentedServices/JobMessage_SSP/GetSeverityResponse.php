@@ -15,7 +15,7 @@ class GetSeverityResponse
      */
     public function __construct($GetSeverityResult = null)
     {
-      $this->GetSeverityResult = $GetSeverityResult;
+        $this->GetSeverityResult = $GetSeverityResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSeverityResponse
      */
     public function getGetSeverityResult()
     {
-      return $this->GetSeverityResult;
+        return $this->GetSeverityResult;
     }
 
     /**
      * @param string $GetSeverityResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\GetSeverityResponse
+     * @return GetSeverityResponse
      */
     public function setGetSeverityResult($GetSeverityResult)
     {
-      $this->GetSeverityResult = $GetSeverityResult;
-      return $this;
+        $this->GetSeverityResult = $GetSeverityResult;
+        return $this;
     }
 
 }

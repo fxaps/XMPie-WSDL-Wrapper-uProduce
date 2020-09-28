@@ -15,7 +15,7 @@ class GetFilePathResponse
      */
     public function __construct($GetFilePathResult = null)
     {
-      $this->GetFilePathResult = $GetFilePathResult;
+        $this->GetFilePathResult = $GetFilePathResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFilePathResponse
      */
     public function getGetFilePathResult()
     {
-      return $this->GetFilePathResult;
+        return $this->GetFilePathResult;
     }
 
     /**
      * @param string $GetFilePathResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\GetFilePathResponse
+     * @return GetFilePathResponse
      */
     public function setGetFilePathResult($GetFilePathResult)
     {
-      $this->GetFilePathResult = $GetFilePathResult;
-      return $this;
+        $this->GetFilePathResult = $GetFilePathResult;
+        return $this;
     }
 
 }

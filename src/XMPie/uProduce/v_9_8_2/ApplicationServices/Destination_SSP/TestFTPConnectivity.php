@@ -51,13 +51,13 @@ class TestFTPConnectivity
      */
     public function __construct($inUsername = null, $inPassword = null, $inAddress = null, $inUser = null, $inPass = null, $inPort = null, $inIsPassive = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAddress = $inAddress;
-      $this->inUser = $inUser;
-      $this->inPass = $inPass;
-      $this->inPort = $inPort;
-      $this->inIsPassive = $inIsPassive;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAddress = $inAddress;
+        $this->inUser = $inUser;
+        $this->inPass = $inPass;
+        $this->inPort = $inPort;
+        $this->inIsPassive = $inIsPassive;
     }
 
     /**
@@ -65,17 +65,17 @@ class TestFTPConnectivity
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestFTPConnectivity
+     * @return TestFTPConnectivity
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class TestFTPConnectivity
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestFTPConnectivity
+     * @return TestFTPConnectivity
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class TestFTPConnectivity
      */
     public function getInAddress()
     {
-      return $this->inAddress;
+        return $this->inAddress;
     }
 
     /**
      * @param string $inAddress
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestFTPConnectivity
+     * @return TestFTPConnectivity
      */
     public function setInAddress($inAddress)
     {
-      $this->inAddress = $inAddress;
-      return $this;
+        $this->inAddress = $inAddress;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class TestFTPConnectivity
      */
     public function getInUser()
     {
-      return $this->inUser;
+        return $this->inUser;
     }
 
     /**
      * @param string $inUser
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestFTPConnectivity
+     * @return TestFTPConnectivity
      */
     public function setInUser($inUser)
     {
-      $this->inUser = $inUser;
-      return $this;
+        $this->inUser = $inUser;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class TestFTPConnectivity
      */
     public function getInPass()
     {
-      return $this->inPass;
+        return $this->inPass;
     }
 
     /**
      * @param string $inPass
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestFTPConnectivity
+     * @return TestFTPConnectivity
      */
     public function setInPass($inPass)
     {
-      $this->inPass = $inPass;
-      return $this;
+        $this->inPass = $inPass;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class TestFTPConnectivity
      */
     public function getInPort()
     {
-      return $this->inPort;
+        return $this->inPort;
     }
 
     /**
      * @param int $inPort
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestFTPConnectivity
+     * @return TestFTPConnectivity
      */
     public function setInPort($inPort)
     {
-      $this->inPort = $inPort;
-      return $this;
+        $this->inPort = $inPort;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class TestFTPConnectivity
      */
     public function getInIsPassive()
     {
-      return $this->inIsPassive;
+        return $this->inIsPassive;
     }
 
     /**
      * @param boolean $inIsPassive
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestFTPConnectivity
+     * @return TestFTPConnectivity
      */
     public function setInIsPassive($inIsPassive)
     {
-      $this->inIsPassive = $inIsPassive;
-      return $this;
+        $this->inIsPassive = $inIsPassive;
+        return $this;
     }
 
 }

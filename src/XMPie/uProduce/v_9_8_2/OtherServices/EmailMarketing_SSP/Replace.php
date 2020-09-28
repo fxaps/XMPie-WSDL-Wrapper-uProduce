@@ -39,11 +39,11 @@ class Replace
      */
     public function __construct($inUsername = null, $inPassword = null, $inEmailMarketingID = null, $inTicket = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      $this->inTicket = $inTicket;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        $this->inTicket = $inTicket;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -51,17 +51,17 @@ class Replace
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Replace
+     * @return Replace
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class Replace
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Replace
+     * @return Replace
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class Replace
      */
     public function getInEmailMarketingID()
     {
-      return $this->inEmailMarketingID;
+        return $this->inEmailMarketingID;
     }
 
     /**
      * @param string $inEmailMarketingID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Replace
+     * @return Replace
      */
     public function setInEmailMarketingID($inEmailMarketingID)
     {
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      return $this;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class Replace
      */
     public function getInTicket()
     {
-      return $this->inTicket;
+        return $this->inTicket;
     }
 
     /**
      * @param string $inTicket
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Replace
+     * @return Replace
      */
     public function setInTicket($inTicket)
     {
-      $this->inTicket = $inTicket;
-      return $this;
+        $this->inTicket = $inTicket;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class Replace
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Replace
+     * @return Replace
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

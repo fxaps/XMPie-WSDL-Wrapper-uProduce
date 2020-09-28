@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP;
 
-class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfEmailAddress implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     protected $EmailAddress = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function getEmailAddress()
     {
-      return $this->EmailAddress;
+        return $this->EmailAddress;
     }
 
     /**
      * @param EmailAddress[] $EmailAddress
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\ArrayOfEmailAddress
+     * @return ArrayOfEmailAddress
      */
     public function setEmailAddress(array $EmailAddress = null)
     {
-      $this->EmailAddress = $EmailAddress;
-      return $this;
+        $this->EmailAddress = $EmailAddress;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->EmailAddress[$offset]);
+        return isset($this->EmailAddress[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->EmailAddress[$offset];
+        return $this->EmailAddress[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->EmailAddress[] = $value;
-      } else {
-        $this->EmailAddress[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->EmailAddress[] = $value;
+        } else {
+            $this->EmailAddress[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->EmailAddress[$offset]);
+        unset($this->EmailAddress[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->EmailAddress);
+        return current($this->EmailAddress);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->EmailAddress);
+        next($this->EmailAddress);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->EmailAddress);
+        return key($this->EmailAddress);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->EmailAddress);
+        reset($this->EmailAddress);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfEmailAddress implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->EmailAddress);
+        return count($this->EmailAddress);
     }
 
 }

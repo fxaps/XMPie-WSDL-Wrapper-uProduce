@@ -33,10 +33,10 @@ class GetAccountDataSourceID
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inAccountDataSourceName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountID = $inAccountID;
-      $this->inAccountDataSourceName = $inAccountDataSourceName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountID = $inAccountID;
+        $this->inAccountDataSourceName = $inAccountDataSourceName;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetAccountDataSourceID
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetAccountDataSourceID
+     * @return GetAccountDataSourceID
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetAccountDataSourceID
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetAccountDataSourceID
+     * @return GetAccountDataSourceID
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetAccountDataSourceID
      */
     public function getInAccountID()
     {
-      return $this->inAccountID;
+        return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetAccountDataSourceID
+     * @return GetAccountDataSourceID
      */
     public function setInAccountID($inAccountID)
     {
-      $this->inAccountID = $inAccountID;
-      return $this;
+        $this->inAccountID = $inAccountID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetAccountDataSourceID
      */
     public function getInAccountDataSourceName()
     {
-      return $this->inAccountDataSourceName;
+        return $this->inAccountDataSourceName;
     }
 
     /**
      * @param string $inAccountDataSourceName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetAccountDataSourceID
+     * @return GetAccountDataSourceID
      */
     public function setInAccountDataSourceName($inAccountDataSourceName)
     {
-      $this->inAccountDataSourceName = $inAccountDataSourceName;
-      return $this;
+        $this->inAccountDataSourceName = $inAccountDataSourceName;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SetPortLinkResponse
      */
     public function __construct($SetPortLinkResult = null)
     {
-      $this->SetPortLinkResult = $SetPortLinkResult;
+        $this->SetPortLinkResult = $SetPortLinkResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetPortLinkResponse
      */
     public function getSetPortLinkResult()
     {
-      return $this->SetPortLinkResult;
+        return $this->SetPortLinkResult;
     }
 
     /**
      * @param boolean $SetPortLinkResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetPortLinkResponse
+     * @return SetPortLinkResponse
      */
     public function setSetPortLinkResult($SetPortLinkResult)
     {
-      $this->SetPortLinkResult = $SetPortLinkResult;
-      return $this;
+        $this->SetPortLinkResult = $SetPortLinkResult;
+        return $this;
     }
 
 }

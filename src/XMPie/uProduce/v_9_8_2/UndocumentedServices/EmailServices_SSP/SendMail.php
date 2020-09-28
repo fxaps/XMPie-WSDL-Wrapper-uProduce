@@ -165,32 +165,32 @@ class SendMail
      */
     public function __construct($inUsername = null, $inPassword = null, $mailServer_Addr = null, $mailServer_Port = null, $recipientKey = null, $accountName = null, $campaignName = null, $ICP_Port = null, $ICP_User = null, $ICP_Password = null, $subject = null, $toAddr = null, $toDisplayName = null, $fromAddr = null, $fromDisplayName = null, $body = null, $bodyFormat = null, $isBodyURI = null, $createAlternative = null, $embedImages = null, $isSkipRec = null, $xslFormatter = null, $base = null, $mailCharset = null, $bodyURICharset = null, $URIProxy = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->mailServer_Addr = $mailServer_Addr;
-      $this->mailServer_Port = $mailServer_Port;
-      $this->recipientKey = $recipientKey;
-      $this->accountName = $accountName;
-      $this->campaignName = $campaignName;
-      $this->ICP_Port = $ICP_Port;
-      $this->ICP_User = $ICP_User;
-      $this->ICP_Password = $ICP_Password;
-      $this->subject = $subject;
-      $this->toAddr = $toAddr;
-      $this->toDisplayName = $toDisplayName;
-      $this->fromAddr = $fromAddr;
-      $this->fromDisplayName = $fromDisplayName;
-      $this->body = $body;
-      $this->bodyFormat = $bodyFormat;
-      $this->isBodyURI = $isBodyURI;
-      $this->createAlternative = $createAlternative;
-      $this->embedImages = $embedImages;
-      $this->isSkipRec = $isSkipRec;
-      $this->xslFormatter = $xslFormatter;
-      $this->base = $base;
-      $this->mailCharset = $mailCharset;
-      $this->bodyURICharset = $bodyURICharset;
-      $this->URIProxy = $URIProxy;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->mailServer_Addr = $mailServer_Addr;
+        $this->mailServer_Port = $mailServer_Port;
+        $this->recipientKey = $recipientKey;
+        $this->accountName = $accountName;
+        $this->campaignName = $campaignName;
+        $this->ICP_Port = $ICP_Port;
+        $this->ICP_User = $ICP_User;
+        $this->ICP_Password = $ICP_Password;
+        $this->subject = $subject;
+        $this->toAddr = $toAddr;
+        $this->toDisplayName = $toDisplayName;
+        $this->fromAddr = $fromAddr;
+        $this->fromDisplayName = $fromDisplayName;
+        $this->body = $body;
+        $this->bodyFormat = $bodyFormat;
+        $this->isBodyURI = $isBodyURI;
+        $this->createAlternative = $createAlternative;
+        $this->embedImages = $embedImages;
+        $this->isSkipRec = $isSkipRec;
+        $this->xslFormatter = $xslFormatter;
+        $this->base = $base;
+        $this->mailCharset = $mailCharset;
+        $this->bodyURICharset = $bodyURICharset;
+        $this->URIProxy = $URIProxy;
     }
 
     /**
@@ -198,17 +198,17 @@ class SendMail
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -216,17 +216,17 @@ class SendMail
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -234,17 +234,17 @@ class SendMail
      */
     public function getMailServer_Addr()
     {
-      return $this->mailServer_Addr;
+        return $this->mailServer_Addr;
     }
 
     /**
      * @param string $mailServer_Addr
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setMailServer_Addr($mailServer_Addr)
     {
-      $this->mailServer_Addr = $mailServer_Addr;
-      return $this;
+        $this->mailServer_Addr = $mailServer_Addr;
+        return $this;
     }
 
     /**
@@ -252,17 +252,17 @@ class SendMail
      */
     public function getMailServer_Port()
     {
-      return $this->mailServer_Port;
+        return $this->mailServer_Port;
     }
 
     /**
      * @param int $mailServer_Port
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setMailServer_Port($mailServer_Port)
     {
-      $this->mailServer_Port = $mailServer_Port;
-      return $this;
+        $this->mailServer_Port = $mailServer_Port;
+        return $this;
     }
 
     /**
@@ -270,17 +270,17 @@ class SendMail
      */
     public function getRecipientKey()
     {
-      return $this->recipientKey;
+        return $this->recipientKey;
     }
 
     /**
      * @param string $recipientKey
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setRecipientKey($recipientKey)
     {
-      $this->recipientKey = $recipientKey;
-      return $this;
+        $this->recipientKey = $recipientKey;
+        return $this;
     }
 
     /**
@@ -288,17 +288,17 @@ class SendMail
      */
     public function getAccountName()
     {
-      return $this->accountName;
+        return $this->accountName;
     }
 
     /**
      * @param string $accountName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setAccountName($accountName)
     {
-      $this->accountName = $accountName;
-      return $this;
+        $this->accountName = $accountName;
+        return $this;
     }
 
     /**
@@ -306,17 +306,17 @@ class SendMail
      */
     public function getCampaignName()
     {
-      return $this->campaignName;
+        return $this->campaignName;
     }
 
     /**
      * @param string $campaignName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setCampaignName($campaignName)
     {
-      $this->campaignName = $campaignName;
-      return $this;
+        $this->campaignName = $campaignName;
+        return $this;
     }
 
     /**
@@ -324,17 +324,17 @@ class SendMail
      */
     public function getICP_Port()
     {
-      return $this->ICP_Port;
+        return $this->ICP_Port;
     }
 
     /**
      * @param string $ICP_Port
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setICP_Port($ICP_Port)
     {
-      $this->ICP_Port = $ICP_Port;
-      return $this;
+        $this->ICP_Port = $ICP_Port;
+        return $this;
     }
 
     /**
@@ -342,17 +342,17 @@ class SendMail
      */
     public function getICP_User()
     {
-      return $this->ICP_User;
+        return $this->ICP_User;
     }
 
     /**
      * @param string $ICP_User
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setICP_User($ICP_User)
     {
-      $this->ICP_User = $ICP_User;
-      return $this;
+        $this->ICP_User = $ICP_User;
+        return $this;
     }
 
     /**
@@ -360,17 +360,17 @@ class SendMail
      */
     public function getICP_Password()
     {
-      return $this->ICP_Password;
+        return $this->ICP_Password;
     }
 
     /**
      * @param string $ICP_Password
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setICP_Password($ICP_Password)
     {
-      $this->ICP_Password = $ICP_Password;
-      return $this;
+        $this->ICP_Password = $ICP_Password;
+        return $this;
     }
 
     /**
@@ -378,17 +378,17 @@ class SendMail
      */
     public function getSubject()
     {
-      return $this->subject;
+        return $this->subject;
     }
 
     /**
      * @param string $subject
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setSubject($subject)
     {
-      $this->subject = $subject;
-      return $this;
+        $this->subject = $subject;
+        return $this;
     }
 
     /**
@@ -396,17 +396,17 @@ class SendMail
      */
     public function getToAddr()
     {
-      return $this->toAddr;
+        return $this->toAddr;
     }
 
     /**
      * @param string $toAddr
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setToAddr($toAddr)
     {
-      $this->toAddr = $toAddr;
-      return $this;
+        $this->toAddr = $toAddr;
+        return $this;
     }
 
     /**
@@ -414,17 +414,17 @@ class SendMail
      */
     public function getToDisplayName()
     {
-      return $this->toDisplayName;
+        return $this->toDisplayName;
     }
 
     /**
      * @param string $toDisplayName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setToDisplayName($toDisplayName)
     {
-      $this->toDisplayName = $toDisplayName;
-      return $this;
+        $this->toDisplayName = $toDisplayName;
+        return $this;
     }
 
     /**
@@ -432,17 +432,17 @@ class SendMail
      */
     public function getFromAddr()
     {
-      return $this->fromAddr;
+        return $this->fromAddr;
     }
 
     /**
      * @param string $fromAddr
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setFromAddr($fromAddr)
     {
-      $this->fromAddr = $fromAddr;
-      return $this;
+        $this->fromAddr = $fromAddr;
+        return $this;
     }
 
     /**
@@ -450,17 +450,17 @@ class SendMail
      */
     public function getFromDisplayName()
     {
-      return $this->fromDisplayName;
+        return $this->fromDisplayName;
     }
 
     /**
      * @param string $fromDisplayName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setFromDisplayName($fromDisplayName)
     {
-      $this->fromDisplayName = $fromDisplayName;
-      return $this;
+        $this->fromDisplayName = $fromDisplayName;
+        return $this;
     }
 
     /**
@@ -468,17 +468,17 @@ class SendMail
      */
     public function getBody()
     {
-      return $this->body;
+        return $this->body;
     }
 
     /**
      * @param string $body
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setBody($body)
     {
-      $this->body = $body;
-      return $this;
+        $this->body = $body;
+        return $this;
     }
 
     /**
@@ -486,17 +486,17 @@ class SendMail
      */
     public function getBodyFormat()
     {
-      return $this->bodyFormat;
+        return $this->bodyFormat;
     }
 
     /**
      * @param string $bodyFormat
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setBodyFormat($bodyFormat)
     {
-      $this->bodyFormat = $bodyFormat;
-      return $this;
+        $this->bodyFormat = $bodyFormat;
+        return $this;
     }
 
     /**
@@ -504,17 +504,17 @@ class SendMail
      */
     public function getIsBodyURI()
     {
-      return $this->isBodyURI;
+        return $this->isBodyURI;
     }
 
     /**
      * @param boolean $isBodyURI
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setIsBodyURI($isBodyURI)
     {
-      $this->isBodyURI = $isBodyURI;
-      return $this;
+        $this->isBodyURI = $isBodyURI;
+        return $this;
     }
 
     /**
@@ -522,17 +522,17 @@ class SendMail
      */
     public function getCreateAlternative()
     {
-      return $this->createAlternative;
+        return $this->createAlternative;
     }
 
     /**
      * @param boolean $createAlternative
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setCreateAlternative($createAlternative)
     {
-      $this->createAlternative = $createAlternative;
-      return $this;
+        $this->createAlternative = $createAlternative;
+        return $this;
     }
 
     /**
@@ -540,17 +540,17 @@ class SendMail
      */
     public function getEmbedImages()
     {
-      return $this->embedImages;
+        return $this->embedImages;
     }
 
     /**
      * @param boolean $embedImages
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setEmbedImages($embedImages)
     {
-      $this->embedImages = $embedImages;
-      return $this;
+        $this->embedImages = $embedImages;
+        return $this;
     }
 
     /**
@@ -558,17 +558,17 @@ class SendMail
      */
     public function getIsSkipRec()
     {
-      return $this->isSkipRec;
+        return $this->isSkipRec;
     }
 
     /**
      * @param string $isSkipRec
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setIsSkipRec($isSkipRec)
     {
-      $this->isSkipRec = $isSkipRec;
-      return $this;
+        $this->isSkipRec = $isSkipRec;
+        return $this;
     }
 
     /**
@@ -576,17 +576,17 @@ class SendMail
      */
     public function getXslFormatter()
     {
-      return $this->xslFormatter;
+        return $this->xslFormatter;
     }
 
     /**
      * @param string $xslFormatter
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setXslFormatter($xslFormatter)
     {
-      $this->xslFormatter = $xslFormatter;
-      return $this;
+        $this->xslFormatter = $xslFormatter;
+        return $this;
     }
 
     /**
@@ -594,17 +594,17 @@ class SendMail
      */
     public function getBase()
     {
-      return $this->base;
+        return $this->base;
     }
 
     /**
      * @param string $base
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setBase($base)
     {
-      $this->base = $base;
-      return $this;
+        $this->base = $base;
+        return $this;
     }
 
     /**
@@ -612,17 +612,17 @@ class SendMail
      */
     public function getMailCharset()
     {
-      return $this->mailCharset;
+        return $this->mailCharset;
     }
 
     /**
      * @param string $mailCharset
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setMailCharset($mailCharset)
     {
-      $this->mailCharset = $mailCharset;
-      return $this;
+        $this->mailCharset = $mailCharset;
+        return $this;
     }
 
     /**
@@ -630,17 +630,17 @@ class SendMail
      */
     public function getBodyURICharset()
     {
-      return $this->bodyURICharset;
+        return $this->bodyURICharset;
     }
 
     /**
      * @param string $bodyURICharset
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setBodyURICharset($bodyURICharset)
     {
-      $this->bodyURICharset = $bodyURICharset;
-      return $this;
+        $this->bodyURICharset = $bodyURICharset;
+        return $this;
     }
 
     /**
@@ -648,17 +648,17 @@ class SendMail
      */
     public function getURIProxy()
     {
-      return $this->URIProxy;
+        return $this->URIProxy;
     }
 
     /**
      * @param string $URIProxy
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SendMail
+     * @return SendMail
      */
     public function setURIProxy($URIProxy)
     {
-      $this->URIProxy = $URIProxy;
-      return $this;
+        $this->URIProxy = $URIProxy;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetPortGuidResponse
      */
     public function __construct($GetPortGuidResult = null)
     {
-      $this->GetPortGuidResult = $GetPortGuidResult;
+        $this->GetPortGuidResult = $GetPortGuidResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPortGuidResponse
      */
     public function getGetPortGuidResult()
     {
-      return $this->GetPortGuidResult;
+        return $this->GetPortGuidResult;
     }
 
     /**
      * @param string $GetPortGuidResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetPortGuidResponse
+     * @return GetPortGuidResponse
      */
     public function setGetPortGuidResult($GetPortGuidResult)
     {
-      $this->GetPortGuidResult = $GetPortGuidResult;
-      return $this;
+        $this->GetPortGuidResult = $GetPortGuidResult;
+        return $this;
     }
 
 }

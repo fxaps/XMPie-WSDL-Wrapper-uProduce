@@ -15,7 +15,7 @@ class IsFriendlyUrlUseRIDPrefixModeResponse
      */
     public function __construct($IsFriendlyUrlUseRIDPrefixModeResult = null)
     {
-      $this->IsFriendlyUrlUseRIDPrefixModeResult = $IsFriendlyUrlUseRIDPrefixModeResult;
+        $this->IsFriendlyUrlUseRIDPrefixModeResult = $IsFriendlyUrlUseRIDPrefixModeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsFriendlyUrlUseRIDPrefixModeResponse
      */
     public function getIsFriendlyUrlUseRIDPrefixModeResult()
     {
-      return $this->IsFriendlyUrlUseRIDPrefixModeResult;
+        return $this->IsFriendlyUrlUseRIDPrefixModeResult;
     }
 
     /**
      * @param boolean $IsFriendlyUrlUseRIDPrefixModeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsFriendlyUrlUseRIDPrefixModeResponse
+     * @return IsFriendlyUrlUseRIDPrefixModeResponse
      */
     public function setIsFriendlyUrlUseRIDPrefixModeResult($IsFriendlyUrlUseRIDPrefixModeResult)
     {
-      $this->IsFriendlyUrlUseRIDPrefixModeResult = $IsFriendlyUrlUseRIDPrefixModeResult;
-      return $this;
+        $this->IsFriendlyUrlUseRIDPrefixModeResult = $IsFriendlyUrlUseRIDPrefixModeResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetUsersResponse
      */
     public function __construct($GetUsersResult = null)
     {
-      $this->GetUsersResult = $GetUsersResult;
+        $this->GetUsersResult = $GetUsersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUsersResponse
      */
     public function getGetUsersResult()
     {
-      return $this->GetUsersResult;
+        return $this->GetUsersResult;
     }
 
     /**
      * @param ArrayOfString $GetUsersResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetUsersResponse
+     * @return GetUsersResponse
      */
     public function setGetUsersResult($GetUsersResult)
     {
-      $this->GetUsersResult = $GetUsersResult;
-      return $this;
+        $this->GetUsersResult = $GetUsersResult;
+        return $this;
     }
 
 }

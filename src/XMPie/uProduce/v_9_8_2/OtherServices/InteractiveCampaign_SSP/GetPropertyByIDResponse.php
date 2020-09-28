@@ -15,7 +15,7 @@ class GetPropertyByIDResponse
      */
     public function __construct($GetPropertyByIDResult = null)
     {
-      $this->GetPropertyByIDResult = $GetPropertyByIDResult;
+        $this->GetPropertyByIDResult = $GetPropertyByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPropertyByIDResponse
      */
     public function getGetPropertyByIDResult()
     {
-      return $this->GetPropertyByIDResult;
+        return $this->GetPropertyByIDResult;
     }
 
     /**
      * @param Property $GetPropertyByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetPropertyByIDResponse
+     * @return GetPropertyByIDResponse
      */
     public function setGetPropertyByIDResult($GetPropertyByIDResult)
     {
-      $this->GetPropertyByIDResult = $GetPropertyByIDResult;
-      return $this;
+        $this->GetPropertyByIDResult = $GetPropertyByIDResult;
+        return $this;
     }
 
 }

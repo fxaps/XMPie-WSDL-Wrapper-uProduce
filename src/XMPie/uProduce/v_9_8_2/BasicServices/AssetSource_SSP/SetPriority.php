@@ -33,10 +33,10 @@ class SetPriority
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetSourceID = null, $inPriority = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAssetSourceID = $inAssetSourceID;
-      $this->inPriority = $inPriority;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAssetSourceID = $inAssetSourceID;
+        $this->inPriority = $inPriority;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetPriority
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetPriority
+     * @return SetPriority
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetPriority
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetPriority
+     * @return SetPriority
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetPriority
      */
     public function getInAssetSourceID()
     {
-      return $this->inAssetSourceID;
+        return $this->inAssetSourceID;
     }
 
     /**
      * @param string $inAssetSourceID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetPriority
+     * @return SetPriority
      */
     public function setInAssetSourceID($inAssetSourceID)
     {
-      $this->inAssetSourceID = $inAssetSourceID;
-      return $this;
+        $this->inAssetSourceID = $inAssetSourceID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetPriority
      */
     public function getInPriority()
     {
-      return $this->inPriority;
+        return $this->inPriority;
     }
 
     /**
      * @param int $inPriority
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetPriority
+     * @return SetPriority
      */
     public function setInPriority($inPriority)
     {
-      $this->inPriority = $inPriority;
-      return $this;
+        $this->inPriority = $inPriority;
+        return $this;
     }
 
 }

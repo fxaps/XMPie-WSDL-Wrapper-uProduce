@@ -15,7 +15,7 @@ class GetConfigFilesResponse
      */
     public function __construct($GetConfigFilesResult = null)
     {
-      $this->GetConfigFilesResult = $GetConfigFilesResult;
+        $this->GetConfigFilesResult = $GetConfigFilesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetConfigFilesResponse
      */
     public function getGetConfigFilesResult()
     {
-      return $this->GetConfigFilesResult;
+        return $this->GetConfigFilesResult;
     }
 
     /**
      * @param ArrayOfString $GetConfigFilesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetConfigFilesResponse
+     * @return GetConfigFilesResponse
      */
     public function setGetConfigFilesResult($GetConfigFilesResult)
     {
-      $this->GetConfigFilesResult = $GetConfigFilesResult;
-      return $this;
+        $this->GetConfigFilesResult = $GetConfigFilesResult;
+        return $this;
     }
 
 }

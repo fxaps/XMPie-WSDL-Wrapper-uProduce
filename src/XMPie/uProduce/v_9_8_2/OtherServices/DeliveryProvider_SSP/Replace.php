@@ -51,13 +51,13 @@ class Replace
      */
     public function __construct($inUsername = null, $inPassword = null, $inDeliveryProviderID = null, $inType = null, $inName = null, $inDeliveryProviderParameters = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDeliveryProviderID = $inDeliveryProviderID;
-      $this->inType = $inType;
-      $this->inName = $inName;
-      $this->inDeliveryProviderParameters = $inDeliveryProviderParameters;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDeliveryProviderID = $inDeliveryProviderID;
+        $this->inType = $inType;
+        $this->inName = $inName;
+        $this->inDeliveryProviderParameters = $inDeliveryProviderParameters;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class Replace
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\Replace
+     * @return Replace
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class Replace
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\Replace
+     * @return Replace
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class Replace
      */
     public function getInDeliveryProviderID()
     {
-      return $this->inDeliveryProviderID;
+        return $this->inDeliveryProviderID;
     }
 
     /**
      * @param string $inDeliveryProviderID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\Replace
+     * @return Replace
      */
     public function setInDeliveryProviderID($inDeliveryProviderID)
     {
-      $this->inDeliveryProviderID = $inDeliveryProviderID;
-      return $this;
+        $this->inDeliveryProviderID = $inDeliveryProviderID;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class Replace
      */
     public function getInType()
     {
-      return $this->inType;
+        return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\Replace
+     * @return Replace
      */
     public function setInType($inType)
     {
-      $this->inType = $inType;
-      return $this;
+        $this->inType = $inType;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class Replace
      */
     public function getInName()
     {
-      return $this->inName;
+        return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\Replace
+     * @return Replace
      */
     public function setInName($inName)
     {
-      $this->inName = $inName;
-      return $this;
+        $this->inName = $inName;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class Replace
      */
     public function getInDeliveryProviderParameters()
     {
-      return $this->inDeliveryProviderParameters;
+        return $this->inDeliveryProviderParameters;
     }
 
     /**
      * @param ArrayOfEmailProviderParameter $inDeliveryProviderParameters
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\Replace
+     * @return Replace
      */
     public function setInDeliveryProviderParameters($inDeliveryProviderParameters)
     {
-      $this->inDeliveryProviderParameters = $inDeliveryProviderParameters;
-      return $this;
+        $this->inDeliveryProviderParameters = $inDeliveryProviderParameters;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class Replace
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\Replace
+     * @return Replace
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

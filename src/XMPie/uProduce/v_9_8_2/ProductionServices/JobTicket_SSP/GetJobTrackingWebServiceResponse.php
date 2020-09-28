@@ -15,7 +15,7 @@ class GetJobTrackingWebServiceResponse
      */
     public function __construct($GetJobTrackingWebServiceResult = null)
     {
-      $this->GetJobTrackingWebServiceResult = $GetJobTrackingWebServiceResult;
+        $this->GetJobTrackingWebServiceResult = $GetJobTrackingWebServiceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetJobTrackingWebServiceResponse
      */
     public function getGetJobTrackingWebServiceResult()
     {
-      return $this->GetJobTrackingWebServiceResult;
+        return $this->GetJobTrackingWebServiceResult;
     }
 
     /**
      * @param string $GetJobTrackingWebServiceResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetJobTrackingWebServiceResponse
+     * @return GetJobTrackingWebServiceResponse
      */
     public function setGetJobTrackingWebServiceResult($GetJobTrackingWebServiceResult)
     {
-      $this->GetJobTrackingWebServiceResult = $GetJobTrackingWebServiceResult;
-      return $this;
+        $this->GetJobTrackingWebServiceResult = $GetJobTrackingWebServiceResult;
+        return $this;
     }
 
 }

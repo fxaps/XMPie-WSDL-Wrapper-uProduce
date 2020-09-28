@@ -39,11 +39,11 @@ class SetEnvJobName
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inEnvJobName = null, $inIsDefaultCacheEnv = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inEnvJobName = $inEnvJobName;
-      $this->inIsDefaultCacheEnv = $inIsDefaultCacheEnv;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inEnvJobName = $inEnvJobName;
+        $this->inIsDefaultCacheEnv = $inIsDefaultCacheEnv;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetEnvJobName
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEnvJobName
+     * @return SetEnvJobName
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetEnvJobName
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEnvJobName
+     * @return SetEnvJobName
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetEnvJobName
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEnvJobName
+     * @return SetEnvJobName
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetEnvJobName
      */
     public function getInEnvJobName()
     {
-      return $this->inEnvJobName;
+        return $this->inEnvJobName;
     }
 
     /**
      * @param string $inEnvJobName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEnvJobName
+     * @return SetEnvJobName
      */
     public function setInEnvJobName($inEnvJobName)
     {
-      $this->inEnvJobName = $inEnvJobName;
-      return $this;
+        $this->inEnvJobName = $inEnvJobName;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetEnvJobName
      */
     public function getInIsDefaultCacheEnv()
     {
-      return $this->inIsDefaultCacheEnv;
+        return $this->inIsDefaultCacheEnv;
     }
 
     /**
      * @param boolean $inIsDefaultCacheEnv
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEnvJobName
+     * @return SetEnvJobName
      */
     public function setInIsDefaultCacheEnv($inIsDefaultCacheEnv)
     {
-      $this->inIsDefaultCacheEnv = $inIsDefaultCacheEnv;
-      return $this;
+        $this->inIsDefaultCacheEnv = $inIsDefaultCacheEnv;
+        return $this;
     }
 
 }

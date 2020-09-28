@@ -20,10 +20,10 @@ class PlanAudienceSegmentInstance
      */
     protected $m_Expression = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -31,17 +31,17 @@ class PlanAudienceSegmentInstance
      */
     public function getM_ID()
     {
-      return $this->m_ID;
+        return $this->m_ID;
     }
 
     /**
      * @param string $m_ID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudienceSegmentInstance
+     * @return PlanAudienceSegmentInstance
      */
     public function setM_ID($m_ID)
     {
-      $this->m_ID = $m_ID;
-      return $this;
+        $this->m_ID = $m_ID;
+        return $this;
     }
 
     /**
@@ -49,17 +49,17 @@ class PlanAudienceSegmentInstance
      */
     public function getM_Comment()
     {
-      return $this->m_Comment;
+        return $this->m_Comment;
     }
 
     /**
      * @param string $m_Comment
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudienceSegmentInstance
+     * @return PlanAudienceSegmentInstance
      */
     public function setM_Comment($m_Comment)
     {
-      $this->m_Comment = $m_Comment;
-      return $this;
+        $this->m_Comment = $m_Comment;
+        return $this;
     }
 
     /**
@@ -67,17 +67,17 @@ class PlanAudienceSegmentInstance
      */
     public function getM_Expression()
     {
-      return $this->m_Expression;
+        return $this->m_Expression;
     }
 
     /**
      * @param string $m_Expression
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudienceSegmentInstance
+     * @return PlanAudienceSegmentInstance
      */
     public function setM_Expression($m_Expression)
     {
-      $this->m_Expression = $m_Expression;
-      return $this;
+        $this->m_Expression = $m_Expression;
+        return $this;
     }
 
 }

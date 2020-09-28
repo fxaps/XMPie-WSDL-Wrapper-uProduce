@@ -15,7 +15,7 @@ class GetTabularADORColumnResponse
      */
     public function __construct($GetTabularADORColumnResult = null)
     {
-      $this->GetTabularADORColumnResult = $GetTabularADORColumnResult;
+        $this->GetTabularADORColumnResult = $GetTabularADORColumnResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTabularADORColumnResponse
      */
     public function getGetTabularADORColumnResult()
     {
-      return $this->GetTabularADORColumnResult;
+        return $this->GetTabularADORColumnResult;
     }
 
     /**
      * @param PlanTabularColumn $GetTabularADORColumnResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetTabularADORColumnResponse
+     * @return GetTabularADORColumnResponse
      */
     public function setGetTabularADORColumnResult($GetTabularADORColumnResult)
     {
-      $this->GetTabularADORColumnResult = $GetTabularADORColumnResult;
-      return $this;
+        $this->GetTabularADORColumnResult = $GetTabularADORColumnResult;
+        return $this;
     }
 
 }

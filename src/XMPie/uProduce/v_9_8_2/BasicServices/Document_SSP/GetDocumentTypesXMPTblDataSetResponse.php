@@ -15,7 +15,7 @@ class GetDocumentTypesXMPTblDataSetResponse
      */
     public function __construct($GetDocumentTypesXMPTblDataSetResult = null)
     {
-      $this->GetDocumentTypesXMPTblDataSetResult = $GetDocumentTypesXMPTblDataSetResult;
+        $this->GetDocumentTypesXMPTblDataSetResult = $GetDocumentTypesXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDocumentTypesXMPTblDataSetResponse
      */
     public function getGetDocumentTypesXMPTblDataSetResult()
     {
-      return $this->GetDocumentTypesXMPTblDataSetResult;
+        return $this->GetDocumentTypesXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetDocumentTypesXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetDocumentTypesXMPTblDataSetResponse
+     * @return GetDocumentTypesXMPTblDataSetResponse
      */
     public function setGetDocumentTypesXMPTblDataSetResult($GetDocumentTypesXMPTblDataSetResult)
     {
-      $this->GetDocumentTypesXMPTblDataSetResult = $GetDocumentTypesXMPTblDataSetResult;
-      return $this;
+        $this->GetDocumentTypesXMPTblDataSetResult = $GetDocumentTypesXMPTblDataSetResult;
+        return $this;
     }
 
 }

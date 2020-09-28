@@ -15,7 +15,7 @@ class UnDeployHTMLDocumentJobResponse
      */
     public function __construct($UnDeployHTMLDocumentJobResult = null)
     {
-      $this->UnDeployHTMLDocumentJobResult = $UnDeployHTMLDocumentJobResult;
+        $this->UnDeployHTMLDocumentJobResult = $UnDeployHTMLDocumentJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class UnDeployHTMLDocumentJobResponse
      */
     public function getUnDeployHTMLDocumentJobResult()
     {
-      return $this->UnDeployHTMLDocumentJobResult;
+        return $this->UnDeployHTMLDocumentJobResult;
     }
 
     /**
      * @param boolean $UnDeployHTMLDocumentJobResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\UnDeployHTMLDocumentJobResponse
+     * @return UnDeployHTMLDocumentJobResponse
      */
     public function setUnDeployHTMLDocumentJobResult($UnDeployHTMLDocumentJobResult)
     {
-      $this->UnDeployHTMLDocumentJobResult = $UnDeployHTMLDocumentJobResult;
-      return $this;
+        $this->UnDeployHTMLDocumentJobResult = $UnDeployHTMLDocumentJobResult;
+        return $this;
     }
 
 }

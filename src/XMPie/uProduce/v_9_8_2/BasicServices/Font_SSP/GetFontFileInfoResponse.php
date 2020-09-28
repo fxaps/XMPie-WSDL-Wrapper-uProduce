@@ -15,7 +15,7 @@ class GetFontFileInfoResponse
      */
     public function __construct($GetFontFileInfoResult = null)
     {
-      $this->GetFontFileInfoResult = $GetFontFileInfoResult;
+        $this->GetFontFileInfoResult = $GetFontFileInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFontFileInfoResponse
      */
     public function getGetFontFileInfoResult()
     {
-      return $this->GetFontFileInfoResult;
+        return $this->GetFontFileInfoResult;
     }
 
     /**
      * @param FontInfo $GetFontFileInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetFontFileInfoResponse
+     * @return GetFontFileInfoResponse
      */
     public function setGetFontFileInfoResult($GetFontFileInfoResult)
     {
-      $this->GetFontFileInfoResult = $GetFontFileInfoResult;
-      return $this;
+        $this->GetFontFileInfoResult = $GetFontFileInfoResult;
+        return $this;
     }
 
 }

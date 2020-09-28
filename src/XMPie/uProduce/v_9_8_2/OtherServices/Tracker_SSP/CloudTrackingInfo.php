@@ -26,8 +26,8 @@ class CloudTrackingInfo
      */
     public function __construct($m_Active = null, $m_Status = null)
     {
-      $this->m_Active = $m_Active;
-      $this->m_Status = $m_Status;
+        $this->m_Active = $m_Active;
+        $this->m_Status = $m_Status;
     }
 
     /**
@@ -35,17 +35,17 @@ class CloudTrackingInfo
      */
     public function getM_Active()
     {
-      return $this->m_Active;
+        return $this->m_Active;
     }
 
     /**
      * @param boolean $m_Active
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\CloudTrackingInfo
+     * @return CloudTrackingInfo
      */
     public function setM_Active($m_Active)
     {
-      $this->m_Active = $m_Active;
-      return $this;
+        $this->m_Active = $m_Active;
+        return $this;
     }
 
     /**
@@ -53,17 +53,17 @@ class CloudTrackingInfo
      */
     public function getM_Status()
     {
-      return $this->m_Status;
+        return $this->m_Status;
     }
 
     /**
      * @param int $m_Status
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\CloudTrackingInfo
+     * @return CloudTrackingInfo
      */
     public function setM_Status($m_Status)
     {
-      $this->m_Status = $m_Status;
-      return $this;
+        $this->m_Status = $m_Status;
+        return $this;
     }
 
     /**
@@ -71,17 +71,17 @@ class CloudTrackingInfo
      */
     public function getM_StatusMessageID()
     {
-      return $this->m_StatusMessageID;
+        return $this->m_StatusMessageID;
     }
 
     /**
      * @param string $m_StatusMessageID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\CloudTrackingInfo
+     * @return CloudTrackingInfo
      */
     public function setM_StatusMessageID($m_StatusMessageID)
     {
-      $this->m_StatusMessageID = $m_StatusMessageID;
-      return $this;
+        $this->m_StatusMessageID = $m_StatusMessageID;
+        return $this;
     }
 
 }

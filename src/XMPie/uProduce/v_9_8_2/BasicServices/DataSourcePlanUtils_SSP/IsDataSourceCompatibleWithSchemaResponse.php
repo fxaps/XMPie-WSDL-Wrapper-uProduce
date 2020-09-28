@@ -15,7 +15,7 @@ class IsDataSourceCompatibleWithSchemaResponse
      */
     public function __construct($IsDataSourceCompatibleWithSchemaResult = null)
     {
-      $this->IsDataSourceCompatibleWithSchemaResult = $IsDataSourceCompatibleWithSchemaResult;
+        $this->IsDataSourceCompatibleWithSchemaResult = $IsDataSourceCompatibleWithSchemaResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsDataSourceCompatibleWithSchemaResponse
      */
     public function getIsDataSourceCompatibleWithSchemaResult()
     {
-      return $this->IsDataSourceCompatibleWithSchemaResult;
+        return $this->IsDataSourceCompatibleWithSchemaResult;
     }
 
     /**
      * @param boolean $IsDataSourceCompatibleWithSchemaResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsDataSourceCompatibleWithSchemaResponse
+     * @return IsDataSourceCompatibleWithSchemaResponse
      */
     public function setIsDataSourceCompatibleWithSchemaResult($IsDataSourceCompatibleWithSchemaResult)
     {
-      $this->IsDataSourceCompatibleWithSchemaResult = $IsDataSourceCompatibleWithSchemaResult;
-      return $this;
+        $this->IsDataSourceCompatibleWithSchemaResult = $IsDataSourceCompatibleWithSchemaResult;
+        return $this;
     }
 
 }

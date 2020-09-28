@@ -15,7 +15,7 @@ class GetResourceResponse
      */
     public function __construct($GetResourceResult = null)
     {
-      $this->GetResourceResult = $GetResourceResult;
+        $this->GetResourceResult = $GetResourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetResourceResponse
      */
     public function getGetResourceResult()
     {
-      return $this->GetResourceResult;
+        return $this->GetResourceResult;
     }
 
     /**
      * @param string $GetResourceResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceResponse
+     * @return GetResourceResponse
      */
     public function setGetResourceResult($GetResourceResult)
     {
-      $this->GetResourceResult = $GetResourceResult;
-      return $this;
+        $this->GetResourceResult = $GetResourceResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SetEmbedEmailBodyResponse
      */
     public function __construct($SetEmbedEmailBodyResult = null)
     {
-      $this->SetEmbedEmailBodyResult = $SetEmbedEmailBodyResult;
+        $this->SetEmbedEmailBodyResult = $SetEmbedEmailBodyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetEmbedEmailBodyResponse
      */
     public function getSetEmbedEmailBodyResult()
     {
-      return $this->SetEmbedEmailBodyResult;
+        return $this->SetEmbedEmailBodyResult;
     }
 
     /**
      * @param boolean $SetEmbedEmailBodyResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmbedEmailBodyResponse
+     * @return SetEmbedEmailBodyResponse
      */
     public function setSetEmbedEmailBodyResult($SetEmbedEmailBodyResult)
     {
-      $this->SetEmbedEmailBodyResult = $SetEmbedEmailBodyResult;
-      return $this;
+        $this->SetEmbedEmailBodyResult = $SetEmbedEmailBodyResult;
+        return $this;
     }
 
 }

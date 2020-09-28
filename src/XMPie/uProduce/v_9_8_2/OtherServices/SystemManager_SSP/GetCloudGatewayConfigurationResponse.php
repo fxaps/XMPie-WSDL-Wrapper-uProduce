@@ -15,7 +15,7 @@ class GetCloudGatewayConfigurationResponse
      */
     public function __construct($GetCloudGatewayConfigurationResult = null)
     {
-      $this->GetCloudGatewayConfigurationResult = $GetCloudGatewayConfigurationResult;
+        $this->GetCloudGatewayConfigurationResult = $GetCloudGatewayConfigurationResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCloudGatewayConfigurationResponse
      */
     public function getGetCloudGatewayConfigurationResult()
     {
-      return $this->GetCloudGatewayConfigurationResult;
+        return $this->GetCloudGatewayConfigurationResult;
     }
 
     /**
      * @param CloudGatewayConfiguration $GetCloudGatewayConfigurationResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetCloudGatewayConfigurationResponse
+     * @return GetCloudGatewayConfigurationResponse
      */
     public function setGetCloudGatewayConfigurationResult($GetCloudGatewayConfigurationResult)
     {
-      $this->GetCloudGatewayConfigurationResult = $GetCloudGatewayConfigurationResult;
-      return $this;
+        $this->GetCloudGatewayConfigurationResult = $GetCloudGatewayConfigurationResult;
+        return $this;
     }
 
 }

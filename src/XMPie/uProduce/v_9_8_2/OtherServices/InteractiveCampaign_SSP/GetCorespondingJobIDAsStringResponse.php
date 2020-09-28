@@ -15,7 +15,7 @@ class GetCorespondingJobIDAsStringResponse
      */
     public function __construct($GetCorespondingJobIDAsStringResult = null)
     {
-      $this->GetCorespondingJobIDAsStringResult = $GetCorespondingJobIDAsStringResult;
+        $this->GetCorespondingJobIDAsStringResult = $GetCorespondingJobIDAsStringResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCorespondingJobIDAsStringResponse
      */
     public function getGetCorespondingJobIDAsStringResult()
     {
-      return $this->GetCorespondingJobIDAsStringResult;
+        return $this->GetCorespondingJobIDAsStringResult;
     }
 
     /**
      * @param string $GetCorespondingJobIDAsStringResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetCorespondingJobIDAsStringResponse
+     * @return GetCorespondingJobIDAsStringResponse
      */
     public function setGetCorespondingJobIDAsStringResult($GetCorespondingJobIDAsStringResult)
     {
-      $this->GetCorespondingJobIDAsStringResult = $GetCorespondingJobIDAsStringResult;
-      return $this;
+        $this->GetCorespondingJobIDAsStringResult = $GetCorespondingJobIDAsStringResult;
+        return $this;
     }
 
 }

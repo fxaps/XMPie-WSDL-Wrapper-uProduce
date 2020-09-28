@@ -15,7 +15,7 @@ class GetResourceThumbnailBinaryFileStreamResponse
      */
     public function __construct($GetResourceThumbnailBinaryFileStreamResult = null)
     {
-      $this->GetResourceThumbnailBinaryFileStreamResult = $GetResourceThumbnailBinaryFileStreamResult;
+        $this->GetResourceThumbnailBinaryFileStreamResult = $GetResourceThumbnailBinaryFileStreamResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetResourceThumbnailBinaryFileStreamResponse
      */
     public function getGetResourceThumbnailBinaryFileStreamResult()
     {
-      return $this->GetResourceThumbnailBinaryFileStreamResult;
+        return $this->GetResourceThumbnailBinaryFileStreamResult;
     }
 
     /**
      * @param base64Binary $GetResourceThumbnailBinaryFileStreamResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceThumbnailBinaryFileStreamResponse
+     * @return GetResourceThumbnailBinaryFileStreamResponse
      */
     public function setGetResourceThumbnailBinaryFileStreamResult($GetResourceThumbnailBinaryFileStreamResult)
     {
-      $this->GetResourceThumbnailBinaryFileStreamResult = $GetResourceThumbnailBinaryFileStreamResult;
-      return $this;
+        $this->GetResourceThumbnailBinaryFileStreamResult = $GetResourceThumbnailBinaryFileStreamResult;
+        return $this;
     }
 
 }

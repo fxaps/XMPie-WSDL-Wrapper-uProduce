@@ -15,7 +15,7 @@ class GetCustomerClicksXMPTblDataSetResponse
      */
     public function __construct($GetCustomerClicksXMPTblDataSetResult = null)
     {
-      $this->GetCustomerClicksXMPTblDataSetResult = $GetCustomerClicksXMPTblDataSetResult;
+        $this->GetCustomerClicksXMPTblDataSetResult = $GetCustomerClicksXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCustomerClicksXMPTblDataSetResponse
      */
     public function getGetCustomerClicksXMPTblDataSetResult()
     {
-      return $this->GetCustomerClicksXMPTblDataSetResult;
+        return $this->GetCustomerClicksXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetCustomerClicksXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetCustomerClicksXMPTblDataSetResponse
+     * @return GetCustomerClicksXMPTblDataSetResponse
      */
     public function setGetCustomerClicksXMPTblDataSetResult($GetCustomerClicksXMPTblDataSetResult)
     {
-      $this->GetCustomerClicksXMPTblDataSetResult = $GetCustomerClicksXMPTblDataSetResult;
-      return $this;
+        $this->GetCustomerClicksXMPTblDataSetResult = $GetCustomerClicksXMPTblDataSetResult;
+        return $this;
     }
 
 }

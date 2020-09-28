@@ -15,7 +15,7 @@ class IsTrackedResponse
      */
     public function __construct($IsTrackedResult = null)
     {
-      $this->IsTrackedResult = $IsTrackedResult;
+        $this->IsTrackedResult = $IsTrackedResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsTrackedResponse
      */
     public function getIsTrackedResult()
     {
-      return $this->IsTrackedResult;
+        return $this->IsTrackedResult;
     }
 
     /**
      * @param boolean $IsTrackedResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\IsTrackedResponse
+     * @return IsTrackedResponse
      */
     public function setIsTrackedResult($IsTrackedResult)
     {
-      $this->IsTrackedResult = $IsTrackedResult;
-      return $this;
+        $this->IsTrackedResult = $IsTrackedResult;
+        return $this;
     }
 
 }

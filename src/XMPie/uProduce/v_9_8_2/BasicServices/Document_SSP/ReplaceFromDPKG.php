@@ -51,13 +51,13 @@ class ReplaceFromDPKG
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inDpkgPath = null, $inDeleteSource = null, $inDeleteEmptySourceFolder = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDocumentID = $inDocumentID;
-      $this->inDpkgPath = $inDpkgPath;
-      $this->inDeleteSource = $inDeleteSource;
-      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDocumentID = $inDocumentID;
+        $this->inDpkgPath = $inDpkgPath;
+        $this->inDeleteSource = $inDeleteSource;
+        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class ReplaceFromDPKG
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromDPKG
+     * @return ReplaceFromDPKG
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class ReplaceFromDPKG
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromDPKG
+     * @return ReplaceFromDPKG
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class ReplaceFromDPKG
      */
     public function getInDocumentID()
     {
-      return $this->inDocumentID;
+        return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromDPKG
+     * @return ReplaceFromDPKG
      */
     public function setInDocumentID($inDocumentID)
     {
-      $this->inDocumentID = $inDocumentID;
-      return $this;
+        $this->inDocumentID = $inDocumentID;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class ReplaceFromDPKG
      */
     public function getInDpkgPath()
     {
-      return $this->inDpkgPath;
+        return $this->inDpkgPath;
     }
 
     /**
      * @param string $inDpkgPath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromDPKG
+     * @return ReplaceFromDPKG
      */
     public function setInDpkgPath($inDpkgPath)
     {
-      $this->inDpkgPath = $inDpkgPath;
-      return $this;
+        $this->inDpkgPath = $inDpkgPath;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class ReplaceFromDPKG
      */
     public function getInDeleteSource()
     {
-      return $this->inDeleteSource;
+        return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromDPKG
+     * @return ReplaceFromDPKG
      */
     public function setInDeleteSource($inDeleteSource)
     {
-      $this->inDeleteSource = $inDeleteSource;
-      return $this;
+        $this->inDeleteSource = $inDeleteSource;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class ReplaceFromDPKG
      */
     public function getInDeleteEmptySourceFolder()
     {
-      return $this->inDeleteEmptySourceFolder;
+        return $this->inDeleteEmptySourceFolder;
     }
 
     /**
      * @param boolean $inDeleteEmptySourceFolder
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromDPKG
+     * @return ReplaceFromDPKG
      */
     public function setInDeleteEmptySourceFolder($inDeleteEmptySourceFolder)
     {
-      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-      return $this;
+        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class ReplaceFromDPKG
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromDPKG
+     * @return ReplaceFromDPKG
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

@@ -33,10 +33,10 @@ class AppendCSVXFile
      */
     public function __construct($inUsername = null, $inPassword = null, $inMainCSVXFilePath = null, $inSecondaryCSVXFilePath = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inMainCSVXFilePath = $inMainCSVXFilePath;
-      $this->inSecondaryCSVXFilePath = $inSecondaryCSVXFilePath;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inMainCSVXFilePath = $inMainCSVXFilePath;
+        $this->inSecondaryCSVXFilePath = $inSecondaryCSVXFilePath;
     }
 
     /**
@@ -44,17 +44,17 @@ class AppendCSVXFile
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\AppendCSVXFile
+     * @return AppendCSVXFile
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class AppendCSVXFile
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\AppendCSVXFile
+     * @return AppendCSVXFile
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class AppendCSVXFile
      */
     public function getInMainCSVXFilePath()
     {
-      return $this->inMainCSVXFilePath;
+        return $this->inMainCSVXFilePath;
     }
 
     /**
      * @param string $inMainCSVXFilePath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\AppendCSVXFile
+     * @return AppendCSVXFile
      */
     public function setInMainCSVXFilePath($inMainCSVXFilePath)
     {
-      $this->inMainCSVXFilePath = $inMainCSVXFilePath;
-      return $this;
+        $this->inMainCSVXFilePath = $inMainCSVXFilePath;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class AppendCSVXFile
      */
     public function getInSecondaryCSVXFilePath()
     {
-      return $this->inSecondaryCSVXFilePath;
+        return $this->inSecondaryCSVXFilePath;
     }
 
     /**
      * @param string $inSecondaryCSVXFilePath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\AppendCSVXFile
+     * @return AppendCSVXFile
      */
     public function setInSecondaryCSVXFilePath($inSecondaryCSVXFilePath)
     {
-      $this->inSecondaryCSVXFilePath = $inSecondaryCSVXFilePath;
-      return $this;
+        $this->inSecondaryCSVXFilePath = $inSecondaryCSVXFilePath;
+        return $this;
     }
 
 }

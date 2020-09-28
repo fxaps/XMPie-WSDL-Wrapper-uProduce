@@ -15,7 +15,7 @@ class SendMailByRunResponse
      */
     public function __construct($SendMailByRunResult = null)
     {
-      $this->SendMailByRunResult = $SendMailByRunResult;
+        $this->SendMailByRunResult = $SendMailByRunResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SendMailByRunResponse
      */
     public function getSendMailByRunResult()
     {
-      return $this->SendMailByRunResult;
+        return $this->SendMailByRunResult;
     }
 
     /**
      * @param ArrayOfSendEmailResult $SendMailByRunResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMailByRunResponse
+     * @return SendMailByRunResponse
      */
     public function setSendMailByRunResult($SendMailByRunResult)
     {
-      $this->SendMailByRunResult = $SendMailByRunResult;
-      return $this;
+        $this->SendMailByRunResult = $SendMailByRunResult;
+        return $this;
     }
 
 }

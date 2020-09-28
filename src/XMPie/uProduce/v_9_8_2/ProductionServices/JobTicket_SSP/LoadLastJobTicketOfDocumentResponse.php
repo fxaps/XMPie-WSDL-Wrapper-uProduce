@@ -15,7 +15,7 @@ class LoadLastJobTicketOfDocumentResponse
      */
     public function __construct($LoadLastJobTicketOfDocumentResult = null)
     {
-      $this->LoadLastJobTicketOfDocumentResult = $LoadLastJobTicketOfDocumentResult;
+        $this->LoadLastJobTicketOfDocumentResult = $LoadLastJobTicketOfDocumentResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class LoadLastJobTicketOfDocumentResponse
      */
     public function getLoadLastJobTicketOfDocumentResult()
     {
-      return $this->LoadLastJobTicketOfDocumentResult;
+        return $this->LoadLastJobTicketOfDocumentResult;
     }
 
     /**
      * @param string $LoadLastJobTicketOfDocumentResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\LoadLastJobTicketOfDocumentResponse
+     * @return LoadLastJobTicketOfDocumentResponse
      */
     public function setLoadLastJobTicketOfDocumentResult($LoadLastJobTicketOfDocumentResult)
     {
-      $this->LoadLastJobTicketOfDocumentResult = $LoadLastJobTicketOfDocumentResult;
-      return $this;
+        $this->LoadLastJobTicketOfDocumentResult = $LoadLastJobTicketOfDocumentResult;
+        return $this;
     }
 
 }

@@ -27,9 +27,9 @@ class DeleteCustomButtons
      */
     public function __construct($inUsername = null, $inPassword = null, $inCustomButtonIDArray = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inCustomButtonIDArray = $inCustomButtonIDArray;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inCustomButtonIDArray = $inCustomButtonIDArray;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteCustomButtons
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteCustomButtons
+     * @return DeleteCustomButtons
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteCustomButtons
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteCustomButtons
+     * @return DeleteCustomButtons
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteCustomButtons
      */
     public function getInCustomButtonIDArray()
     {
-      return $this->inCustomButtonIDArray;
+        return $this->inCustomButtonIDArray;
     }
 
     /**
      * @param ArrayOfString $inCustomButtonIDArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteCustomButtons
+     * @return DeleteCustomButtons
      */
     public function setInCustomButtonIDArray($inCustomButtonIDArray)
     {
-      $this->inCustomButtonIDArray = $inCustomButtonIDArray;
-      return $this;
+        $this->inCustomButtonIDArray = $inCustomButtonIDArray;
+        return $this;
     }
 
 }

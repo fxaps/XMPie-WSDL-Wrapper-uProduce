@@ -15,7 +15,7 @@ class GetSchemasNamesResponse
      */
     public function __construct($GetSchemasNamesResult = null)
     {
-      $this->GetSchemasNamesResult = $GetSchemasNamesResult;
+        $this->GetSchemasNamesResult = $GetSchemasNamesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSchemasNamesResponse
      */
     public function getGetSchemasNamesResult()
     {
-      return $this->GetSchemasNamesResult;
+        return $this->GetSchemasNamesResult;
     }
 
     /**
      * @param ArrayOfString $GetSchemasNamesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetSchemasNamesResponse
+     * @return GetSchemasNamesResponse
      */
     public function setGetSchemasNamesResult($GetSchemasNamesResult)
     {
-      $this->GetSchemasNamesResult = $GetSchemasNamesResult;
-      return $this;
+        $this->GetSchemasNamesResult = $GetSchemasNamesResult;
+        return $this;
     }
 
 }

@@ -33,10 +33,10 @@ class DeployHTMLDocumentJob
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobTicket = null, $inTouchPointID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inJobTicket = $inJobTicket;
-      $this->inTouchPointID = $inTouchPointID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inJobTicket = $inJobTicket;
+        $this->inTouchPointID = $inTouchPointID;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeployHTMLDocumentJob
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\DeployHTMLDocumentJob
+     * @return DeployHTMLDocumentJob
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeployHTMLDocumentJob
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\DeployHTMLDocumentJob
+     * @return DeployHTMLDocumentJob
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeployHTMLDocumentJob
      */
     public function getInJobTicket()
     {
-      return $this->inJobTicket;
+        return $this->inJobTicket;
     }
 
     /**
      * @param string $inJobTicket
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\DeployHTMLDocumentJob
+     * @return DeployHTMLDocumentJob
      */
     public function setInJobTicket($inJobTicket)
     {
-      $this->inJobTicket = $inJobTicket;
-      return $this;
+        $this->inJobTicket = $inJobTicket;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeployHTMLDocumentJob
      */
     public function getInTouchPointID()
     {
-      return $this->inTouchPointID;
+        return $this->inTouchPointID;
     }
 
     /**
      * @param string $inTouchPointID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\DeployHTMLDocumentJob
+     * @return DeployHTMLDocumentJob
      */
     public function setInTouchPointID($inTouchPointID)
     {
-      $this->inTouchPointID = $inTouchPointID;
-      return $this;
+        $this->inTouchPointID = $inTouchPointID;
+        return $this;
     }
 
 }

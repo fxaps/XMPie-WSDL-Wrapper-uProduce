@@ -15,7 +15,7 @@ class GetStatusByIDResponse
      */
     public function __construct($GetStatusByIDResult = null)
     {
-      $this->GetStatusByIDResult = $GetStatusByIDResult;
+        $this->GetStatusByIDResult = $GetStatusByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetStatusByIDResponse
      */
     public function getGetStatusByIDResult()
     {
-      return $this->GetStatusByIDResult;
+        return $this->GetStatusByIDResult;
     }
 
     /**
      * @param StatusInfo $GetStatusByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetStatusByIDResponse
+     * @return GetStatusByIDResponse
      */
     public function setGetStatusByIDResult($GetStatusByIDResult)
     {
-      $this->GetStatusByIDResult = $GetStatusByIDResult;
-      return $this;
+        $this->GetStatusByIDResult = $GetStatusByIDResult;
+        return $this;
     }
 
 }

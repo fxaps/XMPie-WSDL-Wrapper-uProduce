@@ -15,7 +15,7 @@ class IsTableReadyForPortResponse
      */
     public function __construct($IsTableReadyForPortResult = null)
     {
-      $this->IsTableReadyForPortResult = $IsTableReadyForPortResult;
+        $this->IsTableReadyForPortResult = $IsTableReadyForPortResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsTableReadyForPortResponse
      */
     public function getIsTableReadyForPortResult()
     {
-      return $this->IsTableReadyForPortResult;
+        return $this->IsTableReadyForPortResult;
     }
 
     /**
      * @param boolean $IsTableReadyForPortResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsTableReadyForPortResponse
+     * @return IsTableReadyForPortResponse
      */
     public function setIsTableReadyForPortResult($IsTableReadyForPortResult)
     {
-      $this->IsTableReadyForPortResult = $IsTableReadyForPortResult;
-      return $this;
+        $this->IsTableReadyForPortResult = $IsTableReadyForPortResult;
+        return $this;
     }
 
 }

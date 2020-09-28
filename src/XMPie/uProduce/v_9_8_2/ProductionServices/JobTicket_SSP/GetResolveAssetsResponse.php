@@ -15,7 +15,7 @@ class GetResolveAssetsResponse
      */
     public function __construct($GetResolveAssetsResult = null)
     {
-      $this->GetResolveAssetsResult = $GetResolveAssetsResult;
+        $this->GetResolveAssetsResult = $GetResolveAssetsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetResolveAssetsResponse
      */
     public function getGetResolveAssetsResult()
     {
-      return $this->GetResolveAssetsResult;
+        return $this->GetResolveAssetsResult;
     }
 
     /**
      * @param boolean $GetResolveAssetsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetResolveAssetsResponse
+     * @return GetResolveAssetsResponse
      */
     public function setGetResolveAssetsResult($GetResolveAssetsResult)
     {
-      $this->GetResolveAssetsResult = $GetResolveAssetsResult;
-      return $this;
+        $this->GetResolveAssetsResult = $GetResolveAssetsResult;
+        return $this;
     }
 
 }

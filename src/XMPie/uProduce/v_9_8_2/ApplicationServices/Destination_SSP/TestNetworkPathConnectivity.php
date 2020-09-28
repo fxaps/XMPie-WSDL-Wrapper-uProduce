@@ -27,9 +27,9 @@ class TestNetworkPathConnectivity
      */
     public function __construct($inUsername = null, $inPassword = null, $inNetworkPath = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inNetworkPath = $inNetworkPath;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inNetworkPath = $inNetworkPath;
     }
 
     /**
@@ -37,17 +37,17 @@ class TestNetworkPathConnectivity
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivity
+     * @return TestNetworkPathConnectivity
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class TestNetworkPathConnectivity
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivity
+     * @return TestNetworkPathConnectivity
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class TestNetworkPathConnectivity
      */
     public function getInNetworkPath()
     {
-      return $this->inNetworkPath;
+        return $this->inNetworkPath;
     }
 
     /**
      * @param string $inNetworkPath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivity
+     * @return TestNetworkPathConnectivity
      */
     public function setInNetworkPath($inNetworkPath)
     {
-      $this->inNetworkPath = $inNetworkPath;
-      return $this;
+        $this->inNetworkPath = $inNetworkPath;
+        return $this;
     }
 
 }

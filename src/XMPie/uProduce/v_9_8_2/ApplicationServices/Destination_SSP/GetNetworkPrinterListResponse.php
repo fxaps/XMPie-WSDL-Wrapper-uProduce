@@ -15,7 +15,7 @@ class GetNetworkPrinterListResponse
      */
     public function __construct($GetNetworkPrinterListResult = null)
     {
-      $this->GetNetworkPrinterListResult = $GetNetworkPrinterListResult;
+        $this->GetNetworkPrinterListResult = $GetNetworkPrinterListResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNetworkPrinterListResponse
      */
     public function getGetNetworkPrinterListResult()
     {
-      return $this->GetNetworkPrinterListResult;
+        return $this->GetNetworkPrinterListResult;
     }
 
     /**
      * @param ArrayOfString $GetNetworkPrinterListResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\GetNetworkPrinterListResponse
+     * @return GetNetworkPrinterListResponse
      */
     public function setGetNetworkPrinterListResult($GetNetworkPrinterListResult)
     {
-      $this->GetNetworkPrinterListResult = $GetNetworkPrinterListResult;
-      return $this;
+        $this->GetNetworkPrinterListResult = $GetNetworkPrinterListResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SetDefaultAssetSourcesResponse
      */
     public function __construct($SetDefaultAssetSourcesResult = null)
     {
-      $this->SetDefaultAssetSourcesResult = $SetDefaultAssetSourcesResult;
+        $this->SetDefaultAssetSourcesResult = $SetDefaultAssetSourcesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetDefaultAssetSourcesResponse
      */
     public function getSetDefaultAssetSourcesResult()
     {
-      return $this->SetDefaultAssetSourcesResult;
+        return $this->SetDefaultAssetSourcesResult;
     }
 
     /**
      * @param boolean $SetDefaultAssetSourcesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultAssetSourcesResponse
+     * @return SetDefaultAssetSourcesResponse
      */
     public function setSetDefaultAssetSourcesResult($SetDefaultAssetSourcesResult)
     {
-      $this->SetDefaultAssetSourcesResult = $SetDefaultAssetSourcesResult;
-      return $this;
+        $this->SetDefaultAssetSourcesResult = $SetDefaultAssetSourcesResult;
+        return $this;
     }
 
 }

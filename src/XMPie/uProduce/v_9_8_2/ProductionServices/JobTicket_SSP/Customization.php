@@ -25,10 +25,10 @@ class Customization
      */
     protected $m_Expression = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -36,17 +36,17 @@ class Customization
      */
     public function getM_Name()
     {
-      return $this->m_Name;
+        return $this->m_Name;
     }
 
     /**
      * @param string $m_Name
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\Customization
+     * @return Customization
      */
     public function setM_Name($m_Name)
     {
-      $this->m_Name = $m_Name;
-      return $this;
+        $this->m_Name = $m_Name;
+        return $this;
     }
 
     /**
@@ -54,17 +54,17 @@ class Customization
      */
     public function getM_Type()
     {
-      return $this->m_Type;
+        return $this->m_Type;
     }
 
     /**
      * @param string $m_Type
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\Customization
+     * @return Customization
      */
     public function setM_Type($m_Type)
     {
-      $this->m_Type = $m_Type;
-      return $this;
+        $this->m_Type = $m_Type;
+        return $this;
     }
 
     /**
@@ -72,17 +72,17 @@ class Customization
      */
     public function getM_IOType()
     {
-      return $this->m_IOType;
+        return $this->m_IOType;
     }
 
     /**
      * @param string $m_IOType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\Customization
+     * @return Customization
      */
     public function setM_IOType($m_IOType)
     {
-      $this->m_IOType = $m_IOType;
-      return $this;
+        $this->m_IOType = $m_IOType;
+        return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class Customization
      */
     public function getM_Expression()
     {
-      return $this->m_Expression;
+        return $this->m_Expression;
     }
 
     /**
      * @param string $m_Expression
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\Customization
+     * @return Customization
      */
     public function setM_Expression($m_Expression)
     {
-      $this->m_Expression = $m_Expression;
-      return $this;
+        $this->m_Expression = $m_Expression;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetFontIDResponse
      */
     public function __construct($GetFontIDResult = null)
     {
-      $this->GetFontIDResult = $GetFontIDResult;
+        $this->GetFontIDResult = $GetFontIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFontIDResponse
      */
     public function getGetFontIDResult()
     {
-      return $this->GetFontIDResult;
+        return $this->GetFontIDResult;
     }
 
     /**
      * @param string $GetFontIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetFontIDResponse
+     * @return GetFontIDResponse
      */
     public function setGetFontIDResult($GetFontIDResult)
     {
-      $this->GetFontIDResult = $GetFontIDResult;
-      return $this;
+        $this->GetFontIDResult = $GetFontIDResult;
+        return $this;
     }
 
 }

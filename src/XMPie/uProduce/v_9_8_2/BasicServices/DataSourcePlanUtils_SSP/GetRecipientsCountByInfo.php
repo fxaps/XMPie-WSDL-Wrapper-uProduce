@@ -39,11 +39,11 @@ class GetRecipientsCountByInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inConnectionInfo = null, $inRIInfo = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPlanID = $inPlanID;
-      $this->inConnectionInfo = $inConnectionInfo;
-      $this->inRIInfo = $inRIInfo;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPlanID = $inPlanID;
+        $this->inConnectionInfo = $inConnectionInfo;
+        $this->inRIInfo = $inRIInfo;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetRecipientsCountByInfo
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetRecipientsCountByInfo
+     * @return GetRecipientsCountByInfo
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetRecipientsCountByInfo
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetRecipientsCountByInfo
+     * @return GetRecipientsCountByInfo
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetRecipientsCountByInfo
      */
     public function getInPlanID()
     {
-      return $this->inPlanID;
+        return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetRecipientsCountByInfo
+     * @return GetRecipientsCountByInfo
      */
     public function setInPlanID($inPlanID)
     {
-      $this->inPlanID = $inPlanID;
-      return $this;
+        $this->inPlanID = $inPlanID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetRecipientsCountByInfo
      */
     public function getInConnectionInfo()
     {
-      return $this->inConnectionInfo;
+        return $this->inConnectionInfo;
     }
 
     /**
      * @param Connection $inConnectionInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetRecipientsCountByInfo
+     * @return GetRecipientsCountByInfo
      */
     public function setInConnectionInfo($inConnectionInfo)
     {
-      $this->inConnectionInfo = $inConnectionInfo;
-      return $this;
+        $this->inConnectionInfo = $inConnectionInfo;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetRecipientsCountByInfo
      */
     public function getInRIInfo()
     {
-      return $this->inRIInfo;
+        return $this->inRIInfo;
     }
 
     /**
      * @param RecipientsInfo $inRIInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetRecipientsCountByInfo
+     * @return GetRecipientsCountByInfo
      */
     public function setInRIInfo($inRIInfo)
     {
-      $this->inRIInfo = $inRIInfo;
-      return $this;
+        $this->inRIInfo = $inRIInfo;
+        return $this;
     }
 
 }

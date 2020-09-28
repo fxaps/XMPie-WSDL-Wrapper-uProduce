@@ -15,7 +15,7 @@ class CreateFileToTempStorageResponse
      */
     public function __construct($CreateFileToTempStorageResult = null)
     {
-      $this->CreateFileToTempStorageResult = $CreateFileToTempStorageResult;
+        $this->CreateFileToTempStorageResult = $CreateFileToTempStorageResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateFileToTempStorageResponse
      */
     public function getCreateFileToTempStorageResult()
     {
-      return $this->CreateFileToTempStorageResult;
+        return $this->CreateFileToTempStorageResult;
     }
 
     /**
      * @param string $CreateFileToTempStorageResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateFileToTempStorageResponse
+     * @return CreateFileToTempStorageResponse
      */
     public function setCreateFileToTempStorageResult($CreateFileToTempStorageResult)
     {
-      $this->CreateFileToTempStorageResult = $CreateFileToTempStorageResult;
-      return $this;
+        $this->CreateFileToTempStorageResult = $CreateFileToTempStorageResult;
+        return $this;
     }
 
 }

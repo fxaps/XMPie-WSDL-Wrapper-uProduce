@@ -15,7 +15,7 @@ class GetFontsFolderPathResponse
      */
     public function __construct($GetFontsFolderPathResult = null)
     {
-      $this->GetFontsFolderPathResult = $GetFontsFolderPathResult;
+        $this->GetFontsFolderPathResult = $GetFontsFolderPathResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFontsFolderPathResponse
      */
     public function getGetFontsFolderPathResult()
     {
-      return $this->GetFontsFolderPathResult;
+        return $this->GetFontsFolderPathResult;
     }
 
     /**
      * @param string $GetFontsFolderPathResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetFontsFolderPathResponse
+     * @return GetFontsFolderPathResponse
      */
     public function setGetFontsFolderPathResult($GetFontsFolderPathResult)
     {
-      $this->GetFontsFolderPathResult = $GetFontsFolderPathResult;
-      return $this;
+        $this->GetFontsFolderPathResult = $GetFontsFolderPathResult;
+        return $this;
     }
 
 }

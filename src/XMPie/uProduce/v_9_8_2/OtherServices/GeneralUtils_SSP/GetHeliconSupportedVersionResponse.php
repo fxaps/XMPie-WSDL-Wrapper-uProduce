@@ -15,7 +15,7 @@ class GetHeliconSupportedVersionResponse
      */
     public function __construct($GetHeliconSupportedVersionResult = null)
     {
-      $this->GetHeliconSupportedVersionResult = $GetHeliconSupportedVersionResult;
+        $this->GetHeliconSupportedVersionResult = $GetHeliconSupportedVersionResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetHeliconSupportedVersionResponse
      */
     public function getGetHeliconSupportedVersionResult()
     {
-      return $this->GetHeliconSupportedVersionResult;
+        return $this->GetHeliconSupportedVersionResult;
     }
 
     /**
      * @param string $GetHeliconSupportedVersionResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetHeliconSupportedVersionResponse
+     * @return GetHeliconSupportedVersionResponse
      */
     public function setGetHeliconSupportedVersionResult($GetHeliconSupportedVersionResult)
     {
-      $this->GetHeliconSupportedVersionResult = $GetHeliconSupportedVersionResult;
-      return $this;
+        $this->GetHeliconSupportedVersionResult = $GetHeliconSupportedVersionResult;
+        return $this;
     }
 
 }

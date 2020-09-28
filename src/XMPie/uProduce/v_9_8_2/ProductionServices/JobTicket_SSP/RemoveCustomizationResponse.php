@@ -15,7 +15,7 @@ class RemoveCustomizationResponse
      */
     public function __construct($RemoveCustomizationResult = null)
     {
-      $this->RemoveCustomizationResult = $RemoveCustomizationResult;
+        $this->RemoveCustomizationResult = $RemoveCustomizationResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveCustomizationResponse
      */
     public function getRemoveCustomizationResult()
     {
-      return $this->RemoveCustomizationResult;
+        return $this->RemoveCustomizationResult;
     }
 
     /**
      * @param boolean $RemoveCustomizationResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveCustomizationResponse
+     * @return RemoveCustomizationResponse
      */
     public function setRemoveCustomizationResult($RemoveCustomizationResult)
     {
-      $this->RemoveCustomizationResult = $RemoveCustomizationResult;
-      return $this;
+        $this->RemoveCustomizationResult = $RemoveCustomizationResult;
+        return $this;
     }
 
 }

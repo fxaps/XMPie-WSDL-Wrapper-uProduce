@@ -15,7 +15,7 @@ class PlanContainsExpressionResponse
      */
     public function __construct($PlanContainsExpressionResult = null)
     {
-      $this->PlanContainsExpressionResult = $PlanContainsExpressionResult;
+        $this->PlanContainsExpressionResult = $PlanContainsExpressionResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class PlanContainsExpressionResponse
      */
     public function getPlanContainsExpressionResult()
     {
-      return $this->PlanContainsExpressionResult;
+        return $this->PlanContainsExpressionResult;
     }
 
     /**
      * @param ArrayOfBoolean $PlanContainsExpressionResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanContainsExpressionResponse
+     * @return PlanContainsExpressionResponse
      */
     public function setPlanContainsExpressionResult($PlanContainsExpressionResult)
     {
-      $this->PlanContainsExpressionResult = $PlanContainsExpressionResult;
-      return $this;
+        $this->PlanContainsExpressionResult = $PlanContainsExpressionResult;
+        return $this;
     }
 
 }

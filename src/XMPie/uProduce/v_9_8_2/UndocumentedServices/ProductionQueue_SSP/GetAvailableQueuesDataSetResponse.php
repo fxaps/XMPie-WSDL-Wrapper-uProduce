@@ -15,7 +15,7 @@ class GetAvailableQueuesDataSetResponse
      */
     public function __construct($GetAvailableQueuesDataSetResult = null)
     {
-      $this->GetAvailableQueuesDataSetResult = $GetAvailableQueuesDataSetResult;
+        $this->GetAvailableQueuesDataSetResult = $GetAvailableQueuesDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAvailableQueuesDataSetResponse
      */
     public function getGetAvailableQueuesDataSetResult()
     {
-      return $this->GetAvailableQueuesDataSetResult;
+        return $this->GetAvailableQueuesDataSetResult;
     }
 
     /**
      * @param GetAvailableQueuesDataSetResult $GetAvailableQueuesDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ProductionQueue_SSP\GetAvailableQueuesDataSetResponse
+     * @return GetAvailableQueuesDataSetResponse
      */
     public function setGetAvailableQueuesDataSetResult($GetAvailableQueuesDataSetResult)
     {
-      $this->GetAvailableQueuesDataSetResult = $GetAvailableQueuesDataSetResult;
-      return $this;
+        $this->GetAvailableQueuesDataSetResult = $GetAvailableQueuesDataSetResult;
+        return $this;
     }
 
 }

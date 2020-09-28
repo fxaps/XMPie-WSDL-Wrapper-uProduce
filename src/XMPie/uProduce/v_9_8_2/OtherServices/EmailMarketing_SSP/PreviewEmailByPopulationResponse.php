@@ -15,7 +15,7 @@ class PreviewEmailByPopulationResponse
      */
     public function __construct($PreviewEmailByPopulationResult = null)
     {
-      $this->PreviewEmailByPopulationResult = $PreviewEmailByPopulationResult;
+        $this->PreviewEmailByPopulationResult = $PreviewEmailByPopulationResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class PreviewEmailByPopulationResponse
      */
     public function getPreviewEmailByPopulationResult()
     {
-      return $this->PreviewEmailByPopulationResult;
+        return $this->PreviewEmailByPopulationResult;
     }
 
     /**
      * @param string $PreviewEmailByPopulationResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByPopulationResponse
+     * @return PreviewEmailByPopulationResponse
      */
     public function setPreviewEmailByPopulationResult($PreviewEmailByPopulationResult)
     {
-      $this->PreviewEmailByPopulationResult = $PreviewEmailByPopulationResult;
-      return $this;
+        $this->PreviewEmailByPopulationResult = $PreviewEmailByPopulationResult;
+        return $this;
     }
 
 }

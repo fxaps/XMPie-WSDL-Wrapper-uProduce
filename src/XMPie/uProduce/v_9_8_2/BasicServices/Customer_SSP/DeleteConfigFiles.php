@@ -27,9 +27,9 @@ class DeleteConfigFiles
      */
     public function __construct($inUsername = null, $inPassword = null, $inConfigFileIDArray = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inConfigFileIDArray = $inConfigFileIDArray;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inConfigFileIDArray = $inConfigFileIDArray;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteConfigFiles
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteConfigFiles
+     * @return DeleteConfigFiles
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteConfigFiles
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteConfigFiles
+     * @return DeleteConfigFiles
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteConfigFiles
      */
     public function getInConfigFileIDArray()
     {
-      return $this->inConfigFileIDArray;
+        return $this->inConfigFileIDArray;
     }
 
     /**
      * @param ArrayOfString $inConfigFileIDArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteConfigFiles
+     * @return DeleteConfigFiles
      */
     public function setInConfigFileIDArray($inConfigFileIDArray)
     {
-      $this->inConfigFileIDArray = $inConfigFileIDArray;
-      return $this;
+        $this->inConfigFileIDArray = $inConfigFileIDArray;
+        return $this;
     }
 
 }

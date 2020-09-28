@@ -15,7 +15,7 @@ class TestDataSourceConnectivityByInfoResponse
      */
     public function __construct($TestDataSourceConnectivityByInfoResult = null)
     {
-      $this->TestDataSourceConnectivityByInfoResult = $TestDataSourceConnectivityByInfoResult;
+        $this->TestDataSourceConnectivityByInfoResult = $TestDataSourceConnectivityByInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class TestDataSourceConnectivityByInfoResponse
      */
     public function getTestDataSourceConnectivityByInfoResult()
     {
-      return $this->TestDataSourceConnectivityByInfoResult;
+        return $this->TestDataSourceConnectivityByInfoResult;
     }
 
     /**
      * @param boolean $TestDataSourceConnectivityByInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\TestDataSourceConnectivityByInfoResponse
+     * @return TestDataSourceConnectivityByInfoResponse
      */
     public function setTestDataSourceConnectivityByInfoResult($TestDataSourceConnectivityByInfoResult)
     {
-      $this->TestDataSourceConnectivityByInfoResult = $TestDataSourceConnectivityByInfoResult;
-      return $this;
+        $this->TestDataSourceConnectivityByInfoResult = $TestDataSourceConnectivityByInfoResult;
+        return $this;
     }
 
 }

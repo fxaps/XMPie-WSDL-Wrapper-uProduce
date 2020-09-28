@@ -36,8 +36,8 @@ class CampaignMapping
      */
     public function __construct($ID = null, $Plan = null)
     {
-      $this->ID = $ID;
-      $this->Plan = $Plan;
+        $this->ID = $ID;
+        $this->Plan = $Plan;
     }
 
     /**
@@ -45,17 +45,17 @@ class CampaignMapping
      */
     public function getID()
     {
-      return $this->ID;
+        return $this->ID;
     }
 
     /**
      * @param IDMapping $ID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CampaignMapping
+     * @return CampaignMapping
      */
     public function setID($ID)
     {
-      $this->ID = $ID;
-      return $this;
+        $this->ID = $ID;
+        return $this;
     }
 
     /**
@@ -63,17 +63,17 @@ class CampaignMapping
      */
     public function getPlan()
     {
-      return $this->Plan;
+        return $this->Plan;
     }
 
     /**
      * @param PlanMapping $Plan
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CampaignMapping
+     * @return CampaignMapping
      */
     public function setPlan($Plan)
     {
-      $this->Plan = $Plan;
-      return $this;
+        $this->Plan = $Plan;
+        return $this;
     }
 
     /**
@@ -81,17 +81,17 @@ class CampaignMapping
      */
     public function getDocumentArray()
     {
-      return $this->documentArray;
+        return $this->documentArray;
     }
 
     /**
      * @param ArrayOfDocumentMapping $documentArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CampaignMapping
+     * @return CampaignMapping
      */
     public function setDocumentArray($documentArray)
     {
-      $this->documentArray = $documentArray;
-      return $this;
+        $this->documentArray = $documentArray;
+        return $this;
     }
 
     /**
@@ -99,17 +99,17 @@ class CampaignMapping
      */
     public function getDataSourceArray()
     {
-      return $this->dataSourceArray;
+        return $this->dataSourceArray;
     }
 
     /**
      * @param ArrayOfDataSourceMapping $dataSourceArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CampaignMapping
+     * @return CampaignMapping
      */
     public function setDataSourceArray($dataSourceArray)
     {
-      $this->dataSourceArray = $dataSourceArray;
-      return $this;
+        $this->dataSourceArray = $dataSourceArray;
+        return $this;
     }
 
     /**
@@ -117,17 +117,17 @@ class CampaignMapping
      */
     public function getAssetSourceArray()
     {
-      return $this->assetSourceArray;
+        return $this->assetSourceArray;
     }
 
     /**
      * @param ArrayOfAssetSourceMapping $assetSourceArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CampaignMapping
+     * @return CampaignMapping
      */
     public function setAssetSourceArray($assetSourceArray)
     {
-      $this->assetSourceArray = $assetSourceArray;
-      return $this;
+        $this->assetSourceArray = $assetSourceArray;
+        return $this;
     }
 
 }

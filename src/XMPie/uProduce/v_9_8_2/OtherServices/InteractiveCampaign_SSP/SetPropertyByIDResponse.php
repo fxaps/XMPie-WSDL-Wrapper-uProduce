@@ -15,7 +15,7 @@ class SetPropertyByIDResponse
      */
     public function __construct($SetPropertyByIDResult = null)
     {
-      $this->SetPropertyByIDResult = $SetPropertyByIDResult;
+        $this->SetPropertyByIDResult = $SetPropertyByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetPropertyByIDResponse
      */
     public function getSetPropertyByIDResult()
     {
-      return $this->SetPropertyByIDResult;
+        return $this->SetPropertyByIDResult;
     }
 
     /**
      * @param boolean $SetPropertyByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SetPropertyByIDResponse
+     * @return SetPropertyByIDResponse
      */
     public function setSetPropertyByIDResult($SetPropertyByIDResult)
     {
-      $this->SetPropertyByIDResult = $SetPropertyByIDResult;
-      return $this;
+        $this->SetPropertyByIDResult = $SetPropertyByIDResult;
+        return $this;
     }
 
 }

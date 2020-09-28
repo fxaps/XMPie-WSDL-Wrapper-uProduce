@@ -15,7 +15,7 @@ class SetFieldMappingByIDResponse
      */
     public function __construct($SetFieldMappingByIDResult = null)
     {
-      $this->SetFieldMappingByIDResult = $SetFieldMappingByIDResult;
+        $this->SetFieldMappingByIDResult = $SetFieldMappingByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetFieldMappingByIDResponse
      */
     public function getSetFieldMappingByIDResult()
     {
-      return $this->SetFieldMappingByIDResult;
+        return $this->SetFieldMappingByIDResult;
     }
 
     /**
      * @param boolean $SetFieldMappingByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFieldMappingByIDResponse
+     * @return SetFieldMappingByIDResponse
      */
     public function setSetFieldMappingByIDResult($SetFieldMappingByIDResult)
     {
-      $this->SetFieldMappingByIDResult = $SetFieldMappingByIDResult;
-      return $this;
+        $this->SetFieldMappingByIDResult = $SetFieldMappingByIDResult;
+        return $this;
     }
 
 }

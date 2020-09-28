@@ -15,7 +15,7 @@ class ExportAllHostedTablesResponse
      */
     public function __construct($ExportAllHostedTablesResult = null)
     {
-      $this->ExportAllHostedTablesResult = $ExportAllHostedTablesResult;
+        $this->ExportAllHostedTablesResult = $ExportAllHostedTablesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ExportAllHostedTablesResponse
      */
     public function getExportAllHostedTablesResult()
     {
-      return $this->ExportAllHostedTablesResult;
+        return $this->ExportAllHostedTablesResult;
     }
 
     /**
      * @param boolean $ExportAllHostedTablesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ExportAllHostedTablesResponse
+     * @return ExportAllHostedTablesResponse
      */
     public function setExportAllHostedTablesResult($ExportAllHostedTablesResult)
     {
-      $this->ExportAllHostedTablesResult = $ExportAllHostedTablesResult;
-      return $this;
+        $this->ExportAllHostedTablesResult = $ExportAllHostedTablesResult;
+        return $this;
     }
 
 }

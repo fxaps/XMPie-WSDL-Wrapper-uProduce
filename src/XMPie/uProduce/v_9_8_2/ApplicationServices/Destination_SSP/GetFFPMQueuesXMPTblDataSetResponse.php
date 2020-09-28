@@ -15,7 +15,7 @@ class GetFFPMQueuesXMPTblDataSetResponse
      */
     public function __construct($GetFFPMQueuesXMPTblDataSetResult = null)
     {
-      $this->GetFFPMQueuesXMPTblDataSetResult = $GetFFPMQueuesXMPTblDataSetResult;
+        $this->GetFFPMQueuesXMPTblDataSetResult = $GetFFPMQueuesXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFFPMQueuesXMPTblDataSetResponse
      */
     public function getGetFFPMQueuesXMPTblDataSetResult()
     {
-      return $this->GetFFPMQueuesXMPTblDataSetResult;
+        return $this->GetFFPMQueuesXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetFFPMQueuesXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\GetFFPMQueuesXMPTblDataSetResponse
+     * @return GetFFPMQueuesXMPTblDataSetResponse
      */
     public function setGetFFPMQueuesXMPTblDataSetResult($GetFFPMQueuesXMPTblDataSetResult)
     {
-      $this->GetFFPMQueuesXMPTblDataSetResult = $GetFFPMQueuesXMPTblDataSetResult;
-      return $this;
+        $this->GetFFPMQueuesXMPTblDataSetResult = $GetFFPMQueuesXMPTblDataSetResult;
+        return $this;
     }
 
 }

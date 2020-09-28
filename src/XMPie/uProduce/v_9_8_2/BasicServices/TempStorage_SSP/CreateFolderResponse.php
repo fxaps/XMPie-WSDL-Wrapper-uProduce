@@ -15,7 +15,7 @@ class CreateFolderResponse
      */
     public function __construct($CreateFolderResult = null)
     {
-      $this->CreateFolderResult = $CreateFolderResult;
+        $this->CreateFolderResult = $CreateFolderResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateFolderResponse
      */
     public function getCreateFolderResult()
     {
-      return $this->CreateFolderResult;
+        return $this->CreateFolderResult;
     }
 
     /**
      * @param string $CreateFolderResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\CreateFolderResponse
+     * @return CreateFolderResponse
      */
     public function setCreateFolderResult($CreateFolderResult)
     {
-      $this->CreateFolderResult = $CreateFolderResult;
-      return $this;
+        $this->CreateFolderResult = $CreateFolderResult;
+        return $this;
     }
 
 }

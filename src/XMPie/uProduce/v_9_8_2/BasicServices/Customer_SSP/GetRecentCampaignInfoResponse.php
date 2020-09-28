@@ -15,7 +15,7 @@ class GetRecentCampaignInfoResponse
      */
     public function __construct($GetRecentCampaignInfoResult = null)
     {
-      $this->GetRecentCampaignInfoResult = $GetRecentCampaignInfoResult;
+        $this->GetRecentCampaignInfoResult = $GetRecentCampaignInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetRecentCampaignInfoResponse
      */
     public function getGetRecentCampaignInfoResult()
     {
-      return $this->GetRecentCampaignInfoResult;
+        return $this->GetRecentCampaignInfoResult;
     }
 
     /**
      * @param CampaignShortcutInfo $GetRecentCampaignInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetRecentCampaignInfoResponse
+     * @return GetRecentCampaignInfoResponse
      */
     public function setGetRecentCampaignInfoResult($GetRecentCampaignInfoResult)
     {
-      $this->GetRecentCampaignInfoResult = $GetRecentCampaignInfoResult;
-      return $this;
+        $this->GetRecentCampaignInfoResult = $GetRecentCampaignInfoResult;
+        return $this;
     }
 
 }

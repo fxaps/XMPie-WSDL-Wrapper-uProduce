@@ -15,7 +15,7 @@ class GetPortIDResponse
      */
     public function __construct($GetPortIDResult = null)
     {
-      $this->GetPortIDResult = $GetPortIDResult;
+        $this->GetPortIDResult = $GetPortIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPortIDResponse
      */
     public function getGetPortIDResult()
     {
-      return $this->GetPortIDResult;
+        return $this->GetPortIDResult;
     }
 
     /**
      * @param string $GetPortIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetPortIDResponse
+     * @return GetPortIDResponse
      */
     public function setGetPortIDResult($GetPortIDResult)
     {
-      $this->GetPortIDResult = $GetPortIDResult;
-      return $this;
+        $this->GetPortIDResult = $GetPortIDResult;
+        return $this;
     }
 
 }

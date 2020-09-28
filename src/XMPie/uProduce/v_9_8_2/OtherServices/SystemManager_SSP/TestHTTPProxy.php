@@ -51,13 +51,13 @@ class TestHTTPProxy
      */
     public function __construct($inUsername = null, $inPassword = null, $inProxyServer = null, $inPort = null, $inProxyUsername = null, $inReadPasswordFromDB = null, $inProxyPassword = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inProxyServer = $inProxyServer;
-      $this->inPort = $inPort;
-      $this->inProxyUsername = $inProxyUsername;
-      $this->inReadPasswordFromDB = $inReadPasswordFromDB;
-      $this->inProxyPassword = $inProxyPassword;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inProxyServer = $inProxyServer;
+        $this->inPort = $inPort;
+        $this->inProxyUsername = $inProxyUsername;
+        $this->inReadPasswordFromDB = $inReadPasswordFromDB;
+        $this->inProxyPassword = $inProxyPassword;
     }
 
     /**
@@ -65,17 +65,17 @@ class TestHTTPProxy
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPProxy
+     * @return TestHTTPProxy
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class TestHTTPProxy
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPProxy
+     * @return TestHTTPProxy
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class TestHTTPProxy
      */
     public function getInProxyServer()
     {
-      return $this->inProxyServer;
+        return $this->inProxyServer;
     }
 
     /**
      * @param string $inProxyServer
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPProxy
+     * @return TestHTTPProxy
      */
     public function setInProxyServer($inProxyServer)
     {
-      $this->inProxyServer = $inProxyServer;
-      return $this;
+        $this->inProxyServer = $inProxyServer;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class TestHTTPProxy
      */
     public function getInPort()
     {
-      return $this->inPort;
+        return $this->inPort;
     }
 
     /**
      * @param int $inPort
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPProxy
+     * @return TestHTTPProxy
      */
     public function setInPort($inPort)
     {
-      $this->inPort = $inPort;
-      return $this;
+        $this->inPort = $inPort;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class TestHTTPProxy
      */
     public function getInProxyUsername()
     {
-      return $this->inProxyUsername;
+        return $this->inProxyUsername;
     }
 
     /**
      * @param string $inProxyUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPProxy
+     * @return TestHTTPProxy
      */
     public function setInProxyUsername($inProxyUsername)
     {
-      $this->inProxyUsername = $inProxyUsername;
-      return $this;
+        $this->inProxyUsername = $inProxyUsername;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class TestHTTPProxy
      */
     public function getInReadPasswordFromDB()
     {
-      return $this->inReadPasswordFromDB;
+        return $this->inReadPasswordFromDB;
     }
 
     /**
      * @param boolean $inReadPasswordFromDB
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPProxy
+     * @return TestHTTPProxy
      */
     public function setInReadPasswordFromDB($inReadPasswordFromDB)
     {
-      $this->inReadPasswordFromDB = $inReadPasswordFromDB;
-      return $this;
+        $this->inReadPasswordFromDB = $inReadPasswordFromDB;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class TestHTTPProxy
      */
     public function getInProxyPassword()
     {
-      return $this->inProxyPassword;
+        return $this->inProxyPassword;
     }
 
     /**
      * @param string $inProxyPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPProxy
+     * @return TestHTTPProxy
      */
     public function setInProxyPassword($inProxyPassword)
     {
-      $this->inProxyPassword = $inProxyPassword;
-      return $this;
+        $this->inProxyPassword = $inProxyPassword;
+        return $this;
     }
 
 }

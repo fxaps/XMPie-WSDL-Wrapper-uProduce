@@ -15,7 +15,7 @@ class IsPortLinkExistResponse
      */
     public function __construct($IsPortLinkExistResult = null)
     {
-      $this->IsPortLinkExistResult = $IsPortLinkExistResult;
+        $this->IsPortLinkExistResult = $IsPortLinkExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsPortLinkExistResponse
      */
     public function getIsPortLinkExistResult()
     {
-      return $this->IsPortLinkExistResult;
+        return $this->IsPortLinkExistResult;
     }
 
     /**
      * @param boolean $IsPortLinkExistResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsPortLinkExistResponse
+     * @return IsPortLinkExistResponse
      */
     public function setIsPortLinkExistResult($IsPortLinkExistResult)
     {
-      $this->IsPortLinkExistResult = $IsPortLinkExistResult;
-      return $this;
+        $this->IsPortLinkExistResult = $IsPortLinkExistResult;
+        return $this;
     }
 
 }

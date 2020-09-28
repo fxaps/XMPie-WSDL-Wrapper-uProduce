@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP;
 
-class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfEJobField implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     protected $EJobField = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function getEJobField()
     {
-      return $this->EJobField;
+        return $this->EJobField;
     }
 
     /**
      * @param EJobField[] $EJobField
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\ArrayOfEJobField
+     * @return ArrayOfEJobField
      */
     public function setEJobField(array $EJobField = null)
     {
-      $this->EJobField = $EJobField;
-      return $this;
+        $this->EJobField = $EJobField;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->EJobField[$offset]);
+        return isset($this->EJobField[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->EJobField[$offset];
+        return $this->EJobField[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->EJobField[] = $value;
-      } else {
-        $this->EJobField[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->EJobField[] = $value;
+        } else {
+            $this->EJobField[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->EJobField[$offset]);
+        unset($this->EJobField[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->EJobField);
+        return current($this->EJobField);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->EJobField);
+        next($this->EJobField);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->EJobField);
+        return key($this->EJobField);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->EJobField);
+        reset($this->EJobField);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfEJobField implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->EJobField);
+        return count($this->EJobField);
     }
 
 }

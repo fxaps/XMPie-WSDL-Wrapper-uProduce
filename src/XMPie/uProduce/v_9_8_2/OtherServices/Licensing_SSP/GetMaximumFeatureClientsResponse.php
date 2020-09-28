@@ -15,7 +15,7 @@ class GetMaximumFeatureClientsResponse
      */
     public function __construct($GetMaximumFeatureClientsResult = null)
     {
-      $this->GetMaximumFeatureClientsResult = $GetMaximumFeatureClientsResult;
+        $this->GetMaximumFeatureClientsResult = $GetMaximumFeatureClientsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMaximumFeatureClientsResponse
      */
     public function getGetMaximumFeatureClientsResult()
     {
-      return $this->GetMaximumFeatureClientsResult;
+        return $this->GetMaximumFeatureClientsResult;
     }
 
     /**
      * @param int $GetMaximumFeatureClientsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetMaximumFeatureClientsResponse
+     * @return GetMaximumFeatureClientsResponse
      */
     public function setGetMaximumFeatureClientsResult($GetMaximumFeatureClientsResult)
     {
-      $this->GetMaximumFeatureClientsResult = $GetMaximumFeatureClientsResult;
-      return $this;
+        $this->GetMaximumFeatureClientsResult = $GetMaximumFeatureClientsResult;
+        return $this;
     }
 
 }

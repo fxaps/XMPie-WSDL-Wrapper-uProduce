@@ -15,7 +15,7 @@ class SuspendOnDemandJobResponse
      */
     public function __construct($SuspendOnDemandJobResult = null)
     {
-      $this->SuspendOnDemandJobResult = $SuspendOnDemandJobResult;
+        $this->SuspendOnDemandJobResult = $SuspendOnDemandJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SuspendOnDemandJobResponse
      */
     public function getSuspendOnDemandJobResult()
     {
-      return $this->SuspendOnDemandJobResult;
+        return $this->SuspendOnDemandJobResult;
     }
 
     /**
      * @param boolean $SuspendOnDemandJobResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SuspendOnDemandJobResponse
+     * @return SuspendOnDemandJobResponse
      */
     public function setSuspendOnDemandJobResult($SuspendOnDemandJobResult)
     {
-      $this->SuspendOnDemandJobResult = $SuspendOnDemandJobResult;
-      return $this;
+        $this->SuspendOnDemandJobResult = $SuspendOnDemandJobResult;
+        return $this;
     }
 
 }

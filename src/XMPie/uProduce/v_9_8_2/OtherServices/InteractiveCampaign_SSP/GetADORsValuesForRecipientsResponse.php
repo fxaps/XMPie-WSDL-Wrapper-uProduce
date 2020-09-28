@@ -15,7 +15,7 @@ class GetADORsValuesForRecipientsResponse
      */
     public function __construct($GetADORsValuesForRecipientsResult = null)
     {
-      $this->GetADORsValuesForRecipientsResult = $GetADORsValuesForRecipientsResult;
+        $this->GetADORsValuesForRecipientsResult = $GetADORsValuesForRecipientsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetADORsValuesForRecipientsResponse
      */
     public function getGetADORsValuesForRecipientsResult()
     {
-      return $this->GetADORsValuesForRecipientsResult;
+        return $this->GetADORsValuesForRecipientsResult;
     }
 
     /**
      * @param GetADORsValuesForRecipientsResult $GetADORsValuesForRecipientsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipientsResponse
+     * @return GetADORsValuesForRecipientsResponse
      */
     public function setGetADORsValuesForRecipientsResult($GetADORsValuesForRecipientsResult)
     {
-      $this->GetADORsValuesForRecipientsResult = $GetADORsValuesForRecipientsResult;
-      return $this;
+        $this->GetADORsValuesForRecipientsResult = $GetADORsValuesForRecipientsResult;
+        return $this;
     }
 
 }

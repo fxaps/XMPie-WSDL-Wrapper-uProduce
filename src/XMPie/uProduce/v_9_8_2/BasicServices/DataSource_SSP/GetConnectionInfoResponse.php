@@ -15,7 +15,7 @@ class GetConnectionInfoResponse
      */
     public function __construct($GetConnectionInfoResult = null)
     {
-      $this->GetConnectionInfoResult = $GetConnectionInfoResult;
+        $this->GetConnectionInfoResult = $GetConnectionInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetConnectionInfoResponse
      */
     public function getGetConnectionInfoResult()
     {
-      return $this->GetConnectionInfoResult;
+        return $this->GetConnectionInfoResult;
     }
 
     /**
      * @param Connection $GetConnectionInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetConnectionInfoResponse
+     * @return GetConnectionInfoResponse
      */
     public function setGetConnectionInfoResult($GetConnectionInfoResult)
     {
-      $this->GetConnectionInfoResult = $GetConnectionInfoResult;
-      return $this;
+        $this->GetConnectionInfoResult = $GetConnectionInfoResult;
+        return $this;
     }
 
 }

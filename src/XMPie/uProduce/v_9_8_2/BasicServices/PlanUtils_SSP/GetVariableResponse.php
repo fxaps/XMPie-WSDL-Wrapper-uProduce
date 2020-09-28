@@ -15,7 +15,7 @@ class GetVariableResponse
      */
     public function __construct($GetVariableResult = null)
     {
-      $this->GetVariableResult = $GetVariableResult;
+        $this->GetVariableResult = $GetVariableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetVariableResponse
      */
     public function getGetVariableResult()
     {
-      return $this->GetVariableResult;
+        return $this->GetVariableResult;
     }
 
     /**
      * @param PlanObject $GetVariableResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetVariableResponse
+     * @return GetVariableResponse
      */
     public function setGetVariableResult($GetVariableResult)
     {
-      $this->GetVariableResult = $GetVariableResult;
-      return $this;
+        $this->GetVariableResult = $GetVariableResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class TestXeroxFFPMConnectivityResponse
      */
     public function __construct($TestXeroxFFPMConnectivityResult = null)
     {
-      $this->TestXeroxFFPMConnectivityResult = $TestXeroxFFPMConnectivityResult;
+        $this->TestXeroxFFPMConnectivityResult = $TestXeroxFFPMConnectivityResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class TestXeroxFFPMConnectivityResponse
      */
     public function getTestXeroxFFPMConnectivityResult()
     {
-      return $this->TestXeroxFFPMConnectivityResult;
+        return $this->TestXeroxFFPMConnectivityResult;
     }
 
     /**
      * @param boolean $TestXeroxFFPMConnectivityResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestXeroxFFPMConnectivityResponse
+     * @return TestXeroxFFPMConnectivityResponse
      */
     public function setTestXeroxFFPMConnectivityResult($TestXeroxFFPMConnectivityResult)
     {
-      $this->TestXeroxFFPMConnectivityResult = $TestXeroxFFPMConnectivityResult;
-      return $this;
+        $this->TestXeroxFFPMConnectivityResult = $TestXeroxFFPMConnectivityResult;
+        return $this;
     }
 
 }

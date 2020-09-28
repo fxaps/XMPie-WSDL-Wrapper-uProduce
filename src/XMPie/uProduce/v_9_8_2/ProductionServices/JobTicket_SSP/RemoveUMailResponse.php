@@ -15,7 +15,7 @@ class RemoveUMailResponse
      */
     public function __construct($RemoveUMailResult = null)
     {
-      $this->RemoveUMailResult = $RemoveUMailResult;
+        $this->RemoveUMailResult = $RemoveUMailResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveUMailResponse
      */
     public function getRemoveUMailResult()
     {
-      return $this->RemoveUMailResult;
+        return $this->RemoveUMailResult;
     }
 
     /**
      * @param boolean $RemoveUMailResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveUMailResponse
+     * @return RemoveUMailResponse
      */
     public function setRemoveUMailResult($RemoveUMailResult)
     {
-      $this->RemoveUMailResult = $RemoveUMailResult;
-      return $this;
+        $this->RemoveUMailResult = $RemoveUMailResult;
+        return $this;
     }
 
 }

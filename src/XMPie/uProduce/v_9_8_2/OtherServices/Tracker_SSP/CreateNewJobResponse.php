@@ -15,7 +15,7 @@ class CreateNewJobResponse
      */
     public function __construct($CreateNewJobResult = null)
     {
-      $this->CreateNewJobResult = $CreateNewJobResult;
+        $this->CreateNewJobResult = $CreateNewJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewJobResponse
      */
     public function getCreateNewJobResult()
     {
-      return $this->CreateNewJobResult;
+        return $this->CreateNewJobResult;
     }
 
     /**
      * @param string $CreateNewJobResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\CreateNewJobResponse
+     * @return CreateNewJobResponse
      */
     public function setCreateNewJobResult($CreateNewJobResult)
     {
-      $this->CreateNewJobResult = $CreateNewJobResult;
-      return $this;
+        $this->CreateNewJobResult = $CreateNewJobResult;
+        return $this;
     }
 
 }

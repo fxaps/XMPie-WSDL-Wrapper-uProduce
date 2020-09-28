@@ -15,7 +15,7 @@ class DeleteEmailMarketingsResponse
      */
     public function __construct($DeleteEmailMarketingsResult = null)
     {
-      $this->DeleteEmailMarketingsResult = $DeleteEmailMarketingsResult;
+        $this->DeleteEmailMarketingsResult = $DeleteEmailMarketingsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteEmailMarketingsResponse
      */
     public function getDeleteEmailMarketingsResult()
     {
-      return $this->DeleteEmailMarketingsResult;
+        return $this->DeleteEmailMarketingsResult;
     }
 
     /**
      * @param boolean $DeleteEmailMarketingsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteEmailMarketingsResponse
+     * @return DeleteEmailMarketingsResponse
      */
     public function setDeleteEmailMarketingsResult($DeleteEmailMarketingsResult)
     {
-      $this->DeleteEmailMarketingsResult = $DeleteEmailMarketingsResult;
-      return $this;
+        $this->DeleteEmailMarketingsResult = $DeleteEmailMarketingsResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetAppendJobIDResponse
      */
     public function __construct($GetAppendJobIDResult = null)
     {
-      $this->GetAppendJobIDResult = $GetAppendJobIDResult;
+        $this->GetAppendJobIDResult = $GetAppendJobIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAppendJobIDResponse
      */
     public function getGetAppendJobIDResult()
     {
-      return $this->GetAppendJobIDResult;
+        return $this->GetAppendJobIDResult;
     }
 
     /**
      * @param boolean $GetAppendJobIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetAppendJobIDResponse
+     * @return GetAppendJobIDResponse
      */
     public function setGetAppendJobIDResult($GetAppendJobIDResult)
     {
-      $this->GetAppendJobIDResult = $GetAppendJobIDResult;
-      return $this;
+        $this->GetAppendJobIDResult = $GetAppendJobIDResult;
+        return $this;
     }
 
 }

@@ -51,13 +51,13 @@ class GetResourceDownloadURLByID
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inResourceID = null, $inIsInline = null, $inReturnInternalURL = null, $inReturnFormatOnly = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDocumentID = $inDocumentID;
-      $this->inResourceID = $inResourceID;
-      $this->inIsInline = $inIsInline;
-      $this->inReturnInternalURL = $inReturnInternalURL;
-      $this->inReturnFormatOnly = $inReturnFormatOnly;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDocumentID = $inDocumentID;
+        $this->inResourceID = $inResourceID;
+        $this->inIsInline = $inIsInline;
+        $this->inReturnInternalURL = $inReturnInternalURL;
+        $this->inReturnFormatOnly = $inReturnFormatOnly;
     }
 
     /**
@@ -65,17 +65,17 @@ class GetResourceDownloadURLByID
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceDownloadURLByID
+     * @return GetResourceDownloadURLByID
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class GetResourceDownloadURLByID
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceDownloadURLByID
+     * @return GetResourceDownloadURLByID
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class GetResourceDownloadURLByID
      */
     public function getInDocumentID()
     {
-      return $this->inDocumentID;
+        return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceDownloadURLByID
+     * @return GetResourceDownloadURLByID
      */
     public function setInDocumentID($inDocumentID)
     {
-      $this->inDocumentID = $inDocumentID;
-      return $this;
+        $this->inDocumentID = $inDocumentID;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class GetResourceDownloadURLByID
      */
     public function getInResourceID()
     {
-      return $this->inResourceID;
+        return $this->inResourceID;
     }
 
     /**
      * @param string $inResourceID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceDownloadURLByID
+     * @return GetResourceDownloadURLByID
      */
     public function setInResourceID($inResourceID)
     {
-      $this->inResourceID = $inResourceID;
-      return $this;
+        $this->inResourceID = $inResourceID;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class GetResourceDownloadURLByID
      */
     public function getInIsInline()
     {
-      return $this->inIsInline;
+        return $this->inIsInline;
     }
 
     /**
      * @param boolean $inIsInline
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceDownloadURLByID
+     * @return GetResourceDownloadURLByID
      */
     public function setInIsInline($inIsInline)
     {
-      $this->inIsInline = $inIsInline;
-      return $this;
+        $this->inIsInline = $inIsInline;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class GetResourceDownloadURLByID
      */
     public function getInReturnInternalURL()
     {
-      return $this->inReturnInternalURL;
+        return $this->inReturnInternalURL;
     }
 
     /**
      * @param boolean $inReturnInternalURL
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceDownloadURLByID
+     * @return GetResourceDownloadURLByID
      */
     public function setInReturnInternalURL($inReturnInternalURL)
     {
-      $this->inReturnInternalURL = $inReturnInternalURL;
-      return $this;
+        $this->inReturnInternalURL = $inReturnInternalURL;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class GetResourceDownloadURLByID
      */
     public function getInReturnFormatOnly()
     {
-      return $this->inReturnFormatOnly;
+        return $this->inReturnFormatOnly;
     }
 
     /**
      * @param boolean $inReturnFormatOnly
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceDownloadURLByID
+     * @return GetResourceDownloadURLByID
      */
     public function setInReturnFormatOnly($inReturnFormatOnly)
     {
-      $this->inReturnFormatOnly = $inReturnFormatOnly;
-      return $this;
+        $this->inReturnFormatOnly = $inReturnFormatOnly;
+        return $this;
     }
 
 }

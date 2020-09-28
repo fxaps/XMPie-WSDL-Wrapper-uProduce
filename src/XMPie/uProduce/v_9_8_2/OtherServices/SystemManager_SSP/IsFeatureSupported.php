@@ -27,9 +27,9 @@ class IsFeatureSupported
      */
     public function __construct($inUsername = null, $inPassword = null, $inFeatureName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inFeatureName = $inFeatureName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inFeatureName = $inFeatureName;
     }
 
     /**
@@ -37,17 +37,17 @@ class IsFeatureSupported
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsFeatureSupported
+     * @return IsFeatureSupported
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class IsFeatureSupported
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsFeatureSupported
+     * @return IsFeatureSupported
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class IsFeatureSupported
      */
     public function getInFeatureName()
     {
-      return $this->inFeatureName;
+        return $this->inFeatureName;
     }
 
     /**
      * @param string $inFeatureName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsFeatureSupported
+     * @return IsFeatureSupported
      */
     public function setInFeatureName($inFeatureName)
     {
-      $this->inFeatureName = $inFeatureName;
-      return $this;
+        $this->inFeatureName = $inFeatureName;
+        return $this;
     }
 
 }

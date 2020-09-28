@@ -45,12 +45,12 @@ class SetAssetSourcesEx
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inNames = null, $inAssetSources = null, $inPriorities = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inNames = $inNames;
-      $this->inAssetSources = $inAssetSources;
-      $this->inPriorities = $inPriorities;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inNames = $inNames;
+        $this->inAssetSources = $inAssetSources;
+        $this->inPriorities = $inPriorities;
     }
 
     /**
@@ -58,17 +58,17 @@ class SetAssetSourcesEx
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourcesEx
+     * @return SetAssetSourcesEx
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class SetAssetSourcesEx
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourcesEx
+     * @return SetAssetSourcesEx
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class SetAssetSourcesEx
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourcesEx
+     * @return SetAssetSourcesEx
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class SetAssetSourcesEx
      */
     public function getInNames()
     {
-      return $this->inNames;
+        return $this->inNames;
     }
 
     /**
      * @param ArrayOfString $inNames
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourcesEx
+     * @return SetAssetSourcesEx
      */
     public function setInNames($inNames)
     {
-      $this->inNames = $inNames;
-      return $this;
+        $this->inNames = $inNames;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class SetAssetSourcesEx
      */
     public function getInAssetSources()
     {
-      return $this->inAssetSources;
+        return $this->inAssetSources;
     }
 
     /**
      * @param ArrayOfAssetSourceInfo $inAssetSources
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourcesEx
+     * @return SetAssetSourcesEx
      */
     public function setInAssetSources($inAssetSources)
     {
-      $this->inAssetSources = $inAssetSources;
-      return $this;
+        $this->inAssetSources = $inAssetSources;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class SetAssetSourcesEx
      */
     public function getInPriorities()
     {
-      return $this->inPriorities;
+        return $this->inPriorities;
     }
 
     /**
      * @param ArrayOfInt $inPriorities
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourcesEx
+     * @return SetAssetSourcesEx
      */
     public function setInPriorities($inPriorities)
     {
-      $this->inPriorities = $inPriorities;
-      return $this;
+        $this->inPriorities = $inPriorities;
+        return $this;
     }
 
 }

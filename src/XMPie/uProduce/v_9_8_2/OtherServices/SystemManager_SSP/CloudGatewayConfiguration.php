@@ -20,10 +20,10 @@ class CloudGatewayConfiguration
      */
     protected $Subscriptions = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -31,17 +31,17 @@ class CloudGatewayConfiguration
      */
     public function getConfiguration()
     {
-      return $this->Configuration;
+        return $this->Configuration;
     }
 
     /**
      * @param string $Configuration
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\CloudGatewayConfiguration
+     * @return CloudGatewayConfiguration
      */
     public function setConfiguration($Configuration)
     {
-      $this->Configuration = $Configuration;
-      return $this;
+        $this->Configuration = $Configuration;
+        return $this;
     }
 
     /**
@@ -49,17 +49,17 @@ class CloudGatewayConfiguration
      */
     public function getSettings()
     {
-      return $this->Settings;
+        return $this->Settings;
     }
 
     /**
      * @param ArrayOfProperty $Settings
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\CloudGatewayConfiguration
+     * @return CloudGatewayConfiguration
      */
     public function setSettings($Settings)
     {
-      $this->Settings = $Settings;
-      return $this;
+        $this->Settings = $Settings;
+        return $this;
     }
 
     /**
@@ -67,17 +67,17 @@ class CloudGatewayConfiguration
      */
     public function getSubscriptions()
     {
-      return $this->Subscriptions;
+        return $this->Subscriptions;
     }
 
     /**
      * @param ArrayOfCloudSubscription $Subscriptions
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\CloudGatewayConfiguration
+     * @return CloudGatewayConfiguration
      */
     public function setSubscriptions($Subscriptions)
     {
-      $this->Subscriptions = $Subscriptions;
-      return $this;
+        $this->Subscriptions = $Subscriptions;
+        return $this;
     }
 
 }

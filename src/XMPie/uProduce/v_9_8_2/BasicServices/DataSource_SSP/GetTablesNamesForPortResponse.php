@@ -15,7 +15,7 @@ class GetTablesNamesForPortResponse
      */
     public function __construct($GetTablesNamesForPortResult = null)
     {
-      $this->GetTablesNamesForPortResult = $GetTablesNamesForPortResult;
+        $this->GetTablesNamesForPortResult = $GetTablesNamesForPortResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTablesNamesForPortResponse
      */
     public function getGetTablesNamesForPortResult()
     {
-      return $this->GetTablesNamesForPortResult;
+        return $this->GetTablesNamesForPortResult;
     }
 
     /**
      * @param ArrayOfString $GetTablesNamesForPortResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetTablesNamesForPortResponse
+     * @return GetTablesNamesForPortResponse
      */
     public function setGetTablesNamesForPortResult($GetTablesNamesForPortResult)
     {
-      $this->GetTablesNamesForPortResult = $GetTablesNamesForPortResult;
-      return $this;
+        $this->GetTablesNamesForPortResult = $GetTablesNamesForPortResult;
+        return $this;
     }
 
 }

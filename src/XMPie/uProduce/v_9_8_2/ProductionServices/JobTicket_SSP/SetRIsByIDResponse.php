@@ -15,7 +15,7 @@ class SetRIsByIDResponse
      */
     public function __construct($SetRIsByIDResult = null)
     {
-      $this->SetRIsByIDResult = $SetRIsByIDResult;
+        $this->SetRIsByIDResult = $SetRIsByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetRIsByIDResponse
      */
     public function getSetRIsByIDResult()
     {
-      return $this->SetRIsByIDResult;
+        return $this->SetRIsByIDResult;
     }
 
     /**
      * @param boolean $SetRIsByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetRIsByIDResponse
+     * @return SetRIsByIDResponse
      */
     public function setSetRIsByIDResult($SetRIsByIDResult)
     {
-      $this->SetRIsByIDResult = $SetRIsByIDResult;
-      return $this;
+        $this->SetRIsByIDResult = $SetRIsByIDResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetPriorityResponse
      */
     public function __construct($GetPriorityResult = null)
     {
-      $this->GetPriorityResult = $GetPriorityResult;
+        $this->GetPriorityResult = $GetPriorityResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPriorityResponse
      */
     public function getGetPriorityResult()
     {
-      return $this->GetPriorityResult;
+        return $this->GetPriorityResult;
     }
 
     /**
      * @param int $GetPriorityResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetPriorityResponse
+     * @return GetPriorityResponse
      */
     public function setGetPriorityResult($GetPriorityResult)
     {
-      $this->GetPriorityResult = $GetPriorityResult;
-      return $this;
+        $this->GetPriorityResult = $GetPriorityResult;
+        return $this;
     }
 
 }

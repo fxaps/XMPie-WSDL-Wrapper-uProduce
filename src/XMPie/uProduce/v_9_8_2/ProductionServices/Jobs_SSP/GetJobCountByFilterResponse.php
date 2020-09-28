@@ -15,7 +15,7 @@ class GetJobCountByFilterResponse
      */
     public function __construct($GetJobCountByFilterResult = null)
     {
-      $this->GetJobCountByFilterResult = $GetJobCountByFilterResult;
+        $this->GetJobCountByFilterResult = $GetJobCountByFilterResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetJobCountByFilterResponse
      */
     public function getGetJobCountByFilterResult()
     {
-      return $this->GetJobCountByFilterResult;
+        return $this->GetJobCountByFilterResult;
     }
 
     /**
      * @param int $GetJobCountByFilterResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobCountByFilterResponse
+     * @return GetJobCountByFilterResponse
      */
     public function setGetJobCountByFilterResult($GetJobCountByFilterResult)
     {
-      $this->GetJobCountByFilterResult = $GetJobCountByFilterResult;
-      return $this;
+        $this->GetJobCountByFilterResult = $GetJobCountByFilterResult;
+        return $this;
     }
 
 }

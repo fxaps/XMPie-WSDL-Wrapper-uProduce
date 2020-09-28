@@ -15,7 +15,7 @@ class ReplaceFromURLResponse
      */
     public function __construct($ReplaceFromURLResult = null)
     {
-      $this->ReplaceFromURLResult = $ReplaceFromURLResult;
+        $this->ReplaceFromURLResult = $ReplaceFromURLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ReplaceFromURLResponse
      */
     public function getReplaceFromURLResult()
     {
-      return $this->ReplaceFromURLResult;
+        return $this->ReplaceFromURLResult;
     }
 
     /**
      * @param boolean $ReplaceFromURLResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromURLResponse
+     * @return ReplaceFromURLResponse
      */
     public function setReplaceFromURLResult($ReplaceFromURLResult)
     {
-      $this->ReplaceFromURLResult = $ReplaceFromURLResult;
-      return $this;
+        $this->ReplaceFromURLResult = $ReplaceFromURLResult;
+        return $this;
     }
 
 }

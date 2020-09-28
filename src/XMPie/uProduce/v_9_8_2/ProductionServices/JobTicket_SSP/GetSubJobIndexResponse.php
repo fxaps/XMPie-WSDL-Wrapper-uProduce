@@ -15,7 +15,7 @@ class GetSubJobIndexResponse
      */
     public function __construct($GetSubJobIndexResult = null)
     {
-      $this->GetSubJobIndexResult = $GetSubJobIndexResult;
+        $this->GetSubJobIndexResult = $GetSubJobIndexResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSubJobIndexResponse
      */
     public function getGetSubJobIndexResult()
     {
-      return $this->GetSubJobIndexResult;
+        return $this->GetSubJobIndexResult;
     }
 
     /**
      * @param int $GetSubJobIndexResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetSubJobIndexResponse
+     * @return GetSubJobIndexResponse
      */
     public function setGetSubJobIndexResult($GetSubJobIndexResult)
     {
-      $this->GetSubJobIndexResult = $GetSubJobIndexResult;
-      return $this;
+        $this->GetSubJobIndexResult = $GetSubJobIndexResult;
+        return $this;
     }
 
 }

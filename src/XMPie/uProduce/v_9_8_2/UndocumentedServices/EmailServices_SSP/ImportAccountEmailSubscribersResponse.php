@@ -15,7 +15,7 @@ class ImportAccountEmailSubscribersResponse
      */
     public function __construct($ImportAccountEmailSubscribersResult = null)
     {
-      $this->ImportAccountEmailSubscribersResult = $ImportAccountEmailSubscribersResult;
+        $this->ImportAccountEmailSubscribersResult = $ImportAccountEmailSubscribersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ImportAccountEmailSubscribersResponse
      */
     public function getImportAccountEmailSubscribersResult()
     {
-      return $this->ImportAccountEmailSubscribersResult;
+        return $this->ImportAccountEmailSubscribersResult;
     }
 
     /**
      * @param boolean $ImportAccountEmailSubscribersResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ImportAccountEmailSubscribersResponse
+     * @return ImportAccountEmailSubscribersResponse
      */
     public function setImportAccountEmailSubscribersResult($ImportAccountEmailSubscribersResult)
     {
-      $this->ImportAccountEmailSubscribersResult = $ImportAccountEmailSubscribersResult;
-      return $this;
+        $this->ImportAccountEmailSubscribersResult = $ImportAccountEmailSubscribersResult;
+        return $this;
     }
 
 }

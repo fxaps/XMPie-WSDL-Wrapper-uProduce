@@ -15,7 +15,7 @@ class DeleteMessagesResponse
      */
     public function __construct($DeleteMessagesResult = null)
     {
-      $this->DeleteMessagesResult = $DeleteMessagesResult;
+        $this->DeleteMessagesResult = $DeleteMessagesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteMessagesResponse
      */
     public function getDeleteMessagesResult()
     {
-      return $this->DeleteMessagesResult;
+        return $this->DeleteMessagesResult;
     }
 
     /**
      * @param boolean $DeleteMessagesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\DeleteMessagesResponse
+     * @return DeleteMessagesResponse
      */
     public function setDeleteMessagesResult($DeleteMessagesResult)
     {
-      $this->DeleteMessagesResult = $DeleteMessagesResult;
-      return $this;
+        $this->DeleteMessagesResult = $DeleteMessagesResult;
+        return $this;
     }
 
 }

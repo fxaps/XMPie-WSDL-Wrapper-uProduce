@@ -15,7 +15,7 @@ class GetResourceThumbnailDownloadURLResponse
      */
     public function __construct($GetResourceThumbnailDownloadURLResult = null)
     {
-      $this->GetResourceThumbnailDownloadURLResult = $GetResourceThumbnailDownloadURLResult;
+        $this->GetResourceThumbnailDownloadURLResult = $GetResourceThumbnailDownloadURLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetResourceThumbnailDownloadURLResponse
      */
     public function getGetResourceThumbnailDownloadURLResult()
     {
-      return $this->GetResourceThumbnailDownloadURLResult;
+        return $this->GetResourceThumbnailDownloadURLResult;
     }
 
     /**
      * @param string $GetResourceThumbnailDownloadURLResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceThumbnailDownloadURLResponse
+     * @return GetResourceThumbnailDownloadURLResponse
      */
     public function setGetResourceThumbnailDownloadURLResult($GetResourceThumbnailDownloadURLResult)
     {
-      $this->GetResourceThumbnailDownloadURLResult = $GetResourceThumbnailDownloadURLResult;
-      return $this;
+        $this->GetResourceThumbnailDownloadURLResult = $GetResourceThumbnailDownloadURLResult;
+        return $this;
     }
 
 }

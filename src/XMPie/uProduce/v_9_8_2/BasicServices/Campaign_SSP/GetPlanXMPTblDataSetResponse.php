@@ -15,7 +15,7 @@ class GetPlanXMPTblDataSetResponse
      */
     public function __construct($GetPlanXMPTblDataSetResult = null)
     {
-      $this->GetPlanXMPTblDataSetResult = $GetPlanXMPTblDataSetResult;
+        $this->GetPlanXMPTblDataSetResult = $GetPlanXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPlanXMPTblDataSetResponse
      */
     public function getGetPlanXMPTblDataSetResult()
     {
-      return $this->GetPlanXMPTblDataSetResult;
+        return $this->GetPlanXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetPlanXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetPlanXMPTblDataSetResponse
+     * @return GetPlanXMPTblDataSetResponse
      */
     public function setGetPlanXMPTblDataSetResult($GetPlanXMPTblDataSetResult)
     {
-      $this->GetPlanXMPTblDataSetResult = $GetPlanXMPTblDataSetResult;
-      return $this;
+        $this->GetPlanXMPTblDataSetResult = $GetPlanXMPTblDataSetResult;
+        return $this;
     }
 
 }

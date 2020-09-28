@@ -51,13 +51,13 @@ class Test
      */
     public function __construct($inUsername = null, $inPassword = null, $inEmailMarketingID = null, $inJobTicket = null, $inJobName = null, $inPriority = null, $inTouchPointID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      $this->inJobTicket = $inJobTicket;
-      $this->inJobName = $inJobName;
-      $this->inPriority = $inPriority;
-      $this->inTouchPointID = $inTouchPointID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        $this->inJobTicket = $inJobTicket;
+        $this->inJobName = $inJobName;
+        $this->inPriority = $inPriority;
+        $this->inTouchPointID = $inTouchPointID;
     }
 
     /**
@@ -65,17 +65,17 @@ class Test
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Test
+     * @return Test
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class Test
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Test
+     * @return Test
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class Test
      */
     public function getInEmailMarketingID()
     {
-      return $this->inEmailMarketingID;
+        return $this->inEmailMarketingID;
     }
 
     /**
      * @param string $inEmailMarketingID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Test
+     * @return Test
      */
     public function setInEmailMarketingID($inEmailMarketingID)
     {
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      return $this;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class Test
      */
     public function getInJobTicket()
     {
-      return $this->inJobTicket;
+        return $this->inJobTicket;
     }
 
     /**
      * @param string $inJobTicket
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Test
+     * @return Test
      */
     public function setInJobTicket($inJobTicket)
     {
-      $this->inJobTicket = $inJobTicket;
-      return $this;
+        $this->inJobTicket = $inJobTicket;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class Test
      */
     public function getInJobName()
     {
-      return $this->inJobName;
+        return $this->inJobName;
     }
 
     /**
      * @param string $inJobName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Test
+     * @return Test
      */
     public function setInJobName($inJobName)
     {
-      $this->inJobName = $inJobName;
-      return $this;
+        $this->inJobName = $inJobName;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class Test
      */
     public function getInPriority()
     {
-      return $this->inPriority;
+        return $this->inPriority;
     }
 
     /**
      * @param string $inPriority
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Test
+     * @return Test
      */
     public function setInPriority($inPriority)
     {
-      $this->inPriority = $inPriority;
-      return $this;
+        $this->inPriority = $inPriority;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class Test
      */
     public function getInTouchPointID()
     {
-      return $this->inTouchPointID;
+        return $this->inTouchPointID;
     }
 
     /**
      * @param string $inTouchPointID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Test
+     * @return Test
      */
     public function setInTouchPointID($inTouchPointID)
     {
-      $this->inTouchPointID = $inTouchPointID;
-      return $this;
+        $this->inTouchPointID = $inTouchPointID;
+        return $this;
     }
 
 }

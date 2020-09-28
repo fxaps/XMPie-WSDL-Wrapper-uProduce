@@ -39,11 +39,11 @@ class IsReadyForBatch
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountName = null, $inCampaignName = null, $inEmailActivityName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountName = $inAccountName;
-      $this->inCampaignName = $inCampaignName;
-      $this->inEmailActivityName = $inEmailActivityName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountName = $inAccountName;
+        $this->inCampaignName = $inCampaignName;
+        $this->inEmailActivityName = $inEmailActivityName;
     }
 
     /**
@@ -51,17 +51,17 @@ class IsReadyForBatch
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\IsReadyForBatch
+     * @return IsReadyForBatch
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class IsReadyForBatch
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\IsReadyForBatch
+     * @return IsReadyForBatch
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class IsReadyForBatch
      */
     public function getInAccountName()
     {
-      return $this->inAccountName;
+        return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\IsReadyForBatch
+     * @return IsReadyForBatch
      */
     public function setInAccountName($inAccountName)
     {
-      $this->inAccountName = $inAccountName;
-      return $this;
+        $this->inAccountName = $inAccountName;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class IsReadyForBatch
      */
     public function getInCampaignName()
     {
-      return $this->inCampaignName;
+        return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\IsReadyForBatch
+     * @return IsReadyForBatch
      */
     public function setInCampaignName($inCampaignName)
     {
-      $this->inCampaignName = $inCampaignName;
-      return $this;
+        $this->inCampaignName = $inCampaignName;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class IsReadyForBatch
      */
     public function getInEmailActivityName()
     {
-      return $this->inEmailActivityName;
+        return $this->inEmailActivityName;
     }
 
     /**
      * @param string $inEmailActivityName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\IsReadyForBatch
+     * @return IsReadyForBatch
      */
     public function setInEmailActivityName($inEmailActivityName)
     {
-      $this->inEmailActivityName = $inEmailActivityName;
-      return $this;
+        $this->inEmailActivityName = $inEmailActivityName;
+        return $this;
     }
 
 }

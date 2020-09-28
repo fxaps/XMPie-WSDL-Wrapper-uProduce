@@ -15,10 +15,10 @@ class EmailAddress
      */
     protected $m_Display = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -26,17 +26,17 @@ class EmailAddress
      */
     public function getM_Address()
     {
-      return $this->m_Address;
+        return $this->m_Address;
     }
 
     /**
      * @param string $m_Address
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\EmailAddress
+     * @return EmailAddress
      */
     public function setM_Address($m_Address)
     {
-      $this->m_Address = $m_Address;
-      return $this;
+        $this->m_Address = $m_Address;
+        return $this;
     }
 
     /**
@@ -44,17 +44,17 @@ class EmailAddress
      */
     public function getM_Display()
     {
-      return $this->m_Display;
+        return $this->m_Display;
     }
 
     /**
      * @param string $m_Display
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\EmailAddress
+     * @return EmailAddress
      */
     public function setM_Display($m_Display)
     {
-      $this->m_Display = $m_Display;
-      return $this;
+        $this->m_Display = $m_Display;
+        return $this;
     }
 
 }

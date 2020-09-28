@@ -15,7 +15,7 @@ class CreateNewExResponse
      */
     public function __construct($CreateNewExResult = null)
     {
-      $this->CreateNewExResult = $CreateNewExResult;
+        $this->CreateNewExResult = $CreateNewExResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewExResponse
      */
     public function getCreateNewExResult()
     {
-      return $this->CreateNewExResult;
+        return $this->CreateNewExResult;
     }
 
     /**
      * @param string $CreateNewExResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\CreateNewExResponse
+     * @return CreateNewExResponse
      */
     public function setCreateNewExResult($CreateNewExResult)
     {
-      $this->CreateNewExResult = $CreateNewExResult;
-      return $this;
+        $this->CreateNewExResult = $CreateNewExResult;
+        return $this;
     }
 
 }

@@ -45,10 +45,10 @@ class PlanStructure
      */
     protected $m_DataSources = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -56,17 +56,17 @@ class PlanStructure
      */
     public function getM_ADORs()
     {
-      return $this->m_ADORs;
+        return $this->m_ADORs;
     }
 
     /**
      * @param ArrayOfPlanADOR $m_ADORs
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanStructure
+     * @return PlanStructure
      */
     public function setM_ADORs($m_ADORs)
     {
-      $this->m_ADORs = $m_ADORs;
-      return $this;
+        $this->m_ADORs = $m_ADORs;
+        return $this;
     }
 
     /**
@@ -74,17 +74,17 @@ class PlanStructure
      */
     public function getM_Audiences()
     {
-      return $this->m_Audiences;
+        return $this->m_Audiences;
     }
 
     /**
      * @param ArrayOfPlanAudience $m_Audiences
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanStructure
+     * @return PlanStructure
      */
     public function setM_Audiences($m_Audiences)
     {
-      $this->m_Audiences = $m_Audiences;
-      return $this;
+        $this->m_Audiences = $m_Audiences;
+        return $this;
     }
 
     /**
@@ -92,17 +92,17 @@ class PlanStructure
      */
     public function getM_Variables()
     {
-      return $this->m_Variables;
+        return $this->m_Variables;
     }
 
     /**
      * @param ArrayOfPlanVariable $m_Variables
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanStructure
+     * @return PlanStructure
      */
     public function setM_Variables($m_Variables)
     {
-      $this->m_Variables = $m_Variables;
-      return $this;
+        $this->m_Variables = $m_Variables;
+        return $this;
     }
 
     /**
@@ -110,17 +110,17 @@ class PlanStructure
      */
     public function getM_UserViews()
     {
-      return $this->m_UserViews;
+        return $this->m_UserViews;
     }
 
     /**
      * @param ArrayOfPlanUserView $m_UserViews
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanStructure
+     * @return PlanStructure
      */
     public function setM_UserViews($m_UserViews)
     {
-      $this->m_UserViews = $m_UserViews;
-      return $this;
+        $this->m_UserViews = $m_UserViews;
+        return $this;
     }
 
     /**
@@ -128,17 +128,17 @@ class PlanStructure
      */
     public function getM_RecipientFields()
     {
-      return $this->m_RecipientFields;
+        return $this->m_RecipientFields;
     }
 
     /**
      * @param ArrayOfRecipientField $m_RecipientFields
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanStructure
+     * @return PlanStructure
      */
     public function setM_RecipientFields($m_RecipientFields)
     {
-      $this->m_RecipientFields = $m_RecipientFields;
-      return $this;
+        $this->m_RecipientFields = $m_RecipientFields;
+        return $this;
     }
 
     /**
@@ -146,17 +146,17 @@ class PlanStructure
      */
     public function getM_Filters()
     {
-      return $this->m_Filters;
+        return $this->m_Filters;
     }
 
     /**
      * @param ArrayOfPlanFilter $m_Filters
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanStructure
+     * @return PlanStructure
      */
     public function setM_Filters($m_Filters)
     {
-      $this->m_Filters = $m_Filters;
-      return $this;
+        $this->m_Filters = $m_Filters;
+        return $this;
     }
 
     /**
@@ -164,17 +164,17 @@ class PlanStructure
      */
     public function getM_Functions()
     {
-      return $this->m_Functions;
+        return $this->m_Functions;
     }
 
     /**
      * @param ArrayOfPlanFunction $m_Functions
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanStructure
+     * @return PlanStructure
      */
     public function setM_Functions($m_Functions)
     {
-      $this->m_Functions = $m_Functions;
-      return $this;
+        $this->m_Functions = $m_Functions;
+        return $this;
     }
 
     /**
@@ -182,17 +182,17 @@ class PlanStructure
      */
     public function getM_DataSources()
     {
-      return $this->m_DataSources;
+        return $this->m_DataSources;
     }
 
     /**
      * @param ArrayOfPlanDataSource $m_DataSources
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanStructure
+     * @return PlanStructure
      */
     public function setM_DataSources($m_DataSources)
     {
-      $this->m_DataSources = $m_DataSources;
-      return $this;
+        $this->m_DataSources = $m_DataSources;
+        return $this;
     }
 
 }

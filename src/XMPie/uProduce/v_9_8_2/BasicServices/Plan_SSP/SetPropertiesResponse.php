@@ -15,7 +15,7 @@ class SetPropertiesResponse
      */
     public function __construct($SetPropertiesResult = null)
     {
-      $this->SetPropertiesResult = $SetPropertiesResult;
+        $this->SetPropertiesResult = $SetPropertiesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetPropertiesResponse
      */
     public function getSetPropertiesResult()
     {
-      return $this->SetPropertiesResult;
+        return $this->SetPropertiesResult;
     }
 
     /**
      * @param boolean $SetPropertiesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\SetPropertiesResponse
+     * @return SetPropertiesResponse
      */
     public function setSetPropertiesResult($SetPropertiesResult)
     {
-      $this->SetPropertiesResult = $SetPropertiesResult;
-      return $this;
+        $this->SetPropertiesResult = $SetPropertiesResult;
+        return $this;
     }
 
 }

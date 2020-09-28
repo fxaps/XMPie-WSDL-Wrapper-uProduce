@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP;
 
-class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfConnection implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Connection = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function getConnection()
     {
-      return $this->Connection;
+        return $this->Connection;
     }
 
     /**
      * @param Connection[] $Connection
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\ArrayOfConnection
+     * @return ArrayOfConnection
      */
     public function setConnection(array $Connection = null)
     {
-      $this->Connection = $Connection;
-      return $this;
+        $this->Connection = $Connection;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Connection[$offset]);
+        return isset($this->Connection[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Connection[$offset];
+        return $this->Connection[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Connection[] = $value;
-      } else {
-        $this->Connection[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Connection[] = $value;
+        } else {
+            $this->Connection[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Connection[$offset]);
+        unset($this->Connection[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Connection);
+        return current($this->Connection);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Connection);
+        next($this->Connection);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Connection);
+        return key($this->Connection);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Connection);
+        reset($this->Connection);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfConnection implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Connection);
+        return count($this->Connection);
     }
 
 }

@@ -15,7 +15,7 @@ class GetMessagesHighestSeverityResponse
      */
     public function __construct($GetMessagesHighestSeverityResult = null)
     {
-      $this->GetMessagesHighestSeverityResult = $GetMessagesHighestSeverityResult;
+        $this->GetMessagesHighestSeverityResult = $GetMessagesHighestSeverityResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMessagesHighestSeverityResponse
      */
     public function getGetMessagesHighestSeverityResult()
     {
-      return $this->GetMessagesHighestSeverityResult;
+        return $this->GetMessagesHighestSeverityResult;
     }
 
     /**
      * @param int $GetMessagesHighestSeverityResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetMessagesHighestSeverityResponse
+     * @return GetMessagesHighestSeverityResponse
      */
     public function setGetMessagesHighestSeverityResult($GetMessagesHighestSeverityResult)
     {
-      $this->GetMessagesHighestSeverityResult = $GetMessagesHighestSeverityResult;
-      return $this;
+        $this->GetMessagesHighestSeverityResult = $GetMessagesHighestSeverityResult;
+        return $this;
     }
 
 }

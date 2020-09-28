@@ -33,10 +33,10 @@ class GetIDByGUID
      */
     public function __construct($inUsername = null, $inPassword = null, $inObjectType = null, $inObjectGUID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inObjectType = $inObjectType;
-      $this->inObjectGUID = $inObjectGUID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inObjectType = $inObjectType;
+        $this->inObjectGUID = $inObjectGUID;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetIDByGUID
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\XMPieInternalAPI_SSP\GetIDByGUID
+     * @return GetIDByGUID
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetIDByGUID
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\XMPieInternalAPI_SSP\GetIDByGUID
+     * @return GetIDByGUID
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetIDByGUID
      */
     public function getInObjectType()
     {
-      return $this->inObjectType;
+        return $this->inObjectType;
     }
 
     /**
      * @param string $inObjectType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\XMPieInternalAPI_SSP\GetIDByGUID
+     * @return GetIDByGUID
      */
     public function setInObjectType($inObjectType)
     {
-      $this->inObjectType = $inObjectType;
-      return $this;
+        $this->inObjectType = $inObjectType;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetIDByGUID
      */
     public function getInObjectGUID()
     {
-      return $this->inObjectGUID;
+        return $this->inObjectGUID;
     }
 
     /**
      * @param string $inObjectGUID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\XMPieInternalAPI_SSP\GetIDByGUID
+     * @return GetIDByGUID
      */
     public function setInObjectGUID($inObjectGUID)
     {
-      $this->inObjectGUID = $inObjectGUID;
-      return $this;
+        $this->inObjectGUID = $inObjectGUID;
+        return $this;
     }
 
 }

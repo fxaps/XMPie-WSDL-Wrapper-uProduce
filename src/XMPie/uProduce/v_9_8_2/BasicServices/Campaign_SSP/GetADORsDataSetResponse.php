@@ -15,7 +15,7 @@ class GetADORsDataSetResponse
      */
     public function __construct($GetADORsDataSetResult = null)
     {
-      $this->GetADORsDataSetResult = $GetADORsDataSetResult;
+        $this->GetADORsDataSetResult = $GetADORsDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetADORsDataSetResponse
      */
     public function getGetADORsDataSetResult()
     {
-      return $this->GetADORsDataSetResult;
+        return $this->GetADORsDataSetResult;
     }
 
     /**
      * @param GetADORsDataSetResult $GetADORsDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetADORsDataSetResponse
+     * @return GetADORsDataSetResponse
      */
     public function setGetADORsDataSetResult($GetADORsDataSetResult)
     {
-      $this->GetADORsDataSetResult = $GetADORsDataSetResult;
-      return $this;
+        $this->GetADORsDataSetResult = $GetADORsDataSetResult;
+        return $this;
     }
 
 }

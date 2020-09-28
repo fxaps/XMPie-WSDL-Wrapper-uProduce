@@ -45,12 +45,12 @@ class AddFFPM
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inExecutionPath = null, $inQueueSpecs = null, $inDeleteSource = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inExecutionPath = $inExecutionPath;
-      $this->inQueueSpecs = $inQueueSpecs;
-      $this->inDeleteSource = $inDeleteSource;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inExecutionPath = $inExecutionPath;
+        $this->inQueueSpecs = $inQueueSpecs;
+        $this->inDeleteSource = $inDeleteSource;
     }
 
     /**
@@ -58,17 +58,17 @@ class AddFFPM
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFFPM
+     * @return AddFFPM
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class AddFFPM
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFFPM
+     * @return AddFFPM
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class AddFFPM
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFFPM
+     * @return AddFFPM
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class AddFFPM
      */
     public function getInExecutionPath()
     {
-      return $this->inExecutionPath;
+        return $this->inExecutionPath;
     }
 
     /**
      * @param string $inExecutionPath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFFPM
+     * @return AddFFPM
      */
     public function setInExecutionPath($inExecutionPath)
     {
-      $this->inExecutionPath = $inExecutionPath;
-      return $this;
+        $this->inExecutionPath = $inExecutionPath;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class AddFFPM
      */
     public function getInQueueSpecs()
     {
-      return $this->inQueueSpecs;
+        return $this->inQueueSpecs;
     }
 
     /**
      * @param string $inQueueSpecs
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFFPM
+     * @return AddFFPM
      */
     public function setInQueueSpecs($inQueueSpecs)
     {
-      $this->inQueueSpecs = $inQueueSpecs;
-      return $this;
+        $this->inQueueSpecs = $inQueueSpecs;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class AddFFPM
      */
     public function getInDeleteSource()
     {
-      return $this->inDeleteSource;
+        return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFFPM
+     * @return AddFFPM
      */
     public function setInDeleteSource($inDeleteSource)
     {
-      $this->inDeleteSource = $inDeleteSource;
-      return $this;
+        $this->inDeleteSource = $inDeleteSource;
+        return $this;
     }
 
 }

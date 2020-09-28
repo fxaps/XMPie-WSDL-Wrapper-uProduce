@@ -45,12 +45,12 @@ class SetResourcePermissions
      */
     public function __construct($inUsername = null, $inPassword = null, $inResource = null, $inActorType = null, $inActorIDs = null, $inDetails = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inResource = $inResource;
-      $this->inActorType = $inActorType;
-      $this->inActorIDs = $inActorIDs;
-      $this->inDetails = $inDetails;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inResource = $inResource;
+        $this->inActorType = $inActorType;
+        $this->inActorIDs = $inActorIDs;
+        $this->inDetails = $inDetails;
     }
 
     /**
@@ -58,17 +58,17 @@ class SetResourcePermissions
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\SetResourcePermissions
+     * @return SetResourcePermissions
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class SetResourcePermissions
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\SetResourcePermissions
+     * @return SetResourcePermissions
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class SetResourcePermissions
      */
     public function getInResource()
     {
-      return $this->inResource;
+        return $this->inResource;
     }
 
     /**
      * @param PermissionEntity $inResource
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\SetResourcePermissions
+     * @return SetResourcePermissions
      */
     public function setInResource($inResource)
     {
-      $this->inResource = $inResource;
-      return $this;
+        $this->inResource = $inResource;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class SetResourcePermissions
      */
     public function getInActorType()
     {
-      return $this->inActorType;
+        return $this->inActorType;
     }
 
     /**
      * @param string $inActorType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\SetResourcePermissions
+     * @return SetResourcePermissions
      */
     public function setInActorType($inActorType)
     {
-      $this->inActorType = $inActorType;
-      return $this;
+        $this->inActorType = $inActorType;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class SetResourcePermissions
      */
     public function getInActorIDs()
     {
-      return $this->inActorIDs;
+        return $this->inActorIDs;
     }
 
     /**
      * @param ArrayOfString $inActorIDs
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\SetResourcePermissions
+     * @return SetResourcePermissions
      */
     public function setInActorIDs($inActorIDs)
     {
-      $this->inActorIDs = $inActorIDs;
-      return $this;
+        $this->inActorIDs = $inActorIDs;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class SetResourcePermissions
      */
     public function getInDetails()
     {
-      return $this->inDetails;
+        return $this->inDetails;
     }
 
     /**
      * @param PermissionDetails $inDetails
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\SetResourcePermissions
+     * @return SetResourcePermissions
      */
     public function setInDetails($inDetails)
     {
-      $this->inDetails = $inDetails;
-      return $this;
+        $this->inDetails = $inDetails;
+        return $this;
     }
 
 }

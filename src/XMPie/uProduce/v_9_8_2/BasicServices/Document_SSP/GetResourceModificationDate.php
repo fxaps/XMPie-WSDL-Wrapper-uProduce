@@ -33,10 +33,10 @@ class GetResourceModificationDate
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inResourceFileName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDocumentID = $inDocumentID;
-      $this->inResourceFileName = $inResourceFileName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDocumentID = $inDocumentID;
+        $this->inResourceFileName = $inResourceFileName;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetResourceModificationDate
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceModificationDate
+     * @return GetResourceModificationDate
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetResourceModificationDate
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceModificationDate
+     * @return GetResourceModificationDate
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetResourceModificationDate
      */
     public function getInDocumentID()
     {
-      return $this->inDocumentID;
+        return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceModificationDate
+     * @return GetResourceModificationDate
      */
     public function setInDocumentID($inDocumentID)
     {
-      $this->inDocumentID = $inDocumentID;
-      return $this;
+        $this->inDocumentID = $inDocumentID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetResourceModificationDate
      */
     public function getInResourceFileName()
     {
-      return $this->inResourceFileName;
+        return $this->inResourceFileName;
     }
 
     /**
      * @param string $inResourceFileName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceModificationDate
+     * @return GetResourceModificationDate
      */
     public function setInResourceFileName($inResourceFileName)
     {
-      $this->inResourceFileName = $inResourceFileName;
-      return $this;
+        $this->inResourceFileName = $inResourceFileName;
+        return $this;
     }
 
 }

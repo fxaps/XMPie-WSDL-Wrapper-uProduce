@@ -15,7 +15,7 @@ class RemoveUserTokenResponse
      */
     public function __construct($RemoveUserTokenResult = null)
     {
-      $this->RemoveUserTokenResult = $RemoveUserTokenResult;
+        $this->RemoveUserTokenResult = $RemoveUserTokenResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveUserTokenResponse
      */
     public function getRemoveUserTokenResult()
     {
-      return $this->RemoveUserTokenResult;
+        return $this->RemoveUserTokenResult;
     }
 
     /**
      * @param boolean $RemoveUserTokenResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\User_SSP\RemoveUserTokenResponse
+     * @return RemoveUserTokenResponse
      */
     public function setRemoveUserTokenResult($RemoveUserTokenResult)
     {
-      $this->RemoveUserTokenResult = $RemoveUserTokenResult;
-      return $this;
+        $this->RemoveUserTokenResult = $RemoveUserTokenResult;
+        return $this;
     }
 
 }

@@ -3,98 +3,99 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP;
 
 
+use SoapClient;
 use SoapFault;
 
 /**
  * Account Web Service.
  */
-class Account_SSP extends \SoapClient
+class Account_SSP extends SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array (
-  'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\CreateNew',
-  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfProperty',
-  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\Property',
-  'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\CreateNewResponse',
-  'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\Delete',
-  'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteResponse',
-  'GetCustomer' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCustomer',
-  'GetCustomerResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCustomerResponse',
-  'GetFolderPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetFolderPath',
-  'GetFolderPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetFolderPathResponse',
-  'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetName',
-  'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetNameResponse',
-  'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetProperty',
-  'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetPropertyResponse',
-  'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetProperties',
-  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfString',
-  'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetPropertiesResponse',
-  'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAllProperties',
-  'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAllPropertiesResponse',
-  'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetDataSet',
-  'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetDataSetResponse',
-  'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetDataSetResult',
-  'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetXMPTblDataSet',
-  'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetXMPTblDataSetResponse',
-  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\XMPTblDataSet',
-  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfXMPTbl',
-  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\XMPTbl',
-  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfXMPTblColumn',
-  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\XMPTblColumn',
-  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfXMPTblRow',
-  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\XMPTblRow',
-  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfXMPRowField',
-  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\XMPRowField',
-  'SetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetProperty',
-  'SetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetPropertyResponse',
-  'SetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetProperties',
-  'SetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetPropertiesResponse',
-  'GetCampaignID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignID',
-  'GetCampaignIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignIDResponse',
-  'GetCampaigns' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaigns',
-  'GetCampaignsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsResponse',
-  'GetCampaignsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsDataSet',
-  'GetCampaignsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsDataSetResponse',
-  'GetCampaignsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsDataSetResult',
-  'GetCampaignsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsXMPTblDataSet',
-  'GetCampaignsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsXMPTblDataSetResponse',
-  'DeleteCampaigns' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteCampaigns',
-  'DeleteCampaignsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteCampaignsResponse',
-  'DeleteAllCampaigns' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAllCampaigns',
-  'DeleteAllCampaignsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAllCampaignsResponse',
-  'GetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetID',
-  'GetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetIDResponse',
-  'IsExist' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\IsExist',
-  'IsExistResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\IsExistResponse',
-  'SetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetSettings',
-  'ArrayOfSetting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfSetting',
-  'Setting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\Setting',
-  'SetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetSettingsResponse',
-  'GetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetSettings',
-  'GetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetSettingsResponse',
-  'DeleteSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteSettings',
-  'DeleteSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteSettingsResponse',
-  'GetADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetADORs',
-  'GetADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetADORsResponse',
-  'ArrayOfPlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfPlanObject',
-  'PlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\PlanObject',
-  'GetAccountDataSourceID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourceID',
-  'GetAccountDataSourceIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourceIDResponse',
-  'GetAccountDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSources',
-  'GetAccountDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesResponse',
-  'GetAccountDataSourcesDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesDataSet',
-  'GetAccountDataSourcesDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesDataSetResponse',
-  'GetAccountDataSourcesDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesDataSetResult',
-  'GetAccountDataSourcesXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesXMPTblDataSet',
-  'GetAccountDataSourcesXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesXMPTblDataSetResponse',
-  'DeleteAccountDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAccountDataSources',
-  'DeleteAccountDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAccountDataSourcesResponse',
-  'DeleteAllAccountDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAllAccountDataSources',
-  'DeleteAllAccountDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAllAccountDataSourcesResponse',
-);
+    private static $classmap = array(
+        'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\CreateNew',
+        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfProperty',
+        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\Property',
+        'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\CreateNewResponse',
+        'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\Delete',
+        'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteResponse',
+        'GetCustomer' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCustomer',
+        'GetCustomerResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCustomerResponse',
+        'GetFolderPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetFolderPath',
+        'GetFolderPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetFolderPathResponse',
+        'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetName',
+        'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetNameResponse',
+        'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetProperty',
+        'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetPropertyResponse',
+        'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetProperties',
+        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfString',
+        'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetPropertiesResponse',
+        'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAllProperties',
+        'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAllPropertiesResponse',
+        'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetDataSet',
+        'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetDataSetResponse',
+        'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetDataSetResult',
+        'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetXMPTblDataSet',
+        'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetXMPTblDataSetResponse',
+        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\XMPTblDataSet',
+        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfXMPTbl',
+        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\XMPTbl',
+        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfXMPTblColumn',
+        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\XMPTblColumn',
+        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfXMPTblRow',
+        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\XMPTblRow',
+        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfXMPRowField',
+        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\XMPRowField',
+        'SetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetProperty',
+        'SetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetPropertyResponse',
+        'SetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetProperties',
+        'SetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetPropertiesResponse',
+        'GetCampaignID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignID',
+        'GetCampaignIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignIDResponse',
+        'GetCampaigns' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaigns',
+        'GetCampaignsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsResponse',
+        'GetCampaignsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsDataSet',
+        'GetCampaignsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsDataSetResponse',
+        'GetCampaignsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsDataSetResult',
+        'GetCampaignsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsXMPTblDataSet',
+        'GetCampaignsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetCampaignsXMPTblDataSetResponse',
+        'DeleteCampaigns' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteCampaigns',
+        'DeleteCampaignsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteCampaignsResponse',
+        'DeleteAllCampaigns' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAllCampaigns',
+        'DeleteAllCampaignsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAllCampaignsResponse',
+        'GetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetID',
+        'GetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetIDResponse',
+        'IsExist' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\IsExist',
+        'IsExistResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\IsExistResponse',
+        'SetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetSettings',
+        'ArrayOfSetting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfSetting',
+        'Setting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\Setting',
+        'SetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\SetSettingsResponse',
+        'GetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetSettings',
+        'GetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetSettingsResponse',
+        'DeleteSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteSettings',
+        'DeleteSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteSettingsResponse',
+        'GetADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetADORs',
+        'GetADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetADORsResponse',
+        'ArrayOfPlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\ArrayOfPlanObject',
+        'PlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\PlanObject',
+        'GetAccountDataSourceID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourceID',
+        'GetAccountDataSourceIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourceIDResponse',
+        'GetAccountDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSources',
+        'GetAccountDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesResponse',
+        'GetAccountDataSourcesDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesDataSet',
+        'GetAccountDataSourcesDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesDataSetResponse',
+        'GetAccountDataSourcesDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesDataSetResult',
+        'GetAccountDataSourcesXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesXMPTblDataSet',
+        'GetAccountDataSourcesXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\GetAccountDataSourcesXMPTblDataSetResponse',
+        'DeleteAccountDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAccountDataSources',
+        'DeleteAccountDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAccountDataSourcesResponse',
+        'DeleteAllAccountDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAllAccountDataSources',
+        'DeleteAllAccountDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Account_SSP\\DeleteAllAccountDataSourcesResponse',
+    );
 
     /**
      * @param array $options A array of config values
@@ -103,19 +104,19 @@ class Account_SSP extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-    
-  foreach (self::$classmap as $key => $value) {
-    if (!isset($options['classmap'][$key])) {
-      $options['classmap'][$key] = $value;
-    }
-  }
-      $options = array_merge(array (
-  'features' => 1,
-), $options);
-      if (!$wsdl) {
-        $wsdl = 'http://localhost/xmpiewsapi/Account_SSP.asmx?wsdl';
-      }
-      parent::__construct($wsdl, $options);
+
+        foreach (self::$classmap as $key => $value) {
+            if (!isset($options['classmap'][$key])) {
+                $options['classmap'][$key] = $value;
+            }
+        }
+        $options = array_merge(array(
+            'features' => 1,
+        ), $options);
+        if (!$wsdl) {
+            $wsdl = 'http://localhost/xmpiewsapi/Account_SSP.asmx?wsdl';
+        }
+        parent::__construct($wsdl, $options);
     }
 
     /**
@@ -126,7 +127,7 @@ class Account_SSP extends \SoapClient
      */
     public function CreateNew(CreateNew $parameters)
     {
-      return $this->__soapCall('CreateNew', array($parameters));
+        return $this->__soapCall('CreateNew', array($parameters));
     }
 
     /**
@@ -137,7 +138,7 @@ class Account_SSP extends \SoapClient
      */
     public function Delete(Delete $parameters)
     {
-      return $this->__soapCall('Delete', array($parameters));
+        return $this->__soapCall('Delete', array($parameters));
     }
 
     /**
@@ -148,7 +149,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetCustomer(GetCustomer $parameters)
     {
-      return $this->__soapCall('GetCustomer', array($parameters));
+        return $this->__soapCall('GetCustomer', array($parameters));
     }
 
     /**
@@ -159,7 +160,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetFolderPath(GetFolderPath $parameters)
     {
-      return $this->__soapCall('GetFolderPath', array($parameters));
+        return $this->__soapCall('GetFolderPath', array($parameters));
     }
 
     /**
@@ -170,7 +171,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetName(GetName $parameters)
     {
-      return $this->__soapCall('GetName', array($parameters));
+        return $this->__soapCall('GetName', array($parameters));
     }
 
     /**
@@ -181,7 +182,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetProperty(GetProperty $parameters)
     {
-      return $this->__soapCall('GetProperty', array($parameters));
+        return $this->__soapCall('GetProperty', array($parameters));
     }
 
     /**
@@ -192,7 +193,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetProperties(GetProperties $parameters)
     {
-      return $this->__soapCall('GetProperties', array($parameters));
+        return $this->__soapCall('GetProperties', array($parameters));
     }
 
     /**
@@ -203,7 +204,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetAllProperties(GetAllProperties $parameters)
     {
-      return $this->__soapCall('GetAllProperties', array($parameters));
+        return $this->__soapCall('GetAllProperties', array($parameters));
     }
 
     /**
@@ -214,7 +215,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetDataSet(GetDataSet $parameters)
     {
-      return $this->__soapCall('GetDataSet', array($parameters));
+        return $this->__soapCall('GetDataSet', array($parameters));
     }
 
     /**
@@ -225,7 +226,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetXMPTblDataSet(GetXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -236,7 +237,7 @@ class Account_SSP extends \SoapClient
      */
     public function SetProperty(SetProperty $parameters)
     {
-      return $this->__soapCall('SetProperty', array($parameters));
+        return $this->__soapCall('SetProperty', array($parameters));
     }
 
     /**
@@ -247,7 +248,7 @@ class Account_SSP extends \SoapClient
      */
     public function SetProperties(SetProperties $parameters)
     {
-      return $this->__soapCall('SetProperties', array($parameters));
+        return $this->__soapCall('SetProperties', array($parameters));
     }
 
     /**
@@ -258,7 +259,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetCampaignID(GetCampaignID $parameters)
     {
-      return $this->__soapCall('GetCampaignID', array($parameters));
+        return $this->__soapCall('GetCampaignID', array($parameters));
     }
 
     /**
@@ -269,7 +270,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetCampaigns(GetCampaigns $parameters)
     {
-      return $this->__soapCall('GetCampaigns', array($parameters));
+        return $this->__soapCall('GetCampaigns', array($parameters));
     }
 
     /**
@@ -280,7 +281,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetCampaignsDataSet(GetCampaignsDataSet $parameters)
     {
-      return $this->__soapCall('GetCampaignsDataSet', array($parameters));
+        return $this->__soapCall('GetCampaignsDataSet', array($parameters));
     }
 
     /**
@@ -291,7 +292,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetCampaignsXMPTblDataSet(GetCampaignsXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetCampaignsXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetCampaignsXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -302,7 +303,7 @@ class Account_SSP extends \SoapClient
      */
     public function DeleteCampaigns(DeleteCampaigns $parameters)
     {
-      return $this->__soapCall('DeleteCampaigns', array($parameters));
+        return $this->__soapCall('DeleteCampaigns', array($parameters));
     }
 
     /**
@@ -313,7 +314,7 @@ class Account_SSP extends \SoapClient
      */
     public function DeleteAllCampaigns(DeleteAllCampaigns $parameters)
     {
-      return $this->__soapCall('DeleteAllCampaigns', array($parameters));
+        return $this->__soapCall('DeleteAllCampaigns', array($parameters));
     }
 
     /**
@@ -324,7 +325,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetID(GetID $parameters)
     {
-      return $this->__soapCall('GetID', array($parameters));
+        return $this->__soapCall('GetID', array($parameters));
     }
 
     /**
@@ -335,7 +336,7 @@ class Account_SSP extends \SoapClient
      */
     public function IsExist(IsExist $parameters)
     {
-      return $this->__soapCall('IsExist', array($parameters));
+        return $this->__soapCall('IsExist', array($parameters));
     }
 
     /**
@@ -346,7 +347,7 @@ class Account_SSP extends \SoapClient
      */
     public function SetSettings(SetSettings $parameters)
     {
-      return $this->__soapCall('SetSettings', array($parameters));
+        return $this->__soapCall('SetSettings', array($parameters));
     }
 
     /**
@@ -357,7 +358,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetSettings(GetSettings $parameters)
     {
-      return $this->__soapCall('GetSettings', array($parameters));
+        return $this->__soapCall('GetSettings', array($parameters));
     }
 
     /**
@@ -368,7 +369,7 @@ class Account_SSP extends \SoapClient
      */
     public function DeleteSettings(DeleteSettings $parameters)
     {
-      return $this->__soapCall('DeleteSettings', array($parameters));
+        return $this->__soapCall('DeleteSettings', array($parameters));
     }
 
     /**
@@ -379,7 +380,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetADORs(GetADORs $parameters)
     {
-      return $this->__soapCall('GetADORs', array($parameters));
+        return $this->__soapCall('GetADORs', array($parameters));
     }
 
     /**
@@ -390,7 +391,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetAccountDataSourceID(GetAccountDataSourceID $parameters)
     {
-      return $this->__soapCall('GetAccountDataSourceID', array($parameters));
+        return $this->__soapCall('GetAccountDataSourceID', array($parameters));
     }
 
     /**
@@ -401,7 +402,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetAccountDataSources(GetAccountDataSources $parameters)
     {
-      return $this->__soapCall('GetAccountDataSources', array($parameters));
+        return $this->__soapCall('GetAccountDataSources', array($parameters));
     }
 
     /**
@@ -412,7 +413,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetAccountDataSourcesDataSet(GetAccountDataSourcesDataSet $parameters)
     {
-      return $this->__soapCall('GetAccountDataSourcesDataSet', array($parameters));
+        return $this->__soapCall('GetAccountDataSourcesDataSet', array($parameters));
     }
 
     /**
@@ -423,7 +424,7 @@ class Account_SSP extends \SoapClient
      */
     public function GetAccountDataSourcesXMPTblDataSet(GetAccountDataSourcesXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetAccountDataSourcesXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetAccountDataSourcesXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -434,7 +435,7 @@ class Account_SSP extends \SoapClient
      */
     public function DeleteAccountDataSources(DeleteAccountDataSources $parameters)
     {
-      return $this->__soapCall('DeleteAccountDataSources', array($parameters));
+        return $this->__soapCall('DeleteAccountDataSources', array($parameters));
     }
 
     /**
@@ -445,7 +446,7 @@ class Account_SSP extends \SoapClient
      */
     public function DeleteAllAccountDataSources(DeleteAllAccountDataSources $parameters)
     {
-      return $this->__soapCall('DeleteAllAccountDataSources', array($parameters));
+        return $this->__soapCall('DeleteAllAccountDataSources', array($parameters));
     }
 
 }

@@ -27,9 +27,9 @@ class Delete
      */
     public function __construct($inUsername = null, $inPassword = null, $inEmailMarketingID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inEmailMarketingID = $inEmailMarketingID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inEmailMarketingID = $inEmailMarketingID;
     }
 
     /**
@@ -37,17 +37,17 @@ class Delete
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Delete
+     * @return Delete
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class Delete
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Delete
+     * @return Delete
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class Delete
      */
     public function getInEmailMarketingID()
     {
-      return $this->inEmailMarketingID;
+        return $this->inEmailMarketingID;
     }
 
     /**
      * @param string $inEmailMarketingID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Delete
+     * @return Delete
      */
     public function setInEmailMarketingID($inEmailMarketingID)
     {
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      return $this;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        return $this;
     }
 
 }

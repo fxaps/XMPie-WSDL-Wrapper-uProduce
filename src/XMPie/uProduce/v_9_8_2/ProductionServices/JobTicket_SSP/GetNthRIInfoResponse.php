@@ -15,7 +15,7 @@ class GetNthRIInfoResponse
      */
     public function __construct($GetNthRIInfoResult = null)
     {
-      $this->GetNthRIInfoResult = $GetNthRIInfoResult;
+        $this->GetNthRIInfoResult = $GetNthRIInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthRIInfoResponse
      */
     public function getGetNthRIInfoResult()
     {
-      return $this->GetNthRIInfoResult;
+        return $this->GetNthRIInfoResult;
     }
 
     /**
      * @param RecipientsInfo $GetNthRIInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthRIInfoResponse
+     * @return GetNthRIInfoResponse
      */
     public function setGetNthRIInfoResult($GetNthRIInfoResult)
     {
-      $this->GetNthRIInfoResult = $GetNthRIInfoResult;
-      return $this;
+        $this->GetNthRIInfoResult = $GetNthRIInfoResult;
+        return $this;
     }
 
 }

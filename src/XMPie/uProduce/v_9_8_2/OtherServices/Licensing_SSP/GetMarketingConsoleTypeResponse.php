@@ -15,7 +15,7 @@ class GetMarketingConsoleTypeResponse
      */
     public function __construct($GetMarketingConsoleTypeResult = null)
     {
-      $this->GetMarketingConsoleTypeResult = $GetMarketingConsoleTypeResult;
+        $this->GetMarketingConsoleTypeResult = $GetMarketingConsoleTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMarketingConsoleTypeResponse
      */
     public function getGetMarketingConsoleTypeResult()
     {
-      return $this->GetMarketingConsoleTypeResult;
+        return $this->GetMarketingConsoleTypeResult;
     }
 
     /**
      * @param string $GetMarketingConsoleTypeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetMarketingConsoleTypeResponse
+     * @return GetMarketingConsoleTypeResponse
      */
     public function setGetMarketingConsoleTypeResult($GetMarketingConsoleTypeResult)
     {
-      $this->GetMarketingConsoleTypeResult = $GetMarketingConsoleTypeResult;
-      return $this;
+        $this->GetMarketingConsoleTypeResult = $GetMarketingConsoleTypeResult;
+        return $this;
     }
 
 }

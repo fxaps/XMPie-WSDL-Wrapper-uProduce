@@ -15,7 +15,7 @@ class GetFontsFolderResponse
      */
     public function __construct($GetFontsFolderResult = null)
     {
-      $this->GetFontsFolderResult = $GetFontsFolderResult;
+        $this->GetFontsFolderResult = $GetFontsFolderResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFontsFolderResponse
      */
     public function getGetFontsFolderResult()
     {
-      return $this->GetFontsFolderResult;
+        return $this->GetFontsFolderResult;
     }
 
     /**
      * @param string $GetFontsFolderResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFontsFolderResponse
+     * @return GetFontsFolderResponse
      */
     public function setGetFontsFolderResult($GetFontsFolderResult)
     {
-      $this->GetFontsFolderResult = $GetFontsFolderResult;
-      return $this;
+        $this->GetFontsFolderResult = $GetFontsFolderResult;
+        return $this;
     }
 
 }

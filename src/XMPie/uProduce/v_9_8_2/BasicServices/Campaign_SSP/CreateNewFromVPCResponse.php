@@ -15,7 +15,7 @@ class CreateNewFromVPCResponse
      */
     public function __construct($CreateNewFromVPCResult = null)
     {
-      $this->CreateNewFromVPCResult = $CreateNewFromVPCResult;
+        $this->CreateNewFromVPCResult = $CreateNewFromVPCResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewFromVPCResponse
      */
     public function getCreateNewFromVPCResult()
     {
-      return $this->CreateNewFromVPCResult;
+        return $this->CreateNewFromVPCResult;
     }
 
     /**
      * @param string $CreateNewFromVPCResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNewFromVPCResponse
+     * @return CreateNewFromVPCResponse
      */
     public function setCreateNewFromVPCResult($CreateNewFromVPCResult)
     {
-      $this->CreateNewFromVPCResult = $CreateNewFromVPCResult;
-      return $this;
+        $this->CreateNewFromVPCResult = $CreateNewFromVPCResult;
+        return $this;
     }
 
 }

@@ -15,10 +15,10 @@ class XMPTblColumn
      */
     protected $m_ColumnType = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -26,17 +26,17 @@ class XMPTblColumn
      */
     public function getM_ColumnName()
     {
-      return $this->m_ColumnName;
+        return $this->m_ColumnName;
     }
 
     /**
      * @param string $m_ColumnName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\XMPTblColumn
+     * @return XMPTblColumn
      */
     public function setM_ColumnName($m_ColumnName)
     {
-      $this->m_ColumnName = $m_ColumnName;
-      return $this;
+        $this->m_ColumnName = $m_ColumnName;
+        return $this;
     }
 
     /**
@@ -44,17 +44,17 @@ class XMPTblColumn
      */
     public function getM_ColumnType()
     {
-      return $this->m_ColumnType;
+        return $this->m_ColumnType;
     }
 
     /**
      * @param string $m_ColumnType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\XMPTblColumn
+     * @return XMPTblColumn
      */
     public function setM_ColumnType($m_ColumnType)
     {
-      $this->m_ColumnType = $m_ColumnType;
-      return $this;
+        $this->m_ColumnType = $m_ColumnType;
+        return $this;
     }
 
 }

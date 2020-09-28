@@ -15,7 +15,7 @@ class CreateFullCPKGResponse
      */
     public function __construct($CreateFullCPKGResult = null)
     {
-      $this->CreateFullCPKGResult = $CreateFullCPKGResult;
+        $this->CreateFullCPKGResult = $CreateFullCPKGResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateFullCPKGResponse
      */
     public function getCreateFullCPKGResult()
     {
-      return $this->CreateFullCPKGResult;
+        return $this->CreateFullCPKGResult;
     }
 
     /**
      * @param string $CreateFullCPKGResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateFullCPKGResponse
+     * @return CreateFullCPKGResponse
      */
     public function setCreateFullCPKGResult($CreateFullCPKGResult)
     {
-      $this->CreateFullCPKGResult = $CreateFullCPKGResult;
-      return $this;
+        $this->CreateFullCPKGResult = $CreateFullCPKGResult;
+        return $this;
     }
 
 }

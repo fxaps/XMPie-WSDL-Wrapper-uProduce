@@ -15,7 +15,7 @@ class GetHeliconProxyUpdateScriptResponse
      */
     public function __construct($GetHeliconProxyUpdateScriptResult = null)
     {
-      $this->GetHeliconProxyUpdateScriptResult = $GetHeliconProxyUpdateScriptResult;
+        $this->GetHeliconProxyUpdateScriptResult = $GetHeliconProxyUpdateScriptResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetHeliconProxyUpdateScriptResponse
      */
     public function getGetHeliconProxyUpdateScriptResult()
     {
-      return $this->GetHeliconProxyUpdateScriptResult;
+        return $this->GetHeliconProxyUpdateScriptResult;
     }
 
     /**
      * @param string $GetHeliconProxyUpdateScriptResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetHeliconProxyUpdateScriptResponse
+     * @return GetHeliconProxyUpdateScriptResponse
      */
     public function setGetHeliconProxyUpdateScriptResult($GetHeliconProxyUpdateScriptResult)
     {
-      $this->GetHeliconProxyUpdateScriptResult = $GetHeliconProxyUpdateScriptResult;
-      return $this;
+        $this->GetHeliconProxyUpdateScriptResult = $GetHeliconProxyUpdateScriptResult;
+        return $this;
     }
 
 }

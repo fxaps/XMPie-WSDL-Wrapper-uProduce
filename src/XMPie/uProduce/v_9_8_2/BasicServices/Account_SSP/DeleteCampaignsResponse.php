@@ -15,7 +15,7 @@ class DeleteCampaignsResponse
      */
     public function __construct($DeleteCampaignsResult = null)
     {
-      $this->DeleteCampaignsResult = $DeleteCampaignsResult;
+        $this->DeleteCampaignsResult = $DeleteCampaignsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteCampaignsResponse
      */
     public function getDeleteCampaignsResult()
     {
-      return $this->DeleteCampaignsResult;
+        return $this->DeleteCampaignsResult;
     }
 
     /**
      * @param boolean $DeleteCampaignsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\DeleteCampaignsResponse
+     * @return DeleteCampaignsResponse
      */
     public function setDeleteCampaignsResult($DeleteCampaignsResult)
     {
-      $this->DeleteCampaignsResult = $DeleteCampaignsResult;
-      return $this;
+        $this->DeleteCampaignsResult = $DeleteCampaignsResult;
+        return $this;
     }
 
 }

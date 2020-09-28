@@ -57,14 +57,14 @@ class SetSplittedJobInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inSplitNum = null, $inSplitType = null, $inOrigFrom = null, $inOrigTo = null, $inMergeOutput = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inSplitNum = $inSplitNum;
-      $this->inSplitType = $inSplitType;
-      $this->inOrigFrom = $inOrigFrom;
-      $this->inOrigTo = $inOrigTo;
-      $this->inMergeOutput = $inMergeOutput;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inSplitNum = $inSplitNum;
+        $this->inSplitType = $inSplitType;
+        $this->inOrigFrom = $inOrigFrom;
+        $this->inOrigTo = $inOrigTo;
+        $this->inMergeOutput = $inMergeOutput;
     }
 
     /**
@@ -72,17 +72,17 @@ class SetSplittedJobInfo
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetSplittedJobInfo
+     * @return SetSplittedJobInfo
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class SetSplittedJobInfo
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetSplittedJobInfo
+     * @return SetSplittedJobInfo
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class SetSplittedJobInfo
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetSplittedJobInfo
+     * @return SetSplittedJobInfo
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class SetSplittedJobInfo
      */
     public function getInSplitNum()
     {
-      return $this->inSplitNum;
+        return $this->inSplitNum;
     }
 
     /**
      * @param int $inSplitNum
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetSplittedJobInfo
+     * @return SetSplittedJobInfo
      */
     public function setInSplitNum($inSplitNum)
     {
-      $this->inSplitNum = $inSplitNum;
-      return $this;
+        $this->inSplitNum = $inSplitNum;
+        return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class SetSplittedJobInfo
      */
     public function getInSplitType()
     {
-      return $this->inSplitType;
+        return $this->inSplitType;
     }
 
     /**
      * @param int $inSplitType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetSplittedJobInfo
+     * @return SetSplittedJobInfo
      */
     public function setInSplitType($inSplitType)
     {
-      $this->inSplitType = $inSplitType;
-      return $this;
+        $this->inSplitType = $inSplitType;
+        return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class SetSplittedJobInfo
      */
     public function getInOrigFrom()
     {
-      return $this->inOrigFrom;
+        return $this->inOrigFrom;
     }
 
     /**
      * @param int $inOrigFrom
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetSplittedJobInfo
+     * @return SetSplittedJobInfo
      */
     public function setInOrigFrom($inOrigFrom)
     {
-      $this->inOrigFrom = $inOrigFrom;
-      return $this;
+        $this->inOrigFrom = $inOrigFrom;
+        return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class SetSplittedJobInfo
      */
     public function getInOrigTo()
     {
-      return $this->inOrigTo;
+        return $this->inOrigTo;
     }
 
     /**
      * @param int $inOrigTo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetSplittedJobInfo
+     * @return SetSplittedJobInfo
      */
     public function setInOrigTo($inOrigTo)
     {
-      $this->inOrigTo = $inOrigTo;
-      return $this;
+        $this->inOrigTo = $inOrigTo;
+        return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class SetSplittedJobInfo
      */
     public function getInMergeOutput()
     {
-      return $this->inMergeOutput;
+        return $this->inMergeOutput;
     }
 
     /**
      * @param boolean $inMergeOutput
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetSplittedJobInfo
+     * @return SetSplittedJobInfo
      */
     public function setInMergeOutput($inMergeOutput)
     {
-      $this->inMergeOutput = $inMergeOutput;
-      return $this;
+        $this->inMergeOutput = $inMergeOutput;
+        return $this;
     }
 
 }

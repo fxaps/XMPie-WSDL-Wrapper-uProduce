@@ -15,7 +15,7 @@ class GetJobsByFilterResponse
      */
     public function __construct($GetJobsByFilterResult = null)
     {
-      $this->GetJobsByFilterResult = $GetJobsByFilterResult;
+        $this->GetJobsByFilterResult = $GetJobsByFilterResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetJobsByFilterResponse
      */
     public function getGetJobsByFilterResult()
     {
-      return $this->GetJobsByFilterResult;
+        return $this->GetJobsByFilterResult;
     }
 
     /**
      * @param ArrayOfString $GetJobsByFilterResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobsByFilterResponse
+     * @return GetJobsByFilterResponse
      */
     public function setGetJobsByFilterResult($GetJobsByFilterResult)
     {
-      $this->GetJobsByFilterResult = $GetJobsByFilterResult;
-      return $this;
+        $this->GetJobsByFilterResult = $GetJobsByFilterResult;
+        return $this;
     }
 
 }

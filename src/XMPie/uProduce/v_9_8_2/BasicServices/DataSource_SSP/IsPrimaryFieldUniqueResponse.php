@@ -15,7 +15,7 @@ class IsPrimaryFieldUniqueResponse
      */
     public function __construct($IsPrimaryFieldUniqueResult = null)
     {
-      $this->IsPrimaryFieldUniqueResult = $IsPrimaryFieldUniqueResult;
+        $this->IsPrimaryFieldUniqueResult = $IsPrimaryFieldUniqueResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsPrimaryFieldUniqueResponse
      */
     public function getIsPrimaryFieldUniqueResult()
     {
-      return $this->IsPrimaryFieldUniqueResult;
+        return $this->IsPrimaryFieldUniqueResult;
     }
 
     /**
      * @param boolean $IsPrimaryFieldUniqueResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\IsPrimaryFieldUniqueResponse
+     * @return IsPrimaryFieldUniqueResponse
      */
     public function setIsPrimaryFieldUniqueResult($IsPrimaryFieldUniqueResult)
     {
-      $this->IsPrimaryFieldUniqueResult = $IsPrimaryFieldUniqueResult;
-      return $this;
+        $this->IsPrimaryFieldUniqueResult = $IsPrimaryFieldUniqueResult;
+        return $this;
     }
 
 }

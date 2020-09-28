@@ -15,7 +15,7 @@ class AddFTPByIDResponse
      */
     public function __construct($AddFTPByIDResult = null)
     {
-      $this->AddFTPByIDResult = $AddFTPByIDResult;
+        $this->AddFTPByIDResult = $AddFTPByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddFTPByIDResponse
      */
     public function getAddFTPByIDResult()
     {
-      return $this->AddFTPByIDResult;
+        return $this->AddFTPByIDResult;
     }
 
     /**
      * @param boolean $AddFTPByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTPByIDResponse
+     * @return AddFTPByIDResponse
      */
     public function setAddFTPByIDResult($AddFTPByIDResult)
     {
-      $this->AddFTPByIDResult = $AddFTPByIDResult;
-      return $this;
+        $this->AddFTPByIDResult = $AddFTPByIDResult;
+        return $this;
     }
 
 }

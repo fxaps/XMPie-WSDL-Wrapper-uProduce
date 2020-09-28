@@ -33,10 +33,10 @@ class GetPermissionEntry
      */
     public function __construct($inUsername = null, $inPassword = null, $inActor = null, $inResource = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inActor = $inActor;
-      $this->inResource = $inResource;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inActor = $inActor;
+        $this->inResource = $inResource;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetPermissionEntry
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\GetPermissionEntry
+     * @return GetPermissionEntry
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetPermissionEntry
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\GetPermissionEntry
+     * @return GetPermissionEntry
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetPermissionEntry
      */
     public function getInActor()
     {
-      return $this->inActor;
+        return $this->inActor;
     }
 
     /**
      * @param PermissionEntity $inActor
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\GetPermissionEntry
+     * @return GetPermissionEntry
      */
     public function setInActor($inActor)
     {
-      $this->inActor = $inActor;
-      return $this;
+        $this->inActor = $inActor;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetPermissionEntry
      */
     public function getInResource()
     {
-      return $this->inResource;
+        return $this->inResource;
     }
 
     /**
      * @param PermissionEntity $inResource
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\GetPermissionEntry
+     * @return GetPermissionEntry
      */
     public function setInResource($inResource)
     {
-      $this->inResource = $inResource;
-      return $this;
+        $this->inResource = $inResource;
+        return $this;
     }
 
 }

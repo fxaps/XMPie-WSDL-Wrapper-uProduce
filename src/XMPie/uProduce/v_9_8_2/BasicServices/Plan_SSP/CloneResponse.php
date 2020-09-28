@@ -15,7 +15,7 @@ class CloneResponse
      */
     public function __construct($CloneResult = null)
     {
-      $this->CloneResult = $CloneResult;
+        $this->CloneResult = $CloneResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CloneResponse
      */
     public function getCloneResult()
     {
-      return $this->CloneResult;
+        return $this->CloneResult;
     }
 
     /**
      * @param PlanMapping $CloneResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\CloneResponse
+     * @return CloneResponse
      */
     public function setCloneResult($CloneResult)
     {
-      $this->CloneResult = $CloneResult;
-      return $this;
+        $this->CloneResult = $CloneResult;
+        return $this;
     }
 
 }

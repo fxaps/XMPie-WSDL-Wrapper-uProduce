@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP;
 
-class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfPlanObject implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     protected $PlanObject = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function getPlanObject()
     {
-      return $this->PlanObject;
+        return $this->PlanObject;
     }
 
     /**
      * @param PlanObject[] $PlanObject
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\ArrayOfPlanObject
+     * @return ArrayOfPlanObject
      */
     public function setPlanObject(array $PlanObject = null)
     {
-      $this->PlanObject = $PlanObject;
-      return $this;
+        $this->PlanObject = $PlanObject;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->PlanObject[$offset]);
+        return isset($this->PlanObject[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->PlanObject[$offset];
+        return $this->PlanObject[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->PlanObject[] = $value;
-      } else {
-        $this->PlanObject[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->PlanObject[] = $value;
+        } else {
+            $this->PlanObject[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->PlanObject[$offset]);
+        unset($this->PlanObject[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->PlanObject);
+        return current($this->PlanObject);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->PlanObject);
+        next($this->PlanObject);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->PlanObject);
+        return key($this->PlanObject);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->PlanObject);
+        reset($this->PlanObject);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfPlanObject implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->PlanObject);
+        return count($this->PlanObject);
     }
 
 }

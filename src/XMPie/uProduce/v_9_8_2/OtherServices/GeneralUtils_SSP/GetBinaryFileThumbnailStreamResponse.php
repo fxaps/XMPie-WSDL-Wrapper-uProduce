@@ -15,7 +15,7 @@ class GetBinaryFileThumbnailStreamResponse
      */
     public function __construct($GetBinaryFileThumbnailStreamResult = null)
     {
-      $this->GetBinaryFileThumbnailStreamResult = $GetBinaryFileThumbnailStreamResult;
+        $this->GetBinaryFileThumbnailStreamResult = $GetBinaryFileThumbnailStreamResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetBinaryFileThumbnailStreamResponse
      */
     public function getGetBinaryFileThumbnailStreamResult()
     {
-      return $this->GetBinaryFileThumbnailStreamResult;
+        return $this->GetBinaryFileThumbnailStreamResult;
     }
 
     /**
      * @param base64Binary $GetBinaryFileThumbnailStreamResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileThumbnailStreamResponse
+     * @return GetBinaryFileThumbnailStreamResponse
      */
     public function setGetBinaryFileThumbnailStreamResult($GetBinaryFileThumbnailStreamResult)
     {
-      $this->GetBinaryFileThumbnailStreamResult = $GetBinaryFileThumbnailStreamResult;
-      return $this;
+        $this->GetBinaryFileThumbnailStreamResult = $GetBinaryFileThumbnailStreamResult;
+        return $this;
     }
 
 }

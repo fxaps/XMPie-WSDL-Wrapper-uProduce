@@ -15,7 +15,7 @@ class SetDocumentByIDResponse
      */
     public function __construct($SetDocumentByIDResult = null)
     {
-      $this->SetDocumentByIDResult = $SetDocumentByIDResult;
+        $this->SetDocumentByIDResult = $SetDocumentByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetDocumentByIDResponse
      */
     public function getSetDocumentByIDResult()
     {
-      return $this->SetDocumentByIDResult;
+        return $this->SetDocumentByIDResult;
     }
 
     /**
      * @param boolean $SetDocumentByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDocumentByIDResponse
+     * @return SetDocumentByIDResponse
      */
     public function setSetDocumentByIDResult($SetDocumentByIDResult)
     {
-      $this->SetDocumentByIDResult = $SetDocumentByIDResult;
-      return $this;
+        $this->SetDocumentByIDResult = $SetDocumentByIDResult;
+        return $this;
     }
 
 }

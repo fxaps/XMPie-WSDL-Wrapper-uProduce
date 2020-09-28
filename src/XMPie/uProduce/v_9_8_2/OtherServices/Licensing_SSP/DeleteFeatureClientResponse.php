@@ -15,7 +15,7 @@ class DeleteFeatureClientResponse
      */
     public function __construct($DeleteFeatureClientResult = null)
     {
-      $this->DeleteFeatureClientResult = $DeleteFeatureClientResult;
+        $this->DeleteFeatureClientResult = $DeleteFeatureClientResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteFeatureClientResponse
      */
     public function getDeleteFeatureClientResult()
     {
-      return $this->DeleteFeatureClientResult;
+        return $this->DeleteFeatureClientResult;
     }
 
     /**
      * @param boolean $DeleteFeatureClientResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\DeleteFeatureClientResponse
+     * @return DeleteFeatureClientResponse
      */
     public function setDeleteFeatureClientResult($DeleteFeatureClientResult)
     {
-      $this->DeleteFeatureClientResult = $DeleteFeatureClientResult;
-      return $this;
+        $this->DeleteFeatureClientResult = $DeleteFeatureClientResult;
+        return $this;
     }
 
 }

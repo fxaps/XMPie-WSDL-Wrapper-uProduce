@@ -15,7 +15,7 @@ class GetPermittedUsersXMPTblDataSetResponse
      */
     public function __construct($GetPermittedUsersXMPTblDataSetResult = null)
     {
-      $this->GetPermittedUsersXMPTblDataSetResult = $GetPermittedUsersXMPTblDataSetResult;
+        $this->GetPermittedUsersXMPTblDataSetResult = $GetPermittedUsersXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPermittedUsersXMPTblDataSetResponse
      */
     public function getGetPermittedUsersXMPTblDataSetResult()
     {
-      return $this->GetPermittedUsersXMPTblDataSetResult;
+        return $this->GetPermittedUsersXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetPermittedUsersXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\GetPermittedUsersXMPTblDataSetResponse
+     * @return GetPermittedUsersXMPTblDataSetResponse
      */
     public function setGetPermittedUsersXMPTblDataSetResult($GetPermittedUsersXMPTblDataSetResult)
     {
-      $this->GetPermittedUsersXMPTblDataSetResult = $GetPermittedUsersXMPTblDataSetResult;
-      return $this;
+        $this->GetPermittedUsersXMPTblDataSetResult = $GetPermittedUsersXMPTblDataSetResult;
+        return $this;
     }
 
 }

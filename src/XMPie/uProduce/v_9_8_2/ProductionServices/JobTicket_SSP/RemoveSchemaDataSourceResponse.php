@@ -15,7 +15,7 @@ class RemoveSchemaDataSourceResponse
      */
     public function __construct($RemoveSchemaDataSourceResult = null)
     {
-      $this->RemoveSchemaDataSourceResult = $RemoveSchemaDataSourceResult;
+        $this->RemoveSchemaDataSourceResult = $RemoveSchemaDataSourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveSchemaDataSourceResponse
      */
     public function getRemoveSchemaDataSourceResult()
     {
-      return $this->RemoveSchemaDataSourceResult;
+        return $this->RemoveSchemaDataSourceResult;
     }
 
     /**
      * @param boolean $RemoveSchemaDataSourceResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveSchemaDataSourceResponse
+     * @return RemoveSchemaDataSourceResponse
      */
     public function setRemoveSchemaDataSourceResult($RemoveSchemaDataSourceResult)
     {
-      $this->RemoveSchemaDataSourceResult = $RemoveSchemaDataSourceResult;
-      return $this;
+        $this->RemoveSchemaDataSourceResult = $RemoveSchemaDataSourceResult;
+        return $this;
     }
 
 }

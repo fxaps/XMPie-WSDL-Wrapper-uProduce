@@ -33,10 +33,10 @@ class GetNthEmailBody
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inEmailBodyIndex = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inEmailBodyIndex = $inEmailBodyIndex;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inEmailBodyIndex = $inEmailBodyIndex;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetNthEmailBody
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthEmailBody
+     * @return GetNthEmailBody
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetNthEmailBody
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthEmailBody
+     * @return GetNthEmailBody
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetNthEmailBody
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthEmailBody
+     * @return GetNthEmailBody
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetNthEmailBody
      */
     public function getInEmailBodyIndex()
     {
-      return $this->inEmailBodyIndex;
+        return $this->inEmailBodyIndex;
     }
 
     /**
      * @param int $inEmailBodyIndex
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthEmailBody
+     * @return GetNthEmailBody
      */
     public function setInEmailBodyIndex($inEmailBodyIndex)
     {
-      $this->inEmailBodyIndex = $inEmailBodyIndex;
-      return $this;
+        $this->inEmailBodyIndex = $inEmailBodyIndex;
+        return $this;
     }
 
 }

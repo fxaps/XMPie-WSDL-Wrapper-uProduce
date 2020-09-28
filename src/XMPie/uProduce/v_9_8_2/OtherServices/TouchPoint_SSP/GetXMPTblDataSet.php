@@ -27,9 +27,9 @@ class GetXMPTblDataSet
      */
     public function __construct($inUsername = null, $inPassword = null, $inTouchPointID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTouchPointID = $inTouchPointID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTouchPointID = $inTouchPointID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetXMPTblDataSet
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\TouchPoint_SSP\GetXMPTblDataSet
+     * @return GetXMPTblDataSet
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetXMPTblDataSet
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\TouchPoint_SSP\GetXMPTblDataSet
+     * @return GetXMPTblDataSet
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetXMPTblDataSet
      */
     public function getInTouchPointID()
     {
-      return $this->inTouchPointID;
+        return $this->inTouchPointID;
     }
 
     /**
      * @param string $inTouchPointID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\TouchPoint_SSP\GetXMPTblDataSet
+     * @return GetXMPTblDataSet
      */
     public function setInTouchPointID($inTouchPointID)
     {
-      $this->inTouchPointID = $inTouchPointID;
-      return $this;
+        $this->inTouchPointID = $inTouchPointID;
+        return $this;
     }
 
 }

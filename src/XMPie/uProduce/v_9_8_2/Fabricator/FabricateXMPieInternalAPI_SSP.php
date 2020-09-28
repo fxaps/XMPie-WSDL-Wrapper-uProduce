@@ -40,10 +40,10 @@ class FabricateXMPieInternalAPI_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetIDByGUID
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetIDByGUID
+     */
     public function GetIDByGUID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -58,10 +58,10 @@ class FabricateXMPieInternalAPI_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetIDByGUIDResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetIDByGUIDResponse
+     */
     public function GetIDByGUIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -74,7 +74,6 @@ class FabricateXMPieInternalAPI_SSP
         }
         return $GetIDByGUIDResponse;
     }
-
 
 
 }

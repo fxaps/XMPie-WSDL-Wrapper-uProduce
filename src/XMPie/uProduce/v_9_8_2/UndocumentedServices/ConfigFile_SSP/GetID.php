@@ -27,9 +27,9 @@ class GetID
      */
     public function __construct($inUsername = null, $inPassword = null, $inConfigFileName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inConfigFileName = $inConfigFileName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inConfigFileName = $inConfigFileName;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetID
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\GetID
+     * @return GetID
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetID
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\GetID
+     * @return GetID
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetID
      */
     public function getInConfigFileName()
     {
-      return $this->inConfigFileName;
+        return $this->inConfigFileName;
     }
 
     /**
      * @param string $inConfigFileName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\GetID
+     * @return GetID
      */
     public function setInConfigFileName($inConfigFileName)
     {
-      $this->inConfigFileName = $inConfigFileName;
-      return $this;
+        $this->inConfigFileName = $inConfigFileName;
+        return $this;
     }
 
 }

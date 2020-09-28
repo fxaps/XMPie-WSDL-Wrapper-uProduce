@@ -15,7 +15,7 @@ class GetOutputMediaResponse
      */
     public function __construct($GetOutputMediaResult = null)
     {
-      $this->GetOutputMediaResult = $GetOutputMediaResult;
+        $this->GetOutputMediaResult = $GetOutputMediaResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetOutputMediaResponse
      */
     public function getGetOutputMediaResult()
     {
-      return $this->GetOutputMediaResult;
+        return $this->GetOutputMediaResult;
     }
 
     /**
      * @param int $GetOutputMediaResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetOutputMediaResponse
+     * @return GetOutputMediaResponse
      */
     public function setGetOutputMediaResult($GetOutputMediaResult)
     {
-      $this->GetOutputMediaResult = $GetOutputMediaResult;
-      return $this;
+        $this->GetOutputMediaResult = $GetOutputMediaResult;
+        return $this;
     }
 
 }

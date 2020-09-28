@@ -15,7 +15,7 @@ class GetFFPMQueuesDataSetResponse
      */
     public function __construct($GetFFPMQueuesDataSetResult = null)
     {
-      $this->GetFFPMQueuesDataSetResult = $GetFFPMQueuesDataSetResult;
+        $this->GetFFPMQueuesDataSetResult = $GetFFPMQueuesDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFFPMQueuesDataSetResponse
      */
     public function getGetFFPMQueuesDataSetResult()
     {
-      return $this->GetFFPMQueuesDataSetResult;
+        return $this->GetFFPMQueuesDataSetResult;
     }
 
     /**
      * @param GetFFPMQueuesDataSetResult $GetFFPMQueuesDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\GetFFPMQueuesDataSetResponse
+     * @return GetFFPMQueuesDataSetResponse
      */
     public function setGetFFPMQueuesDataSetResult($GetFFPMQueuesDataSetResult)
     {
-      $this->GetFFPMQueuesDataSetResult = $GetFFPMQueuesDataSetResult;
-      return $this;
+        $this->GetFFPMQueuesDataSetResult = $GetFFPMQueuesDataSetResult;
+        return $this;
     }
 
 }

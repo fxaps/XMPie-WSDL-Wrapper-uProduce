@@ -15,7 +15,7 @@ class SetJobRequestUniqueIDResponse
      */
     public function __construct($SetJobRequestUniqueIDResult = null)
     {
-      $this->SetJobRequestUniqueIDResult = $SetJobRequestUniqueIDResult;
+        $this->SetJobRequestUniqueIDResult = $SetJobRequestUniqueIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetJobRequestUniqueIDResponse
      */
     public function getSetJobRequestUniqueIDResult()
     {
-      return $this->SetJobRequestUniqueIDResult;
+        return $this->SetJobRequestUniqueIDResult;
     }
 
     /**
      * @param boolean $SetJobRequestUniqueIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobRequestUniqueIDResponse
+     * @return SetJobRequestUniqueIDResponse
      */
     public function setSetJobRequestUniqueIDResult($SetJobRequestUniqueIDResult)
     {
-      $this->SetJobRequestUniqueIDResult = $SetJobRequestUniqueIDResult;
-      return $this;
+        $this->SetJobRequestUniqueIDResult = $SetJobRequestUniqueIDResult;
+        return $this;
     }
 
 }

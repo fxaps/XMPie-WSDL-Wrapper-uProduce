@@ -33,10 +33,10 @@ class DeleteFonts
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inFontIDArray = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inCampaignID = $inCampaignID;
-      $this->inFontIDArray = $inFontIDArray;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inCampaignID = $inCampaignID;
+        $this->inFontIDArray = $inFontIDArray;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeleteFonts
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteFonts
+     * @return DeleteFonts
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeleteFonts
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteFonts
+     * @return DeleteFonts
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeleteFonts
      */
     public function getInCampaignID()
     {
-      return $this->inCampaignID;
+        return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteFonts
+     * @return DeleteFonts
      */
     public function setInCampaignID($inCampaignID)
     {
-      $this->inCampaignID = $inCampaignID;
-      return $this;
+        $this->inCampaignID = $inCampaignID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeleteFonts
      */
     public function getInFontIDArray()
     {
-      return $this->inFontIDArray;
+        return $this->inFontIDArray;
     }
 
     /**
      * @param ArrayOfString $inFontIDArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteFonts
+     * @return DeleteFonts
      */
     public function setInFontIDArray($inFontIDArray)
     {
-      $this->inFontIDArray = $inFontIDArray;
-      return $this;
+        $this->inFontIDArray = $inFontIDArray;
+        return $this;
     }
 
 }

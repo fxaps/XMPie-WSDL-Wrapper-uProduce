@@ -15,7 +15,7 @@ class CommitResponse
      */
     public function __construct($CommitResult = null)
     {
-      $this->CommitResult = $CommitResult;
+        $this->CommitResult = $CommitResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CommitResponse
      */
     public function getCommitResult()
     {
-      return $this->CommitResult;
+        return $this->CommitResult;
     }
 
     /**
      * @param StatusStructure $CommitResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\CommitResponse
+     * @return CommitResponse
      */
     public function setCommitResult($CommitResult)
     {
-      $this->CommitResult = $CommitResult;
-      return $this;
+        $this->CommitResult = $CommitResult;
+        return $this;
     }
 
 }

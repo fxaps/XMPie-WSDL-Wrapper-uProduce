@@ -15,7 +15,7 @@ class AddPrintByIDResponse
      */
     public function __construct($AddPrintByIDResult = null)
     {
-      $this->AddPrintByIDResult = $AddPrintByIDResult;
+        $this->AddPrintByIDResult = $AddPrintByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddPrintByIDResponse
      */
     public function getAddPrintByIDResult()
     {
-      return $this->AddPrintByIDResult;
+        return $this->AddPrintByIDResult;
     }
 
     /**
      * @param boolean $AddPrintByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddPrintByIDResponse
+     * @return AddPrintByIDResponse
      */
     public function setAddPrintByIDResult($AddPrintByIDResult)
     {
-      $this->AddPrintByIDResult = $AddPrintByIDResult;
-      return $this;
+        $this->AddPrintByIDResult = $AddPrintByIDResult;
+        return $this;
     }
 
 }

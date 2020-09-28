@@ -39,11 +39,11 @@ class IsFlashCompatibleReturnCompatibleVersion
      */
     public function __construct($inUsername = null, $inPassword = null, $inSourceImageURL = null, $inFormat = null, $outCompatibleImage = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inSourceImageURL = $inSourceImageURL;
-      $this->inFormat = $inFormat;
-      $this->outCompatibleImage = $outCompatibleImage;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inSourceImageURL = $inSourceImageURL;
+        $this->inFormat = $inFormat;
+        $this->outCompatibleImage = $outCompatibleImage;
     }
 
     /**
@@ -51,17 +51,17 @@ class IsFlashCompatibleReturnCompatibleVersion
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatibleReturnCompatibleVersion
+     * @return IsFlashCompatibleReturnCompatibleVersion
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class IsFlashCompatibleReturnCompatibleVersion
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatibleReturnCompatibleVersion
+     * @return IsFlashCompatibleReturnCompatibleVersion
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class IsFlashCompatibleReturnCompatibleVersion
      */
     public function getInSourceImageURL()
     {
-      return $this->inSourceImageURL;
+        return $this->inSourceImageURL;
     }
 
     /**
      * @param string $inSourceImageURL
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatibleReturnCompatibleVersion
+     * @return IsFlashCompatibleReturnCompatibleVersion
      */
     public function setInSourceImageURL($inSourceImageURL)
     {
-      $this->inSourceImageURL = $inSourceImageURL;
-      return $this;
+        $this->inSourceImageURL = $inSourceImageURL;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class IsFlashCompatibleReturnCompatibleVersion
      */
     public function getInFormat()
     {
-      return $this->inFormat;
+        return $this->inFormat;
     }
 
     /**
      * @param string $inFormat
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatibleReturnCompatibleVersion
+     * @return IsFlashCompatibleReturnCompatibleVersion
      */
     public function setInFormat($inFormat)
     {
-      $this->inFormat = $inFormat;
-      return $this;
+        $this->inFormat = $inFormat;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class IsFlashCompatibleReturnCompatibleVersion
      */
     public function getOutCompatibleImage()
     {
-      return $this->outCompatibleImage;
+        return $this->outCompatibleImage;
     }
 
     /**
      * @param base64Binary $outCompatibleImage
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatibleReturnCompatibleVersion
+     * @return IsFlashCompatibleReturnCompatibleVersion
      */
     public function setOutCompatibleImage($outCompatibleImage)
     {
-      $this->outCompatibleImage = $outCompatibleImage;
-      return $this;
+        $this->outCompatibleImage = $outCompatibleImage;
+        return $this;
     }
 
 }

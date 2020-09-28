@@ -39,11 +39,11 @@ class GetLastJob
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inIncludeDeleted = null, $inIncludeFailed = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPlanID = $inPlanID;
-      $this->inIncludeDeleted = $inIncludeDeleted;
-      $this->inIncludeFailed = $inIncludeFailed;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPlanID = $inPlanID;
+        $this->inIncludeDeleted = $inIncludeDeleted;
+        $this->inIncludeFailed = $inIncludeFailed;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetLastJob
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetLastJob
+     * @return GetLastJob
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetLastJob
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetLastJob
+     * @return GetLastJob
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetLastJob
      */
     public function getInPlanID()
     {
-      return $this->inPlanID;
+        return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetLastJob
+     * @return GetLastJob
      */
     public function setInPlanID($inPlanID)
     {
-      $this->inPlanID = $inPlanID;
-      return $this;
+        $this->inPlanID = $inPlanID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetLastJob
      */
     public function getInIncludeDeleted()
     {
-      return $this->inIncludeDeleted;
+        return $this->inIncludeDeleted;
     }
 
     /**
      * @param boolean $inIncludeDeleted
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetLastJob
+     * @return GetLastJob
      */
     public function setInIncludeDeleted($inIncludeDeleted)
     {
-      $this->inIncludeDeleted = $inIncludeDeleted;
-      return $this;
+        $this->inIncludeDeleted = $inIncludeDeleted;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetLastJob
      */
     public function getInIncludeFailed()
     {
-      return $this->inIncludeFailed;
+        return $this->inIncludeFailed;
     }
 
     /**
      * @param boolean $inIncludeFailed
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetLastJob
+     * @return GetLastJob
      */
     public function setInIncludeFailed($inIncludeFailed)
     {
-      $this->inIncludeFailed = $inIncludeFailed;
-      return $this;
+        $this->inIncludeFailed = $inIncludeFailed;
+        return $this;
     }
 
 }

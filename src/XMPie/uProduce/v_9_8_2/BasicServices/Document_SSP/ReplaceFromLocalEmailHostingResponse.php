@@ -15,7 +15,7 @@ class ReplaceFromLocalEmailHostingResponse
      */
     public function __construct($ReplaceFromLocalEmailHostingResult = null)
     {
-      $this->ReplaceFromLocalEmailHostingResult = $ReplaceFromLocalEmailHostingResult;
+        $this->ReplaceFromLocalEmailHostingResult = $ReplaceFromLocalEmailHostingResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ReplaceFromLocalEmailHostingResponse
      */
     public function getReplaceFromLocalEmailHostingResult()
     {
-      return $this->ReplaceFromLocalEmailHostingResult;
+        return $this->ReplaceFromLocalEmailHostingResult;
     }
 
     /**
      * @param boolean $ReplaceFromLocalEmailHostingResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromLocalEmailHostingResponse
+     * @return ReplaceFromLocalEmailHostingResponse
      */
     public function setReplaceFromLocalEmailHostingResult($ReplaceFromLocalEmailHostingResult)
     {
-      $this->ReplaceFromLocalEmailHostingResult = $ReplaceFromLocalEmailHostingResult;
-      return $this;
+        $this->ReplaceFromLocalEmailHostingResult = $ReplaceFromLocalEmailHostingResult;
+        return $this;
     }
 
 }

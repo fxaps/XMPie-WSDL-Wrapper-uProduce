@@ -15,7 +15,7 @@ class UnDeployOnDemandJobResponse
      */
     public function __construct($UnDeployOnDemandJobResult = null)
     {
-      $this->UnDeployOnDemandJobResult = $UnDeployOnDemandJobResult;
+        $this->UnDeployOnDemandJobResult = $UnDeployOnDemandJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class UnDeployOnDemandJobResponse
      */
     public function getUnDeployOnDemandJobResult()
     {
-      return $this->UnDeployOnDemandJobResult;
+        return $this->UnDeployOnDemandJobResult;
     }
 
     /**
      * @param boolean $UnDeployOnDemandJobResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\UnDeployOnDemandJobResponse
+     * @return UnDeployOnDemandJobResponse
      */
     public function setUnDeployOnDemandJobResult($UnDeployOnDemandJobResult)
     {
-      $this->UnDeployOnDemandJobResult = $UnDeployOnDemandJobResult;
-      return $this;
+        $this->UnDeployOnDemandJobResult = $UnDeployOnDemandJobResult;
+        return $this;
     }
 
 }

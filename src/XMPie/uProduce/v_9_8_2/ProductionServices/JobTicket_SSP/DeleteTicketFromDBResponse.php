@@ -15,7 +15,7 @@ class DeleteTicketFromDBResponse
      */
     public function __construct($DeleteTicketFromDBResult = null)
     {
-      $this->DeleteTicketFromDBResult = $DeleteTicketFromDBResult;
+        $this->DeleteTicketFromDBResult = $DeleteTicketFromDBResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteTicketFromDBResponse
      */
     public function getDeleteTicketFromDBResult()
     {
-      return $this->DeleteTicketFromDBResult;
+        return $this->DeleteTicketFromDBResult;
     }
 
     /**
      * @param boolean $DeleteTicketFromDBResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\DeleteTicketFromDBResponse
+     * @return DeleteTicketFromDBResponse
      */
     public function setDeleteTicketFromDBResult($DeleteTicketFromDBResult)
     {
-      $this->DeleteTicketFromDBResult = $DeleteTicketFromDBResult;
-      return $this;
+        $this->DeleteTicketFromDBResult = $DeleteTicketFromDBResult;
+        return $this;
     }
 
 }

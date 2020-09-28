@@ -15,7 +15,7 @@ class RemoveFTPResponse
      */
     public function __construct($RemoveFTPResult = null)
     {
-      $this->RemoveFTPResult = $RemoveFTPResult;
+        $this->RemoveFTPResult = $RemoveFTPResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveFTPResponse
      */
     public function getRemoveFTPResult()
     {
-      return $this->RemoveFTPResult;
+        return $this->RemoveFTPResult;
     }
 
     /**
      * @param boolean $RemoveFTPResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveFTPResponse
+     * @return RemoveFTPResponse
      */
     public function setRemoveFTPResult($RemoveFTPResult)
     {
-      $this->RemoveFTPResult = $RemoveFTPResult;
-      return $this;
+        $this->RemoveFTPResult = $RemoveFTPResult;
+        return $this;
     }
 
 }

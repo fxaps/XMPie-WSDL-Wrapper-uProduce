@@ -15,7 +15,7 @@ class SetEmailSubscriptionStatusResponse
      */
     public function __construct($SetEmailSubscriptionStatusResult = null)
     {
-      $this->SetEmailSubscriptionStatusResult = $SetEmailSubscriptionStatusResult;
+        $this->SetEmailSubscriptionStatusResult = $SetEmailSubscriptionStatusResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetEmailSubscriptionStatusResponse
      */
     public function getSetEmailSubscriptionStatusResult()
     {
-      return $this->SetEmailSubscriptionStatusResult;
+        return $this->SetEmailSubscriptionStatusResult;
     }
 
     /**
      * @param boolean $SetEmailSubscriptionStatusResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SetEmailSubscriptionStatusResponse
+     * @return SetEmailSubscriptionStatusResponse
      */
     public function setSetEmailSubscriptionStatusResult($SetEmailSubscriptionStatusResult)
     {
-      $this->SetEmailSubscriptionStatusResult = $SetEmailSubscriptionStatusResult;
-      return $this;
+        $this->SetEmailSubscriptionStatusResult = $SetEmailSubscriptionStatusResult;
+        return $this;
     }
 
 }

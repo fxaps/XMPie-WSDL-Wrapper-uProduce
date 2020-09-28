@@ -57,14 +57,14 @@ class SetFriendliness
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inFriendlyDomain = null, $inFriendlyFolder = null, $inFriendlyLandingPage = null, $inFriendlyRedirectMode = null, $inFriendlyRIDPrefix = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inFriendlyDomain = $inFriendlyDomain;
-      $this->inFriendlyFolder = $inFriendlyFolder;
-      $this->inFriendlyLandingPage = $inFriendlyLandingPage;
-      $this->inFriendlyRedirectMode = $inFriendlyRedirectMode;
-      $this->inFriendlyRIDPrefix = $inFriendlyRIDPrefix;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inFriendlyDomain = $inFriendlyDomain;
+        $this->inFriendlyFolder = $inFriendlyFolder;
+        $this->inFriendlyLandingPage = $inFriendlyLandingPage;
+        $this->inFriendlyRedirectMode = $inFriendlyRedirectMode;
+        $this->inFriendlyRIDPrefix = $inFriendlyRIDPrefix;
     }
 
     /**
@@ -72,17 +72,17 @@ class SetFriendliness
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFriendliness
+     * @return SetFriendliness
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class SetFriendliness
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFriendliness
+     * @return SetFriendliness
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class SetFriendliness
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFriendliness
+     * @return SetFriendliness
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class SetFriendliness
      */
     public function getInFriendlyDomain()
     {
-      return $this->inFriendlyDomain;
+        return $this->inFriendlyDomain;
     }
 
     /**
      * @param string $inFriendlyDomain
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFriendliness
+     * @return SetFriendliness
      */
     public function setInFriendlyDomain($inFriendlyDomain)
     {
-      $this->inFriendlyDomain = $inFriendlyDomain;
-      return $this;
+        $this->inFriendlyDomain = $inFriendlyDomain;
+        return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class SetFriendliness
      */
     public function getInFriendlyFolder()
     {
-      return $this->inFriendlyFolder;
+        return $this->inFriendlyFolder;
     }
 
     /**
      * @param string $inFriendlyFolder
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFriendliness
+     * @return SetFriendliness
      */
     public function setInFriendlyFolder($inFriendlyFolder)
     {
-      $this->inFriendlyFolder = $inFriendlyFolder;
-      return $this;
+        $this->inFriendlyFolder = $inFriendlyFolder;
+        return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class SetFriendliness
      */
     public function getInFriendlyLandingPage()
     {
-      return $this->inFriendlyLandingPage;
+        return $this->inFriendlyLandingPage;
     }
 
     /**
      * @param string $inFriendlyLandingPage
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFriendliness
+     * @return SetFriendliness
      */
     public function setInFriendlyLandingPage($inFriendlyLandingPage)
     {
-      $this->inFriendlyLandingPage = $inFriendlyLandingPage;
-      return $this;
+        $this->inFriendlyLandingPage = $inFriendlyLandingPage;
+        return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class SetFriendliness
      */
     public function getInFriendlyRedirectMode()
     {
-      return $this->inFriendlyRedirectMode;
+        return $this->inFriendlyRedirectMode;
     }
 
     /**
      * @param boolean $inFriendlyRedirectMode
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFriendliness
+     * @return SetFriendliness
      */
     public function setInFriendlyRedirectMode($inFriendlyRedirectMode)
     {
-      $this->inFriendlyRedirectMode = $inFriendlyRedirectMode;
-      return $this;
+        $this->inFriendlyRedirectMode = $inFriendlyRedirectMode;
+        return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class SetFriendliness
      */
     public function getInFriendlyRIDPrefix()
     {
-      return $this->inFriendlyRIDPrefix;
+        return $this->inFriendlyRIDPrefix;
     }
 
     /**
      * @param boolean $inFriendlyRIDPrefix
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFriendliness
+     * @return SetFriendliness
      */
     public function setInFriendlyRIDPrefix($inFriendlyRIDPrefix)
     {
-      $this->inFriendlyRIDPrefix = $inFriendlyRIDPrefix;
-      return $this;
+        $this->inFriendlyRIDPrefix = $inFriendlyRIDPrefix;
+        return $this;
     }
 
 }

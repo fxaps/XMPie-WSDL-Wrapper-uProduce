@@ -27,9 +27,9 @@ class IsEmptyExpression
      */
     public function __construct($inUsername = null, $inPassword = null, $inExpression = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inExpression = $inExpression;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inExpression = $inExpression;
     }
 
     /**
@@ -37,17 +37,17 @@ class IsEmptyExpression
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\IsEmptyExpression
+     * @return IsEmptyExpression
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class IsEmptyExpression
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\IsEmptyExpression
+     * @return IsEmptyExpression
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class IsEmptyExpression
      */
     public function getInExpression()
     {
-      return $this->inExpression;
+        return $this->inExpression;
     }
 
     /**
      * @param string $inExpression
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\IsEmptyExpression
+     * @return IsEmptyExpression
      */
     public function setInExpression($inExpression)
     {
-      $this->inExpression = $inExpression;
-      return $this;
+        $this->inExpression = $inExpression;
+        return $this;
     }
 
 }

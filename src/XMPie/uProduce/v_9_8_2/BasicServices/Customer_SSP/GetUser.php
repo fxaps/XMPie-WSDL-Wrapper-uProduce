@@ -33,10 +33,10 @@ class GetUser
      */
     public function __construct($inUsername = null, $inPassword = null, $UserName = null, $Password = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->UserName = $UserName;
-      $this->Password = $Password;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->UserName = $UserName;
+        $this->Password = $Password;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetUser
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetUser
+     * @return GetUser
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetUser
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetUser
+     * @return GetUser
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetUser
      */
     public function getUserName()
     {
-      return $this->UserName;
+        return $this->UserName;
     }
 
     /**
      * @param string $UserName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetUser
+     * @return GetUser
      */
     public function setUserName($UserName)
     {
-      $this->UserName = $UserName;
-      return $this;
+        $this->UserName = $UserName;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetUser
      */
     public function getPassword()
     {
-      return $this->Password;
+        return $this->Password;
     }
 
     /**
      * @param string $Password
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetUser
+     * @return GetUser
      */
     public function setPassword($Password)
     {
-      $this->Password = $Password;
-      return $this;
+        $this->Password = $Password;
+        return $this;
     }
 
 }

@@ -39,11 +39,11 @@ class SetSettings
      */
     public function __construct($inUsername = null, $inPassword = null, $inDataSourceID = null, $inSettings = null, $inSharedForAllUsers = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDataSourceID = $inDataSourceID;
-      $this->inSettings = $inSettings;
-      $this->inSharedForAllUsers = $inSharedForAllUsers;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDataSourceID = $inDataSourceID;
+        $this->inSettings = $inSettings;
+        $this->inSharedForAllUsers = $inSharedForAllUsers;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetSettings
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\SetSettings
+     * @return SetSettings
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetSettings
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\SetSettings
+     * @return SetSettings
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetSettings
      */
     public function getInDataSourceID()
     {
-      return $this->inDataSourceID;
+        return $this->inDataSourceID;
     }
 
     /**
      * @param string $inDataSourceID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\SetSettings
+     * @return SetSettings
      */
     public function setInDataSourceID($inDataSourceID)
     {
-      $this->inDataSourceID = $inDataSourceID;
-      return $this;
+        $this->inDataSourceID = $inDataSourceID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetSettings
      */
     public function getInSettings()
     {
-      return $this->inSettings;
+        return $this->inSettings;
     }
 
     /**
      * @param ArrayOfSetting $inSettings
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\SetSettings
+     * @return SetSettings
      */
     public function setInSettings($inSettings)
     {
-      $this->inSettings = $inSettings;
-      return $this;
+        $this->inSettings = $inSettings;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetSettings
      */
     public function getInSharedForAllUsers()
     {
-      return $this->inSharedForAllUsers;
+        return $this->inSharedForAllUsers;
     }
 
     /**
      * @param boolean $inSharedForAllUsers
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\SetSettings
+     * @return SetSettings
      */
     public function setInSharedForAllUsers($inSharedForAllUsers)
     {
-      $this->inSharedForAllUsers = $inSharedForAllUsers;
-      return $this;
+        $this->inSharedForAllUsers = $inSharedForAllUsers;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class RemoveAllEmailBodiesResponse
      */
     public function __construct($RemoveAllEmailBodiesResult = null)
     {
-      $this->RemoveAllEmailBodiesResult = $RemoveAllEmailBodiesResult;
+        $this->RemoveAllEmailBodiesResult = $RemoveAllEmailBodiesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveAllEmailBodiesResponse
      */
     public function getRemoveAllEmailBodiesResult()
     {
-      return $this->RemoveAllEmailBodiesResult;
+        return $this->RemoveAllEmailBodiesResult;
     }
 
     /**
      * @param boolean $RemoveAllEmailBodiesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveAllEmailBodiesResponse
+     * @return RemoveAllEmailBodiesResponse
      */
     public function setRemoveAllEmailBodiesResult($RemoveAllEmailBodiesResult)
     {
-      $this->RemoveAllEmailBodiesResult = $RemoveAllEmailBodiesResult;
-      return $this;
+        $this->RemoveAllEmailBodiesResult = $RemoveAllEmailBodiesResult;
+        return $this;
     }
 
 }

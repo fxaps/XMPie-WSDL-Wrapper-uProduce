@@ -26,8 +26,8 @@ class CloudSubscription
      */
     public function __construct($ID = null, $IsAllowed = null)
     {
-      $this->ID = $ID;
-      $this->IsAllowed = $IsAllowed;
+        $this->ID = $ID;
+        $this->IsAllowed = $IsAllowed;
     }
 
     /**
@@ -35,17 +35,17 @@ class CloudSubscription
      */
     public function getName()
     {
-      return $this->Name;
+        return $this->Name;
     }
 
     /**
      * @param string $Name
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\CloudSubscription
+     * @return CloudSubscription
      */
     public function setName($Name)
     {
-      $this->Name = $Name;
-      return $this;
+        $this->Name = $Name;
+        return $this;
     }
 
     /**
@@ -53,17 +53,17 @@ class CloudSubscription
      */
     public function getID()
     {
-      return $this->ID;
+        return $this->ID;
     }
 
     /**
      * @param guid $ID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\CloudSubscription
+     * @return CloudSubscription
      */
     public function setID($ID)
     {
-      $this->ID = $ID;
-      return $this;
+        $this->ID = $ID;
+        return $this;
     }
 
     /**
@@ -71,17 +71,17 @@ class CloudSubscription
      */
     public function getIsAllowed()
     {
-      return $this->IsAllowed;
+        return $this->IsAllowed;
     }
 
     /**
      * @param boolean $IsAllowed
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\CloudSubscription
+     * @return CloudSubscription
      */
     public function setIsAllowed($IsAllowed)
     {
-      $this->IsAllowed = $IsAllowed;
-      return $this;
+        $this->IsAllowed = $IsAllowed;
+        return $this;
     }
 
 }

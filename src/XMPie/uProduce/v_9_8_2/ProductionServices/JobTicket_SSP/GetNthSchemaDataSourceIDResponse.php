@@ -15,7 +15,7 @@ class GetNthSchemaDataSourceIDResponse
      */
     public function __construct($GetNthSchemaDataSourceIDResult = null)
     {
-      $this->GetNthSchemaDataSourceIDResult = $GetNthSchemaDataSourceIDResult;
+        $this->GetNthSchemaDataSourceIDResult = $GetNthSchemaDataSourceIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthSchemaDataSourceIDResponse
      */
     public function getGetNthSchemaDataSourceIDResult()
     {
-      return $this->GetNthSchemaDataSourceIDResult;
+        return $this->GetNthSchemaDataSourceIDResult;
     }
 
     /**
      * @param string $GetNthSchemaDataSourceIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthSchemaDataSourceIDResponse
+     * @return GetNthSchemaDataSourceIDResponse
      */
     public function setGetNthSchemaDataSourceIDResult($GetNthSchemaDataSourceIDResult)
     {
-      $this->GetNthSchemaDataSourceIDResult = $GetNthSchemaDataSourceIDResult;
-      return $this;
+        $this->GetNthSchemaDataSourceIDResult = $GetNthSchemaDataSourceIDResult;
+        return $this;
     }
 
 }

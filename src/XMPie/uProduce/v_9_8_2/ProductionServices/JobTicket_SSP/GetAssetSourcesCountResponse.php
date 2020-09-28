@@ -15,7 +15,7 @@ class GetAssetSourcesCountResponse
      */
     public function __construct($GetAssetSourcesCountResult = null)
     {
-      $this->GetAssetSourcesCountResult = $GetAssetSourcesCountResult;
+        $this->GetAssetSourcesCountResult = $GetAssetSourcesCountResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAssetSourcesCountResponse
      */
     public function getGetAssetSourcesCountResult()
     {
-      return $this->GetAssetSourcesCountResult;
+        return $this->GetAssetSourcesCountResult;
     }
 
     /**
      * @param int $GetAssetSourcesCountResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetAssetSourcesCountResponse
+     * @return GetAssetSourcesCountResponse
      */
     public function setGetAssetSourcesCountResult($GetAssetSourcesCountResult)
     {
-      $this->GetAssetSourcesCountResult = $GetAssetSourcesCountResult;
-      return $this;
+        $this->GetAssetSourcesCountResult = $GetAssetSourcesCountResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class IsPrintExistResponse
      */
     public function __construct($IsPrintExistResult = null)
     {
-      $this->IsPrintExistResult = $IsPrintExistResult;
+        $this->IsPrintExistResult = $IsPrintExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsPrintExistResponse
      */
     public function getIsPrintExistResult()
     {
-      return $this->IsPrintExistResult;
+        return $this->IsPrintExistResult;
     }
 
     /**
      * @param boolean $IsPrintExistResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsPrintExistResponse
+     * @return IsPrintExistResponse
      */
     public function setIsPrintExistResult($IsPrintExistResult)
     {
-      $this->IsPrintExistResult = $IsPrintExistResult;
-      return $this;
+        $this->IsPrintExistResult = $IsPrintExistResult;
+        return $this;
     }
 
 }

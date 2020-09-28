@@ -15,7 +15,7 @@ class AddDefaultRIResponse
      */
     public function __construct($AddDefaultRIResult = null)
     {
-      $this->AddDefaultRIResult = $AddDefaultRIResult;
+        $this->AddDefaultRIResult = $AddDefaultRIResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddDefaultRIResponse
      */
     public function getAddDefaultRIResult()
     {
-      return $this->AddDefaultRIResult;
+        return $this->AddDefaultRIResult;
     }
 
     /**
      * @param boolean $AddDefaultRIResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddDefaultRIResponse
+     * @return AddDefaultRIResponse
      */
     public function setAddDefaultRIResult($AddDefaultRIResult)
     {
-      $this->AddDefaultRIResult = $AddDefaultRIResult;
-      return $this;
+        $this->AddDefaultRIResult = $AddDefaultRIResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SetFontsByIDResponse
      */
     public function __construct($SetFontsByIDResult = null)
     {
-      $this->SetFontsByIDResult = $SetFontsByIDResult;
+        $this->SetFontsByIDResult = $SetFontsByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetFontsByIDResponse
      */
     public function getSetFontsByIDResult()
     {
-      return $this->SetFontsByIDResult;
+        return $this->SetFontsByIDResult;
     }
 
     /**
      * @param boolean $SetFontsByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFontsByIDResponse
+     * @return SetFontsByIDResponse
      */
     public function setSetFontsByIDResult($SetFontsByIDResult)
     {
-      $this->SetFontsByIDResult = $SetFontsByIDResult;
-      return $this;
+        $this->SetFontsByIDResult = $SetFontsByIDResult;
+        return $this;
     }
 
 }

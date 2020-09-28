@@ -15,7 +15,7 @@ class DeleteAccountsResponse
      */
     public function __construct($DeleteAccountsResult = null)
     {
-      $this->DeleteAccountsResult = $DeleteAccountsResult;
+        $this->DeleteAccountsResult = $DeleteAccountsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAccountsResponse
      */
     public function getDeleteAccountsResult()
     {
-      return $this->DeleteAccountsResult;
+        return $this->DeleteAccountsResult;
     }
 
     /**
      * @param boolean $DeleteAccountsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteAccountsResponse
+     * @return DeleteAccountsResponse
      */
     public function setDeleteAccountsResult($DeleteAccountsResult)
     {
-      $this->DeleteAccountsResult = $DeleteAccountsResult;
-      return $this;
+        $this->DeleteAccountsResult = $DeleteAccountsResult;
+        return $this;
     }
 
 }

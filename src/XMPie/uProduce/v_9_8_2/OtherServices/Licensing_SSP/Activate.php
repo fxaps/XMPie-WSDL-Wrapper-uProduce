@@ -33,10 +33,10 @@ class Activate
      */
     public function __construct($inUsername = null, $inPassword = null, $inLicenseKey = null, $inActivationKey = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inLicenseKey = $inLicenseKey;
-      $this->inActivationKey = $inActivationKey;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inLicenseKey = $inLicenseKey;
+        $this->inActivationKey = $inActivationKey;
     }
 
     /**
@@ -44,17 +44,17 @@ class Activate
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\Activate
+     * @return Activate
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class Activate
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\Activate
+     * @return Activate
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class Activate
      */
     public function getInLicenseKey()
     {
-      return $this->inLicenseKey;
+        return $this->inLicenseKey;
     }
 
     /**
      * @param string $inLicenseKey
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\Activate
+     * @return Activate
      */
     public function setInLicenseKey($inLicenseKey)
     {
-      $this->inLicenseKey = $inLicenseKey;
-      return $this;
+        $this->inLicenseKey = $inLicenseKey;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class Activate
      */
     public function getInActivationKey()
     {
-      return $this->inActivationKey;
+        return $this->inActivationKey;
     }
 
     /**
      * @param string $inActivationKey
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\Activate
+     * @return Activate
      */
     public function setInActivationKey($inActivationKey)
     {
-      $this->inActivationKey = $inActivationKey;
-      return $this;
+        $this->inActivationKey = $inActivationKey;
+        return $this;
     }
 
 }

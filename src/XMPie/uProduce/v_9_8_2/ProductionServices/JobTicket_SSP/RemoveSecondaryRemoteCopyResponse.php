@@ -15,7 +15,7 @@ class RemoveSecondaryRemoteCopyResponse
      */
     public function __construct($RemoveSecondaryRemoteCopyResult = null)
     {
-      $this->RemoveSecondaryRemoteCopyResult = $RemoveSecondaryRemoteCopyResult;
+        $this->RemoveSecondaryRemoteCopyResult = $RemoveSecondaryRemoteCopyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveSecondaryRemoteCopyResponse
      */
     public function getRemoveSecondaryRemoteCopyResult()
     {
-      return $this->RemoveSecondaryRemoteCopyResult;
+        return $this->RemoveSecondaryRemoteCopyResult;
     }
 
     /**
      * @param boolean $RemoveSecondaryRemoteCopyResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveSecondaryRemoteCopyResponse
+     * @return RemoveSecondaryRemoteCopyResponse
      */
     public function setRemoveSecondaryRemoteCopyResult($RemoveSecondaryRemoteCopyResult)
     {
-      $this->RemoveSecondaryRemoteCopyResult = $RemoveSecondaryRemoteCopyResult;
-      return $this;
+        $this->RemoveSecondaryRemoteCopyResult = $RemoveSecondaryRemoteCopyResult;
+        return $this;
     }
 
 }

@@ -21,8 +21,8 @@ class GetServerID
      */
     public function __construct($inUsername = null, $inPassword = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
     }
 
     /**
@@ -30,17 +30,17 @@ class GetServerID
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetServerID
+     * @return GetServerID
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class GetServerID
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetServerID
+     * @return GetServerID
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
 }

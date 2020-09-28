@@ -15,7 +15,7 @@ class CreatePlanFileResponse
      */
     public function __construct($CreatePlanFileResult = null)
     {
-      $this->CreatePlanFileResult = $CreatePlanFileResult;
+        $this->CreatePlanFileResult = $CreatePlanFileResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreatePlanFileResponse
      */
     public function getCreatePlanFileResult()
     {
-      return $this->CreatePlanFileResult;
+        return $this->CreatePlanFileResult;
     }
 
     /**
      * @param string $CreatePlanFileResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\CreatePlanFileResponse
+     * @return CreatePlanFileResponse
      */
     public function setCreatePlanFileResult($CreatePlanFileResult)
     {
-      $this->CreatePlanFileResult = $CreatePlanFileResult;
-      return $this;
+        $this->CreatePlanFileResult = $CreatePlanFileResult;
+        return $this;
     }
 
 }

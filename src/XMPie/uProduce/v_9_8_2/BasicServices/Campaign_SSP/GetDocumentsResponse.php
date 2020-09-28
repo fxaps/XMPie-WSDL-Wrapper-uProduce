@@ -15,7 +15,7 @@ class GetDocumentsResponse
      */
     public function __construct($GetDocumentsResult = null)
     {
-      $this->GetDocumentsResult = $GetDocumentsResult;
+        $this->GetDocumentsResult = $GetDocumentsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDocumentsResponse
      */
     public function getGetDocumentsResult()
     {
-      return $this->GetDocumentsResult;
+        return $this->GetDocumentsResult;
     }
 
     /**
      * @param ArrayOfString $GetDocumentsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetDocumentsResponse
+     * @return GetDocumentsResponse
      */
     public function setGetDocumentsResult($GetDocumentsResult)
     {
-      $this->GetDocumentsResult = $GetDocumentsResult;
-      return $this;
+        $this->GetDocumentsResult = $GetDocumentsResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class CreateNewFromURLResponse
      */
     public function __construct($CreateNewFromURLResult = null)
     {
-      $this->CreateNewFromURLResult = $CreateNewFromURLResult;
+        $this->CreateNewFromURLResult = $CreateNewFromURLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewFromURLResponse
      */
     public function getCreateNewFromURLResult()
     {
-      return $this->CreateNewFromURLResult;
+        return $this->CreateNewFromURLResult;
     }
 
     /**
      * @param string $CreateNewFromURLResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromURLResponse
+     * @return CreateNewFromURLResponse
      */
     public function setCreateNewFromURLResult($CreateNewFromURLResult)
     {
-      $this->CreateNewFromURLResult = $CreateNewFromURLResult;
-      return $this;
+        $this->CreateNewFromURLResult = $CreateNewFromURLResult;
+        return $this;
     }
 
 }

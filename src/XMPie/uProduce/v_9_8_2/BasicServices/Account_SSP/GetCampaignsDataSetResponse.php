@@ -15,7 +15,7 @@ class GetCampaignsDataSetResponse
      */
     public function __construct($GetCampaignsDataSetResult = null)
     {
-      $this->GetCampaignsDataSetResult = $GetCampaignsDataSetResult;
+        $this->GetCampaignsDataSetResult = $GetCampaignsDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCampaignsDataSetResponse
      */
     public function getGetCampaignsDataSetResult()
     {
-      return $this->GetCampaignsDataSetResult;
+        return $this->GetCampaignsDataSetResult;
     }
 
     /**
      * @param GetCampaignsDataSetResult $GetCampaignsDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetCampaignsDataSetResponse
+     * @return GetCampaignsDataSetResponse
      */
     public function setGetCampaignsDataSetResult($GetCampaignsDataSetResult)
     {
-      $this->GetCampaignsDataSetResult = $GetCampaignsDataSetResult;
-      return $this;
+        $this->GetCampaignsDataSetResult = $GetCampaignsDataSetResult;
+        return $this;
     }
 
 }

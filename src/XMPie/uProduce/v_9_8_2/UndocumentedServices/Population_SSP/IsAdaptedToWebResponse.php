@@ -15,7 +15,7 @@ class IsAdaptedToWebResponse
      */
     public function __construct($IsAdaptedToWebResult = null)
     {
-      $this->IsAdaptedToWebResult = $IsAdaptedToWebResult;
+        $this->IsAdaptedToWebResult = $IsAdaptedToWebResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsAdaptedToWebResponse
      */
     public function getIsAdaptedToWebResult()
     {
-      return $this->IsAdaptedToWebResult;
+        return $this->IsAdaptedToWebResult;
     }
 
     /**
      * @param boolean $IsAdaptedToWebResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\IsAdaptedToWebResponse
+     * @return IsAdaptedToWebResponse
      */
     public function setIsAdaptedToWebResult($IsAdaptedToWebResult)
     {
-      $this->IsAdaptedToWebResult = $IsAdaptedToWebResult;
-      return $this;
+        $this->IsAdaptedToWebResult = $IsAdaptedToWebResult;
+        return $this;
     }
 
 }

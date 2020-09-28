@@ -15,7 +15,7 @@ class GetFirstCompatibleTableResponse
      */
     public function __construct($GetFirstCompatibleTableResult = null)
     {
-      $this->GetFirstCompatibleTableResult = $GetFirstCompatibleTableResult;
+        $this->GetFirstCompatibleTableResult = $GetFirstCompatibleTableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFirstCompatibleTableResponse
      */
     public function getGetFirstCompatibleTableResult()
     {
-      return $this->GetFirstCompatibleTableResult;
+        return $this->GetFirstCompatibleTableResult;
     }
 
     /**
      * @param string $GetFirstCompatibleTableResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetFirstCompatibleTableResponse
+     * @return GetFirstCompatibleTableResponse
      */
     public function setGetFirstCompatibleTableResult($GetFirstCompatibleTableResult)
     {
-      $this->GetFirstCompatibleTableResult = $GetFirstCompatibleTableResult;
-      return $this;
+        $this->GetFirstCompatibleTableResult = $GetFirstCompatibleTableResult;
+        return $this;
     }
 
 }

@@ -30,7 +30,7 @@ class PreviewEmailResult
      */
     public function __construct($m_Status = null)
     {
-      $this->m_Status = $m_Status;
+        $this->m_Status = $m_Status;
     }
 
     /**
@@ -38,17 +38,17 @@ class PreviewEmailResult
      */
     public function getM_TextBody()
     {
-      return $this->m_TextBody;
+        return $this->m_TextBody;
     }
 
     /**
      * @param string $m_TextBody
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailResult
+     * @return PreviewEmailResult
      */
     public function setM_TextBody($m_TextBody)
     {
-      $this->m_TextBody = $m_TextBody;
-      return $this;
+        $this->m_TextBody = $m_TextBody;
+        return $this;
     }
 
     /**
@@ -56,17 +56,17 @@ class PreviewEmailResult
      */
     public function getM_HtmlBody()
     {
-      return $this->m_HtmlBody;
+        return $this->m_HtmlBody;
     }
 
     /**
      * @param string $m_HtmlBody
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailResult
+     * @return PreviewEmailResult
      */
     public function setM_HtmlBody($m_HtmlBody)
     {
-      $this->m_HtmlBody = $m_HtmlBody;
-      return $this;
+        $this->m_HtmlBody = $m_HtmlBody;
+        return $this;
     }
 
     /**
@@ -74,17 +74,17 @@ class PreviewEmailResult
      */
     public function getM_Status()
     {
-      return $this->m_Status;
+        return $this->m_Status;
     }
 
     /**
      * @param int $m_Status
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailResult
+     * @return PreviewEmailResult
      */
     public function setM_Status($m_Status)
     {
-      $this->m_Status = $m_Status;
-      return $this;
+        $this->m_Status = $m_Status;
+        return $this;
     }
 
     /**
@@ -92,17 +92,17 @@ class PreviewEmailResult
      */
     public function getM_Message()
     {
-      return $this->m_Message;
+        return $this->m_Message;
     }
 
     /**
      * @param string $m_Message
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailResult
+     * @return PreviewEmailResult
      */
     public function setM_Message($m_Message)
     {
-      $this->m_Message = $m_Message;
-      return $this;
+        $this->m_Message = $m_Message;
+        return $this;
     }
 
 }

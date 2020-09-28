@@ -45,12 +45,12 @@ class GetUserView
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inUserViewName = null, $inIOType = null, $inTrivialPlan = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPlanID = $inPlanID;
-      $this->inUserViewName = $inUserViewName;
-      $this->inIOType = $inIOType;
-      $this->inTrivialPlan = $inTrivialPlan;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPlanID = $inPlanID;
+        $this->inUserViewName = $inUserViewName;
+        $this->inIOType = $inIOType;
+        $this->inTrivialPlan = $inTrivialPlan;
     }
 
     /**
@@ -58,17 +58,17 @@ class GetUserView
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetUserView
+     * @return GetUserView
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class GetUserView
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetUserView
+     * @return GetUserView
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class GetUserView
      */
     public function getInPlanID()
     {
-      return $this->inPlanID;
+        return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetUserView
+     * @return GetUserView
      */
     public function setInPlanID($inPlanID)
     {
-      $this->inPlanID = $inPlanID;
-      return $this;
+        $this->inPlanID = $inPlanID;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class GetUserView
      */
     public function getInUserViewName()
     {
-      return $this->inUserViewName;
+        return $this->inUserViewName;
     }
 
     /**
      * @param string $inUserViewName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetUserView
+     * @return GetUserView
      */
     public function setInUserViewName($inUserViewName)
     {
-      $this->inUserViewName = $inUserViewName;
-      return $this;
+        $this->inUserViewName = $inUserViewName;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class GetUserView
      */
     public function getInIOType()
     {
-      return $this->inIOType;
+        return $this->inIOType;
     }
 
     /**
      * @param string $inIOType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetUserView
+     * @return GetUserView
      */
     public function setInIOType($inIOType)
     {
-      $this->inIOType = $inIOType;
-      return $this;
+        $this->inIOType = $inIOType;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class GetUserView
      */
     public function getInTrivialPlan()
     {
-      return $this->inTrivialPlan;
+        return $this->inTrivialPlan;
     }
 
     /**
      * @param boolean $inTrivialPlan
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetUserView
+     * @return GetUserView
      */
     public function setInTrivialPlan($inTrivialPlan)
     {
-      $this->inTrivialPlan = $inTrivialPlan;
-      return $this;
+        $this->inTrivialPlan = $inTrivialPlan;
+        return $this;
     }
 
 }

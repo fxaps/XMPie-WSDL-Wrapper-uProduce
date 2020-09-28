@@ -15,7 +15,7 @@ class GetDistillJobOptionNamesResponse
      */
     public function __construct($GetDistillJobOptionNamesResult = null)
     {
-      $this->GetDistillJobOptionNamesResult = $GetDistillJobOptionNamesResult;
+        $this->GetDistillJobOptionNamesResult = $GetDistillJobOptionNamesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDistillJobOptionNamesResponse
      */
     public function getGetDistillJobOptionNamesResult()
     {
-      return $this->GetDistillJobOptionNamesResult;
+        return $this->GetDistillJobOptionNamesResult;
     }
 
     /**
      * @param ArrayOfString $GetDistillJobOptionNamesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetDistillJobOptionNamesResponse
+     * @return GetDistillJobOptionNamesResponse
      */
     public function setGetDistillJobOptionNamesResult($GetDistillJobOptionNamesResult)
     {
-      $this->GetDistillJobOptionNamesResult = $GetDistillJobOptionNamesResult;
-      return $this;
+        $this->GetDistillJobOptionNamesResult = $GetDistillJobOptionNamesResult;
+        return $this;
     }
 
 }

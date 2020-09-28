@@ -15,7 +15,7 @@ class GetFieldMappingsResponse
      */
     public function __construct($GetFieldMappingsResult = null)
     {
-      $this->GetFieldMappingsResult = $GetFieldMappingsResult;
+        $this->GetFieldMappingsResult = $GetFieldMappingsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFieldMappingsResponse
      */
     public function getGetFieldMappingsResult()
     {
-      return $this->GetFieldMappingsResult;
+        return $this->GetFieldMappingsResult;
     }
 
     /**
      * @param FieldMappings $GetFieldMappingsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFieldMappingsResponse
+     * @return GetFieldMappingsResponse
      */
     public function setGetFieldMappingsResult($GetFieldMappingsResult)
     {
-      $this->GetFieldMappingsResult = $GetFieldMappingsResult;
-      return $this;
+        $this->GetFieldMappingsResult = $GetFieldMappingsResult;
+        return $this;
     }
 
 }

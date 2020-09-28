@@ -15,7 +15,7 @@ class GetUMailOrigZipResponse
      */
     public function __construct($GetUMailOrigZipResult = null)
     {
-      $this->GetUMailOrigZipResult = $GetUMailOrigZipResult;
+        $this->GetUMailOrigZipResult = $GetUMailOrigZipResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUMailOrigZipResponse
      */
     public function getGetUMailOrigZipResult()
     {
-      return $this->GetUMailOrigZipResult;
+        return $this->GetUMailOrigZipResult;
     }
 
     /**
      * @param string $GetUMailOrigZipResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetUMailOrigZipResponse
+     * @return GetUMailOrigZipResponse
      */
     public function setGetUMailOrigZipResult($GetUMailOrigZipResult)
     {
-      $this->GetUMailOrigZipResult = $GetUMailOrigZipResult;
-      return $this;
+        $this->GetUMailOrigZipResult = $GetUMailOrigZipResult;
+        return $this;
     }
 
 }

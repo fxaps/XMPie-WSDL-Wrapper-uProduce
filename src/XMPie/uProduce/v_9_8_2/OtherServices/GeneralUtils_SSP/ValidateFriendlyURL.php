@@ -51,13 +51,13 @@ class ValidateFriendlyURL
      */
     public function __construct($inUsername = null, $inPassword = null, $inFriendlyDomain = null, $inFriendlyFolder = null, $inLandingPage = null, $inFriendlyRedirectMode = null, $inFriendlyRIDPrefix = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inFriendlyDomain = $inFriendlyDomain;
-      $this->inFriendlyFolder = $inFriendlyFolder;
-      $this->inLandingPage = $inLandingPage;
-      $this->inFriendlyRedirectMode = $inFriendlyRedirectMode;
-      $this->inFriendlyRIDPrefix = $inFriendlyRIDPrefix;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inFriendlyDomain = $inFriendlyDomain;
+        $this->inFriendlyFolder = $inFriendlyFolder;
+        $this->inLandingPage = $inLandingPage;
+        $this->inFriendlyRedirectMode = $inFriendlyRedirectMode;
+        $this->inFriendlyRIDPrefix = $inFriendlyRIDPrefix;
     }
 
     /**
@@ -65,17 +65,17 @@ class ValidateFriendlyURL
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ValidateFriendlyURL
+     * @return ValidateFriendlyURL
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class ValidateFriendlyURL
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ValidateFriendlyURL
+     * @return ValidateFriendlyURL
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class ValidateFriendlyURL
      */
     public function getInFriendlyDomain()
     {
-      return $this->inFriendlyDomain;
+        return $this->inFriendlyDomain;
     }
 
     /**
      * @param string $inFriendlyDomain
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ValidateFriendlyURL
+     * @return ValidateFriendlyURL
      */
     public function setInFriendlyDomain($inFriendlyDomain)
     {
-      $this->inFriendlyDomain = $inFriendlyDomain;
-      return $this;
+        $this->inFriendlyDomain = $inFriendlyDomain;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class ValidateFriendlyURL
      */
     public function getInFriendlyFolder()
     {
-      return $this->inFriendlyFolder;
+        return $this->inFriendlyFolder;
     }
 
     /**
      * @param string $inFriendlyFolder
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ValidateFriendlyURL
+     * @return ValidateFriendlyURL
      */
     public function setInFriendlyFolder($inFriendlyFolder)
     {
-      $this->inFriendlyFolder = $inFriendlyFolder;
-      return $this;
+        $this->inFriendlyFolder = $inFriendlyFolder;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class ValidateFriendlyURL
      */
     public function getInLandingPage()
     {
-      return $this->inLandingPage;
+        return $this->inLandingPage;
     }
 
     /**
      * @param string $inLandingPage
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ValidateFriendlyURL
+     * @return ValidateFriendlyURL
      */
     public function setInLandingPage($inLandingPage)
     {
-      $this->inLandingPage = $inLandingPage;
-      return $this;
+        $this->inLandingPage = $inLandingPage;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class ValidateFriendlyURL
      */
     public function getInFriendlyRedirectMode()
     {
-      return $this->inFriendlyRedirectMode;
+        return $this->inFriendlyRedirectMode;
     }
 
     /**
      * @param boolean $inFriendlyRedirectMode
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ValidateFriendlyURL
+     * @return ValidateFriendlyURL
      */
     public function setInFriendlyRedirectMode($inFriendlyRedirectMode)
     {
-      $this->inFriendlyRedirectMode = $inFriendlyRedirectMode;
-      return $this;
+        $this->inFriendlyRedirectMode = $inFriendlyRedirectMode;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class ValidateFriendlyURL
      */
     public function getInFriendlyRIDPrefix()
     {
-      return $this->inFriendlyRIDPrefix;
+        return $this->inFriendlyRIDPrefix;
     }
 
     /**
      * @param boolean $inFriendlyRIDPrefix
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ValidateFriendlyURL
+     * @return ValidateFriendlyURL
      */
     public function setInFriendlyRIDPrefix($inFriendlyRIDPrefix)
     {
-      $this->inFriendlyRIDPrefix = $inFriendlyRIDPrefix;
-      return $this;
+        $this->inFriendlyRIDPrefix = $inFriendlyRIDPrefix;
+        return $this;
     }
 
 }

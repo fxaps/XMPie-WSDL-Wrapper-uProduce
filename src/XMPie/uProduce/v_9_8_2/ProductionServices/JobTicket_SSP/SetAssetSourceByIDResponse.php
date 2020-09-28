@@ -15,7 +15,7 @@ class SetAssetSourceByIDResponse
      */
     public function __construct($SetAssetSourceByIDResult = null)
     {
-      $this->SetAssetSourceByIDResult = $SetAssetSourceByIDResult;
+        $this->SetAssetSourceByIDResult = $SetAssetSourceByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetAssetSourceByIDResponse
      */
     public function getSetAssetSourceByIDResult()
     {
-      return $this->SetAssetSourceByIDResult;
+        return $this->SetAssetSourceByIDResult;
     }
 
     /**
      * @param boolean $SetAssetSourceByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourceByIDResponse
+     * @return SetAssetSourceByIDResponse
      */
     public function setSetAssetSourceByIDResult($SetAssetSourceByIDResult)
     {
-      $this->SetAssetSourceByIDResult = $SetAssetSourceByIDResult;
-      return $this;
+        $this->SetAssetSourceByIDResult = $SetAssetSourceByIDResult;
+        return $this;
     }
 
 }

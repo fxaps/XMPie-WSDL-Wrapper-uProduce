@@ -33,10 +33,10 @@ class SuspendOnDemandJob
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inJobID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDocumentID = $inDocumentID;
-      $this->inJobID = $inJobID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDocumentID = $inDocumentID;
+        $this->inJobID = $inJobID;
     }
 
     /**
@@ -44,17 +44,17 @@ class SuspendOnDemandJob
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\SuspendOnDemandJob
+     * @return SuspendOnDemandJob
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SuspendOnDemandJob
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\SuspendOnDemandJob
+     * @return SuspendOnDemandJob
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SuspendOnDemandJob
      */
     public function getInDocumentID()
     {
-      return $this->inDocumentID;
+        return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\SuspendOnDemandJob
+     * @return SuspendOnDemandJob
      */
     public function setInDocumentID($inDocumentID)
     {
-      $this->inDocumentID = $inDocumentID;
-      return $this;
+        $this->inDocumentID = $inDocumentID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SuspendOnDemandJob
      */
     public function getInJobID()
     {
-      return $this->inJobID;
+        return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\SuspendOnDemandJob
+     * @return SuspendOnDemandJob
      */
     public function setInJobID($inJobID)
     {
-      $this->inJobID = $inJobID;
-      return $this;
+        $this->inJobID = $inJobID;
+        return $this;
     }
 
 }

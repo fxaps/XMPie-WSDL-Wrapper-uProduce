@@ -15,7 +15,7 @@ class ConvertToWebReadyResponse
      */
     public function __construct($ConvertToWebReadyResult = null)
     {
-      $this->ConvertToWebReadyResult = $ConvertToWebReadyResult;
+        $this->ConvertToWebReadyResult = $ConvertToWebReadyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ConvertToWebReadyResponse
      */
     public function getConvertToWebReadyResult()
     {
-      return $this->ConvertToWebReadyResult;
+        return $this->ConvertToWebReadyResult;
     }
 
     /**
      * @param Report $ConvertToWebReadyResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\ConvertToWebReadyResponse
+     * @return ConvertToWebReadyResponse
      */
     public function setConvertToWebReadyResult($ConvertToWebReadyResult)
     {
-      $this->ConvertToWebReadyResult = $ConvertToWebReadyResult;
-      return $this;
+        $this->ConvertToWebReadyResult = $ConvertToWebReadyResult;
+        return $this;
     }
 
 }

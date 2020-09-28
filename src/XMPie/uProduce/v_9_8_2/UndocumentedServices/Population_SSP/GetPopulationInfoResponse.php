@@ -15,7 +15,7 @@ class GetPopulationInfoResponse
      */
     public function __construct($GetPopulationInfoResult = null)
     {
-      $this->GetPopulationInfoResult = $GetPopulationInfoResult;
+        $this->GetPopulationInfoResult = $GetPopulationInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPopulationInfoResponse
      */
     public function getGetPopulationInfoResult()
     {
-      return $this->GetPopulationInfoResult;
+        return $this->GetPopulationInfoResult;
     }
 
     /**
      * @param PopulationInfo $GetPopulationInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetPopulationInfoResponse
+     * @return GetPopulationInfoResponse
      */
     public function setGetPopulationInfoResult($GetPopulationInfoResult)
     {
-      $this->GetPopulationInfoResult = $GetPopulationInfoResult;
-      return $this;
+        $this->GetPopulationInfoResult = $GetPopulationInfoResult;
+        return $this;
     }
 
 }

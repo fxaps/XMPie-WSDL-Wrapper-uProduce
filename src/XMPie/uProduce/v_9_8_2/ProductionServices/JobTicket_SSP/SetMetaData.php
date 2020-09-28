@@ -39,11 +39,11 @@ class SetMetaData
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inGroupName = null, $inProperties = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inGroupName = $inGroupName;
-      $this->inProperties = $inProperties;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inGroupName = $inGroupName;
+        $this->inProperties = $inProperties;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetMetaData
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetMetaData
+     * @return SetMetaData
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetMetaData
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetMetaData
+     * @return SetMetaData
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetMetaData
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetMetaData
+     * @return SetMetaData
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetMetaData
      */
     public function getInGroupName()
     {
-      return $this->inGroupName;
+        return $this->inGroupName;
     }
 
     /**
      * @param ArrayOfString $inGroupName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetMetaData
+     * @return SetMetaData
      */
     public function setInGroupName($inGroupName)
     {
-      $this->inGroupName = $inGroupName;
-      return $this;
+        $this->inGroupName = $inGroupName;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetMetaData
      */
     public function getInProperties()
     {
-      return $this->inProperties;
+        return $this->inProperties;
     }
 
     /**
      * @param ArrayOfProperty $inProperties
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetMetaData
+     * @return SetMetaData
      */
     public function setInProperties($inProperties)
     {
-      $this->inProperties = $inProperties;
-      return $this;
+        $this->inProperties = $inProperties;
+        return $this;
     }
 
 }

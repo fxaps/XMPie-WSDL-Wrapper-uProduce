@@ -15,7 +15,7 @@ class GetDestinationIDResponse
      */
     public function __construct($GetDestinationIDResult = null)
     {
-      $this->GetDestinationIDResult = $GetDestinationIDResult;
+        $this->GetDestinationIDResult = $GetDestinationIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDestinationIDResponse
      */
     public function getGetDestinationIDResult()
     {
-      return $this->GetDestinationIDResult;
+        return $this->GetDestinationIDResult;
     }
 
     /**
      * @param string $GetDestinationIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetDestinationIDResponse
+     * @return GetDestinationIDResponse
      */
     public function setGetDestinationIDResult($GetDestinationIDResult)
     {
-      $this->GetDestinationIDResult = $GetDestinationIDResult;
-      return $this;
+        $this->GetDestinationIDResult = $GetDestinationIDResult;
+        return $this;
     }
 
 }

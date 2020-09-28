@@ -15,7 +15,7 @@ class DeleteFolderResponse
      */
     public function __construct($DeleteFolderResult = null)
     {
-      $this->DeleteFolderResult = $DeleteFolderResult;
+        $this->DeleteFolderResult = $DeleteFolderResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteFolderResponse
      */
     public function getDeleteFolderResult()
     {
-      return $this->DeleteFolderResult;
+        return $this->DeleteFolderResult;
     }
 
     /**
      * @param boolean $DeleteFolderResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\DeleteFolderResponse
+     * @return DeleteFolderResponse
      */
     public function setDeleteFolderResult($DeleteFolderResult)
     {
-      $this->DeleteFolderResult = $DeleteFolderResult;
-      return $this;
+        $this->DeleteFolderResult = $DeleteFolderResult;
+        return $this;
     }
 
 }

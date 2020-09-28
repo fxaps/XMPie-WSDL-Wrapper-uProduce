@@ -15,7 +15,7 @@ class GetPathLocatorValueResponse
      */
     public function __construct($GetPathLocatorValueResult = null)
     {
-      $this->GetPathLocatorValueResult = $GetPathLocatorValueResult;
+        $this->GetPathLocatorValueResult = $GetPathLocatorValueResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPathLocatorValueResponse
      */
     public function getGetPathLocatorValueResult()
     {
-      return $this->GetPathLocatorValueResult;
+        return $this->GetPathLocatorValueResult;
     }
 
     /**
      * @param string $GetPathLocatorValueResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetPathLocatorValueResponse
+     * @return GetPathLocatorValueResponse
      */
     public function setGetPathLocatorValueResult($GetPathLocatorValueResult)
     {
-      $this->GetPathLocatorValueResult = $GetPathLocatorValueResult;
-      return $this;
+        $this->GetPathLocatorValueResult = $GetPathLocatorValueResult;
+        return $this;
     }
 
 }

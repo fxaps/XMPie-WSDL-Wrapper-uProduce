@@ -15,7 +15,7 @@ class ProcessImageInAIEResponse
      */
     public function __construct($ProcessImageInAIEResult = null)
     {
-      $this->ProcessImageInAIEResult = $ProcessImageInAIEResult;
+        $this->ProcessImageInAIEResult = $ProcessImageInAIEResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ProcessImageInAIEResponse
      */
     public function getProcessImageInAIEResult()
     {
-      return $this->ProcessImageInAIEResult;
+        return $this->ProcessImageInAIEResult;
     }
 
     /**
      * @param base64Binary $ProcessImageInAIEResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ProcessImageInAIEResponse
+     * @return ProcessImageInAIEResponse
      */
     public function setProcessImageInAIEResult($ProcessImageInAIEResult)
     {
-      $this->ProcessImageInAIEResult = $ProcessImageInAIEResult;
-      return $this;
+        $this->ProcessImageInAIEResult = $ProcessImageInAIEResult;
+        return $this;
     }
 
 }

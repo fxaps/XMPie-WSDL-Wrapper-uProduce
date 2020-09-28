@@ -45,12 +45,12 @@ class SupportedOperationsInfo
      */
     public function __construct($m_GetAllRecipientsSupported = null, $m_GetOneRecipientSupported = null, $m_InsertRecipientSupported = null, $m_UpdateRecipientSupported = null, $m_DeleteRecipientSupported = null, $m_ReadyForWeb = null)
     {
-      $this->m_GetAllRecipientsSupported = $m_GetAllRecipientsSupported;
-      $this->m_GetOneRecipientSupported = $m_GetOneRecipientSupported;
-      $this->m_InsertRecipientSupported = $m_InsertRecipientSupported;
-      $this->m_UpdateRecipientSupported = $m_UpdateRecipientSupported;
-      $this->m_DeleteRecipientSupported = $m_DeleteRecipientSupported;
-      $this->m_ReadyForWeb = $m_ReadyForWeb;
+        $this->m_GetAllRecipientsSupported = $m_GetAllRecipientsSupported;
+        $this->m_GetOneRecipientSupported = $m_GetOneRecipientSupported;
+        $this->m_InsertRecipientSupported = $m_InsertRecipientSupported;
+        $this->m_UpdateRecipientSupported = $m_UpdateRecipientSupported;
+        $this->m_DeleteRecipientSupported = $m_DeleteRecipientSupported;
+        $this->m_ReadyForWeb = $m_ReadyForWeb;
     }
 
     /**
@@ -58,17 +58,17 @@ class SupportedOperationsInfo
      */
     public function getM_GetAllRecipientsSupported()
     {
-      return $this->m_GetAllRecipientsSupported;
+        return $this->m_GetAllRecipientsSupported;
     }
 
     /**
      * @param boolean $m_GetAllRecipientsSupported
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\SupportedOperationsInfo
+     * @return SupportedOperationsInfo
      */
     public function setM_GetAllRecipientsSupported($m_GetAllRecipientsSupported)
     {
-      $this->m_GetAllRecipientsSupported = $m_GetAllRecipientsSupported;
-      return $this;
+        $this->m_GetAllRecipientsSupported = $m_GetAllRecipientsSupported;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class SupportedOperationsInfo
      */
     public function getM_GetOneRecipientSupported()
     {
-      return $this->m_GetOneRecipientSupported;
+        return $this->m_GetOneRecipientSupported;
     }
 
     /**
      * @param boolean $m_GetOneRecipientSupported
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\SupportedOperationsInfo
+     * @return SupportedOperationsInfo
      */
     public function setM_GetOneRecipientSupported($m_GetOneRecipientSupported)
     {
-      $this->m_GetOneRecipientSupported = $m_GetOneRecipientSupported;
-      return $this;
+        $this->m_GetOneRecipientSupported = $m_GetOneRecipientSupported;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class SupportedOperationsInfo
      */
     public function getM_InsertRecipientSupported()
     {
-      return $this->m_InsertRecipientSupported;
+        return $this->m_InsertRecipientSupported;
     }
 
     /**
      * @param boolean $m_InsertRecipientSupported
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\SupportedOperationsInfo
+     * @return SupportedOperationsInfo
      */
     public function setM_InsertRecipientSupported($m_InsertRecipientSupported)
     {
-      $this->m_InsertRecipientSupported = $m_InsertRecipientSupported;
-      return $this;
+        $this->m_InsertRecipientSupported = $m_InsertRecipientSupported;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class SupportedOperationsInfo
      */
     public function getM_UpdateRecipientSupported()
     {
-      return $this->m_UpdateRecipientSupported;
+        return $this->m_UpdateRecipientSupported;
     }
 
     /**
      * @param boolean $m_UpdateRecipientSupported
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\SupportedOperationsInfo
+     * @return SupportedOperationsInfo
      */
     public function setM_UpdateRecipientSupported($m_UpdateRecipientSupported)
     {
-      $this->m_UpdateRecipientSupported = $m_UpdateRecipientSupported;
-      return $this;
+        $this->m_UpdateRecipientSupported = $m_UpdateRecipientSupported;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class SupportedOperationsInfo
      */
     public function getM_DeleteRecipientSupported()
     {
-      return $this->m_DeleteRecipientSupported;
+        return $this->m_DeleteRecipientSupported;
     }
 
     /**
      * @param boolean $m_DeleteRecipientSupported
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\SupportedOperationsInfo
+     * @return SupportedOperationsInfo
      */
     public function setM_DeleteRecipientSupported($m_DeleteRecipientSupported)
     {
-      $this->m_DeleteRecipientSupported = $m_DeleteRecipientSupported;
-      return $this;
+        $this->m_DeleteRecipientSupported = $m_DeleteRecipientSupported;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class SupportedOperationsInfo
      */
     public function getM_ReadyForWeb()
     {
-      return $this->m_ReadyForWeb;
+        return $this->m_ReadyForWeb;
     }
 
     /**
      * @param boolean $m_ReadyForWeb
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\SupportedOperationsInfo
+     * @return SupportedOperationsInfo
      */
     public function setM_ReadyForWeb($m_ReadyForWeb)
     {
-      $this->m_ReadyForWeb = $m_ReadyForWeb;
-      return $this;
+        $this->m_ReadyForWeb = $m_ReadyForWeb;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetMeasurementUnitsXMPTblDataSetResponse
      */
     public function __construct($GetMeasurementUnitsXMPTblDataSetResult = null)
     {
-      $this->GetMeasurementUnitsXMPTblDataSetResult = $GetMeasurementUnitsXMPTblDataSetResult;
+        $this->GetMeasurementUnitsXMPTblDataSetResult = $GetMeasurementUnitsXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMeasurementUnitsXMPTblDataSetResponse
      */
     public function getGetMeasurementUnitsXMPTblDataSetResult()
     {
-      return $this->GetMeasurementUnitsXMPTblDataSetResult;
+        return $this->GetMeasurementUnitsXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetMeasurementUnitsXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetMeasurementUnitsXMPTblDataSetResponse
+     * @return GetMeasurementUnitsXMPTblDataSetResponse
      */
     public function setGetMeasurementUnitsXMPTblDataSetResult($GetMeasurementUnitsXMPTblDataSetResult)
     {
-      $this->GetMeasurementUnitsXMPTblDataSetResult = $GetMeasurementUnitsXMPTblDataSetResult;
-      return $this;
+        $this->GetMeasurementUnitsXMPTblDataSetResult = $GetMeasurementUnitsXMPTblDataSetResult;
+        return $this;
     }
 
 }

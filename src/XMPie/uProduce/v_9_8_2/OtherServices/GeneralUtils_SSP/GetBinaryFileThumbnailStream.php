@@ -51,13 +51,13 @@ class GetBinaryFileThumbnailStream
      */
     public function __construct($inUsername = null, $inPassword = null, $inFilePath = null, $inOutputMimeType = null, $inMaxPixelWidth = null, $inMaxPixelHeight = null, $inResolution = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inFilePath = $inFilePath;
-      $this->inOutputMimeType = $inOutputMimeType;
-      $this->inMaxPixelWidth = $inMaxPixelWidth;
-      $this->inMaxPixelHeight = $inMaxPixelHeight;
-      $this->inResolution = $inResolution;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inFilePath = $inFilePath;
+        $this->inOutputMimeType = $inOutputMimeType;
+        $this->inMaxPixelWidth = $inMaxPixelWidth;
+        $this->inMaxPixelHeight = $inMaxPixelHeight;
+        $this->inResolution = $inResolution;
     }
 
     /**
@@ -65,17 +65,17 @@ class GetBinaryFileThumbnailStream
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileThumbnailStream
+     * @return GetBinaryFileThumbnailStream
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class GetBinaryFileThumbnailStream
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileThumbnailStream
+     * @return GetBinaryFileThumbnailStream
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class GetBinaryFileThumbnailStream
      */
     public function getInFilePath()
     {
-      return $this->inFilePath;
+        return $this->inFilePath;
     }
 
     /**
      * @param string $inFilePath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileThumbnailStream
+     * @return GetBinaryFileThumbnailStream
      */
     public function setInFilePath($inFilePath)
     {
-      $this->inFilePath = $inFilePath;
-      return $this;
+        $this->inFilePath = $inFilePath;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class GetBinaryFileThumbnailStream
      */
     public function getInOutputMimeType()
     {
-      return $this->inOutputMimeType;
+        return $this->inOutputMimeType;
     }
 
     /**
      * @param string $inOutputMimeType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileThumbnailStream
+     * @return GetBinaryFileThumbnailStream
      */
     public function setInOutputMimeType($inOutputMimeType)
     {
-      $this->inOutputMimeType = $inOutputMimeType;
-      return $this;
+        $this->inOutputMimeType = $inOutputMimeType;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class GetBinaryFileThumbnailStream
      */
     public function getInMaxPixelWidth()
     {
-      return $this->inMaxPixelWidth;
+        return $this->inMaxPixelWidth;
     }
 
     /**
      * @param int $inMaxPixelWidth
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileThumbnailStream
+     * @return GetBinaryFileThumbnailStream
      */
     public function setInMaxPixelWidth($inMaxPixelWidth)
     {
-      $this->inMaxPixelWidth = $inMaxPixelWidth;
-      return $this;
+        $this->inMaxPixelWidth = $inMaxPixelWidth;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class GetBinaryFileThumbnailStream
      */
     public function getInMaxPixelHeight()
     {
-      return $this->inMaxPixelHeight;
+        return $this->inMaxPixelHeight;
     }
 
     /**
      * @param int $inMaxPixelHeight
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileThumbnailStream
+     * @return GetBinaryFileThumbnailStream
      */
     public function setInMaxPixelHeight($inMaxPixelHeight)
     {
-      $this->inMaxPixelHeight = $inMaxPixelHeight;
-      return $this;
+        $this->inMaxPixelHeight = $inMaxPixelHeight;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class GetBinaryFileThumbnailStream
      */
     public function getInResolution()
     {
-      return $this->inResolution;
+        return $this->inResolution;
     }
 
     /**
      * @param int $inResolution
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileThumbnailStream
+     * @return GetBinaryFileThumbnailStream
      */
     public function setInResolution($inResolution)
     {
-      $this->inResolution = $inResolution;
-      return $this;
+        $this->inResolution = $inResolution;
+        return $this;
     }
 
 }

@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP;
 
-class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfRecipientField implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     protected $RecipientField = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function getRecipientField()
     {
-      return $this->RecipientField;
+        return $this->RecipientField;
     }
 
     /**
      * @param RecipientField[] $RecipientField
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\ArrayOfRecipientField
+     * @return ArrayOfRecipientField
      */
     public function setRecipientField(array $RecipientField = null)
     {
-      $this->RecipientField = $RecipientField;
-      return $this;
+        $this->RecipientField = $RecipientField;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->RecipientField[$offset]);
+        return isset($this->RecipientField[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->RecipientField[$offset];
+        return $this->RecipientField[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->RecipientField[] = $value;
-      } else {
-        $this->RecipientField[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->RecipientField[] = $value;
+        } else {
+            $this->RecipientField[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->RecipientField[$offset]);
+        unset($this->RecipientField[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->RecipientField);
+        return current($this->RecipientField);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->RecipientField);
+        next($this->RecipientField);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->RecipientField);
+        return key($this->RecipientField);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->RecipientField);
+        reset($this->RecipientField);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfRecipientField implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->RecipientField);
+        return count($this->RecipientField);
     }
 
 }

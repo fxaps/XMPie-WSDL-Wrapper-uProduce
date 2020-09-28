@@ -15,7 +15,7 @@ class IsCircleModeAvailableResponse
      */
     public function __construct($IsCircleModeAvailableResult = null)
     {
-      $this->IsCircleModeAvailableResult = $IsCircleModeAvailableResult;
+        $this->IsCircleModeAvailableResult = $IsCircleModeAvailableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsCircleModeAvailableResponse
      */
     public function getIsCircleModeAvailableResult()
     {
-      return $this->IsCircleModeAvailableResult;
+        return $this->IsCircleModeAvailableResult;
     }
 
     /**
      * @param boolean $IsCircleModeAvailableResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsCircleModeAvailableResponse
+     * @return IsCircleModeAvailableResponse
      */
     public function setIsCircleModeAvailableResult($IsCircleModeAvailableResult)
     {
-      $this->IsCircleModeAvailableResult = $IsCircleModeAvailableResult;
-      return $this;
+        $this->IsCircleModeAvailableResult = $IsCircleModeAvailableResult;
+        return $this;
     }
 
 }

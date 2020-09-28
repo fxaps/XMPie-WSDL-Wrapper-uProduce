@@ -45,12 +45,12 @@ class TestNetworkPathConnectivityWithCredentials
      */
     public function __construct($inUsername = null, $inPassword = null, $inNetworkPath = null, $inNetworkUserName = null, $inNetworkDomain = null, $inNetworkPassword = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inNetworkPath = $inNetworkPath;
-      $this->inNetworkUserName = $inNetworkUserName;
-      $this->inNetworkDomain = $inNetworkDomain;
-      $this->inNetworkPassword = $inNetworkPassword;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inNetworkPath = $inNetworkPath;
+        $this->inNetworkUserName = $inNetworkUserName;
+        $this->inNetworkDomain = $inNetworkDomain;
+        $this->inNetworkPassword = $inNetworkPassword;
     }
 
     /**
@@ -58,17 +58,17 @@ class TestNetworkPathConnectivityWithCredentials
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivityWithCredentials
+     * @return TestNetworkPathConnectivityWithCredentials
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class TestNetworkPathConnectivityWithCredentials
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivityWithCredentials
+     * @return TestNetworkPathConnectivityWithCredentials
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class TestNetworkPathConnectivityWithCredentials
      */
     public function getInNetworkPath()
     {
-      return $this->inNetworkPath;
+        return $this->inNetworkPath;
     }
 
     /**
      * @param string $inNetworkPath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivityWithCredentials
+     * @return TestNetworkPathConnectivityWithCredentials
      */
     public function setInNetworkPath($inNetworkPath)
     {
-      $this->inNetworkPath = $inNetworkPath;
-      return $this;
+        $this->inNetworkPath = $inNetworkPath;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class TestNetworkPathConnectivityWithCredentials
      */
     public function getInNetworkUserName()
     {
-      return $this->inNetworkUserName;
+        return $this->inNetworkUserName;
     }
 
     /**
      * @param string $inNetworkUserName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivityWithCredentials
+     * @return TestNetworkPathConnectivityWithCredentials
      */
     public function setInNetworkUserName($inNetworkUserName)
     {
-      $this->inNetworkUserName = $inNetworkUserName;
-      return $this;
+        $this->inNetworkUserName = $inNetworkUserName;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class TestNetworkPathConnectivityWithCredentials
      */
     public function getInNetworkDomain()
     {
-      return $this->inNetworkDomain;
+        return $this->inNetworkDomain;
     }
 
     /**
      * @param string $inNetworkDomain
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivityWithCredentials
+     * @return TestNetworkPathConnectivityWithCredentials
      */
     public function setInNetworkDomain($inNetworkDomain)
     {
-      $this->inNetworkDomain = $inNetworkDomain;
-      return $this;
+        $this->inNetworkDomain = $inNetworkDomain;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class TestNetworkPathConnectivityWithCredentials
      */
     public function getInNetworkPassword()
     {
-      return $this->inNetworkPassword;
+        return $this->inNetworkPassword;
     }
 
     /**
      * @param string $inNetworkPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivityWithCredentials
+     * @return TestNetworkPathConnectivityWithCredentials
      */
     public function setInNetworkPassword($inNetworkPassword)
     {
-      $this->inNetworkPassword = $inNetworkPassword;
-      return $this;
+        $this->inNetworkPassword = $inNetworkPassword;
+        return $this;
     }
 
 }

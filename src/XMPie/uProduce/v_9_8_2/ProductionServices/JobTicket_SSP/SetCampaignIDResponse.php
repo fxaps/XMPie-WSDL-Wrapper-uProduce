@@ -15,7 +15,7 @@ class SetCampaignIDResponse
      */
     public function __construct($SetCampaignIDResult = null)
     {
-      $this->SetCampaignIDResult = $SetCampaignIDResult;
+        $this->SetCampaignIDResult = $SetCampaignIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetCampaignIDResponse
      */
     public function getSetCampaignIDResult()
     {
-      return $this->SetCampaignIDResult;
+        return $this->SetCampaignIDResult;
     }
 
     /**
      * @param boolean $SetCampaignIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetCampaignIDResponse
+     * @return SetCampaignIDResponse
      */
     public function setSetCampaignIDResult($SetCampaignIDResult)
     {
-      $this->SetCampaignIDResult = $SetCampaignIDResult;
-      return $this;
+        $this->SetCampaignIDResult = $SetCampaignIDResult;
+        return $this;
     }
 
 }

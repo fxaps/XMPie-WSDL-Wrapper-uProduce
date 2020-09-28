@@ -27,9 +27,9 @@ class DeleteFeatureClient
      */
     public function __construct($inUsername = null, $inPassword = null, $inActivationID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inActivationID = $inActivationID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inActivationID = $inActivationID;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteFeatureClient
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\DeleteFeatureClient
+     * @return DeleteFeatureClient
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteFeatureClient
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\DeleteFeatureClient
+     * @return DeleteFeatureClient
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteFeatureClient
      */
     public function getInActivationID()
     {
-      return $this->inActivationID;
+        return $this->inActivationID;
     }
 
     /**
      * @param int $inActivationID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\DeleteFeatureClient
+     * @return DeleteFeatureClient
      */
     public function setInActivationID($inActivationID)
     {
-      $this->inActivationID = $inActivationID;
-      return $this;
+        $this->inActivationID = $inActivationID;
+        return $this;
     }
 
 }

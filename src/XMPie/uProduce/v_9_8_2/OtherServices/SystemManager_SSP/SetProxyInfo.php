@@ -27,9 +27,9 @@ class SetProxyInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inProxyInfo = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inProxyInfo = $inProxyInfo;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inProxyInfo = $inProxyInfo;
     }
 
     /**
@@ -37,17 +37,17 @@ class SetProxyInfo
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetProxyInfo
+     * @return SetProxyInfo
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class SetProxyInfo
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetProxyInfo
+     * @return SetProxyInfo
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class SetProxyInfo
      */
     public function getInProxyInfo()
     {
-      return $this->inProxyInfo;
+        return $this->inProxyInfo;
     }
 
     /**
      * @param ProxyInfo $inProxyInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetProxyInfo
+     * @return SetProxyInfo
      */
     public function setInProxyInfo($inProxyInfo)
     {
-      $this->inProxyInfo = $inProxyInfo;
-      return $this;
+        $this->inProxyInfo = $inProxyInfo;
+        return $this;
     }
 
 }

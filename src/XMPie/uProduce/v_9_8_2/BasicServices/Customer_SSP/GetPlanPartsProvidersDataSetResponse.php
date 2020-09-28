@@ -15,7 +15,7 @@ class GetPlanPartsProvidersDataSetResponse
      */
     public function __construct($GetPlanPartsProvidersDataSetResult = null)
     {
-      $this->GetPlanPartsProvidersDataSetResult = $GetPlanPartsProvidersDataSetResult;
+        $this->GetPlanPartsProvidersDataSetResult = $GetPlanPartsProvidersDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPlanPartsProvidersDataSetResponse
      */
     public function getGetPlanPartsProvidersDataSetResult()
     {
-      return $this->GetPlanPartsProvidersDataSetResult;
+        return $this->GetPlanPartsProvidersDataSetResult;
     }
 
     /**
      * @param GetPlanPartsProvidersDataSetResult $GetPlanPartsProvidersDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetPlanPartsProvidersDataSetResponse
+     * @return GetPlanPartsProvidersDataSetResponse
      */
     public function setGetPlanPartsProvidersDataSetResult($GetPlanPartsProvidersDataSetResult)
     {
-      $this->GetPlanPartsProvidersDataSetResult = $GetPlanPartsProvidersDataSetResult;
-      return $this;
+        $this->GetPlanPartsProvidersDataSetResult = $GetPlanPartsProvidersDataSetResult;
+        return $this;
     }
 
 }

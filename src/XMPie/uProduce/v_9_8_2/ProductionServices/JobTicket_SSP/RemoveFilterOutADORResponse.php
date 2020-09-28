@@ -15,7 +15,7 @@ class RemoveFilterOutADORResponse
      */
     public function __construct($RemoveFilterOutADORResult = null)
     {
-      $this->RemoveFilterOutADORResult = $RemoveFilterOutADORResult;
+        $this->RemoveFilterOutADORResult = $RemoveFilterOutADORResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveFilterOutADORResponse
      */
     public function getRemoveFilterOutADORResult()
     {
-      return $this->RemoveFilterOutADORResult;
+        return $this->RemoveFilterOutADORResult;
     }
 
     /**
      * @param boolean $RemoveFilterOutADORResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveFilterOutADORResponse
+     * @return RemoveFilterOutADORResponse
      */
     public function setRemoveFilterOutADORResult($RemoveFilterOutADORResult)
     {
-      $this->RemoveFilterOutADORResult = $RemoveFilterOutADORResult;
-      return $this;
+        $this->RemoveFilterOutADORResult = $RemoveFilterOutADORResult;
+        return $this;
     }
 
 }

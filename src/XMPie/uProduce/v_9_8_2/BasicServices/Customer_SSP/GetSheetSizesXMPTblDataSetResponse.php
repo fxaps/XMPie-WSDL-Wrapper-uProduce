@@ -15,7 +15,7 @@ class GetSheetSizesXMPTblDataSetResponse
      */
     public function __construct($GetSheetSizesXMPTblDataSetResult = null)
     {
-      $this->GetSheetSizesXMPTblDataSetResult = $GetSheetSizesXMPTblDataSetResult;
+        $this->GetSheetSizesXMPTblDataSetResult = $GetSheetSizesXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSheetSizesXMPTblDataSetResponse
      */
     public function getGetSheetSizesXMPTblDataSetResult()
     {
-      return $this->GetSheetSizesXMPTblDataSetResult;
+        return $this->GetSheetSizesXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetSheetSizesXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetSheetSizesXMPTblDataSetResponse
+     * @return GetSheetSizesXMPTblDataSetResponse
      */
     public function setGetSheetSizesXMPTblDataSetResult($GetSheetSizesXMPTblDataSetResult)
     {
-      $this->GetSheetSizesXMPTblDataSetResult = $GetSheetSizesXMPTblDataSetResult;
-      return $this;
+        $this->GetSheetSizesXMPTblDataSetResult = $GetSheetSizesXMPTblDataSetResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class IsFTPExistResponse
      */
     public function __construct($IsFTPExistResult = null)
     {
-      $this->IsFTPExistResult = $IsFTPExistResult;
+        $this->IsFTPExistResult = $IsFTPExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsFTPExistResponse
      */
     public function getIsFTPExistResult()
     {
-      return $this->IsFTPExistResult;
+        return $this->IsFTPExistResult;
     }
 
     /**
      * @param boolean $IsFTPExistResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsFTPExistResponse
+     * @return IsFTPExistResponse
      */
     public function setIsFTPExistResult($IsFTPExistResult)
     {
-      $this->IsFTPExistResult = $IsFTPExistResult;
-      return $this;
+        $this->IsFTPExistResult = $IsFTPExistResult;
+        return $this;
     }
 
 }

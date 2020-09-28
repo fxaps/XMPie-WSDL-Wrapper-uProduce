@@ -15,7 +15,7 @@ class SetRIOnDemandInfoResponse
      */
     public function __construct($SetRIOnDemandInfoResult = null)
     {
-      $this->SetRIOnDemandInfoResult = $SetRIOnDemandInfoResult;
+        $this->SetRIOnDemandInfoResult = $SetRIOnDemandInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetRIOnDemandInfoResponse
      */
     public function getSetRIOnDemandInfoResult()
     {
-      return $this->SetRIOnDemandInfoResult;
+        return $this->SetRIOnDemandInfoResult;
     }
 
     /**
      * @param boolean $SetRIOnDemandInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetRIOnDemandInfoResponse
+     * @return SetRIOnDemandInfoResponse
      */
     public function setSetRIOnDemandInfoResult($SetRIOnDemandInfoResult)
     {
-      $this->SetRIOnDemandInfoResult = $SetRIOnDemandInfoResult;
-      return $this;
+        $this->SetRIOnDemandInfoResult = $SetRIOnDemandInfoResult;
+        return $this;
     }
 
 }

@@ -39,11 +39,11 @@ class DecodeMessage
      */
     public function __construct($inUsername = null, $inPassword = null, $inMessageID = null, $inMessageParams = null, $inLanguageID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inMessageID = $inMessageID;
-      $this->inMessageParams = $inMessageParams;
-      $this->inLanguageID = $inLanguageID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inMessageID = $inMessageID;
+        $this->inMessageParams = $inMessageParams;
+        $this->inLanguageID = $inLanguageID;
     }
 
     /**
@@ -51,17 +51,17 @@ class DecodeMessage
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeMessage
+     * @return DecodeMessage
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class DecodeMessage
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeMessage
+     * @return DecodeMessage
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class DecodeMessage
      */
     public function getInMessageID()
     {
-      return $this->inMessageID;
+        return $this->inMessageID;
     }
 
     /**
      * @param string $inMessageID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeMessage
+     * @return DecodeMessage
      */
     public function setInMessageID($inMessageID)
     {
-      $this->inMessageID = $inMessageID;
-      return $this;
+        $this->inMessageID = $inMessageID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class DecodeMessage
      */
     public function getInMessageParams()
     {
-      return $this->inMessageParams;
+        return $this->inMessageParams;
     }
 
     /**
      * @param string $inMessageParams
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeMessage
+     * @return DecodeMessage
      */
     public function setInMessageParams($inMessageParams)
     {
-      $this->inMessageParams = $inMessageParams;
-      return $this;
+        $this->inMessageParams = $inMessageParams;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class DecodeMessage
      */
     public function getInLanguageID()
     {
-      return $this->inLanguageID;
+        return $this->inLanguageID;
     }
 
     /**
      * @param int $inLanguageID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeMessage
+     * @return DecodeMessage
      */
     public function setInLanguageID($inLanguageID)
     {
-      $this->inLanguageID = $inLanguageID;
-      return $this;
+        $this->inLanguageID = $inLanguageID;
+        return $this;
     }
 
 }

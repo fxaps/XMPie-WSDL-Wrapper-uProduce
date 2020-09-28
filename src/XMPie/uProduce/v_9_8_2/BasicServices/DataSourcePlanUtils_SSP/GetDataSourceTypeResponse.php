@@ -15,7 +15,7 @@ class GetDataSourceTypeResponse
      */
     public function __construct($GetDataSourceTypeResult = null)
     {
-      $this->GetDataSourceTypeResult = $GetDataSourceTypeResult;
+        $this->GetDataSourceTypeResult = $GetDataSourceTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDataSourceTypeResponse
      */
     public function getGetDataSourceTypeResult()
     {
-      return $this->GetDataSourceTypeResult;
+        return $this->GetDataSourceTypeResult;
     }
 
     /**
      * @param GetDataSourceTypeResult $GetDataSourceTypeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetDataSourceTypeResponse
+     * @return GetDataSourceTypeResponse
      */
     public function setGetDataSourceTypeResult($GetDataSourceTypeResult)
     {
-      $this->GetDataSourceTypeResult = $GetDataSourceTypeResult;
-      return $this;
+        $this->GetDataSourceTypeResult = $GetDataSourceTypeResult;
+        return $this;
     }
 
 }

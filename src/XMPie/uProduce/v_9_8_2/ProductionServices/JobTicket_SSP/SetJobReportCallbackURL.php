@@ -33,10 +33,10 @@ class SetJobReportCallbackURL
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inJobReportCallbackURL = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inJobReportCallbackURL = $inJobReportCallbackURL;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inJobReportCallbackURL = $inJobReportCallbackURL;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetJobReportCallbackURL
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobReportCallbackURL
+     * @return SetJobReportCallbackURL
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetJobReportCallbackURL
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobReportCallbackURL
+     * @return SetJobReportCallbackURL
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetJobReportCallbackURL
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobReportCallbackURL
+     * @return SetJobReportCallbackURL
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetJobReportCallbackURL
      */
     public function getInJobReportCallbackURL()
     {
-      return $this->inJobReportCallbackURL;
+        return $this->inJobReportCallbackURL;
     }
 
     /**
      * @param string $inJobReportCallbackURL
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobReportCallbackURL
+     * @return SetJobReportCallbackURL
      */
     public function setInJobReportCallbackURL($inJobReportCallbackURL)
     {
-      $this->inJobReportCallbackURL = $inJobReportCallbackURL;
-      return $this;
+        $this->inJobReportCallbackURL = $inJobReportCallbackURL;
+        return $this;
     }
 
 }

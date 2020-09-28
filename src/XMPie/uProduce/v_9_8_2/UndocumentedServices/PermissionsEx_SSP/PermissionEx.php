@@ -27,9 +27,9 @@ class PermissionEx
      */
     public function __construct($m_Actor = null, $m_Resource = null, $m_Details = null)
     {
-      $this->m_Actor = $m_Actor;
-      $this->m_Resource = $m_Resource;
-      $this->m_Details = $m_Details;
+        $this->m_Actor = $m_Actor;
+        $this->m_Resource = $m_Resource;
+        $this->m_Details = $m_Details;
     }
 
     /**
@@ -37,17 +37,17 @@ class PermissionEx
      */
     public function getM_Actor()
     {
-      return $this->m_Actor;
+        return $this->m_Actor;
     }
 
     /**
      * @param PermissionEntity $m_Actor
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\PermissionEx
+     * @return PermissionEx
      */
     public function setM_Actor($m_Actor)
     {
-      $this->m_Actor = $m_Actor;
-      return $this;
+        $this->m_Actor = $m_Actor;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class PermissionEx
      */
     public function getM_Resource()
     {
-      return $this->m_Resource;
+        return $this->m_Resource;
     }
 
     /**
      * @param PermissionEntity $m_Resource
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\PermissionEx
+     * @return PermissionEx
      */
     public function setM_Resource($m_Resource)
     {
-      $this->m_Resource = $m_Resource;
-      return $this;
+        $this->m_Resource = $m_Resource;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class PermissionEx
      */
     public function getM_Details()
     {
-      return $this->m_Details;
+        return $this->m_Details;
     }
 
     /**
      * @param PermissionDetails $m_Details
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\PermissionEx
+     * @return PermissionEx
      */
     public function setM_Details($m_Details)
     {
-      $this->m_Details = $m_Details;
-      return $this;
+        $this->m_Details = $m_Details;
+        return $this;
     }
 
 }

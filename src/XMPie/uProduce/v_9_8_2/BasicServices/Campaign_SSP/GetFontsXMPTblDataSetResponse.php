@@ -15,7 +15,7 @@ class GetFontsXMPTblDataSetResponse
      */
     public function __construct($GetFontsXMPTblDataSetResult = null)
     {
-      $this->GetFontsXMPTblDataSetResult = $GetFontsXMPTblDataSetResult;
+        $this->GetFontsXMPTblDataSetResult = $GetFontsXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFontsXMPTblDataSetResponse
      */
     public function getGetFontsXMPTblDataSetResult()
     {
-      return $this->GetFontsXMPTblDataSetResult;
+        return $this->GetFontsXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetFontsXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetFontsXMPTblDataSetResponse
+     * @return GetFontsXMPTblDataSetResponse
      */
     public function setGetFontsXMPTblDataSetResult($GetFontsXMPTblDataSetResult)
     {
-      $this->GetFontsXMPTblDataSetResult = $GetFontsXMPTblDataSetResult;
-      return $this;
+        $this->GetFontsXMPTblDataSetResult = $GetFontsXMPTblDataSetResult;
+        return $this;
     }
 
 }

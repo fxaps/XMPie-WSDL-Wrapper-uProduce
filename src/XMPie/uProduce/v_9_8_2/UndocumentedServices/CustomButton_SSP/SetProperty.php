@@ -33,10 +33,10 @@ class SetProperty
      */
     public function __construct($inUsername = null, $inPassword = null, $inCustomButtonID = null, $inProp = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inCustomButtonID = $inCustomButtonID;
-      $this->inProp = $inProp;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inCustomButtonID = $inCustomButtonID;
+        $this->inProp = $inProp;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetProperty
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\CustomButton_SSP\SetProperty
+     * @return SetProperty
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetProperty
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\CustomButton_SSP\SetProperty
+     * @return SetProperty
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetProperty
      */
     public function getInCustomButtonID()
     {
-      return $this->inCustomButtonID;
+        return $this->inCustomButtonID;
     }
 
     /**
      * @param string $inCustomButtonID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\CustomButton_SSP\SetProperty
+     * @return SetProperty
      */
     public function setInCustomButtonID($inCustomButtonID)
     {
-      $this->inCustomButtonID = $inCustomButtonID;
-      return $this;
+        $this->inCustomButtonID = $inCustomButtonID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetProperty
      */
     public function getInProp()
     {
-      return $this->inProp;
+        return $this->inProp;
     }
 
     /**
      * @param Property $inProp
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\CustomButton_SSP\SetProperty
+     * @return SetProperty
      */
     public function setInProp($inProp)
     {
-      $this->inProp = $inProp;
-      return $this;
+        $this->inProp = $inProp;
+        return $this;
     }
 
 }

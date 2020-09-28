@@ -15,7 +15,7 @@ class UpdateADORsValuesForRecipientResponse
      */
     public function __construct($UpdateADORsValuesForRecipientResult = null)
     {
-      $this->UpdateADORsValuesForRecipientResult = $UpdateADORsValuesForRecipientResult;
+        $this->UpdateADORsValuesForRecipientResult = $UpdateADORsValuesForRecipientResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class UpdateADORsValuesForRecipientResponse
      */
     public function getUpdateADORsValuesForRecipientResult()
     {
-      return $this->UpdateADORsValuesForRecipientResult;
+        return $this->UpdateADORsValuesForRecipientResult;
     }
 
     /**
      * @param string $UpdateADORsValuesForRecipientResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\UpdateADORsValuesForRecipientResponse
+     * @return UpdateADORsValuesForRecipientResponse
      */
     public function setUpdateADORsValuesForRecipientResult($UpdateADORsValuesForRecipientResult)
     {
-      $this->UpdateADORsValuesForRecipientResult = $UpdateADORsValuesForRecipientResult;
-      return $this;
+        $this->UpdateADORsValuesForRecipientResult = $UpdateADORsValuesForRecipientResult;
+        return $this;
     }
 
 }

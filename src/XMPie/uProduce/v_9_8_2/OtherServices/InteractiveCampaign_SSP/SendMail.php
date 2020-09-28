@@ -99,21 +99,21 @@ class SendMail
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountName = null, $inCampaignName = null, $inICPName = null, $inRecipientIDs = null, $inEmailProviderID = null, $inEmailHeaderInfo = null, $inEmailBodyDocumentIDs = null, $inEmailBodyOptionsArray = null, $inErrorPolicy = null, $inXSLTemplatePath = null, $inSkipCondition = null, $inEventContext = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountName = $inAccountName;
-      $this->inCampaignName = $inCampaignName;
-      $this->inICPName = $inICPName;
-      $this->inRecipientIDs = $inRecipientIDs;
-      $this->inEmailProviderID = $inEmailProviderID;
-      $this->inEmailHeaderInfo = $inEmailHeaderInfo;
-      $this->inEmailBodyDocumentIDs = $inEmailBodyDocumentIDs;
-      $this->inEmailBodyOptionsArray = $inEmailBodyOptionsArray;
-      $this->inErrorPolicy = $inErrorPolicy;
-      $this->inXSLTemplatePath = $inXSLTemplatePath;
-      $this->inSkipCondition = $inSkipCondition;
-      $this->inEventContext = $inEventContext;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountName = $inAccountName;
+        $this->inCampaignName = $inCampaignName;
+        $this->inICPName = $inICPName;
+        $this->inRecipientIDs = $inRecipientIDs;
+        $this->inEmailProviderID = $inEmailProviderID;
+        $this->inEmailHeaderInfo = $inEmailHeaderInfo;
+        $this->inEmailBodyDocumentIDs = $inEmailBodyDocumentIDs;
+        $this->inEmailBodyOptionsArray = $inEmailBodyOptionsArray;
+        $this->inErrorPolicy = $inErrorPolicy;
+        $this->inXSLTemplatePath = $inXSLTemplatePath;
+        $this->inSkipCondition = $inSkipCondition;
+        $this->inEventContext = $inEventContext;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -121,17 +121,17 @@ class SendMail
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -139,17 +139,17 @@ class SendMail
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -157,17 +157,17 @@ class SendMail
      */
     public function getInAccountName()
     {
-      return $this->inAccountName;
+        return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInAccountName($inAccountName)
     {
-      $this->inAccountName = $inAccountName;
-      return $this;
+        $this->inAccountName = $inAccountName;
+        return $this;
     }
 
     /**
@@ -175,17 +175,17 @@ class SendMail
      */
     public function getInCampaignName()
     {
-      return $this->inCampaignName;
+        return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInCampaignName($inCampaignName)
     {
-      $this->inCampaignName = $inCampaignName;
-      return $this;
+        $this->inCampaignName = $inCampaignName;
+        return $this;
     }
 
     /**
@@ -193,17 +193,17 @@ class SendMail
      */
     public function getInICPName()
     {
-      return $this->inICPName;
+        return $this->inICPName;
     }
 
     /**
      * @param string $inICPName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInICPName($inICPName)
     {
-      $this->inICPName = $inICPName;
-      return $this;
+        $this->inICPName = $inICPName;
+        return $this;
     }
 
     /**
@@ -211,17 +211,17 @@ class SendMail
      */
     public function getInRecipientIDs()
     {
-      return $this->inRecipientIDs;
+        return $this->inRecipientIDs;
     }
 
     /**
      * @param ArrayOfString $inRecipientIDs
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInRecipientIDs($inRecipientIDs)
     {
-      $this->inRecipientIDs = $inRecipientIDs;
-      return $this;
+        $this->inRecipientIDs = $inRecipientIDs;
+        return $this;
     }
 
     /**
@@ -229,17 +229,17 @@ class SendMail
      */
     public function getInEmailProviderID()
     {
-      return $this->inEmailProviderID;
+        return $this->inEmailProviderID;
     }
 
     /**
      * @param string $inEmailProviderID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInEmailProviderID($inEmailProviderID)
     {
-      $this->inEmailProviderID = $inEmailProviderID;
-      return $this;
+        $this->inEmailProviderID = $inEmailProviderID;
+        return $this;
     }
 
     /**
@@ -247,17 +247,17 @@ class SendMail
      */
     public function getInEmailHeaderInfo()
     {
-      return $this->inEmailHeaderInfo;
+        return $this->inEmailHeaderInfo;
     }
 
     /**
      * @param EmailHeaderInfo $inEmailHeaderInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInEmailHeaderInfo($inEmailHeaderInfo)
     {
-      $this->inEmailHeaderInfo = $inEmailHeaderInfo;
-      return $this;
+        $this->inEmailHeaderInfo = $inEmailHeaderInfo;
+        return $this;
     }
 
     /**
@@ -265,17 +265,17 @@ class SendMail
      */
     public function getInEmailBodyDocumentIDs()
     {
-      return $this->inEmailBodyDocumentIDs;
+        return $this->inEmailBodyDocumentIDs;
     }
 
     /**
      * @param ArrayOfString $inEmailBodyDocumentIDs
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInEmailBodyDocumentIDs($inEmailBodyDocumentIDs)
     {
-      $this->inEmailBodyDocumentIDs = $inEmailBodyDocumentIDs;
-      return $this;
+        $this->inEmailBodyDocumentIDs = $inEmailBodyDocumentIDs;
+        return $this;
     }
 
     /**
@@ -283,17 +283,17 @@ class SendMail
      */
     public function getInEmailBodyOptionsArray()
     {
-      return $this->inEmailBodyOptionsArray;
+        return $this->inEmailBodyOptionsArray;
     }
 
     /**
      * @param ArrayOfEmailBodyOptions $inEmailBodyOptionsArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInEmailBodyOptionsArray($inEmailBodyOptionsArray)
     {
-      $this->inEmailBodyOptionsArray = $inEmailBodyOptionsArray;
-      return $this;
+        $this->inEmailBodyOptionsArray = $inEmailBodyOptionsArray;
+        return $this;
     }
 
     /**
@@ -301,17 +301,17 @@ class SendMail
      */
     public function getInErrorPolicy()
     {
-      return $this->inErrorPolicy;
+        return $this->inErrorPolicy;
     }
 
     /**
      * @param int $inErrorPolicy
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInErrorPolicy($inErrorPolicy)
     {
-      $this->inErrorPolicy = $inErrorPolicy;
-      return $this;
+        $this->inErrorPolicy = $inErrorPolicy;
+        return $this;
     }
 
     /**
@@ -319,17 +319,17 @@ class SendMail
      */
     public function getInXSLTemplatePath()
     {
-      return $this->inXSLTemplatePath;
+        return $this->inXSLTemplatePath;
     }
 
     /**
      * @param string $inXSLTemplatePath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInXSLTemplatePath($inXSLTemplatePath)
     {
-      $this->inXSLTemplatePath = $inXSLTemplatePath;
-      return $this;
+        $this->inXSLTemplatePath = $inXSLTemplatePath;
+        return $this;
     }
 
     /**
@@ -337,17 +337,17 @@ class SendMail
      */
     public function getInSkipCondition()
     {
-      return $this->inSkipCondition;
+        return $this->inSkipCondition;
     }
 
     /**
      * @param string $inSkipCondition
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInSkipCondition($inSkipCondition)
     {
-      $this->inSkipCondition = $inSkipCondition;
-      return $this;
+        $this->inSkipCondition = $inSkipCondition;
+        return $this;
     }
 
     /**
@@ -355,17 +355,17 @@ class SendMail
      */
     public function getInEventContext()
     {
-      return $this->inEventContext;
+        return $this->inEventContext;
     }
 
     /**
      * @param string $inEventContext
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInEventContext($inEventContext)
     {
-      $this->inEventContext = $inEventContext;
-      return $this;
+        $this->inEventContext = $inEventContext;
+        return $this;
     }
 
     /**
@@ -373,17 +373,17 @@ class SendMail
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SendMail
+     * @return SendMail
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

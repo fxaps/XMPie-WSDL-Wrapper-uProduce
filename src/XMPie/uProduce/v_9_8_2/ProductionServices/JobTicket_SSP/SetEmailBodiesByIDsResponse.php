@@ -15,7 +15,7 @@ class SetEmailBodiesByIDsResponse
      */
     public function __construct($SetEmailBodiesByIDsResult = null)
     {
-      $this->SetEmailBodiesByIDsResult = $SetEmailBodiesByIDsResult;
+        $this->SetEmailBodiesByIDsResult = $SetEmailBodiesByIDsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetEmailBodiesByIDsResponse
      */
     public function getSetEmailBodiesByIDsResult()
     {
-      return $this->SetEmailBodiesByIDsResult;
+        return $this->SetEmailBodiesByIDsResult;
     }
 
     /**
      * @param boolean $SetEmailBodiesByIDsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailBodiesByIDsResponse
+     * @return SetEmailBodiesByIDsResponse
      */
     public function setSetEmailBodiesByIDsResult($SetEmailBodiesByIDsResult)
     {
-      $this->SetEmailBodiesByIDsResult = $SetEmailBodiesByIDsResult;
-      return $this;
+        $this->SetEmailBodiesByIDsResult = $SetEmailBodiesByIDsResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetFTPAddressResponse
      */
     public function __construct($GetFTPAddressResult = null)
     {
-      $this->GetFTPAddressResult = $GetFTPAddressResult;
+        $this->GetFTPAddressResult = $GetFTPAddressResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFTPAddressResponse
      */
     public function getGetFTPAddressResult()
     {
-      return $this->GetFTPAddressResult;
+        return $this->GetFTPAddressResult;
     }
 
     /**
      * @param string $GetFTPAddressResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFTPAddressResponse
+     * @return GetFTPAddressResponse
      */
     public function setGetFTPAddressResult($GetFTPAddressResult)
     {
-      $this->GetFTPAddressResult = $GetFTPAddressResult;
-      return $this;
+        $this->GetFTPAddressResult = $GetFTPAddressResult;
+        return $this;
     }
 
 }

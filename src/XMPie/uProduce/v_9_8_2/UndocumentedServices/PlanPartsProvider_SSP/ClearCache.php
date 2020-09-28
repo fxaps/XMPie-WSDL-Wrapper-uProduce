@@ -39,11 +39,11 @@ class ClearCache
      */
     public function __construct($inUsername = null, $inPassword = null, $inDLLName = null, $inFuncName = null, $expirationDays = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDLLName = $inDLLName;
-      $this->inFuncName = $inFuncName;
-      $this->expirationDays = $expirationDays;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDLLName = $inDLLName;
+        $this->inFuncName = $inFuncName;
+        $this->expirationDays = $expirationDays;
     }
 
     /**
@@ -51,17 +51,17 @@ class ClearCache
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\ClearCache
+     * @return ClearCache
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class ClearCache
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\ClearCache
+     * @return ClearCache
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class ClearCache
      */
     public function getInDLLName()
     {
-      return $this->inDLLName;
+        return $this->inDLLName;
     }
 
     /**
      * @param string $inDLLName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\ClearCache
+     * @return ClearCache
      */
     public function setInDLLName($inDLLName)
     {
-      $this->inDLLName = $inDLLName;
-      return $this;
+        $this->inDLLName = $inDLLName;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class ClearCache
      */
     public function getInFuncName()
     {
-      return $this->inFuncName;
+        return $this->inFuncName;
     }
 
     /**
      * @param string $inFuncName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\ClearCache
+     * @return ClearCache
      */
     public function setInFuncName($inFuncName)
     {
-      $this->inFuncName = $inFuncName;
-      return $this;
+        $this->inFuncName = $inFuncName;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class ClearCache
      */
     public function getExpirationDays()
     {
-      return $this->expirationDays;
+        return $this->expirationDays;
     }
 
     /**
      * @param string $expirationDays
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\ClearCache
+     * @return ClearCache
      */
     public function setExpirationDays($expirationDays)
     {
-      $this->expirationDays = $expirationDays;
-      return $this;
+        $this->expirationDays = $expirationDays;
+        return $this;
     }
 
 }

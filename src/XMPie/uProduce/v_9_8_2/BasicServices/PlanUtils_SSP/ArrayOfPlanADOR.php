@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP;
 
-class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfPlanADOR implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     protected $PlanADOR = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function getPlanADOR()
     {
-      return $this->PlanADOR;
+        return $this->PlanADOR;
     }
 
     /**
      * @param PlanADOR[] $PlanADOR
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\ArrayOfPlanADOR
+     * @return ArrayOfPlanADOR
      */
     public function setPlanADOR(array $PlanADOR = null)
     {
-      $this->PlanADOR = $PlanADOR;
-      return $this;
+        $this->PlanADOR = $PlanADOR;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->PlanADOR[$offset]);
+        return isset($this->PlanADOR[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->PlanADOR[$offset];
+        return $this->PlanADOR[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->PlanADOR[] = $value;
-      } else {
-        $this->PlanADOR[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->PlanADOR[] = $value;
+        } else {
+            $this->PlanADOR[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->PlanADOR[$offset]);
+        unset($this->PlanADOR[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->PlanADOR);
+        return current($this->PlanADOR);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->PlanADOR);
+        next($this->PlanADOR);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->PlanADOR);
+        return key($this->PlanADOR);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->PlanADOR);
+        reset($this->PlanADOR);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfPlanADOR implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->PlanADOR);
+        return count($this->PlanADOR);
     }
 
 }

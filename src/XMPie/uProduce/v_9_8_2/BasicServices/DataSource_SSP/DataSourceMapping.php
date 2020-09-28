@@ -15,7 +15,7 @@ class DataSourceMapping
      */
     public function __construct($ID = null)
     {
-      $this->ID = $ID;
+        $this->ID = $ID;
     }
 
     /**
@@ -23,17 +23,17 @@ class DataSourceMapping
      */
     public function getID()
     {
-      return $this->ID;
+        return $this->ID;
     }
 
     /**
      * @param IDMapping $ID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\DataSourceMapping
+     * @return DataSourceMapping
      */
     public function setID($ID)
     {
-      $this->ID = $ID;
-      return $this;
+        $this->ID = $ID;
+        return $this;
     }
 
 }

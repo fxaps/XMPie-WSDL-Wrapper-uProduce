@@ -15,7 +15,7 @@ class AddFileToFolderResponse
      */
     public function __construct($AddFileToFolderResult = null)
     {
-      $this->AddFileToFolderResult = $AddFileToFolderResult;
+        $this->AddFileToFolderResult = $AddFileToFolderResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddFileToFolderResponse
      */
     public function getAddFileToFolderResult()
     {
-      return $this->AddFileToFolderResult;
+        return $this->AddFileToFolderResult;
     }
 
     /**
      * @param string $AddFileToFolderResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\AddFileToFolderResponse
+     * @return AddFileToFolderResponse
      */
     public function setAddFileToFolderResult($AddFileToFolderResult)
     {
-      $this->AddFileToFolderResult = $AddFileToFolderResult;
-      return $this;
+        $this->AddFileToFolderResult = $AddFileToFolderResult;
+        return $this;
     }
 
 }

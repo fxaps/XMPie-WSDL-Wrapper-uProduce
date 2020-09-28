@@ -15,7 +15,7 @@ class HostTablesResponse
      */
     public function __construct($HostTablesResult = null)
     {
-      $this->HostTablesResult = $HostTablesResult;
+        $this->HostTablesResult = $HostTablesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class HostTablesResponse
      */
     public function getHostTablesResult()
     {
-      return $this->HostTablesResult;
+        return $this->HostTablesResult;
     }
 
     /**
      * @param string $HostTablesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\HostTablesResponse
+     * @return HostTablesResponse
      */
     public function setHostTablesResult($HostTablesResult)
     {
-      $this->HostTablesResult = $HostTablesResult;
-      return $this;
+        $this->HostTablesResult = $HostTablesResult;
+        return $this;
     }
 
 }

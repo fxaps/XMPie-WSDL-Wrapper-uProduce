@@ -15,7 +15,7 @@ class AddPrintResponse
      */
     public function __construct($AddPrintResult = null)
     {
-      $this->AddPrintResult = $AddPrintResult;
+        $this->AddPrintResult = $AddPrintResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddPrintResponse
      */
     public function getAddPrintResult()
     {
-      return $this->AddPrintResult;
+        return $this->AddPrintResult;
     }
 
     /**
      * @param boolean $AddPrintResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddPrintResponse
+     * @return AddPrintResponse
      */
     public function setAddPrintResult($AddPrintResult)
     {
-      $this->AddPrintResult = $AddPrintResult;
-      return $this;
+        $this->AddPrintResult = $AddPrintResult;
+        return $this;
     }
 
 }

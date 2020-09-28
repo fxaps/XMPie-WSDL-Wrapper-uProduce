@@ -33,10 +33,10 @@ class ExportAccountEmailSubscribers
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountID = $inAccountID;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountID = $inAccountID;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -44,17 +44,17 @@ class ExportAccountEmailSubscribers
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ExportAccountEmailSubscribers
+     * @return ExportAccountEmailSubscribers
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class ExportAccountEmailSubscribers
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ExportAccountEmailSubscribers
+     * @return ExportAccountEmailSubscribers
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class ExportAccountEmailSubscribers
      */
     public function getInAccountID()
     {
-      return $this->inAccountID;
+        return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ExportAccountEmailSubscribers
+     * @return ExportAccountEmailSubscribers
      */
     public function setInAccountID($inAccountID)
     {
-      $this->inAccountID = $inAccountID;
-      return $this;
+        $this->inAccountID = $inAccountID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class ExportAccountEmailSubscribers
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ExportAccountEmailSubscribers
+     * @return ExportAccountEmailSubscribers
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

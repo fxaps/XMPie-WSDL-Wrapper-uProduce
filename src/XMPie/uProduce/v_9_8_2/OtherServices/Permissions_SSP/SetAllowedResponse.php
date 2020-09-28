@@ -15,7 +15,7 @@ class SetAllowedResponse
      */
     public function __construct($SetAllowedResult = null)
     {
-      $this->SetAllowedResult = $SetAllowedResult;
+        $this->SetAllowedResult = $SetAllowedResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetAllowedResponse
      */
     public function getSetAllowedResult()
     {
-      return $this->SetAllowedResult;
+        return $this->SetAllowedResult;
     }
 
     /**
      * @param boolean $SetAllowedResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\SetAllowedResponse
+     * @return SetAllowedResponse
      */
     public function setSetAllowedResult($SetAllowedResult)
     {
-      $this->SetAllowedResult = $SetAllowedResult;
-      return $this;
+        $this->SetAllowedResult = $SetAllowedResult;
+        return $this;
     }
 
 }

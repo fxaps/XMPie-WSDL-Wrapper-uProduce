@@ -15,7 +15,7 @@ class TestResponse
      */
     public function __construct($TestResult = null)
     {
-      $this->TestResult = $TestResult;
+        $this->TestResult = $TestResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class TestResponse
      */
     public function getTestResult()
     {
-      return $this->TestResult;
+        return $this->TestResult;
     }
 
     /**
      * @param string $TestResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\TestResponse
+     * @return TestResponse
      */
     public function setTestResult($TestResult)
     {
-      $this->TestResult = $TestResult;
-      return $this;
+        $this->TestResult = $TestResult;
+        return $this;
     }
 
 }

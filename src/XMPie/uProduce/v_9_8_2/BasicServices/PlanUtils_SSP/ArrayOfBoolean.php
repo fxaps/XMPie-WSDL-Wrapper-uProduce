@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP;
 
-class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfBoolean implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     protected $boolean = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function getBoolean()
     {
-      return $this->boolean;
+        return $this->boolean;
     }
 
     /**
      * @param boolean[] $boolean
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\ArrayOfBoolean
+     * @return ArrayOfBoolean
      */
     public function setBoolean(array $boolean = null)
     {
-      $this->boolean = $boolean;
-      return $this;
+        $this->boolean = $boolean;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->boolean[$offset]);
+        return isset($this->boolean[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->boolean[$offset];
+        return $this->boolean[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->boolean[] = $value;
-      } else {
-        $this->boolean[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->boolean[] = $value;
+        } else {
+            $this->boolean[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->boolean[$offset]);
+        unset($this->boolean[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->boolean);
+        return current($this->boolean);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->boolean);
+        next($this->boolean);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->boolean);
+        return key($this->boolean);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->boolean);
+        reset($this->boolean);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfBoolean implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->boolean);
+        return count($this->boolean);
     }
 
 }

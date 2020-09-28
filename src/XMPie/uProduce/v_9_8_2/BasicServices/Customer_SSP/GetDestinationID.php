@@ -27,9 +27,9 @@ class GetDestinationID
      */
     public function __construct($inUsername = null, $inPassword = null, $inDestinationName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDestinationName = $inDestinationName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDestinationName = $inDestinationName;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetDestinationID
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetDestinationID
+     * @return GetDestinationID
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetDestinationID
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetDestinationID
+     * @return GetDestinationID
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetDestinationID
      */
     public function getInDestinationName()
     {
-      return $this->inDestinationName;
+        return $this->inDestinationName;
     }
 
     /**
      * @param string $inDestinationName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetDestinationID
+     * @return GetDestinationID
      */
     public function setInDestinationName($inDestinationName)
     {
-      $this->inDestinationName = $inDestinationName;
-      return $this;
+        $this->inDestinationName = $inDestinationName;
+        return $this;
     }
 
 }

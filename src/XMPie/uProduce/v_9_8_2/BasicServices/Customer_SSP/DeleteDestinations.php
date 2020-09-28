@@ -27,9 +27,9 @@ class DeleteDestinations
      */
     public function __construct($inUsername = null, $inPassword = null, $inDestinationIDArray = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDestinationIDArray = $inDestinationIDArray;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDestinationIDArray = $inDestinationIDArray;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteDestinations
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteDestinations
+     * @return DeleteDestinations
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteDestinations
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteDestinations
+     * @return DeleteDestinations
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteDestinations
      */
     public function getInDestinationIDArray()
     {
-      return $this->inDestinationIDArray;
+        return $this->inDestinationIDArray;
     }
 
     /**
      * @param ArrayOfString $inDestinationIDArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteDestinations
+     * @return DeleteDestinations
      */
     public function setInDestinationIDArray($inDestinationIDArray)
     {
-      $this->inDestinationIDArray = $inDestinationIDArray;
-      return $this;
+        $this->inDestinationIDArray = $inDestinationIDArray;
+        return $this;
     }
 
 }

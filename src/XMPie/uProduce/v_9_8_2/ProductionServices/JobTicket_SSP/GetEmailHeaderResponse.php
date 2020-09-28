@@ -15,7 +15,7 @@ class GetEmailHeaderResponse
      */
     public function __construct($GetEmailHeaderResult = null)
     {
-      $this->GetEmailHeaderResult = $GetEmailHeaderResult;
+        $this->GetEmailHeaderResult = $GetEmailHeaderResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetEmailHeaderResponse
      */
     public function getGetEmailHeaderResult()
     {
-      return $this->GetEmailHeaderResult;
+        return $this->GetEmailHeaderResult;
     }
 
     /**
      * @param EmailHeaderInfo $GetEmailHeaderResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetEmailHeaderResponse
+     * @return GetEmailHeaderResponse
      */
     public function setGetEmailHeaderResult($GetEmailHeaderResult)
     {
-      $this->GetEmailHeaderResult = $GetEmailHeaderResult;
-      return $this;
+        $this->GetEmailHeaderResult = $GetEmailHeaderResult;
+        return $this;
     }
 
 }

@@ -3,254 +3,255 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP;
 
 
+use SoapClient;
 use SoapFault;
 
 /**
  * Campaign Web Service.
  */
-class Campaign_SSP extends \SoapClient
+class Campaign_SSP extends SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array (
-  'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNew',
-  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfProperty',
-  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\Property',
-  'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewResponse',
-  'CreateNewFromCPKG' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewFromCPKG',
-  'CreateNewFromCPKGResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewFromCPKGResponse',
-  'CreateNewFromVPC' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewFromVPC',
-  'CreateNewFromVPCResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewFromVPCResponse',
-  'GetCreateNewFromCPKGResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetCreateNewFromCPKGResult',
-  'GetCreateNewFromCPKGResultResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetCreateNewFromCPKGResultResponse',
-  'CreateCampaignResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateCampaignResult',
-  'GetCreateNewFromVPCResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetCreateNewFromVPCResult',
-  'GetCreateNewFromVPCResultResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetCreateNewFromVPCResultResponse',
-  'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\Delete',
-  'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteResponse',
-  'CreateFullCPKG' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateFullCPKG',
-  'CreateFullCPKGResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateFullCPKGResponse',
-  'CreateCPKG' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateCPKG',
-  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfString',
-  'CreateCPKGResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateCPKGResponse',
-  'GetAccount' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAccount',
-  'GetAccountResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAccountResponse',
-  'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetName',
-  'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetNameResponse',
-  'GetFolderPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFolderPath',
-  'GetFolderPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFolderPathResponse',
-  'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetProperty',
-  'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPropertyResponse',
-  'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetProperties',
-  'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPropertiesResponse',
-  'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAllProperties',
-  'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAllPropertiesResponse',
-  'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSet',
-  'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSetResponse',
-  'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSetResult',
-  'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetXMPTblDataSet',
-  'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetXMPTblDataSetResponse',
-  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\XMPTblDataSet',
-  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfXMPTbl',
-  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\XMPTbl',
-  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfXMPTblColumn',
-  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\XMPTblColumn',
-  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfXMPTblRow',
-  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\XMPTblRow',
-  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfXMPRowField',
-  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\XMPRowField',
-  'SetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetProperty',
-  'SetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetPropertyResponse',
-  'SetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetProperties',
-  'SetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetPropertiesResponse',
-  'GetDocumentID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentID',
-  'GetDocumentIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentIDResponse',
-  'GetDocuments' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocuments',
-  'GetDocumentsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsResponse',
-  'GetDocumentsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsDataSet',
-  'GetDocumentsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsDataSetResponse',
-  'GetDocumentsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsDataSetResult',
-  'GetDocumentsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsXMPTblDataSet',
-  'GetDocumentsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsXMPTblDataSetResponse',
-  'DeleteDocuments' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteDocuments',
-  'DeleteDocumentsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteDocumentsResponse',
-  'DeleteAllDocuments' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllDocuments',
-  'DeleteAllDocumentsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllDocumentsResponse',
-  'GetDataSourceID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourceID',
-  'GetDataSourceIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourceIDResponse',
-  'GetDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSources',
-  'GetDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesResponse',
-  'GetDataSourcesDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesDataSet',
-  'GetDataSourcesDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesDataSetResponse',
-  'GetDataSourcesDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesDataSetResult',
-  'GetDataSourcesXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesXMPTblDataSet',
-  'GetDataSourcesXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesXMPTblDataSetResponse',
-  'DeleteDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteDataSources',
-  'DeleteDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteDataSourcesResponse',
-  'DeleteAllDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllDataSources',
-  'DeleteAllDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllDataSourcesResponse',
-  'GetAssetSourceID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourceID',
-  'GetAssetSourceIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourceIDResponse',
-  'GetAssetSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSources',
-  'GetAssetSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesResponse',
-  'GetAssetSourcesDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesDataSet',
-  'GetAssetSourcesDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesDataSetResponse',
-  'GetAssetSourcesDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesDataSetResult',
-  'GetAssetSourcesXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesXMPTblDataSet',
-  'GetAssetSourcesXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesXMPTblDataSetResponse',
-  'DeleteAssetSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAssetSources',
-  'DeleteAssetSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAssetSourcesResponse',
-  'DeleteAllAssetSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllAssetSources',
-  'DeleteAllAssetSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllAssetSourcesResponse',
-  'GetTouchPointID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointID',
-  'GetTouchPointIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointIDResponse',
-  'GetTouchPoints' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPoints',
-  'GetTouchPointsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsResponse',
-  'GetTouchPointsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsDataSet',
-  'GetTouchPointsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsDataSetResponse',
-  'GetTouchPointsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsDataSetResult',
-  'GetTouchPointsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsXMPTblDataSet',
-  'GetTouchPointsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsXMPTblDataSetResponse',
-  'DeleteTouchPoints' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteTouchPoints',
-  'DeleteTouchPointsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteTouchPointsResponse',
-  'DeleteAllTouchPoints' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllTouchPoints',
-  'DeleteAllTouchPointsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllTouchPointsResponse',
-  'GetFontsFolderPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsFolderPath',
-  'GetFontsFolderPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsFolderPathResponse',
-  'GetFontID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontID',
-  'GetFontIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontIDResponse',
-  'GetFonts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFonts',
-  'GetFontsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsResponse',
-  'GetFontsModificationDate' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsModificationDate',
-  'GetFontsModificationDateResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsModificationDateResponse',
-  'GetFontsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsDataSet',
-  'GetFontsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsDataSetResponse',
-  'GetFontsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsDataSetResult',
-  'GetFontsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsXMPTblDataSet',
-  'GetFontsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsXMPTblDataSetResponse',
-  'DeleteFonts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteFonts',
-  'DeleteFontsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteFontsResponse',
-  'DeleteAllFonts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllFonts',
-  'DeleteAllFontsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllFontsResponse',
-  'GetPlan' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlan',
-  'GetPlanResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanResponse',
-  'GetPlanDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanDataSet',
-  'GetPlanDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanDataSetResponse',
-  'GetPlanDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanDataSetResult',
-  'GetPlanXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanXMPTblDataSet',
-  'GetPlanXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanXMPTblDataSetResponse',
-  'DeletePlan' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePlan',
-  'DeletePlanResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePlanResponse',
-  'GetEmailMarketingID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingID',
-  'GetEmailMarketingIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingIDResponse',
-  'GetEmailMarketings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketings',
-  'GetEmailMarketingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsResponse',
-  'GetEmailMarketingsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsDataSet',
-  'GetEmailMarketingsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsDataSetResponse',
-  'GetEmailMarketingsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsDataSetResult',
-  'GetEmailMarketingsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsXMPTblDataSet',
-  'GetEmailMarketingsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsXMPTblDataSetResponse',
-  'DeleteEmailMarketings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteEmailMarketings',
-  'DeleteEmailMarketingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteEmailMarketingsResponse',
-  'DeleteAllEmailMarketings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllEmailMarketings',
-  'DeleteAllEmailMarketingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllEmailMarketingsResponse',
-  'GetPortID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortID',
-  'GetPortIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortIDResponse',
-  'GetPorts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPorts',
-  'GetPortsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsResponse',
-  'GetPortsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsDataSet',
-  'GetPortsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsDataSetResponse',
-  'GetPortsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsDataSetResult',
-  'GetPortsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsXMPTblDataSet',
-  'GetPortsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsXMPTblDataSetResponse',
-  'DeletePorts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePorts',
-  'DeletePortsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePortsResponse',
-  'DeleteAllPorts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllPorts',
-  'DeleteAllPortsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllPortsResponse',
-  'GetPopulationGUID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationGUID',
-  'GetPopulationGUIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationGUIDResponse',
-  'GetPopulations' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulations',
-  'GetPopulationsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsResponse',
-  'GetPopulationsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsDataSet',
-  'GetPopulationsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsDataSetResponse',
-  'GetPopulationsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsDataSetResult',
-  'GetPopulationsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsXMPTblDataSet',
-  'GetPopulationsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsXMPTblDataSetResponse',
-  'DeletePopulations' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePopulations',
-  'DeletePopulationsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePopulationsResponse',
-  'DeleteAllPopulations' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllPopulations',
-  'DeleteAllPopulationsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllPopulationsResponse',
-  'GetLastJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLastJob',
-  'GetLastJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLastJobResponse',
-  'GetLastEmailMarketing' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLastEmailMarketing',
-  'GetLastEmailMarketingResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLastEmailMarketingResponse',
-  'GetLocalEmailFileNames' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLocalEmailFileNames',
-  'GetLocalEmailFileNamesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLocalEmailFileNamesResponse',
-  'GetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetID',
-  'GetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetIDResponse',
-  'GetUCreateXMSiteDefinitionsPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetUCreateXMSiteDefinitionsPath',
-  'GetUCreateXMSiteDefinitionsPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetUCreateXMSiteDefinitionsPathResponse',
-  'GetADORsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsDataSet',
-  'GetADORsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsDataSetResponse',
-  'GetADORsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsDataSetResult',
-  'GetADORsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsXMPTblDataSet',
-  'GetADORsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsXMPTblDataSetResponse',
-  'GetTrackedADORNames' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTrackedADORNames',
-  'GetTrackedADORNamesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTrackedADORNamesResponse',
-  'SetTrackedADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetTrackedADORs',
-  'SetTrackedADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetTrackedADORsResponse',
-  'SetTrackAllTextADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetTrackAllTextADORs',
-  'SetTrackAllTextADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetTrackAllTextADORsResponse',
-  'GetTrackAllTextADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTrackAllTextADORs',
-  'GetTrackAllTextADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTrackAllTextADORsResponse',
-  'IsExist' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\IsExist',
-  'IsExistResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\IsExistResponse',
-  'SetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetSettings',
-  'ArrayOfSetting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfSetting',
-  'Setting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\Setting',
-  'SetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetSettingsResponse',
-  'GetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetSettings',
-  'GetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetSettingsResponse',
-  'DeleteSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteSettings',
-  'DeleteSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteSettingsResponse',
-  'GetADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORs',
-  'GetADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsResponse',
-  'ArrayOfPlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfPlanObject',
-  'PlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\PlanObject',
-  'CloneCampaign' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneCustom',
-  'CloneResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneResponse',
-  'CampaignMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CampaignMapping',
-  'IDMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\IDMapping',
-  'PlanMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\PlanMapping',
-  'ArrayOfDocumentMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfDocumentMapping',
-  'DocumentMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DocumentMapping',
-  'ArrayOfDataSourceMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfDataSourceMapping',
-  'DataSourceMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DataSourceMapping',
-  'ArrayOfAssetSourceMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfAssetSourceMapping',
-  'AssetSourceMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\AssetSourceMapping',
-  'CloneFull' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneFull',
-  'CloneFullResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneFullResponse',
-  'CloneAllFonts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneAllFonts',
-  'CloneAllFontsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneAllFontsResponse',
-  'CreateNewAdditionalField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewAdditionalField',
-  'CreateNewAdditionalFieldResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewAdditionalFieldResponse',
-  'SetAdditionalFieldDefaultValue' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldDefaultValue',
-  'SetAdditionalFieldDefaultValueResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldDefaultValueResponse',
-  'GetAdditionalFieldDefaultValue' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAdditionalFieldDefaultValue',
-  'GetAdditionalFieldDefaultValueResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAdditionalFieldDefaultValueResponse',
-  'GetAdditionalFields' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAdditionalFields',
-  'GetAdditionalFieldsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAdditionalFieldsResponse',
-  'DeleteAdditionalFields' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAdditionalFields',
-  'DeleteAdditionalFieldsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAdditionalFieldsResponse',
-  'SetAdditionalFieldValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldValues',
-  'SetAdditionalFieldValuesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldValuesResponse',
-  'SetAdditionalFieldValuesForRecipients' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldValuesForRecipients',
-  'SetAdditionalFieldValuesForRecipientsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldValuesForRecipientsResponse',
-  'DeleteAdditionalFieldValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAdditionalFieldValues',
-  'DeleteAdditionalFieldValuesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAdditionalFieldValuesResponse',
-);
+    private static $classmap = array(
+        'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNew',
+        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfProperty',
+        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\Property',
+        'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewResponse',
+        'CreateNewFromCPKG' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewFromCPKG',
+        'CreateNewFromCPKGResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewFromCPKGResponse',
+        'CreateNewFromVPC' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewFromVPC',
+        'CreateNewFromVPCResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewFromVPCResponse',
+        'GetCreateNewFromCPKGResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetCreateNewFromCPKGResult',
+        'GetCreateNewFromCPKGResultResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetCreateNewFromCPKGResultResponse',
+        'CreateCampaignResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateCampaignResult',
+        'GetCreateNewFromVPCResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetCreateNewFromVPCResult',
+        'GetCreateNewFromVPCResultResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetCreateNewFromVPCResultResponse',
+        'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\Delete',
+        'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteResponse',
+        'CreateFullCPKG' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateFullCPKG',
+        'CreateFullCPKGResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateFullCPKGResponse',
+        'CreateCPKG' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateCPKG',
+        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfString',
+        'CreateCPKGResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateCPKGResponse',
+        'GetAccount' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAccount',
+        'GetAccountResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAccountResponse',
+        'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetName',
+        'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetNameResponse',
+        'GetFolderPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFolderPath',
+        'GetFolderPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFolderPathResponse',
+        'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetProperty',
+        'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPropertyResponse',
+        'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetProperties',
+        'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPropertiesResponse',
+        'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAllProperties',
+        'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAllPropertiesResponse',
+        'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSet',
+        'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSetResponse',
+        'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSetResult',
+        'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetXMPTblDataSet',
+        'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetXMPTblDataSetResponse',
+        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\XMPTblDataSet',
+        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfXMPTbl',
+        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\XMPTbl',
+        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfXMPTblColumn',
+        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\XMPTblColumn',
+        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfXMPTblRow',
+        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\XMPTblRow',
+        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfXMPRowField',
+        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\XMPRowField',
+        'SetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetProperty',
+        'SetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetPropertyResponse',
+        'SetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetProperties',
+        'SetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetPropertiesResponse',
+        'GetDocumentID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentID',
+        'GetDocumentIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentIDResponse',
+        'GetDocuments' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocuments',
+        'GetDocumentsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsResponse',
+        'GetDocumentsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsDataSet',
+        'GetDocumentsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsDataSetResponse',
+        'GetDocumentsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsDataSetResult',
+        'GetDocumentsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsXMPTblDataSet',
+        'GetDocumentsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDocumentsXMPTblDataSetResponse',
+        'DeleteDocuments' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteDocuments',
+        'DeleteDocumentsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteDocumentsResponse',
+        'DeleteAllDocuments' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllDocuments',
+        'DeleteAllDocumentsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllDocumentsResponse',
+        'GetDataSourceID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourceID',
+        'GetDataSourceIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourceIDResponse',
+        'GetDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSources',
+        'GetDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesResponse',
+        'GetDataSourcesDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesDataSet',
+        'GetDataSourcesDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesDataSetResponse',
+        'GetDataSourcesDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesDataSetResult',
+        'GetDataSourcesXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesXMPTblDataSet',
+        'GetDataSourcesXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetDataSourcesXMPTblDataSetResponse',
+        'DeleteDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteDataSources',
+        'DeleteDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteDataSourcesResponse',
+        'DeleteAllDataSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllDataSources',
+        'DeleteAllDataSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllDataSourcesResponse',
+        'GetAssetSourceID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourceID',
+        'GetAssetSourceIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourceIDResponse',
+        'GetAssetSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSources',
+        'GetAssetSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesResponse',
+        'GetAssetSourcesDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesDataSet',
+        'GetAssetSourcesDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesDataSetResponse',
+        'GetAssetSourcesDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesDataSetResult',
+        'GetAssetSourcesXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesXMPTblDataSet',
+        'GetAssetSourcesXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAssetSourcesXMPTblDataSetResponse',
+        'DeleteAssetSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAssetSources',
+        'DeleteAssetSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAssetSourcesResponse',
+        'DeleteAllAssetSources' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllAssetSources',
+        'DeleteAllAssetSourcesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllAssetSourcesResponse',
+        'GetTouchPointID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointID',
+        'GetTouchPointIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointIDResponse',
+        'GetTouchPoints' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPoints',
+        'GetTouchPointsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsResponse',
+        'GetTouchPointsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsDataSet',
+        'GetTouchPointsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsDataSetResponse',
+        'GetTouchPointsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsDataSetResult',
+        'GetTouchPointsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsXMPTblDataSet',
+        'GetTouchPointsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTouchPointsXMPTblDataSetResponse',
+        'DeleteTouchPoints' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteTouchPoints',
+        'DeleteTouchPointsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteTouchPointsResponse',
+        'DeleteAllTouchPoints' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllTouchPoints',
+        'DeleteAllTouchPointsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllTouchPointsResponse',
+        'GetFontsFolderPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsFolderPath',
+        'GetFontsFolderPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsFolderPathResponse',
+        'GetFontID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontID',
+        'GetFontIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontIDResponse',
+        'GetFonts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFonts',
+        'GetFontsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsResponse',
+        'GetFontsModificationDate' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsModificationDate',
+        'GetFontsModificationDateResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsModificationDateResponse',
+        'GetFontsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsDataSet',
+        'GetFontsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsDataSetResponse',
+        'GetFontsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsDataSetResult',
+        'GetFontsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsXMPTblDataSet',
+        'GetFontsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetFontsXMPTblDataSetResponse',
+        'DeleteFonts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteFonts',
+        'DeleteFontsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteFontsResponse',
+        'DeleteAllFonts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllFonts',
+        'DeleteAllFontsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllFontsResponse',
+        'GetPlan' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlan',
+        'GetPlanResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanResponse',
+        'GetPlanDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanDataSet',
+        'GetPlanDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanDataSetResponse',
+        'GetPlanDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanDataSetResult',
+        'GetPlanXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanXMPTblDataSet',
+        'GetPlanXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPlanXMPTblDataSetResponse',
+        'DeletePlan' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePlan',
+        'DeletePlanResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePlanResponse',
+        'GetEmailMarketingID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingID',
+        'GetEmailMarketingIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingIDResponse',
+        'GetEmailMarketings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketings',
+        'GetEmailMarketingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsResponse',
+        'GetEmailMarketingsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsDataSet',
+        'GetEmailMarketingsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsDataSetResponse',
+        'GetEmailMarketingsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsDataSetResult',
+        'GetEmailMarketingsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsXMPTblDataSet',
+        'GetEmailMarketingsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetEmailMarketingsXMPTblDataSetResponse',
+        'DeleteEmailMarketings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteEmailMarketings',
+        'DeleteEmailMarketingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteEmailMarketingsResponse',
+        'DeleteAllEmailMarketings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllEmailMarketings',
+        'DeleteAllEmailMarketingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllEmailMarketingsResponse',
+        'GetPortID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortID',
+        'GetPortIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortIDResponse',
+        'GetPorts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPorts',
+        'GetPortsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsResponse',
+        'GetPortsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsDataSet',
+        'GetPortsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsDataSetResponse',
+        'GetPortsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsDataSetResult',
+        'GetPortsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsXMPTblDataSet',
+        'GetPortsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPortsXMPTblDataSetResponse',
+        'DeletePorts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePorts',
+        'DeletePortsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePortsResponse',
+        'DeleteAllPorts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllPorts',
+        'DeleteAllPortsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllPortsResponse',
+        'GetPopulationGUID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationGUID',
+        'GetPopulationGUIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationGUIDResponse',
+        'GetPopulations' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulations',
+        'GetPopulationsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsResponse',
+        'GetPopulationsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsDataSet',
+        'GetPopulationsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsDataSetResponse',
+        'GetPopulationsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsDataSetResult',
+        'GetPopulationsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsXMPTblDataSet',
+        'GetPopulationsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetPopulationsXMPTblDataSetResponse',
+        'DeletePopulations' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePopulations',
+        'DeletePopulationsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeletePopulationsResponse',
+        'DeleteAllPopulations' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllPopulations',
+        'DeleteAllPopulationsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAllPopulationsResponse',
+        'GetLastJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLastJob',
+        'GetLastJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLastJobResponse',
+        'GetLastEmailMarketing' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLastEmailMarketing',
+        'GetLastEmailMarketingResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLastEmailMarketingResponse',
+        'GetLocalEmailFileNames' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLocalEmailFileNames',
+        'GetLocalEmailFileNamesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetLocalEmailFileNamesResponse',
+        'GetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetID',
+        'GetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetIDResponse',
+        'GetUCreateXMSiteDefinitionsPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetUCreateXMSiteDefinitionsPath',
+        'GetUCreateXMSiteDefinitionsPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetUCreateXMSiteDefinitionsPathResponse',
+        'GetADORsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsDataSet',
+        'GetADORsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsDataSetResponse',
+        'GetADORsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsDataSetResult',
+        'GetADORsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsXMPTblDataSet',
+        'GetADORsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsXMPTblDataSetResponse',
+        'GetTrackedADORNames' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTrackedADORNames',
+        'GetTrackedADORNamesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTrackedADORNamesResponse',
+        'SetTrackedADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetTrackedADORs',
+        'SetTrackedADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetTrackedADORsResponse',
+        'SetTrackAllTextADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetTrackAllTextADORs',
+        'SetTrackAllTextADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetTrackAllTextADORsResponse',
+        'GetTrackAllTextADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTrackAllTextADORs',
+        'GetTrackAllTextADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetTrackAllTextADORsResponse',
+        'IsExist' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\IsExist',
+        'IsExistResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\IsExistResponse',
+        'SetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetSettings',
+        'ArrayOfSetting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfSetting',
+        'Setting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\Setting',
+        'SetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetSettingsResponse',
+        'GetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetSettings',
+        'GetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetSettingsResponse',
+        'DeleteSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteSettings',
+        'DeleteSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteSettingsResponse',
+        'GetADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORs',
+        'GetADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetADORsResponse',
+        'ArrayOfPlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfPlanObject',
+        'PlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\PlanObject',
+        'CloneCampaign' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneCustom',
+        'CloneResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneResponse',
+        'CampaignMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CampaignMapping',
+        'IDMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\IDMapping',
+        'PlanMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\PlanMapping',
+        'ArrayOfDocumentMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfDocumentMapping',
+        'DocumentMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DocumentMapping',
+        'ArrayOfDataSourceMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfDataSourceMapping',
+        'DataSourceMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DataSourceMapping',
+        'ArrayOfAssetSourceMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\ArrayOfAssetSourceMapping',
+        'AssetSourceMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\AssetSourceMapping',
+        'CloneFull' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneFull',
+        'CloneFullResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneFullResponse',
+        'CloneAllFonts' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneAllFonts',
+        'CloneAllFontsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CloneAllFontsResponse',
+        'CreateNewAdditionalField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewAdditionalField',
+        'CreateNewAdditionalFieldResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\CreateNewAdditionalFieldResponse',
+        'SetAdditionalFieldDefaultValue' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldDefaultValue',
+        'SetAdditionalFieldDefaultValueResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldDefaultValueResponse',
+        'GetAdditionalFieldDefaultValue' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAdditionalFieldDefaultValue',
+        'GetAdditionalFieldDefaultValueResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAdditionalFieldDefaultValueResponse',
+        'GetAdditionalFields' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAdditionalFields',
+        'GetAdditionalFieldsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\GetAdditionalFieldsResponse',
+        'DeleteAdditionalFields' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAdditionalFields',
+        'DeleteAdditionalFieldsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAdditionalFieldsResponse',
+        'SetAdditionalFieldValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldValues',
+        'SetAdditionalFieldValuesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldValuesResponse',
+        'SetAdditionalFieldValuesForRecipients' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldValuesForRecipients',
+        'SetAdditionalFieldValuesForRecipientsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\SetAdditionalFieldValuesForRecipientsResponse',
+        'DeleteAdditionalFieldValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAdditionalFieldValues',
+        'DeleteAdditionalFieldValuesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Campaign_SSP\\DeleteAdditionalFieldValuesResponse',
+    );
 
     /**
      * @param array $options A array of config values
@@ -259,19 +260,19 @@ class Campaign_SSP extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-    
-  foreach (self::$classmap as $key => $value) {
-    if (!isset($options['classmap'][$key])) {
-      $options['classmap'][$key] = $value;
-    }
-  }
-      $options = array_merge(array (
-  'features' => 1,
-), $options);
-      if (!$wsdl) {
-        $wsdl = 'http://localhost/xmpiewsapi/Campaign_SSP.asmx?wsdl';
-      }
-      parent::__construct($wsdl, $options);
+
+        foreach (self::$classmap as $key => $value) {
+            if (!isset($options['classmap'][$key])) {
+                $options['classmap'][$key] = $value;
+            }
+        }
+        $options = array_merge(array(
+            'features' => 1,
+        ), $options);
+        if (!$wsdl) {
+            $wsdl = 'http://localhost/xmpiewsapi/Campaign_SSP.asmx?wsdl';
+        }
+        parent::__construct($wsdl, $options);
     }
 
     /**
@@ -282,7 +283,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function CreateNew(CreateNew $parameters)
     {
-      return $this->__soapCall('CreateNew', array($parameters));
+        return $this->__soapCall('CreateNew', array($parameters));
     }
 
     /**
@@ -293,7 +294,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function CreateNewFromCPKG(CreateNewFromCPKG $parameters)
     {
-      return $this->__soapCall('CreateNewFromCPKG', array($parameters));
+        return $this->__soapCall('CreateNewFromCPKG', array($parameters));
     }
 
     /**
@@ -304,7 +305,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function CreateNewFromVPC(CreateNewFromVPC $parameters)
     {
-      return $this->__soapCall('CreateNewFromVPC', array($parameters));
+        return $this->__soapCall('CreateNewFromVPC', array($parameters));
     }
 
     /**
@@ -315,7 +316,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetCreateNewFromCPKGResult(GetCreateNewFromCPKGResult $parameters)
     {
-      return $this->__soapCall('GetCreateNewFromCPKGResult', array($parameters));
+        return $this->__soapCall('GetCreateNewFromCPKGResult', array($parameters));
     }
 
     /**
@@ -326,7 +327,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetCreateNewFromVPCResult(GetCreateNewFromVPCResult $parameters)
     {
-      return $this->__soapCall('GetCreateNewFromVPCResult', array($parameters));
+        return $this->__soapCall('GetCreateNewFromVPCResult', array($parameters));
     }
 
     /**
@@ -337,7 +338,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function Delete(Delete $parameters)
     {
-      return $this->__soapCall('Delete', array($parameters));
+        return $this->__soapCall('Delete', array($parameters));
     }
 
     /**
@@ -348,7 +349,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function CreateFullCPKG(CreateFullCPKG $parameters)
     {
-      return $this->__soapCall('CreateFullCPKG', array($parameters));
+        return $this->__soapCall('CreateFullCPKG', array($parameters));
     }
 
     /**
@@ -359,7 +360,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function CreateCPKG(CreateCPKG $parameters)
     {
-      return $this->__soapCall('CreateCPKG', array($parameters));
+        return $this->__soapCall('CreateCPKG', array($parameters));
     }
 
     /**
@@ -370,7 +371,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetAccount(GetAccount $parameters)
     {
-      return $this->__soapCall('GetAccount', array($parameters));
+        return $this->__soapCall('GetAccount', array($parameters));
     }
 
     /**
@@ -381,7 +382,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetName(GetName $parameters)
     {
-      return $this->__soapCall('GetName', array($parameters));
+        return $this->__soapCall('GetName', array($parameters));
     }
 
     /**
@@ -392,7 +393,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetFolderPath(GetFolderPath $parameters)
     {
-      return $this->__soapCall('GetFolderPath', array($parameters));
+        return $this->__soapCall('GetFolderPath', array($parameters));
     }
 
     /**
@@ -403,7 +404,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetProperty(GetProperty $parameters)
     {
-      return $this->__soapCall('GetProperty', array($parameters));
+        return $this->__soapCall('GetProperty', array($parameters));
     }
 
     /**
@@ -414,7 +415,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetProperties(GetProperties $parameters)
     {
-      return $this->__soapCall('GetProperties', array($parameters));
+        return $this->__soapCall('GetProperties', array($parameters));
     }
 
     /**
@@ -425,7 +426,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetAllProperties(GetAllProperties $parameters)
     {
-      return $this->__soapCall('GetAllProperties', array($parameters));
+        return $this->__soapCall('GetAllProperties', array($parameters));
     }
 
     /**
@@ -436,7 +437,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetDataSet(GetDataSet $parameters)
     {
-      return $this->__soapCall('GetDataSet', array($parameters));
+        return $this->__soapCall('GetDataSet', array($parameters));
     }
 
     /**
@@ -447,7 +448,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetXMPTblDataSet(GetXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -458,7 +459,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function SetProperty(SetProperty $parameters)
     {
-      return $this->__soapCall('SetProperty', array($parameters));
+        return $this->__soapCall('SetProperty', array($parameters));
     }
 
     /**
@@ -469,7 +470,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function SetProperties(SetProperties $parameters)
     {
-      return $this->__soapCall('SetProperties', array($parameters));
+        return $this->__soapCall('SetProperties', array($parameters));
     }
 
     /**
@@ -480,7 +481,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetDocumentID(GetDocumentID $parameters)
     {
-      return $this->__soapCall('GetDocumentID', array($parameters));
+        return $this->__soapCall('GetDocumentID', array($parameters));
     }
 
     /**
@@ -491,7 +492,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetDocuments(GetDocuments $parameters)
     {
-      return $this->__soapCall('GetDocuments', array($parameters));
+        return $this->__soapCall('GetDocuments', array($parameters));
     }
 
     /**
@@ -502,7 +503,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetDocumentsDataSet(GetDocumentsDataSet $parameters)
     {
-      return $this->__soapCall('GetDocumentsDataSet', array($parameters));
+        return $this->__soapCall('GetDocumentsDataSet', array($parameters));
     }
 
     /**
@@ -513,7 +514,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetDocumentsXMPTblDataSet(GetDocumentsXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetDocumentsXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetDocumentsXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -524,7 +525,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteDocuments(DeleteDocuments $parameters)
     {
-      return $this->__soapCall('DeleteDocuments', array($parameters));
+        return $this->__soapCall('DeleteDocuments', array($parameters));
     }
 
     /**
@@ -535,7 +536,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAllDocuments(DeleteAllDocuments $parameters)
     {
-      return $this->__soapCall('DeleteAllDocuments', array($parameters));
+        return $this->__soapCall('DeleteAllDocuments', array($parameters));
     }
 
     /**
@@ -546,7 +547,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetDataSourceID(GetDataSourceID $parameters)
     {
-      return $this->__soapCall('GetDataSourceID', array($parameters));
+        return $this->__soapCall('GetDataSourceID', array($parameters));
     }
 
     /**
@@ -557,7 +558,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetDataSources(GetDataSources $parameters)
     {
-      return $this->__soapCall('GetDataSources', array($parameters));
+        return $this->__soapCall('GetDataSources', array($parameters));
     }
 
     /**
@@ -568,7 +569,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetDataSourcesDataSet(GetDataSourcesDataSet $parameters)
     {
-      return $this->__soapCall('GetDataSourcesDataSet', array($parameters));
+        return $this->__soapCall('GetDataSourcesDataSet', array($parameters));
     }
 
     /**
@@ -579,7 +580,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetDataSourcesXMPTblDataSet(GetDataSourcesXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetDataSourcesXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetDataSourcesXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -590,7 +591,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteDataSources(DeleteDataSources $parameters)
     {
-      return $this->__soapCall('DeleteDataSources', array($parameters));
+        return $this->__soapCall('DeleteDataSources', array($parameters));
     }
 
     /**
@@ -601,7 +602,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAllDataSources(DeleteAllDataSources $parameters)
     {
-      return $this->__soapCall('DeleteAllDataSources', array($parameters));
+        return $this->__soapCall('DeleteAllDataSources', array($parameters));
     }
 
     /**
@@ -612,7 +613,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetAssetSourceID(GetAssetSourceID $parameters)
     {
-      return $this->__soapCall('GetAssetSourceID', array($parameters));
+        return $this->__soapCall('GetAssetSourceID', array($parameters));
     }
 
     /**
@@ -623,7 +624,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetAssetSources(GetAssetSources $parameters)
     {
-      return $this->__soapCall('GetAssetSources', array($parameters));
+        return $this->__soapCall('GetAssetSources', array($parameters));
     }
 
     /**
@@ -634,7 +635,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetAssetSourcesDataSet(GetAssetSourcesDataSet $parameters)
     {
-      return $this->__soapCall('GetAssetSourcesDataSet', array($parameters));
+        return $this->__soapCall('GetAssetSourcesDataSet', array($parameters));
     }
 
     /**
@@ -645,7 +646,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetAssetSourcesXMPTblDataSet(GetAssetSourcesXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetAssetSourcesXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetAssetSourcesXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -656,7 +657,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAssetSources(DeleteAssetSources $parameters)
     {
-      return $this->__soapCall('DeleteAssetSources', array($parameters));
+        return $this->__soapCall('DeleteAssetSources', array($parameters));
     }
 
     /**
@@ -667,7 +668,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAllAssetSources(DeleteAllAssetSources $parameters)
     {
-      return $this->__soapCall('DeleteAllAssetSources', array($parameters));
+        return $this->__soapCall('DeleteAllAssetSources', array($parameters));
     }
 
     /**
@@ -678,7 +679,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetTouchPointID(GetTouchPointID $parameters)
     {
-      return $this->__soapCall('GetTouchPointID', array($parameters));
+        return $this->__soapCall('GetTouchPointID', array($parameters));
     }
 
     /**
@@ -689,7 +690,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetTouchPoints(GetTouchPoints $parameters)
     {
-      return $this->__soapCall('GetTouchPoints', array($parameters));
+        return $this->__soapCall('GetTouchPoints', array($parameters));
     }
 
     /**
@@ -700,7 +701,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetTouchPointsDataSet(GetTouchPointsDataSet $parameters)
     {
-      return $this->__soapCall('GetTouchPointsDataSet', array($parameters));
+        return $this->__soapCall('GetTouchPointsDataSet', array($parameters));
     }
 
     /**
@@ -711,7 +712,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetTouchPointsXMPTblDataSet(GetTouchPointsXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetTouchPointsXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetTouchPointsXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -722,7 +723,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteTouchPoints(DeleteTouchPoints $parameters)
     {
-      return $this->__soapCall('DeleteTouchPoints', array($parameters));
+        return $this->__soapCall('DeleteTouchPoints', array($parameters));
     }
 
     /**
@@ -733,7 +734,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAllTouchPoints(DeleteAllTouchPoints $parameters)
     {
-      return $this->__soapCall('DeleteAllTouchPoints', array($parameters));
+        return $this->__soapCall('DeleteAllTouchPoints', array($parameters));
     }
 
     /**
@@ -744,7 +745,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetFontsFolderPath(GetFontsFolderPath $parameters)
     {
-      return $this->__soapCall('GetFontsFolderPath', array($parameters));
+        return $this->__soapCall('GetFontsFolderPath', array($parameters));
     }
 
     /**
@@ -755,7 +756,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetFontID(GetFontID $parameters)
     {
-      return $this->__soapCall('GetFontID', array($parameters));
+        return $this->__soapCall('GetFontID', array($parameters));
     }
 
     /**
@@ -766,7 +767,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetFonts(GetFonts $parameters)
     {
-      return $this->__soapCall('GetFonts', array($parameters));
+        return $this->__soapCall('GetFonts', array($parameters));
     }
 
     /**
@@ -777,7 +778,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetFontsModificationDate(GetFontsModificationDate $parameters)
     {
-      return $this->__soapCall('GetFontsModificationDate', array($parameters));
+        return $this->__soapCall('GetFontsModificationDate', array($parameters));
     }
 
     /**
@@ -788,7 +789,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetFontsDataSet(GetFontsDataSet $parameters)
     {
-      return $this->__soapCall('GetFontsDataSet', array($parameters));
+        return $this->__soapCall('GetFontsDataSet', array($parameters));
     }
 
     /**
@@ -799,7 +800,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetFontsXMPTblDataSet(GetFontsXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetFontsXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetFontsXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -810,7 +811,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteFonts(DeleteFonts $parameters)
     {
-      return $this->__soapCall('DeleteFonts', array($parameters));
+        return $this->__soapCall('DeleteFonts', array($parameters));
     }
 
     /**
@@ -821,7 +822,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAllFonts(DeleteAllFonts $parameters)
     {
-      return $this->__soapCall('DeleteAllFonts', array($parameters));
+        return $this->__soapCall('DeleteAllFonts', array($parameters));
     }
 
     /**
@@ -832,7 +833,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPlan(GetPlan $parameters)
     {
-      return $this->__soapCall('GetPlan', array($parameters));
+        return $this->__soapCall('GetPlan', array($parameters));
     }
 
     /**
@@ -843,7 +844,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPlanDataSet(GetPlanDataSet $parameters)
     {
-      return $this->__soapCall('GetPlanDataSet', array($parameters));
+        return $this->__soapCall('GetPlanDataSet', array($parameters));
     }
 
     /**
@@ -854,7 +855,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPlanXMPTblDataSet(GetPlanXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetPlanXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetPlanXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -865,7 +866,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeletePlan(DeletePlan $parameters)
     {
-      return $this->__soapCall('DeletePlan', array($parameters));
+        return $this->__soapCall('DeletePlan', array($parameters));
     }
 
     /**
@@ -876,7 +877,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetEmailMarketingID(GetEmailMarketingID $parameters)
     {
-      return $this->__soapCall('GetEmailMarketingID', array($parameters));
+        return $this->__soapCall('GetEmailMarketingID', array($parameters));
     }
 
     /**
@@ -887,7 +888,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetEmailMarketings(GetEmailMarketings $parameters)
     {
-      return $this->__soapCall('GetEmailMarketings', array($parameters));
+        return $this->__soapCall('GetEmailMarketings', array($parameters));
     }
 
     /**
@@ -898,7 +899,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetEmailMarketingsDataSet(GetEmailMarketingsDataSet $parameters)
     {
-      return $this->__soapCall('GetEmailMarketingsDataSet', array($parameters));
+        return $this->__soapCall('GetEmailMarketingsDataSet', array($parameters));
     }
 
     /**
@@ -909,7 +910,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetEmailMarketingsXMPTblDataSet(GetEmailMarketingsXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetEmailMarketingsXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetEmailMarketingsXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -920,7 +921,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteEmailMarketings(DeleteEmailMarketings $parameters)
     {
-      return $this->__soapCall('DeleteEmailMarketings', array($parameters));
+        return $this->__soapCall('DeleteEmailMarketings', array($parameters));
     }
 
     /**
@@ -931,7 +932,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAllEmailMarketings(DeleteAllEmailMarketings $parameters)
     {
-      return $this->__soapCall('DeleteAllEmailMarketings', array($parameters));
+        return $this->__soapCall('DeleteAllEmailMarketings', array($parameters));
     }
 
     /**
@@ -942,7 +943,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPortID(GetPortID $parameters)
     {
-      return $this->__soapCall('GetPortID', array($parameters));
+        return $this->__soapCall('GetPortID', array($parameters));
     }
 
     /**
@@ -953,7 +954,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPorts(GetPorts $parameters)
     {
-      return $this->__soapCall('GetPorts', array($parameters));
+        return $this->__soapCall('GetPorts', array($parameters));
     }
 
     /**
@@ -964,7 +965,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPortsDataSet(GetPortsDataSet $parameters)
     {
-      return $this->__soapCall('GetPortsDataSet', array($parameters));
+        return $this->__soapCall('GetPortsDataSet', array($parameters));
     }
 
     /**
@@ -975,7 +976,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPortsXMPTblDataSet(GetPortsXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetPortsXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetPortsXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -986,7 +987,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeletePorts(DeletePorts $parameters)
     {
-      return $this->__soapCall('DeletePorts', array($parameters));
+        return $this->__soapCall('DeletePorts', array($parameters));
     }
 
     /**
@@ -997,7 +998,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAllPorts(DeleteAllPorts $parameters)
     {
-      return $this->__soapCall('DeleteAllPorts', array($parameters));
+        return $this->__soapCall('DeleteAllPorts', array($parameters));
     }
 
     /**
@@ -1008,7 +1009,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPopulationGUID(GetPopulationGUID $parameters)
     {
-      return $this->__soapCall('GetPopulationGUID', array($parameters));
+        return $this->__soapCall('GetPopulationGUID', array($parameters));
     }
 
     /**
@@ -1019,7 +1020,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPopulations(GetPopulations $parameters)
     {
-      return $this->__soapCall('GetPopulations', array($parameters));
+        return $this->__soapCall('GetPopulations', array($parameters));
     }
 
     /**
@@ -1030,7 +1031,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPopulationsDataSet(GetPopulationsDataSet $parameters)
     {
-      return $this->__soapCall('GetPopulationsDataSet', array($parameters));
+        return $this->__soapCall('GetPopulationsDataSet', array($parameters));
     }
 
     /**
@@ -1041,7 +1042,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetPopulationsXMPTblDataSet(GetPopulationsXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetPopulationsXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetPopulationsXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -1052,7 +1053,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeletePopulations(DeletePopulations $parameters)
     {
-      return $this->__soapCall('DeletePopulations', array($parameters));
+        return $this->__soapCall('DeletePopulations', array($parameters));
     }
 
     /**
@@ -1063,7 +1064,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAllPopulations(DeleteAllPopulations $parameters)
     {
-      return $this->__soapCall('DeleteAllPopulations', array($parameters));
+        return $this->__soapCall('DeleteAllPopulations', array($parameters));
     }
 
     /**
@@ -1074,7 +1075,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetLastJob(GetLastJob $parameters)
     {
-      return $this->__soapCall('GetLastJob', array($parameters));
+        return $this->__soapCall('GetLastJob', array($parameters));
     }
 
     /**
@@ -1085,7 +1086,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetLastEmailMarketing(GetLastEmailMarketing $parameters)
     {
-      return $this->__soapCall('GetLastEmailMarketing', array($parameters));
+        return $this->__soapCall('GetLastEmailMarketing', array($parameters));
     }
 
     /**
@@ -1096,7 +1097,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetLocalEmailFileNames(GetLocalEmailFileNames $parameters)
     {
-      return $this->__soapCall('GetLocalEmailFileNames', array($parameters));
+        return $this->__soapCall('GetLocalEmailFileNames', array($parameters));
     }
 
     /**
@@ -1107,7 +1108,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetID(GetID $parameters)
     {
-      return $this->__soapCall('GetID', array($parameters));
+        return $this->__soapCall('GetID', array($parameters));
     }
 
     /**
@@ -1118,7 +1119,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetUCreateXMSiteDefinitionsPath(GetUCreateXMSiteDefinitionsPath $parameters)
     {
-      return $this->__soapCall('GetUCreateXMSiteDefinitionsPath', array($parameters));
+        return $this->__soapCall('GetUCreateXMSiteDefinitionsPath', array($parameters));
     }
 
     /**
@@ -1129,7 +1130,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetADORsDataSet(GetADORsDataSet $parameters)
     {
-      return $this->__soapCall('GetADORsDataSet', array($parameters));
+        return $this->__soapCall('GetADORsDataSet', array($parameters));
     }
 
     /**
@@ -1140,7 +1141,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetADORsXMPTblDataSet(GetADORsXMPTblDataSet $parameters)
     {
-      return $this->__soapCall('GetADORsXMPTblDataSet', array($parameters));
+        return $this->__soapCall('GetADORsXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -1151,7 +1152,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetTrackedADORNames(GetTrackedADORNames $parameters)
     {
-      return $this->__soapCall('GetTrackedADORNames', array($parameters));
+        return $this->__soapCall('GetTrackedADORNames', array($parameters));
     }
 
     /**
@@ -1162,7 +1163,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function SetTrackedADORs(SetTrackedADORs $parameters)
     {
-      return $this->__soapCall('SetTrackedADORs', array($parameters));
+        return $this->__soapCall('SetTrackedADORs', array($parameters));
     }
 
     /**
@@ -1173,7 +1174,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function SetTrackAllTextADORs(SetTrackAllTextADORs $parameters)
     {
-      return $this->__soapCall('SetTrackAllTextADORs', array($parameters));
+        return $this->__soapCall('SetTrackAllTextADORs', array($parameters));
     }
 
     /**
@@ -1184,7 +1185,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetTrackAllTextADORs(GetTrackAllTextADORs $parameters)
     {
-      return $this->__soapCall('GetTrackAllTextADORs', array($parameters));
+        return $this->__soapCall('GetTrackAllTextADORs', array($parameters));
     }
 
     /**
@@ -1195,7 +1196,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function IsExist(IsExist $parameters)
     {
-      return $this->__soapCall('IsExist', array($parameters));
+        return $this->__soapCall('IsExist', array($parameters));
     }
 
     /**
@@ -1206,7 +1207,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function SetSettings(SetSettings $parameters)
     {
-      return $this->__soapCall('SetSettings', array($parameters));
+        return $this->__soapCall('SetSettings', array($parameters));
     }
 
     /**
@@ -1217,7 +1218,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetSettings(GetSettings $parameters)
     {
-      return $this->__soapCall('GetSettings', array($parameters));
+        return $this->__soapCall('GetSettings', array($parameters));
     }
 
     /**
@@ -1228,7 +1229,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteSettings(DeleteSettings $parameters)
     {
-      return $this->__soapCall('DeleteSettings', array($parameters));
+        return $this->__soapCall('DeleteSettings', array($parameters));
     }
 
     /**
@@ -1239,7 +1240,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetADORs(GetADORs $parameters)
     {
-      return $this->__soapCall('GetADORs', array($parameters));
+        return $this->__soapCall('GetADORs', array($parameters));
     }
 
     /**
@@ -1250,7 +1251,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function aClone($parameters)
     {
-      return $this->__soapCall('Clone', array($parameters));
+        return $this->__soapCall('Clone', array($parameters));
     }
 
     /**
@@ -1261,7 +1262,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function CloneFull(CloneFull $parameters)
     {
-      return $this->__soapCall('CloneFull', array($parameters));
+        return $this->__soapCall('CloneFull', array($parameters));
     }
 
     /**
@@ -1272,7 +1273,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function CloneAllFonts(CloneAllFonts $parameters)
     {
-      return $this->__soapCall('CloneAllFonts', array($parameters));
+        return $this->__soapCall('CloneAllFonts', array($parameters));
     }
 
     /**
@@ -1283,7 +1284,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function CreateNewAdditionalField(CreateNewAdditionalField $parameters)
     {
-      return $this->__soapCall('CreateNewAdditionalField', array($parameters));
+        return $this->__soapCall('CreateNewAdditionalField', array($parameters));
     }
 
     /**
@@ -1294,7 +1295,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function SetAdditionalFieldDefaultValue(SetAdditionalFieldDefaultValue $parameters)
     {
-      return $this->__soapCall('SetAdditionalFieldDefaultValue', array($parameters));
+        return $this->__soapCall('SetAdditionalFieldDefaultValue', array($parameters));
     }
 
     /**
@@ -1305,7 +1306,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetAdditionalFieldDefaultValue(GetAdditionalFieldDefaultValue $parameters)
     {
-      return $this->__soapCall('GetAdditionalFieldDefaultValue', array($parameters));
+        return $this->__soapCall('GetAdditionalFieldDefaultValue', array($parameters));
     }
 
     /**
@@ -1316,7 +1317,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function GetAdditionalFields(GetAdditionalFields $parameters)
     {
-      return $this->__soapCall('GetAdditionalFields', array($parameters));
+        return $this->__soapCall('GetAdditionalFields', array($parameters));
     }
 
     /**
@@ -1327,7 +1328,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAdditionalFields(DeleteAdditionalFields $parameters)
     {
-      return $this->__soapCall('DeleteAdditionalFields', array($parameters));
+        return $this->__soapCall('DeleteAdditionalFields', array($parameters));
     }
 
     /**
@@ -1338,7 +1339,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function SetAdditionalFieldValues(SetAdditionalFieldValues $parameters)
     {
-      return $this->__soapCall('SetAdditionalFieldValues', array($parameters));
+        return $this->__soapCall('SetAdditionalFieldValues', array($parameters));
     }
 
     /**
@@ -1349,7 +1350,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function SetAdditionalFieldValuesForRecipients(SetAdditionalFieldValuesForRecipients $parameters)
     {
-      return $this->__soapCall('SetAdditionalFieldValuesForRecipients', array($parameters));
+        return $this->__soapCall('SetAdditionalFieldValuesForRecipients', array($parameters));
     }
 
     /**
@@ -1360,7 +1361,7 @@ class Campaign_SSP extends \SoapClient
      */
     public function DeleteAdditionalFieldValues(DeleteAdditionalFieldValues $parameters)
     {
-      return $this->__soapCall('DeleteAdditionalFieldValues', array($parameters));
+        return $this->__soapCall('DeleteAdditionalFieldValues', array($parameters));
     }
 
 }

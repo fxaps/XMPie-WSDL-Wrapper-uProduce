@@ -15,7 +15,7 @@ class GetRIFromResponse
      */
     public function __construct($GetRIFromResult = null)
     {
-      $this->GetRIFromResult = $GetRIFromResult;
+        $this->GetRIFromResult = $GetRIFromResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetRIFromResponse
      */
     public function getGetRIFromResult()
     {
-      return $this->GetRIFromResult;
+        return $this->GetRIFromResult;
     }
 
     /**
      * @param int $GetRIFromResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetRIFromResponse
+     * @return GetRIFromResponse
      */
     public function setGetRIFromResult($GetRIFromResult)
     {
-      $this->GetRIFromResult = $GetRIFromResult;
-      return $this;
+        $this->GetRIFromResult = $GetRIFromResult;
+        return $this;
     }
 
 }

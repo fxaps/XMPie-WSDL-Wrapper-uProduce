@@ -15,7 +15,7 @@ class AddEmailBodyByIDResponse
      */
     public function __construct($AddEmailBodyByIDResult = null)
     {
-      $this->AddEmailBodyByIDResult = $AddEmailBodyByIDResult;
+        $this->AddEmailBodyByIDResult = $AddEmailBodyByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddEmailBodyByIDResponse
      */
     public function getAddEmailBodyByIDResult()
     {
-      return $this->AddEmailBodyByIDResult;
+        return $this->AddEmailBodyByIDResult;
     }
 
     /**
      * @param boolean $AddEmailBodyByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddEmailBodyByIDResponse
+     * @return AddEmailBodyByIDResponse
      */
     public function setAddEmailBodyByIDResult($AddEmailBodyByIDResult)
     {
-      $this->AddEmailBodyByIDResult = $AddEmailBodyByIDResult;
-      return $this;
+        $this->AddEmailBodyByIDResult = $AddEmailBodyByIDResult;
+        return $this;
     }
 
 }

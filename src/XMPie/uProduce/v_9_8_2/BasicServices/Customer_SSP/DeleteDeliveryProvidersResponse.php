@@ -15,7 +15,7 @@ class DeleteDeliveryProvidersResponse
      */
     public function __construct($DeleteDeliveryProvidersResult = null)
     {
-      $this->DeleteDeliveryProvidersResult = $DeleteDeliveryProvidersResult;
+        $this->DeleteDeliveryProvidersResult = $DeleteDeliveryProvidersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteDeliveryProvidersResponse
      */
     public function getDeleteDeliveryProvidersResult()
     {
-      return $this->DeleteDeliveryProvidersResult;
+        return $this->DeleteDeliveryProvidersResult;
     }
 
     /**
      * @param boolean $DeleteDeliveryProvidersResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteDeliveryProvidersResponse
+     * @return DeleteDeliveryProvidersResponse
      */
     public function setDeleteDeliveryProvidersResult($DeleteDeliveryProvidersResult)
     {
-      $this->DeleteDeliveryProvidersResult = $DeleteDeliveryProvidersResult;
-      return $this;
+        $this->DeleteDeliveryProvidersResult = $DeleteDeliveryProvidersResult;
+        return $this;
     }
 
 }

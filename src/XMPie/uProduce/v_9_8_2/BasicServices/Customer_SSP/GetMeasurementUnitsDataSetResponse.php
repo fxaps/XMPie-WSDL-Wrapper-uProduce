@@ -15,7 +15,7 @@ class GetMeasurementUnitsDataSetResponse
      */
     public function __construct($GetMeasurementUnitsDataSetResult = null)
     {
-      $this->GetMeasurementUnitsDataSetResult = $GetMeasurementUnitsDataSetResult;
+        $this->GetMeasurementUnitsDataSetResult = $GetMeasurementUnitsDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMeasurementUnitsDataSetResponse
      */
     public function getGetMeasurementUnitsDataSetResult()
     {
-      return $this->GetMeasurementUnitsDataSetResult;
+        return $this->GetMeasurementUnitsDataSetResult;
     }
 
     /**
      * @param GetMeasurementUnitsDataSetResult $GetMeasurementUnitsDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetMeasurementUnitsDataSetResponse
+     * @return GetMeasurementUnitsDataSetResponse
      */
     public function setGetMeasurementUnitsDataSetResult($GetMeasurementUnitsDataSetResult)
     {
-      $this->GetMeasurementUnitsDataSetResult = $GetMeasurementUnitsDataSetResult;
-      return $this;
+        $this->GetMeasurementUnitsDataSetResult = $GetMeasurementUnitsDataSetResult;
+        return $this;
     }
 
 }

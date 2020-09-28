@@ -15,7 +15,7 @@ class DeleteOnDemandOutputResponse
      */
     public function __construct($DeleteOnDemandOutputResult = null)
     {
-      $this->DeleteOnDemandOutputResult = $DeleteOnDemandOutputResult;
+        $this->DeleteOnDemandOutputResult = $DeleteOnDemandOutputResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteOnDemandOutputResponse
      */
     public function getDeleteOnDemandOutputResult()
     {
-      return $this->DeleteOnDemandOutputResult;
+        return $this->DeleteOnDemandOutputResult;
     }
 
     /**
      * @param boolean $DeleteOnDemandOutputResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\DeleteOnDemandOutputResponse
+     * @return DeleteOnDemandOutputResponse
      */
     public function setDeleteOnDemandOutputResult($DeleteOnDemandOutputResult)
     {
-      $this->DeleteOnDemandOutputResult = $DeleteOnDemandOutputResult;
-      return $this;
+        $this->DeleteOnDemandOutputResult = $DeleteOnDemandOutputResult;
+        return $this;
     }
 
 }

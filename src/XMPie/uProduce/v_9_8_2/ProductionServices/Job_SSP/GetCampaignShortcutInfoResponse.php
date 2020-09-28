@@ -15,7 +15,7 @@ class GetCampaignShortcutInfoResponse
      */
     public function __construct($GetCampaignShortcutInfoResult = null)
     {
-      $this->GetCampaignShortcutInfoResult = $GetCampaignShortcutInfoResult;
+        $this->GetCampaignShortcutInfoResult = $GetCampaignShortcutInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCampaignShortcutInfoResponse
      */
     public function getGetCampaignShortcutInfoResult()
     {
-      return $this->GetCampaignShortcutInfoResult;
+        return $this->GetCampaignShortcutInfoResult;
     }
 
     /**
      * @param CampaignShortcutInfo $GetCampaignShortcutInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetCampaignShortcutInfoResponse
+     * @return GetCampaignShortcutInfoResponse
      */
     public function setGetCampaignShortcutInfoResult($GetCampaignShortcutInfoResult)
     {
-      $this->GetCampaignShortcutInfoResult = $GetCampaignShortcutInfoResult;
-      return $this;
+        $this->GetCampaignShortcutInfoResult = $GetCampaignShortcutInfoResult;
+        return $this;
     }
 
 }

@@ -31,8 +31,8 @@ class StatusInfo
      */
     public function __construct($m_IsActive = null, $m_StatusMessageID = null)
     {
-      $this->m_IsActive = $m_IsActive;
-      $this->m_StatusMessageID = $m_StatusMessageID;
+        $this->m_IsActive = $m_IsActive;
+        $this->m_StatusMessageID = $m_StatusMessageID;
     }
 
     /**
@@ -40,17 +40,17 @@ class StatusInfo
      */
     public function getM_IsActive()
     {
-      return $this->m_IsActive;
+        return $this->m_IsActive;
     }
 
     /**
      * @param boolean $m_IsActive
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\StatusInfo
+     * @return StatusInfo
      */
     public function setM_IsActive($m_IsActive)
     {
-      $this->m_IsActive = $m_IsActive;
-      return $this;
+        $this->m_IsActive = $m_IsActive;
+        return $this;
     }
 
     /**
@@ -58,17 +58,17 @@ class StatusInfo
      */
     public function getM_StatusMessage()
     {
-      return $this->m_StatusMessage;
+        return $this->m_StatusMessage;
     }
 
     /**
      * @param string $m_StatusMessage
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\StatusInfo
+     * @return StatusInfo
      */
     public function setM_StatusMessage($m_StatusMessage)
     {
-      $this->m_StatusMessage = $m_StatusMessage;
-      return $this;
+        $this->m_StatusMessage = $m_StatusMessage;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class StatusInfo
      */
     public function getM_StatusMessageID()
     {
-      return $this->m_StatusMessageID;
+        return $this->m_StatusMessageID;
     }
 
     /**
      * @param int $m_StatusMessageID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\StatusInfo
+     * @return StatusInfo
      */
     public function setM_StatusMessageID($m_StatusMessageID)
     {
-      $this->m_StatusMessageID = $m_StatusMessageID;
-      return $this;
+        $this->m_StatusMessageID = $m_StatusMessageID;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class StatusInfo
      */
     public function getM_Properties()
     {
-      return $this->m_Properties;
+        return $this->m_Properties;
     }
 
     /**
      * @param ArrayOfProperty $m_Properties
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\StatusInfo
+     * @return StatusInfo
      */
     public function setM_Properties($m_Properties)
     {
-      $this->m_Properties = $m_Properties;
-      return $this;
+        $this->m_Properties = $m_Properties;
+        return $this;
     }
 
 }

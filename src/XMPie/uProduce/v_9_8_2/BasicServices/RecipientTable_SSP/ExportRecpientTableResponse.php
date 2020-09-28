@@ -15,7 +15,7 @@ class ExportRecpientTableResponse
      */
     public function __construct($ExportRecpientTableResult = null)
     {
-      $this->ExportRecpientTableResult = $ExportRecpientTableResult;
+        $this->ExportRecpientTableResult = $ExportRecpientTableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ExportRecpientTableResponse
      */
     public function getExportRecpientTableResult()
     {
-      return $this->ExportRecpientTableResult;
+        return $this->ExportRecpientTableResult;
     }
 
     /**
      * @param string $ExportRecpientTableResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\ExportRecpientTableResponse
+     * @return ExportRecpientTableResponse
      */
     public function setExportRecpientTableResult($ExportRecpientTableResult)
     {
-      $this->ExportRecpientTableResult = $ExportRecpientTableResult;
-      return $this;
+        $this->ExportRecpientTableResult = $ExportRecpientTableResult;
+        return $this;
     }
 
 }

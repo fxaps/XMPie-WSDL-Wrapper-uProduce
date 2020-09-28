@@ -39,11 +39,11 @@ class SetDataSources
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inSchemaNameArray = null, $inConnections = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inSchemaNameArray = $inSchemaNameArray;
-      $this->inConnections = $inConnections;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inSchemaNameArray = $inSchemaNameArray;
+        $this->inConnections = $inConnections;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetDataSources
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDataSources
+     * @return SetDataSources
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetDataSources
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDataSources
+     * @return SetDataSources
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetDataSources
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDataSources
+     * @return SetDataSources
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetDataSources
      */
     public function getInSchemaNameArray()
     {
-      return $this->inSchemaNameArray;
+        return $this->inSchemaNameArray;
     }
 
     /**
      * @param ArrayOfString $inSchemaNameArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDataSources
+     * @return SetDataSources
      */
     public function setInSchemaNameArray($inSchemaNameArray)
     {
-      $this->inSchemaNameArray = $inSchemaNameArray;
-      return $this;
+        $this->inSchemaNameArray = $inSchemaNameArray;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetDataSources
      */
     public function getInConnections()
     {
-      return $this->inConnections;
+        return $this->inConnections;
     }
 
     /**
      * @param ArrayOfConnection $inConnections
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDataSources
+     * @return SetDataSources
      */
     public function setInConnections($inConnections)
     {
-      $this->inConnections = $inConnections;
-      return $this;
+        $this->inConnections = $inConnections;
+        return $this;
     }
 
 }

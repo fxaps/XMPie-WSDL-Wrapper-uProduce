@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP;
 
-class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfPlanFilter implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     protected $PlanFilter = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function getPlanFilter()
     {
-      return $this->PlanFilter;
+        return $this->PlanFilter;
     }
 
     /**
      * @param PlanFilter[] $PlanFilter
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\ArrayOfPlanFilter
+     * @return ArrayOfPlanFilter
      */
     public function setPlanFilter(array $PlanFilter = null)
     {
-      $this->PlanFilter = $PlanFilter;
-      return $this;
+        $this->PlanFilter = $PlanFilter;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->PlanFilter[$offset]);
+        return isset($this->PlanFilter[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->PlanFilter[$offset];
+        return $this->PlanFilter[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->PlanFilter[] = $value;
-      } else {
-        $this->PlanFilter[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->PlanFilter[] = $value;
+        } else {
+            $this->PlanFilter[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->PlanFilter[$offset]);
+        unset($this->PlanFilter[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->PlanFilter);
+        return current($this->PlanFilter);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->PlanFilter);
+        next($this->PlanFilter);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->PlanFilter);
+        return key($this->PlanFilter);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->PlanFilter);
+        reset($this->PlanFilter);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfPlanFilter implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->PlanFilter);
+        return count($this->PlanFilter);
     }
 
 }

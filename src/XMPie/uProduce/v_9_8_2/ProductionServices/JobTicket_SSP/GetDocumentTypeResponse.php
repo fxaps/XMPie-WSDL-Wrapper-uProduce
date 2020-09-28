@@ -15,7 +15,7 @@ class GetDocumentTypeResponse
      */
     public function __construct($GetDocumentTypeResult = null)
     {
-      $this->GetDocumentTypeResult = $GetDocumentTypeResult;
+        $this->GetDocumentTypeResult = $GetDocumentTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDocumentTypeResponse
      */
     public function getGetDocumentTypeResult()
     {
-      return $this->GetDocumentTypeResult;
+        return $this->GetDocumentTypeResult;
     }
 
     /**
      * @param string $GetDocumentTypeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetDocumentTypeResponse
+     * @return GetDocumentTypeResponse
      */
     public function setGetDocumentTypeResult($GetDocumentTypeResult)
     {
-      $this->GetDocumentTypeResult = $GetDocumentTypeResult;
-      return $this;
+        $this->GetDocumentTypeResult = $GetDocumentTypeResult;
+        return $this;
     }
 
 }

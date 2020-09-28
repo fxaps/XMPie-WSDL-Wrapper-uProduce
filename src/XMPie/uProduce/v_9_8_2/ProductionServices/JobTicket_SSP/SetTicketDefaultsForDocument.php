@@ -45,12 +45,12 @@ class SetTicketDefaultsForDocument
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inDocumentID = null, $inRITableName = null, $inFlatOriented = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inDocumentID = $inDocumentID;
-      $this->inRITableName = $inRITableName;
-      $this->inFlatOriented = $inFlatOriented;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inDocumentID = $inDocumentID;
+        $this->inRITableName = $inRITableName;
+        $this->inFlatOriented = $inFlatOriented;
     }
 
     /**
@@ -58,17 +58,17 @@ class SetTicketDefaultsForDocument
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetTicketDefaultsForDocument
+     * @return SetTicketDefaultsForDocument
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class SetTicketDefaultsForDocument
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetTicketDefaultsForDocument
+     * @return SetTicketDefaultsForDocument
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class SetTicketDefaultsForDocument
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetTicketDefaultsForDocument
+     * @return SetTicketDefaultsForDocument
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class SetTicketDefaultsForDocument
      */
     public function getInDocumentID()
     {
-      return $this->inDocumentID;
+        return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetTicketDefaultsForDocument
+     * @return SetTicketDefaultsForDocument
      */
     public function setInDocumentID($inDocumentID)
     {
-      $this->inDocumentID = $inDocumentID;
-      return $this;
+        $this->inDocumentID = $inDocumentID;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class SetTicketDefaultsForDocument
      */
     public function getInRITableName()
     {
-      return $this->inRITableName;
+        return $this->inRITableName;
     }
 
     /**
      * @param string $inRITableName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetTicketDefaultsForDocument
+     * @return SetTicketDefaultsForDocument
      */
     public function setInRITableName($inRITableName)
     {
-      $this->inRITableName = $inRITableName;
-      return $this;
+        $this->inRITableName = $inRITableName;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class SetTicketDefaultsForDocument
      */
     public function getInFlatOriented()
     {
-      return $this->inFlatOriented;
+        return $this->inFlatOriented;
     }
 
     /**
      * @param boolean $inFlatOriented
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetTicketDefaultsForDocument
+     * @return SetTicketDefaultsForDocument
      */
     public function setInFlatOriented($inFlatOriented)
     {
-      $this->inFlatOriented = $inFlatOriented;
-      return $this;
+        $this->inFlatOriented = $inFlatOriented;
+        return $this;
     }
 
 }

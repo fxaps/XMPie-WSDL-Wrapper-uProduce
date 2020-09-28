@@ -27,9 +27,9 @@ class GetPreviewEmailResult
      */
     public function __construct($inUsername = null, $inPassword = null, $inRequestID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inRequestID = $inRequestID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inRequestID = $inRequestID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetPreviewEmailResult
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetPreviewEmailResult
+     * @return GetPreviewEmailResult
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetPreviewEmailResult
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetPreviewEmailResult
+     * @return GetPreviewEmailResult
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetPreviewEmailResult
      */
     public function getInRequestID()
     {
-      return $this->inRequestID;
+        return $this->inRequestID;
     }
 
     /**
      * @param string $inRequestID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetPreviewEmailResult
+     * @return GetPreviewEmailResult
      */
     public function setInRequestID($inRequestID)
     {
-      $this->inRequestID = $inRequestID;
-      return $this;
+        $this->inRequestID = $inRequestID;
+        return $this;
     }
 
 }

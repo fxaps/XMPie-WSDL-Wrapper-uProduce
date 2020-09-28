@@ -15,7 +15,7 @@ class GetBinaryFileStreamSizeExResponse
      */
     public function __construct($GetBinaryFileStreamSizeExResult = null)
     {
-      $this->GetBinaryFileStreamSizeExResult = $GetBinaryFileStreamSizeExResult;
+        $this->GetBinaryFileStreamSizeExResult = $GetBinaryFileStreamSizeExResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetBinaryFileStreamSizeExResponse
      */
     public function getGetBinaryFileStreamSizeExResult()
     {
-      return $this->GetBinaryFileStreamSizeExResult;
+        return $this->GetBinaryFileStreamSizeExResult;
     }
 
     /**
      * @param int $GetBinaryFileStreamSizeExResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetBinaryFileStreamSizeExResponse
+     * @return GetBinaryFileStreamSizeExResponse
      */
     public function setGetBinaryFileStreamSizeExResult($GetBinaryFileStreamSizeExResult)
     {
-      $this->GetBinaryFileStreamSizeExResult = $GetBinaryFileStreamSizeExResult;
-      return $this;
+        $this->GetBinaryFileStreamSizeExResult = $GetBinaryFileStreamSizeExResult;
+        return $this;
     }
 
 }

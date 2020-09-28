@@ -15,7 +15,7 @@ class GetTrackingParameterResponse
      */
     public function __construct($GetTrackingParameterResult = null)
     {
-      $this->GetTrackingParameterResult = $GetTrackingParameterResult;
+        $this->GetTrackingParameterResult = $GetTrackingParameterResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTrackingParameterResponse
      */
     public function getGetTrackingParameterResult()
     {
-      return $this->GetTrackingParameterResult;
+        return $this->GetTrackingParameterResult;
     }
 
     /**
      * @param Parameter $GetTrackingParameterResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTrackingParameterResponse
+     * @return GetTrackingParameterResponse
      */
     public function setGetTrackingParameterResult($GetTrackingParameterResult)
     {
-      $this->GetTrackingParameterResult = $GetTrackingParameterResult;
-      return $this;
+        $this->GetTrackingParameterResult = $GetTrackingParameterResult;
+        return $this;
     }
 
 }

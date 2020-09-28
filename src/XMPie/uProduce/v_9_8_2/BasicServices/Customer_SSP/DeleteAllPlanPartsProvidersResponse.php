@@ -15,7 +15,7 @@ class DeleteAllPlanPartsProvidersResponse
      */
     public function __construct($DeleteAllPlanPartsProvidersResult = null)
     {
-      $this->DeleteAllPlanPartsProvidersResult = $DeleteAllPlanPartsProvidersResult;
+        $this->DeleteAllPlanPartsProvidersResult = $DeleteAllPlanPartsProvidersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAllPlanPartsProvidersResponse
      */
     public function getDeleteAllPlanPartsProvidersResult()
     {
-      return $this->DeleteAllPlanPartsProvidersResult;
+        return $this->DeleteAllPlanPartsProvidersResult;
     }
 
     /**
      * @param boolean $DeleteAllPlanPartsProvidersResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteAllPlanPartsProvidersResponse
+     * @return DeleteAllPlanPartsProvidersResponse
      */
     public function setDeleteAllPlanPartsProvidersResult($DeleteAllPlanPartsProvidersResult)
     {
-      $this->DeleteAllPlanPartsProvidersResult = $DeleteAllPlanPartsProvidersResult;
-      return $this;
+        $this->DeleteAllPlanPartsProvidersResult = $DeleteAllPlanPartsProvidersResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetTablesMatchToRecipientTableResponse
      */
     public function __construct($GetTablesMatchToRecipientTableResult = null)
     {
-      $this->GetTablesMatchToRecipientTableResult = $GetTablesMatchToRecipientTableResult;
+        $this->GetTablesMatchToRecipientTableResult = $GetTablesMatchToRecipientTableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTablesMatchToRecipientTableResponse
      */
     public function getGetTablesMatchToRecipientTableResult()
     {
-      return $this->GetTablesMatchToRecipientTableResult;
+        return $this->GetTablesMatchToRecipientTableResult;
     }
 
     /**
      * @param ArrayOfXMPTblMatching $GetTablesMatchToRecipientTableResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetTablesMatchToRecipientTableResponse
+     * @return GetTablesMatchToRecipientTableResponse
      */
     public function setGetTablesMatchToRecipientTableResult($GetTablesMatchToRecipientTableResult)
     {
-      $this->GetTablesMatchToRecipientTableResult = $GetTablesMatchToRecipientTableResult;
-      return $this;
+        $this->GetTablesMatchToRecipientTableResult = $GetTablesMatchToRecipientTableResult;
+        return $this;
     }
 
 }

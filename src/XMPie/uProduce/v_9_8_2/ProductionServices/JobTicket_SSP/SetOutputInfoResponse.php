@@ -15,7 +15,7 @@ class SetOutputInfoResponse
      */
     public function __construct($SetOutputInfoResult = null)
     {
-      $this->SetOutputInfoResult = $SetOutputInfoResult;
+        $this->SetOutputInfoResult = $SetOutputInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetOutputInfoResponse
      */
     public function getSetOutputInfoResult()
     {
-      return $this->SetOutputInfoResult;
+        return $this->SetOutputInfoResult;
     }
 
     /**
      * @param boolean $SetOutputInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOutputInfoResponse
+     * @return SetOutputInfoResponse
      */
     public function setSetOutputInfoResult($SetOutputInfoResult)
     {
-      $this->SetOutputInfoResult = $SetOutputInfoResult;
-      return $this;
+        $this->SetOutputInfoResult = $SetOutputInfoResult;
+        return $this;
     }
 
 }

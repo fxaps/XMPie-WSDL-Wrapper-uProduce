@@ -15,7 +15,7 @@ class GetAccountDataSourcesXMPTblDataSetResponse
      */
     public function __construct($GetAccountDataSourcesXMPTblDataSetResult = null)
     {
-      $this->GetAccountDataSourcesXMPTblDataSetResult = $GetAccountDataSourcesXMPTblDataSetResult;
+        $this->GetAccountDataSourcesXMPTblDataSetResult = $GetAccountDataSourcesXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAccountDataSourcesXMPTblDataSetResponse
      */
     public function getGetAccountDataSourcesXMPTblDataSetResult()
     {
-      return $this->GetAccountDataSourcesXMPTblDataSetResult;
+        return $this->GetAccountDataSourcesXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetAccountDataSourcesXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetAccountDataSourcesXMPTblDataSetResponse
+     * @return GetAccountDataSourcesXMPTblDataSetResponse
      */
     public function setGetAccountDataSourcesXMPTblDataSetResult($GetAccountDataSourcesXMPTblDataSetResult)
     {
-      $this->GetAccountDataSourcesXMPTblDataSetResult = $GetAccountDataSourcesXMPTblDataSetResult;
-      return $this;
+        $this->GetAccountDataSourcesXMPTblDataSetResult = $GetAccountDataSourcesXMPTblDataSetResult;
+        return $this;
     }
 
 }

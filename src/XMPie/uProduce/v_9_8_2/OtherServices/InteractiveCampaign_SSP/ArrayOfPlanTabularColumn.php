@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP;
 
-class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfPlanTabularColumn implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     protected $PlanTabularColumn = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function getPlanTabularColumn()
     {
-      return $this->PlanTabularColumn;
+        return $this->PlanTabularColumn;
     }
 
     /**
      * @param PlanTabularColumn[] $PlanTabularColumn
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\ArrayOfPlanTabularColumn
+     * @return ArrayOfPlanTabularColumn
      */
     public function setPlanTabularColumn(array $PlanTabularColumn = null)
     {
-      $this->PlanTabularColumn = $PlanTabularColumn;
-      return $this;
+        $this->PlanTabularColumn = $PlanTabularColumn;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->PlanTabularColumn[$offset]);
+        return isset($this->PlanTabularColumn[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->PlanTabularColumn[$offset];
+        return $this->PlanTabularColumn[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->PlanTabularColumn[] = $value;
-      } else {
-        $this->PlanTabularColumn[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->PlanTabularColumn[] = $value;
+        } else {
+            $this->PlanTabularColumn[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->PlanTabularColumn[$offset]);
+        unset($this->PlanTabularColumn[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->PlanTabularColumn);
+        return current($this->PlanTabularColumn);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->PlanTabularColumn);
+        next($this->PlanTabularColumn);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->PlanTabularColumn);
+        return key($this->PlanTabularColumn);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->PlanTabularColumn);
+        reset($this->PlanTabularColumn);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfPlanTabularColumn implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->PlanTabularColumn);
+        return count($this->PlanTabularColumn);
     }
 
 }

@@ -15,7 +15,7 @@ class ConvertToPrimaryTableResponse
      */
     public function __construct($ConvertToPrimaryTableResult = null)
     {
-      $this->ConvertToPrimaryTableResult = $ConvertToPrimaryTableResult;
+        $this->ConvertToPrimaryTableResult = $ConvertToPrimaryTableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ConvertToPrimaryTableResponse
      */
     public function getConvertToPrimaryTableResult()
     {
-      return $this->ConvertToPrimaryTableResult;
+        return $this->ConvertToPrimaryTableResult;
     }
 
     /**
      * @param Report $ConvertToPrimaryTableResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ConvertToPrimaryTableResponse
+     * @return ConvertToPrimaryTableResponse
      */
     public function setConvertToPrimaryTableResult($ConvertToPrimaryTableResult)
     {
-      $this->ConvertToPrimaryTableResult = $ConvertToPrimaryTableResult;
-      return $this;
+        $this->ConvertToPrimaryTableResult = $ConvertToPrimaryTableResult;
+        return $this;
     }
 
 }

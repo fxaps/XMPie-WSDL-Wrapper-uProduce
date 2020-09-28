@@ -15,7 +15,7 @@ class GetProxyInfoResponse
      */
     public function __construct($GetProxyInfoResult = null)
     {
-      $this->GetProxyInfoResult = $GetProxyInfoResult;
+        $this->GetProxyInfoResult = $GetProxyInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetProxyInfoResponse
      */
     public function getGetProxyInfoResult()
     {
-      return $this->GetProxyInfoResult;
+        return $this->GetProxyInfoResult;
     }
 
     /**
      * @param ProxyInfo $GetProxyInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetProxyInfoResponse
+     * @return GetProxyInfoResponse
      */
     public function setGetProxyInfoResult($GetProxyInfoResult)
     {
-      $this->GetProxyInfoResult = $GetProxyInfoResult;
-      return $this;
+        $this->GetProxyInfoResult = $GetProxyInfoResult;
+        return $this;
     }
 
 }

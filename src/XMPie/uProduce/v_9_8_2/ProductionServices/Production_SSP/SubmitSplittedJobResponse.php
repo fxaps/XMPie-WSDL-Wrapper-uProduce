@@ -15,7 +15,7 @@ class SubmitSplittedJobResponse
      */
     public function __construct($SubmitSplittedJobResult = null)
     {
-      $this->SubmitSplittedJobResult = $SubmitSplittedJobResult;
+        $this->SubmitSplittedJobResult = $SubmitSplittedJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SubmitSplittedJobResponse
      */
     public function getSubmitSplittedJobResult()
     {
-      return $this->SubmitSplittedJobResult;
+        return $this->SubmitSplittedJobResult;
     }
 
     /**
      * @param ArrayOfString $SubmitSplittedJobResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitSplittedJobResponse
+     * @return SubmitSplittedJobResponse
      */
     public function setSubmitSplittedJobResult($SubmitSplittedJobResult)
     {
-      $this->SubmitSplittedJobResult = $SubmitSplittedJobResult;
-      return $this;
+        $this->SubmitSplittedJobResult = $SubmitSplittedJobResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetPlanPartsProviderIDsResponse
      */
     public function __construct($GetPlanPartsProviderIDsResult = null)
     {
-      $this->GetPlanPartsProviderIDsResult = $GetPlanPartsProviderIDsResult;
+        $this->GetPlanPartsProviderIDsResult = $GetPlanPartsProviderIDsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPlanPartsProviderIDsResponse
      */
     public function getGetPlanPartsProviderIDsResult()
     {
-      return $this->GetPlanPartsProviderIDsResult;
+        return $this->GetPlanPartsProviderIDsResult;
     }
 
     /**
      * @param ArrayOfString $GetPlanPartsProviderIDsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetPlanPartsProviderIDsResponse
+     * @return GetPlanPartsProviderIDsResponse
      */
     public function setGetPlanPartsProviderIDsResult($GetPlanPartsProviderIDsResult)
     {
-      $this->GetPlanPartsProviderIDsResult = $GetPlanPartsProviderIDsResult;
-      return $this;
+        $this->GetPlanPartsProviderIDsResult = $GetPlanPartsProviderIDsResult;
+        return $this;
     }
 
 }

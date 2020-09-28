@@ -51,13 +51,13 @@ class Replace
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inPath = null, $inDeleteSource = null, $inDeleteEmptySourceFolder = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPlanID = $inPlanID;
-      $this->inPath = $inPath;
-      $this->inDeleteSource = $inDeleteSource;
-      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPlanID = $inPlanID;
+        $this->inPath = $inPath;
+        $this->inDeleteSource = $inDeleteSource;
+        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class Replace
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\Replace
+     * @return Replace
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class Replace
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\Replace
+     * @return Replace
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class Replace
      */
     public function getInPlanID()
     {
-      return $this->inPlanID;
+        return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\Replace
+     * @return Replace
      */
     public function setInPlanID($inPlanID)
     {
-      $this->inPlanID = $inPlanID;
-      return $this;
+        $this->inPlanID = $inPlanID;
+        return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class Replace
      */
     public function getInPath()
     {
-      return $this->inPath;
+        return $this->inPath;
     }
 
     /**
      * @param string $inPath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\Replace
+     * @return Replace
      */
     public function setInPath($inPath)
     {
-      $this->inPath = $inPath;
-      return $this;
+        $this->inPath = $inPath;
+        return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class Replace
      */
     public function getInDeleteSource()
     {
-      return $this->inDeleteSource;
+        return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\Replace
+     * @return Replace
      */
     public function setInDeleteSource($inDeleteSource)
     {
-      $this->inDeleteSource = $inDeleteSource;
-      return $this;
+        $this->inDeleteSource = $inDeleteSource;
+        return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class Replace
      */
     public function getInDeleteEmptySourceFolder()
     {
-      return $this->inDeleteEmptySourceFolder;
+        return $this->inDeleteEmptySourceFolder;
     }
 
     /**
      * @param boolean $inDeleteEmptySourceFolder
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\Replace
+     * @return Replace
      */
     public function setInDeleteEmptySourceFolder($inDeleteEmptySourceFolder)
     {
-      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-      return $this;
+        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+        return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class Replace
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\Replace
+     * @return Replace
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

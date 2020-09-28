@@ -15,7 +15,7 @@ class CreateNewFromDPKGResponse
      */
     public function __construct($CreateNewFromDPKGResult = null)
     {
-      $this->CreateNewFromDPKGResult = $CreateNewFromDPKGResult;
+        $this->CreateNewFromDPKGResult = $CreateNewFromDPKGResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewFromDPKGResponse
      */
     public function getCreateNewFromDPKGResult()
     {
-      return $this->CreateNewFromDPKGResult;
+        return $this->CreateNewFromDPKGResult;
     }
 
     /**
      * @param string $CreateNewFromDPKGResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromDPKGResponse
+     * @return CreateNewFromDPKGResponse
      */
     public function setCreateNewFromDPKGResult($CreateNewFromDPKGResult)
     {
-      $this->CreateNewFromDPKGResult = $CreateNewFromDPKGResult;
-      return $this;
+        $this->CreateNewFromDPKGResult = $CreateNewFromDPKGResult;
+        return $this;
     }
 
 }

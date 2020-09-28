@@ -15,7 +15,7 @@ class ConvertTableForPortResponse
      */
     public function __construct($ConvertTableForPortResult = null)
     {
-      $this->ConvertTableForPortResult = $ConvertTableForPortResult;
+        $this->ConvertTableForPortResult = $ConvertTableForPortResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ConvertTableForPortResponse
      */
     public function getConvertTableForPortResult()
     {
-      return $this->ConvertTableForPortResult;
+        return $this->ConvertTableForPortResult;
     }
 
     /**
      * @param boolean $ConvertTableForPortResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\ConvertTableForPortResponse
+     * @return ConvertTableForPortResponse
      */
     public function setConvertTableForPortResult($ConvertTableForPortResult)
     {
-      $this->ConvertTableForPortResult = $ConvertTableForPortResult;
-      return $this;
+        $this->ConvertTableForPortResult = $ConvertTableForPortResult;
+        return $this;
     }
 
 }

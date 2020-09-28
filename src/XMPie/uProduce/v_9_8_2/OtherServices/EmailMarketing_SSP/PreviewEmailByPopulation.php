@@ -39,11 +39,11 @@ class PreviewEmailByPopulation
      */
     public function __construct($inUsername = null, $inPassword = null, $inPopulationGUID = null, $inEmailMarketingID = null, $inRecipientID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPopulationGUID = $inPopulationGUID;
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      $this->inRecipientID = $inRecipientID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPopulationGUID = $inPopulationGUID;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        $this->inRecipientID = $inRecipientID;
     }
 
     /**
@@ -51,17 +51,17 @@ class PreviewEmailByPopulation
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByPopulation
+     * @return PreviewEmailByPopulation
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class PreviewEmailByPopulation
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByPopulation
+     * @return PreviewEmailByPopulation
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class PreviewEmailByPopulation
      */
     public function getInPopulationGUID()
     {
-      return $this->inPopulationGUID;
+        return $this->inPopulationGUID;
     }
 
     /**
      * @param string $inPopulationGUID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByPopulation
+     * @return PreviewEmailByPopulation
      */
     public function setInPopulationGUID($inPopulationGUID)
     {
-      $this->inPopulationGUID = $inPopulationGUID;
-      return $this;
+        $this->inPopulationGUID = $inPopulationGUID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class PreviewEmailByPopulation
      */
     public function getInEmailMarketingID()
     {
-      return $this->inEmailMarketingID;
+        return $this->inEmailMarketingID;
     }
 
     /**
      * @param string $inEmailMarketingID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByPopulation
+     * @return PreviewEmailByPopulation
      */
     public function setInEmailMarketingID($inEmailMarketingID)
     {
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      return $this;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class PreviewEmailByPopulation
      */
     public function getInRecipientID()
     {
-      return $this->inRecipientID;
+        return $this->inRecipientID;
     }
 
     /**
      * @param string $inRecipientID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByPopulation
+     * @return PreviewEmailByPopulation
      */
     public function setInRecipientID($inRecipientID)
     {
-      $this->inRecipientID = $inRecipientID;
-      return $this;
+        $this->inRecipientID = $inRecipientID;
+        return $this;
     }
 
 }

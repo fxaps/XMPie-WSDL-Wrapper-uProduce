@@ -15,7 +15,7 @@ class GetFTPIDResponse
      */
     public function __construct($GetFTPIDResult = null)
     {
-      $this->GetFTPIDResult = $GetFTPIDResult;
+        $this->GetFTPIDResult = $GetFTPIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFTPIDResponse
      */
     public function getGetFTPIDResult()
     {
-      return $this->GetFTPIDResult;
+        return $this->GetFTPIDResult;
     }
 
     /**
      * @param string $GetFTPIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFTPIDResponse
+     * @return GetFTPIDResponse
      */
     public function setGetFTPIDResult($GetFTPIDResult)
     {
-      $this->GetFTPIDResult = $GetFTPIDResult;
-      return $this;
+        $this->GetFTPIDResult = $GetFTPIDResult;
+        return $this;
     }
 
 }

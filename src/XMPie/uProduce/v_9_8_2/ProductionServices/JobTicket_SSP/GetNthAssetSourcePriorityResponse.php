@@ -15,7 +15,7 @@ class GetNthAssetSourcePriorityResponse
      */
     public function __construct($GetNthAssetSourcePriorityResult = null)
     {
-      $this->GetNthAssetSourcePriorityResult = $GetNthAssetSourcePriorityResult;
+        $this->GetNthAssetSourcePriorityResult = $GetNthAssetSourcePriorityResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthAssetSourcePriorityResponse
      */
     public function getGetNthAssetSourcePriorityResult()
     {
-      return $this->GetNthAssetSourcePriorityResult;
+        return $this->GetNthAssetSourcePriorityResult;
     }
 
     /**
      * @param int $GetNthAssetSourcePriorityResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthAssetSourcePriorityResponse
+     * @return GetNthAssetSourcePriorityResponse
      */
     public function setGetNthAssetSourcePriorityResult($GetNthAssetSourcePriorityResult)
     {
-      $this->GetNthAssetSourcePriorityResult = $GetNthAssetSourcePriorityResult;
-      return $this;
+        $this->GetNthAssetSourcePriorityResult = $GetNthAssetSourcePriorityResult;
+        return $this;
     }
 
 }

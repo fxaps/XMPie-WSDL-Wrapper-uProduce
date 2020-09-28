@@ -15,7 +15,7 @@ class GetADORValuesForRangeResponse
      */
     public function __construct($GetADORValuesForRangeResult = null)
     {
-      $this->GetADORValuesForRangeResult = $GetADORValuesForRangeResult;
+        $this->GetADORValuesForRangeResult = $GetADORValuesForRangeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetADORValuesForRangeResponse
      */
     public function getGetADORValuesForRangeResult()
     {
-      return $this->GetADORValuesForRangeResult;
+        return $this->GetADORValuesForRangeResult;
     }
 
     /**
      * @param XMPTblDataSet $GetADORValuesForRangeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValuesForRangeResponse
+     * @return GetADORValuesForRangeResponse
      */
     public function setGetADORValuesForRangeResult($GetADORValuesForRangeResult)
     {
-      $this->GetADORValuesForRangeResult = $GetADORValuesForRangeResult;
-      return $this;
+        $this->GetADORValuesForRangeResult = $GetADORValuesForRangeResult;
+        return $this;
     }
 
 }

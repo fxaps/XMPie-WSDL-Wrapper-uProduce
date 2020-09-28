@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP;
 
-class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfXMPRowField implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     protected $XMPRowField = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function getXMPRowField()
     {
-      return $this->XMPRowField;
+        return $this->XMPRowField;
     }
 
     /**
      * @param XMPRowField[] $XMPRowField
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\ArrayOfXMPRowField
+     * @return ArrayOfXMPRowField
      */
     public function setXMPRowField(array $XMPRowField = null)
     {
-      $this->XMPRowField = $XMPRowField;
-      return $this;
+        $this->XMPRowField = $XMPRowField;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->XMPRowField[$offset]);
+        return isset($this->XMPRowField[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->XMPRowField[$offset];
+        return $this->XMPRowField[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->XMPRowField[] = $value;
-      } else {
-        $this->XMPRowField[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->XMPRowField[] = $value;
+        } else {
+            $this->XMPRowField[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->XMPRowField[$offset]);
+        unset($this->XMPRowField[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->XMPRowField);
+        return current($this->XMPRowField);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->XMPRowField);
+        next($this->XMPRowField);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->XMPRowField);
+        return key($this->XMPRowField);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->XMPRowField);
+        reset($this->XMPRowField);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfXMPRowField implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->XMPRowField);
+        return count($this->XMPRowField);
     }
 
 }

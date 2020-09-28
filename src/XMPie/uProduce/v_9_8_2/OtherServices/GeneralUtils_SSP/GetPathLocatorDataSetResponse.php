@@ -15,7 +15,7 @@ class GetPathLocatorDataSetResponse
      */
     public function __construct($GetPathLocatorDataSetResult = null)
     {
-      $this->GetPathLocatorDataSetResult = $GetPathLocatorDataSetResult;
+        $this->GetPathLocatorDataSetResult = $GetPathLocatorDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPathLocatorDataSetResponse
      */
     public function getGetPathLocatorDataSetResult()
     {
-      return $this->GetPathLocatorDataSetResult;
+        return $this->GetPathLocatorDataSetResult;
     }
 
     /**
      * @param GetPathLocatorDataSetResult $GetPathLocatorDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetPathLocatorDataSetResponse
+     * @return GetPathLocatorDataSetResponse
      */
     public function setGetPathLocatorDataSetResult($GetPathLocatorDataSetResult)
     {
-      $this->GetPathLocatorDataSetResult = $GetPathLocatorDataSetResult;
-      return $this;
+        $this->GetPathLocatorDataSetResult = $GetPathLocatorDataSetResult;
+        return $this;
     }
 
 }

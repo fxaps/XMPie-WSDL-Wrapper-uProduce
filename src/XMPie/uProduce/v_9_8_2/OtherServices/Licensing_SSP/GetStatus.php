@@ -33,10 +33,10 @@ class GetStatus
      */
     public function __construct($inUsername = null, $inPassword = null, $inType = null, $inExtended = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inType = $inType;
-      $this->inExtended = $inExtended;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inType = $inType;
+        $this->inExtended = $inExtended;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetStatus
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetStatus
+     * @return GetStatus
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetStatus
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetStatus
+     * @return GetStatus
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetStatus
      */
     public function getInType()
     {
-      return $this->inType;
+        return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetStatus
+     * @return GetStatus
      */
     public function setInType($inType)
     {
-      $this->inType = $inType;
-      return $this;
+        $this->inType = $inType;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetStatus
      */
     public function getInExtended()
     {
-      return $this->inExtended;
+        return $this->inExtended;
     }
 
     /**
      * @param boolean $inExtended
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetStatus
+     * @return GetStatus
      */
     public function setInExtended($inExtended)
     {
-      $this->inExtended = $inExtended;
-      return $this;
+        $this->inExtended = $inExtended;
+        return $this;
     }
 
 }

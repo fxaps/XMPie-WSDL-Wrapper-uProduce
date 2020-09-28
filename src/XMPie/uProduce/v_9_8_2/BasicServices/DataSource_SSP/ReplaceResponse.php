@@ -15,7 +15,7 @@ class ReplaceResponse
      */
     public function __construct($ReplaceResult = null)
     {
-      $this->ReplaceResult = $ReplaceResult;
+        $this->ReplaceResult = $ReplaceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ReplaceResponse
      */
     public function getReplaceResult()
     {
-      return $this->ReplaceResult;
+        return $this->ReplaceResult;
     }
 
     /**
      * @param boolean $ReplaceResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ReplaceResponse
+     * @return ReplaceResponse
      */
     public function setReplaceResult($ReplaceResult)
     {
-      $this->ReplaceResult = $ReplaceResult;
-      return $this;
+        $this->ReplaceResult = $ReplaceResult;
+        return $this;
     }
 
 }

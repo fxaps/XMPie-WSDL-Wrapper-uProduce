@@ -27,9 +27,9 @@ class GetFilePath
      */
     public function __construct($inUsername = null, $inPassword = null, $inFileToken = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inFileToken = $inFileToken;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inFileToken = $inFileToken;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetFilePath
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\GetFilePath
+     * @return GetFilePath
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetFilePath
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\GetFilePath
+     * @return GetFilePath
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetFilePath
      */
     public function getInFileToken()
     {
-      return $this->inFileToken;
+        return $this->inFileToken;
     }
 
     /**
      * @param string $inFileToken
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\GetFilePath
+     * @return GetFilePath
      */
     public function setInFileToken($inFileToken)
     {
-      $this->inFileToken = $inFileToken;
-      return $this;
+        $this->inFileToken = $inFileToken;
+        return $this;
     }
 
 }

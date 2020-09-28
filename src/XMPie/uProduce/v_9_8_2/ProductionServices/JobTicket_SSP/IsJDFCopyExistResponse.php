@@ -15,7 +15,7 @@ class IsJDFCopyExistResponse
      */
     public function __construct($IsJDFCopyExistResult = null)
     {
-      $this->IsJDFCopyExistResult = $IsJDFCopyExistResult;
+        $this->IsJDFCopyExistResult = $IsJDFCopyExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsJDFCopyExistResponse
      */
     public function getIsJDFCopyExistResult()
     {
-      return $this->IsJDFCopyExistResult;
+        return $this->IsJDFCopyExistResult;
     }
 
     /**
      * @param boolean $IsJDFCopyExistResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsJDFCopyExistResponse
+     * @return IsJDFCopyExistResponse
      */
     public function setIsJDFCopyExistResult($IsJDFCopyExistResult)
     {
-      $this->IsJDFCopyExistResult = $IsJDFCopyExistResult;
-      return $this;
+        $this->IsJDFCopyExistResult = $IsJDFCopyExistResult;
+        return $this;
     }
 
 }

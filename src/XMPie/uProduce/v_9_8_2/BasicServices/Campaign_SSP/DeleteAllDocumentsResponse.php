@@ -15,7 +15,7 @@ class DeleteAllDocumentsResponse
      */
     public function __construct($DeleteAllDocumentsResult = null)
     {
-      $this->DeleteAllDocumentsResult = $DeleteAllDocumentsResult;
+        $this->DeleteAllDocumentsResult = $DeleteAllDocumentsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAllDocumentsResponse
      */
     public function getDeleteAllDocumentsResult()
     {
-      return $this->DeleteAllDocumentsResult;
+        return $this->DeleteAllDocumentsResult;
     }
 
     /**
      * @param boolean $DeleteAllDocumentsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAllDocumentsResponse
+     * @return DeleteAllDocumentsResponse
      */
     public function setDeleteAllDocumentsResult($DeleteAllDocumentsResult)
     {
-      $this->DeleteAllDocumentsResult = $DeleteAllDocumentsResult;
-      return $this;
+        $this->DeleteAllDocumentsResult = $DeleteAllDocumentsResult;
+        return $this;
     }
 
 }

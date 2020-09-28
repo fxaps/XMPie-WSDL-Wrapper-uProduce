@@ -15,7 +15,7 @@ class GetContextResponse
      */
     public function __construct($GetContextResult = null)
     {
-      $this->GetContextResult = $GetContextResult;
+        $this->GetContextResult = $GetContextResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetContextResponse
      */
     public function getGetContextResult()
     {
-      return $this->GetContextResult;
+        return $this->GetContextResult;
     }
 
     /**
      * @param string $GetContextResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\GetContextResponse
+     * @return GetContextResponse
      */
     public function setGetContextResult($GetContextResult)
     {
-      $this->GetContextResult = $GetContextResult;
-      return $this;
+        $this->GetContextResult = $GetContextResult;
+        return $this;
     }
 
 }

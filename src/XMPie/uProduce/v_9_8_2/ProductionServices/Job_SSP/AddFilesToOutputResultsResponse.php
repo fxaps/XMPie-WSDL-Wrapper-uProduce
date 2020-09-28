@@ -15,7 +15,7 @@ class AddFilesToOutputResultsResponse
      */
     public function __construct($AddFilesToOutputResultsResult = null)
     {
-      $this->AddFilesToOutputResultsResult = $AddFilesToOutputResultsResult;
+        $this->AddFilesToOutputResultsResult = $AddFilesToOutputResultsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddFilesToOutputResultsResponse
      */
     public function getAddFilesToOutputResultsResult()
     {
-      return $this->AddFilesToOutputResultsResult;
+        return $this->AddFilesToOutputResultsResult;
     }
 
     /**
      * @param boolean $AddFilesToOutputResultsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\AddFilesToOutputResultsResponse
+     * @return AddFilesToOutputResultsResponse
      */
     public function setAddFilesToOutputResultsResult($AddFilesToOutputResultsResult)
     {
-      $this->AddFilesToOutputResultsResult = $AddFilesToOutputResultsResult;
-      return $this;
+        $this->AddFilesToOutputResultsResult = $AddFilesToOutputResultsResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class IsUProduceLEResponse
      */
     public function __construct($IsUProduceLEResult = null)
     {
-      $this->IsUProduceLEResult = $IsUProduceLEResult;
+        $this->IsUProduceLEResult = $IsUProduceLEResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsUProduceLEResponse
      */
     public function getIsUProduceLEResult()
     {
-      return $this->IsUProduceLEResult;
+        return $this->IsUProduceLEResult;
     }
 
     /**
      * @param boolean $IsUProduceLEResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\IsUProduceLEResponse
+     * @return IsUProduceLEResponse
      */
     public function setIsUProduceLEResult($IsUProduceLEResult)
     {
-      $this->IsUProduceLEResult = $IsUProduceLEResult;
-      return $this;
+        $this->IsUProduceLEResult = $IsUProduceLEResult;
+        return $this;
     }
 
 }

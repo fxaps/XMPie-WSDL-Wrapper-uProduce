@@ -15,7 +15,7 @@ class GetFolderPathResponse
      */
     public function __construct($GetFolderPathResult = null)
     {
-      $this->GetFolderPathResult = $GetFolderPathResult;
+        $this->GetFolderPathResult = $GetFolderPathResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFolderPathResponse
      */
     public function getGetFolderPathResult()
     {
-      return $this->GetFolderPathResult;
+        return $this->GetFolderPathResult;
     }
 
     /**
      * @param string $GetFolderPathResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetFolderPathResponse
+     * @return GetFolderPathResponse
      */
     public function setGetFolderPathResult($GetFolderPathResult)
     {
-      $this->GetFolderPathResult = $GetFolderPathResult;
-      return $this;
+        $this->GetFolderPathResult = $GetFolderPathResult;
+        return $this;
     }
 
 }

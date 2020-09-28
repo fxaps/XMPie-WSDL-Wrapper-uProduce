@@ -3,59 +3,60 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP;
 
 
+use SoapClient;
 use SoapFault;
 
 /**
  * SystemManager Web Service.
  */
-class SystemManager_SSP extends \SoapClient
+class SystemManager_SSP extends SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array (
-  'GetProductInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProductInfo',
-  'GetProductInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProductInfoResponse',
-  'ProductInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\ProductInfo',
-  'GetProductInfoForUser' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProductInfoForUser',
-  'GetProductInfoForUserResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProductInfoForUserResponse',
-  'GetProxyInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProxyInfo',
-  'GetProxyInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProxyInfoResponse',
-  'ProxyInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\ProxyInfo',
-  'SetProxyInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetProxyInfo',
-  'SetProxyInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetProxyInfoResponse',
-  'TestHTTPProxy' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\TestHTTPProxy',
-  'TestHTTPProxyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\TestHTTPProxyResponse',
-  'TestHTTPSProxy' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\TestHTTPSProxy',
-  'TestHTTPSProxyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\TestHTTPSProxyResponse',
-  'SetCloudGatewayConfiguration' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetCloudGatewayConfiguration',
-  'CloudGatewayConfiguration' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\CloudGatewayConfiguration',
-  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\ArrayOfProperty',
-  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\Property',
-  'ArrayOfCloudSubscription' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\ArrayOfCloudSubscription',
-  'CloudSubscription' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\CloudSubscription',
-  'SetCloudGatewayConfigurationResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetCloudGatewayConfigurationResponse',
-  'GetCloudGatewayConfiguration' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetCloudGatewayConfiguration',
-  'GetCloudGatewayConfigurationResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetCloudGatewayConfigurationResponse',
-  'GetDistillJobOptionNames' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetDistillJobOptionNames',
-  'GetDistillJobOptionNamesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetDistillJobOptionNamesResponse',
-  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\ArrayOfString',
-  'IsFeatureSupported' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsFeatureSupported',
-  'IsFeatureSupportedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsFeatureSupportedResponse',
-  'IsCircleModeAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsCircleModeAvailable',
-  'IsCircleModeAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsCircleModeAvailableResponse',
-  'SetCircleModeAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetCircleModeAvailable',
-  'SetCircleModeAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetCircleModeAvailableResponse',
-  'IsCampaignTypeSupported' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsCampaignTypeSupported',
-  'IsCampaignTypeSupportedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsCampaignTypeSupportedResponse',
-  'SelectSupportedCampaignType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SelectSupportedCampaignType',
-  'SelectSupportedCampaignTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SelectSupportedCampaignTypeResponse',
-  'UnselectSupportedCampaignType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\UnselectSupportedCampaignType',
-  'UnselectSupportedCampaignTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\UnselectSupportedCampaignTypeResponse',
-  'WasCampaignTypeEverSupported' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\WasCampaignTypeEverSupported',
-  'WasCampaignTypeEverSupportedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\WasCampaignTypeEverSupportedResponse',
-);
+    private static $classmap = array(
+        'GetProductInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProductInfo',
+        'GetProductInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProductInfoResponse',
+        'ProductInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\ProductInfo',
+        'GetProductInfoForUser' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProductInfoForUser',
+        'GetProductInfoForUserResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProductInfoForUserResponse',
+        'GetProxyInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProxyInfo',
+        'GetProxyInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetProxyInfoResponse',
+        'ProxyInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\ProxyInfo',
+        'SetProxyInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetProxyInfo',
+        'SetProxyInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetProxyInfoResponse',
+        'TestHTTPProxy' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\TestHTTPProxy',
+        'TestHTTPProxyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\TestHTTPProxyResponse',
+        'TestHTTPSProxy' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\TestHTTPSProxy',
+        'TestHTTPSProxyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\TestHTTPSProxyResponse',
+        'SetCloudGatewayConfiguration' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetCloudGatewayConfiguration',
+        'CloudGatewayConfiguration' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\CloudGatewayConfiguration',
+        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\ArrayOfProperty',
+        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\Property',
+        'ArrayOfCloudSubscription' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\ArrayOfCloudSubscription',
+        'CloudSubscription' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\CloudSubscription',
+        'SetCloudGatewayConfigurationResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetCloudGatewayConfigurationResponse',
+        'GetCloudGatewayConfiguration' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetCloudGatewayConfiguration',
+        'GetCloudGatewayConfigurationResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetCloudGatewayConfigurationResponse',
+        'GetDistillJobOptionNames' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetDistillJobOptionNames',
+        'GetDistillJobOptionNamesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\GetDistillJobOptionNamesResponse',
+        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\ArrayOfString',
+        'IsFeatureSupported' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsFeatureSupported',
+        'IsFeatureSupportedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsFeatureSupportedResponse',
+        'IsCircleModeAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsCircleModeAvailable',
+        'IsCircleModeAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsCircleModeAvailableResponse',
+        'SetCircleModeAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetCircleModeAvailable',
+        'SetCircleModeAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SetCircleModeAvailableResponse',
+        'IsCampaignTypeSupported' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsCampaignTypeSupported',
+        'IsCampaignTypeSupportedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\IsCampaignTypeSupportedResponse',
+        'SelectSupportedCampaignType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SelectSupportedCampaignType',
+        'SelectSupportedCampaignTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\SelectSupportedCampaignTypeResponse',
+        'UnselectSupportedCampaignType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\UnselectSupportedCampaignType',
+        'UnselectSupportedCampaignTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\UnselectSupportedCampaignTypeResponse',
+        'WasCampaignTypeEverSupported' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\WasCampaignTypeEverSupported',
+        'WasCampaignTypeEverSupportedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\SystemManager_SSP\\WasCampaignTypeEverSupportedResponse',
+    );
 
     /**
      * @param array $options A array of config values
@@ -64,19 +65,19 @@ class SystemManager_SSP extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-    
-  foreach (self::$classmap as $key => $value) {
-    if (!isset($options['classmap'][$key])) {
-      $options['classmap'][$key] = $value;
-    }
-  }
-      $options = array_merge(array (
-  'features' => 1,
-), $options);
-      if (!$wsdl) {
-        $wsdl = 'http://localhost/xmpiewsapi/SystemManager_SSP.asmx?wsdl';
-      }
-      parent::__construct($wsdl, $options);
+
+        foreach (self::$classmap as $key => $value) {
+            if (!isset($options['classmap'][$key])) {
+                $options['classmap'][$key] = $value;
+            }
+        }
+        $options = array_merge(array(
+            'features' => 1,
+        ), $options);
+        if (!$wsdl) {
+            $wsdl = 'http://localhost/xmpiewsapi/SystemManager_SSP.asmx?wsdl';
+        }
+        parent::__construct($wsdl, $options);
     }
 
     /**
@@ -87,7 +88,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function GetProductInfo(GetProductInfo $parameters)
     {
-      return $this->__soapCall('GetProductInfo', array($parameters));
+        return $this->__soapCall('GetProductInfo', array($parameters));
     }
 
     /**
@@ -98,7 +99,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function GetProductInfoForUser(GetProductInfoForUser $parameters)
     {
-      return $this->__soapCall('GetProductInfoForUser', array($parameters));
+        return $this->__soapCall('GetProductInfoForUser', array($parameters));
     }
 
     /**
@@ -109,7 +110,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function GetProxyInfo(GetProxyInfo $parameters)
     {
-      return $this->__soapCall('GetProxyInfo', array($parameters));
+        return $this->__soapCall('GetProxyInfo', array($parameters));
     }
 
     /**
@@ -120,7 +121,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function SetProxyInfo(SetProxyInfo $parameters)
     {
-      return $this->__soapCall('SetProxyInfo', array($parameters));
+        return $this->__soapCall('SetProxyInfo', array($parameters));
     }
 
     /**
@@ -131,7 +132,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function TestHTTPProxy(TestHTTPProxy $parameters)
     {
-      return $this->__soapCall('TestHTTPProxy', array($parameters));
+        return $this->__soapCall('TestHTTPProxy', array($parameters));
     }
 
     /**
@@ -142,7 +143,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function TestHTTPSProxy(TestHTTPSProxy $parameters)
     {
-      return $this->__soapCall('TestHTTPSProxy', array($parameters));
+        return $this->__soapCall('TestHTTPSProxy', array($parameters));
     }
 
     /**
@@ -153,7 +154,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function SetCloudGatewayConfiguration(SetCloudGatewayConfiguration $parameters)
     {
-      return $this->__soapCall('SetCloudGatewayConfiguration', array($parameters));
+        return $this->__soapCall('SetCloudGatewayConfiguration', array($parameters));
     }
 
     /**
@@ -164,7 +165,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function GetCloudGatewayConfiguration(GetCloudGatewayConfiguration $parameters)
     {
-      return $this->__soapCall('GetCloudGatewayConfiguration', array($parameters));
+        return $this->__soapCall('GetCloudGatewayConfiguration', array($parameters));
     }
 
     /**
@@ -175,7 +176,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function GetDistillJobOptionNames(GetDistillJobOptionNames $parameters)
     {
-      return $this->__soapCall('GetDistillJobOptionNames', array($parameters));
+        return $this->__soapCall('GetDistillJobOptionNames', array($parameters));
     }
 
     /**
@@ -186,7 +187,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function IsFeatureSupported(IsFeatureSupported $parameters)
     {
-      return $this->__soapCall('IsFeatureSupported', array($parameters));
+        return $this->__soapCall('IsFeatureSupported', array($parameters));
     }
 
     /**
@@ -197,7 +198,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function IsCircleModeAvailable(IsCircleModeAvailable $parameters)
     {
-      return $this->__soapCall('IsCircleModeAvailable', array($parameters));
+        return $this->__soapCall('IsCircleModeAvailable', array($parameters));
     }
 
     /**
@@ -208,7 +209,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function SetCircleModeAvailable(SetCircleModeAvailable $parameters)
     {
-      return $this->__soapCall('SetCircleModeAvailable', array($parameters));
+        return $this->__soapCall('SetCircleModeAvailable', array($parameters));
     }
 
     /**
@@ -219,7 +220,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function IsCampaignTypeSupported(IsCampaignTypeSupported $parameters)
     {
-      return $this->__soapCall('IsCampaignTypeSupported', array($parameters));
+        return $this->__soapCall('IsCampaignTypeSupported', array($parameters));
     }
 
     /**
@@ -230,7 +231,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function SelectSupportedCampaignType(SelectSupportedCampaignType $parameters)
     {
-      return $this->__soapCall('SelectSupportedCampaignType', array($parameters));
+        return $this->__soapCall('SelectSupportedCampaignType', array($parameters));
     }
 
     /**
@@ -241,7 +242,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function UnselectSupportedCampaignType(UnselectSupportedCampaignType $parameters)
     {
-      return $this->__soapCall('UnselectSupportedCampaignType', array($parameters));
+        return $this->__soapCall('UnselectSupportedCampaignType', array($parameters));
     }
 
     /**
@@ -252,7 +253,7 @@ class SystemManager_SSP extends \SoapClient
      */
     public function WasCampaignTypeEverSupported(WasCampaignTypeEverSupported $parameters)
     {
-      return $this->__soapCall('WasCampaignTypeEverSupported', array($parameters));
+        return $this->__soapCall('WasCampaignTypeEverSupported', array($parameters));
     }
 
 }

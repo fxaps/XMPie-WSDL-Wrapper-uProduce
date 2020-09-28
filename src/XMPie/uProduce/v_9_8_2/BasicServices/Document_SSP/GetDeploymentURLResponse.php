@@ -15,7 +15,7 @@ class GetDeploymentURLResponse
      */
     public function __construct($GetDeploymentURLResult = null)
     {
-      $this->GetDeploymentURLResult = $GetDeploymentURLResult;
+        $this->GetDeploymentURLResult = $GetDeploymentURLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDeploymentURLResponse
      */
     public function getGetDeploymentURLResult()
     {
-      return $this->GetDeploymentURLResult;
+        return $this->GetDeploymentURLResult;
     }
 
     /**
      * @param string $GetDeploymentURLResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetDeploymentURLResponse
+     * @return GetDeploymentURLResponse
      */
     public function setGetDeploymentURLResult($GetDeploymentURLResult)
     {
-      $this->GetDeploymentURLResult = $GetDeploymentURLResult;
-      return $this;
+        $this->GetDeploymentURLResult = $GetDeploymentURLResult;
+        return $this;
     }
 
 }

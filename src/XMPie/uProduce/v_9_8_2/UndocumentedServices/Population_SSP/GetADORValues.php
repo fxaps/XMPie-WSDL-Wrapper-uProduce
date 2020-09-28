@@ -45,12 +45,12 @@ class GetADORValues
      */
     public function __construct($inUsername = null, $inPassword = null, $inPopulationOrContextId = null, $inADORNames = null, $inRecipientIDs = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPopulationOrContextId = $inPopulationOrContextId;
-      $this->inADORNames = $inADORNames;
-      $this->inRecipientIDs = $inRecipientIDs;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPopulationOrContextId = $inPopulationOrContextId;
+        $this->inADORNames = $inADORNames;
+        $this->inRecipientIDs = $inRecipientIDs;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -58,17 +58,17 @@ class GetADORValues
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValues
+     * @return GetADORValues
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class GetADORValues
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValues
+     * @return GetADORValues
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class GetADORValues
      */
     public function getInPopulationOrContextId()
     {
-      return $this->inPopulationOrContextId;
+        return $this->inPopulationOrContextId;
     }
 
     /**
      * @param string $inPopulationOrContextId
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValues
+     * @return GetADORValues
      */
     public function setInPopulationOrContextId($inPopulationOrContextId)
     {
-      $this->inPopulationOrContextId = $inPopulationOrContextId;
-      return $this;
+        $this->inPopulationOrContextId = $inPopulationOrContextId;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class GetADORValues
      */
     public function getInADORNames()
     {
-      return $this->inADORNames;
+        return $this->inADORNames;
     }
 
     /**
      * @param ArrayOfString $inADORNames
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValues
+     * @return GetADORValues
      */
     public function setInADORNames($inADORNames)
     {
-      $this->inADORNames = $inADORNames;
-      return $this;
+        $this->inADORNames = $inADORNames;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class GetADORValues
      */
     public function getInRecipientIDs()
     {
-      return $this->inRecipientIDs;
+        return $this->inRecipientIDs;
     }
 
     /**
      * @param ArrayOfString $inRecipientIDs
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValues
+     * @return GetADORValues
      */
     public function setInRecipientIDs($inRecipientIDs)
     {
-      $this->inRecipientIDs = $inRecipientIDs;
-      return $this;
+        $this->inRecipientIDs = $inRecipientIDs;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class GetADORValues
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValues
+     * @return GetADORValues
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

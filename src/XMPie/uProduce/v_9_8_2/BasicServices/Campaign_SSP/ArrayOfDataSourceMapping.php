@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP;
 
-class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfDataSourceMapping implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     protected $DataSourceMapping = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function getDataSourceMapping()
     {
-      return $this->DataSourceMapping;
+        return $this->DataSourceMapping;
     }
 
     /**
      * @param DataSourceMapping[] $DataSourceMapping
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\ArrayOfDataSourceMapping
+     * @return ArrayOfDataSourceMapping
      */
     public function setDataSourceMapping(array $DataSourceMapping = null)
     {
-      $this->DataSourceMapping = $DataSourceMapping;
-      return $this;
+        $this->DataSourceMapping = $DataSourceMapping;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->DataSourceMapping[$offset]);
+        return isset($this->DataSourceMapping[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->DataSourceMapping[$offset];
+        return $this->DataSourceMapping[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->DataSourceMapping[] = $value;
-      } else {
-        $this->DataSourceMapping[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->DataSourceMapping[] = $value;
+        } else {
+            $this->DataSourceMapping[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->DataSourceMapping[$offset]);
+        unset($this->DataSourceMapping[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->DataSourceMapping);
+        return current($this->DataSourceMapping);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->DataSourceMapping);
+        next($this->DataSourceMapping);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->DataSourceMapping);
+        return key($this->DataSourceMapping);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->DataSourceMapping);
+        reset($this->DataSourceMapping);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfDataSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->DataSourceMapping);
+        return count($this->DataSourceMapping);
     }
 
 }

@@ -15,7 +15,7 @@ class AppendCSVXFileResponse
      */
     public function __construct($AppendCSVXFileResult = null)
     {
-      $this->AppendCSVXFileResult = $AppendCSVXFileResult;
+        $this->AppendCSVXFileResult = $AppendCSVXFileResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AppendCSVXFileResponse
      */
     public function getAppendCSVXFileResult()
     {
-      return $this->AppendCSVXFileResult;
+        return $this->AppendCSVXFileResult;
     }
 
     /**
      * @param boolean $AppendCSVXFileResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\AppendCSVXFileResponse
+     * @return AppendCSVXFileResponse
      */
     public function setAppendCSVXFileResult($AppendCSVXFileResult)
     {
-      $this->AppendCSVXFileResult = $AppendCSVXFileResult;
-      return $this;
+        $this->AppendCSVXFileResult = $AppendCSVXFileResult;
+        return $this;
     }
 
 }

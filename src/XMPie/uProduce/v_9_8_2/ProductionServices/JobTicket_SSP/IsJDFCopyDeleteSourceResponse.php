@@ -15,7 +15,7 @@ class IsJDFCopyDeleteSourceResponse
      */
     public function __construct($IsJDFCopyDeleteSourceResult = null)
     {
-      $this->IsJDFCopyDeleteSourceResult = $IsJDFCopyDeleteSourceResult;
+        $this->IsJDFCopyDeleteSourceResult = $IsJDFCopyDeleteSourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsJDFCopyDeleteSourceResponse
      */
     public function getIsJDFCopyDeleteSourceResult()
     {
-      return $this->IsJDFCopyDeleteSourceResult;
+        return $this->IsJDFCopyDeleteSourceResult;
     }
 
     /**
      * @param boolean $IsJDFCopyDeleteSourceResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsJDFCopyDeleteSourceResponse
+     * @return IsJDFCopyDeleteSourceResponse
      */
     public function setIsJDFCopyDeleteSourceResult($IsJDFCopyDeleteSourceResult)
     {
-      $this->IsJDFCopyDeleteSourceResult = $IsJDFCopyDeleteSourceResult;
-      return $this;
+        $this->IsJDFCopyDeleteSourceResult = $IsJDFCopyDeleteSourceResult;
+        return $this;
     }
 
 }

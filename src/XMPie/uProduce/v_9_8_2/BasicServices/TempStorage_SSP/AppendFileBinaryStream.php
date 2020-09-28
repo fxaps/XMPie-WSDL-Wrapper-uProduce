@@ -33,10 +33,10 @@ class AppendFileBinaryStream
      */
     public function __construct($inUsername = null, $inPassword = null, $inFileToken = null, $inBinaryStream = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inFileToken = $inFileToken;
-      $this->inBinaryStream = $inBinaryStream;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inFileToken = $inFileToken;
+        $this->inBinaryStream = $inBinaryStream;
     }
 
     /**
@@ -44,17 +44,17 @@ class AppendFileBinaryStream
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\AppendFileBinaryStream
+     * @return AppendFileBinaryStream
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class AppendFileBinaryStream
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\AppendFileBinaryStream
+     * @return AppendFileBinaryStream
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class AppendFileBinaryStream
      */
     public function getInFileToken()
     {
-      return $this->inFileToken;
+        return $this->inFileToken;
     }
 
     /**
      * @param string $inFileToken
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\AppendFileBinaryStream
+     * @return AppendFileBinaryStream
      */
     public function setInFileToken($inFileToken)
     {
-      $this->inFileToken = $inFileToken;
-      return $this;
+        $this->inFileToken = $inFileToken;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class AppendFileBinaryStream
      */
     public function getInBinaryStream()
     {
-      return $this->inBinaryStream;
+        return $this->inBinaryStream;
     }
 
     /**
      * @param base64Binary $inBinaryStream
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\AppendFileBinaryStream
+     * @return AppendFileBinaryStream
      */
     public function setInBinaryStream($inBinaryStream)
     {
-      $this->inBinaryStream = $inBinaryStream;
-      return $this;
+        $this->inBinaryStream = $inBinaryStream;
+        return $this;
     }
 
 }

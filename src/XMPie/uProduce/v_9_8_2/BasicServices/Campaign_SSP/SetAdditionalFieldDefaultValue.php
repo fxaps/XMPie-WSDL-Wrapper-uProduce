@@ -39,11 +39,11 @@ class SetAdditionalFieldDefaultValue
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inFieldName = null, $inDefaultValue = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inCampaignID = $inCampaignID;
-      $this->inFieldName = $inFieldName;
-      $this->inDefaultValue = $inDefaultValue;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inCampaignID = $inCampaignID;
+        $this->inFieldName = $inFieldName;
+        $this->inDefaultValue = $inDefaultValue;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetAdditionalFieldDefaultValue
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\SetAdditionalFieldDefaultValue
+     * @return SetAdditionalFieldDefaultValue
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetAdditionalFieldDefaultValue
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\SetAdditionalFieldDefaultValue
+     * @return SetAdditionalFieldDefaultValue
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetAdditionalFieldDefaultValue
      */
     public function getInCampaignID()
     {
-      return $this->inCampaignID;
+        return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\SetAdditionalFieldDefaultValue
+     * @return SetAdditionalFieldDefaultValue
      */
     public function setInCampaignID($inCampaignID)
     {
-      $this->inCampaignID = $inCampaignID;
-      return $this;
+        $this->inCampaignID = $inCampaignID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetAdditionalFieldDefaultValue
      */
     public function getInFieldName()
     {
-      return $this->inFieldName;
+        return $this->inFieldName;
     }
 
     /**
      * @param string $inFieldName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\SetAdditionalFieldDefaultValue
+     * @return SetAdditionalFieldDefaultValue
      */
     public function setInFieldName($inFieldName)
     {
-      $this->inFieldName = $inFieldName;
-      return $this;
+        $this->inFieldName = $inFieldName;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetAdditionalFieldDefaultValue
      */
     public function getInDefaultValue()
     {
-      return $this->inDefaultValue;
+        return $this->inDefaultValue;
     }
 
     /**
      * @param string $inDefaultValue
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\SetAdditionalFieldDefaultValue
+     * @return SetAdditionalFieldDefaultValue
      */
     public function setInDefaultValue($inDefaultValue)
     {
-      $this->inDefaultValue = $inDefaultValue;
-      return $this;
+        $this->inDefaultValue = $inDefaultValue;
+        return $this;
     }
 
 }

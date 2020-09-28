@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP;
 
-class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfUploadedFieldMappingInfo implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     protected $UploadedFieldMappingInfo = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function getUploadedFieldMappingInfo()
     {
-      return $this->UploadedFieldMappingInfo;
+        return $this->UploadedFieldMappingInfo;
     }
 
     /**
      * @param UploadedFieldMappingInfo[] $UploadedFieldMappingInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\ArrayOfUploadedFieldMappingInfo
+     * @return ArrayOfUploadedFieldMappingInfo
      */
     public function setUploadedFieldMappingInfo(array $UploadedFieldMappingInfo = null)
     {
-      $this->UploadedFieldMappingInfo = $UploadedFieldMappingInfo;
-      return $this;
+        $this->UploadedFieldMappingInfo = $UploadedFieldMappingInfo;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function offsetExists($offset)
     {
-      return isset($this->UploadedFieldMappingInfo[$offset]);
+        return isset($this->UploadedFieldMappingInfo[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function offsetGet($offset)
     {
-      return $this->UploadedFieldMappingInfo[$offset];
+        return $this->UploadedFieldMappingInfo[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->UploadedFieldMappingInfo[] = $value;
-      } else {
-        $this->UploadedFieldMappingInfo[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->UploadedFieldMappingInfo[] = $value;
+        } else {
+            $this->UploadedFieldMappingInfo[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function offsetUnset($offset)
     {
-      unset($this->UploadedFieldMappingInfo[$offset]);
+        unset($this->UploadedFieldMappingInfo[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function current()
     {
-      return current($this->UploadedFieldMappingInfo);
+        return current($this->UploadedFieldMappingInfo);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function next()
     {
-      next($this->UploadedFieldMappingInfo);
+        next($this->UploadedFieldMappingInfo);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function key()
     {
-      return key($this->UploadedFieldMappingInfo);
+        return key($this->UploadedFieldMappingInfo);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function rewind()
     {
-      reset($this->UploadedFieldMappingInfo);
+        reset($this->UploadedFieldMappingInfo);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfUploadedFieldMappingInfo implements \ArrayAccess, \Iterator, \Count
      */
     public function count()
     {
-      return count($this->UploadedFieldMappingInfo);
+        return count($this->UploadedFieldMappingInfo);
     }
 
 }

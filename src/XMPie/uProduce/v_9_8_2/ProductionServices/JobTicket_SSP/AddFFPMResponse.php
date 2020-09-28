@@ -15,7 +15,7 @@ class AddFFPMResponse
      */
     public function __construct($AddFFPMResult = null)
     {
-      $this->AddFFPMResult = $AddFFPMResult;
+        $this->AddFFPMResult = $AddFFPMResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddFFPMResponse
      */
     public function getAddFFPMResult()
     {
-      return $this->AddFFPMResult;
+        return $this->AddFFPMResult;
     }
 
     /**
      * @param boolean $AddFFPMResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFFPMResponse
+     * @return AddFFPMResponse
      */
     public function setAddFFPMResult($AddFFPMResult)
     {
-      $this->AddFFPMResult = $AddFFPMResult;
-      return $this;
+        $this->AddFFPMResult = $AddFFPMResult;
+        return $this;
     }
 
 }

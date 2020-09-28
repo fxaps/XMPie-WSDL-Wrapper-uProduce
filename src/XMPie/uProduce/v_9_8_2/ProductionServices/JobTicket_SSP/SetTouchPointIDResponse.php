@@ -15,7 +15,7 @@ class SetTouchPointIDResponse
      */
     public function __construct($SetTouchPointIDResult = null)
     {
-      $this->SetTouchPointIDResult = $SetTouchPointIDResult;
+        $this->SetTouchPointIDResult = $SetTouchPointIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetTouchPointIDResponse
      */
     public function getSetTouchPointIDResult()
     {
-      return $this->SetTouchPointIDResult;
+        return $this->SetTouchPointIDResult;
     }
 
     /**
      * @param boolean $SetTouchPointIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetTouchPointIDResponse
+     * @return SetTouchPointIDResponse
      */
     public function setSetTouchPointIDResult($SetTouchPointIDResult)
     {
-      $this->SetTouchPointIDResult = $SetTouchPointIDResult;
-      return $this;
+        $this->SetTouchPointIDResult = $SetTouchPointIDResult;
+        return $this;
     }
 
 }

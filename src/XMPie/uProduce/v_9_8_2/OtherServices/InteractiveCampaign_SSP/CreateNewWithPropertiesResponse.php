@@ -15,7 +15,7 @@ class CreateNewWithPropertiesResponse
      */
     public function __construct($CreateNewWithPropertiesResult = null)
     {
-      $this->CreateNewWithPropertiesResult = $CreateNewWithPropertiesResult;
+        $this->CreateNewWithPropertiesResult = $CreateNewWithPropertiesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewWithPropertiesResponse
      */
     public function getCreateNewWithPropertiesResult()
     {
-      return $this->CreateNewWithPropertiesResult;
+        return $this->CreateNewWithPropertiesResult;
     }
 
     /**
      * @param string $CreateNewWithPropertiesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNewWithPropertiesResponse
+     * @return CreateNewWithPropertiesResponse
      */
     public function setCreateNewWithPropertiesResult($CreateNewWithPropertiesResult)
     {
-      $this->CreateNewWithPropertiesResult = $CreateNewWithPropertiesResult;
-      return $this;
+        $this->CreateNewWithPropertiesResult = $CreateNewWithPropertiesResult;
+        return $this;
     }
 
 }

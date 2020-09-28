@@ -33,10 +33,10 @@ class AddFileToFolder
      */
     public function __construct($inUsername = null, $inPassword = null, $inFolderToken = null, $inFileName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inFolderToken = $inFolderToken;
-      $this->inFileName = $inFileName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inFolderToken = $inFolderToken;
+        $this->inFileName = $inFileName;
     }
 
     /**
@@ -44,17 +44,17 @@ class AddFileToFolder
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\AddFileToFolder
+     * @return AddFileToFolder
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class AddFileToFolder
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\AddFileToFolder
+     * @return AddFileToFolder
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class AddFileToFolder
      */
     public function getInFolderToken()
     {
-      return $this->inFolderToken;
+        return $this->inFolderToken;
     }
 
     /**
      * @param string $inFolderToken
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\AddFileToFolder
+     * @return AddFileToFolder
      */
     public function setInFolderToken($inFolderToken)
     {
-      $this->inFolderToken = $inFolderToken;
-      return $this;
+        $this->inFolderToken = $inFolderToken;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class AddFileToFolder
      */
     public function getInFileName()
     {
-      return $this->inFileName;
+        return $this->inFileName;
     }
 
     /**
      * @param string $inFileName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\AddFileToFolder
+     * @return AddFileToFolder
      */
     public function setInFileName($inFileName)
     {
-      $this->inFileName = $inFileName;
-      return $this;
+        $this->inFileName = $inFileName;
+        return $this;
     }
 
 }

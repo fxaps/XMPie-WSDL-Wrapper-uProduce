@@ -33,10 +33,10 @@ class SetActiveness
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetSourceID = null, $isActive = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAssetSourceID = $inAssetSourceID;
-      $this->isActive = $isActive;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAssetSourceID = $inAssetSourceID;
+        $this->isActive = $isActive;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetActiveness
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetActiveness
+     * @return SetActiveness
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetActiveness
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetActiveness
+     * @return SetActiveness
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetActiveness
      */
     public function getInAssetSourceID()
     {
-      return $this->inAssetSourceID;
+        return $this->inAssetSourceID;
     }
 
     /**
      * @param string $inAssetSourceID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetActiveness
+     * @return SetActiveness
      */
     public function setInAssetSourceID($inAssetSourceID)
     {
-      $this->inAssetSourceID = $inAssetSourceID;
-      return $this;
+        $this->inAssetSourceID = $inAssetSourceID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetActiveness
      */
     public function getIsActive()
     {
-      return $this->isActive;
+        return $this->isActive;
     }
 
     /**
      * @param boolean $isActive
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetActiveness
+     * @return SetActiveness
      */
     public function setIsActive($isActive)
     {
-      $this->isActive = $isActive;
-      return $this;
+        $this->isActive = $isActive;
+        return $this;
     }
 
 }

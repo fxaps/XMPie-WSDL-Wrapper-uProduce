@@ -15,7 +15,7 @@ class GetUploadedFileTablesSchemaResponse
      */
     public function __construct($GetUploadedFileTablesSchemaResult = null)
     {
-      $this->GetUploadedFileTablesSchemaResult = $GetUploadedFileTablesSchemaResult;
+        $this->GetUploadedFileTablesSchemaResult = $GetUploadedFileTablesSchemaResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUploadedFileTablesSchemaResponse
      */
     public function getGetUploadedFileTablesSchemaResult()
     {
-      return $this->GetUploadedFileTablesSchemaResult;
+        return $this->GetUploadedFileTablesSchemaResult;
     }
 
     /**
      * @param XMPTblDataSet $GetUploadedFileTablesSchemaResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetUploadedFileTablesSchemaResponse
+     * @return GetUploadedFileTablesSchemaResponse
      */
     public function setGetUploadedFileTablesSchemaResult($GetUploadedFileTablesSchemaResult)
     {
-      $this->GetUploadedFileTablesSchemaResult = $GetUploadedFileTablesSchemaResult;
-      return $this;
+        $this->GetUploadedFileTablesSchemaResult = $GetUploadedFileTablesSchemaResult;
+        return $this;
     }
 
 }

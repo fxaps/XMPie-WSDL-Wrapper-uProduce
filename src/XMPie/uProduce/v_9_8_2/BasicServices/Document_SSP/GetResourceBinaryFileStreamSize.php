@@ -33,10 +33,10 @@ class GetResourceBinaryFileStreamSize
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inResourceIndex = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDocumentID = $inDocumentID;
-      $this->inResourceIndex = $inResourceIndex;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDocumentID = $inDocumentID;
+        $this->inResourceIndex = $inResourceIndex;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetResourceBinaryFileStreamSize
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamSize
+     * @return GetResourceBinaryFileStreamSize
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetResourceBinaryFileStreamSize
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamSize
+     * @return GetResourceBinaryFileStreamSize
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetResourceBinaryFileStreamSize
      */
     public function getInDocumentID()
     {
-      return $this->inDocumentID;
+        return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamSize
+     * @return GetResourceBinaryFileStreamSize
      */
     public function setInDocumentID($inDocumentID)
     {
-      $this->inDocumentID = $inDocumentID;
-      return $this;
+        $this->inDocumentID = $inDocumentID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetResourceBinaryFileStreamSize
      */
     public function getInResourceIndex()
     {
-      return $this->inResourceIndex;
+        return $this->inResourceIndex;
     }
 
     /**
      * @param int $inResourceIndex
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamSize
+     * @return GetResourceBinaryFileStreamSize
      */
     public function setInResourceIndex($inResourceIndex)
     {
-      $this->inResourceIndex = $inResourceIndex;
-      return $this;
+        $this->inResourceIndex = $inResourceIndex;
+        return $this;
     }
 
 }

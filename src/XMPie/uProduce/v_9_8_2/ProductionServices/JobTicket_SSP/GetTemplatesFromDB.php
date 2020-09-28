@@ -33,10 +33,10 @@ class GetTemplatesFromDB
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobType = null, $inAccountID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inJobType = $inJobType;
-      $this->inAccountID = $inAccountID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inJobType = $inJobType;
+        $this->inAccountID = $inAccountID;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetTemplatesFromDB
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTemplatesFromDB
+     * @return GetTemplatesFromDB
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetTemplatesFromDB
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTemplatesFromDB
+     * @return GetTemplatesFromDB
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetTemplatesFromDB
      */
     public function getInJobType()
     {
-      return $this->inJobType;
+        return $this->inJobType;
     }
 
     /**
      * @param string $inJobType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTemplatesFromDB
+     * @return GetTemplatesFromDB
      */
     public function setInJobType($inJobType)
     {
-      $this->inJobType = $inJobType;
-      return $this;
+        $this->inJobType = $inJobType;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetTemplatesFromDB
      */
     public function getInAccountID()
     {
-      return $this->inAccountID;
+        return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTemplatesFromDB
+     * @return GetTemplatesFromDB
      */
     public function setInAccountID($inAccountID)
     {
-      $this->inAccountID = $inAccountID;
-      return $this;
+        $this->inAccountID = $inAccountID;
+        return $this;
     }
 
 }

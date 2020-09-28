@@ -15,7 +15,7 @@ class DeleteAllConfigFilesResponse
      */
     public function __construct($DeleteAllConfigFilesResult = null)
     {
-      $this->DeleteAllConfigFilesResult = $DeleteAllConfigFilesResult;
+        $this->DeleteAllConfigFilesResult = $DeleteAllConfigFilesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAllConfigFilesResponse
      */
     public function getDeleteAllConfigFilesResult()
     {
-      return $this->DeleteAllConfigFilesResult;
+        return $this->DeleteAllConfigFilesResult;
     }
 
     /**
      * @param boolean $DeleteAllConfigFilesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteAllConfigFilesResponse
+     * @return DeleteAllConfigFilesResponse
      */
     public function setDeleteAllConfigFilesResult($DeleteAllConfigFilesResult)
     {
-      $this->DeleteAllConfigFilesResult = $DeleteAllConfigFilesResult;
-      return $this;
+        $this->DeleteAllConfigFilesResult = $DeleteAllConfigFilesResult;
+        return $this;
     }
 
 }

@@ -31,8 +31,8 @@ class StatusStructure
      */
     public function __construct($m_succeeded = null, $m_status = null)
     {
-      $this->m_succeeded = $m_succeeded;
-      $this->m_status = $m_status;
+        $this->m_succeeded = $m_succeeded;
+        $this->m_status = $m_status;
     }
 
     /**
@@ -40,17 +40,17 @@ class StatusStructure
      */
     public function getM_TransactionId()
     {
-      return $this->m_TransactionId;
+        return $this->m_TransactionId;
     }
 
     /**
      * @param string $m_TransactionId
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\StatusStructure
+     * @return StatusStructure
      */
     public function setM_TransactionId($m_TransactionId)
     {
-      $this->m_TransactionId = $m_TransactionId;
-      return $this;
+        $this->m_TransactionId = $m_TransactionId;
+        return $this;
     }
 
     /**
@@ -58,17 +58,17 @@ class StatusStructure
      */
     public function getM_succeeded()
     {
-      return $this->m_succeeded;
+        return $this->m_succeeded;
     }
 
     /**
      * @param boolean $m_succeeded
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\StatusStructure
+     * @return StatusStructure
      */
     public function setM_succeeded($m_succeeded)
     {
-      $this->m_succeeded = $m_succeeded;
-      return $this;
+        $this->m_succeeded = $m_succeeded;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class StatusStructure
      */
     public function getM_ErrorMessage()
     {
-      return $this->m_ErrorMessage;
+        return $this->m_ErrorMessage;
     }
 
     /**
      * @param string $m_ErrorMessage
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\StatusStructure
+     * @return StatusStructure
      */
     public function setM_ErrorMessage($m_ErrorMessage)
     {
-      $this->m_ErrorMessage = $m_ErrorMessage;
-      return $this;
+        $this->m_ErrorMessage = $m_ErrorMessage;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class StatusStructure
      */
     public function getM_status()
     {
-      return $this->m_status;
+        return $this->m_status;
     }
 
     /**
      * @param TransactionStatus $m_status
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\StatusStructure
+     * @return StatusStructure
      */
     public function setM_status($m_status)
     {
-      $this->m_status = $m_status;
-      return $this;
+        $this->m_status = $m_status;
+        return $this;
     }
 
 }

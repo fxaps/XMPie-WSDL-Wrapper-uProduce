@@ -33,10 +33,10 @@ class SetConnectivityAssets
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inUseConnectivity = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inUseConnectivity = $inUseConnectivity;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inUseConnectivity = $inUseConnectivity;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetConnectivityAssets
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetConnectivityAssets
+     * @return SetConnectivityAssets
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetConnectivityAssets
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetConnectivityAssets
+     * @return SetConnectivityAssets
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetConnectivityAssets
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetConnectivityAssets
+     * @return SetConnectivityAssets
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetConnectivityAssets
      */
     public function getInUseConnectivity()
     {
-      return $this->inUseConnectivity;
+        return $this->inUseConnectivity;
     }
 
     /**
      * @param boolean $inUseConnectivity
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetConnectivityAssets
+     * @return SetConnectivityAssets
      */
     public function setInUseConnectivity($inUseConnectivity)
     {
-      $this->inUseConnectivity = $inUseConnectivity;
-      return $this;
+        $this->inUseConnectivity = $inUseConnectivity;
+        return $this;
     }
 
 }

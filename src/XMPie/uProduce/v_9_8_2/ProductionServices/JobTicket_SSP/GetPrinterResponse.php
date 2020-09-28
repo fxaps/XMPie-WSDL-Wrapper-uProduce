@@ -15,7 +15,7 @@ class GetPrinterResponse
      */
     public function __construct($GetPrinterResult = null)
     {
-      $this->GetPrinterResult = $GetPrinterResult;
+        $this->GetPrinterResult = $GetPrinterResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPrinterResponse
      */
     public function getGetPrinterResult()
     {
-      return $this->GetPrinterResult;
+        return $this->GetPrinterResult;
     }
 
     /**
      * @param string $GetPrinterResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetPrinterResponse
+     * @return GetPrinterResponse
      */
     public function setGetPrinterResult($GetPrinterResult)
     {
-      $this->GetPrinterResult = $GetPrinterResult;
-      return $this;
+        $this->GetPrinterResult = $GetPrinterResult;
+        return $this;
     }
 
 }

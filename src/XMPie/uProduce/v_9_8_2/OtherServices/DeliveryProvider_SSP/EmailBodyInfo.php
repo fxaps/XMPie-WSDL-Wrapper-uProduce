@@ -30,10 +30,10 @@ class EmailBodyInfo
      */
     protected $m_URLInfo = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -41,17 +41,17 @@ class EmailBodyInfo
      */
     public function getM_Content()
     {
-      return $this->m_Content;
+        return $this->m_Content;
     }
 
     /**
      * @param string $m_Content
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\EmailBodyInfo
+     * @return EmailBodyInfo
      */
     public function setM_Content($m_Content)
     {
-      $this->m_Content = $m_Content;
-      return $this;
+        $this->m_Content = $m_Content;
+        return $this;
     }
 
     /**
@@ -59,17 +59,17 @@ class EmailBodyInfo
      */
     public function getM_ContentType()
     {
-      return $this->m_ContentType;
+        return $this->m_ContentType;
     }
 
     /**
      * @param string $m_ContentType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\EmailBodyInfo
+     * @return EmailBodyInfo
      */
     public function setM_ContentType($m_ContentType)
     {
-      $this->m_ContentType = $m_ContentType;
-      return $this;
+        $this->m_ContentType = $m_ContentType;
+        return $this;
     }
 
     /**
@@ -77,17 +77,17 @@ class EmailBodyInfo
      */
     public function getM_Format()
     {
-      return $this->m_Format;
+        return $this->m_Format;
     }
 
     /**
      * @param string $m_Format
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\EmailBodyInfo
+     * @return EmailBodyInfo
      */
     public function setM_Format($m_Format)
     {
-      $this->m_Format = $m_Format;
-      return $this;
+        $this->m_Format = $m_Format;
+        return $this;
     }
 
     /**
@@ -95,17 +95,17 @@ class EmailBodyInfo
      */
     public function getM_BodyOptions()
     {
-      return $this->m_BodyOptions;
+        return $this->m_BodyOptions;
     }
 
     /**
      * @param EmailBodyOptions $m_BodyOptions
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\EmailBodyInfo
+     * @return EmailBodyInfo
      */
     public function setM_BodyOptions($m_BodyOptions)
     {
-      $this->m_BodyOptions = $m_BodyOptions;
-      return $this;
+        $this->m_BodyOptions = $m_BodyOptions;
+        return $this;
     }
 
     /**
@@ -113,17 +113,17 @@ class EmailBodyInfo
      */
     public function getM_URLInfo()
     {
-      return $this->m_URLInfo;
+        return $this->m_URLInfo;
     }
 
     /**
      * @param URLInfo $m_URLInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\EmailBodyInfo
+     * @return EmailBodyInfo
      */
     public function setM_URLInfo($m_URLInfo)
     {
-      $this->m_URLInfo = $m_URLInfo;
-      return $this;
+        $this->m_URLInfo = $m_URLInfo;
+        return $this;
     }
 
 }

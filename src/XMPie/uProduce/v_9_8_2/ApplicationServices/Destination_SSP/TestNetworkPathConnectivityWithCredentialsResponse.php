@@ -15,7 +15,7 @@ class TestNetworkPathConnectivityWithCredentialsResponse
      */
     public function __construct($TestNetworkPathConnectivityWithCredentialsResult = null)
     {
-      $this->TestNetworkPathConnectivityWithCredentialsResult = $TestNetworkPathConnectivityWithCredentialsResult;
+        $this->TestNetworkPathConnectivityWithCredentialsResult = $TestNetworkPathConnectivityWithCredentialsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class TestNetworkPathConnectivityWithCredentialsResponse
      */
     public function getTestNetworkPathConnectivityWithCredentialsResult()
     {
-      return $this->TestNetworkPathConnectivityWithCredentialsResult;
+        return $this->TestNetworkPathConnectivityWithCredentialsResult;
     }
 
     /**
      * @param boolean $TestNetworkPathConnectivityWithCredentialsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestNetworkPathConnectivityWithCredentialsResponse
+     * @return TestNetworkPathConnectivityWithCredentialsResponse
      */
     public function setTestNetworkPathConnectivityWithCredentialsResult($TestNetworkPathConnectivityWithCredentialsResult)
     {
-      $this->TestNetworkPathConnectivityWithCredentialsResult = $TestNetworkPathConnectivityWithCredentialsResult;
-      return $this;
+        $this->TestNetworkPathConnectivityWithCredentialsResult = $TestNetworkPathConnectivityWithCredentialsResult;
+        return $this;
     }
 
 }

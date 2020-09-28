@@ -15,7 +15,7 @@ class IsRecipientParticipatingByInfoResponse
      */
     public function __construct($IsRecipientParticipatingByInfoResult = null)
     {
-      $this->IsRecipientParticipatingByInfoResult = $IsRecipientParticipatingByInfoResult;
+        $this->IsRecipientParticipatingByInfoResult = $IsRecipientParticipatingByInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsRecipientParticipatingByInfoResponse
      */
     public function getIsRecipientParticipatingByInfoResult()
     {
-      return $this->IsRecipientParticipatingByInfoResult;
+        return $this->IsRecipientParticipatingByInfoResult;
     }
 
     /**
      * @param boolean $IsRecipientParticipatingByInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsRecipientParticipatingByInfoResponse
+     * @return IsRecipientParticipatingByInfoResponse
      */
     public function setIsRecipientParticipatingByInfoResult($IsRecipientParticipatingByInfoResult)
     {
-      $this->IsRecipientParticipatingByInfoResult = $IsRecipientParticipatingByInfoResult;
-      return $this;
+        $this->IsRecipientParticipatingByInfoResult = $IsRecipientParticipatingByInfoResult;
+        return $this;
     }
 
 }

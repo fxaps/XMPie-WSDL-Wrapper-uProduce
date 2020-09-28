@@ -15,7 +15,7 @@ class UnLockResourceResponse
      */
     public function __construct($UnLockResourceResult = null)
     {
-      $this->UnLockResourceResult = $UnLockResourceResult;
+        $this->UnLockResourceResult = $UnLockResourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class UnLockResourceResponse
      */
     public function getUnLockResourceResult()
     {
-      return $this->UnLockResourceResult;
+        return $this->UnLockResourceResult;
     }
 
     /**
      * @param boolean $UnLockResourceResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\UnLockResourceResponse
+     * @return UnLockResourceResponse
      */
     public function setUnLockResourceResult($UnLockResourceResult)
     {
-      $this->UnLockResourceResult = $UnLockResourceResult;
-      return $this;
+        $this->UnLockResourceResult = $UnLockResourceResult;
+        return $this;
     }
 
 }

@@ -57,14 +57,14 @@ class ReplaceFromZip
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountDataSourceID = null, $inConnectionInfo = null, $inZipPath = null, $inDeleteSource = null, $inDeleteEmptySourceFolder = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountDataSourceID = $inAccountDataSourceID;
-      $this->inConnectionInfo = $inConnectionInfo;
-      $this->inZipPath = $inZipPath;
-      $this->inDeleteSource = $inDeleteSource;
-      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountDataSourceID = $inAccountDataSourceID;
+        $this->inConnectionInfo = $inConnectionInfo;
+        $this->inZipPath = $inZipPath;
+        $this->inDeleteSource = $inDeleteSource;
+        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -72,17 +72,17 @@ class ReplaceFromZip
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\ReplaceFromZip
+     * @return ReplaceFromZip
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class ReplaceFromZip
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\ReplaceFromZip
+     * @return ReplaceFromZip
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class ReplaceFromZip
      */
     public function getInAccountDataSourceID()
     {
-      return $this->inAccountDataSourceID;
+        return $this->inAccountDataSourceID;
     }
 
     /**
      * @param string $inAccountDataSourceID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\ReplaceFromZip
+     * @return ReplaceFromZip
      */
     public function setInAccountDataSourceID($inAccountDataSourceID)
     {
-      $this->inAccountDataSourceID = $inAccountDataSourceID;
-      return $this;
+        $this->inAccountDataSourceID = $inAccountDataSourceID;
+        return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class ReplaceFromZip
      */
     public function getInConnectionInfo()
     {
-      return $this->inConnectionInfo;
+        return $this->inConnectionInfo;
     }
 
     /**
      * @param Connection $inConnectionInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\ReplaceFromZip
+     * @return ReplaceFromZip
      */
     public function setInConnectionInfo($inConnectionInfo)
     {
-      $this->inConnectionInfo = $inConnectionInfo;
-      return $this;
+        $this->inConnectionInfo = $inConnectionInfo;
+        return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class ReplaceFromZip
      */
     public function getInZipPath()
     {
-      return $this->inZipPath;
+        return $this->inZipPath;
     }
 
     /**
      * @param string $inZipPath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\ReplaceFromZip
+     * @return ReplaceFromZip
      */
     public function setInZipPath($inZipPath)
     {
-      $this->inZipPath = $inZipPath;
-      return $this;
+        $this->inZipPath = $inZipPath;
+        return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class ReplaceFromZip
      */
     public function getInDeleteSource()
     {
-      return $this->inDeleteSource;
+        return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\ReplaceFromZip
+     * @return ReplaceFromZip
      */
     public function setInDeleteSource($inDeleteSource)
     {
-      $this->inDeleteSource = $inDeleteSource;
-      return $this;
+        $this->inDeleteSource = $inDeleteSource;
+        return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class ReplaceFromZip
      */
     public function getInDeleteEmptySourceFolder()
     {
-      return $this->inDeleteEmptySourceFolder;
+        return $this->inDeleteEmptySourceFolder;
     }
 
     /**
      * @param boolean $inDeleteEmptySourceFolder
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\ReplaceFromZip
+     * @return ReplaceFromZip
      */
     public function setInDeleteEmptySourceFolder($inDeleteEmptySourceFolder)
     {
-      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-      return $this;
+        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+        return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class ReplaceFromZip
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\ReplaceFromZip
+     * @return ReplaceFromZip
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

@@ -39,11 +39,11 @@ class SetDefaultDataSources
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inCampaignID = null, $inFlatOriented = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inCampaignID = $inCampaignID;
-      $this->inFlatOriented = $inFlatOriented;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inCampaignID = $inCampaignID;
+        $this->inFlatOriented = $inFlatOriented;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetDefaultDataSources
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultDataSources
+     * @return SetDefaultDataSources
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetDefaultDataSources
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultDataSources
+     * @return SetDefaultDataSources
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetDefaultDataSources
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultDataSources
+     * @return SetDefaultDataSources
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetDefaultDataSources
      */
     public function getInCampaignID()
     {
-      return $this->inCampaignID;
+        return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultDataSources
+     * @return SetDefaultDataSources
      */
     public function setInCampaignID($inCampaignID)
     {
-      $this->inCampaignID = $inCampaignID;
-      return $this;
+        $this->inCampaignID = $inCampaignID;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetDefaultDataSources
      */
     public function getInFlatOriented()
     {
-      return $this->inFlatOriented;
+        return $this->inFlatOriented;
     }
 
     /**
      * @param boolean $inFlatOriented
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultDataSources
+     * @return SetDefaultDataSources
      */
     public function setInFlatOriented($inFlatOriented)
     {
-      $this->inFlatOriented = $inFlatOriented;
-      return $this;
+        $this->inFlatOriented = $inFlatOriented;
+        return $this;
     }
 
 }

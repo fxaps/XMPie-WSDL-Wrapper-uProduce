@@ -3,44 +3,45 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP;
 
 
+use SoapClient;
 use SoapFault;
 
 /**
  * Tracker Web Service.
  */
-class Tracker_SSP extends \SoapClient
+class Tracker_SSP extends SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array (
-  'AddEvent' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEvent',
-  'XMPDateTime' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\XMPDateTime',
-  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\ArrayOfProperty',
-  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\Property',
-  'AddEventResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventResponse',
-  'AddEventType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventType',
-  'AddEventTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventTypeResponse',
-  'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\Delete',
-  'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\DeleteResponse',
-  'AddEventForRecipients' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventForRecipients',
-  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\ArrayOfString',
-  'AddEventForRecipientsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventForRecipientsResponse',
-  'AddEvents' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEvents',
-  'ArrayOfTrackEvent' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\ArrayOfTrackEvent',
-  'TrackEvent' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\TrackEvent',
-  'AddEventsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventsResponse',
-  'CreateNewJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\CreateNewJob',
-  'CreateNewJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\CreateNewJobResponse',
-  'SetCloudTrackingConfiguration' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\SetCloudTrackingConfiguration',
-  'SetCloudTrackingConfigurationResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\SetCloudTrackingConfigurationResponse',
-  'GetCloudTrackingConfiguration' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\GetCloudTrackingConfiguration',
-  'GetCloudTrackingConfigurationResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\GetCloudTrackingConfigurationResponse',
-  'GetCloudTrackingInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\GetCloudTrackingInfo',
-  'GetCloudTrackingInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\GetCloudTrackingInfoResponse',
-  'CloudTrackingInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\CloudTrackingInfo',
-);
+    private static $classmap = array(
+        'AddEvent' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEvent',
+        'XMPDateTime' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\XMPDateTime',
+        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\ArrayOfProperty',
+        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\Property',
+        'AddEventResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventResponse',
+        'AddEventType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventType',
+        'AddEventTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventTypeResponse',
+        'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\Delete',
+        'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\DeleteResponse',
+        'AddEventForRecipients' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventForRecipients',
+        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\ArrayOfString',
+        'AddEventForRecipientsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventForRecipientsResponse',
+        'AddEvents' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEvents',
+        'ArrayOfTrackEvent' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\ArrayOfTrackEvent',
+        'TrackEvent' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\TrackEvent',
+        'AddEventsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\AddEventsResponse',
+        'CreateNewJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\CreateNewJob',
+        'CreateNewJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\CreateNewJobResponse',
+        'SetCloudTrackingConfiguration' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\SetCloudTrackingConfiguration',
+        'SetCloudTrackingConfigurationResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\SetCloudTrackingConfigurationResponse',
+        'GetCloudTrackingConfiguration' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\GetCloudTrackingConfiguration',
+        'GetCloudTrackingConfigurationResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\GetCloudTrackingConfigurationResponse',
+        'GetCloudTrackingInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\GetCloudTrackingInfo',
+        'GetCloudTrackingInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\GetCloudTrackingInfoResponse',
+        'CloudTrackingInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Tracker_SSP\\CloudTrackingInfo',
+    );
 
     /**
      * @param array $options A array of config values
@@ -49,19 +50,19 @@ class Tracker_SSP extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-    
-  foreach (self::$classmap as $key => $value) {
-    if (!isset($options['classmap'][$key])) {
-      $options['classmap'][$key] = $value;
-    }
-  }
-      $options = array_merge(array (
-  'features' => 1,
-), $options);
-      if (!$wsdl) {
-        $wsdl = 'http://localhost/xmpiewsapi/Tracker_SSP.asmx?wsdl';
-      }
-      parent::__construct($wsdl, $options);
+
+        foreach (self::$classmap as $key => $value) {
+            if (!isset($options['classmap'][$key])) {
+                $options['classmap'][$key] = $value;
+            }
+        }
+        $options = array_merge(array(
+            'features' => 1,
+        ), $options);
+        if (!$wsdl) {
+            $wsdl = 'http://localhost/xmpiewsapi/Tracker_SSP.asmx?wsdl';
+        }
+        parent::__construct($wsdl, $options);
     }
 
     /**
@@ -72,7 +73,7 @@ class Tracker_SSP extends \SoapClient
      */
     public function AddEvent(AddEvent $parameters)
     {
-      return $this->__soapCall('AddEvent', array($parameters));
+        return $this->__soapCall('AddEvent', array($parameters));
     }
 
     /**
@@ -83,7 +84,7 @@ class Tracker_SSP extends \SoapClient
      */
     public function AddEventType(AddEventType $parameters)
     {
-      return $this->__soapCall('AddEventType', array($parameters));
+        return $this->__soapCall('AddEventType', array($parameters));
     }
 
     /**
@@ -94,7 +95,7 @@ class Tracker_SSP extends \SoapClient
      */
     public function Delete(Delete $parameters)
     {
-      return $this->__soapCall('Delete', array($parameters));
+        return $this->__soapCall('Delete', array($parameters));
     }
 
     /**
@@ -105,7 +106,7 @@ class Tracker_SSP extends \SoapClient
      */
     public function AddEventForRecipients(AddEventForRecipients $parameters)
     {
-      return $this->__soapCall('AddEventForRecipients', array($parameters));
+        return $this->__soapCall('AddEventForRecipients', array($parameters));
     }
 
     /**
@@ -116,7 +117,7 @@ class Tracker_SSP extends \SoapClient
      */
     public function AddEvents(AddEvents $parameters)
     {
-      return $this->__soapCall('AddEvents', array($parameters));
+        return $this->__soapCall('AddEvents', array($parameters));
     }
 
     /**
@@ -127,7 +128,7 @@ class Tracker_SSP extends \SoapClient
      */
     public function CreateNewJob(CreateNewJob $parameters)
     {
-      return $this->__soapCall('CreateNewJob', array($parameters));
+        return $this->__soapCall('CreateNewJob', array($parameters));
     }
 
     /**
@@ -138,7 +139,7 @@ class Tracker_SSP extends \SoapClient
      */
     public function SetCloudTrackingConfiguration(SetCloudTrackingConfiguration $parameters)
     {
-      return $this->__soapCall('SetCloudTrackingConfiguration', array($parameters));
+        return $this->__soapCall('SetCloudTrackingConfiguration', array($parameters));
     }
 
     /**
@@ -149,7 +150,7 @@ class Tracker_SSP extends \SoapClient
      */
     public function GetCloudTrackingConfiguration(GetCloudTrackingConfiguration $parameters)
     {
-      return $this->__soapCall('GetCloudTrackingConfiguration', array($parameters));
+        return $this->__soapCall('GetCloudTrackingConfiguration', array($parameters));
     }
 
     /**
@@ -160,7 +161,7 @@ class Tracker_SSP extends \SoapClient
      */
     public function GetCloudTrackingInfo(GetCloudTrackingInfo $parameters)
     {
-      return $this->__soapCall('GetCloudTrackingInfo', array($parameters));
+        return $this->__soapCall('GetCloudTrackingInfo', array($parameters));
     }
 
 }

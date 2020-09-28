@@ -69,16 +69,16 @@ class AddTrackEvent
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountName = null, $inCampaignName = null, $inICPName = null, $inEventType = null, $inRecipientID = null, $inEventContext = null, $inHitDate = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountName = $inAccountName;
-      $this->inCampaignName = $inCampaignName;
-      $this->inICPName = $inICPName;
-      $this->inEventType = $inEventType;
-      $this->inRecipientID = $inRecipientID;
-      $this->inEventContext = $inEventContext;
-      $this->inHitDate = $inHitDate;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountName = $inAccountName;
+        $this->inCampaignName = $inCampaignName;
+        $this->inICPName = $inICPName;
+        $this->inEventType = $inEventType;
+        $this->inRecipientID = $inRecipientID;
+        $this->inEventContext = $inEventContext;
+        $this->inHitDate = $inHitDate;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -86,17 +86,17 @@ class AddTrackEvent
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\AddTrackEvent
+     * @return AddTrackEvent
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -104,17 +104,17 @@ class AddTrackEvent
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\AddTrackEvent
+     * @return AddTrackEvent
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -122,17 +122,17 @@ class AddTrackEvent
      */
     public function getInAccountName()
     {
-      return $this->inAccountName;
+        return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\AddTrackEvent
+     * @return AddTrackEvent
      */
     public function setInAccountName($inAccountName)
     {
-      $this->inAccountName = $inAccountName;
-      return $this;
+        $this->inAccountName = $inAccountName;
+        return $this;
     }
 
     /**
@@ -140,17 +140,17 @@ class AddTrackEvent
      */
     public function getInCampaignName()
     {
-      return $this->inCampaignName;
+        return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\AddTrackEvent
+     * @return AddTrackEvent
      */
     public function setInCampaignName($inCampaignName)
     {
-      $this->inCampaignName = $inCampaignName;
-      return $this;
+        $this->inCampaignName = $inCampaignName;
+        return $this;
     }
 
     /**
@@ -158,17 +158,17 @@ class AddTrackEvent
      */
     public function getInICPName()
     {
-      return $this->inICPName;
+        return $this->inICPName;
     }
 
     /**
      * @param string $inICPName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\AddTrackEvent
+     * @return AddTrackEvent
      */
     public function setInICPName($inICPName)
     {
-      $this->inICPName = $inICPName;
-      return $this;
+        $this->inICPName = $inICPName;
+        return $this;
     }
 
     /**
@@ -176,17 +176,17 @@ class AddTrackEvent
      */
     public function getInEventType()
     {
-      return $this->inEventType;
+        return $this->inEventType;
     }
 
     /**
      * @param string $inEventType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\AddTrackEvent
+     * @return AddTrackEvent
      */
     public function setInEventType($inEventType)
     {
-      $this->inEventType = $inEventType;
-      return $this;
+        $this->inEventType = $inEventType;
+        return $this;
     }
 
     /**
@@ -194,17 +194,17 @@ class AddTrackEvent
      */
     public function getInRecipientID()
     {
-      return $this->inRecipientID;
+        return $this->inRecipientID;
     }
 
     /**
      * @param string $inRecipientID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\AddTrackEvent
+     * @return AddTrackEvent
      */
     public function setInRecipientID($inRecipientID)
     {
-      $this->inRecipientID = $inRecipientID;
-      return $this;
+        $this->inRecipientID = $inRecipientID;
+        return $this;
     }
 
     /**
@@ -212,17 +212,17 @@ class AddTrackEvent
      */
     public function getInEventContext()
     {
-      return $this->inEventContext;
+        return $this->inEventContext;
     }
 
     /**
      * @param string $inEventContext
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\AddTrackEvent
+     * @return AddTrackEvent
      */
     public function setInEventContext($inEventContext)
     {
-      $this->inEventContext = $inEventContext;
-      return $this;
+        $this->inEventContext = $inEventContext;
+        return $this;
     }
 
     /**
@@ -230,17 +230,17 @@ class AddTrackEvent
      */
     public function getInHitDate()
     {
-      return $this->inHitDate;
+        return $this->inHitDate;
     }
 
     /**
      * @param XMPDateTime $inHitDate
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\AddTrackEvent
+     * @return AddTrackEvent
      */
     public function setInHitDate($inHitDate)
     {
-      $this->inHitDate = $inHitDate;
-      return $this;
+        $this->inHitDate = $inHitDate;
+        return $this;
     }
 
     /**
@@ -248,17 +248,17 @@ class AddTrackEvent
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\AddTrackEvent
+     * @return AddTrackEvent
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

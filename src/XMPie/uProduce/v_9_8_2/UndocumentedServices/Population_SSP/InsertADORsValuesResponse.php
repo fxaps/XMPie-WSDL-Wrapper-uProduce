@@ -15,7 +15,7 @@ class InsertADORsValuesResponse
      */
     public function __construct($InsertADORsValuesResult = null)
     {
-      $this->InsertADORsValuesResult = $InsertADORsValuesResult;
+        $this->InsertADORsValuesResult = $InsertADORsValuesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class InsertADORsValuesResponse
      */
     public function getInsertADORsValuesResult()
     {
-      return $this->InsertADORsValuesResult;
+        return $this->InsertADORsValuesResult;
     }
 
     /**
      * @param string $InsertADORsValuesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\InsertADORsValuesResponse
+     * @return InsertADORsValuesResponse
      */
     public function setInsertADORsValuesResult($InsertADORsValuesResult)
     {
-      $this->InsertADORsValuesResult = $InsertADORsValuesResult;
-      return $this;
+        $this->InsertADORsValuesResult = $InsertADORsValuesResult;
+        return $this;
     }
 
 }

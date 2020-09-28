@@ -57,14 +57,14 @@ class PreflightSplitted
      */
     public function __construct($inUsername = null, $inPassword = null, $inEmailMarketingID = null, $inJobTicket = null, $inSplittingType = null, $inSplittingInfo = null, $inJobName = null, $inPriority = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      $this->inJobTicket = $inJobTicket;
-      $this->inSplittingType = $inSplittingType;
-      $this->inSplittingInfo = $inSplittingInfo;
-      $this->inJobName = $inJobName;
-      $this->inPriority = $inPriority;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        $this->inJobTicket = $inJobTicket;
+        $this->inSplittingType = $inSplittingType;
+        $this->inSplittingInfo = $inSplittingInfo;
+        $this->inJobName = $inJobName;
+        $this->inPriority = $inPriority;
     }
 
     /**
@@ -72,17 +72,17 @@ class PreflightSplitted
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreflightSplitted
+     * @return PreflightSplitted
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class PreflightSplitted
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreflightSplitted
+     * @return PreflightSplitted
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class PreflightSplitted
      */
     public function getInEmailMarketingID()
     {
-      return $this->inEmailMarketingID;
+        return $this->inEmailMarketingID;
     }
 
     /**
      * @param string $inEmailMarketingID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreflightSplitted
+     * @return PreflightSplitted
      */
     public function setInEmailMarketingID($inEmailMarketingID)
     {
-      $this->inEmailMarketingID = $inEmailMarketingID;
-      return $this;
+        $this->inEmailMarketingID = $inEmailMarketingID;
+        return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class PreflightSplitted
      */
     public function getInJobTicket()
     {
-      return $this->inJobTicket;
+        return $this->inJobTicket;
     }
 
     /**
      * @param string $inJobTicket
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreflightSplitted
+     * @return PreflightSplitted
      */
     public function setInJobTicket($inJobTicket)
     {
-      $this->inJobTicket = $inJobTicket;
-      return $this;
+        $this->inJobTicket = $inJobTicket;
+        return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class PreflightSplitted
      */
     public function getInSplittingType()
     {
-      return $this->inSplittingType;
+        return $this->inSplittingType;
     }
 
     /**
      * @param string $inSplittingType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreflightSplitted
+     * @return PreflightSplitted
      */
     public function setInSplittingType($inSplittingType)
     {
-      $this->inSplittingType = $inSplittingType;
-      return $this;
+        $this->inSplittingType = $inSplittingType;
+        return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class PreflightSplitted
      */
     public function getInSplittingInfo()
     {
-      return $this->inSplittingInfo;
+        return $this->inSplittingInfo;
     }
 
     /**
      * @param string $inSplittingInfo
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreflightSplitted
+     * @return PreflightSplitted
      */
     public function setInSplittingInfo($inSplittingInfo)
     {
-      $this->inSplittingInfo = $inSplittingInfo;
-      return $this;
+        $this->inSplittingInfo = $inSplittingInfo;
+        return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class PreflightSplitted
      */
     public function getInJobName()
     {
-      return $this->inJobName;
+        return $this->inJobName;
     }
 
     /**
      * @param string $inJobName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreflightSplitted
+     * @return PreflightSplitted
      */
     public function setInJobName($inJobName)
     {
-      $this->inJobName = $inJobName;
-      return $this;
+        $this->inJobName = $inJobName;
+        return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class PreflightSplitted
      */
     public function getInPriority()
     {
-      return $this->inPriority;
+        return $this->inPriority;
     }
 
     /**
      * @param string $inPriority
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreflightSplitted
+     * @return PreflightSplitted
      */
     public function setInPriority($inPriority)
     {
-      $this->inPriority = $inPriority;
-      return $this;
+        $this->inPriority = $inPriority;
+        return $this;
     }
 
 }

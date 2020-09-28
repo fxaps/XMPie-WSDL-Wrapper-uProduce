@@ -15,7 +15,7 @@ class SetPermissionsEntriesResponse
      */
     public function __construct($SetPermissionsEntriesResult = null)
     {
-      $this->SetPermissionsEntriesResult = $SetPermissionsEntriesResult;
+        $this->SetPermissionsEntriesResult = $SetPermissionsEntriesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetPermissionsEntriesResponse
      */
     public function getSetPermissionsEntriesResult()
     {
-      return $this->SetPermissionsEntriesResult;
+        return $this->SetPermissionsEntriesResult;
     }
 
     /**
      * @param boolean $SetPermissionsEntriesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\SetPermissionsEntriesResponse
+     * @return SetPermissionsEntriesResponse
      */
     public function setSetPermissionsEntriesResult($SetPermissionsEntriesResult)
     {
-      $this->SetPermissionsEntriesResult = $SetPermissionsEntriesResult;
-      return $this;
+        $this->SetPermissionsEntriesResult = $SetPermissionsEntriesResult;
+        return $this;
     }
 
 }

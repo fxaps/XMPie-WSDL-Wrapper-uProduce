@@ -39,11 +39,11 @@ class AddCompression
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inFileName = null, $inIsVPC = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inFileName = $inFileName;
-      $this->inIsVPC = $inIsVPC;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inFileName = $inFileName;
+        $this->inIsVPC = $inIsVPC;
     }
 
     /**
@@ -51,17 +51,17 @@ class AddCompression
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddCompression
+     * @return AddCompression
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class AddCompression
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddCompression
+     * @return AddCompression
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class AddCompression
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddCompression
+     * @return AddCompression
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class AddCompression
      */
     public function getInFileName()
     {
-      return $this->inFileName;
+        return $this->inFileName;
     }
 
     /**
      * @param string $inFileName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddCompression
+     * @return AddCompression
      */
     public function setInFileName($inFileName)
     {
-      $this->inFileName = $inFileName;
-      return $this;
+        $this->inFileName = $inFileName;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class AddCompression
      */
     public function getInIsVPC()
     {
-      return $this->inIsVPC;
+        return $this->inIsVPC;
     }
 
     /**
      * @param boolean $inIsVPC
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddCompression
+     * @return AddCompression
      */
     public function setInIsVPC($inIsVPC)
     {
-      $this->inIsVPC = $inIsVPC;
-      return $this;
+        $this->inIsVPC = $inIsVPC;
+        return $this;
     }
 
 }

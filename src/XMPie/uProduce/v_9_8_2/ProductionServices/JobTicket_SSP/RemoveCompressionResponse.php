@@ -15,7 +15,7 @@ class RemoveCompressionResponse
      */
     public function __construct($RemoveCompressionResult = null)
     {
-      $this->RemoveCompressionResult = $RemoveCompressionResult;
+        $this->RemoveCompressionResult = $RemoveCompressionResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveCompressionResponse
      */
     public function getRemoveCompressionResult()
     {
-      return $this->RemoveCompressionResult;
+        return $this->RemoveCompressionResult;
     }
 
     /**
      * @param boolean $RemoveCompressionResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveCompressionResponse
+     * @return RemoveCompressionResponse
      */
     public function setRemoveCompressionResult($RemoveCompressionResult)
     {
-      $this->RemoveCompressionResult = $RemoveCompressionResult;
-      return $this;
+        $this->RemoveCompressionResult = $RemoveCompressionResult;
+        return $this;
     }
 
 }

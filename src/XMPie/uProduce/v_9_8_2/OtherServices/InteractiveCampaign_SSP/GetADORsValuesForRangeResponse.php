@@ -15,7 +15,7 @@ class GetADORsValuesForRangeResponse
      */
     public function __construct($GetADORsValuesForRangeResult = null)
     {
-      $this->GetADORsValuesForRangeResult = $GetADORsValuesForRangeResult;
+        $this->GetADORsValuesForRangeResult = $GetADORsValuesForRangeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetADORsValuesForRangeResponse
      */
     public function getGetADORsValuesForRangeResult()
     {
-      return $this->GetADORsValuesForRangeResult;
+        return $this->GetADORsValuesForRangeResult;
     }
 
     /**
      * @param GetADORsValuesForRangeResult $GetADORsValuesForRangeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeResponse
+     * @return GetADORsValuesForRangeResponse
      */
     public function setGetADORsValuesForRangeResult($GetADORsValuesForRangeResult)
     {
-      $this->GetADORsValuesForRangeResult = $GetADORsValuesForRangeResult;
-      return $this;
+        $this->GetADORsValuesForRangeResult = $GetADORsValuesForRangeResult;
+        return $this;
     }
 
 }

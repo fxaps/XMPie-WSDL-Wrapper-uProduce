@@ -33,10 +33,10 @@ class ReQueue
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobID = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inJobID = $inJobID;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inJobID = $inJobID;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -44,17 +44,17 @@ class ReQueue
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\ReQueue
+     * @return ReQueue
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class ReQueue
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\ReQueue
+     * @return ReQueue
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class ReQueue
      */
     public function getInJobID()
     {
-      return $this->inJobID;
+        return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\ReQueue
+     * @return ReQueue
      */
     public function setInJobID($inJobID)
     {
-      $this->inJobID = $inJobID;
-      return $this;
+        $this->inJobID = $inJobID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class ReQueue
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\ReQueue
+     * @return ReQueue
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

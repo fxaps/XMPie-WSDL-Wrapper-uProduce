@@ -15,7 +15,7 @@ class RemoveFieldMappingResponse
      */
     public function __construct($RemoveFieldMappingResult = null)
     {
-      $this->RemoveFieldMappingResult = $RemoveFieldMappingResult;
+        $this->RemoveFieldMappingResult = $RemoveFieldMappingResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveFieldMappingResponse
      */
     public function getRemoveFieldMappingResult()
     {
-      return $this->RemoveFieldMappingResult;
+        return $this->RemoveFieldMappingResult;
     }
 
     /**
      * @param boolean $RemoveFieldMappingResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveFieldMappingResponse
+     * @return RemoveFieldMappingResponse
      */
     public function setRemoveFieldMappingResult($RemoveFieldMappingResult)
     {
-      $this->RemoveFieldMappingResult = $RemoveFieldMappingResult;
-      return $this;
+        $this->RemoveFieldMappingResult = $RemoveFieldMappingResult;
+        return $this;
     }
 
 }

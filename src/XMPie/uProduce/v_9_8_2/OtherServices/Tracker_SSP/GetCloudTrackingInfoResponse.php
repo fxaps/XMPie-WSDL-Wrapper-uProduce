@@ -15,7 +15,7 @@ class GetCloudTrackingInfoResponse
      */
     public function __construct($GetCloudTrackingInfoResult = null)
     {
-      $this->GetCloudTrackingInfoResult = $GetCloudTrackingInfoResult;
+        $this->GetCloudTrackingInfoResult = $GetCloudTrackingInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCloudTrackingInfoResponse
      */
     public function getGetCloudTrackingInfoResult()
     {
-      return $this->GetCloudTrackingInfoResult;
+        return $this->GetCloudTrackingInfoResult;
     }
 
     /**
      * @param CloudTrackingInfo $GetCloudTrackingInfoResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\GetCloudTrackingInfoResponse
+     * @return GetCloudTrackingInfoResponse
      */
     public function setGetCloudTrackingInfoResult($GetCloudTrackingInfoResult)
     {
-      $this->GetCloudTrackingInfoResult = $GetCloudTrackingInfoResult;
-      return $this;
+        $this->GetCloudTrackingInfoResult = $GetCloudTrackingInfoResult;
+        return $this;
     }
 
 }

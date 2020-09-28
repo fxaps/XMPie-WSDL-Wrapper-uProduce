@@ -15,7 +15,7 @@ class GetRecipientsCountResponse
      */
     public function __construct($GetRecipientsCountResult = null)
     {
-      $this->GetRecipientsCountResult = $GetRecipientsCountResult;
+        $this->GetRecipientsCountResult = $GetRecipientsCountResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetRecipientsCountResponse
      */
     public function getGetRecipientsCountResult()
     {
-      return $this->GetRecipientsCountResult;
+        return $this->GetRecipientsCountResult;
     }
 
     /**
      * @param int $GetRecipientsCountResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetRecipientsCountResponse
+     * @return GetRecipientsCountResponse
      */
     public function setGetRecipientsCountResult($GetRecipientsCountResult)
     {
-      $this->GetRecipientsCountResult = $GetRecipientsCountResult;
-      return $this;
+        $this->GetRecipientsCountResult = $GetRecipientsCountResult;
+        return $this;
     }
 
 }

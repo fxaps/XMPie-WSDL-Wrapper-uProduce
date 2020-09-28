@@ -15,7 +15,7 @@ class GetPortsXMPTblDataSetResponse
      */
     public function __construct($GetPortsXMPTblDataSetResult = null)
     {
-      $this->GetPortsXMPTblDataSetResult = $GetPortsXMPTblDataSetResult;
+        $this->GetPortsXMPTblDataSetResult = $GetPortsXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPortsXMPTblDataSetResponse
      */
     public function getGetPortsXMPTblDataSetResult()
     {
-      return $this->GetPortsXMPTblDataSetResult;
+        return $this->GetPortsXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetPortsXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetPortsXMPTblDataSetResponse
+     * @return GetPortsXMPTblDataSetResponse
      */
     public function setGetPortsXMPTblDataSetResult($GetPortsXMPTblDataSetResult)
     {
-      $this->GetPortsXMPTblDataSetResult = $GetPortsXMPTblDataSetResult;
-      return $this;
+        $this->GetPortsXMPTblDataSetResult = $GetPortsXMPTblDataSetResult;
+        return $this;
     }
 
 }

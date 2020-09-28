@@ -58,10 +58,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetUserQueue
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetUserQueue
+     */
     public function GetUserQueue($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -76,10 +76,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetUserQueueResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetUserQueueResponse
+     */
     public function GetUserQueueResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -94,10 +94,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetUserQueueName
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetUserQueueName
+     */
     public function GetUserQueueName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -112,10 +112,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetUserQueueNameResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetUserQueueNameResponse
+     */
     public function GetUserQueueNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -130,10 +130,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetUserQueue
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetUserQueue
+     */
     public function SetUserQueue($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -148,10 +148,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return SetUserQueueResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return SetUserQueueResponse
+     */
     public function SetUserQueueResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -166,10 +166,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableQueuesDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableQueuesDataSet
+     */
     public function GetAvailableQueuesDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -184,10 +184,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableQueuesDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableQueuesDataSetResponse
+     */
     public function GetAvailableQueuesDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -202,10 +202,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableQueuesDataSetResult
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableQueuesDataSetResult
+     */
     public function GetAvailableQueuesDataSetResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -220,10 +220,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableQueuesXMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableQueuesXMPTblDataSet
+     */
     public function GetAvailableQueuesXMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -238,10 +238,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableQueuesXMPTblDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableQueuesXMPTblDataSetResponse
+     */
     public function GetAvailableQueuesXMPTblDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -256,10 +256,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblDataSet
+     */
     public function XMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -274,10 +274,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTbl
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTbl
+     */
     public function ArrayOfXMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -292,10 +292,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTbl
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTbl
+     */
     public function XMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -310,10 +310,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTblColumn
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTblColumn
+     */
     public function ArrayOfXMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -328,10 +328,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblColumn
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblColumn
+     */
     public function XMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -346,10 +346,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTblRow
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTblRow
+     */
     public function ArrayOfXMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -364,10 +364,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblRow
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblRow
+     */
     public function XMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -382,10 +382,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPRowField
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPRowField
+     */
     public function ArrayOfXMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -400,10 +400,10 @@ class FabricateProductionQueue_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPRowField
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPRowField
+     */
     public function XMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -416,7 +416,6 @@ class FabricateProductionQueue_SSP
         }
         return $XMPRowField;
     }
-
 
 
 }

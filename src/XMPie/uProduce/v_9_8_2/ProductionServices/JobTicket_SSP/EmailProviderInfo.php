@@ -30,10 +30,10 @@ class EmailProviderInfo
      */
     protected $m_Params = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -41,17 +41,17 @@ class EmailProviderInfo
      */
     public function getM_Type()
     {
-      return $this->m_Type;
+        return $this->m_Type;
     }
 
     /**
      * @param string $m_Type
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\EmailProviderInfo
+     * @return EmailProviderInfo
      */
     public function setM_Type($m_Type)
     {
-      $this->m_Type = $m_Type;
-      return $this;
+        $this->m_Type = $m_Type;
+        return $this;
     }
 
     /**
@@ -59,17 +59,17 @@ class EmailProviderInfo
      */
     public function getM_AssemblyPath()
     {
-      return $this->m_AssemblyPath;
+        return $this->m_AssemblyPath;
     }
 
     /**
      * @param string $m_AssemblyPath
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\EmailProviderInfo
+     * @return EmailProviderInfo
      */
     public function setM_AssemblyPath($m_AssemblyPath)
     {
-      $this->m_AssemblyPath = $m_AssemblyPath;
-      return $this;
+        $this->m_AssemblyPath = $m_AssemblyPath;
+        return $this;
     }
 
     /**
@@ -77,17 +77,17 @@ class EmailProviderInfo
      */
     public function getM_ClassName()
     {
-      return $this->m_ClassName;
+        return $this->m_ClassName;
     }
 
     /**
      * @param string $m_ClassName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\EmailProviderInfo
+     * @return EmailProviderInfo
      */
     public function setM_ClassName($m_ClassName)
     {
-      $this->m_ClassName = $m_ClassName;
-      return $this;
+        $this->m_ClassName = $m_ClassName;
+        return $this;
     }
 
     /**
@@ -95,17 +95,17 @@ class EmailProviderInfo
      */
     public function getM_ControlName()
     {
-      return $this->m_ControlName;
+        return $this->m_ControlName;
     }
 
     /**
      * @param string $m_ControlName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\EmailProviderInfo
+     * @return EmailProviderInfo
      */
     public function setM_ControlName($m_ControlName)
     {
-      $this->m_ControlName = $m_ControlName;
-      return $this;
+        $this->m_ControlName = $m_ControlName;
+        return $this;
     }
 
     /**
@@ -113,17 +113,17 @@ class EmailProviderInfo
      */
     public function getM_Params()
     {
-      return $this->m_Params;
+        return $this->m_Params;
     }
 
     /**
      * @param ArrayOfEmailProviderParameter $m_Params
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\EmailProviderInfo
+     * @return EmailProviderInfo
      */
     public function setM_Params($m_Params)
     {
-      $this->m_Params = $m_Params;
-      return $this;
+        $this->m_Params = $m_Params;
+        return $this;
     }
 
 }

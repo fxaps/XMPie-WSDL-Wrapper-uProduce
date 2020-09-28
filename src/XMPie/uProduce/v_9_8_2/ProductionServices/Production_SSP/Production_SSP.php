@@ -3,55 +3,56 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP;
 
 
+use SoapClient;
 use SoapFault;
 
 /**
  * Production Web Service.
  */
-class Production_SSP extends \SoapClient
+class Production_SSP extends SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array (
-  'SubmitJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJob',
-  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\ArrayOfProperty',
-  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\Property',
-  'SubmitJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJobResponse',
-  'SubmitJobs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJobs',
-  'SubmitJobsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJobsResponse',
-  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\ArrayOfString',
-  'SubmitSplittedJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitSplittedJob',
-  'SubmitSplittedJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitSplittedJobResponse',
-  'SubmitJobWithParallelProcessing' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJobWithParallelProcessing',
-  'SubmitJobWithParallelProcessingResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJobWithParallelProcessingResponse',
-  'DeployHTMLDocumentJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeployHTMLDocumentJob',
-  'DeployHTMLDocumentJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeployHTMLDocumentJobResponse',
-  'UnDeployHTMLDocumentJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\UnDeployHTMLDocumentJob',
-  'UnDeployHTMLDocumentJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\UnDeployHTMLDocumentJobResponse',
-  'MergeCSVXFiles' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\MergeCSVXFiles',
-  'MergeCSVXFilesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\MergeCSVXFilesResponse',
-  'AppendCSVXFile' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\AppendCSVXFile',
-  'AppendCSVXFileResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\AppendCSVXFileResponse',
-  'DeployOnDemandJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeployOnDemandJob',
-  'DeployOnDemandJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeployOnDemandJobResponse',
-  'UndeployOnDemandJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\UndeployOnDemandJob',
-  'UndeployOnDemandJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\UndeployOnDemandJobResponse',
-  'SuspendOnDemandJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SuspendOnDemandJob',
-  'SuspendOnDemandJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SuspendOnDemandJobResponse',
-  'ResumeOnDemandJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\ResumeOnDemandJob',
-  'ResumeOnDemandJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\ResumeOnDemandJobResponse',
-  'RedeployOnDemandJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\RedeployOnDemandJob',
-  'RedeployOnDemandJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\RedeployOnDemandJobResponse',
-  'CreateOnDemandOutput' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\CreateOnDemandOutput',
-  'CreateOnDemandOutputResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\CreateOnDemandOutputResponse',
-  'GetOnDemandOutput' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\GetOnDemandOutput',
-  'GetOnDemandOutputResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\GetOnDemandOutputResponse',
-  'OnDemandOutputResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\OnDemandOutputResult',
-  'DeleteOnDemandOutput' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeleteOnDemandOutput',
-  'DeleteOnDemandOutputResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeleteOnDemandOutputResponse',
-);
+    private static $classmap = array(
+        'SubmitJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJob',
+        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\ArrayOfProperty',
+        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\Property',
+        'SubmitJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJobResponse',
+        'SubmitJobs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJobs',
+        'SubmitJobsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJobsResponse',
+        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\ArrayOfString',
+        'SubmitSplittedJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitSplittedJob',
+        'SubmitSplittedJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitSplittedJobResponse',
+        'SubmitJobWithParallelProcessing' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJobWithParallelProcessing',
+        'SubmitJobWithParallelProcessingResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SubmitJobWithParallelProcessingResponse',
+        'DeployHTMLDocumentJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeployHTMLDocumentJob',
+        'DeployHTMLDocumentJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeployHTMLDocumentJobResponse',
+        'UnDeployHTMLDocumentJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\UnDeployHTMLDocumentJob',
+        'UnDeployHTMLDocumentJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\UnDeployHTMLDocumentJobResponse',
+        'MergeCSVXFiles' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\MergeCSVXFiles',
+        'MergeCSVXFilesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\MergeCSVXFilesResponse',
+        'AppendCSVXFile' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\AppendCSVXFile',
+        'AppendCSVXFileResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\AppendCSVXFileResponse',
+        'DeployOnDemandJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeployOnDemandJob',
+        'DeployOnDemandJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeployOnDemandJobResponse',
+        'UndeployOnDemandJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\UndeployOnDemandJob',
+        'UndeployOnDemandJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\UndeployOnDemandJobResponse',
+        'SuspendOnDemandJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SuspendOnDemandJob',
+        'SuspendOnDemandJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\SuspendOnDemandJobResponse',
+        'ResumeOnDemandJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\ResumeOnDemandJob',
+        'ResumeOnDemandJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\ResumeOnDemandJobResponse',
+        'RedeployOnDemandJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\RedeployOnDemandJob',
+        'RedeployOnDemandJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\RedeployOnDemandJobResponse',
+        'CreateOnDemandOutput' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\CreateOnDemandOutput',
+        'CreateOnDemandOutputResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\CreateOnDemandOutputResponse',
+        'GetOnDemandOutput' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\GetOnDemandOutput',
+        'GetOnDemandOutputResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\GetOnDemandOutputResponse',
+        'OnDemandOutputResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\OnDemandOutputResult',
+        'DeleteOnDemandOutput' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeleteOnDemandOutput',
+        'DeleteOnDemandOutputResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\ProductionServices\\Production_SSP\\DeleteOnDemandOutputResponse',
+    );
 
     /**
      * @param array $options A array of config values
@@ -60,19 +61,19 @@ class Production_SSP extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-    
-  foreach (self::$classmap as $key => $value) {
-    if (!isset($options['classmap'][$key])) {
-      $options['classmap'][$key] = $value;
-    }
-  }
-      $options = array_merge(array (
-  'features' => 1,
-), $options);
-      if (!$wsdl) {
-        $wsdl = 'http://localhost/xmpiewsapi/Production_SSP.asmx?wsdl';
-      }
-      parent::__construct($wsdl, $options);
+
+        foreach (self::$classmap as $key => $value) {
+            if (!isset($options['classmap'][$key])) {
+                $options['classmap'][$key] = $value;
+            }
+        }
+        $options = array_merge(array(
+            'features' => 1,
+        ), $options);
+        if (!$wsdl) {
+            $wsdl = 'http://localhost/xmpiewsapi/Production_SSP.asmx?wsdl';
+        }
+        parent::__construct($wsdl, $options);
     }
 
     /**
@@ -83,7 +84,7 @@ class Production_SSP extends \SoapClient
      */
     public function SubmitJob(SubmitJob $parameters)
     {
-      return $this->__soapCall('SubmitJob', array($parameters));
+        return $this->__soapCall('SubmitJob', array($parameters));
     }
 
     /**
@@ -94,7 +95,7 @@ class Production_SSP extends \SoapClient
      */
     public function SubmitJobs(SubmitJobs $parameters)
     {
-      return $this->__soapCall('SubmitJobs', array($parameters));
+        return $this->__soapCall('SubmitJobs', array($parameters));
     }
 
     /**
@@ -105,7 +106,7 @@ class Production_SSP extends \SoapClient
      */
     public function SubmitSplittedJob(SubmitSplittedJob $parameters)
     {
-      return $this->__soapCall('SubmitSplittedJob', array($parameters));
+        return $this->__soapCall('SubmitSplittedJob', array($parameters));
     }
 
     /**
@@ -116,7 +117,7 @@ class Production_SSP extends \SoapClient
      */
     public function SubmitJobWithParallelProcessing(SubmitJobWithParallelProcessing $parameters)
     {
-      return $this->__soapCall('SubmitJobWithParallelProcessing', array($parameters));
+        return $this->__soapCall('SubmitJobWithParallelProcessing', array($parameters));
     }
 
     /**
@@ -127,7 +128,7 @@ class Production_SSP extends \SoapClient
      */
     public function DeployHTMLDocumentJob(DeployHTMLDocumentJob $parameters)
     {
-      return $this->__soapCall('DeployHTMLDocumentJob', array($parameters));
+        return $this->__soapCall('DeployHTMLDocumentJob', array($parameters));
     }
 
     /**
@@ -138,7 +139,7 @@ class Production_SSP extends \SoapClient
      */
     public function UnDeployHTMLDocumentJob(UnDeployHTMLDocumentJob $parameters)
     {
-      return $this->__soapCall('UnDeployHTMLDocumentJob', array($parameters));
+        return $this->__soapCall('UnDeployHTMLDocumentJob', array($parameters));
     }
 
     /**
@@ -149,7 +150,7 @@ class Production_SSP extends \SoapClient
      */
     public function MergeCSVXFiles(MergeCSVXFiles $parameters)
     {
-      return $this->__soapCall('MergeCSVXFiles', array($parameters));
+        return $this->__soapCall('MergeCSVXFiles', array($parameters));
     }
 
     /**
@@ -160,7 +161,7 @@ class Production_SSP extends \SoapClient
      */
     public function AppendCSVXFile(AppendCSVXFile $parameters)
     {
-      return $this->__soapCall('AppendCSVXFile', array($parameters));
+        return $this->__soapCall('AppendCSVXFile', array($parameters));
     }
 
     /**
@@ -171,7 +172,7 @@ class Production_SSP extends \SoapClient
      */
     public function DeployOnDemandJob(DeployOnDemandJob $parameters)
     {
-      return $this->__soapCall('DeployOnDemandJob', array($parameters));
+        return $this->__soapCall('DeployOnDemandJob', array($parameters));
     }
 
     /**
@@ -182,7 +183,7 @@ class Production_SSP extends \SoapClient
      */
     public function UndeployOnDemandJob(UndeployOnDemandJob $parameters)
     {
-      return $this->__soapCall('UndeployOnDemandJob', array($parameters));
+        return $this->__soapCall('UndeployOnDemandJob', array($parameters));
     }
 
     /**
@@ -193,7 +194,7 @@ class Production_SSP extends \SoapClient
      */
     public function SuspendOnDemandJob(SuspendOnDemandJob $parameters)
     {
-      return $this->__soapCall('SuspendOnDemandJob', array($parameters));
+        return $this->__soapCall('SuspendOnDemandJob', array($parameters));
     }
 
     /**
@@ -204,7 +205,7 @@ class Production_SSP extends \SoapClient
      */
     public function ResumeOnDemandJob(ResumeOnDemandJob $parameters)
     {
-      return $this->__soapCall('ResumeOnDemandJob', array($parameters));
+        return $this->__soapCall('ResumeOnDemandJob', array($parameters));
     }
 
     /**
@@ -215,7 +216,7 @@ class Production_SSP extends \SoapClient
      */
     public function RedeployOnDemandJob(RedeployOnDemandJob $parameters)
     {
-      return $this->__soapCall('RedeployOnDemandJob', array($parameters));
+        return $this->__soapCall('RedeployOnDemandJob', array($parameters));
     }
 
     /**
@@ -226,7 +227,7 @@ class Production_SSP extends \SoapClient
      */
     public function CreateOnDemandOutput(CreateOnDemandOutput $parameters)
     {
-      return $this->__soapCall('CreateOnDemandOutput', array($parameters));
+        return $this->__soapCall('CreateOnDemandOutput', array($parameters));
     }
 
     /**
@@ -237,7 +238,7 @@ class Production_SSP extends \SoapClient
      */
     public function GetOnDemandOutput(GetOnDemandOutput $parameters)
     {
-      return $this->__soapCall('GetOnDemandOutput', array($parameters));
+        return $this->__soapCall('GetOnDemandOutput', array($parameters));
     }
 
     /**
@@ -248,7 +249,7 @@ class Production_SSP extends \SoapClient
      */
     public function DeleteOnDemandOutput(DeleteOnDemandOutput $parameters)
     {
-      return $this->__soapCall('DeleteOnDemandOutput', array($parameters));
+        return $this->__soapCall('DeleteOnDemandOutput', array($parameters));
     }
 
 }

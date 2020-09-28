@@ -15,7 +15,7 @@ class GetRecipientTableIDResponse
      */
     public function __construct($GetRecipientTableIDResult = null)
     {
-      $this->GetRecipientTableIDResult = $GetRecipientTableIDResult;
+        $this->GetRecipientTableIDResult = $GetRecipientTableIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetRecipientTableIDResponse
      */
     public function getGetRecipientTableIDResult()
     {
-      return $this->GetRecipientTableIDResult;
+        return $this->GetRecipientTableIDResult;
     }
 
     /**
      * @param string $GetRecipientTableIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetRecipientTableIDResponse
+     * @return GetRecipientTableIDResponse
      */
     public function setGetRecipientTableIDResult($GetRecipientTableIDResult)
     {
-      $this->GetRecipientTableIDResult = $GetRecipientTableIDResult;
-      return $this;
+        $this->GetRecipientTableIDResult = $GetRecipientTableIDResult;
+        return $this;
     }
 
 }

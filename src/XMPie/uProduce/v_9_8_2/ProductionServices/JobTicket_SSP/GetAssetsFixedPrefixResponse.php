@@ -15,7 +15,7 @@ class GetAssetsFixedPrefixResponse
      */
     public function __construct($GetAssetsFixedPrefixResult = null)
     {
-      $this->GetAssetsFixedPrefixResult = $GetAssetsFixedPrefixResult;
+        $this->GetAssetsFixedPrefixResult = $GetAssetsFixedPrefixResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAssetsFixedPrefixResponse
      */
     public function getGetAssetsFixedPrefixResult()
     {
-      return $this->GetAssetsFixedPrefixResult;
+        return $this->GetAssetsFixedPrefixResult;
     }
 
     /**
      * @param string $GetAssetsFixedPrefixResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetAssetsFixedPrefixResponse
+     * @return GetAssetsFixedPrefixResponse
      */
     public function setGetAssetsFixedPrefixResult($GetAssetsFixedPrefixResult)
     {
-      $this->GetAssetsFixedPrefixResult = $GetAssetsFixedPrefixResult;
-      return $this;
+        $this->GetAssetsFixedPrefixResult = $GetAssetsFixedPrefixResult;
+        return $this;
     }
 
 }

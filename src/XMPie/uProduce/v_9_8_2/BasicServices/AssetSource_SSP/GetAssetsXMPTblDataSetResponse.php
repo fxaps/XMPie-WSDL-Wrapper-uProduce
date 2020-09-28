@@ -15,7 +15,7 @@ class GetAssetsXMPTblDataSetResponse
      */
     public function __construct($GetAssetsXMPTblDataSetResult = null)
     {
-      $this->GetAssetsXMPTblDataSetResult = $GetAssetsXMPTblDataSetResult;
+        $this->GetAssetsXMPTblDataSetResult = $GetAssetsXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAssetsXMPTblDataSetResponse
      */
     public function getGetAssetsXMPTblDataSetResult()
     {
-      return $this->GetAssetsXMPTblDataSetResult;
+        return $this->GetAssetsXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetAssetsXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetsXMPTblDataSetResponse
+     * @return GetAssetsXMPTblDataSetResponse
      */
     public function setGetAssetsXMPTblDataSetResult($GetAssetsXMPTblDataSetResult)
     {
-      $this->GetAssetsXMPTblDataSetResult = $GetAssetsXMPTblDataSetResult;
-      return $this;
+        $this->GetAssetsXMPTblDataSetResult = $GetAssetsXMPTblDataSetResult;
+        return $this;
     }
 
 }

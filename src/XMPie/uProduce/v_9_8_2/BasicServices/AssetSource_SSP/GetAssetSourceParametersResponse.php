@@ -15,7 +15,7 @@ class GetAssetSourceParametersResponse
      */
     public function __construct($GetAssetSourceParametersResult = null)
     {
-      $this->GetAssetSourceParametersResult = $GetAssetSourceParametersResult;
+        $this->GetAssetSourceParametersResult = $GetAssetSourceParametersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAssetSourceParametersResponse
      */
     public function getGetAssetSourceParametersResult()
     {
-      return $this->GetAssetSourceParametersResult;
+        return $this->GetAssetSourceParametersResult;
     }
 
     /**
      * @param ArrayOfAssetSourceParameter $GetAssetSourceParametersResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetSourceParametersResponse
+     * @return GetAssetSourceParametersResponse
      */
     public function setGetAssetSourceParametersResult($GetAssetSourceParametersResult)
     {
-      $this->GetAssetSourceParametersResult = $GetAssetSourceParametersResult;
-      return $this;
+        $this->GetAssetSourceParametersResult = $GetAssetSourceParametersResult;
+        return $this;
     }
 
 }

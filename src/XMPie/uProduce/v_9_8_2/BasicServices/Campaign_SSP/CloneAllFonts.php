@@ -39,11 +39,11 @@ class CloneAllFonts
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inTargetCampaignID = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inCampaignID = $inCampaignID;
-      $this->inTargetCampaignID = $inTargetCampaignID;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inCampaignID = $inCampaignID;
+        $this->inTargetCampaignID = $inTargetCampaignID;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -51,17 +51,17 @@ class CloneAllFonts
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneAllFonts
+     * @return CloneAllFonts
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class CloneAllFonts
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneAllFonts
+     * @return CloneAllFonts
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class CloneAllFonts
      */
     public function getInCampaignID()
     {
-      return $this->inCampaignID;
+        return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneAllFonts
+     * @return CloneAllFonts
      */
     public function setInCampaignID($inCampaignID)
     {
-      $this->inCampaignID = $inCampaignID;
-      return $this;
+        $this->inCampaignID = $inCampaignID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class CloneAllFonts
      */
     public function getInTargetCampaignID()
     {
-      return $this->inTargetCampaignID;
+        return $this->inTargetCampaignID;
     }
 
     /**
      * @param string $inTargetCampaignID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneAllFonts
+     * @return CloneAllFonts
      */
     public function setInTargetCampaignID($inTargetCampaignID)
     {
-      $this->inTargetCampaignID = $inTargetCampaignID;
-      return $this;
+        $this->inTargetCampaignID = $inTargetCampaignID;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class CloneAllFonts
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneAllFonts
+     * @return CloneAllFonts
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

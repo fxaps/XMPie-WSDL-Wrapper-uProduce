@@ -33,10 +33,10 @@ class SetProperties
      */
     public function __construct($inUsername = null, $inPassword = null, $inConfigFileID = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inConfigFileID = $inConfigFileID;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inConfigFileID = $inConfigFileID;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetProperties
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\SetProperties
+     * @return SetProperties
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetProperties
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\SetProperties
+     * @return SetProperties
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetProperties
      */
     public function getInConfigFileID()
     {
-      return $this->inConfigFileID;
+        return $this->inConfigFileID;
     }
 
     /**
      * @param string $inConfigFileID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\SetProperties
+     * @return SetProperties
      */
     public function setInConfigFileID($inConfigFileID)
     {
-      $this->inConfigFileID = $inConfigFileID;
-      return $this;
+        $this->inConfigFileID = $inConfigFileID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetProperties
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\SetProperties
+     * @return SetProperties
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetTypesResponse
      */
     public function __construct($GetTypesResult = null)
     {
-      $this->GetTypesResult = $GetTypesResult;
+        $this->GetTypesResult = $GetTypesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTypesResponse
      */
     public function getGetTypesResult()
     {
-      return $this->GetTypesResult;
+        return $this->GetTypesResult;
     }
 
     /**
      * @param GetTypesResult $GetTypesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\CustomButton_SSP\GetTypesResponse
+     * @return GetTypesResponse
      */
     public function setGetTypesResult($GetTypesResult)
     {
-      $this->GetTypesResult = $GetTypesResult;
-      return $this;
+        $this->GetTypesResult = $GetTypesResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class ReactivateResponse
      */
     public function __construct($ReactivateResult = null)
     {
-      $this->ReactivateResult = $ReactivateResult;
+        $this->ReactivateResult = $ReactivateResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ReactivateResponse
      */
     public function getReactivateResult()
     {
-      return $this->ReactivateResult;
+        return $this->ReactivateResult;
     }
 
     /**
      * @param Report $ReactivateResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ReactivateResponse
+     * @return ReactivateResponse
      */
     public function setReactivateResult($ReactivateResult)
     {
-      $this->ReactivateResult = $ReactivateResult;
-      return $this;
+        $this->ReactivateResult = $ReactivateResult;
+        return $this;
     }
 
 }

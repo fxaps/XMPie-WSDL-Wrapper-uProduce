@@ -15,7 +15,7 @@ class GetFolderFilesResponse
      */
     public function __construct($GetFolderFilesResult = null)
     {
-      $this->GetFolderFilesResult = $GetFolderFilesResult;
+        $this->GetFolderFilesResult = $GetFolderFilesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFolderFilesResponse
      */
     public function getGetFolderFilesResult()
     {
-      return $this->GetFolderFilesResult;
+        return $this->GetFolderFilesResult;
     }
 
     /**
      * @param ArrayOfString $GetFolderFilesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\GetFolderFilesResponse
+     * @return GetFolderFilesResponse
      */
     public function setGetFolderFilesResult($GetFolderFilesResult)
     {
-      $this->GetFolderFilesResult = $GetFolderFilesResult;
-      return $this;
+        $this->GetFolderFilesResult = $GetFolderFilesResult;
+        return $this;
     }
 
 }

@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP;
 
-class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfCustomization implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     protected $Customization = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function getCustomization()
     {
-      return $this->Customization;
+        return $this->Customization;
     }
 
     /**
      * @param Customization[] $Customization
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\ArrayOfCustomization
+     * @return ArrayOfCustomization
      */
     public function setCustomization(array $Customization = null)
     {
-      $this->Customization = $Customization;
-      return $this;
+        $this->Customization = $Customization;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->Customization[$offset]);
+        return isset($this->Customization[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->Customization[$offset];
+        return $this->Customization[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->Customization[] = $value;
-      } else {
-        $this->Customization[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->Customization[] = $value;
+        } else {
+            $this->Customization[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->Customization[$offset]);
+        unset($this->Customization[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->Customization);
+        return current($this->Customization);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->Customization);
+        next($this->Customization);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->Customization);
+        return key($this->Customization);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->Customization);
+        reset($this->Customization);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfCustomization implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->Customization);
+        return count($this->Customization);
     }
 
 }

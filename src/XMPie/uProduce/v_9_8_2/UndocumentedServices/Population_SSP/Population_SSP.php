@@ -3,89 +3,90 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP;
 
 
+use SoapClient;
 use SoapFault;
 
 /**
  * Population Web Service.
  */
-class Population_SSP extends \SoapClient
+class Population_SSP extends SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array (
-  'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\CreateNew',
-  'PopulationInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\PopulationInfo',
-  'PopulationRecipientInformation' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\PopulationRecipientInformation',
-  'Connection' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\Connection',
-  'ArrayOfPopulationRecipientInformation' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfPopulationRecipientInformation',
-  'ArrayOfAdditionalDataSourceInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfAdditionalDataSourceInfo',
-  'AdditionalDataSourceInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\AdditionalDataSourceInfo',
-  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfProperty',
-  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\Property',
-  'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\CreateNewResponse',
-  'Replace' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\Replace',
-  'ReplaceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ReplaceResponse',
-  'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\Delete',
-  'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\DeleteResponse',
-  'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetName',
-  'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetNameResponse',
-  'GetPortGuid' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetPortGuid',
-  'GetPortGuidResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetPortGuidResponse',
-  'GetPopulationInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetPopulationInfo',
-  'GetPopulationInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetPopulationInfoResponse',
-  'GetSupportedOperations' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetSupportedOperations',
-  'GetSupportedOperationsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetSupportedOperationsResponse',
-  'SupportedOperationsInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\SupportedOperationsInfo',
-  'GetId' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetId',
-  'GetIdResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetIdResponse',
-  'IsExist' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsExist',
-  'IsExistResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsExistResponse',
-  'GetCampaign' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetCampaign',
-  'GetCampaignResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetCampaignResponse',
-  'GetSchemaNames' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetSchemaNames',
-  'GetSchemaNamesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetSchemaNamesResponse',
-  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfString',
-  'GetADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORs',
-  'GetADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORsResponse',
-  'ArrayOfPlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfPlanObject',
-  'PlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\PlanObject',
-  'IsAdaptedToWeb' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsAdaptedToWeb',
-  'IsAdaptedToWebResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsAdaptedToWebResponse',
-  'GetRecipientsCount' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetRecipientsCount',
-  'GetRecipientsCountResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetRecipientsCountResponse',
-  'InsertADORsValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\InsertADORsValues',
-  'InsertADORsValuesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\InsertADORsValuesResponse',
-  'UpdateADORValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\UpdateADORValues',
-  'UpdateADORValuesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\UpdateADORValuesResponse',
-  'DeleteRecipient' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\DeleteRecipient',
-  'DeleteRecipientResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\DeleteRecipientResponse',
-  'IsRecipientExist' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsRecipientExist',
-  'IsRecipientExistResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsRecipientExistResponse',
-  'GetADORValuesForRange' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesForRange',
-  'GetADORValuesForRangeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesForRangeResponse',
-  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPTblDataSet',
-  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfXMPTbl',
-  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPTbl',
-  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfXMPTblColumn',
-  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPTblColumn',
-  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfXMPTblRow',
-  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPTblRow',
-  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfXMPRowField',
-  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPRowField',
-  'GetADORValuesForRangeDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesForRangeDataSet',
-  'GetADORValuesForRangeDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesForRangeDataSetResponse',
-  'GetADORValuesForRangeDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesForRangeDataSetResult',
-  'GetADORValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValues',
-  'GetADORValuesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesResponse',
-  'GetADORValuesDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesDataSet',
-  'GetADORValuesDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesDataSetResponse',
-  'GetADORValuesDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesDataSetResult',
-  'AddTrackEvent' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\AddTrackEvent',
-  'XMPDateTime' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPDateTime',
-  'AddTrackEventResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\AddTrackEventResponse',
-);
+    private static $classmap = array(
+        'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\CreateNew',
+        'PopulationInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\PopulationInfo',
+        'PopulationRecipientInformation' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\PopulationRecipientInformation',
+        'Connection' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\Connection',
+        'ArrayOfPopulationRecipientInformation' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfPopulationRecipientInformation',
+        'ArrayOfAdditionalDataSourceInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfAdditionalDataSourceInfo',
+        'AdditionalDataSourceInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\AdditionalDataSourceInfo',
+        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfProperty',
+        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\Property',
+        'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\CreateNewResponse',
+        'Replace' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\Replace',
+        'ReplaceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ReplaceResponse',
+        'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\Delete',
+        'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\DeleteResponse',
+        'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetName',
+        'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetNameResponse',
+        'GetPortGuid' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetPortGuid',
+        'GetPortGuidResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetPortGuidResponse',
+        'GetPopulationInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetPopulationInfo',
+        'GetPopulationInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetPopulationInfoResponse',
+        'GetSupportedOperations' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetSupportedOperations',
+        'GetSupportedOperationsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetSupportedOperationsResponse',
+        'SupportedOperationsInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\SupportedOperationsInfo',
+        'GetId' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetId',
+        'GetIdResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetIdResponse',
+        'IsExist' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsExist',
+        'IsExistResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsExistResponse',
+        'GetCampaign' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetCampaign',
+        'GetCampaignResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetCampaignResponse',
+        'GetSchemaNames' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetSchemaNames',
+        'GetSchemaNamesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetSchemaNamesResponse',
+        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfString',
+        'GetADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORs',
+        'GetADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORsResponse',
+        'ArrayOfPlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfPlanObject',
+        'PlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\PlanObject',
+        'IsAdaptedToWeb' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsAdaptedToWeb',
+        'IsAdaptedToWebResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsAdaptedToWebResponse',
+        'GetRecipientsCount' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetRecipientsCount',
+        'GetRecipientsCountResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetRecipientsCountResponse',
+        'InsertADORsValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\InsertADORsValues',
+        'InsertADORsValuesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\InsertADORsValuesResponse',
+        'UpdateADORValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\UpdateADORValues',
+        'UpdateADORValuesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\UpdateADORValuesResponse',
+        'DeleteRecipient' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\DeleteRecipient',
+        'DeleteRecipientResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\DeleteRecipientResponse',
+        'IsRecipientExist' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsRecipientExist',
+        'IsRecipientExistResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\IsRecipientExistResponse',
+        'GetADORValuesForRange' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesForRange',
+        'GetADORValuesForRangeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesForRangeResponse',
+        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPTblDataSet',
+        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfXMPTbl',
+        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPTbl',
+        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfXMPTblColumn',
+        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPTblColumn',
+        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfXMPTblRow',
+        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPTblRow',
+        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\ArrayOfXMPRowField',
+        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPRowField',
+        'GetADORValuesForRangeDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesForRangeDataSet',
+        'GetADORValuesForRangeDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesForRangeDataSetResponse',
+        'GetADORValuesForRangeDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesForRangeDataSetResult',
+        'GetADORValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValues',
+        'GetADORValuesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesResponse',
+        'GetADORValuesDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesDataSet',
+        'GetADORValuesDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesDataSetResponse',
+        'GetADORValuesDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\GetADORValuesDataSetResult',
+        'AddTrackEvent' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\AddTrackEvent',
+        'XMPDateTime' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\XMPDateTime',
+        'AddTrackEventResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\Population_SSP\\AddTrackEventResponse',
+    );
 
     /**
      * @param array $options A array of config values
@@ -94,19 +95,19 @@ class Population_SSP extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-    
-  foreach (self::$classmap as $key => $value) {
-    if (!isset($options['classmap'][$key])) {
-      $options['classmap'][$key] = $value;
-    }
-  }
-      $options = array_merge(array (
-  'features' => 1,
-), $options);
-      if (!$wsdl) {
-        $wsdl = 'http://localhost/xmpiewsapi/Population_SSP.asmx?wsdl';
-      }
-      parent::__construct($wsdl, $options);
+
+        foreach (self::$classmap as $key => $value) {
+            if (!isset($options['classmap'][$key])) {
+                $options['classmap'][$key] = $value;
+            }
+        }
+        $options = array_merge(array(
+            'features' => 1,
+        ), $options);
+        if (!$wsdl) {
+            $wsdl = 'http://localhost/xmpiewsapi/Population_SSP.asmx?wsdl';
+        }
+        parent::__construct($wsdl, $options);
     }
 
     /**
@@ -117,7 +118,7 @@ class Population_SSP extends \SoapClient
      */
     public function CreateNew(CreateNew $parameters)
     {
-      return $this->__soapCall('CreateNew', array($parameters));
+        return $this->__soapCall('CreateNew', array($parameters));
     }
 
     /**
@@ -128,7 +129,7 @@ class Population_SSP extends \SoapClient
      */
     public function Replace(Replace $parameters)
     {
-      return $this->__soapCall('Replace', array($parameters));
+        return $this->__soapCall('Replace', array($parameters));
     }
 
     /**
@@ -139,7 +140,7 @@ class Population_SSP extends \SoapClient
      */
     public function Delete(Delete $parameters)
     {
-      return $this->__soapCall('Delete', array($parameters));
+        return $this->__soapCall('Delete', array($parameters));
     }
 
     /**
@@ -150,7 +151,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetName(GetName $parameters)
     {
-      return $this->__soapCall('GetName', array($parameters));
+        return $this->__soapCall('GetName', array($parameters));
     }
 
     /**
@@ -161,7 +162,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetPortGuid(GetPortGuid $parameters)
     {
-      return $this->__soapCall('GetPortGuid', array($parameters));
+        return $this->__soapCall('GetPortGuid', array($parameters));
     }
 
     /**
@@ -172,7 +173,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetPopulationInfo(GetPopulationInfo $parameters)
     {
-      return $this->__soapCall('GetPopulationInfo', array($parameters));
+        return $this->__soapCall('GetPopulationInfo', array($parameters));
     }
 
     /**
@@ -183,7 +184,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetSupportedOperations(GetSupportedOperations $parameters)
     {
-      return $this->__soapCall('GetSupportedOperations', array($parameters));
+        return $this->__soapCall('GetSupportedOperations', array($parameters));
     }
 
     /**
@@ -194,7 +195,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetId(GetId $parameters)
     {
-      return $this->__soapCall('GetId', array($parameters));
+        return $this->__soapCall('GetId', array($parameters));
     }
 
     /**
@@ -205,7 +206,7 @@ class Population_SSP extends \SoapClient
      */
     public function IsExist(IsExist $parameters)
     {
-      return $this->__soapCall('IsExist', array($parameters));
+        return $this->__soapCall('IsExist', array($parameters));
     }
 
     /**
@@ -216,7 +217,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetCampaign(GetCampaign $parameters)
     {
-      return $this->__soapCall('GetCampaign', array($parameters));
+        return $this->__soapCall('GetCampaign', array($parameters));
     }
 
     /**
@@ -227,7 +228,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetSchemaNames(GetSchemaNames $parameters)
     {
-      return $this->__soapCall('GetSchemaNames', array($parameters));
+        return $this->__soapCall('GetSchemaNames', array($parameters));
     }
 
     /**
@@ -238,7 +239,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetADORs(GetADORs $parameters)
     {
-      return $this->__soapCall('GetADORs', array($parameters));
+        return $this->__soapCall('GetADORs', array($parameters));
     }
 
     /**
@@ -249,7 +250,7 @@ class Population_SSP extends \SoapClient
      */
     public function IsAdaptedToWeb(IsAdaptedToWeb $parameters)
     {
-      return $this->__soapCall('IsAdaptedToWeb', array($parameters));
+        return $this->__soapCall('IsAdaptedToWeb', array($parameters));
     }
 
     /**
@@ -260,7 +261,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetRecipientsCount(GetRecipientsCount $parameters)
     {
-      return $this->__soapCall('GetRecipientsCount', array($parameters));
+        return $this->__soapCall('GetRecipientsCount', array($parameters));
     }
 
     /**
@@ -271,7 +272,7 @@ class Population_SSP extends \SoapClient
      */
     public function InsertADORsValues(InsertADORsValues $parameters)
     {
-      return $this->__soapCall('InsertADORsValues', array($parameters));
+        return $this->__soapCall('InsertADORsValues', array($parameters));
     }
 
     /**
@@ -282,7 +283,7 @@ class Population_SSP extends \SoapClient
      */
     public function UpdateADORValues(UpdateADORValues $parameters)
     {
-      return $this->__soapCall('UpdateADORValues', array($parameters));
+        return $this->__soapCall('UpdateADORValues', array($parameters));
     }
 
     /**
@@ -293,7 +294,7 @@ class Population_SSP extends \SoapClient
      */
     public function DeleteRecipient(DeleteRecipient $parameters)
     {
-      return $this->__soapCall('DeleteRecipient', array($parameters));
+        return $this->__soapCall('DeleteRecipient', array($parameters));
     }
 
     /**
@@ -304,7 +305,7 @@ class Population_SSP extends \SoapClient
      */
     public function IsRecipientExist(IsRecipientExist $parameters)
     {
-      return $this->__soapCall('IsRecipientExist', array($parameters));
+        return $this->__soapCall('IsRecipientExist', array($parameters));
     }
 
     /**
@@ -315,7 +316,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetADORValuesForRange(GetADORValuesForRange $parameters)
     {
-      return $this->__soapCall('GetADORValuesForRange', array($parameters));
+        return $this->__soapCall('GetADORValuesForRange', array($parameters));
     }
 
     /**
@@ -326,7 +327,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetADORValuesForRangeDataSet(GetADORValuesForRangeDataSet $parameters)
     {
-      return $this->__soapCall('GetADORValuesForRangeDataSet', array($parameters));
+        return $this->__soapCall('GetADORValuesForRangeDataSet', array($parameters));
     }
 
     /**
@@ -337,7 +338,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetADORValues(GetADORValues $parameters)
     {
-      return $this->__soapCall('GetADORValues', array($parameters));
+        return $this->__soapCall('GetADORValues', array($parameters));
     }
 
     /**
@@ -348,7 +349,7 @@ class Population_SSP extends \SoapClient
      */
     public function GetADORValuesDataSet(GetADORValuesDataSet $parameters)
     {
-      return $this->__soapCall('GetADORValuesDataSet', array($parameters));
+        return $this->__soapCall('GetADORValuesDataSet', array($parameters));
     }
 
     /**
@@ -359,7 +360,7 @@ class Population_SSP extends \SoapClient
      */
     public function AddTrackEvent(AddTrackEvent $parameters)
     {
-      return $this->__soapCall('AddTrackEvent', array($parameters));
+        return $this->__soapCall('AddTrackEvent', array($parameters));
     }
 
 }

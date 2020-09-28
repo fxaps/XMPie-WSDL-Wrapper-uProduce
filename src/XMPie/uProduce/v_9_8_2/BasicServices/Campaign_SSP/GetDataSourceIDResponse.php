@@ -15,7 +15,7 @@ class GetDataSourceIDResponse
      */
     public function __construct($GetDataSourceIDResult = null)
     {
-      $this->GetDataSourceIDResult = $GetDataSourceIDResult;
+        $this->GetDataSourceIDResult = $GetDataSourceIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDataSourceIDResponse
      */
     public function getGetDataSourceIDResult()
     {
-      return $this->GetDataSourceIDResult;
+        return $this->GetDataSourceIDResult;
     }
 
     /**
      * @param string $GetDataSourceIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetDataSourceIDResponse
+     * @return GetDataSourceIDResponse
      */
     public function setGetDataSourceIDResult($GetDataSourceIDResult)
     {
-      $this->GetDataSourceIDResult = $GetDataSourceIDResult;
-      return $this;
+        $this->GetDataSourceIDResult = $GetDataSourceIDResult;
+        return $this;
     }
 
 }

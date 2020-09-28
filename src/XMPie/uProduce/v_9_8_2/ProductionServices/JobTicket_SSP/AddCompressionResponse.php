@@ -15,7 +15,7 @@ class AddCompressionResponse
      */
     public function __construct($AddCompressionResult = null)
     {
-      $this->AddCompressionResult = $AddCompressionResult;
+        $this->AddCompressionResult = $AddCompressionResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddCompressionResponse
      */
     public function getAddCompressionResult()
     {
-      return $this->AddCompressionResult;
+        return $this->AddCompressionResult;
     }
 
     /**
      * @param boolean $AddCompressionResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddCompressionResponse
+     * @return AddCompressionResponse
      */
     public function setAddCompressionResult($AddCompressionResult)
     {
-      $this->AddCompressionResult = $AddCompressionResult;
-      return $this;
+        $this->AddCompressionResult = $AddCompressionResult;
+        return $this;
     }
 
 }

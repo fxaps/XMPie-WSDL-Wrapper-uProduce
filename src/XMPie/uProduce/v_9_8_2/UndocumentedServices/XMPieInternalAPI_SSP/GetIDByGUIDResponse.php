@@ -15,7 +15,7 @@ class GetIDByGUIDResponse
      */
     public function __construct($GetIDByGUIDResult = null)
     {
-      $this->GetIDByGUIDResult = $GetIDByGUIDResult;
+        $this->GetIDByGUIDResult = $GetIDByGUIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetIDByGUIDResponse
      */
     public function getGetIDByGUIDResult()
     {
-      return $this->GetIDByGUIDResult;
+        return $this->GetIDByGUIDResult;
     }
 
     /**
      * @param string $GetIDByGUIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\XMPieInternalAPI_SSP\GetIDByGUIDResponse
+     * @return GetIDByGUIDResponse
      */
     public function setGetIDByGUIDResult($GetIDByGUIDResult)
     {
-      $this->GetIDByGUIDResult = $GetIDByGUIDResult;
-      return $this;
+        $this->GetIDByGUIDResult = $GetIDByGUIDResult;
+        return $this;
     }
 
 }

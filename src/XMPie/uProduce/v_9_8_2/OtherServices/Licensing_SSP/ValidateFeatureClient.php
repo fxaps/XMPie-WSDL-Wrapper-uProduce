@@ -39,11 +39,11 @@ class ValidateFeatureClient
      */
     public function __construct($inUsername = null, $inPassword = null, $inMachineID = null, $inMachineName = null, $inFeatureTypeID = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inMachineID = $inMachineID;
-      $this->inMachineName = $inMachineName;
-      $this->inFeatureTypeID = $inFeatureTypeID;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inMachineID = $inMachineID;
+        $this->inMachineName = $inMachineName;
+        $this->inFeatureTypeID = $inFeatureTypeID;
     }
 
     /**
@@ -51,17 +51,17 @@ class ValidateFeatureClient
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateFeatureClient
+     * @return ValidateFeatureClient
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class ValidateFeatureClient
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateFeatureClient
+     * @return ValidateFeatureClient
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class ValidateFeatureClient
      */
     public function getInMachineID()
     {
-      return $this->inMachineID;
+        return $this->inMachineID;
     }
 
     /**
      * @param string $inMachineID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateFeatureClient
+     * @return ValidateFeatureClient
      */
     public function setInMachineID($inMachineID)
     {
-      $this->inMachineID = $inMachineID;
-      return $this;
+        $this->inMachineID = $inMachineID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class ValidateFeatureClient
      */
     public function getInMachineName()
     {
-      return $this->inMachineName;
+        return $this->inMachineName;
     }
 
     /**
      * @param string $inMachineName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateFeatureClient
+     * @return ValidateFeatureClient
      */
     public function setInMachineName($inMachineName)
     {
-      $this->inMachineName = $inMachineName;
-      return $this;
+        $this->inMachineName = $inMachineName;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class ValidateFeatureClient
      */
     public function getInFeatureTypeID()
     {
-      return $this->inFeatureTypeID;
+        return $this->inFeatureTypeID;
     }
 
     /**
      * @param int $inFeatureTypeID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateFeatureClient
+     * @return ValidateFeatureClient
      */
     public function setInFeatureTypeID($inFeatureTypeID)
     {
-      $this->inFeatureTypeID = $inFeatureTypeID;
-      return $this;
+        $this->inFeatureTypeID = $inFeatureTypeID;
+        return $this;
     }
 
 }

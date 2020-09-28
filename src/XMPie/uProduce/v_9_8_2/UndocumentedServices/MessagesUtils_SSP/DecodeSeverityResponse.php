@@ -15,7 +15,7 @@ class DecodeSeverityResponse
      */
     public function __construct($DecodeSeverityResult = null)
     {
-      $this->DecodeSeverityResult = $DecodeSeverityResult;
+        $this->DecodeSeverityResult = $DecodeSeverityResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DecodeSeverityResponse
      */
     public function getDecodeSeverityResult()
     {
-      return $this->DecodeSeverityResult;
+        return $this->DecodeSeverityResult;
     }
 
     /**
      * @param string $DecodeSeverityResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeSeverityResponse
+     * @return DecodeSeverityResponse
      */
     public function setDecodeSeverityResult($DecodeSeverityResult)
     {
-      $this->DecodeSeverityResult = $DecodeSeverityResult;
-      return $this;
+        $this->DecodeSeverityResult = $DecodeSeverityResult;
+        return $this;
     }
 
 }

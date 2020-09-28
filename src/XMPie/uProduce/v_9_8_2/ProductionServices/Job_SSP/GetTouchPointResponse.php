@@ -15,7 +15,7 @@ class GetTouchPointResponse
      */
     public function __construct($GetTouchPointResult = null)
     {
-      $this->GetTouchPointResult = $GetTouchPointResult;
+        $this->GetTouchPointResult = $GetTouchPointResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTouchPointResponse
      */
     public function getGetTouchPointResult()
     {
-      return $this->GetTouchPointResult;
+        return $this->GetTouchPointResult;
     }
 
     /**
      * @param string $GetTouchPointResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetTouchPointResponse
+     * @return GetTouchPointResponse
      */
     public function setGetTouchPointResult($GetTouchPointResult)
     {
-      $this->GetTouchPointResult = $GetTouchPointResult;
-      return $this;
+        $this->GetTouchPointResult = $GetTouchPointResult;
+        return $this;
     }
 
 }

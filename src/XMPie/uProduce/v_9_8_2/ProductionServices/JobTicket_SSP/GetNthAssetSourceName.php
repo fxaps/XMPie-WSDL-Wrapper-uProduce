@@ -33,10 +33,10 @@ class GetNthAssetSourceName
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inAssetSourceIndex = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inAssetSourceIndex = $inAssetSourceIndex;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inAssetSourceIndex = $inAssetSourceIndex;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetNthAssetSourceName
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthAssetSourceName
+     * @return GetNthAssetSourceName
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetNthAssetSourceName
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthAssetSourceName
+     * @return GetNthAssetSourceName
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetNthAssetSourceName
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthAssetSourceName
+     * @return GetNthAssetSourceName
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetNthAssetSourceName
      */
     public function getInAssetSourceIndex()
     {
-      return $this->inAssetSourceIndex;
+        return $this->inAssetSourceIndex;
     }
 
     /**
      * @param int $inAssetSourceIndex
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthAssetSourceName
+     * @return GetNthAssetSourceName
      */
     public function setInAssetSourceIndex($inAssetSourceIndex)
     {
-      $this->inAssetSourceIndex = $inAssetSourceIndex;
-      return $this;
+        $this->inAssetSourceIndex = $inAssetSourceIndex;
+        return $this;
     }
 
 }

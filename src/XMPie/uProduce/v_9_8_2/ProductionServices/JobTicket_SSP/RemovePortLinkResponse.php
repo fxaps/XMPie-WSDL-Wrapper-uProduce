@@ -15,7 +15,7 @@ class RemovePortLinkResponse
      */
     public function __construct($RemovePortLinkResult = null)
     {
-      $this->RemovePortLinkResult = $RemovePortLinkResult;
+        $this->RemovePortLinkResult = $RemovePortLinkResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemovePortLinkResponse
      */
     public function getRemovePortLinkResult()
     {
-      return $this->RemovePortLinkResult;
+        return $this->RemovePortLinkResult;
     }
 
     /**
      * @param boolean $RemovePortLinkResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemovePortLinkResponse
+     * @return RemovePortLinkResponse
      */
     public function setRemovePortLinkResult($RemovePortLinkResult)
     {
-      $this->RemovePortLinkResult = $RemovePortLinkResult;
-      return $this;
+        $this->RemovePortLinkResult = $RemovePortLinkResult;
+        return $this;
     }
 
 }

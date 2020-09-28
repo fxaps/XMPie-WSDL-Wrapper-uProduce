@@ -39,11 +39,11 @@ class OverwriteTicketInDB
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inTicketName = null, $inTicketGuid = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inTicketName = $inTicketName;
-      $this->inTicketGuid = $inTicketGuid;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inTicketName = $inTicketName;
+        $this->inTicketGuid = $inTicketGuid;
     }
 
     /**
@@ -51,17 +51,17 @@ class OverwriteTicketInDB
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\OverwriteTicketInDB
+     * @return OverwriteTicketInDB
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class OverwriteTicketInDB
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\OverwriteTicketInDB
+     * @return OverwriteTicketInDB
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class OverwriteTicketInDB
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\OverwriteTicketInDB
+     * @return OverwriteTicketInDB
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class OverwriteTicketInDB
      */
     public function getInTicketName()
     {
-      return $this->inTicketName;
+        return $this->inTicketName;
     }
 
     /**
      * @param string $inTicketName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\OverwriteTicketInDB
+     * @return OverwriteTicketInDB
      */
     public function setInTicketName($inTicketName)
     {
-      $this->inTicketName = $inTicketName;
-      return $this;
+        $this->inTicketName = $inTicketName;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class OverwriteTicketInDB
      */
     public function getInTicketGuid()
     {
-      return $this->inTicketGuid;
+        return $this->inTicketGuid;
     }
 
     /**
      * @param string $inTicketGuid
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\OverwriteTicketInDB
+     * @return OverwriteTicketInDB
      */
     public function setInTicketGuid($inTicketGuid)
     {
-      $this->inTicketGuid = $inTicketGuid;
-      return $this;
+        $this->inTicketGuid = $inTicketGuid;
+        return $this;
     }
 
 }

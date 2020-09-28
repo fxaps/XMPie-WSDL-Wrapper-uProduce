@@ -15,7 +15,7 @@ class GetJobPriorityResponse
      */
     public function __construct($GetJobPriorityResult = null)
     {
-      $this->GetJobPriorityResult = $GetJobPriorityResult;
+        $this->GetJobPriorityResult = $GetJobPriorityResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetJobPriorityResponse
      */
     public function getGetJobPriorityResult()
     {
-      return $this->GetJobPriorityResult;
+        return $this->GetJobPriorityResult;
     }
 
     /**
      * @param int $GetJobPriorityResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetJobPriorityResponse
+     * @return GetJobPriorityResponse
      */
     public function setGetJobPriorityResult($GetJobPriorityResult)
     {
-      $this->GetJobPriorityResult = $GetJobPriorityResult;
-      return $this;
+        $this->GetJobPriorityResult = $GetJobPriorityResult;
+        return $this;
     }
 
 }

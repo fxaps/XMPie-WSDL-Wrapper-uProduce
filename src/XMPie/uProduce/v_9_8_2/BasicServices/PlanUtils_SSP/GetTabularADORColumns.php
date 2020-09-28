@@ -39,11 +39,11 @@ class GetTabularADORColumns
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inTabularADORName = null, $inTrivialPlan = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPlanID = $inPlanID;
-      $this->inTabularADORName = $inTabularADORName;
-      $this->inTrivialPlan = $inTrivialPlan;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPlanID = $inPlanID;
+        $this->inTabularADORName = $inTabularADORName;
+        $this->inTrivialPlan = $inTrivialPlan;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetTabularADORColumns
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetTabularADORColumns
+     * @return GetTabularADORColumns
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetTabularADORColumns
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetTabularADORColumns
+     * @return GetTabularADORColumns
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetTabularADORColumns
      */
     public function getInPlanID()
     {
-      return $this->inPlanID;
+        return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetTabularADORColumns
+     * @return GetTabularADORColumns
      */
     public function setInPlanID($inPlanID)
     {
-      $this->inPlanID = $inPlanID;
-      return $this;
+        $this->inPlanID = $inPlanID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetTabularADORColumns
      */
     public function getInTabularADORName()
     {
-      return $this->inTabularADORName;
+        return $this->inTabularADORName;
     }
 
     /**
      * @param string $inTabularADORName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetTabularADORColumns
+     * @return GetTabularADORColumns
      */
     public function setInTabularADORName($inTabularADORName)
     {
-      $this->inTabularADORName = $inTabularADORName;
-      return $this;
+        $this->inTabularADORName = $inTabularADORName;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetTabularADORColumns
      */
     public function getInTrivialPlan()
     {
-      return $this->inTrivialPlan;
+        return $this->inTrivialPlan;
     }
 
     /**
      * @param boolean $inTrivialPlan
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetTabularADORColumns
+     * @return GetTabularADORColumns
      */
     public function setInTrivialPlan($inTrivialPlan)
     {
-      $this->inTrivialPlan = $inTrivialPlan;
-      return $this;
+        $this->inTrivialPlan = $inTrivialPlan;
+        return $this;
     }
 
 }

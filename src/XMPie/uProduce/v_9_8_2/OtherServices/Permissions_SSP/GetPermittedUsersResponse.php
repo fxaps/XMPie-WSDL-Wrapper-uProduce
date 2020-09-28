@@ -15,7 +15,7 @@ class GetPermittedUsersResponse
      */
     public function __construct($GetPermittedUsersResult = null)
     {
-      $this->GetPermittedUsersResult = $GetPermittedUsersResult;
+        $this->GetPermittedUsersResult = $GetPermittedUsersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPermittedUsersResponse
      */
     public function getGetPermittedUsersResult()
     {
-      return $this->GetPermittedUsersResult;
+        return $this->GetPermittedUsersResult;
     }
 
     /**
      * @param ArrayOfString $GetPermittedUsersResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\GetPermittedUsersResponse
+     * @return GetPermittedUsersResponse
      */
     public function setGetPermittedUsersResult($GetPermittedUsersResult)
     {
-      $this->GetPermittedUsersResult = $GetPermittedUsersResult;
-      return $this;
+        $this->GetPermittedUsersResult = $GetPermittedUsersResult;
+        return $this;
     }
 
 }

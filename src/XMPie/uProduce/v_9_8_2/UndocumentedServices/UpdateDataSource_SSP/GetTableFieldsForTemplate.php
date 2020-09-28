@@ -33,10 +33,10 @@ class GetTableFieldsForTemplate
      */
     public function __construct($inUsername = null, $inPassword = null, $inDataSourceId = null, $inTableName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inDataSourceId = $inDataSourceId;
-      $this->inTableName = $inTableName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inDataSourceId = $inDataSourceId;
+        $this->inTableName = $inTableName;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetTableFieldsForTemplate
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetTableFieldsForTemplate
+     * @return GetTableFieldsForTemplate
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetTableFieldsForTemplate
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetTableFieldsForTemplate
+     * @return GetTableFieldsForTemplate
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetTableFieldsForTemplate
      */
     public function getInDataSourceId()
     {
-      return $this->inDataSourceId;
+        return $this->inDataSourceId;
     }
 
     /**
      * @param string $inDataSourceId
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetTableFieldsForTemplate
+     * @return GetTableFieldsForTemplate
      */
     public function setInDataSourceId($inDataSourceId)
     {
-      $this->inDataSourceId = $inDataSourceId;
-      return $this;
+        $this->inDataSourceId = $inDataSourceId;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetTableFieldsForTemplate
      */
     public function getInTableName()
     {
-      return $this->inTableName;
+        return $this->inTableName;
     }
 
     /**
      * @param string $inTableName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetTableFieldsForTemplate
+     * @return GetTableFieldsForTemplate
      */
     public function setInTableName($inTableName)
     {
-      $this->inTableName = $inTableName;
-      return $this;
+        $this->inTableName = $inTableName;
+        return $this;
     }
 
 }

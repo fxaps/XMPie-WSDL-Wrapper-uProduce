@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP;
 
-class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfAssetSourceMapping implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     protected $AssetSourceMapping = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function getAssetSourceMapping()
     {
-      return $this->AssetSourceMapping;
+        return $this->AssetSourceMapping;
     }
 
     /**
      * @param AssetSourceMapping[] $AssetSourceMapping
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\ArrayOfAssetSourceMapping
+     * @return ArrayOfAssetSourceMapping
      */
     public function setAssetSourceMapping(array $AssetSourceMapping = null)
     {
-      $this->AssetSourceMapping = $AssetSourceMapping;
-      return $this;
+        $this->AssetSourceMapping = $AssetSourceMapping;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->AssetSourceMapping[$offset]);
+        return isset($this->AssetSourceMapping[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->AssetSourceMapping[$offset];
+        return $this->AssetSourceMapping[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->AssetSourceMapping[] = $value;
-      } else {
-        $this->AssetSourceMapping[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->AssetSourceMapping[] = $value;
+        } else {
+            $this->AssetSourceMapping[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->AssetSourceMapping[$offset]);
+        unset($this->AssetSourceMapping[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->AssetSourceMapping);
+        return current($this->AssetSourceMapping);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->AssetSourceMapping);
+        next($this->AssetSourceMapping);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->AssetSourceMapping);
+        return key($this->AssetSourceMapping);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->AssetSourceMapping);
+        reset($this->AssetSourceMapping);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfAssetSourceMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->AssetSourceMapping);
+        return count($this->AssetSourceMapping);
     }
 
 }

@@ -25,7 +25,7 @@ class DataParameter
      */
     public function __construct($m_ParamType = null)
     {
-      $this->m_ParamType = $m_ParamType;
+        $this->m_ParamType = $m_ParamType;
     }
 
     /**
@@ -33,17 +33,17 @@ class DataParameter
      */
     public function getM_ParamName()
     {
-      return $this->m_ParamName;
+        return $this->m_ParamName;
     }
 
     /**
      * @param string $m_ParamName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\DataParameter
+     * @return DataParameter
      */
     public function setM_ParamName($m_ParamName)
     {
-      $this->m_ParamName = $m_ParamName;
-      return $this;
+        $this->m_ParamName = $m_ParamName;
+        return $this;
     }
 
     /**
@@ -51,17 +51,17 @@ class DataParameter
      */
     public function getM_ParamType()
     {
-      return $this->m_ParamType;
+        return $this->m_ParamType;
     }
 
     /**
      * @param EParamType $m_ParamType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\DataParameter
+     * @return DataParameter
      */
     public function setM_ParamType($m_ParamType)
     {
-      $this->m_ParamType = $m_ParamType;
-      return $this;
+        $this->m_ParamType = $m_ParamType;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class DataParameter
      */
     public function getM_ParamValue()
     {
-      return $this->m_ParamValue;
+        return $this->m_ParamValue;
     }
 
     /**
      * @param string $m_ParamValue
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\DataParameter
+     * @return DataParameter
      */
     public function setM_ParamValue($m_ParamValue)
     {
-      $this->m_ParamValue = $m_ParamValue;
-      return $this;
+        $this->m_ParamValue = $m_ParamValue;
+        return $this;
     }
 
 }

@@ -3,42 +3,44 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP;
 
 
+use SoapClient;
+
 /**
  * PermissionEx Web Service.
  */
-class PermissionsEx_SSP extends \SoapClient
+class PermissionsEx_SSP extends SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array (
-  'GetPermissionEntry' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetPermissionEntry',
-  'PermissionEntity' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\PermissionEntity',
-  'GetPermissionEntryResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetPermissionEntryResponse',
-  'SetPermissionEntry' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetPermissionEntry',
-  'PermissionEx' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\PermissionEx',
-  'PermissionDetails' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\PermissionDetails',
-  'SetPermissionEntryResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetPermissionEntryResponse',
-  'SetPermissionsEntries' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetPermissionsEntries',
-  'ArrayOfPermissionEx' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\ArrayOfPermissionEx',
-  'SetPermissionsEntriesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetPermissionsEntriesResponse',
-  'RemovePermissionEntry' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\RemovePermissionEntry',
-  'RemovePermissionEntryResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\RemovePermissionEntryResponse',
-  'RemovePermissionsEntries' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\RemovePermissionsEntries',
-  'RemovePermissionsEntriesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\RemovePermissionsEntriesResponse',
-  'GetPermissions' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetPermissions',
-  'GetPermissionsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetPermissionsResponse',
-  'GetActorPermissions' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetActorPermissions',
-  'GetActorPermissionsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetActorPermissionsResponse',
-  'GetResourcePermissions' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetResourcePermissions',
-  'GetResourcePermissionsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetResourcePermissionsResponse',
-  'SetActorPermissions' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetActorPermissions',
-  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\ArrayOfString',
-  'SetActorPermissionsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetActorPermissionsResponse',
-  'SetResourcePermissions' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetResourcePermissions',
-  'SetResourcePermissionsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetResourcePermissionsResponse',
-);
+    private static $classmap = array(
+        'GetPermissionEntry' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetPermissionEntry',
+        'PermissionEntity' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\PermissionEntity',
+        'GetPermissionEntryResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetPermissionEntryResponse',
+        'SetPermissionEntry' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetPermissionEntry',
+        'PermissionEx' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\PermissionEx',
+        'PermissionDetails' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\PermissionDetails',
+        'SetPermissionEntryResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetPermissionEntryResponse',
+        'SetPermissionsEntries' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetPermissionsEntries',
+        'ArrayOfPermissionEx' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\ArrayOfPermissionEx',
+        'SetPermissionsEntriesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetPermissionsEntriesResponse',
+        'RemovePermissionEntry' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\RemovePermissionEntry',
+        'RemovePermissionEntryResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\RemovePermissionEntryResponse',
+        'RemovePermissionsEntries' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\RemovePermissionsEntries',
+        'RemovePermissionsEntriesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\RemovePermissionsEntriesResponse',
+        'GetPermissions' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetPermissions',
+        'GetPermissionsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetPermissionsResponse',
+        'GetActorPermissions' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetActorPermissions',
+        'GetActorPermissionsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetActorPermissionsResponse',
+        'GetResourcePermissions' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetResourcePermissions',
+        'GetResourcePermissionsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\GetResourcePermissionsResponse',
+        'SetActorPermissions' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetActorPermissions',
+        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\ArrayOfString',
+        'SetActorPermissionsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetActorPermissionsResponse',
+        'SetResourcePermissions' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetResourcePermissions',
+        'SetResourcePermissionsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\PermissionsEx_SSP\\SetResourcePermissionsResponse',
+    );
 
     /**
      * @param array $options A array of config values
@@ -47,19 +49,19 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-    
-  foreach (self::$classmap as $key => $value) {
-    if (!isset($options['classmap'][$key])) {
-      $options['classmap'][$key] = $value;
-    }
-  }
-      $options = array_merge(array (
-  'features' => 1,
-), $options);
-      if (!$wsdl) {
-        $wsdl = 'http://localhost/xmpiewsapi/PermissionsEx_SSP.asmx?wsdl';
-      }
-      parent::__construct($wsdl, $options);
+
+        foreach (self::$classmap as $key => $value) {
+            if (!isset($options['classmap'][$key])) {
+                $options['classmap'][$key] = $value;
+            }
+        }
+        $options = array_merge(array(
+            'features' => 1,
+        ), $options);
+        if (!$wsdl) {
+            $wsdl = 'http://localhost/xmpiewsapi/PermissionsEx_SSP.asmx?wsdl';
+        }
+        parent::__construct($wsdl, $options);
     }
 
     /**
@@ -70,7 +72,7 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function GetPermissionEntry(GetPermissionEntry $parameters)
     {
-      return $this->__soapCall('GetPermissionEntry', array($parameters));
+        return $this->__soapCall('GetPermissionEntry', array($parameters));
     }
 
     /**
@@ -81,7 +83,7 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function SetPermissionEntry(SetPermissionEntry $parameters)
     {
-      return $this->__soapCall('SetPermissionEntry', array($parameters));
+        return $this->__soapCall('SetPermissionEntry', array($parameters));
     }
 
     /**
@@ -92,7 +94,7 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function SetPermissionsEntries(SetPermissionsEntries $parameters)
     {
-      return $this->__soapCall('SetPermissionsEntries', array($parameters));
+        return $this->__soapCall('SetPermissionsEntries', array($parameters));
     }
 
     /**
@@ -103,7 +105,7 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function RemovePermissionEntry(RemovePermissionEntry $parameters)
     {
-      return $this->__soapCall('RemovePermissionEntry', array($parameters));
+        return $this->__soapCall('RemovePermissionEntry', array($parameters));
     }
 
     /**
@@ -114,7 +116,7 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function RemovePermissionsEntries(RemovePermissionsEntries $parameters)
     {
-      return $this->__soapCall('RemovePermissionsEntries', array($parameters));
+        return $this->__soapCall('RemovePermissionsEntries', array($parameters));
     }
 
     /**
@@ -125,7 +127,7 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function GetPermissions(GetPermissions $parameters)
     {
-      return $this->__soapCall('GetPermissions', array($parameters));
+        return $this->__soapCall('GetPermissions', array($parameters));
     }
 
     /**
@@ -136,7 +138,7 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function GetActorPermissions(GetActorPermissions $parameters)
     {
-      return $this->__soapCall('GetActorPermissions', array($parameters));
+        return $this->__soapCall('GetActorPermissions', array($parameters));
     }
 
     /**
@@ -147,7 +149,7 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function GetResourcePermissions(GetResourcePermissions $parameters)
     {
-      return $this->__soapCall('GetResourcePermissions', array($parameters));
+        return $this->__soapCall('GetResourcePermissions', array($parameters));
     }
 
     /**
@@ -158,7 +160,7 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function SetActorPermissions(SetActorPermissions $parameters)
     {
-      return $this->__soapCall('SetActorPermissions', array($parameters));
+        return $this->__soapCall('SetActorPermissions', array($parameters));
     }
 
     /**
@@ -169,7 +171,7 @@ class PermissionsEx_SSP extends \SoapClient
      */
     public function SetResourcePermissions(SetResourcePermissions $parameters)
     {
-      return $this->__soapCall('SetResourcePermissions', array($parameters));
+        return $this->__soapCall('SetResourcePermissions', array($parameters));
     }
 
 }

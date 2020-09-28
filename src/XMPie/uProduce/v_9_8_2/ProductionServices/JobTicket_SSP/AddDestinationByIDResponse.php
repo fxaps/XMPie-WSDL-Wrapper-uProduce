@@ -15,7 +15,7 @@ class AddDestinationByIDResponse
      */
     public function __construct($AddDestinationByIDResult = null)
     {
-      $this->AddDestinationByIDResult = $AddDestinationByIDResult;
+        $this->AddDestinationByIDResult = $AddDestinationByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddDestinationByIDResponse
      */
     public function getAddDestinationByIDResult()
     {
-      return $this->AddDestinationByIDResult;
+        return $this->AddDestinationByIDResult;
     }
 
     /**
      * @param boolean $AddDestinationByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddDestinationByIDResponse
+     * @return AddDestinationByIDResponse
      */
     public function setAddDestinationByIDResult($AddDestinationByIDResult)
     {
-      $this->AddDestinationByIDResult = $AddDestinationByIDResult;
-      return $this;
+        $this->AddDestinationByIDResult = $AddDestinationByIDResult;
+        return $this;
     }
 
 }

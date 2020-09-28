@@ -15,7 +15,7 @@ class DeleteCustomButtonsResponse
      */
     public function __construct($DeleteCustomButtonsResult = null)
     {
-      $this->DeleteCustomButtonsResult = $DeleteCustomButtonsResult;
+        $this->DeleteCustomButtonsResult = $DeleteCustomButtonsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteCustomButtonsResponse
      */
     public function getDeleteCustomButtonsResult()
     {
-      return $this->DeleteCustomButtonsResult;
+        return $this->DeleteCustomButtonsResult;
     }
 
     /**
      * @param boolean $DeleteCustomButtonsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteCustomButtonsResponse
+     * @return DeleteCustomButtonsResponse
      */
     public function setDeleteCustomButtonsResult($DeleteCustomButtonsResult)
     {
-      $this->DeleteCustomButtonsResult = $DeleteCustomButtonsResult;
-      return $this;
+        $this->DeleteCustomButtonsResult = $DeleteCustomButtonsResult;
+        return $this;
     }
 
 }

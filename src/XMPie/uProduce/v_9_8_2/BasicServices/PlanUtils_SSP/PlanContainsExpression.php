@@ -33,10 +33,10 @@ class PlanContainsExpression
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inExpressionTypes = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPlanID = $inPlanID;
-      $this->inExpressionTypes = $inExpressionTypes;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPlanID = $inPlanID;
+        $this->inExpressionTypes = $inExpressionTypes;
     }
 
     /**
@@ -44,17 +44,17 @@ class PlanContainsExpression
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanContainsExpression
+     * @return PlanContainsExpression
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class PlanContainsExpression
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanContainsExpression
+     * @return PlanContainsExpression
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class PlanContainsExpression
      */
     public function getInPlanID()
     {
-      return $this->inPlanID;
+        return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanContainsExpression
+     * @return PlanContainsExpression
      */
     public function setInPlanID($inPlanID)
     {
-      $this->inPlanID = $inPlanID;
-      return $this;
+        $this->inPlanID = $inPlanID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class PlanContainsExpression
      */
     public function getInExpressionTypes()
     {
-      return $this->inExpressionTypes;
+        return $this->inExpressionTypes;
     }
 
     /**
      * @param ArrayOfString $inExpressionTypes
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanContainsExpression
+     * @return PlanContainsExpression
      */
     public function setInExpressionTypes($inExpressionTypes)
     {
-      $this->inExpressionTypes = $inExpressionTypes;
-      return $this;
+        $this->inExpressionTypes = $inExpressionTypes;
+        return $this;
     }
 
 }

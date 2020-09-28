@@ -15,7 +15,7 @@ class SetAllowedListResponse
      */
     public function __construct($SetAllowedListResult = null)
     {
-      $this->SetAllowedListResult = $SetAllowedListResult;
+        $this->SetAllowedListResult = $SetAllowedListResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetAllowedListResponse
      */
     public function getSetAllowedListResult()
     {
-      return $this->SetAllowedListResult;
+        return $this->SetAllowedListResult;
     }
 
     /**
      * @param boolean $SetAllowedListResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\SetAllowedListResponse
+     * @return SetAllowedListResponse
      */
     public function setSetAllowedListResult($SetAllowedListResult)
     {
-      $this->SetAllowedListResult = $SetAllowedListResult;
-      return $this;
+        $this->SetAllowedListResult = $SetAllowedListResult;
+        return $this;
     }
 
 }

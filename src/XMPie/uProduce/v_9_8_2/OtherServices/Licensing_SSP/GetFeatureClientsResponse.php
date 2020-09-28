@@ -15,7 +15,7 @@ class GetFeatureClientsResponse
      */
     public function __construct($GetFeatureClientsResult = null)
     {
-      $this->GetFeatureClientsResult = $GetFeatureClientsResult;
+        $this->GetFeatureClientsResult = $GetFeatureClientsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFeatureClientsResponse
      */
     public function getGetFeatureClientsResult()
     {
-      return $this->GetFeatureClientsResult;
+        return $this->GetFeatureClientsResult;
     }
 
     /**
      * @param GetFeatureClientsResult $GetFeatureClientsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetFeatureClientsResponse
+     * @return GetFeatureClientsResponse
      */
     public function setGetFeatureClientsResult($GetFeatureClientsResult)
     {
-      $this->GetFeatureClientsResult = $GetFeatureClientsResult;
-      return $this;
+        $this->GetFeatureClientsResult = $GetFeatureClientsResult;
+        return $this;
     }
 
 }

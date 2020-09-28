@@ -15,7 +15,7 @@ class ClearProductionElementsCacheResponse
      */
     public function __construct($ClearProductionElementsCacheResult = null)
     {
-      $this->ClearProductionElementsCacheResult = $ClearProductionElementsCacheResult;
+        $this->ClearProductionElementsCacheResult = $ClearProductionElementsCacheResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ClearProductionElementsCacheResponse
      */
     public function getClearProductionElementsCacheResult()
     {
-      return $this->ClearProductionElementsCacheResult;
+        return $this->ClearProductionElementsCacheResult;
     }
 
     /**
      * @param boolean $ClearProductionElementsCacheResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ClearProductionElementsCacheResponse
+     * @return ClearProductionElementsCacheResponse
      */
     public function setClearProductionElementsCacheResult($ClearProductionElementsCacheResult)
     {
-      $this->ClearProductionElementsCacheResult = $ClearProductionElementsCacheResult;
-      return $this;
+        $this->ClearProductionElementsCacheResult = $ClearProductionElementsCacheResult;
+        return $this;
     }
 
 }

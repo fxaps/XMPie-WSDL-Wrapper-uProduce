@@ -15,7 +15,7 @@ class GetThumbnailsResponse
      */
     public function __construct($GetThumbnailsResult = null)
     {
-      $this->GetThumbnailsResult = $GetThumbnailsResult;
+        $this->GetThumbnailsResult = $GetThumbnailsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetThumbnailsResponse
      */
     public function getGetThumbnailsResult()
     {
-      return $this->GetThumbnailsResult;
+        return $this->GetThumbnailsResult;
     }
 
     /**
      * @param ArrayOfString $GetThumbnailsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailsResponse
+     * @return GetThumbnailsResponse
      */
     public function setGetThumbnailsResult($GetThumbnailsResult)
     {
-      $this->GetThumbnailsResult = $GetThumbnailsResult;
-      return $this;
+        $this->GetThumbnailsResult = $GetThumbnailsResult;
+        return $this;
     }
 
 }

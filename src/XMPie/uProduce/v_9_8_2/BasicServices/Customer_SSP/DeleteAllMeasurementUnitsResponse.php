@@ -15,7 +15,7 @@ class DeleteAllMeasurementUnitsResponse
      */
     public function __construct($DeleteAllMeasurementUnitsResult = null)
     {
-      $this->DeleteAllMeasurementUnitsResult = $DeleteAllMeasurementUnitsResult;
+        $this->DeleteAllMeasurementUnitsResult = $DeleteAllMeasurementUnitsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAllMeasurementUnitsResponse
      */
     public function getDeleteAllMeasurementUnitsResult()
     {
-      return $this->DeleteAllMeasurementUnitsResult;
+        return $this->DeleteAllMeasurementUnitsResult;
     }
 
     /**
      * @param boolean $DeleteAllMeasurementUnitsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteAllMeasurementUnitsResponse
+     * @return DeleteAllMeasurementUnitsResponse
      */
     public function setDeleteAllMeasurementUnitsResult($DeleteAllMeasurementUnitsResult)
     {
-      $this->DeleteAllMeasurementUnitsResult = $DeleteAllMeasurementUnitsResult;
-      return $this;
+        $this->DeleteAllMeasurementUnitsResult = $DeleteAllMeasurementUnitsResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class IsPrinterDeleteSourceResponse
      */
     public function __construct($IsPrinterDeleteSourceResult = null)
     {
-      $this->IsPrinterDeleteSourceResult = $IsPrinterDeleteSourceResult;
+        $this->IsPrinterDeleteSourceResult = $IsPrinterDeleteSourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsPrinterDeleteSourceResponse
      */
     public function getIsPrinterDeleteSourceResult()
     {
-      return $this->IsPrinterDeleteSourceResult;
+        return $this->IsPrinterDeleteSourceResult;
     }
 
     /**
      * @param boolean $IsPrinterDeleteSourceResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsPrinterDeleteSourceResponse
+     * @return IsPrinterDeleteSourceResponse
      */
     public function setIsPrinterDeleteSourceResult($IsPrinterDeleteSourceResult)
     {
-      $this->IsPrinterDeleteSourceResult = $IsPrinterDeleteSourceResult;
-      return $this;
+        $this->IsPrinterDeleteSourceResult = $IsPrinterDeleteSourceResult;
+        return $this;
     }
 
 }

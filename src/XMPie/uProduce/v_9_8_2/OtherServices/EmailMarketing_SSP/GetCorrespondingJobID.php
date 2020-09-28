@@ -45,12 +45,12 @@ class GetCorrespondingJobID
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountName = null, $inCampaignName = null, $inEmailActivityName = null, $inIncludingSuspendedJobs = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountName = $inAccountName;
-      $this->inCampaignName = $inCampaignName;
-      $this->inEmailActivityName = $inEmailActivityName;
-      $this->inIncludingSuspendedJobs = $inIncludingSuspendedJobs;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountName = $inAccountName;
+        $this->inCampaignName = $inCampaignName;
+        $this->inEmailActivityName = $inEmailActivityName;
+        $this->inIncludingSuspendedJobs = $inIncludingSuspendedJobs;
     }
 
     /**
@@ -58,17 +58,17 @@ class GetCorrespondingJobID
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetCorrespondingJobID
+     * @return GetCorrespondingJobID
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class GetCorrespondingJobID
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetCorrespondingJobID
+     * @return GetCorrespondingJobID
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class GetCorrespondingJobID
      */
     public function getInAccountName()
     {
-      return $this->inAccountName;
+        return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetCorrespondingJobID
+     * @return GetCorrespondingJobID
      */
     public function setInAccountName($inAccountName)
     {
-      $this->inAccountName = $inAccountName;
-      return $this;
+        $this->inAccountName = $inAccountName;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class GetCorrespondingJobID
      */
     public function getInCampaignName()
     {
-      return $this->inCampaignName;
+        return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetCorrespondingJobID
+     * @return GetCorrespondingJobID
      */
     public function setInCampaignName($inCampaignName)
     {
-      $this->inCampaignName = $inCampaignName;
-      return $this;
+        $this->inCampaignName = $inCampaignName;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class GetCorrespondingJobID
      */
     public function getInEmailActivityName()
     {
-      return $this->inEmailActivityName;
+        return $this->inEmailActivityName;
     }
 
     /**
      * @param string $inEmailActivityName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetCorrespondingJobID
+     * @return GetCorrespondingJobID
      */
     public function setInEmailActivityName($inEmailActivityName)
     {
-      $this->inEmailActivityName = $inEmailActivityName;
-      return $this;
+        $this->inEmailActivityName = $inEmailActivityName;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class GetCorrespondingJobID
      */
     public function getInIncludingSuspendedJobs()
     {
-      return $this->inIncludingSuspendedJobs;
+        return $this->inIncludingSuspendedJobs;
     }
 
     /**
      * @param boolean $inIncludingSuspendedJobs
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetCorrespondingJobID
+     * @return GetCorrespondingJobID
      */
     public function setInIncludingSuspendedJobs($inIncludingSuspendedJobs)
     {
-      $this->inIncludingSuspendedJobs = $inIncludingSuspendedJobs;
-      return $this;
+        $this->inIncludingSuspendedJobs = $inIncludingSuspendedJobs;
+        return $this;
     }
 
 }

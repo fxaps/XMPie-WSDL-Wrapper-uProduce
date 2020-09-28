@@ -15,7 +15,7 @@ class GetJobTypesResponse
      */
     public function __construct($GetJobTypesResult = null)
     {
-      $this->GetJobTypesResult = $GetJobTypesResult;
+        $this->GetJobTypesResult = $GetJobTypesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetJobTypesResponse
      */
     public function getGetJobTypesResult()
     {
-      return $this->GetJobTypesResult;
+        return $this->GetJobTypesResult;
     }
 
     /**
      * @param GetJobTypesResult $GetJobTypesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobTypesResponse
+     * @return GetJobTypesResponse
      */
     public function setGetJobTypesResult($GetJobTypesResult)
     {
-      $this->GetJobTypesResult = $GetJobTypesResult;
-      return $this;
+        $this->GetJobTypesResult = $GetJobTypesResult;
+        return $this;
     }
 
 }

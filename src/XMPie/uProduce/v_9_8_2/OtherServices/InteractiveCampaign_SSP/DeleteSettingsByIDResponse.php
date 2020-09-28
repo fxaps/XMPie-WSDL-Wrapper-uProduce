@@ -15,7 +15,7 @@ class DeleteSettingsByIDResponse
      */
     public function __construct($DeleteSettingsByIDResult = null)
     {
-      $this->DeleteSettingsByIDResult = $DeleteSettingsByIDResult;
+        $this->DeleteSettingsByIDResult = $DeleteSettingsByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteSettingsByIDResponse
      */
     public function getDeleteSettingsByIDResult()
     {
-      return $this->DeleteSettingsByIDResult;
+        return $this->DeleteSettingsByIDResult;
     }
 
     /**
      * @param boolean $DeleteSettingsByIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\DeleteSettingsByIDResponse
+     * @return DeleteSettingsByIDResponse
      */
     public function setDeleteSettingsByIDResult($DeleteSettingsByIDResult)
     {
-      $this->DeleteSettingsByIDResult = $DeleteSettingsByIDResult;
-      return $this;
+        $this->DeleteSettingsByIDResult = $DeleteSettingsByIDResult;
+        return $this;
     }
 
 }

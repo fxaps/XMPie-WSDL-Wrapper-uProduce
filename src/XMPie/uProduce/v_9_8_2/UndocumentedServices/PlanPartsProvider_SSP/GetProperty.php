@@ -33,10 +33,10 @@ class GetProperty
      */
     public function __construct($inUsername = null, $inPassword = null, $inPPPID = null, $inPropertyName = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inPPPID = $inPPPID;
-      $this->inPropertyName = $inPropertyName;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inPPPID = $inPPPID;
+        $this->inPropertyName = $inPropertyName;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetProperty
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\GetProperty
+     * @return GetProperty
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetProperty
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\GetProperty
+     * @return GetProperty
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetProperty
      */
     public function getInPPPID()
     {
-      return $this->inPPPID;
+        return $this->inPPPID;
     }
 
     /**
      * @param string $inPPPID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\GetProperty
+     * @return GetProperty
      */
     public function setInPPPID($inPPPID)
     {
-      $this->inPPPID = $inPPPID;
-      return $this;
+        $this->inPPPID = $inPPPID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetProperty
      */
     public function getInPropertyName()
     {
-      return $this->inPropertyName;
+        return $this->inPropertyName;
     }
 
     /**
      * @param string $inPropertyName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\GetProperty
+     * @return GetProperty
      */
     public function setInPropertyName($inPropertyName)
     {
-      $this->inPropertyName = $inPropertyName;
-      return $this;
+        $this->inPropertyName = $inPropertyName;
+        return $this;
     }
 
 }

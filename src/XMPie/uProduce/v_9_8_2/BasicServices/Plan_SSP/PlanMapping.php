@@ -15,7 +15,7 @@ class PlanMapping
      */
     public function __construct($ID = null)
     {
-      $this->ID = $ID;
+        $this->ID = $ID;
     }
 
     /**
@@ -23,17 +23,17 @@ class PlanMapping
      */
     public function getID()
     {
-      return $this->ID;
+        return $this->ID;
     }
 
     /**
      * @param IDMapping $ID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\PlanMapping
+     * @return PlanMapping
      */
     public function setID($ID)
     {
-      $this->ID = $ID;
-      return $this;
+        $this->ID = $ID;
+        return $this;
     }
 
 }

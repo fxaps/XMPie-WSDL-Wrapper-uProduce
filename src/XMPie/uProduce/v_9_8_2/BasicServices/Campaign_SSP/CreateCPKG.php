@@ -57,14 +57,14 @@ class CreateCPKG
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inName = null, $inDocumentIDArray = null, $inDataSourceIDArray = null, $inAssetSourceIDArray = null, $includeFonts = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inCampaignID = $inCampaignID;
-      $this->inName = $inName;
-      $this->inDocumentIDArray = $inDocumentIDArray;
-      $this->inDataSourceIDArray = $inDataSourceIDArray;
-      $this->inAssetSourceIDArray = $inAssetSourceIDArray;
-      $this->includeFonts = $includeFonts;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inCampaignID = $inCampaignID;
+        $this->inName = $inName;
+        $this->inDocumentIDArray = $inDocumentIDArray;
+        $this->inDataSourceIDArray = $inDataSourceIDArray;
+        $this->inAssetSourceIDArray = $inAssetSourceIDArray;
+        $this->includeFonts = $includeFonts;
     }
 
     /**
@@ -72,17 +72,17 @@ class CreateCPKG
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCPKG
+     * @return CreateCPKG
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class CreateCPKG
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCPKG
+     * @return CreateCPKG
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class CreateCPKG
      */
     public function getInCampaignID()
     {
-      return $this->inCampaignID;
+        return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCPKG
+     * @return CreateCPKG
      */
     public function setInCampaignID($inCampaignID)
     {
-      $this->inCampaignID = $inCampaignID;
-      return $this;
+        $this->inCampaignID = $inCampaignID;
+        return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class CreateCPKG
      */
     public function getInName()
     {
-      return $this->inName;
+        return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCPKG
+     * @return CreateCPKG
      */
     public function setInName($inName)
     {
-      $this->inName = $inName;
-      return $this;
+        $this->inName = $inName;
+        return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class CreateCPKG
      */
     public function getInDocumentIDArray()
     {
-      return $this->inDocumentIDArray;
+        return $this->inDocumentIDArray;
     }
 
     /**
      * @param ArrayOfString $inDocumentIDArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCPKG
+     * @return CreateCPKG
      */
     public function setInDocumentIDArray($inDocumentIDArray)
     {
-      $this->inDocumentIDArray = $inDocumentIDArray;
-      return $this;
+        $this->inDocumentIDArray = $inDocumentIDArray;
+        return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class CreateCPKG
      */
     public function getInDataSourceIDArray()
     {
-      return $this->inDataSourceIDArray;
+        return $this->inDataSourceIDArray;
     }
 
     /**
      * @param ArrayOfString $inDataSourceIDArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCPKG
+     * @return CreateCPKG
      */
     public function setInDataSourceIDArray($inDataSourceIDArray)
     {
-      $this->inDataSourceIDArray = $inDataSourceIDArray;
-      return $this;
+        $this->inDataSourceIDArray = $inDataSourceIDArray;
+        return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class CreateCPKG
      */
     public function getInAssetSourceIDArray()
     {
-      return $this->inAssetSourceIDArray;
+        return $this->inAssetSourceIDArray;
     }
 
     /**
      * @param ArrayOfString $inAssetSourceIDArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCPKG
+     * @return CreateCPKG
      */
     public function setInAssetSourceIDArray($inAssetSourceIDArray)
     {
-      $this->inAssetSourceIDArray = $inAssetSourceIDArray;
-      return $this;
+        $this->inAssetSourceIDArray = $inAssetSourceIDArray;
+        return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class CreateCPKG
      */
     public function getIncludeFonts()
     {
-      return $this->includeFonts;
+        return $this->includeFonts;
     }
 
     /**
      * @param boolean $includeFonts
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCPKG
+     * @return CreateCPKG
      */
     public function setIncludeFonts($includeFonts)
     {
-      $this->includeFonts = $includeFonts;
-      return $this;
+        $this->includeFonts = $includeFonts;
+        return $this;
     }
 
 }

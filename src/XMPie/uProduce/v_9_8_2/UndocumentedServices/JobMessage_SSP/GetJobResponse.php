@@ -15,7 +15,7 @@ class GetJobResponse
      */
     public function __construct($GetJobResult = null)
     {
-      $this->GetJobResult = $GetJobResult;
+        $this->GetJobResult = $GetJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetJobResponse
      */
     public function getGetJobResult()
     {
-      return $this->GetJobResult;
+        return $this->GetJobResult;
     }
 
     /**
      * @param string $GetJobResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\GetJobResponse
+     * @return GetJobResponse
      */
     public function setGetJobResult($GetJobResult)
     {
-      $this->GetJobResult = $GetJobResult;
-      return $this;
+        $this->GetJobResult = $GetJobResult;
+        return $this;
     }
 
 }

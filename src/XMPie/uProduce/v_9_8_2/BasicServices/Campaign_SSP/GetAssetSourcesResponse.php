@@ -15,7 +15,7 @@ class GetAssetSourcesResponse
      */
     public function __construct($GetAssetSourcesResult = null)
     {
-      $this->GetAssetSourcesResult = $GetAssetSourcesResult;
+        $this->GetAssetSourcesResult = $GetAssetSourcesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAssetSourcesResponse
      */
     public function getGetAssetSourcesResult()
     {
-      return $this->GetAssetSourcesResult;
+        return $this->GetAssetSourcesResult;
     }
 
     /**
      * @param ArrayOfString $GetAssetSourcesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetAssetSourcesResponse
+     * @return GetAssetSourcesResponse
      */
     public function setGetAssetSourcesResult($GetAssetSourcesResult)
     {
-      $this->GetAssetSourcesResult = $GetAssetSourcesResult;
-      return $this;
+        $this->GetAssetSourcesResult = $GetAssetSourcesResult;
+        return $this;
     }
 
 }

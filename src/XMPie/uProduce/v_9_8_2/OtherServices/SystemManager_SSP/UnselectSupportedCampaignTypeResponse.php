@@ -15,7 +15,7 @@ class UnselectSupportedCampaignTypeResponse
      */
     public function __construct($UnselectSupportedCampaignTypeResult = null)
     {
-      $this->UnselectSupportedCampaignTypeResult = $UnselectSupportedCampaignTypeResult;
+        $this->UnselectSupportedCampaignTypeResult = $UnselectSupportedCampaignTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class UnselectSupportedCampaignTypeResponse
      */
     public function getUnselectSupportedCampaignTypeResult()
     {
-      return $this->UnselectSupportedCampaignTypeResult;
+        return $this->UnselectSupportedCampaignTypeResult;
     }
 
     /**
      * @param boolean $UnselectSupportedCampaignTypeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\UnselectSupportedCampaignTypeResponse
+     * @return UnselectSupportedCampaignTypeResponse
      */
     public function setUnselectSupportedCampaignTypeResult($UnselectSupportedCampaignTypeResult)
     {
-      $this->UnselectSupportedCampaignTypeResult = $UnselectSupportedCampaignTypeResult;
-      return $this;
+        $this->UnselectSupportedCampaignTypeResult = $UnselectSupportedCampaignTypeResult;
+        return $this;
     }
 
 }

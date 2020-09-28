@@ -15,7 +15,7 @@ class IsThumbnailAvailableResponse
      */
     public function __construct($IsThumbnailAvailableResult = null)
     {
-      $this->IsThumbnailAvailableResult = $IsThumbnailAvailableResult;
+        $this->IsThumbnailAvailableResult = $IsThumbnailAvailableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsThumbnailAvailableResponse
      */
     public function getIsThumbnailAvailableResult()
     {
-      return $this->IsThumbnailAvailableResult;
+        return $this->IsThumbnailAvailableResult;
     }
 
     /**
      * @param boolean $IsThumbnailAvailableResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\IsThumbnailAvailableResponse
+     * @return IsThumbnailAvailableResponse
      */
     public function setIsThumbnailAvailableResult($IsThumbnailAvailableResult)
     {
-      $this->IsThumbnailAvailableResult = $IsThumbnailAvailableResult;
-      return $this;
+        $this->IsThumbnailAvailableResult = $IsThumbnailAvailableResult;
+        return $this;
     }
 
 }

@@ -33,10 +33,10 @@ class GetTicketPropertyFromDB
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketGuid = null, $inProperty = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketGuid = $inTicketGuid;
-      $this->inProperty = $inProperty;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketGuid = $inTicketGuid;
+        $this->inProperty = $inProperty;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetTicketPropertyFromDB
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTicketPropertyFromDB
+     * @return GetTicketPropertyFromDB
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetTicketPropertyFromDB
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTicketPropertyFromDB
+     * @return GetTicketPropertyFromDB
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetTicketPropertyFromDB
      */
     public function getInTicketGuid()
     {
-      return $this->inTicketGuid;
+        return $this->inTicketGuid;
     }
 
     /**
      * @param string $inTicketGuid
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTicketPropertyFromDB
+     * @return GetTicketPropertyFromDB
      */
     public function setInTicketGuid($inTicketGuid)
     {
-      $this->inTicketGuid = $inTicketGuid;
-      return $this;
+        $this->inTicketGuid = $inTicketGuid;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetTicketPropertyFromDB
      */
     public function getInProperty()
     {
-      return $this->inProperty;
+        return $this->inProperty;
     }
 
     /**
      * @param string $inProperty
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTicketPropertyFromDB
+     * @return GetTicketPropertyFromDB
      */
     public function setInProperty($inProperty)
     {
-      $this->inProperty = $inProperty;
-      return $this;
+        $this->inProperty = $inProperty;
+        return $this;
     }
 
 }

@@ -27,9 +27,9 @@ class DeleteMeasurementUnits
      */
     public function __construct($inUsername = null, $inPassword = null, $inMeasurementUnitIDArray = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inMeasurementUnitIDArray = $inMeasurementUnitIDArray;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inMeasurementUnitIDArray = $inMeasurementUnitIDArray;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteMeasurementUnits
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteMeasurementUnits
+     * @return DeleteMeasurementUnits
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteMeasurementUnits
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteMeasurementUnits
+     * @return DeleteMeasurementUnits
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteMeasurementUnits
      */
     public function getInMeasurementUnitIDArray()
     {
-      return $this->inMeasurementUnitIDArray;
+        return $this->inMeasurementUnitIDArray;
     }
 
     /**
      * @param ArrayOfString $inMeasurementUnitIDArray
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteMeasurementUnits
+     * @return DeleteMeasurementUnits
      */
     public function setInMeasurementUnitIDArray($inMeasurementUnitIDArray)
     {
-      $this->inMeasurementUnitIDArray = $inMeasurementUnitIDArray;
-      return $this;
+        $this->inMeasurementUnitIDArray = $inMeasurementUnitIDArray;
+        return $this;
     }
 
 }

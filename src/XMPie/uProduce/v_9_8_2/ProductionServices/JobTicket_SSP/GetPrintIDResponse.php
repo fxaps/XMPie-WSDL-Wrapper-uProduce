@@ -15,7 +15,7 @@ class GetPrintIDResponse
      */
     public function __construct($GetPrintIDResult = null)
     {
-      $this->GetPrintIDResult = $GetPrintIDResult;
+        $this->GetPrintIDResult = $GetPrintIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPrintIDResponse
      */
     public function getGetPrintIDResult()
     {
-      return $this->GetPrintIDResult;
+        return $this->GetPrintIDResult;
     }
 
     /**
      * @param string $GetPrintIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetPrintIDResponse
+     * @return GetPrintIDResponse
      */
     public function setGetPrintIDResult($GetPrintIDResult)
     {
-      $this->GetPrintIDResult = $GetPrintIDResult;
-      return $this;
+        $this->GetPrintIDResult = $GetPrintIDResult;
+        return $this;
     }
 
 }

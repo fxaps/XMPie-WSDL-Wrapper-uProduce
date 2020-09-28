@@ -15,7 +15,7 @@ class GetDataSourceTypeXMPTblDataSetResponse
      */
     public function __construct($GetDataSourceTypeXMPTblDataSetResult = null)
     {
-      $this->GetDataSourceTypeXMPTblDataSetResult = $GetDataSourceTypeXMPTblDataSetResult;
+        $this->GetDataSourceTypeXMPTblDataSetResult = $GetDataSourceTypeXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDataSourceTypeXMPTblDataSetResponse
      */
     public function getGetDataSourceTypeXMPTblDataSetResult()
     {
-      return $this->GetDataSourceTypeXMPTblDataSetResult;
+        return $this->GetDataSourceTypeXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetDataSourceTypeXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetDataSourceTypeXMPTblDataSetResponse
+     * @return GetDataSourceTypeXMPTblDataSetResponse
      */
     public function setGetDataSourceTypeXMPTblDataSetResult($GetDataSourceTypeXMPTblDataSetResult)
     {
-      $this->GetDataSourceTypeXMPTblDataSetResult = $GetDataSourceTypeXMPTblDataSetResult;
-      return $this;
+        $this->GetDataSourceTypeXMPTblDataSetResult = $GetDataSourceTypeXMPTblDataSetResult;
+        return $this;
     }
 
 }

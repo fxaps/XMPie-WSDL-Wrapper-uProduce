@@ -33,10 +33,10 @@ class RedeployOnDemandJob
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobID = null, $inJobTicket = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inJobID = $inJobID;
-      $this->inJobTicket = $inJobTicket;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inJobID = $inJobID;
+        $this->inJobTicket = $inJobTicket;
     }
 
     /**
@@ -44,17 +44,17 @@ class RedeployOnDemandJob
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\RedeployOnDemandJob
+     * @return RedeployOnDemandJob
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class RedeployOnDemandJob
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\RedeployOnDemandJob
+     * @return RedeployOnDemandJob
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class RedeployOnDemandJob
      */
     public function getInJobID()
     {
-      return $this->inJobID;
+        return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\RedeployOnDemandJob
+     * @return RedeployOnDemandJob
      */
     public function setInJobID($inJobID)
     {
-      $this->inJobID = $inJobID;
-      return $this;
+        $this->inJobID = $inJobID;
+        return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class RedeployOnDemandJob
      */
     public function getInJobTicket()
     {
-      return $this->inJobTicket;
+        return $this->inJobTicket;
     }
 
     /**
      * @param string $inJobTicket
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\RedeployOnDemandJob
+     * @return RedeployOnDemandJob
      */
     public function setInJobTicket($inJobTicket)
     {
-      $this->inJobTicket = $inJobTicket;
-      return $this;
+        $this->inJobTicket = $inJobTicket;
+        return $this;
     }
 
 }

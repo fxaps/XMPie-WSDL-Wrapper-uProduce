@@ -15,7 +15,7 @@ class IsRecipientExistResponse
      */
     public function __construct($IsRecipientExistResult = null)
     {
-      $this->IsRecipientExistResult = $IsRecipientExistResult;
+        $this->IsRecipientExistResult = $IsRecipientExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsRecipientExistResponse
      */
     public function getIsRecipientExistResult()
     {
-      return $this->IsRecipientExistResult;
+        return $this->IsRecipientExistResult;
     }
 
     /**
      * @param boolean $IsRecipientExistResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\IsRecipientExistResponse
+     * @return IsRecipientExistResponse
      */
     public function setIsRecipientExistResult($IsRecipientExistResult)
     {
-      $this->IsRecipientExistResult = $IsRecipientExistResult;
-      return $this;
+        $this->IsRecipientExistResult = $IsRecipientExistResult;
+        return $this;
     }
 
 }

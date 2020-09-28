@@ -15,7 +15,7 @@ class TestHTTPSProxyResponse
      */
     public function __construct($TestHTTPSProxyResult = null)
     {
-      $this->TestHTTPSProxyResult = $TestHTTPSProxyResult;
+        $this->TestHTTPSProxyResult = $TestHTTPSProxyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class TestHTTPSProxyResponse
      */
     public function getTestHTTPSProxyResult()
     {
-      return $this->TestHTTPSProxyResult;
+        return $this->TestHTTPSProxyResult;
     }
 
     /**
      * @param boolean $TestHTTPSProxyResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPSProxyResponse
+     * @return TestHTTPSProxyResponse
      */
     public function setTestHTTPSProxyResult($TestHTTPSProxyResult)
     {
-      $this->TestHTTPSProxyResult = $TestHTTPSProxyResult;
-      return $this;
+        $this->TestHTTPSProxyResult = $TestHTTPSProxyResult;
+        return $this;
     }
 
 }

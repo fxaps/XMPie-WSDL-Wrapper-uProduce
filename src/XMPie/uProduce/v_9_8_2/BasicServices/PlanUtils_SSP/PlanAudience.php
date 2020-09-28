@@ -40,7 +40,7 @@ class PlanAudience
      */
     public function __construct($m_Color = null)
     {
-      $this->m_Color = $m_Color;
+        $this->m_Color = $m_Color;
     }
 
     /**
@@ -48,17 +48,17 @@ class PlanAudience
      */
     public function getM_ID()
     {
-      return $this->m_ID;
+        return $this->m_ID;
     }
 
     /**
      * @param string $m_ID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudience
+     * @return PlanAudience
      */
     public function setM_ID($m_ID)
     {
-      $this->m_ID = $m_ID;
-      return $this;
+        $this->m_ID = $m_ID;
+        return $this;
     }
 
     /**
@@ -66,17 +66,17 @@ class PlanAudience
      */
     public function getM_Name()
     {
-      return $this->m_Name;
+        return $this->m_Name;
     }
 
     /**
      * @param string $m_Name
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudience
+     * @return PlanAudience
      */
     public function setM_Name($m_Name)
     {
-      $this->m_Name = $m_Name;
-      return $this;
+        $this->m_Name = $m_Name;
+        return $this;
     }
 
     /**
@@ -84,17 +84,17 @@ class PlanAudience
      */
     public function getM_Color()
     {
-      return $this->m_Color;
+        return $this->m_Color;
     }
 
     /**
      * @param int $m_Color
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudience
+     * @return PlanAudience
      */
     public function setM_Color($m_Color)
     {
-      $this->m_Color = $m_Color;
-      return $this;
+        $this->m_Color = $m_Color;
+        return $this;
     }
 
     /**
@@ -102,17 +102,17 @@ class PlanAudience
      */
     public function getM_Comment()
     {
-      return $this->m_Comment;
+        return $this->m_Comment;
     }
 
     /**
      * @param string $m_Comment
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudience
+     * @return PlanAudience
      */
     public function setM_Comment($m_Comment)
     {
-      $this->m_Comment = $m_Comment;
-      return $this;
+        $this->m_Comment = $m_Comment;
+        return $this;
     }
 
     /**
@@ -120,17 +120,17 @@ class PlanAudience
      */
     public function getM_Group()
     {
-      return $this->m_Group;
+        return $this->m_Group;
     }
 
     /**
      * @param string $m_Group
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudience
+     * @return PlanAudience
      */
     public function setM_Group($m_Group)
     {
-      $this->m_Group = $m_Group;
-      return $this;
+        $this->m_Group = $m_Group;
+        return $this;
     }
 
     /**
@@ -138,17 +138,17 @@ class PlanAudience
      */
     public function getM_Segments()
     {
-      return $this->m_Segments;
+        return $this->m_Segments;
     }
 
     /**
      * @param ArrayOfPlanAudienceSegment $m_Segments
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudience
+     * @return PlanAudience
      */
     public function setM_Segments($m_Segments)
     {
-      $this->m_Segments = $m_Segments;
-      return $this;
+        $this->m_Segments = $m_Segments;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class CloneAllFontsResponse
      */
     public function __construct($CloneAllFontsResult = null)
     {
-      $this->CloneAllFontsResult = $CloneAllFontsResult;
+        $this->CloneAllFontsResult = $CloneAllFontsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CloneAllFontsResponse
      */
     public function getCloneAllFontsResult()
     {
-      return $this->CloneAllFontsResult;
+        return $this->CloneAllFontsResult;
     }
 
     /**
      * @param boolean $CloneAllFontsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneAllFontsResponse
+     * @return CloneAllFontsResponse
      */
     public function setCloneAllFontsResult($CloneAllFontsResult)
     {
-      $this->CloneAllFontsResult = $CloneAllFontsResult;
-      return $this;
+        $this->CloneAllFontsResult = $CloneAllFontsResult;
+        return $this;
     }
 
 }

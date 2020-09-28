@@ -15,7 +15,7 @@ class GetAvailableInputFormatsResponse
      */
     public function __construct($GetAvailableInputFormatsResult = null)
     {
-      $this->GetAvailableInputFormatsResult = $GetAvailableInputFormatsResult;
+        $this->GetAvailableInputFormatsResult = $GetAvailableInputFormatsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAvailableInputFormatsResponse
      */
     public function getGetAvailableInputFormatsResult()
     {
-      return $this->GetAvailableInputFormatsResult;
+        return $this->GetAvailableInputFormatsResult;
     }
 
     /**
      * @param ArrayOfString $GetAvailableInputFormatsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetAvailableInputFormatsResponse
+     * @return GetAvailableInputFormatsResponse
      */
     public function setGetAvailableInputFormatsResult($GetAvailableInputFormatsResult)
     {
-      $this->GetAvailableInputFormatsResult = $GetAvailableInputFormatsResult;
-      return $this;
+        $this->GetAvailableInputFormatsResult = $GetAvailableInputFormatsResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class RemoveAllAssetSourcesResponse
      */
     public function __construct($RemoveAllAssetSourcesResult = null)
     {
-      $this->RemoveAllAssetSourcesResult = $RemoveAllAssetSourcesResult;
+        $this->RemoveAllAssetSourcesResult = $RemoveAllAssetSourcesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveAllAssetSourcesResponse
      */
     public function getRemoveAllAssetSourcesResult()
     {
-      return $this->RemoveAllAssetSourcesResult;
+        return $this->RemoveAllAssetSourcesResult;
     }
 
     /**
      * @param boolean $RemoveAllAssetSourcesResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveAllAssetSourcesResponse
+     * @return RemoveAllAssetSourcesResponse
      */
     public function setRemoveAllAssetSourcesResult($RemoveAllAssetSourcesResult)
     {
-      $this->RemoveAllAssetSourcesResult = $RemoveAllAssetSourcesResult;
-      return $this;
+        $this->RemoveAllAssetSourcesResult = $RemoveAllAssetSourcesResult;
+        return $this;
     }
 
 }

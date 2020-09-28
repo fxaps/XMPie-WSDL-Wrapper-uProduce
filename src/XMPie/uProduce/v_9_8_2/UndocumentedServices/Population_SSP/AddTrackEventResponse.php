@@ -15,7 +15,7 @@ class AddTrackEventResponse
      */
     public function __construct($AddTrackEventResult = null)
     {
-      $this->AddTrackEventResult = $AddTrackEventResult;
+        $this->AddTrackEventResult = $AddTrackEventResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddTrackEventResponse
      */
     public function getAddTrackEventResult()
     {
-      return $this->AddTrackEventResult;
+        return $this->AddTrackEventResult;
     }
 
     /**
      * @param boolean $AddTrackEventResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AddTrackEventResponse
+     * @return AddTrackEventResponse
      */
     public function setAddTrackEventResult($AddTrackEventResult)
     {
-      $this->AddTrackEventResult = $AddTrackEventResult;
-      return $this;
+        $this->AddTrackEventResult = $AddTrackEventResult;
+        return $this;
     }
 
 }

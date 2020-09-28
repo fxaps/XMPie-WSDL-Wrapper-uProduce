@@ -15,7 +15,7 @@ class GetADORsXMPTblDataSetResponse
      */
     public function __construct($GetADORsXMPTblDataSetResult = null)
     {
-      $this->GetADORsXMPTblDataSetResult = $GetADORsXMPTblDataSetResult;
+        $this->GetADORsXMPTblDataSetResult = $GetADORsXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetADORsXMPTblDataSetResponse
      */
     public function getGetADORsXMPTblDataSetResult()
     {
-      return $this->GetADORsXMPTblDataSetResult;
+        return $this->GetADORsXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetADORsXMPTblDataSetResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetADORsXMPTblDataSetResponse
+     * @return GetADORsXMPTblDataSetResponse
      */
     public function setGetADORsXMPTblDataSetResult($GetADORsXMPTblDataSetResult)
     {
-      $this->GetADORsXMPTblDataSetResult = $GetADORsXMPTblDataSetResult;
-      return $this;
+        $this->GetADORsXMPTblDataSetResult = $GetADORsXMPTblDataSetResult;
+        return $this;
     }
 
 }

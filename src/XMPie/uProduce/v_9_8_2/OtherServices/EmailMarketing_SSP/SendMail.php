@@ -63,15 +63,15 @@ class SendMail
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountName = null, $inCampaignName = null, $inEmailActivityName = null, $inRecipientIDs = null, $inICPName = null, $overrideHeader = null, $inProps = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccountName = $inAccountName;
-      $this->inCampaignName = $inCampaignName;
-      $this->inEmailActivityName = $inEmailActivityName;
-      $this->inRecipientIDs = $inRecipientIDs;
-      $this->inICPName = $inICPName;
-      $this->overrideHeader = $overrideHeader;
-      $this->inProps = $inProps;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccountName = $inAccountName;
+        $this->inCampaignName = $inCampaignName;
+        $this->inEmailActivityName = $inEmailActivityName;
+        $this->inRecipientIDs = $inRecipientIDs;
+        $this->inICPName = $inICPName;
+        $this->overrideHeader = $overrideHeader;
+        $this->inProps = $inProps;
     }
 
     /**
@@ -79,17 +79,17 @@ class SendMail
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMail
+     * @return SendMail
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -97,17 +97,17 @@ class SendMail
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMail
+     * @return SendMail
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -115,17 +115,17 @@ class SendMail
      */
     public function getInAccountName()
     {
-      return $this->inAccountName;
+        return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMail
+     * @return SendMail
      */
     public function setInAccountName($inAccountName)
     {
-      $this->inAccountName = $inAccountName;
-      return $this;
+        $this->inAccountName = $inAccountName;
+        return $this;
     }
 
     /**
@@ -133,17 +133,17 @@ class SendMail
      */
     public function getInCampaignName()
     {
-      return $this->inCampaignName;
+        return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMail
+     * @return SendMail
      */
     public function setInCampaignName($inCampaignName)
     {
-      $this->inCampaignName = $inCampaignName;
-      return $this;
+        $this->inCampaignName = $inCampaignName;
+        return $this;
     }
 
     /**
@@ -151,17 +151,17 @@ class SendMail
      */
     public function getInEmailActivityName()
     {
-      return $this->inEmailActivityName;
+        return $this->inEmailActivityName;
     }
 
     /**
      * @param string $inEmailActivityName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMail
+     * @return SendMail
      */
     public function setInEmailActivityName($inEmailActivityName)
     {
-      $this->inEmailActivityName = $inEmailActivityName;
-      return $this;
+        $this->inEmailActivityName = $inEmailActivityName;
+        return $this;
     }
 
     /**
@@ -169,17 +169,17 @@ class SendMail
      */
     public function getInRecipientIDs()
     {
-      return $this->inRecipientIDs;
+        return $this->inRecipientIDs;
     }
 
     /**
      * @param ArrayOfString $inRecipientIDs
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMail
+     * @return SendMail
      */
     public function setInRecipientIDs($inRecipientIDs)
     {
-      $this->inRecipientIDs = $inRecipientIDs;
-      return $this;
+        $this->inRecipientIDs = $inRecipientIDs;
+        return $this;
     }
 
     /**
@@ -187,17 +187,17 @@ class SendMail
      */
     public function getInICPName()
     {
-      return $this->inICPName;
+        return $this->inICPName;
     }
 
     /**
      * @param string $inICPName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMail
+     * @return SendMail
      */
     public function setInICPName($inICPName)
     {
-      $this->inICPName = $inICPName;
-      return $this;
+        $this->inICPName = $inICPName;
+        return $this;
     }
 
     /**
@@ -205,17 +205,17 @@ class SendMail
      */
     public function getOverrideHeader()
     {
-      return $this->overrideHeader;
+        return $this->overrideHeader;
     }
 
     /**
      * @param EmailHeaderInfo $overrideHeader
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMail
+     * @return SendMail
      */
     public function setOverrideHeader($overrideHeader)
     {
-      $this->overrideHeader = $overrideHeader;
-      return $this;
+        $this->overrideHeader = $overrideHeader;
+        return $this;
     }
 
     /**
@@ -223,17 +223,17 @@ class SendMail
      */
     public function getInProps()
     {
-      return $this->inProps;
+        return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMail
+     * @return SendMail
      */
     public function setInProps($inProps)
     {
-      $this->inProps = $inProps;
-      return $this;
+        $this->inProps = $inProps;
+        return $this;
     }
 
 }

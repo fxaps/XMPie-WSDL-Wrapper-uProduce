@@ -15,7 +15,7 @@ class GetAssetSourceProviderSupportResponse
      */
     public function __construct($GetAssetSourceProviderSupportResult = null)
     {
-      $this->GetAssetSourceProviderSupportResult = $GetAssetSourceProviderSupportResult;
+        $this->GetAssetSourceProviderSupportResult = $GetAssetSourceProviderSupportResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAssetSourceProviderSupportResponse
      */
     public function getGetAssetSourceProviderSupportResult()
     {
-      return $this->GetAssetSourceProviderSupportResult;
+        return $this->GetAssetSourceProviderSupportResult;
     }
 
     /**
      * @param AssetSourceProviderSupport $GetAssetSourceProviderSupportResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetSourceProviderSupportResponse
+     * @return GetAssetSourceProviderSupportResponse
      */
     public function setGetAssetSourceProviderSupportResult($GetAssetSourceProviderSupportResult)
     {
-      $this->GetAssetSourceProviderSupportResult = $GetAssetSourceProviderSupportResult;
-      return $this;
+        $this->GetAssetSourceProviderSupportResult = $GetAssetSourceProviderSupportResult;
+        return $this;
     }
 
 }

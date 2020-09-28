@@ -107,10 +107,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetServerID
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetServerID
+     */
     public function GetServerID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -125,10 +125,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetServerIDResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetServerIDResponse
+     */
     public function GetServerIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -143,10 +143,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return Activate
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return Activate
+     */
     public function Activate($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -161,10 +161,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ActivateResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ActivateResponse
+     */
     public function ActivateResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -179,10 +179,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return Report
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return Report
+     */
     public function Report($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -197,10 +197,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfReportMessage
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfReportMessage
+     */
     public function ArrayOfReportMessage($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -215,10 +215,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ReportMessage
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ReportMessage
+     */
     public function ReportMessage($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -233,10 +233,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfProperty
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfProperty
+     */
     public function ArrayOfProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -251,10 +251,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return Property
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return Property
+     */
     public function Property($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -269,10 +269,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return Reactivate
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return Reactivate
+     */
     public function Reactivate($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -287,10 +287,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ReactivateResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ReactivateResponse
+     */
     public function ReactivateResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -305,10 +305,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsUProduceLE
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsUProduceLE
+     */
     public function IsUProduceLE($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -323,10 +323,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsUProduceLEResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsUProduceLEResponse
+     */
     public function IsUProduceLEResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -341,10 +341,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsUProducePrintOnly
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsUProducePrintOnly
+     */
     public function IsUProducePrintOnly($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -359,10 +359,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsUProducePrintOnlyResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsUProducePrintOnlyResponse
+     */
     public function IsUProducePrintOnlyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -377,10 +377,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsUProduceEMedia
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsUProduceEMedia
+     */
     public function IsUProduceEMedia($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -395,10 +395,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsUProduceEMediaResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsUProduceEMediaResponse
+     */
     public function IsUProduceEMediaResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -413,10 +413,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetCustomerClicksView
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetCustomerClicksView
+     */
     public function GetCustomerClicksView($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -431,10 +431,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetCustomerClicksViewResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetCustomerClicksViewResponse
+     */
     public function GetCustomerClicksViewResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -449,10 +449,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetCustomerClicksViewResult
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetCustomerClicksViewResult
+     */
     public function GetCustomerClicksViewResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -467,10 +467,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetCustomerClicksXMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetCustomerClicksXMPTblDataSet
+     */
     public function GetCustomerClicksXMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -485,10 +485,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetCustomerClicksXMPTblDataSetResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetCustomerClicksXMPTblDataSetResponse
+     */
     public function GetCustomerClicksXMPTblDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -503,10 +503,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblDataSet
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblDataSet
+     */
     public function XMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -521,10 +521,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTbl
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTbl
+     */
     public function ArrayOfXMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -539,10 +539,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTbl
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTbl
+     */
     public function XMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -557,10 +557,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTblColumn
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTblColumn
+     */
     public function ArrayOfXMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -575,10 +575,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblColumn
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblColumn
+     */
     public function XMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -593,10 +593,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPTblRow
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPTblRow
+     */
     public function ArrayOfXMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -611,10 +611,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPTblRow
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPTblRow
+     */
     public function XMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -629,10 +629,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfXMPRowField
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfXMPRowField
+     */
     public function ArrayOfXMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -647,10 +647,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return XMPRowField
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return XMPRowField
+     */
     public function XMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -665,10 +665,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableClicks
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableClicks
+     */
     public function GetAvailableClicks($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -683,10 +683,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableClicksResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableClicksResponse
+     */
     public function GetAvailableClicksResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -701,10 +701,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsPerpetual
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsPerpetual
+     */
     public function IsPerpetual($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -719,10 +719,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsPerpetualResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsPerpetualResponse
+     */
     public function IsPerpetualResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -737,10 +737,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableOutputFormats
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableOutputFormats
+     */
     public function GetAvailableOutputFormats($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -755,10 +755,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableOutputFormatsResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableOutputFormatsResponse
+     */
     public function GetAvailableOutputFormatsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -773,10 +773,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ArrayOfString
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ArrayOfString
+     */
     public function ArrayOfString($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -791,10 +791,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableInputFormats
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableInputFormats
+     */
     public function GetAvailableInputFormats($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -809,10 +809,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetAvailableInputFormatsResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetAvailableInputFormatsResponse
+     */
     public function GetAvailableInputFormatsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -827,10 +827,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsTrackingAvailable
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsTrackingAvailable
+     */
     public function IsTrackingAvailable($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -845,10 +845,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsTrackingAvailableResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsTrackingAvailableResponse
+     */
     public function IsTrackingAvailableResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -863,10 +863,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetMarketingConsoleType
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetMarketingConsoleType
+     */
     public function GetMarketingConsoleType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -881,10 +881,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetMarketingConsoleTypeResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetMarketingConsoleTypeResponse
+     */
     public function GetMarketingConsoleTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -899,10 +899,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetStatus
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetStatus
+     */
     public function GetStatus($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -917,10 +917,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetStatusResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetStatusResponse
+     */
     public function GetStatusResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -935,10 +935,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return StatusInfo
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return StatusInfo
+     */
     public function StatusInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -953,10 +953,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsMIAvailable
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsMIAvailable
+     */
     public function IsMIAvailable($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -971,10 +971,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return IsMIAvailableResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return IsMIAvailableResponse
+     */
     public function IsMIAvailableResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -989,10 +989,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetMaximumNumberOfAvailableInstances
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetMaximumNumberOfAvailableInstances
+     */
     public function GetMaximumNumberOfAvailableInstances($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1007,10 +1007,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetMaximumNumberOfAvailableInstancesResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetMaximumNumberOfAvailableInstancesResponse
+     */
     public function GetMaximumNumberOfAvailableInstancesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1025,10 +1025,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetMaximumNumberOfConnectivityLicenses
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetMaximumNumberOfConnectivityLicenses
+     */
     public function GetMaximumNumberOfConnectivityLicenses($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1043,10 +1043,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetMaximumNumberOfConnectivityLicensesResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetMaximumNumberOfConnectivityLicensesResponse
+     */
     public function GetMaximumNumberOfConnectivityLicensesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1061,10 +1061,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetConnectivityLicenses
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetConnectivityLicenses
+     */
     public function GetConnectivityLicenses($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1079,10 +1079,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetConnectivityLicensesResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetConnectivityLicensesResponse
+     */
     public function GetConnectivityLicensesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1097,10 +1097,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetConnectivityLicensesResult
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetConnectivityLicensesResult
+     */
     public function GetConnectivityLicensesResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1115,10 +1115,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ValidateConnectivityLicense
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ValidateConnectivityLicense
+     */
     public function ValidateConnectivityLicense($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1133,10 +1133,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ValidateConnectivityLicenseResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ValidateConnectivityLicenseResponse
+     */
     public function ValidateConnectivityLicenseResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1151,10 +1151,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteConnectivityLicense
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteConnectivityLicense
+     */
     public function DeleteConnectivityLicense($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1169,10 +1169,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteConnectivityLicenseResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteConnectivityLicenseResponse
+     */
     public function DeleteConnectivityLicenseResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1187,10 +1187,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetMaximumFeatureClients
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetMaximumFeatureClients
+     */
     public function GetMaximumFeatureClients($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1205,10 +1205,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetMaximumFeatureClientsResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetMaximumFeatureClientsResponse
+     */
     public function GetMaximumFeatureClientsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1223,10 +1223,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFeatureClients
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFeatureClients
+     */
     public function GetFeatureClients($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1241,10 +1241,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFeatureClientsResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFeatureClientsResponse
+     */
     public function GetFeatureClientsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1259,10 +1259,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return GetFeatureClientsResult
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return GetFeatureClientsResult
+     */
     public function GetFeatureClientsResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1277,10 +1277,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ValidateFeatureClient
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ValidateFeatureClient
+     */
     public function ValidateFeatureClient($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1295,10 +1295,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return ValidateFeatureClientResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return ValidateFeatureClientResponse
+     */
     public function ValidateFeatureClientResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1313,10 +1313,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteFeatureClient
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteFeatureClient
+     */
     public function DeleteFeatureClient($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1331,10 +1331,10 @@ class FabricateLicensing_SSP
     }
 
 
-   /**
-    * @param array $paramAutoSet
-    * @return DeleteFeatureClientResponse
-    */
+    /**
+     * @param array $paramAutoSet
+     * @return DeleteFeatureClientResponse
+     */
     public function DeleteFeatureClientResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1347,7 +1347,6 @@ class FabricateLicensing_SSP
         }
         return $DeleteFeatureClientResponse;
     }
-
 
 
 }

@@ -15,7 +15,7 @@ class CreateDPKGExResponse
      */
     public function __construct($CreateDPKGExResult = null)
     {
-      $this->CreateDPKGExResult = $CreateDPKGExResult;
+        $this->CreateDPKGExResult = $CreateDPKGExResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateDPKGExResponse
      */
     public function getCreateDPKGExResult()
     {
-      return $this->CreateDPKGExResult;
+        return $this->CreateDPKGExResult;
     }
 
     /**
      * @param string $CreateDPKGExResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateDPKGExResponse
+     * @return CreateDPKGExResponse
      */
     public function setCreateDPKGExResult($CreateDPKGExResult)
     {
-      $this->CreateDPKGExResult = $CreateDPKGExResult;
-      return $this;
+        $this->CreateDPKGExResult = $CreateDPKGExResult;
+        return $this;
     }
 
 }

@@ -45,12 +45,12 @@ class SaveNewTicketToDB
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inTicketName = null, $inAccountID = null, $inIsTemplate = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inTicketName = $inTicketName;
-      $this->inAccountID = $inAccountID;
-      $this->inIsTemplate = $inIsTemplate;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inTicketName = $inTicketName;
+        $this->inAccountID = $inAccountID;
+        $this->inIsTemplate = $inIsTemplate;
     }
 
     /**
@@ -58,17 +58,17 @@ class SaveNewTicketToDB
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SaveNewTicketToDB
+     * @return SaveNewTicketToDB
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class SaveNewTicketToDB
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SaveNewTicketToDB
+     * @return SaveNewTicketToDB
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class SaveNewTicketToDB
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SaveNewTicketToDB
+     * @return SaveNewTicketToDB
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class SaveNewTicketToDB
      */
     public function getInTicketName()
     {
-      return $this->inTicketName;
+        return $this->inTicketName;
     }
 
     /**
      * @param string $inTicketName
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SaveNewTicketToDB
+     * @return SaveNewTicketToDB
      */
     public function setInTicketName($inTicketName)
     {
-      $this->inTicketName = $inTicketName;
-      return $this;
+        $this->inTicketName = $inTicketName;
+        return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class SaveNewTicketToDB
      */
     public function getInAccountID()
     {
-      return $this->inAccountID;
+        return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SaveNewTicketToDB
+     * @return SaveNewTicketToDB
      */
     public function setInAccountID($inAccountID)
     {
-      $this->inAccountID = $inAccountID;
-      return $this;
+        $this->inAccountID = $inAccountID;
+        return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class SaveNewTicketToDB
      */
     public function getInIsTemplate()
     {
-      return $this->inIsTemplate;
+        return $this->inIsTemplate;
     }
 
     /**
      * @param boolean $inIsTemplate
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SaveNewTicketToDB
+     * @return SaveNewTicketToDB
      */
     public function setInIsTemplate($inIsTemplate)
     {
-      $this->inIsTemplate = $inIsTemplate;
-      return $this;
+        $this->inIsTemplate = $inIsTemplate;
+        return $this;
     }
 
 }

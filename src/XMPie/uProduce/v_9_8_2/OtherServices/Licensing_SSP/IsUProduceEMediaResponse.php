@@ -15,7 +15,7 @@ class IsUProduceEMediaResponse
      */
     public function __construct($IsUProduceEMediaResult = null)
     {
-      $this->IsUProduceEMediaResult = $IsUProduceEMediaResult;
+        $this->IsUProduceEMediaResult = $IsUProduceEMediaResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsUProduceEMediaResponse
      */
     public function getIsUProduceEMediaResult()
     {
-      return $this->IsUProduceEMediaResult;
+        return $this->IsUProduceEMediaResult;
     }
 
     /**
      * @param boolean $IsUProduceEMediaResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\IsUProduceEMediaResponse
+     * @return IsUProduceEMediaResponse
      */
     public function setIsUProduceEMediaResult($IsUProduceEMediaResult)
     {
-      $this->IsUProduceEMediaResult = $IsUProduceEMediaResult;
-      return $this;
+        $this->IsUProduceEMediaResult = $IsUProduceEMediaResult;
+        return $this;
     }
 
 }

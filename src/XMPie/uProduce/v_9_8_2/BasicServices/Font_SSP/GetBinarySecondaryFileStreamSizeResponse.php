@@ -15,7 +15,7 @@ class GetBinarySecondaryFileStreamSizeResponse
      */
     public function __construct($GetBinarySecondaryFileStreamSizeResult = null)
     {
-      $this->GetBinarySecondaryFileStreamSizeResult = $GetBinarySecondaryFileStreamSizeResult;
+        $this->GetBinarySecondaryFileStreamSizeResult = $GetBinarySecondaryFileStreamSizeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetBinarySecondaryFileStreamSizeResponse
      */
     public function getGetBinarySecondaryFileStreamSizeResult()
     {
-      return $this->GetBinarySecondaryFileStreamSizeResult;
+        return $this->GetBinarySecondaryFileStreamSizeResult;
     }
 
     /**
      * @param int $GetBinarySecondaryFileStreamSizeResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetBinarySecondaryFileStreamSizeResponse
+     * @return GetBinarySecondaryFileStreamSizeResponse
      */
     public function setGetBinarySecondaryFileStreamSizeResult($GetBinarySecondaryFileStreamSizeResult)
     {
-      $this->GetBinarySecondaryFileStreamSizeResult = $GetBinarySecondaryFileStreamSizeResult;
-      return $this;
+        $this->GetBinarySecondaryFileStreamSizeResult = $GetBinarySecondaryFileStreamSizeResult;
+        return $this;
     }
 
 }

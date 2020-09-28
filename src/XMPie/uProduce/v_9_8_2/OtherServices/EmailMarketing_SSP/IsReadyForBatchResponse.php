@@ -15,7 +15,7 @@ class IsReadyForBatchResponse
      */
     public function __construct($IsReadyForBatchResult = null)
     {
-      $this->IsReadyForBatchResult = $IsReadyForBatchResult;
+        $this->IsReadyForBatchResult = $IsReadyForBatchResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsReadyForBatchResponse
      */
     public function getIsReadyForBatchResult()
     {
-      return $this->IsReadyForBatchResult;
+        return $this->IsReadyForBatchResult;
     }
 
     /**
      * @param string $IsReadyForBatchResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\IsReadyForBatchResponse
+     * @return IsReadyForBatchResponse
      */
     public function setIsReadyForBatchResult($IsReadyForBatchResult)
     {
-      $this->IsReadyForBatchResult = $IsReadyForBatchResult;
-      return $this;
+        $this->IsReadyForBatchResult = $IsReadyForBatchResult;
+        return $this;
     }
 
 }

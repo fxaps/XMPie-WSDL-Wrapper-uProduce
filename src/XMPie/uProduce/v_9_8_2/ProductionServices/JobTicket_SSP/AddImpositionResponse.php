@@ -15,7 +15,7 @@ class AddImpositionResponse
      */
     public function __construct($AddImpositionResult = null)
     {
-      $this->AddImpositionResult = $AddImpositionResult;
+        $this->AddImpositionResult = $AddImpositionResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddImpositionResponse
      */
     public function getAddImpositionResult()
     {
-      return $this->AddImpositionResult;
+        return $this->AddImpositionResult;
     }
 
     /**
      * @param boolean $AddImpositionResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddImpositionResponse
+     * @return AddImpositionResponse
      */
     public function setAddImpositionResult($AddImpositionResult)
     {
-      $this->AddImpositionResult = $AddImpositionResult;
-      return $this;
+        $this->AddImpositionResult = $AddImpositionResult;
+        return $this;
     }
 
 }

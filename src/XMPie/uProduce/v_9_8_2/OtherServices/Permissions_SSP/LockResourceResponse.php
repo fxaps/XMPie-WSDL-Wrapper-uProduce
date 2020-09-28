@@ -15,7 +15,7 @@ class LockResourceResponse
      */
     public function __construct($LockResourceResult = null)
     {
-      $this->LockResourceResult = $LockResourceResult;
+        $this->LockResourceResult = $LockResourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class LockResourceResponse
      */
     public function getLockResourceResult()
     {
-      return $this->LockResourceResult;
+        return $this->LockResourceResult;
     }
 
     /**
      * @param boolean $LockResourceResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\LockResourceResponse
+     * @return LockResourceResponse
      */
     public function setLockResourceResult($LockResourceResult)
     {
-      $this->LockResourceResult = $LockResourceResult;
-      return $this;
+        $this->LockResourceResult = $LockResourceResult;
+        return $this;
     }
 
 }

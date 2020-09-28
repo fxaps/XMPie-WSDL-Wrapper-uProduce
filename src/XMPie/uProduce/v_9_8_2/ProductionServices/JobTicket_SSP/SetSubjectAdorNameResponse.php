@@ -15,7 +15,7 @@ class SetSubjectAdorNameResponse
      */
     public function __construct($SetSubjectAdorNameResult = null)
     {
-      $this->SetSubjectAdorNameResult = $SetSubjectAdorNameResult;
+        $this->SetSubjectAdorNameResult = $SetSubjectAdorNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetSubjectAdorNameResponse
      */
     public function getSetSubjectAdorNameResult()
     {
-      return $this->SetSubjectAdorNameResult;
+        return $this->SetSubjectAdorNameResult;
     }
 
     /**
      * @param boolean $SetSubjectAdorNameResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetSubjectAdorNameResponse
+     * @return SetSubjectAdorNameResponse
      */
     public function setSetSubjectAdorNameResult($SetSubjectAdorNameResult)
     {
-      $this->SetSubjectAdorNameResult = $SetSubjectAdorNameResult;
-      return $this;
+        $this->SetSubjectAdorNameResult = $SetSubjectAdorNameResult;
+        return $this;
     }
 
 }

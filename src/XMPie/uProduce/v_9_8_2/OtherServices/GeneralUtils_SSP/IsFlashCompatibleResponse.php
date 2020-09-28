@@ -15,7 +15,7 @@ class IsFlashCompatibleResponse
      */
     public function __construct($IsFlashCompatibleResult = null)
     {
-      $this->IsFlashCompatibleResult = $IsFlashCompatibleResult;
+        $this->IsFlashCompatibleResult = $IsFlashCompatibleResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsFlashCompatibleResponse
      */
     public function getIsFlashCompatibleResult()
     {
-      return $this->IsFlashCompatibleResult;
+        return $this->IsFlashCompatibleResult;
     }
 
     /**
      * @param boolean $IsFlashCompatibleResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatibleResponse
+     * @return IsFlashCompatibleResponse
      */
     public function setIsFlashCompatibleResult($IsFlashCompatibleResult)
     {
-      $this->IsFlashCompatibleResult = $IsFlashCompatibleResult;
-      return $this;
+        $this->IsFlashCompatibleResult = $IsFlashCompatibleResult;
+        return $this;
     }
 
 }

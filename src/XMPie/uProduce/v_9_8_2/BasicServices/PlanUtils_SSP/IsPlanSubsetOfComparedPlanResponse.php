@@ -15,7 +15,7 @@ class IsPlanSubsetOfComparedPlanResponse
      */
     public function __construct($IsPlanSubsetOfComparedPlanResult = null)
     {
-      $this->IsPlanSubsetOfComparedPlanResult = $IsPlanSubsetOfComparedPlanResult;
+        $this->IsPlanSubsetOfComparedPlanResult = $IsPlanSubsetOfComparedPlanResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsPlanSubsetOfComparedPlanResponse
      */
     public function getIsPlanSubsetOfComparedPlanResult()
     {
-      return $this->IsPlanSubsetOfComparedPlanResult;
+        return $this->IsPlanSubsetOfComparedPlanResult;
     }
 
     /**
      * @param boolean $IsPlanSubsetOfComparedPlanResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\IsPlanSubsetOfComparedPlanResponse
+     * @return IsPlanSubsetOfComparedPlanResponse
      */
     public function setIsPlanSubsetOfComparedPlanResult($IsPlanSubsetOfComparedPlanResult)
     {
-      $this->IsPlanSubsetOfComparedPlanResult = $IsPlanSubsetOfComparedPlanResult;
-      return $this;
+        $this->IsPlanSubsetOfComparedPlanResult = $IsPlanSubsetOfComparedPlanResult;
+        return $this;
     }
 
 }

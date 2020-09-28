@@ -27,9 +27,9 @@ class DeleteAccounts
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccounts = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inAccounts = $inAccounts;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inAccounts = $inAccounts;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteAccounts
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteAccounts
+     * @return DeleteAccounts
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteAccounts
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteAccounts
+     * @return DeleteAccounts
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteAccounts
      */
     public function getInAccounts()
     {
-      return $this->inAccounts;
+        return $this->inAccounts;
     }
 
     /**
      * @param ArrayOfString $inAccounts
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteAccounts
+     * @return DeleteAccounts
      */
     public function setInAccounts($inAccounts)
     {
-      $this->inAccounts = $inAccounts;
-      return $this;
+        $this->inAccounts = $inAccounts;
+        return $this;
     }
 
 }

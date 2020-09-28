@@ -15,7 +15,7 @@ class IsTrackingAvailableResponse
      */
     public function __construct($IsTrackingAvailableResult = null)
     {
-      $this->IsTrackingAvailableResult = $IsTrackingAvailableResult;
+        $this->IsTrackingAvailableResult = $IsTrackingAvailableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsTrackingAvailableResponse
      */
     public function getIsTrackingAvailableResult()
     {
-      return $this->IsTrackingAvailableResult;
+        return $this->IsTrackingAvailableResult;
     }
 
     /**
      * @param boolean $IsTrackingAvailableResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\IsTrackingAvailableResponse
+     * @return IsTrackingAvailableResponse
      */
     public function setIsTrackingAvailableResult($IsTrackingAvailableResult)
     {
-      $this->IsTrackingAvailableResult = $IsTrackingAvailableResult;
-      return $this;
+        $this->IsTrackingAvailableResult = $IsTrackingAvailableResult;
+        return $this;
     }
 
 }

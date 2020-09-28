@@ -15,7 +15,7 @@ class SetJDFParametersResponse
      */
     public function __construct($SetJDFParametersResult = null)
     {
-      $this->SetJDFParametersResult = $SetJDFParametersResult;
+        $this->SetJDFParametersResult = $SetJDFParametersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetJDFParametersResponse
      */
     public function getSetJDFParametersResult()
     {
-      return $this->SetJDFParametersResult;
+        return $this->SetJDFParametersResult;
     }
 
     /**
      * @param boolean $SetJDFParametersResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJDFParametersResponse
+     * @return SetJDFParametersResponse
      */
     public function setSetJDFParametersResult($SetJDFParametersResult)
     {
-      $this->SetJDFParametersResult = $SetJDFParametersResult;
-      return $this;
+        $this->SetJDFParametersResult = $SetJDFParametersResult;
+        return $this;
     }
 
 }

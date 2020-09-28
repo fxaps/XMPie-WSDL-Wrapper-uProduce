@@ -39,11 +39,11 @@ class SetAssetsPrefix
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inPrefixType = null, $inFiexedPrefix = null)
     {
-      $this->inUsername = $inUsername;
-      $this->inPassword = $inPassword;
-      $this->inTicketID = $inTicketID;
-      $this->inPrefixType = $inPrefixType;
-      $this->inFiexedPrefix = $inFiexedPrefix;
+        $this->inUsername = $inUsername;
+        $this->inPassword = $inPassword;
+        $this->inTicketID = $inTicketID;
+        $this->inPrefixType = $inPrefixType;
+        $this->inFiexedPrefix = $inFiexedPrefix;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetAssetsPrefix
      */
     public function getInUsername()
     {
-      return $this->inUsername;
+        return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetsPrefix
+     * @return SetAssetsPrefix
      */
     public function setInUsername($inUsername)
     {
-      $this->inUsername = $inUsername;
-      return $this;
+        $this->inUsername = $inUsername;
+        return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetAssetsPrefix
      */
     public function getInPassword()
     {
-      return $this->inPassword;
+        return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetsPrefix
+     * @return SetAssetsPrefix
      */
     public function setInPassword($inPassword)
     {
-      $this->inPassword = $inPassword;
-      return $this;
+        $this->inPassword = $inPassword;
+        return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetAssetsPrefix
      */
     public function getInTicketID()
     {
-      return $this->inTicketID;
+        return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetsPrefix
+     * @return SetAssetsPrefix
      */
     public function setInTicketID($inTicketID)
     {
-      $this->inTicketID = $inTicketID;
-      return $this;
+        $this->inTicketID = $inTicketID;
+        return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetAssetsPrefix
      */
     public function getInPrefixType()
     {
-      return $this->inPrefixType;
+        return $this->inPrefixType;
     }
 
     /**
      * @param string $inPrefixType
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetsPrefix
+     * @return SetAssetsPrefix
      */
     public function setInPrefixType($inPrefixType)
     {
-      $this->inPrefixType = $inPrefixType;
-      return $this;
+        $this->inPrefixType = $inPrefixType;
+        return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetAssetsPrefix
      */
     public function getInFiexedPrefix()
     {
-      return $this->inFiexedPrefix;
+        return $this->inFiexedPrefix;
     }
 
     /**
      * @param string $inFiexedPrefix
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetsPrefix
+     * @return SetAssetsPrefix
      */
     public function setInFiexedPrefix($inFiexedPrefix)
     {
-      $this->inFiexedPrefix = $inFiexedPrefix;
-      return $this;
+        $this->inFiexedPrefix = $inFiexedPrefix;
+        return $this;
     }
 
 }

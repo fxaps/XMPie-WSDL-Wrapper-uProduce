@@ -15,7 +15,7 @@ class GetMetaDataSubGroupsResponse
      */
     public function __construct($GetMetaDataSubGroupsResult = null)
     {
-      $this->GetMetaDataSubGroupsResult = $GetMetaDataSubGroupsResult;
+        $this->GetMetaDataSubGroupsResult = $GetMetaDataSubGroupsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMetaDataSubGroupsResponse
      */
     public function getGetMetaDataSubGroupsResult()
     {
-      return $this->GetMetaDataSubGroupsResult;
+        return $this->GetMetaDataSubGroupsResult;
     }
 
     /**
      * @param ArrayOfString $GetMetaDataSubGroupsResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetMetaDataSubGroupsResponse
+     * @return GetMetaDataSubGroupsResponse
      */
     public function setGetMetaDataSubGroupsResult($GetMetaDataSubGroupsResult)
     {
-      $this->GetMetaDataSubGroupsResult = $GetMetaDataSubGroupsResult;
-      return $this;
+        $this->GetMetaDataSubGroupsResult = $GetMetaDataSubGroupsResult;
+        return $this;
     }
 
 }

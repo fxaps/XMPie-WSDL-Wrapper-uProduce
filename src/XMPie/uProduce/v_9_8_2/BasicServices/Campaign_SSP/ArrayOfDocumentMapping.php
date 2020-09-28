@@ -2,7 +2,11 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP;
 
-class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
+use ArrayAccess;
+use Countable;
+use Iterator;
+
+class ArrayOfDocumentMapping implements ArrayAccess, Iterator, Countable
 {
 
     /**
@@ -10,10 +14,10 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     protected $DocumentMapping = null;
 
-    
+
     public function __construct()
     {
-    
+
     }
 
     /**
@@ -21,17 +25,17 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function getDocumentMapping()
     {
-      return $this->DocumentMapping;
+        return $this->DocumentMapping;
     }
 
     /**
      * @param DocumentMapping[] $DocumentMapping
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\ArrayOfDocumentMapping
+     * @return ArrayOfDocumentMapping
      */
     public function setDocumentMapping(array $DocumentMapping = null)
     {
-      $this->DocumentMapping = $DocumentMapping;
-      return $this;
+        $this->DocumentMapping = $DocumentMapping;
+        return $this;
     }
 
     /**
@@ -42,7 +46,7 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->DocumentMapping[$offset]);
+        return isset($this->DocumentMapping[$offset]);
     }
 
     /**
@@ -53,7 +57,7 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetGet($offset)
     {
-      return $this->DocumentMapping[$offset];
+        return $this->DocumentMapping[$offset];
     }
 
     /**
@@ -65,11 +69,11 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetSet($offset, $value)
     {
-      if (!isset($offset)) {
-        $this->DocumentMapping[] = $value;
-      } else {
-        $this->DocumentMapping[$offset] = $value;
-      }
+        if (!isset($offset)) {
+            $this->DocumentMapping[] = $value;
+        } else {
+            $this->DocumentMapping[$offset] = $value;
+        }
     }
 
     /**
@@ -80,7 +84,7 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->DocumentMapping[$offset]);
+        unset($this->DocumentMapping[$offset]);
     }
 
     /**
@@ -90,7 +94,7 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function current()
     {
-      return current($this->DocumentMapping);
+        return current($this->DocumentMapping);
     }
 
     /**
@@ -101,7 +105,7 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->DocumentMapping);
+        next($this->DocumentMapping);
     }
 
     /**
@@ -111,7 +115,7 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->DocumentMapping);
+        return key($this->DocumentMapping);
     }
 
     /**
@@ -121,7 +125,7 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function valid()
     {
-      return $this->key() !== null;
+        return $this->key() !== null;
     }
 
     /**
@@ -132,7 +136,7 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->DocumentMapping);
+        reset($this->DocumentMapping);
     }
 
     /**
@@ -142,7 +146,7 @@ class ArrayOfDocumentMapping implements \ArrayAccess, \Iterator, \Countable
      */
     public function count()
     {
-      return count($this->DocumentMapping);
+        return count($this->DocumentMapping);
     }
 
 }

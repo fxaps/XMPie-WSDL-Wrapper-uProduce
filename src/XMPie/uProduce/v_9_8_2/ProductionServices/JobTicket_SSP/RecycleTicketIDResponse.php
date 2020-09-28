@@ -15,7 +15,7 @@ class RecycleTicketIDResponse
      */
     public function __construct($RecycleTicketIDResult = null)
     {
-      $this->RecycleTicketIDResult = $RecycleTicketIDResult;
+        $this->RecycleTicketIDResult = $RecycleTicketIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RecycleTicketIDResponse
      */
     public function getRecycleTicketIDResult()
     {
-      return $this->RecycleTicketIDResult;
+        return $this->RecycleTicketIDResult;
     }
 
     /**
      * @param boolean $RecycleTicketIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RecycleTicketIDResponse
+     * @return RecycleTicketIDResponse
      */
     public function setRecycleTicketIDResult($RecycleTicketIDResult)
     {
-      $this->RecycleTicketIDResult = $RecycleTicketIDResult;
-      return $this;
+        $this->RecycleTicketIDResult = $RecycleTicketIDResult;
+        return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SetRecentCampaignIDResponse
      */
     public function __construct($SetRecentCampaignIDResult = null)
     {
-      $this->SetRecentCampaignIDResult = $SetRecentCampaignIDResult;
+        $this->SetRecentCampaignIDResult = $SetRecentCampaignIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetRecentCampaignIDResponse
      */
     public function getSetRecentCampaignIDResult()
     {
-      return $this->SetRecentCampaignIDResult;
+        return $this->SetRecentCampaignIDResult;
     }
 
     /**
      * @param boolean $SetRecentCampaignIDResult
-     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\SetRecentCampaignIDResponse
+     * @return SetRecentCampaignIDResponse
      */
     public function setSetRecentCampaignIDResult($SetRecentCampaignIDResult)
     {
-      $this->SetRecentCampaignIDResult = $SetRecentCampaignIDResult;
-      return $this;
+        $this->SetRecentCampaignIDResult = $SetRecentCampaignIDResult;
+        return $this;
     }
 
 }

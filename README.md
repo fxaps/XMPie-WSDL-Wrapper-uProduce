@@ -14,7 +14,7 @@ composer require fxaps/xmpie-wsdl-wrapper-uproduce
 
 Or chose the version closest to your installation of uProduce
 
-```angular2html
+```
 composer require fxaps/xmpie-wsdl-wrapper-uproduce:8.2.3.*
 composer require fxaps/xmpie-wsdl-wrapper-uproduce:9.8.2.*
 composer require fxaps/xmpie-wsdl-wrapper-uproduce:10.1.*

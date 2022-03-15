@@ -33,10 +33,10 @@ class DeleteEmailMarketings
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inEmailMarketingIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inEmailMarketingIDArray = $inEmailMarketingIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inEmailMarketingIDArray = $inEmailMarketingIDArray;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeleteEmailMarketings
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteEmailMarketings
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteEmailMarketings
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeleteEmailMarketings
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteEmailMarketings
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteEmailMarketings
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeleteEmailMarketings
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return DeleteEmailMarketings
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteEmailMarketings
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeleteEmailMarketings
      */
     public function getInEmailMarketingIDArray()
     {
-        return $this->inEmailMarketingIDArray;
+      return $this->inEmailMarketingIDArray;
     }
 
     /**
      * @param ArrayOfString $inEmailMarketingIDArray
-     * @return DeleteEmailMarketings
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteEmailMarketings
      */
     public function setInEmailMarketingIDArray($inEmailMarketingIDArray)
     {
-        $this->inEmailMarketingIDArray = $inEmailMarketingIDArray;
-        return $this;
+      $this->inEmailMarketingIDArray = $inEmailMarketingIDArray;
+      return $this;
     }
 
 }

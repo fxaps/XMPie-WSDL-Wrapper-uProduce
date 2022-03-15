@@ -15,7 +15,7 @@ class GetAvailableClicksResponse
      */
     public function __construct($GetAvailableClicksResult = null)
     {
-        $this->GetAvailableClicksResult = $GetAvailableClicksResult;
+      $this->GetAvailableClicksResult = $GetAvailableClicksResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAvailableClicksResponse
      */
     public function getGetAvailableClicksResult()
     {
-        return $this->GetAvailableClicksResult;
+      return $this->GetAvailableClicksResult;
     }
 
     /**
      * @param float $GetAvailableClicksResult
-     * @return GetAvailableClicksResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetAvailableClicksResponse
      */
     public function setGetAvailableClicksResult($GetAvailableClicksResult)
     {
-        $this->GetAvailableClicksResult = $GetAvailableClicksResult;
-        return $this;
+      $this->GetAvailableClicksResult = $GetAvailableClicksResult;
+      return $this;
     }
 
 }

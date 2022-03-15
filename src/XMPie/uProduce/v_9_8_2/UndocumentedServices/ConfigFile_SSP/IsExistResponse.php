@@ -15,7 +15,7 @@ class IsExistResponse
      */
     public function __construct($IsExistResult = null)
     {
-        $this->IsExistResult = $IsExistResult;
+      $this->IsExistResult = $IsExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsExistResponse
      */
     public function getIsExistResult()
     {
-        return $this->IsExistResult;
+      return $this->IsExistResult;
     }
 
     /**
      * @param boolean $IsExistResult
-     * @return IsExistResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\IsExistResponse
      */
     public function setIsExistResult($IsExistResult)
     {
-        $this->IsExistResult = $IsExistResult;
-        return $this;
+      $this->IsExistResult = $IsExistResult;
+      return $this;
     }
 
 }

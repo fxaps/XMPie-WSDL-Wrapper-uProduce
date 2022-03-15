@@ -15,7 +15,7 @@ class GetAccountDataSourceIDResponse
      */
     public function __construct($GetAccountDataSourceIDResult = null)
     {
-        $this->GetAccountDataSourceIDResult = $GetAccountDataSourceIDResult;
+      $this->GetAccountDataSourceIDResult = $GetAccountDataSourceIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAccountDataSourceIDResponse
      */
     public function getGetAccountDataSourceIDResult()
     {
-        return $this->GetAccountDataSourceIDResult;
+      return $this->GetAccountDataSourceIDResult;
     }
 
     /**
      * @param string $GetAccountDataSourceIDResult
-     * @return GetAccountDataSourceIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetAccountDataSourceIDResponse
      */
     public function setGetAccountDataSourceIDResult($GetAccountDataSourceIDResult)
     {
-        $this->GetAccountDataSourceIDResult = $GetAccountDataSourceIDResult;
-        return $this;
+      $this->GetAccountDataSourceIDResult = $GetAccountDataSourceIDResult;
+      return $this;
     }
 
 }

@@ -3,81 +3,78 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP;
 
 
-use SoapClient;
-use SoapFault;
-
 /**
  * Asset Web Service.
  */
-class Asset_SSP extends SoapClient
+class Asset_SSP extends \SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array(
-        'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateNew',
-        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfProperty',
-        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\Property',
-        'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateNewResponse',
-        'CreateNewFromZip' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateNewFromZip',
-        'CreateNewFromZipResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateNewFromZipResponse',
-        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfString',
-        'Replace' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\Replace',
-        'ReplaceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ReplaceResponse',
-        'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\Delete',
-        'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\DeleteResponse',
-        'GetAssetSource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetAssetSource',
-        'GetAssetSourceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetAssetSourceResponse',
-        'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetProperty',
-        'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetPropertyResponse',
-        'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetProperties',
-        'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetPropertiesResponse',
-        'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetAllProperties',
-        'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetAllPropertiesResponse',
-        'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetDataSet',
-        'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetDataSetResponse',
-        'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetDataSetResult',
-        'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetXMPTblDataSet',
-        'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetXMPTblDataSetResponse',
-        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\XMPTblDataSet',
-        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfXMPTbl',
-        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\XMPTbl',
-        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfXMPTblColumn',
-        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\XMPTblColumn',
-        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfXMPTblRow',
-        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\XMPTblRow',
-        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfXMPRowField',
-        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\XMPRowField',
-        'SetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\SetProperty',
-        'SetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\SetPropertyResponse',
-        'SetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\SetProperties',
-        'SetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\SetPropertiesResponse',
-        'GetPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetPath',
-        'GetPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetPathResponse',
-        'GetBinaryFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetBinaryFileStream',
-        'GetBinaryFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetBinaryFileStreamResponse',
-        'CreateFileToTempStorage' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateFileToTempStorage',
-        'CreateFileToTempStorageResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateFileToTempStorageResponse',
-        'GetDownloadURL' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetDownloadURL',
-        'GetDownloadURLResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetDownloadURLResponse',
-        'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetName',
-        'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetNameResponse',
-        'GetFileName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetFileName',
-        'GetFileNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetFileNameResponse',
-        'IsThumbnailAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\IsThumbnailAvailable',
-        'IsThumbnailAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\IsThumbnailAvailableResponse',
-        'GetThumbnail' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnail',
-        'GetThumbnailResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnailResponse',
-        'GetThumbnailBinaryFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnailBinaryFileStream',
-        'GetThumbnailBinaryFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnailBinaryFileStreamResponse',
-        'CreateThumbnailToTempStorage' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateThumbnailToTempStorage',
-        'CreateThumbnailToTempStorageResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateThumbnailToTempStorageResponse',
-        'GetThumbnailDownloadURL' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnailDownloadURL',
-        'GetThumbnailDownloadURLResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnailDownloadURLResponse',
-        'GetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetID',
-        'GetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetIDResponse',
-    );
+    private static $classmap = array (
+  'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateNew',
+  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfProperty',
+  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\Property',
+  'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateNewResponse',
+  'CreateNewFromZip' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateNewFromZip',
+  'CreateNewFromZipResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateNewFromZipResponse',
+  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfString',
+  'Replace' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\Replace',
+  'ReplaceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ReplaceResponse',
+  'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\Delete',
+  'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\DeleteResponse',
+  'GetAssetSource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetAssetSource',
+  'GetAssetSourceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetAssetSourceResponse',
+  'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetProperty',
+  'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetPropertyResponse',
+  'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetProperties',
+  'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetPropertiesResponse',
+  'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetAllProperties',
+  'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetAllPropertiesResponse',
+  'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetDataSet',
+  'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetDataSetResponse',
+  'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetDataSetResult',
+  'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetXMPTblDataSet',
+  'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetXMPTblDataSetResponse',
+  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\XMPTblDataSet',
+  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfXMPTbl',
+  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\XMPTbl',
+  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfXMPTblColumn',
+  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\XMPTblColumn',
+  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfXMPTblRow',
+  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\XMPTblRow',
+  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\ArrayOfXMPRowField',
+  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\XMPRowField',
+  'SetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\SetProperty',
+  'SetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\SetPropertyResponse',
+  'SetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\SetProperties',
+  'SetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\SetPropertiesResponse',
+  'GetPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetPath',
+  'GetPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetPathResponse',
+  'GetBinaryFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetBinaryFileStream',
+  'GetBinaryFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetBinaryFileStreamResponse',
+  'CreateFileToTempStorage' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateFileToTempStorage',
+  'CreateFileToTempStorageResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateFileToTempStorageResponse',
+  'GetDownloadURL' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetDownloadURL',
+  'GetDownloadURLResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetDownloadURLResponse',
+  'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetName',
+  'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetNameResponse',
+  'GetFileName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetFileName',
+  'GetFileNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetFileNameResponse',
+  'IsThumbnailAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\IsThumbnailAvailable',
+  'IsThumbnailAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\IsThumbnailAvailableResponse',
+  'GetThumbnail' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnail',
+  'GetThumbnailResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnailResponse',
+  'GetThumbnailBinaryFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnailBinaryFileStream',
+  'GetThumbnailBinaryFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnailBinaryFileStreamResponse',
+  'CreateThumbnailToTempStorage' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateThumbnailToTempStorage',
+  'CreateThumbnailToTempStorageResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\CreateThumbnailToTempStorageResponse',
+  'GetThumbnailDownloadURL' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnailDownloadURL',
+  'GetThumbnailDownloadURLResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetThumbnailDownloadURLResponse',
+  'GetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetID',
+  'GetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Asset_SSP\\GetIDResponse',
+);
 
     /**
      * @param array $options A array of config values
@@ -86,19 +83,19 @@ class Asset_SSP extends SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-
-        foreach (self::$classmap as $key => $value) {
-            if (!isset($options['classmap'][$key])) {
-                $options['classmap'][$key] = $value;
-            }
-        }
-        $options = array_merge(array(
-            'features' => 1,
-        ), $options);
-        if (!$wsdl) {
-            $wsdl = 'http://localhost/xmpiewsapi/Asset_SSP.asmx?wsdl';
-        }
-        parent::__construct($wsdl, $options);
+    
+  foreach (self::$classmap as $key => $value) {
+    if (!isset($options['classmap'][$key])) {
+      $options['classmap'][$key] = $value;
+    }
+  }
+      $options = array_merge(array (
+  'features' => 1,
+), $options);
+      if (!$wsdl) {
+        $wsdl = 'http://localhost/xmpiewsapi/Asset_SSP.asmx?wsdl';
+      }
+      parent::__construct($wsdl, $options);
     }
 
     /**
@@ -109,7 +106,7 @@ class Asset_SSP extends SoapClient
      */
     public function CreateNew(CreateNew $parameters)
     {
-        return $this->__soapCall('CreateNew', array($parameters));
+      return $this->__soapCall('CreateNew', array($parameters));
     }
 
     /**
@@ -120,7 +117,7 @@ class Asset_SSP extends SoapClient
      */
     public function CreateNewFromZip(CreateNewFromZip $parameters)
     {
-        return $this->__soapCall('CreateNewFromZip', array($parameters));
+      return $this->__soapCall('CreateNewFromZip', array($parameters));
     }
 
     /**
@@ -131,7 +128,7 @@ class Asset_SSP extends SoapClient
      */
     public function Replace(Replace $parameters)
     {
-        return $this->__soapCall('Replace', array($parameters));
+      return $this->__soapCall('Replace', array($parameters));
     }
 
     /**
@@ -142,7 +139,7 @@ class Asset_SSP extends SoapClient
      */
     public function Delete(Delete $parameters)
     {
-        return $this->__soapCall('Delete', array($parameters));
+      return $this->__soapCall('Delete', array($parameters));
     }
 
     /**
@@ -153,7 +150,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetAssetSource(GetAssetSource $parameters)
     {
-        return $this->__soapCall('GetAssetSource', array($parameters));
+      return $this->__soapCall('GetAssetSource', array($parameters));
     }
 
     /**
@@ -164,7 +161,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetProperty(GetProperty $parameters)
     {
-        return $this->__soapCall('GetProperty', array($parameters));
+      return $this->__soapCall('GetProperty', array($parameters));
     }
 
     /**
@@ -175,7 +172,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetProperties(GetProperties $parameters)
     {
-        return $this->__soapCall('GetProperties', array($parameters));
+      return $this->__soapCall('GetProperties', array($parameters));
     }
 
     /**
@@ -186,7 +183,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetAllProperties(GetAllProperties $parameters)
     {
-        return $this->__soapCall('GetAllProperties', array($parameters));
+      return $this->__soapCall('GetAllProperties', array($parameters));
     }
 
     /**
@@ -197,7 +194,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetDataSet(GetDataSet $parameters)
     {
-        return $this->__soapCall('GetDataSet', array($parameters));
+      return $this->__soapCall('GetDataSet', array($parameters));
     }
 
     /**
@@ -208,7 +205,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetXMPTblDataSet(GetXMPTblDataSet $parameters)
     {
-        return $this->__soapCall('GetXMPTblDataSet', array($parameters));
+      return $this->__soapCall('GetXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -219,7 +216,7 @@ class Asset_SSP extends SoapClient
      */
     public function SetProperty(SetProperty $parameters)
     {
-        return $this->__soapCall('SetProperty', array($parameters));
+      return $this->__soapCall('SetProperty', array($parameters));
     }
 
     /**
@@ -230,7 +227,7 @@ class Asset_SSP extends SoapClient
      */
     public function SetProperties(SetProperties $parameters)
     {
-        return $this->__soapCall('SetProperties', array($parameters));
+      return $this->__soapCall('SetProperties', array($parameters));
     }
 
     /**
@@ -241,7 +238,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetPath(GetPath $parameters)
     {
-        return $this->__soapCall('GetPath', array($parameters));
+      return $this->__soapCall('GetPath', array($parameters));
     }
 
     /**
@@ -252,7 +249,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetBinaryFileStream(GetBinaryFileStream $parameters)
     {
-        return $this->__soapCall('GetBinaryFileStream', array($parameters));
+      return $this->__soapCall('GetBinaryFileStream', array($parameters));
     }
 
     /**
@@ -263,7 +260,7 @@ class Asset_SSP extends SoapClient
      */
     public function CreateFileToTempStorage(CreateFileToTempStorage $parameters)
     {
-        return $this->__soapCall('CreateFileToTempStorage', array($parameters));
+      return $this->__soapCall('CreateFileToTempStorage', array($parameters));
     }
 
     /**
@@ -274,7 +271,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetDownloadURL(GetDownloadURL $parameters)
     {
-        return $this->__soapCall('GetDownloadURL', array($parameters));
+      return $this->__soapCall('GetDownloadURL', array($parameters));
     }
 
     /**
@@ -285,7 +282,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetName(GetName $parameters)
     {
-        return $this->__soapCall('GetName', array($parameters));
+      return $this->__soapCall('GetName', array($parameters));
     }
 
     /**
@@ -296,7 +293,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetFileName(GetFileName $parameters)
     {
-        return $this->__soapCall('GetFileName', array($parameters));
+      return $this->__soapCall('GetFileName', array($parameters));
     }
 
     /**
@@ -307,7 +304,7 @@ class Asset_SSP extends SoapClient
      */
     public function IsThumbnailAvailable(IsThumbnailAvailable $parameters)
     {
-        return $this->__soapCall('IsThumbnailAvailable', array($parameters));
+      return $this->__soapCall('IsThumbnailAvailable', array($parameters));
     }
 
     /**
@@ -318,7 +315,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetThumbnail(GetThumbnail $parameters)
     {
-        return $this->__soapCall('GetThumbnail', array($parameters));
+      return $this->__soapCall('GetThumbnail', array($parameters));
     }
 
     /**
@@ -329,7 +326,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetThumbnailBinaryFileStream(GetThumbnailBinaryFileStream $parameters)
     {
-        return $this->__soapCall('GetThumbnailBinaryFileStream', array($parameters));
+      return $this->__soapCall('GetThumbnailBinaryFileStream', array($parameters));
     }
 
     /**
@@ -340,7 +337,7 @@ class Asset_SSP extends SoapClient
      */
     public function CreateThumbnailToTempStorage(CreateThumbnailToTempStorage $parameters)
     {
-        return $this->__soapCall('CreateThumbnailToTempStorage', array($parameters));
+      return $this->__soapCall('CreateThumbnailToTempStorage', array($parameters));
     }
 
     /**
@@ -351,7 +348,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetThumbnailDownloadURL(GetThumbnailDownloadURL $parameters)
     {
-        return $this->__soapCall('GetThumbnailDownloadURL', array($parameters));
+      return $this->__soapCall('GetThumbnailDownloadURL', array($parameters));
     }
 
     /**
@@ -362,7 +359,7 @@ class Asset_SSP extends SoapClient
      */
     public function GetID(GetID $parameters)
     {
-        return $this->__soapCall('GetID', array($parameters));
+      return $this->__soapCall('GetID', array($parameters));
     }
 
 }

@@ -15,7 +15,7 @@ class RemoveTrackingParameterResponse
      */
     public function __construct($RemoveTrackingParameterResult = null)
     {
-        $this->RemoveTrackingParameterResult = $RemoveTrackingParameterResult;
+      $this->RemoveTrackingParameterResult = $RemoveTrackingParameterResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveTrackingParameterResponse
      */
     public function getRemoveTrackingParameterResult()
     {
-        return $this->RemoveTrackingParameterResult;
+      return $this->RemoveTrackingParameterResult;
     }
 
     /**
      * @param boolean $RemoveTrackingParameterResult
-     * @return RemoveTrackingParameterResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveTrackingParameterResponse
      */
     public function setRemoveTrackingParameterResult($RemoveTrackingParameterResult)
     {
-        $this->RemoveTrackingParameterResult = $RemoveTrackingParameterResult;
-        return $this;
+      $this->RemoveTrackingParameterResult = $RemoveTrackingParameterResult;
+      return $this;
     }
 
 }

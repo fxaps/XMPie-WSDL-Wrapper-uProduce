@@ -15,7 +15,7 @@ class GetFTPPasswordResponse
      */
     public function __construct($GetFTPPasswordResult = null)
     {
-        $this->GetFTPPasswordResult = $GetFTPPasswordResult;
+      $this->GetFTPPasswordResult = $GetFTPPasswordResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFTPPasswordResponse
      */
     public function getGetFTPPasswordResult()
     {
-        return $this->GetFTPPasswordResult;
+      return $this->GetFTPPasswordResult;
     }
 
     /**
      * @param string $GetFTPPasswordResult
-     * @return GetFTPPasswordResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFTPPasswordResponse
      */
     public function setGetFTPPasswordResult($GetFTPPasswordResult)
     {
-        $this->GetFTPPasswordResult = $GetFTPPasswordResult;
-        return $this;
+      $this->GetFTPPasswordResult = $GetFTPPasswordResult;
+      return $this;
     }
 
 }

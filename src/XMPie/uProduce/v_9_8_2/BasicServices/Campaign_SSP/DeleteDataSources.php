@@ -33,10 +33,10 @@ class DeleteDataSources
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inDataSourceIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inDataSourceIDArray = $inDataSourceIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inDataSourceIDArray = $inDataSourceIDArray;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeleteDataSources
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteDataSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteDataSources
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeleteDataSources
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteDataSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteDataSources
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeleteDataSources
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return DeleteDataSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteDataSources
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeleteDataSources
      */
     public function getInDataSourceIDArray()
     {
-        return $this->inDataSourceIDArray;
+      return $this->inDataSourceIDArray;
     }
 
     /**
      * @param ArrayOfString $inDataSourceIDArray
-     * @return DeleteDataSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteDataSources
      */
     public function setInDataSourceIDArray($inDataSourceIDArray)
     {
-        $this->inDataSourceIDArray = $inDataSourceIDArray;
-        return $this;
+      $this->inDataSourceIDArray = $inDataSourceIDArray;
+      return $this;
     }
 
 }

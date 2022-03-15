@@ -27,9 +27,9 @@ class GetConfigFileID
      */
     public function __construct($inUsername = null, $inPassword = null, $inCofigFileName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCofigFileName = $inCofigFileName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCofigFileName = $inCofigFileName;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetConfigFileID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetConfigFileID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetConfigFileID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetConfigFileID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetConfigFileID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetConfigFileID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetConfigFileID
      */
     public function getInCofigFileName()
     {
-        return $this->inCofigFileName;
+      return $this->inCofigFileName;
     }
 
     /**
      * @param string $inCofigFileName
-     * @return GetConfigFileID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetConfigFileID
      */
     public function setInCofigFileName($inCofigFileName)
     {
-        $this->inCofigFileName = $inCofigFileName;
-        return $this;
+      $this->inCofigFileName = $inCofigFileName;
+      return $this;
     }
 
 }

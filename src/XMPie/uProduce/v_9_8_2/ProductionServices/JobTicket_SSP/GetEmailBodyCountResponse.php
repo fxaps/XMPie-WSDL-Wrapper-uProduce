@@ -15,7 +15,7 @@ class GetEmailBodyCountResponse
      */
     public function __construct($GetEmailBodyCountResult = null)
     {
-        $this->GetEmailBodyCountResult = $GetEmailBodyCountResult;
+      $this->GetEmailBodyCountResult = $GetEmailBodyCountResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetEmailBodyCountResponse
      */
     public function getGetEmailBodyCountResult()
     {
-        return $this->GetEmailBodyCountResult;
+      return $this->GetEmailBodyCountResult;
     }
 
     /**
      * @param int $GetEmailBodyCountResult
-     * @return GetEmailBodyCountResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetEmailBodyCountResponse
      */
     public function setGetEmailBodyCountResult($GetEmailBodyCountResult)
     {
-        $this->GetEmailBodyCountResult = $GetEmailBodyCountResult;
-        return $this;
+      $this->GetEmailBodyCountResult = $GetEmailBodyCountResult;
+      return $this;
     }
 
 }

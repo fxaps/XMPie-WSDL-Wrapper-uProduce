@@ -15,7 +15,7 @@ class RemovePrintResponse
      */
     public function __construct($RemovePrintResult = null)
     {
-        $this->RemovePrintResult = $RemovePrintResult;
+      $this->RemovePrintResult = $RemovePrintResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemovePrintResponse
      */
     public function getRemovePrintResult()
     {
-        return $this->RemovePrintResult;
+      return $this->RemovePrintResult;
     }
 
     /**
      * @param boolean $RemovePrintResult
-     * @return RemovePrintResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemovePrintResponse
      */
     public function setRemovePrintResult($RemovePrintResult)
     {
-        $this->RemovePrintResult = $RemovePrintResult;
-        return $this;
+      $this->RemovePrintResult = $RemovePrintResult;
+      return $this;
     }
 
 }

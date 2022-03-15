@@ -15,7 +15,7 @@ class RemoveOutputParameterResponse
      */
     public function __construct($RemoveOutputParameterResult = null)
     {
-        $this->RemoveOutputParameterResult = $RemoveOutputParameterResult;
+      $this->RemoveOutputParameterResult = $RemoveOutputParameterResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveOutputParameterResponse
      */
     public function getRemoveOutputParameterResult()
     {
-        return $this->RemoveOutputParameterResult;
+      return $this->RemoveOutputParameterResult;
     }
 
     /**
      * @param boolean $RemoveOutputParameterResult
-     * @return RemoveOutputParameterResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveOutputParameterResponse
      */
     public function setRemoveOutputParameterResult($RemoveOutputParameterResult)
     {
-        $this->RemoveOutputParameterResult = $RemoveOutputParameterResult;
-        return $this;
+      $this->RemoveOutputParameterResult = $RemoveOutputParameterResult;
+      return $this;
     }
 
 }

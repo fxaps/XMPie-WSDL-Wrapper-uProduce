@@ -39,11 +39,11 @@ class IsTableReadyForPort
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inDataSourceID = null, $inTableName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPlanID = $inPlanID;
-        $this->inDataSourceID = $inDataSourceID;
-        $this->inTableName = $inTableName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPlanID = $inPlanID;
+      $this->inDataSourceID = $inDataSourceID;
+      $this->inTableName = $inTableName;
     }
 
     /**
@@ -51,17 +51,17 @@ class IsTableReadyForPort
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return IsTableReadyForPort
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsTableReadyForPort
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class IsTableReadyForPort
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return IsTableReadyForPort
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsTableReadyForPort
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class IsTableReadyForPort
      */
     public function getInPlanID()
     {
-        return $this->inPlanID;
+      return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return IsTableReadyForPort
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsTableReadyForPort
      */
     public function setInPlanID($inPlanID)
     {
-        $this->inPlanID = $inPlanID;
-        return $this;
+      $this->inPlanID = $inPlanID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class IsTableReadyForPort
      */
     public function getInDataSourceID()
     {
-        return $this->inDataSourceID;
+      return $this->inDataSourceID;
     }
 
     /**
      * @param string $inDataSourceID
-     * @return IsTableReadyForPort
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsTableReadyForPort
      */
     public function setInDataSourceID($inDataSourceID)
     {
-        $this->inDataSourceID = $inDataSourceID;
-        return $this;
+      $this->inDataSourceID = $inDataSourceID;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class IsTableReadyForPort
      */
     public function getInTableName()
     {
-        return $this->inTableName;
+      return $this->inTableName;
     }
 
     /**
      * @param string $inTableName
-     * @return IsTableReadyForPort
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsTableReadyForPort
      */
     public function setInTableName($inTableName)
     {
-        $this->inTableName = $inTableName;
-        return $this;
+      $this->inTableName = $inTableName;
+      return $this;
     }
 
 }

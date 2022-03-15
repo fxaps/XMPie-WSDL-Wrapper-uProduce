@@ -15,7 +15,7 @@ class GetNameResponse
      */
     public function __construct($GetNameResult = null)
     {
-        $this->GetNameResult = $GetNameResult;
+      $this->GetNameResult = $GetNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNameResponse
      */
     public function getGetNameResult()
     {
-        return $this->GetNameResult;
+      return $this->GetNameResult;
     }
 
     /**
      * @param string $GetNameResult
-     * @return GetNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetNameResponse
      */
     public function setGetNameResult($GetNameResult)
     {
-        $this->GetNameResult = $GetNameResult;
-        return $this;
+      $this->GetNameResult = $GetNameResult;
+      return $this;
     }
 
 }

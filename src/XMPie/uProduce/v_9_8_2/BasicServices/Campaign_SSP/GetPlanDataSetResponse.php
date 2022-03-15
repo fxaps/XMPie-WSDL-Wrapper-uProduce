@@ -15,7 +15,7 @@ class GetPlanDataSetResponse
      */
     public function __construct($GetPlanDataSetResult = null)
     {
-        $this->GetPlanDataSetResult = $GetPlanDataSetResult;
+      $this->GetPlanDataSetResult = $GetPlanDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPlanDataSetResponse
      */
     public function getGetPlanDataSetResult()
     {
-        return $this->GetPlanDataSetResult;
+      return $this->GetPlanDataSetResult;
     }
 
     /**
      * @param GetPlanDataSetResult $GetPlanDataSetResult
-     * @return GetPlanDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetPlanDataSetResponse
      */
     public function setGetPlanDataSetResult($GetPlanDataSetResult)
     {
-        $this->GetPlanDataSetResult = $GetPlanDataSetResult;
-        return $this;
+      $this->GetPlanDataSetResult = $GetPlanDataSetResult;
+      return $this;
     }
 
 }

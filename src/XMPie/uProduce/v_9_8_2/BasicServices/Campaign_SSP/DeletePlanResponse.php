@@ -15,7 +15,7 @@ class DeletePlanResponse
      */
     public function __construct($DeletePlanResult = null)
     {
-        $this->DeletePlanResult = $DeletePlanResult;
+      $this->DeletePlanResult = $DeletePlanResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeletePlanResponse
      */
     public function getDeletePlanResult()
     {
-        return $this->DeletePlanResult;
+      return $this->DeletePlanResult;
     }
 
     /**
      * @param boolean $DeletePlanResult
-     * @return DeletePlanResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeletePlanResponse
      */
     public function setDeletePlanResult($DeletePlanResult)
     {
-        $this->DeletePlanResult = $DeletePlanResult;
-        return $this;
+      $this->DeletePlanResult = $DeletePlanResult;
+      return $this;
     }
 
 }

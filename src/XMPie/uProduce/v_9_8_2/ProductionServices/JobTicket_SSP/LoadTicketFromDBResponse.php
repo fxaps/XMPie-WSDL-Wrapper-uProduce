@@ -15,7 +15,7 @@ class LoadTicketFromDBResponse
      */
     public function __construct($LoadTicketFromDBResult = null)
     {
-        $this->LoadTicketFromDBResult = $LoadTicketFromDBResult;
+      $this->LoadTicketFromDBResult = $LoadTicketFromDBResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class LoadTicketFromDBResponse
      */
     public function getLoadTicketFromDBResult()
     {
-        return $this->LoadTicketFromDBResult;
+      return $this->LoadTicketFromDBResult;
     }
 
     /**
      * @param string $LoadTicketFromDBResult
-     * @return LoadTicketFromDBResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\LoadTicketFromDBResponse
      */
     public function setLoadTicketFromDBResult($LoadTicketFromDBResult)
     {
-        $this->LoadTicketFromDBResult = $LoadTicketFromDBResult;
-        return $this;
+      $this->LoadTicketFromDBResult = $LoadTicketFromDBResult;
+      return $this;
     }
 
 }

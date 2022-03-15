@@ -33,10 +33,10 @@ class IsPlanSubsetOfComparedPlan
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inComparedPlanID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPlanID = $inPlanID;
-        $this->inComparedPlanID = $inComparedPlanID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPlanID = $inPlanID;
+      $this->inComparedPlanID = $inComparedPlanID;
     }
 
     /**
@@ -44,17 +44,17 @@ class IsPlanSubsetOfComparedPlan
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return IsPlanSubsetOfComparedPlan
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\IsPlanSubsetOfComparedPlan
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class IsPlanSubsetOfComparedPlan
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return IsPlanSubsetOfComparedPlan
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\IsPlanSubsetOfComparedPlan
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class IsPlanSubsetOfComparedPlan
      */
     public function getInPlanID()
     {
-        return $this->inPlanID;
+      return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return IsPlanSubsetOfComparedPlan
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\IsPlanSubsetOfComparedPlan
      */
     public function setInPlanID($inPlanID)
     {
-        $this->inPlanID = $inPlanID;
-        return $this;
+      $this->inPlanID = $inPlanID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class IsPlanSubsetOfComparedPlan
      */
     public function getInComparedPlanID()
     {
-        return $this->inComparedPlanID;
+      return $this->inComparedPlanID;
     }
 
     /**
      * @param string $inComparedPlanID
-     * @return IsPlanSubsetOfComparedPlan
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\IsPlanSubsetOfComparedPlan
      */
     public function setInComparedPlanID($inComparedPlanID)
     {
-        $this->inComparedPlanID = $inComparedPlanID;
-        return $this;
+      $this->inComparedPlanID = $inComparedPlanID;
+      return $this;
     }
 
 }

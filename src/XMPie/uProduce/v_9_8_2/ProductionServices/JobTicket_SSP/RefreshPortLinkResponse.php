@@ -15,7 +15,7 @@ class RefreshPortLinkResponse
      */
     public function __construct($RefreshPortLinkResult = null)
     {
-        $this->RefreshPortLinkResult = $RefreshPortLinkResult;
+      $this->RefreshPortLinkResult = $RefreshPortLinkResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RefreshPortLinkResponse
      */
     public function getRefreshPortLinkResult()
     {
-        return $this->RefreshPortLinkResult;
+      return $this->RefreshPortLinkResult;
     }
 
     /**
      * @param boolean $RefreshPortLinkResult
-     * @return RefreshPortLinkResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RefreshPortLinkResponse
      */
     public function setRefreshPortLinkResult($RefreshPortLinkResult)
     {
-        $this->RefreshPortLinkResult = $RefreshPortLinkResult;
-        return $this;
+      $this->RefreshPortLinkResult = $RefreshPortLinkResult;
+      return $this;
     }
 
 }

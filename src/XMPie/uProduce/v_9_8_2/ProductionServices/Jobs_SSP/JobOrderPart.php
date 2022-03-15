@@ -20,7 +20,7 @@ class JobOrderPart
      */
     public function __construct($m_isAscending = null)
     {
-        $this->m_isAscending = $m_isAscending;
+      $this->m_isAscending = $m_isAscending;
     }
 
     /**
@@ -28,17 +28,17 @@ class JobOrderPart
      */
     public function getM_JobFields()
     {
-        return $this->m_JobFields;
+      return $this->m_JobFields;
     }
 
     /**
      * @param ArrayOfEJobField $m_JobFields
-     * @return JobOrderPart
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\JobOrderPart
      */
     public function setM_JobFields($m_JobFields)
     {
-        $this->m_JobFields = $m_JobFields;
-        return $this;
+      $this->m_JobFields = $m_JobFields;
+      return $this;
     }
 
     /**
@@ -46,17 +46,17 @@ class JobOrderPart
      */
     public function getM_isAscending()
     {
-        return $this->m_isAscending;
+      return $this->m_isAscending;
     }
 
     /**
      * @param EListOrder $m_isAscending
-     * @return JobOrderPart
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\JobOrderPart
      */
     public function setM_isAscending($m_isAscending)
     {
-        $this->m_isAscending = $m_isAscending;
-        return $this;
+      $this->m_isAscending = $m_isAscending;
+      return $this;
     }
 
 }

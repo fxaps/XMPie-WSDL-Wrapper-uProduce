@@ -15,7 +15,7 @@ class CreateNewTicketForDocumentResponse
      */
     public function __construct($CreateNewTicketForDocumentResult = null)
     {
-        $this->CreateNewTicketForDocumentResult = $CreateNewTicketForDocumentResult;
+      $this->CreateNewTicketForDocumentResult = $CreateNewTicketForDocumentResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewTicketForDocumentResponse
      */
     public function getCreateNewTicketForDocumentResult()
     {
-        return $this->CreateNewTicketForDocumentResult;
+      return $this->CreateNewTicketForDocumentResult;
     }
 
     /**
      * @param string $CreateNewTicketForDocumentResult
-     * @return CreateNewTicketForDocumentResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForDocumentResponse
      */
     public function setCreateNewTicketForDocumentResult($CreateNewTicketForDocumentResult)
     {
-        $this->CreateNewTicketForDocumentResult = $CreateNewTicketForDocumentResult;
-        return $this;
+      $this->CreateNewTicketForDocumentResult = $CreateNewTicketForDocumentResult;
+      return $this;
     }
 
 }

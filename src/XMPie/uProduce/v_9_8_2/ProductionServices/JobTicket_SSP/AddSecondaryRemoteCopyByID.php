@@ -39,11 +39,11 @@ class AddSecondaryRemoteCopyByID
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inDestinationID = null, $inDeleteSource = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inDestinationID = $inDestinationID;
-        $this->inDeleteSource = $inDeleteSource;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inDestinationID = $inDestinationID;
+      $this->inDeleteSource = $inDeleteSource;
     }
 
     /**
@@ -51,17 +51,17 @@ class AddSecondaryRemoteCopyByID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return AddSecondaryRemoteCopyByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddSecondaryRemoteCopyByID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class AddSecondaryRemoteCopyByID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return AddSecondaryRemoteCopyByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddSecondaryRemoteCopyByID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class AddSecondaryRemoteCopyByID
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return AddSecondaryRemoteCopyByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddSecondaryRemoteCopyByID
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class AddSecondaryRemoteCopyByID
      */
     public function getInDestinationID()
     {
-        return $this->inDestinationID;
+      return $this->inDestinationID;
     }
 
     /**
      * @param string $inDestinationID
-     * @return AddSecondaryRemoteCopyByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddSecondaryRemoteCopyByID
      */
     public function setInDestinationID($inDestinationID)
     {
-        $this->inDestinationID = $inDestinationID;
-        return $this;
+      $this->inDestinationID = $inDestinationID;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class AddSecondaryRemoteCopyByID
      */
     public function getInDeleteSource()
     {
-        return $this->inDeleteSource;
+      return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return AddSecondaryRemoteCopyByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddSecondaryRemoteCopyByID
      */
     public function setInDeleteSource($inDeleteSource)
     {
-        $this->inDeleteSource = $inDeleteSource;
-        return $this;
+      $this->inDeleteSource = $inDeleteSource;
+      return $this;
     }
 
 }

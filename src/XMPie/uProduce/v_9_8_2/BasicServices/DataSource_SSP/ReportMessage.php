@@ -25,7 +25,7 @@ class ReportMessage
      */
     public function __construct($m_TypeID = null)
     {
-        $this->m_TypeID = $m_TypeID;
+      $this->m_TypeID = $m_TypeID;
     }
 
     /**
@@ -33,17 +33,17 @@ class ReportMessage
      */
     public function getM_Message()
     {
-        return $this->m_Message;
+      return $this->m_Message;
     }
 
     /**
      * @param string $m_Message
-     * @return ReportMessage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ReportMessage
      */
     public function setM_Message($m_Message)
     {
-        $this->m_Message = $m_Message;
-        return $this;
+      $this->m_Message = $m_Message;
+      return $this;
     }
 
     /**
@@ -51,17 +51,17 @@ class ReportMessage
      */
     public function getM_TypeID()
     {
-        return $this->m_TypeID;
+      return $this->m_TypeID;
     }
 
     /**
      * @param int $m_TypeID
-     * @return ReportMessage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ReportMessage
      */
     public function setM_TypeID($m_TypeID)
     {
-        $this->m_TypeID = $m_TypeID;
-        return $this;
+      $this->m_TypeID = $m_TypeID;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class ReportMessage
      */
     public function getM_Properties()
     {
-        return $this->m_Properties;
+      return $this->m_Properties;
     }
 
     /**
      * @param ArrayOfProperty $m_Properties
-     * @return ReportMessage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ReportMessage
      */
     public function setM_Properties($m_Properties)
     {
-        $this->m_Properties = $m_Properties;
-        return $this;
+      $this->m_Properties = $m_Properties;
+      return $this;
     }
 
 }

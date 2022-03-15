@@ -45,12 +45,12 @@ class SetAccountEmailSubscriberStatus
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inEmailAddress = null, $inActive = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountID = $inAccountID;
-        $this->inEmailAddress = $inEmailAddress;
-        $this->inActive = $inActive;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountID = $inAccountID;
+      $this->inEmailAddress = $inEmailAddress;
+      $this->inActive = $inActive;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -58,17 +58,17 @@ class SetAccountEmailSubscriberStatus
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetAccountEmailSubscriberStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SetAccountEmailSubscriberStatus
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class SetAccountEmailSubscriberStatus
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetAccountEmailSubscriberStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SetAccountEmailSubscriberStatus
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class SetAccountEmailSubscriberStatus
      */
     public function getInAccountID()
     {
-        return $this->inAccountID;
+      return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return SetAccountEmailSubscriberStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SetAccountEmailSubscriberStatus
      */
     public function setInAccountID($inAccountID)
     {
-        $this->inAccountID = $inAccountID;
-        return $this;
+      $this->inAccountID = $inAccountID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class SetAccountEmailSubscriberStatus
      */
     public function getInEmailAddress()
     {
-        return $this->inEmailAddress;
+      return $this->inEmailAddress;
     }
 
     /**
      * @param string $inEmailAddress
-     * @return SetAccountEmailSubscriberStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SetAccountEmailSubscriberStatus
      */
     public function setInEmailAddress($inEmailAddress)
     {
-        $this->inEmailAddress = $inEmailAddress;
-        return $this;
+      $this->inEmailAddress = $inEmailAddress;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class SetAccountEmailSubscriberStatus
      */
     public function getInActive()
     {
-        return $this->inActive;
+      return $this->inActive;
     }
 
     /**
      * @param boolean $inActive
-     * @return SetAccountEmailSubscriberStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SetAccountEmailSubscriberStatus
      */
     public function setInActive($inActive)
     {
-        $this->inActive = $inActive;
-        return $this;
+      $this->inActive = $inActive;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class SetAccountEmailSubscriberStatus
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return SetAccountEmailSubscriberStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\SetAccountEmailSubscriberStatus
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

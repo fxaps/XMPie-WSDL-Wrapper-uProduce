@@ -15,7 +15,7 @@ class IsAssetsViewAvailableResponse
      */
     public function __construct($IsAssetsViewAvailableResult = null)
     {
-        $this->IsAssetsViewAvailableResult = $IsAssetsViewAvailableResult;
+      $this->IsAssetsViewAvailableResult = $IsAssetsViewAvailableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsAssetsViewAvailableResponse
      */
     public function getIsAssetsViewAvailableResult()
     {
-        return $this->IsAssetsViewAvailableResult;
+      return $this->IsAssetsViewAvailableResult;
     }
 
     /**
      * @param boolean $IsAssetsViewAvailableResult
-     * @return IsAssetsViewAvailableResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\IsAssetsViewAvailableResponse
      */
     public function setIsAssetsViewAvailableResult($IsAssetsViewAvailableResult)
     {
-        $this->IsAssetsViewAvailableResult = $IsAssetsViewAvailableResult;
-        return $this;
+      $this->IsAssetsViewAvailableResult = $IsAssetsViewAvailableResult;
+      return $this;
     }
 
 }

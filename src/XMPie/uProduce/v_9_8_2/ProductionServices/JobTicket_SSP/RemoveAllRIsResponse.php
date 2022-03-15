@@ -15,7 +15,7 @@ class RemoveAllRIsResponse
      */
     public function __construct($RemoveAllRIsResult = null)
     {
-        $this->RemoveAllRIsResult = $RemoveAllRIsResult;
+      $this->RemoveAllRIsResult = $RemoveAllRIsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveAllRIsResponse
      */
     public function getRemoveAllRIsResult()
     {
-        return $this->RemoveAllRIsResult;
+      return $this->RemoveAllRIsResult;
     }
 
     /**
      * @param boolean $RemoveAllRIsResult
-     * @return RemoveAllRIsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveAllRIsResponse
      */
     public function setRemoveAllRIsResult($RemoveAllRIsResult)
     {
-        $this->RemoveAllRIsResult = $RemoveAllRIsResult;
-        return $this;
+      $this->RemoveAllRIsResult = $RemoveAllRIsResult;
+      return $this;
     }
 
 }

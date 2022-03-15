@@ -15,7 +15,7 @@ class ResumeResponse
      */
     public function __construct($ResumeResult = null)
     {
-        $this->ResumeResult = $ResumeResult;
+      $this->ResumeResult = $ResumeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ResumeResponse
      */
     public function getResumeResult()
     {
-        return $this->ResumeResult;
+      return $this->ResumeResult;
     }
 
     /**
      * @param string $ResumeResult
-     * @return ResumeResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\ResumeResponse
      */
     public function setResumeResult($ResumeResult)
     {
-        $this->ResumeResult = $ResumeResult;
-        return $this;
+      $this->ResumeResult = $ResumeResult;
+      return $this;
     }
 
 }

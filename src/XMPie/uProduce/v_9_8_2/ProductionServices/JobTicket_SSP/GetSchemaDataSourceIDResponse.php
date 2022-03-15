@@ -15,7 +15,7 @@ class GetSchemaDataSourceIDResponse
      */
     public function __construct($GetSchemaDataSourceIDResult = null)
     {
-        $this->GetSchemaDataSourceIDResult = $GetSchemaDataSourceIDResult;
+      $this->GetSchemaDataSourceIDResult = $GetSchemaDataSourceIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSchemaDataSourceIDResponse
      */
     public function getGetSchemaDataSourceIDResult()
     {
-        return $this->GetSchemaDataSourceIDResult;
+      return $this->GetSchemaDataSourceIDResult;
     }
 
     /**
      * @param string $GetSchemaDataSourceIDResult
-     * @return GetSchemaDataSourceIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetSchemaDataSourceIDResponse
      */
     public function setGetSchemaDataSourceIDResult($GetSchemaDataSourceIDResult)
     {
-        $this->GetSchemaDataSourceIDResult = $GetSchemaDataSourceIDResult;
-        return $this;
+      $this->GetSchemaDataSourceIDResult = $GetSchemaDataSourceIDResult;
+      return $this;
     }
 
 }

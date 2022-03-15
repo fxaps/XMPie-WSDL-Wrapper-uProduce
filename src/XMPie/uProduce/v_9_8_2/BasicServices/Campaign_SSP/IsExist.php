@@ -27,9 +27,9 @@ class IsExist
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
     }
 
     /**
@@ -37,17 +37,17 @@ class IsExist
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return IsExist
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\IsExist
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class IsExist
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return IsExist
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\IsExist
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class IsExist
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return IsExist
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\IsExist
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
 }

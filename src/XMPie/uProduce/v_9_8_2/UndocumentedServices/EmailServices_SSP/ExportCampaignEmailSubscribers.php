@@ -33,10 +33,10 @@ class ExportCampaignEmailSubscribers
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -44,17 +44,17 @@ class ExportCampaignEmailSubscribers
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return ExportCampaignEmailSubscribers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ExportCampaignEmailSubscribers
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class ExportCampaignEmailSubscribers
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return ExportCampaignEmailSubscribers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ExportCampaignEmailSubscribers
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class ExportCampaignEmailSubscribers
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return ExportCampaignEmailSubscribers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ExportCampaignEmailSubscribers
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class ExportCampaignEmailSubscribers
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return ExportCampaignEmailSubscribers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ExportCampaignEmailSubscribers
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

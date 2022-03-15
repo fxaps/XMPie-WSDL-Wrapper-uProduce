@@ -51,13 +51,13 @@ class CreateNewFromZip
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetSourceID = null, $inZipPath = null, $inDeleteSource = null, $inDeleteEmptySourceFolder = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAssetSourceID = $inAssetSourceID;
-        $this->inZipPath = $inZipPath;
-        $this->inDeleteSource = $inDeleteSource;
-        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAssetSourceID = $inAssetSourceID;
+      $this->inZipPath = $inZipPath;
+      $this->inDeleteSource = $inDeleteSource;
+      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class CreateNewFromZip
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNewFromZip
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateNewFromZip
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class CreateNewFromZip
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNewFromZip
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateNewFromZip
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class CreateNewFromZip
      */
     public function getInAssetSourceID()
     {
-        return $this->inAssetSourceID;
+      return $this->inAssetSourceID;
     }
 
     /**
      * @param string $inAssetSourceID
-     * @return CreateNewFromZip
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateNewFromZip
      */
     public function setInAssetSourceID($inAssetSourceID)
     {
-        $this->inAssetSourceID = $inAssetSourceID;
-        return $this;
+      $this->inAssetSourceID = $inAssetSourceID;
+      return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class CreateNewFromZip
      */
     public function getInZipPath()
     {
-        return $this->inZipPath;
+      return $this->inZipPath;
     }
 
     /**
      * @param string $inZipPath
-     * @return CreateNewFromZip
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateNewFromZip
      */
     public function setInZipPath($inZipPath)
     {
-        $this->inZipPath = $inZipPath;
-        return $this;
+      $this->inZipPath = $inZipPath;
+      return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class CreateNewFromZip
      */
     public function getInDeleteSource()
     {
-        return $this->inDeleteSource;
+      return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return CreateNewFromZip
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateNewFromZip
      */
     public function setInDeleteSource($inDeleteSource)
     {
-        $this->inDeleteSource = $inDeleteSource;
-        return $this;
+      $this->inDeleteSource = $inDeleteSource;
+      return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class CreateNewFromZip
      */
     public function getInDeleteEmptySourceFolder()
     {
-        return $this->inDeleteEmptySourceFolder;
+      return $this->inDeleteEmptySourceFolder;
     }
 
     /**
      * @param boolean $inDeleteEmptySourceFolder
-     * @return CreateNewFromZip
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateNewFromZip
      */
     public function setInDeleteEmptySourceFolder($inDeleteEmptySourceFolder)
     {
-        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-        return $this;
+      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+      return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class CreateNewFromZip
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNewFromZip
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateNewFromZip
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

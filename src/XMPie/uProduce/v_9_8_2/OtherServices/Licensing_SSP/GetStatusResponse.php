@@ -15,7 +15,7 @@ class GetStatusResponse
      */
     public function __construct($GetStatusResult = null)
     {
-        $this->GetStatusResult = $GetStatusResult;
+      $this->GetStatusResult = $GetStatusResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetStatusResponse
      */
     public function getGetStatusResult()
     {
-        return $this->GetStatusResult;
+      return $this->GetStatusResult;
     }
 
     /**
      * @param StatusInfo $GetStatusResult
-     * @return GetStatusResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetStatusResponse
      */
     public function setGetStatusResult($GetStatusResult)
     {
-        $this->GetStatusResult = $GetStatusResult;
-        return $this;
+      $this->GetStatusResult = $GetStatusResult;
+      return $this;
     }
 
 }

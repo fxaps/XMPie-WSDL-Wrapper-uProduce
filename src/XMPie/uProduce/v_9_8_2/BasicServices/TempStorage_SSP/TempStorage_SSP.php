@@ -3,45 +3,42 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP;
 
 
-use SoapClient;
-use SoapFault;
-
 /**
  * TempStorage Web Service.
  */
-class TempStorage_SSP extends SoapClient
+class TempStorage_SSP extends \SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array(
-        'CreateFile' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\CreateFile',
-        'CreateFileResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\CreateFileResponse',
-        'AppendFileBinaryStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\AppendFileBinaryStream',
-        'AppendFileBinaryStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\AppendFileBinaryStreamResponse',
-        'GetFilePath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFilePath',
-        'GetFilePathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFilePathResponse',
-        'GetFileBinaryStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStream',
-        'GetFileBinaryStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStreamResponse',
-        'GetFileBinaryStreamChunk' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStreamChunk',
-        'GetFileBinaryStreamChunkResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStreamChunkResponse',
-        'GetFileBinaryStreamSize' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStreamSize',
-        'GetFileBinaryStreamSizeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStreamSizeResponse',
-        'DeleteFile' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteFile',
-        'DeleteFileResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteFileResponse',
-        'CreateFolder' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\CreateFolder',
-        'CreateFolderResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\CreateFolderResponse',
-        'AddFileToFolder' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\AddFileToFolder',
-        'AddFileToFolderResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\AddFileToFolderResponse',
-        'DeleteFolder' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteFolder',
-        'DeleteFolderResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteFolderResponse',
-        'GetFolderFiles' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFolderFiles',
-        'GetFolderFilesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFolderFilesResponse',
-        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\ArrayOfString',
-        'DeleteAll' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteAll',
-        'DeleteAllResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteAllResponse',
-    );
+    private static $classmap = array (
+  'CreateFile' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\CreateFile',
+  'CreateFileResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\CreateFileResponse',
+  'AppendFileBinaryStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\AppendFileBinaryStream',
+  'AppendFileBinaryStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\AppendFileBinaryStreamResponse',
+  'GetFilePath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFilePath',
+  'GetFilePathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFilePathResponse',
+  'GetFileBinaryStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStream',
+  'GetFileBinaryStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStreamResponse',
+  'GetFileBinaryStreamChunk' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStreamChunk',
+  'GetFileBinaryStreamChunkResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStreamChunkResponse',
+  'GetFileBinaryStreamSize' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStreamSize',
+  'GetFileBinaryStreamSizeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFileBinaryStreamSizeResponse',
+  'DeleteFile' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteFile',
+  'DeleteFileResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteFileResponse',
+  'CreateFolder' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\CreateFolder',
+  'CreateFolderResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\CreateFolderResponse',
+  'AddFileToFolder' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\AddFileToFolder',
+  'AddFileToFolderResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\AddFileToFolderResponse',
+  'DeleteFolder' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteFolder',
+  'DeleteFolderResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteFolderResponse',
+  'GetFolderFiles' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFolderFiles',
+  'GetFolderFilesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\GetFolderFilesResponse',
+  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\ArrayOfString',
+  'DeleteAll' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteAll',
+  'DeleteAllResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\TempStorage_SSP\\DeleteAllResponse',
+);
 
     /**
      * @param array $options A array of config values
@@ -50,19 +47,19 @@ class TempStorage_SSP extends SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-
-        foreach (self::$classmap as $key => $value) {
-            if (!isset($options['classmap'][$key])) {
-                $options['classmap'][$key] = $value;
-            }
-        }
-        $options = array_merge(array(
-            'features' => 1,
-        ), $options);
-        if (!$wsdl) {
-            $wsdl = 'http://localhost/xmpiewsapi/TempStorage_SSP.asmx?wsdl';
-        }
-        parent::__construct($wsdl, $options);
+    
+  foreach (self::$classmap as $key => $value) {
+    if (!isset($options['classmap'][$key])) {
+      $options['classmap'][$key] = $value;
+    }
+  }
+      $options = array_merge(array (
+  'features' => 1,
+), $options);
+      if (!$wsdl) {
+        $wsdl = 'http://localhost/xmpiewsapi/TempStorage_SSP.asmx?wsdl';
+      }
+      parent::__construct($wsdl, $options);
     }
 
     /**
@@ -73,7 +70,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function CreateFile(CreateFile $parameters)
     {
-        return $this->__soapCall('CreateFile', array($parameters));
+      return $this->__soapCall('CreateFile', array($parameters));
     }
 
     /**
@@ -84,7 +81,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function AppendFileBinaryStream(AppendFileBinaryStream $parameters)
     {
-        return $this->__soapCall('AppendFileBinaryStream', array($parameters));
+      return $this->__soapCall('AppendFileBinaryStream', array($parameters));
     }
 
     /**
@@ -95,7 +92,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function GetFilePath(GetFilePath $parameters)
     {
-        return $this->__soapCall('GetFilePath', array($parameters));
+      return $this->__soapCall('GetFilePath', array($parameters));
     }
 
     /**
@@ -106,7 +103,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function GetFileBinaryStream(GetFileBinaryStream $parameters)
     {
-        return $this->__soapCall('GetFileBinaryStream', array($parameters));
+      return $this->__soapCall('GetFileBinaryStream', array($parameters));
     }
 
     /**
@@ -117,7 +114,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function GetFileBinaryStreamChunk(GetFileBinaryStreamChunk $parameters)
     {
-        return $this->__soapCall('GetFileBinaryStreamChunk', array($parameters));
+      return $this->__soapCall('GetFileBinaryStreamChunk', array($parameters));
     }
 
     /**
@@ -128,7 +125,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function GetFileBinaryStreamSize(GetFileBinaryStreamSize $parameters)
     {
-        return $this->__soapCall('GetFileBinaryStreamSize', array($parameters));
+      return $this->__soapCall('GetFileBinaryStreamSize', array($parameters));
     }
 
     /**
@@ -139,7 +136,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function DeleteFile(DeleteFile $parameters)
     {
-        return $this->__soapCall('DeleteFile', array($parameters));
+      return $this->__soapCall('DeleteFile', array($parameters));
     }
 
     /**
@@ -150,7 +147,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function CreateFolder(CreateFolder $parameters)
     {
-        return $this->__soapCall('CreateFolder', array($parameters));
+      return $this->__soapCall('CreateFolder', array($parameters));
     }
 
     /**
@@ -161,7 +158,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function AddFileToFolder(AddFileToFolder $parameters)
     {
-        return $this->__soapCall('AddFileToFolder', array($parameters));
+      return $this->__soapCall('AddFileToFolder', array($parameters));
     }
 
     /**
@@ -172,7 +169,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function DeleteFolder(DeleteFolder $parameters)
     {
-        return $this->__soapCall('DeleteFolder', array($parameters));
+      return $this->__soapCall('DeleteFolder', array($parameters));
     }
 
     /**
@@ -183,7 +180,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function GetFolderFiles(GetFolderFiles $parameters)
     {
-        return $this->__soapCall('GetFolderFiles', array($parameters));
+      return $this->__soapCall('GetFolderFiles', array($parameters));
     }
 
     /**
@@ -194,7 +191,7 @@ class TempStorage_SSP extends SoapClient
      */
     public function DeleteAll(DeleteAll $parameters)
     {
-        return $this->__soapCall('DeleteAll', array($parameters));
+      return $this->__soapCall('DeleteAll', array($parameters));
     }
 
 }

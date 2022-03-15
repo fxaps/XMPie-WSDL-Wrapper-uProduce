@@ -5,10 +5,10 @@ namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Permission
 class PermissionDetails
 {
 
-
+    
     public function __construct()
     {
-
+    
     }
 
 }

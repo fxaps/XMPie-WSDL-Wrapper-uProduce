@@ -15,7 +15,7 @@ class SetJobParametersResponse
      */
     public function __construct($SetJobParametersResult = null)
     {
-        $this->SetJobParametersResult = $SetJobParametersResult;
+      $this->SetJobParametersResult = $SetJobParametersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetJobParametersResponse
      */
     public function getSetJobParametersResult()
     {
-        return $this->SetJobParametersResult;
+      return $this->SetJobParametersResult;
     }
 
     /**
      * @param boolean $SetJobParametersResult
-     * @return SetJobParametersResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobParametersResponse
      */
     public function setSetJobParametersResult($SetJobParametersResult)
     {
-        $this->SetJobParametersResult = $SetJobParametersResult;
-        return $this;
+      $this->SetJobParametersResult = $SetJobParametersResult;
+      return $this;
     }
 
 }

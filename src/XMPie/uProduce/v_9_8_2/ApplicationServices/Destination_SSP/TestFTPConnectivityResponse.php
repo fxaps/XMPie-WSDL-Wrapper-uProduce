@@ -15,7 +15,7 @@ class TestFTPConnectivityResponse
      */
     public function __construct($TestFTPConnectivityResult = null)
     {
-        $this->TestFTPConnectivityResult = $TestFTPConnectivityResult;
+      $this->TestFTPConnectivityResult = $TestFTPConnectivityResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class TestFTPConnectivityResponse
      */
     public function getTestFTPConnectivityResult()
     {
-        return $this->TestFTPConnectivityResult;
+      return $this->TestFTPConnectivityResult;
     }
 
     /**
      * @param boolean $TestFTPConnectivityResult
-     * @return TestFTPConnectivityResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\TestFTPConnectivityResponse
      */
     public function setTestFTPConnectivityResult($TestFTPConnectivityResult)
     {
-        $this->TestFTPConnectivityResult = $TestFTPConnectivityResult;
-        return $this;
+      $this->TestFTPConnectivityResult = $TestFTPConnectivityResult;
+      return $this;
     }
 
 }

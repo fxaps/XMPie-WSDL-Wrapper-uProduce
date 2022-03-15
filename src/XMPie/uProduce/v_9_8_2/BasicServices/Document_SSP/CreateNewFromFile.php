@@ -57,14 +57,14 @@ class CreateNewFromFile
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inDocumentPath = null, $inName = null, $inDeleteSource = null, $inDeleteEmptySourceFolder = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inDocumentPath = $inDocumentPath;
-        $this->inName = $inName;
-        $this->inDeleteSource = $inDeleteSource;
-        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inDocumentPath = $inDocumentPath;
+      $this->inName = $inName;
+      $this->inDeleteSource = $inDeleteSource;
+      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -72,17 +72,17 @@ class CreateNewFromFile
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNewFromFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromFile
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class CreateNewFromFile
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNewFromFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromFile
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class CreateNewFromFile
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return CreateNewFromFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromFile
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class CreateNewFromFile
      */
     public function getInDocumentPath()
     {
-        return $this->inDocumentPath;
+      return $this->inDocumentPath;
     }
 
     /**
      * @param string $inDocumentPath
-     * @return CreateNewFromFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromFile
      */
     public function setInDocumentPath($inDocumentPath)
     {
-        $this->inDocumentPath = $inDocumentPath;
-        return $this;
+      $this->inDocumentPath = $inDocumentPath;
+      return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class CreateNewFromFile
      */
     public function getInName()
     {
-        return $this->inName;
+      return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return CreateNewFromFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromFile
      */
     public function setInName($inName)
     {
-        $this->inName = $inName;
-        return $this;
+      $this->inName = $inName;
+      return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class CreateNewFromFile
      */
     public function getInDeleteSource()
     {
-        return $this->inDeleteSource;
+      return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return CreateNewFromFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromFile
      */
     public function setInDeleteSource($inDeleteSource)
     {
-        $this->inDeleteSource = $inDeleteSource;
-        return $this;
+      $this->inDeleteSource = $inDeleteSource;
+      return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class CreateNewFromFile
      */
     public function getInDeleteEmptySourceFolder()
     {
-        return $this->inDeleteEmptySourceFolder;
+      return $this->inDeleteEmptySourceFolder;
     }
 
     /**
      * @param boolean $inDeleteEmptySourceFolder
-     * @return CreateNewFromFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromFile
      */
     public function setInDeleteEmptySourceFolder($inDeleteEmptySourceFolder)
     {
-        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-        return $this;
+      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+      return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class CreateNewFromFile
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNewFromFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromFile
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

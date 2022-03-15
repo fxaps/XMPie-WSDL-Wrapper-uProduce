@@ -15,7 +15,7 @@ class IsDownloadableResponse
      */
     public function __construct($IsDownloadableResult = null)
     {
-        $this->IsDownloadableResult = $IsDownloadableResult;
+      $this->IsDownloadableResult = $IsDownloadableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsDownloadableResponse
      */
     public function getIsDownloadableResult()
     {
-        return $this->IsDownloadableResult;
+      return $this->IsDownloadableResult;
     }
 
     /**
      * @param boolean $IsDownloadableResult
-     * @return IsDownloadableResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\IsDownloadableResponse
      */
     public function setIsDownloadableResult($IsDownloadableResult)
     {
-        $this->IsDownloadableResult = $IsDownloadableResult;
-        return $this;
+      $this->IsDownloadableResult = $IsDownloadableResult;
+      return $this;
     }
 
 }

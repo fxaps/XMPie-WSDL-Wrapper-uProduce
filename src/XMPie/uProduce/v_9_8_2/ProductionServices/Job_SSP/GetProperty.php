@@ -33,10 +33,10 @@ class GetProperty
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobID = null, $inPropertyName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobID = $inJobID;
-        $this->inPropertyName = $inPropertyName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobID = $inJobID;
+      $this->inPropertyName = $inPropertyName;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetProperty
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetProperty
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetProperty
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetProperty
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetProperty
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetProperty
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetProperty
      */
     public function getInJobID()
     {
-        return $this->inJobID;
+      return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return GetProperty
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetProperty
      */
     public function setInJobID($inJobID)
     {
-        $this->inJobID = $inJobID;
-        return $this;
+      $this->inJobID = $inJobID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetProperty
      */
     public function getInPropertyName()
     {
-        return $this->inPropertyName;
+      return $this->inPropertyName;
     }
 
     /**
      * @param string $inPropertyName
-     * @return GetProperty
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetProperty
      */
     public function setInPropertyName($inPropertyName)
     {
-        $this->inPropertyName = $inPropertyName;
-        return $this;
+      $this->inPropertyName = $inPropertyName;
+      return $this;
     }
 
 }

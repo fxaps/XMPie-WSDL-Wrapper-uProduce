@@ -20,7 +20,7 @@ class XMPTblMatching
      */
     public function __construct($m_IsMatching = null)
     {
-        $this->m_IsMatching = $m_IsMatching;
+      $this->m_IsMatching = $m_IsMatching;
     }
 
     /**
@@ -28,17 +28,17 @@ class XMPTblMatching
      */
     public function getM_TableName()
     {
-        return $this->m_TableName;
+      return $this->m_TableName;
     }
 
     /**
      * @param string $m_TableName
-     * @return XMPTblMatching
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\XMPTblMatching
      */
     public function setM_TableName($m_TableName)
     {
-        $this->m_TableName = $m_TableName;
-        return $this;
+      $this->m_TableName = $m_TableName;
+      return $this;
     }
 
     /**
@@ -46,17 +46,17 @@ class XMPTblMatching
      */
     public function getM_IsMatching()
     {
-        return $this->m_IsMatching;
+      return $this->m_IsMatching;
     }
 
     /**
      * @param boolean $m_IsMatching
-     * @return XMPTblMatching
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\XMPTblMatching
      */
     public function setM_IsMatching($m_IsMatching)
     {
-        $this->m_IsMatching = $m_IsMatching;
-        return $this;
+      $this->m_IsMatching = $m_IsMatching;
+      return $this;
     }
 
 }

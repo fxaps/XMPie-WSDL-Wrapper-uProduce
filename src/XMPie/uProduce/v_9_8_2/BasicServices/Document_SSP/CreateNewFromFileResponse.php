@@ -15,7 +15,7 @@ class CreateNewFromFileResponse
      */
     public function __construct($CreateNewFromFileResult = null)
     {
-        $this->CreateNewFromFileResult = $CreateNewFromFileResult;
+      $this->CreateNewFromFileResult = $CreateNewFromFileResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewFromFileResponse
      */
     public function getCreateNewFromFileResult()
     {
-        return $this->CreateNewFromFileResult;
+      return $this->CreateNewFromFileResult;
     }
 
     /**
      * @param string $CreateNewFromFileResult
-     * @return CreateNewFromFileResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromFileResponse
      */
     public function setCreateNewFromFileResult($CreateNewFromFileResult)
     {
-        $this->CreateNewFromFileResult = $CreateNewFromFileResult;
-        return $this;
+      $this->CreateNewFromFileResult = $CreateNewFromFileResult;
+      return $this;
     }
 
 }

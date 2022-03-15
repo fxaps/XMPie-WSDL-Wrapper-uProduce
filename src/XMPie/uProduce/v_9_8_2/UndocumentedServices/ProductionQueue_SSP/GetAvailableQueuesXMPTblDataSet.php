@@ -27,9 +27,9 @@ class GetAvailableQueuesXMPTblDataSet
      */
     public function __construct($inUsername = null, $inPassword = null, $inQueueTypeID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inQueueTypeID = $inQueueTypeID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inQueueTypeID = $inQueueTypeID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetAvailableQueuesXMPTblDataSet
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetAvailableQueuesXMPTblDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ProductionQueue_SSP\GetAvailableQueuesXMPTblDataSet
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetAvailableQueuesXMPTblDataSet
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetAvailableQueuesXMPTblDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ProductionQueue_SSP\GetAvailableQueuesXMPTblDataSet
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetAvailableQueuesXMPTblDataSet
      */
     public function getInQueueTypeID()
     {
-        return $this->inQueueTypeID;
+      return $this->inQueueTypeID;
     }
 
     /**
      * @param string $inQueueTypeID
-     * @return GetAvailableQueuesXMPTblDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ProductionQueue_SSP\GetAvailableQueuesXMPTblDataSet
      */
     public function setInQueueTypeID($inQueueTypeID)
     {
-        $this->inQueueTypeID = $inQueueTypeID;
-        return $this;
+      $this->inQueueTypeID = $inQueueTypeID;
+      return $this;
     }
 
 }

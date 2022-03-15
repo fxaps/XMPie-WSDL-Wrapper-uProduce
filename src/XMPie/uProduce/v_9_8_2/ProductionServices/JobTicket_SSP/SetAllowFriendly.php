@@ -33,10 +33,10 @@ class SetAllowFriendly
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inAllowFriendly = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inAllowFriendly = $inAllowFriendly;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inAllowFriendly = $inAllowFriendly;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetAllowFriendly
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetAllowFriendly
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAllowFriendly
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetAllowFriendly
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetAllowFriendly
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAllowFriendly
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetAllowFriendly
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return SetAllowFriendly
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAllowFriendly
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetAllowFriendly
      */
     public function getInAllowFriendly()
     {
-        return $this->inAllowFriendly;
+      return $this->inAllowFriendly;
     }
 
     /**
      * @param boolean $inAllowFriendly
-     * @return SetAllowFriendly
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAllowFriendly
      */
     public function setInAllowFriendly($inAllowFriendly)
     {
-        $this->inAllowFriendly = $inAllowFriendly;
-        return $this;
+      $this->inAllowFriendly = $inAllowFriendly;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class DecodeMessageResponse
      */
     public function __construct($DecodeMessageResult = null)
     {
-        $this->DecodeMessageResult = $DecodeMessageResult;
+      $this->DecodeMessageResult = $DecodeMessageResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DecodeMessageResponse
      */
     public function getDecodeMessageResult()
     {
-        return $this->DecodeMessageResult;
+      return $this->DecodeMessageResult;
     }
 
     /**
      * @param string $DecodeMessageResult
-     * @return DecodeMessageResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeMessageResponse
      */
     public function setDecodeMessageResult($DecodeMessageResult)
     {
-        $this->DecodeMessageResult = $DecodeMessageResult;
-        return $this;
+      $this->DecodeMessageResult = $DecodeMessageResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetParamsResponse
      */
     public function __construct($GetParamsResult = null)
     {
-        $this->GetParamsResult = $GetParamsResult;
+      $this->GetParamsResult = $GetParamsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetParamsResponse
      */
     public function getGetParamsResult()
     {
-        return $this->GetParamsResult;
+      return $this->GetParamsResult;
     }
 
     /**
      * @param string $GetParamsResult
-     * @return GetParamsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\GetParamsResponse
      */
     public function setGetParamsResult($GetParamsResult)
     {
-        $this->GetParamsResult = $GetParamsResult;
-        return $this;
+      $this->GetParamsResult = $GetParamsResult;
+      return $this;
     }
 
 }

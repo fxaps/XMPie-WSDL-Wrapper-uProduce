@@ -57,14 +57,14 @@ class AddTrackEvent
      */
     public function __construct($inUsername = null, $inPassword = null, $inPopulationOrContextId = null, $inEventType = null, $inRecipientID = null, $inEventContext = null, $inHitDate = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPopulationOrContextId = $inPopulationOrContextId;
-        $this->inEventType = $inEventType;
-        $this->inRecipientID = $inRecipientID;
-        $this->inEventContext = $inEventContext;
-        $this->inHitDate = $inHitDate;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPopulationOrContextId = $inPopulationOrContextId;
+      $this->inEventType = $inEventType;
+      $this->inRecipientID = $inRecipientID;
+      $this->inEventContext = $inEventContext;
+      $this->inHitDate = $inHitDate;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -72,17 +72,17 @@ class AddTrackEvent
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return AddTrackEvent
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AddTrackEvent
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class AddTrackEvent
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return AddTrackEvent
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AddTrackEvent
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class AddTrackEvent
      */
     public function getInPopulationOrContextId()
     {
-        return $this->inPopulationOrContextId;
+      return $this->inPopulationOrContextId;
     }
 
     /**
      * @param string $inPopulationOrContextId
-     * @return AddTrackEvent
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AddTrackEvent
      */
     public function setInPopulationOrContextId($inPopulationOrContextId)
     {
-        $this->inPopulationOrContextId = $inPopulationOrContextId;
-        return $this;
+      $this->inPopulationOrContextId = $inPopulationOrContextId;
+      return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class AddTrackEvent
      */
     public function getInEventType()
     {
-        return $this->inEventType;
+      return $this->inEventType;
     }
 
     /**
      * @param string $inEventType
-     * @return AddTrackEvent
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AddTrackEvent
      */
     public function setInEventType($inEventType)
     {
-        $this->inEventType = $inEventType;
-        return $this;
+      $this->inEventType = $inEventType;
+      return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class AddTrackEvent
      */
     public function getInRecipientID()
     {
-        return $this->inRecipientID;
+      return $this->inRecipientID;
     }
 
     /**
      * @param string $inRecipientID
-     * @return AddTrackEvent
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AddTrackEvent
      */
     public function setInRecipientID($inRecipientID)
     {
-        $this->inRecipientID = $inRecipientID;
-        return $this;
+      $this->inRecipientID = $inRecipientID;
+      return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class AddTrackEvent
      */
     public function getInEventContext()
     {
-        return $this->inEventContext;
+      return $this->inEventContext;
     }
 
     /**
      * @param string $inEventContext
-     * @return AddTrackEvent
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AddTrackEvent
      */
     public function setInEventContext($inEventContext)
     {
-        $this->inEventContext = $inEventContext;
-        return $this;
+      $this->inEventContext = $inEventContext;
+      return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class AddTrackEvent
      */
     public function getInHitDate()
     {
-        return $this->inHitDate;
+      return $this->inHitDate;
     }
 
     /**
      * @param XMPDateTime $inHitDate
-     * @return AddTrackEvent
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AddTrackEvent
      */
     public function setInHitDate($inHitDate)
     {
-        $this->inHitDate = $inHitDate;
-        return $this;
+      $this->inHitDate = $inHitDate;
+      return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class AddTrackEvent
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return AddTrackEvent
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AddTrackEvent
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

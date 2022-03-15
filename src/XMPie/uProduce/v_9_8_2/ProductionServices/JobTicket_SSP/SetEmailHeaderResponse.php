@@ -15,7 +15,7 @@ class SetEmailHeaderResponse
      */
     public function __construct($SetEmailHeaderResult = null)
     {
-        $this->SetEmailHeaderResult = $SetEmailHeaderResult;
+      $this->SetEmailHeaderResult = $SetEmailHeaderResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetEmailHeaderResponse
      */
     public function getSetEmailHeaderResult()
     {
-        return $this->SetEmailHeaderResult;
+      return $this->SetEmailHeaderResult;
     }
 
     /**
      * @param boolean $SetEmailHeaderResult
-     * @return SetEmailHeaderResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailHeaderResponse
      */
     public function setSetEmailHeaderResult($SetEmailHeaderResult)
     {
-        $this->SetEmailHeaderResult = $SetEmailHeaderResult;
-        return $this;
+      $this->SetEmailHeaderResult = $SetEmailHeaderResult;
+      return $this;
     }
 
 }

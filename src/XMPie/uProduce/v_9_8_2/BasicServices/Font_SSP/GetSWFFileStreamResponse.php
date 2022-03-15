@@ -15,7 +15,7 @@ class GetSWFFileStreamResponse
      */
     public function __construct($GetSWFFileStreamResult = null)
     {
-        $this->GetSWFFileStreamResult = $GetSWFFileStreamResult;
+      $this->GetSWFFileStreamResult = $GetSWFFileStreamResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSWFFileStreamResponse
      */
     public function getGetSWFFileStreamResult()
     {
-        return $this->GetSWFFileStreamResult;
+      return $this->GetSWFFileStreamResult;
     }
 
     /**
      * @param base64Binary $GetSWFFileStreamResult
-     * @return GetSWFFileStreamResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFileStreamResponse
      */
     public function setGetSWFFileStreamResult($GetSWFFileStreamResult)
     {
-        $this->GetSWFFileStreamResult = $GetSWFFileStreamResult;
-        return $this;
+      $this->GetSWFFileStreamResult = $GetSWFFileStreamResult;
+      return $this;
     }
 
 }

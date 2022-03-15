@@ -15,7 +15,7 @@ class GetTablesNamesResponse
      */
     public function __construct($GetTablesNamesResult = null)
     {
-        $this->GetTablesNamesResult = $GetTablesNamesResult;
+      $this->GetTablesNamesResult = $GetTablesNamesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTablesNamesResponse
      */
     public function getGetTablesNamesResult()
     {
-        return $this->GetTablesNamesResult;
+      return $this->GetTablesNamesResult;
     }
 
     /**
      * @param ArrayOfString $GetTablesNamesResult
-     * @return GetTablesNamesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetTablesNamesResponse
      */
     public function setGetTablesNamesResult($GetTablesNamesResult)
     {
-        $this->GetTablesNamesResult = $GetTablesNamesResult;
-        return $this;
+      $this->GetTablesNamesResult = $GetTablesNamesResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class ReplaceFromDPKGResponse
      */
     public function __construct($ReplaceFromDPKGResult = null)
     {
-        $this->ReplaceFromDPKGResult = $ReplaceFromDPKGResult;
+      $this->ReplaceFromDPKGResult = $ReplaceFromDPKGResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ReplaceFromDPKGResponse
      */
     public function getReplaceFromDPKGResult()
     {
-        return $this->ReplaceFromDPKGResult;
+      return $this->ReplaceFromDPKGResult;
     }
 
     /**
      * @param boolean $ReplaceFromDPKGResult
-     * @return ReplaceFromDPKGResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromDPKGResponse
      */
     public function setReplaceFromDPKGResult($ReplaceFromDPKGResult)
     {
-        $this->ReplaceFromDPKGResult = $ReplaceFromDPKGResult;
-        return $this;
+      $this->ReplaceFromDPKGResult = $ReplaceFromDPKGResult;
+      return $this;
     }
 
 }

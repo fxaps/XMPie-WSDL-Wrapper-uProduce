@@ -15,7 +15,7 @@ class CreateNewFromLocalEmailHostingResponse
      */
     public function __construct($CreateNewFromLocalEmailHostingResult = null)
     {
-        $this->CreateNewFromLocalEmailHostingResult = $CreateNewFromLocalEmailHostingResult;
+      $this->CreateNewFromLocalEmailHostingResult = $CreateNewFromLocalEmailHostingResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewFromLocalEmailHostingResponse
      */
     public function getCreateNewFromLocalEmailHostingResult()
     {
-        return $this->CreateNewFromLocalEmailHostingResult;
+      return $this->CreateNewFromLocalEmailHostingResult;
     }
 
     /**
      * @param string $CreateNewFromLocalEmailHostingResult
-     * @return CreateNewFromLocalEmailHostingResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromLocalEmailHostingResponse
      */
     public function setCreateNewFromLocalEmailHostingResult($CreateNewFromLocalEmailHostingResult)
     {
-        $this->CreateNewFromLocalEmailHostingResult = $CreateNewFromLocalEmailHostingResult;
-        return $this;
+      $this->CreateNewFromLocalEmailHostingResult = $CreateNewFromLocalEmailHostingResult;
+      return $this;
     }
 
 }

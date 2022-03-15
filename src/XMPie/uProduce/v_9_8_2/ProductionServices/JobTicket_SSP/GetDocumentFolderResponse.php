@@ -15,7 +15,7 @@ class GetDocumentFolderResponse
      */
     public function __construct($GetDocumentFolderResult = null)
     {
-        $this->GetDocumentFolderResult = $GetDocumentFolderResult;
+      $this->GetDocumentFolderResult = $GetDocumentFolderResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDocumentFolderResponse
      */
     public function getGetDocumentFolderResult()
     {
-        return $this->GetDocumentFolderResult;
+      return $this->GetDocumentFolderResult;
     }
 
     /**
      * @param string $GetDocumentFolderResult
-     * @return GetDocumentFolderResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetDocumentFolderResponse
      */
     public function setGetDocumentFolderResult($GetDocumentFolderResult)
     {
-        $this->GetDocumentFolderResult = $GetDocumentFolderResult;
-        return $this;
+      $this->GetDocumentFolderResult = $GetDocumentFolderResult;
+      return $this;
     }
 
 }

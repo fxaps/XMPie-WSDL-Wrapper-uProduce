@@ -25,10 +25,10 @@ class IDMapping
      */
     protected $NewGUID = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -36,17 +36,17 @@ class IDMapping
      */
     public function getOldID()
     {
-        return $this->OldID;
+      return $this->OldID;
     }
 
     /**
      * @param string $OldID
-     * @return IDMapping
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\IDMapping
      */
     public function setOldID($OldID)
     {
-        $this->OldID = $OldID;
-        return $this;
+      $this->OldID = $OldID;
+      return $this;
     }
 
     /**
@@ -54,17 +54,17 @@ class IDMapping
      */
     public function getNewID()
     {
-        return $this->NewID;
+      return $this->NewID;
     }
 
     /**
      * @param string $NewID
-     * @return IDMapping
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\IDMapping
      */
     public function setNewID($NewID)
     {
-        $this->NewID = $NewID;
-        return $this;
+      $this->NewID = $NewID;
+      return $this;
     }
 
     /**
@@ -72,17 +72,17 @@ class IDMapping
      */
     public function getOldGUID()
     {
-        return $this->OldGUID;
+      return $this->OldGUID;
     }
 
     /**
      * @param string $OldGUID
-     * @return IDMapping
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\IDMapping
      */
     public function setOldGUID($OldGUID)
     {
-        $this->OldGUID = $OldGUID;
-        return $this;
+      $this->OldGUID = $OldGUID;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class IDMapping
      */
     public function getNewGUID()
     {
-        return $this->NewGUID;
+      return $this->NewGUID;
     }
 
     /**
      * @param string $NewGUID
-     * @return IDMapping
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\IDMapping
      */
     public function setNewGUID($NewGUID)
     {
-        $this->NewGUID = $NewGUID;
-        return $this;
+      $this->NewGUID = $NewGUID;
+      return $this;
     }
 
 }

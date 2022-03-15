@@ -33,10 +33,10 @@ class GetNthRIInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inRIIndex = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inRIIndex = $inRIIndex;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inRIIndex = $inRIIndex;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetNthRIInfo
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetNthRIInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthRIInfo
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetNthRIInfo
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetNthRIInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthRIInfo
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetNthRIInfo
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return GetNthRIInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthRIInfo
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetNthRIInfo
      */
     public function getInRIIndex()
     {
-        return $this->inRIIndex;
+      return $this->inRIIndex;
     }
 
     /**
      * @param int $inRIIndex
-     * @return GetNthRIInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthRIInfo
      */
     public function setInRIIndex($inRIIndex)
     {
-        $this->inRIIndex = $inRIIndex;
-        return $this;
+      $this->inRIIndex = $inRIIndex;
+      return $this;
     }
 
 }

@@ -39,11 +39,11 @@ class SendMailByProviderInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inDeliveryProviderInfo = null, $inEmailHeaderInfo = null, $inEmailBodyInfos = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
-        $this->inEmailHeaderInfo = $inEmailHeaderInfo;
-        $this->inEmailBodyInfos = $inEmailBodyInfos;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
+      $this->inEmailHeaderInfo = $inEmailHeaderInfo;
+      $this->inEmailBodyInfos = $inEmailBodyInfos;
     }
 
     /**
@@ -51,17 +51,17 @@ class SendMailByProviderInfo
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SendMailByProviderInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\SendMailByProviderInfo
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SendMailByProviderInfo
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SendMailByProviderInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\SendMailByProviderInfo
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SendMailByProviderInfo
      */
     public function getInDeliveryProviderInfo()
     {
-        return $this->inDeliveryProviderInfo;
+      return $this->inDeliveryProviderInfo;
     }
 
     /**
      * @param EmailProviderInfo $inDeliveryProviderInfo
-     * @return SendMailByProviderInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\SendMailByProviderInfo
      */
     public function setInDeliveryProviderInfo($inDeliveryProviderInfo)
     {
-        $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
-        return $this;
+      $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SendMailByProviderInfo
      */
     public function getInEmailHeaderInfo()
     {
-        return $this->inEmailHeaderInfo;
+      return $this->inEmailHeaderInfo;
     }
 
     /**
      * @param EmailHeaderInfo $inEmailHeaderInfo
-     * @return SendMailByProviderInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\SendMailByProviderInfo
      */
     public function setInEmailHeaderInfo($inEmailHeaderInfo)
     {
-        $this->inEmailHeaderInfo = $inEmailHeaderInfo;
-        return $this;
+      $this->inEmailHeaderInfo = $inEmailHeaderInfo;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SendMailByProviderInfo
      */
     public function getInEmailBodyInfos()
     {
-        return $this->inEmailBodyInfos;
+      return $this->inEmailBodyInfos;
     }
 
     /**
      * @param ArrayOfEmailBodyInfo $inEmailBodyInfos
-     * @return SendMailByProviderInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\SendMailByProviderInfo
      */
     public function setInEmailBodyInfos($inEmailBodyInfos)
     {
-        $this->inEmailBodyInfos = $inEmailBodyInfos;
-        return $this;
+      $this->inEmailBodyInfos = $inEmailBodyInfos;
+      return $this;
     }
 
 }

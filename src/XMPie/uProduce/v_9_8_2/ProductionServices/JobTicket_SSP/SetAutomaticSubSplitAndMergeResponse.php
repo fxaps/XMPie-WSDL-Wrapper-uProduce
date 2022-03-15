@@ -15,7 +15,7 @@ class SetAutomaticSubSplitAndMergeResponse
      */
     public function __construct($SetAutomaticSubSplitAndMergeResult = null)
     {
-        $this->SetAutomaticSubSplitAndMergeResult = $SetAutomaticSubSplitAndMergeResult;
+      $this->SetAutomaticSubSplitAndMergeResult = $SetAutomaticSubSplitAndMergeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetAutomaticSubSplitAndMergeResponse
      */
     public function getSetAutomaticSubSplitAndMergeResult()
     {
-        return $this->SetAutomaticSubSplitAndMergeResult;
+      return $this->SetAutomaticSubSplitAndMergeResult;
     }
 
     /**
      * @param boolean $SetAutomaticSubSplitAndMergeResult
-     * @return SetAutomaticSubSplitAndMergeResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAutomaticSubSplitAndMergeResponse
      */
     public function setSetAutomaticSubSplitAndMergeResult($SetAutomaticSubSplitAndMergeResult)
     {
-        $this->SetAutomaticSubSplitAndMergeResult = $SetAutomaticSubSplitAndMergeResult;
-        return $this;
+      $this->SetAutomaticSubSplitAndMergeResult = $SetAutomaticSubSplitAndMergeResult;
+      return $this;
     }
 
 }

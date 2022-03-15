@@ -15,7 +15,7 @@ class SetSettingsResponse
      */
     public function __construct($SetSettingsResult = null)
     {
-        $this->SetSettingsResult = $SetSettingsResult;
+      $this->SetSettingsResult = $SetSettingsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetSettingsResponse
      */
     public function getSetSettingsResult()
     {
-        return $this->SetSettingsResult;
+      return $this->SetSettingsResult;
     }
 
     /**
      * @param boolean $SetSettingsResult
-     * @return SetSettingsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\SetSettingsResponse
      */
     public function setSetSettingsResult($SetSettingsResult)
     {
-        $this->SetSettingsResult = $SetSettingsResult;
-        return $this;
+      $this->SetSettingsResult = $SetSettingsResult;
+      return $this;
     }
 
 }

@@ -63,10 +63,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPermissionEntry
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPermissionEntry
+    */
     public function GetPermissionEntry($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -81,10 +81,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return PermissionEntity
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return PermissionEntity
+    */
     public function PermissionEntity($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -99,10 +99,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPermissionEntryResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPermissionEntryResponse
+    */
     public function GetPermissionEntryResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -117,10 +117,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPermissionEntry
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPermissionEntry
+    */
     public function SetPermissionEntry($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -135,10 +135,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return PermissionEx
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return PermissionEx
+    */
     public function PermissionEx($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -153,10 +153,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return PermissionDetails
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return PermissionDetails
+    */
     public function PermissionDetails($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -171,10 +171,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPermissionEntryResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPermissionEntryResponse
+    */
     public function SetPermissionEntryResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -189,10 +189,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPermissionsEntries
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPermissionsEntries
+    */
     public function SetPermissionsEntries($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -207,10 +207,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfPermissionEx
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfPermissionEx
+    */
     public function ArrayOfPermissionEx($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -225,10 +225,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPermissionsEntriesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPermissionsEntriesResponse
+    */
     public function SetPermissionsEntriesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -243,10 +243,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemovePermissionEntry
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemovePermissionEntry
+    */
     public function RemovePermissionEntry($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -261,10 +261,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemovePermissionEntryResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemovePermissionEntryResponse
+    */
     public function RemovePermissionEntryResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -279,10 +279,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemovePermissionsEntries
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemovePermissionsEntries
+    */
     public function RemovePermissionsEntries($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -297,10 +297,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemovePermissionsEntriesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemovePermissionsEntriesResponse
+    */
     public function RemovePermissionsEntriesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -315,10 +315,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPermissions
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPermissions
+    */
     public function GetPermissions($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -333,10 +333,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPermissionsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPermissionsResponse
+    */
     public function GetPermissionsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -351,10 +351,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetActorPermissions
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetActorPermissions
+    */
     public function GetActorPermissions($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -369,10 +369,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetActorPermissionsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetActorPermissionsResponse
+    */
     public function GetActorPermissionsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -387,10 +387,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetResourcePermissions
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetResourcePermissions
+    */
     public function GetResourcePermissions($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -405,10 +405,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetResourcePermissionsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetResourcePermissionsResponse
+    */
     public function GetResourcePermissionsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -423,10 +423,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetActorPermissions
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetActorPermissions
+    */
     public function SetActorPermissions($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -441,10 +441,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfString
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfString
+    */
     public function ArrayOfString($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -459,10 +459,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetActorPermissionsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetActorPermissionsResponse
+    */
     public function SetActorPermissionsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -477,10 +477,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetResourcePermissions
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetResourcePermissions
+    */
     public function SetResourcePermissions($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -495,10 +495,10 @@ class FabricatePermissionsEx_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetResourcePermissionsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetResourcePermissionsResponse
+    */
     public function SetResourcePermissionsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -511,6 +511,7 @@ class FabricatePermissionsEx_SSP
         }
         return $SetResourcePermissionsResponse;
     }
+
 
 
 }

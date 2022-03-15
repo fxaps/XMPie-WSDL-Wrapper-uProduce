@@ -57,14 +57,14 @@ class SetOutputInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inType = null, $inMedia = null, $inFolder = null, $inFileName = null, $inParams = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inType = $inType;
-        $this->inMedia = $inMedia;
-        $this->inFolder = $inFolder;
-        $this->inFileName = $inFileName;
-        $this->inParams = $inParams;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inType = $inType;
+      $this->inMedia = $inMedia;
+      $this->inFolder = $inFolder;
+      $this->inFileName = $inFileName;
+      $this->inParams = $inParams;
     }
 
     /**
@@ -72,17 +72,17 @@ class SetOutputInfo
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetOutputInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOutputInfo
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class SetOutputInfo
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetOutputInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOutputInfo
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class SetOutputInfo
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return SetOutputInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOutputInfo
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class SetOutputInfo
      */
     public function getInType()
     {
-        return $this->inType;
+      return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return SetOutputInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOutputInfo
      */
     public function setInType($inType)
     {
-        $this->inType = $inType;
-        return $this;
+      $this->inType = $inType;
+      return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class SetOutputInfo
      */
     public function getInMedia()
     {
-        return $this->inMedia;
+      return $this->inMedia;
     }
 
     /**
      * @param int $inMedia
-     * @return SetOutputInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOutputInfo
      */
     public function setInMedia($inMedia)
     {
-        $this->inMedia = $inMedia;
-        return $this;
+      $this->inMedia = $inMedia;
+      return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class SetOutputInfo
      */
     public function getInFolder()
     {
-        return $this->inFolder;
+      return $this->inFolder;
     }
 
     /**
      * @param string $inFolder
-     * @return SetOutputInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOutputInfo
      */
     public function setInFolder($inFolder)
     {
-        $this->inFolder = $inFolder;
-        return $this;
+      $this->inFolder = $inFolder;
+      return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class SetOutputInfo
      */
     public function getInFileName()
     {
-        return $this->inFileName;
+      return $this->inFileName;
     }
 
     /**
      * @param string $inFileName
-     * @return SetOutputInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOutputInfo
      */
     public function setInFileName($inFileName)
     {
-        $this->inFileName = $inFileName;
-        return $this;
+      $this->inFileName = $inFileName;
+      return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class SetOutputInfo
      */
     public function getInParams()
     {
-        return $this->inParams;
+      return $this->inParams;
     }
 
     /**
      * @param ArrayOfParameter $inParams
-     * @return SetOutputInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOutputInfo
      */
     public function setInParams($inParams)
     {
-        $this->inParams = $inParams;
-        return $this;
+      $this->inParams = $inParams;
+      return $this;
     }
 
 }

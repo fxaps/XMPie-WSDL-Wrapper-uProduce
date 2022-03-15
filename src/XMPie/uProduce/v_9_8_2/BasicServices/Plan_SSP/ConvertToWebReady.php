@@ -39,11 +39,11 @@ class ConvertToWebReady
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inInsertExpression = null, $inOverrideInsertExpression = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPlanID = $inPlanID;
-        $this->inInsertExpression = $inInsertExpression;
-        $this->inOverrideInsertExpression = $inOverrideInsertExpression;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPlanID = $inPlanID;
+      $this->inInsertExpression = $inInsertExpression;
+      $this->inOverrideInsertExpression = $inOverrideInsertExpression;
     }
 
     /**
@@ -51,17 +51,17 @@ class ConvertToWebReady
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return ConvertToWebReady
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\ConvertToWebReady
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class ConvertToWebReady
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return ConvertToWebReady
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\ConvertToWebReady
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class ConvertToWebReady
      */
     public function getInPlanID()
     {
-        return $this->inPlanID;
+      return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return ConvertToWebReady
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\ConvertToWebReady
      */
     public function setInPlanID($inPlanID)
     {
-        $this->inPlanID = $inPlanID;
-        return $this;
+      $this->inPlanID = $inPlanID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class ConvertToWebReady
      */
     public function getInInsertExpression()
     {
-        return $this->inInsertExpression;
+      return $this->inInsertExpression;
     }
 
     /**
      * @param string $inInsertExpression
-     * @return ConvertToWebReady
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\ConvertToWebReady
      */
     public function setInInsertExpression($inInsertExpression)
     {
-        $this->inInsertExpression = $inInsertExpression;
-        return $this;
+      $this->inInsertExpression = $inInsertExpression;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class ConvertToWebReady
      */
     public function getInOverrideInsertExpression()
     {
-        return $this->inOverrideInsertExpression;
+      return $this->inOverrideInsertExpression;
     }
 
     /**
      * @param boolean $inOverrideInsertExpression
-     * @return ConvertToWebReady
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\ConvertToWebReady
      */
     public function setInOverrideInsertExpression($inOverrideInsertExpression)
     {
-        $this->inOverrideInsertExpression = $inOverrideInsertExpression;
-        return $this;
+      $this->inOverrideInsertExpression = $inOverrideInsertExpression;
+      return $this;
     }
 
 }

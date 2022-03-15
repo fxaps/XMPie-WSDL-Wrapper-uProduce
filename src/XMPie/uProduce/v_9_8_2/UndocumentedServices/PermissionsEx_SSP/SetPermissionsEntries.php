@@ -27,9 +27,9 @@ class SetPermissionsEntries
      */
     public function __construct($inUsername = null, $inPassword = null, $inPermissions = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPermissions = $inPermissions;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPermissions = $inPermissions;
     }
 
     /**
@@ -37,17 +37,17 @@ class SetPermissionsEntries
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetPermissionsEntries
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\SetPermissionsEntries
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class SetPermissionsEntries
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetPermissionsEntries
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\SetPermissionsEntries
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class SetPermissionsEntries
      */
     public function getInPermissions()
     {
-        return $this->inPermissions;
+      return $this->inPermissions;
     }
 
     /**
      * @param ArrayOfPermissionEx $inPermissions
-     * @return SetPermissionsEntries
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\SetPermissionsEntries
      */
     public function setInPermissions($inPermissions)
     {
-        $this->inPermissions = $inPermissions;
-        return $this;
+      $this->inPermissions = $inPermissions;
+      return $this;
     }
 
 }

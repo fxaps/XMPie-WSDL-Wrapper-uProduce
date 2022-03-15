@@ -27,9 +27,9 @@ class DeleteFolder
      */
     public function __construct($inUsername = null, $inPassword = null, $inFolderToken = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inFolderToken = $inFolderToken;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inFolderToken = $inFolderToken;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteFolder
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteFolder
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\DeleteFolder
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteFolder
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteFolder
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\DeleteFolder
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteFolder
      */
     public function getInFolderToken()
     {
-        return $this->inFolderToken;
+      return $this->inFolderToken;
     }
 
     /**
      * @param string $inFolderToken
-     * @return DeleteFolder
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\DeleteFolder
      */
     public function setInFolderToken($inFolderToken)
     {
-        $this->inFolderToken = $inFolderToken;
-        return $this;
+      $this->inFolderToken = $inFolderToken;
+      return $this;
     }
 
 }

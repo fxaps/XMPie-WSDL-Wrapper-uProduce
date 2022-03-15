@@ -15,7 +15,7 @@ class AddRemoteCopyResponse
      */
     public function __construct($AddRemoteCopyResult = null)
     {
-        $this->AddRemoteCopyResult = $AddRemoteCopyResult;
+      $this->AddRemoteCopyResult = $AddRemoteCopyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddRemoteCopyResponse
      */
     public function getAddRemoteCopyResult()
     {
-        return $this->AddRemoteCopyResult;
+      return $this->AddRemoteCopyResult;
     }
 
     /**
      * @param boolean $AddRemoteCopyResult
-     * @return AddRemoteCopyResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddRemoteCopyResponse
      */
     public function setAddRemoteCopyResult($AddRemoteCopyResult)
     {
-        $this->AddRemoteCopyResult = $AddRemoteCopyResult;
-        return $this;
+      $this->AddRemoteCopyResult = $AddRemoteCopyResult;
+      return $this;
     }
 
 }

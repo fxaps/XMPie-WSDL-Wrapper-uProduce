@@ -15,7 +15,7 @@ class GetVersionInfoExResponse
      */
     public function __construct($GetVersionInfoExResult = null)
     {
-        $this->GetVersionInfoExResult = $GetVersionInfoExResult;
+      $this->GetVersionInfoExResult = $GetVersionInfoExResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetVersionInfoExResponse
      */
     public function getGetVersionInfoExResult()
     {
-        return $this->GetVersionInfoExResult;
+      return $this->GetVersionInfoExResult;
     }
 
     /**
      * @param VersionInfo $GetVersionInfoExResult
-     * @return GetVersionInfoExResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetVersionInfoExResponse
      */
     public function setGetVersionInfoExResult($GetVersionInfoExResult)
     {
-        $this->GetVersionInfoExResult = $GetVersionInfoExResult;
-        return $this;
+      $this->GetVersionInfoExResult = $GetVersionInfoExResult;
+      return $this;
     }
 
 }

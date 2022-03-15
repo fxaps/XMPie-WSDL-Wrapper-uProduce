@@ -15,7 +15,7 @@ class DeleteAllResponse
      */
     public function __construct($DeleteAllResult = null)
     {
-        $this->DeleteAllResult = $DeleteAllResult;
+      $this->DeleteAllResult = $DeleteAllResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAllResponse
      */
     public function getDeleteAllResult()
     {
-        return $this->DeleteAllResult;
+      return $this->DeleteAllResult;
     }
 
     /**
      * @param boolean $DeleteAllResult
-     * @return DeleteAllResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\DeleteAllResponse
      */
     public function setDeleteAllResult($DeleteAllResult)
     {
-        $this->DeleteAllResult = $DeleteAllResult;
-        return $this;
+      $this->DeleteAllResult = $DeleteAllResult;
+      return $this;
     }
 
 }

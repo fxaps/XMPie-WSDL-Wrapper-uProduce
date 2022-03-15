@@ -15,7 +15,7 @@ class GetCustomerClicksViewResponse
      */
     public function __construct($GetCustomerClicksViewResult = null)
     {
-        $this->GetCustomerClicksViewResult = $GetCustomerClicksViewResult;
+      $this->GetCustomerClicksViewResult = $GetCustomerClicksViewResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCustomerClicksViewResponse
      */
     public function getGetCustomerClicksViewResult()
     {
-        return $this->GetCustomerClicksViewResult;
+      return $this->GetCustomerClicksViewResult;
     }
 
     /**
      * @param GetCustomerClicksViewResult $GetCustomerClicksViewResult
-     * @return GetCustomerClicksViewResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetCustomerClicksViewResponse
      */
     public function setGetCustomerClicksViewResult($GetCustomerClicksViewResult)
     {
-        $this->GetCustomerClicksViewResult = $GetCustomerClicksViewResult;
-        return $this;
+      $this->GetCustomerClicksViewResult = $GetCustomerClicksViewResult;
+      return $this;
     }
 
 }

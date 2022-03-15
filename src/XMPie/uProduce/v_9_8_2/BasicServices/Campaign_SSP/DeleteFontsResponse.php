@@ -15,7 +15,7 @@ class DeleteFontsResponse
      */
     public function __construct($DeleteFontsResult = null)
     {
-        $this->DeleteFontsResult = $DeleteFontsResult;
+      $this->DeleteFontsResult = $DeleteFontsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteFontsResponse
      */
     public function getDeleteFontsResult()
     {
-        return $this->DeleteFontsResult;
+      return $this->DeleteFontsResult;
     }
 
     /**
      * @param boolean $DeleteFontsResult
-     * @return DeleteFontsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteFontsResponse
      */
     public function setDeleteFontsResult($DeleteFontsResult)
     {
-        $this->DeleteFontsResult = $DeleteFontsResult;
-        return $this;
+      $this->DeleteFontsResult = $DeleteFontsResult;
+      return $this;
     }
 
 }

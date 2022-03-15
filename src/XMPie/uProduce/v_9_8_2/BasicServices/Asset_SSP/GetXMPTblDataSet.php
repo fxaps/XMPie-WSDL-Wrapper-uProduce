@@ -27,9 +27,9 @@ class GetXMPTblDataSet
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAssetID = $inAssetID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAssetID = $inAssetID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetXMPTblDataSet
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetXMPTblDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\GetXMPTblDataSet
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetXMPTblDataSet
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetXMPTblDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\GetXMPTblDataSet
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetXMPTblDataSet
      */
     public function getInAssetID()
     {
-        return $this->inAssetID;
+      return $this->inAssetID;
     }
 
     /**
      * @param string $inAssetID
-     * @return GetXMPTblDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\GetXMPTblDataSet
      */
     public function setInAssetID($inAssetID)
     {
-        $this->inAssetID = $inAssetID;
-        return $this;
+      $this->inAssetID = $inAssetID;
+      return $this;
     }
 
 }

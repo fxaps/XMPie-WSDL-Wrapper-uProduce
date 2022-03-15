@@ -15,7 +15,7 @@ class GetPDFPreviewResponse
      */
     public function __construct($GetPDFPreviewResult = null)
     {
-        $this->GetPDFPreviewResult = $GetPDFPreviewResult;
+      $this->GetPDFPreviewResult = $GetPDFPreviewResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPDFPreviewResponse
      */
     public function getGetPDFPreviewResult()
     {
-        return $this->GetPDFPreviewResult;
+      return $this->GetPDFPreviewResult;
     }
 
     /**
      * @param string $GetPDFPreviewResult
-     * @return GetPDFPreviewResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewResponse
      */
     public function setGetPDFPreviewResult($GetPDFPreviewResult)
     {
-        $this->GetPDFPreviewResult = $GetPDFPreviewResult;
-        return $this;
+      $this->GetPDFPreviewResult = $GetPDFPreviewResult;
+      return $this;
     }
 
 }

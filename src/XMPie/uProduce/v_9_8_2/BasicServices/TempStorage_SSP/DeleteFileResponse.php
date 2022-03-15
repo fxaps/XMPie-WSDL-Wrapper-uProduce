@@ -15,7 +15,7 @@ class DeleteFileResponse
      */
     public function __construct($DeleteFileResult = null)
     {
-        $this->DeleteFileResult = $DeleteFileResult;
+      $this->DeleteFileResult = $DeleteFileResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteFileResponse
      */
     public function getDeleteFileResult()
     {
-        return $this->DeleteFileResult;
+      return $this->DeleteFileResult;
     }
 
     /**
      * @param boolean $DeleteFileResult
-     * @return DeleteFileResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\DeleteFileResponse
      */
     public function setDeleteFileResult($DeleteFileResult)
     {
-        $this->DeleteFileResult = $DeleteFileResult;
-        return $this;
+      $this->DeleteFileResult = $DeleteFileResult;
+      return $this;
     }
 
 }

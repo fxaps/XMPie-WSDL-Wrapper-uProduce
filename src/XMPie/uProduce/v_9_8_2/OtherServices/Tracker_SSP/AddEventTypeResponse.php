@@ -15,7 +15,7 @@ class AddEventTypeResponse
      */
     public function __construct($AddEventTypeResult = null)
     {
-        $this->AddEventTypeResult = $AddEventTypeResult;
+      $this->AddEventTypeResult = $AddEventTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddEventTypeResponse
      */
     public function getAddEventTypeResult()
     {
-        return $this->AddEventTypeResult;
+      return $this->AddEventTypeResult;
     }
 
     /**
      * @param boolean $AddEventTypeResult
-     * @return AddEventTypeResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventTypeResponse
      */
     public function setAddEventTypeResult($AddEventTypeResult)
     {
-        $this->AddEventTypeResult = $AddEventTypeResult;
-        return $this;
+      $this->AddEventTypeResult = $AddEventTypeResult;
+      return $this;
     }
 
 }

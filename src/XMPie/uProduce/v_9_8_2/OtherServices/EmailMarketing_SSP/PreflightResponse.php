@@ -15,7 +15,7 @@ class PreflightResponse
      */
     public function __construct($PreflightResult = null)
     {
-        $this->PreflightResult = $PreflightResult;
+      $this->PreflightResult = $PreflightResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class PreflightResponse
      */
     public function getPreflightResult()
     {
-        return $this->PreflightResult;
+      return $this->PreflightResult;
     }
 
     /**
      * @param string $PreflightResult
-     * @return PreflightResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreflightResponse
      */
     public function setPreflightResult($PreflightResult)
     {
-        $this->PreflightResult = $PreflightResult;
-        return $this;
+      $this->PreflightResult = $PreflightResult;
+      return $this;
     }
 
 }

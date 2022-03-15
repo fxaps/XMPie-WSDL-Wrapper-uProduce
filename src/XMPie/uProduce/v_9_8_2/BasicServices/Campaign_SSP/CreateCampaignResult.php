@@ -31,8 +31,8 @@ class CreateCampaignResult
      */
     public function __construct($m_Status = null, $m_Progress = null)
     {
-        $this->m_Status = $m_Status;
-        $this->m_Progress = $m_Progress;
+      $this->m_Status = $m_Status;
+      $this->m_Progress = $m_Progress;
     }
 
     /**
@@ -40,17 +40,17 @@ class CreateCampaignResult
      */
     public function getM_Status()
     {
-        return $this->m_Status;
+      return $this->m_Status;
     }
 
     /**
      * @param int $m_Status
-     * @return CreateCampaignResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCampaignResult
      */
     public function setM_Status($m_Status)
     {
-        $this->m_Status = $m_Status;
-        return $this;
+      $this->m_Status = $m_Status;
+      return $this;
     }
 
     /**
@@ -58,17 +58,17 @@ class CreateCampaignResult
      */
     public function getM_Message()
     {
-        return $this->m_Message;
+      return $this->m_Message;
     }
 
     /**
      * @param string $m_Message
-     * @return CreateCampaignResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCampaignResult
      */
     public function setM_Message($m_Message)
     {
-        $this->m_Message = $m_Message;
-        return $this;
+      $this->m_Message = $m_Message;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class CreateCampaignResult
      */
     public function getM_CampaignID()
     {
-        return $this->m_CampaignID;
+      return $this->m_CampaignID;
     }
 
     /**
      * @param string $m_CampaignID
-     * @return CreateCampaignResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCampaignResult
      */
     public function setM_CampaignID($m_CampaignID)
     {
-        $this->m_CampaignID = $m_CampaignID;
-        return $this;
+      $this->m_CampaignID = $m_CampaignID;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class CreateCampaignResult
      */
     public function getM_Progress()
     {
-        return $this->m_Progress;
+      return $this->m_Progress;
     }
 
     /**
      * @param int $m_Progress
-     * @return CreateCampaignResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateCampaignResult
      */
     public function setM_Progress($m_Progress)
     {
-        $this->m_Progress = $m_Progress;
-        return $this;
+      $this->m_Progress = $m_Progress;
+      return $this;
     }
 
 }

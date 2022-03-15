@@ -15,7 +15,7 @@ class GetNthFilterOutADORResponse
      */
     public function __construct($GetNthFilterOutADORResult = null)
     {
-        $this->GetNthFilterOutADORResult = $GetNthFilterOutADORResult;
+      $this->GetNthFilterOutADORResult = $GetNthFilterOutADORResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthFilterOutADORResponse
      */
     public function getGetNthFilterOutADORResult()
     {
-        return $this->GetNthFilterOutADORResult;
+      return $this->GetNthFilterOutADORResult;
     }
 
     /**
      * @param string $GetNthFilterOutADORResult
-     * @return GetNthFilterOutADORResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthFilterOutADORResponse
      */
     public function setGetNthFilterOutADORResult($GetNthFilterOutADORResult)
     {
-        $this->GetNthFilterOutADORResult = $GetNthFilterOutADORResult;
-        return $this;
+      $this->GetNthFilterOutADORResult = $GetNthFilterOutADORResult;
+      return $this;
     }
 
 }

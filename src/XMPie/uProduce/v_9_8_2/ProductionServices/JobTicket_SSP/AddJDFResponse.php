@@ -15,7 +15,7 @@ class AddJDFResponse
      */
     public function __construct($AddJDFResult = null)
     {
-        $this->AddJDFResult = $AddJDFResult;
+      $this->AddJDFResult = $AddJDFResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddJDFResponse
      */
     public function getAddJDFResult()
     {
-        return $this->AddJDFResult;
+      return $this->AddJDFResult;
     }
 
     /**
      * @param boolean $AddJDFResult
-     * @return AddJDFResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddJDFResponse
      */
     public function setAddJDFResult($AddJDFResult)
     {
-        $this->AddJDFResult = $AddJDFResult;
-        return $this;
+      $this->AddJDFResult = $AddJDFResult;
+      return $this;
     }
 
 }

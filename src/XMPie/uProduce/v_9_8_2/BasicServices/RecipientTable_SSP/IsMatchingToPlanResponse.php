@@ -15,7 +15,7 @@ class IsMatchingToPlanResponse
      */
     public function __construct($IsMatchingToPlanResult = null)
     {
-        $this->IsMatchingToPlanResult = $IsMatchingToPlanResult;
+      $this->IsMatchingToPlanResult = $IsMatchingToPlanResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsMatchingToPlanResponse
      */
     public function getIsMatchingToPlanResult()
     {
-        return $this->IsMatchingToPlanResult;
+      return $this->IsMatchingToPlanResult;
     }
 
     /**
      * @param boolean $IsMatchingToPlanResult
-     * @return IsMatchingToPlanResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMatchingToPlanResponse
      */
     public function setIsMatchingToPlanResult($IsMatchingToPlanResult)
     {
-        $this->IsMatchingToPlanResult = $IsMatchingToPlanResult;
-        return $this;
+      $this->IsMatchingToPlanResult = $IsMatchingToPlanResult;
+      return $this;
     }
 
 }

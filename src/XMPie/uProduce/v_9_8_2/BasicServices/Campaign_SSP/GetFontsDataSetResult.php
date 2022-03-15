@@ -21,8 +21,8 @@ class GetFontsDataSetResult
      */
     public function __construct($schema = null, $any = null)
     {
-        $this->schema = $schema;
-        $this->any = $any;
+      $this->schema = $schema;
+      $this->any = $any;
     }
 
     /**
@@ -30,17 +30,17 @@ class GetFontsDataSetResult
      */
     public function getSchema()
     {
-        return $this->schema;
+      return $this->schema;
     }
 
     /**
      * @param string $schema
-     * @return GetFontsDataSetResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetFontsDataSetResult
      */
     public function setSchema($schema)
     {
-        $this->schema = $schema;
-        return $this;
+      $this->schema = $schema;
+      return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class GetFontsDataSetResult
      */
     public function getAny()
     {
-        return $this->any;
+      return $this->any;
     }
 
     /**
      * @param string $any
-     * @return GetFontsDataSetResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetFontsDataSetResult
      */
     public function setAny($any)
     {
-        $this->any = $any;
-        return $this;
+      $this->any = $any;
+      return $this;
     }
 
 }

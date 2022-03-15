@@ -15,7 +15,7 @@ class IsAutomaticSubSplitEnabledResponse
      */
     public function __construct($IsAutomaticSubSplitEnabledResult = null)
     {
-        $this->IsAutomaticSubSplitEnabledResult = $IsAutomaticSubSplitEnabledResult;
+      $this->IsAutomaticSubSplitEnabledResult = $IsAutomaticSubSplitEnabledResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsAutomaticSubSplitEnabledResponse
      */
     public function getIsAutomaticSubSplitEnabledResult()
     {
-        return $this->IsAutomaticSubSplitEnabledResult;
+      return $this->IsAutomaticSubSplitEnabledResult;
     }
 
     /**
      * @param boolean $IsAutomaticSubSplitEnabledResult
-     * @return IsAutomaticSubSplitEnabledResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsAutomaticSubSplitEnabledResponse
      */
     public function setIsAutomaticSubSplitEnabledResult($IsAutomaticSubSplitEnabledResult)
     {
-        $this->IsAutomaticSubSplitEnabledResult = $IsAutomaticSubSplitEnabledResult;
-        return $this;
+      $this->IsAutomaticSubSplitEnabledResult = $IsAutomaticSubSplitEnabledResult;
+      return $this;
     }
 
 }

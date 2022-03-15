@@ -15,7 +15,7 @@ class CreateNewFromStreamResponse
      */
     public function __construct($CreateNewFromStreamResult = null)
     {
-        $this->CreateNewFromStreamResult = $CreateNewFromStreamResult;
+      $this->CreateNewFromStreamResult = $CreateNewFromStreamResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewFromStreamResponse
      */
     public function getCreateNewFromStreamResult()
     {
-        return $this->CreateNewFromStreamResult;
+      return $this->CreateNewFromStreamResult;
     }
 
     /**
      * @param string $CreateNewFromStreamResult
-     * @return CreateNewFromStreamResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromStreamResponse
      */
     public function setCreateNewFromStreamResult($CreateNewFromStreamResult)
     {
-        $this->CreateNewFromStreamResult = $CreateNewFromStreamResult;
-        return $this;
+      $this->CreateNewFromStreamResult = $CreateNewFromStreamResult;
+      return $this;
     }
 
 }

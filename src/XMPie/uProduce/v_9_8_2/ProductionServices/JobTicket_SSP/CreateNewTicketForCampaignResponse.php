@@ -15,7 +15,7 @@ class CreateNewTicketForCampaignResponse
      */
     public function __construct($CreateNewTicketForCampaignResult = null)
     {
-        $this->CreateNewTicketForCampaignResult = $CreateNewTicketForCampaignResult;
+      $this->CreateNewTicketForCampaignResult = $CreateNewTicketForCampaignResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewTicketForCampaignResponse
      */
     public function getCreateNewTicketForCampaignResult()
     {
-        return $this->CreateNewTicketForCampaignResult;
+      return $this->CreateNewTicketForCampaignResult;
     }
 
     /**
      * @param string $CreateNewTicketForCampaignResult
-     * @return CreateNewTicketForCampaignResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForCampaignResponse
      */
     public function setCreateNewTicketForCampaignResult($CreateNewTicketForCampaignResult)
     {
-        $this->CreateNewTicketForCampaignResult = $CreateNewTicketForCampaignResult;
-        return $this;
+      $this->CreateNewTicketForCampaignResult = $CreateNewTicketForCampaignResult;
+      return $this;
     }
 
 }

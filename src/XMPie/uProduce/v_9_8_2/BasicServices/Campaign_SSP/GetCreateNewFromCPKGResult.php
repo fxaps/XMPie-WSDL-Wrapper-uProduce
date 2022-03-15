@@ -27,9 +27,9 @@ class GetCreateNewFromCPKGResult
      */
     public function __construct($inUsername = null, $inPassword = null, $inRequestID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inRequestID = $inRequestID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inRequestID = $inRequestID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetCreateNewFromCPKGResult
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetCreateNewFromCPKGResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetCreateNewFromCPKGResult
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetCreateNewFromCPKGResult
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetCreateNewFromCPKGResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetCreateNewFromCPKGResult
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetCreateNewFromCPKGResult
      */
     public function getInRequestID()
     {
-        return $this->inRequestID;
+      return $this->inRequestID;
     }
 
     /**
      * @param string $inRequestID
-     * @return GetCreateNewFromCPKGResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetCreateNewFromCPKGResult
      */
     public function setInRequestID($inRequestID)
     {
-        $this->inRequestID = $inRequestID;
-        return $this;
+      $this->inRequestID = $inRequestID;
+      return $this;
     }
 
 }

@@ -33,10 +33,10 @@ class DeletePorts
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inPortIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inPortIDArray = $inPortIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inPortIDArray = $inPortIDArray;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeletePorts
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeletePorts
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeletePorts
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeletePorts
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeletePorts
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeletePorts
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeletePorts
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return DeletePorts
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeletePorts
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeletePorts
      */
     public function getInPortIDArray()
     {
-        return $this->inPortIDArray;
+      return $this->inPortIDArray;
     }
 
     /**
      * @param ArrayOfString $inPortIDArray
-     * @return DeletePorts
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeletePorts
      */
     public function setInPortIDArray($inPortIDArray)
     {
-        $this->inPortIDArray = $inPortIDArray;
-        return $this;
+      $this->inPortIDArray = $inPortIDArray;
+      return $this;
     }
 
 }

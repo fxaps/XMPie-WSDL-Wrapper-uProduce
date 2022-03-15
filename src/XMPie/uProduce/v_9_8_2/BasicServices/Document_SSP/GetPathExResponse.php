@@ -15,7 +15,7 @@ class GetPathExResponse
      */
     public function __construct($GetPathExResult = null)
     {
-        $this->GetPathExResult = $GetPathExResult;
+      $this->GetPathExResult = $GetPathExResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPathExResponse
      */
     public function getGetPathExResult()
     {
-        return $this->GetPathExResult;
+      return $this->GetPathExResult;
     }
 
     /**
      * @param string $GetPathExResult
-     * @return GetPathExResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPathExResponse
      */
     public function setGetPathExResult($GetPathExResult)
     {
-        $this->GetPathExResult = $GetPathExResult;
-        return $this;
+      $this->GetPathExResult = $GetPathExResult;
+      return $this;
     }
 
 }

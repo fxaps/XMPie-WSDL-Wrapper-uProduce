@@ -57,14 +57,14 @@ class CreateThumbnailToTempStorage
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetID = null, $inMimeType = null, $inWidth = null, $inHeight = null, $inResolution = null, $inCopyFileName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAssetID = $inAssetID;
-        $this->inMimeType = $inMimeType;
-        $this->inWidth = $inWidth;
-        $this->inHeight = $inHeight;
-        $this->inResolution = $inResolution;
-        $this->inCopyFileName = $inCopyFileName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAssetID = $inAssetID;
+      $this->inMimeType = $inMimeType;
+      $this->inWidth = $inWidth;
+      $this->inHeight = $inHeight;
+      $this->inResolution = $inResolution;
+      $this->inCopyFileName = $inCopyFileName;
     }
 
     /**
@@ -72,17 +72,17 @@ class CreateThumbnailToTempStorage
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateThumbnailToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateThumbnailToTempStorage
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class CreateThumbnailToTempStorage
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateThumbnailToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateThumbnailToTempStorage
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class CreateThumbnailToTempStorage
      */
     public function getInAssetID()
     {
-        return $this->inAssetID;
+      return $this->inAssetID;
     }
 
     /**
      * @param string $inAssetID
-     * @return CreateThumbnailToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateThumbnailToTempStorage
      */
     public function setInAssetID($inAssetID)
     {
-        $this->inAssetID = $inAssetID;
-        return $this;
+      $this->inAssetID = $inAssetID;
+      return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class CreateThumbnailToTempStorage
      */
     public function getInMimeType()
     {
-        return $this->inMimeType;
+      return $this->inMimeType;
     }
 
     /**
      * @param string $inMimeType
-     * @return CreateThumbnailToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateThumbnailToTempStorage
      */
     public function setInMimeType($inMimeType)
     {
-        $this->inMimeType = $inMimeType;
-        return $this;
+      $this->inMimeType = $inMimeType;
+      return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class CreateThumbnailToTempStorage
      */
     public function getInWidth()
     {
-        return $this->inWidth;
+      return $this->inWidth;
     }
 
     /**
      * @param int $inWidth
-     * @return CreateThumbnailToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateThumbnailToTempStorage
      */
     public function setInWidth($inWidth)
     {
-        $this->inWidth = $inWidth;
-        return $this;
+      $this->inWidth = $inWidth;
+      return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class CreateThumbnailToTempStorage
      */
     public function getInHeight()
     {
-        return $this->inHeight;
+      return $this->inHeight;
     }
 
     /**
      * @param int $inHeight
-     * @return CreateThumbnailToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateThumbnailToTempStorage
      */
     public function setInHeight($inHeight)
     {
-        $this->inHeight = $inHeight;
-        return $this;
+      $this->inHeight = $inHeight;
+      return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class CreateThumbnailToTempStorage
      */
     public function getInResolution()
     {
-        return $this->inResolution;
+      return $this->inResolution;
     }
 
     /**
      * @param int $inResolution
-     * @return CreateThumbnailToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateThumbnailToTempStorage
      */
     public function setInResolution($inResolution)
     {
-        $this->inResolution = $inResolution;
-        return $this;
+      $this->inResolution = $inResolution;
+      return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class CreateThumbnailToTempStorage
      */
     public function getInCopyFileName()
     {
-        return $this->inCopyFileName;
+      return $this->inCopyFileName;
     }
 
     /**
      * @param string $inCopyFileName
-     * @return CreateThumbnailToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateThumbnailToTempStorage
      */
     public function setInCopyFileName($inCopyFileName)
     {
-        $this->inCopyFileName = $inCopyFileName;
-        return $this;
+      $this->inCopyFileName = $inCopyFileName;
+      return $this;
     }
 
 }

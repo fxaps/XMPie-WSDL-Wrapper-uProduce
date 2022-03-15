@@ -33,10 +33,10 @@ class DeleteAssets
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetSourceID = null, $inAssetIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAssetSourceID = $inAssetSourceID;
-        $this->inAssetIDArray = $inAssetIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAssetSourceID = $inAssetSourceID;
+      $this->inAssetIDArray = $inAssetIDArray;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeleteAssets
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteAssets
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\DeleteAssets
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeleteAssets
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteAssets
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\DeleteAssets
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeleteAssets
      */
     public function getInAssetSourceID()
     {
-        return $this->inAssetSourceID;
+      return $this->inAssetSourceID;
     }
 
     /**
      * @param string $inAssetSourceID
-     * @return DeleteAssets
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\DeleteAssets
      */
     public function setInAssetSourceID($inAssetSourceID)
     {
-        $this->inAssetSourceID = $inAssetSourceID;
-        return $this;
+      $this->inAssetSourceID = $inAssetSourceID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeleteAssets
      */
     public function getInAssetIDArray()
     {
-        return $this->inAssetIDArray;
+      return $this->inAssetIDArray;
     }
 
     /**
      * @param ArrayOfString $inAssetIDArray
-     * @return DeleteAssets
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\DeleteAssets
      */
     public function setInAssetIDArray($inAssetIDArray)
     {
-        $this->inAssetIDArray = $inAssetIDArray;
-        return $this;
+      $this->inAssetIDArray = $inAssetIDArray;
+      return $this;
     }
 
 }

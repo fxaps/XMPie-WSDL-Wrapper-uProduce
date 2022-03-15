@@ -33,10 +33,10 @@ class GetID
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inCampaignName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountID = $inAccountID;
-        $this->inCampaignName = $inCampaignName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountID = $inAccountID;
+      $this->inCampaignName = $inCampaignName;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetID
      */
     public function getInAccountID()
     {
-        return $this->inAccountID;
+      return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return GetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetID
      */
     public function setInAccountID($inAccountID)
     {
-        $this->inAccountID = $inAccountID;
-        return $this;
+      $this->inAccountID = $inAccountID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetID
      */
     public function getInCampaignName()
     {
-        return $this->inCampaignName;
+      return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return GetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetID
      */
     public function setInCampaignName($inCampaignName)
     {
-        $this->inCampaignName = $inCampaignName;
-        return $this;
+      $this->inCampaignName = $inCampaignName;
+      return $this;
     }
 
 }

@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
+class ArrayOfTrackEvent implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     protected $TrackEvent = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function getTrackEvent()
     {
-        return $this->TrackEvent;
+      return $this->TrackEvent;
     }
 
     /**
      * @param TrackEvent[] $TrackEvent
-     * @return ArrayOfTrackEvent
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\ArrayOfTrackEvent
      */
     public function setTrackEvent(array $TrackEvent = null)
     {
-        $this->TrackEvent = $TrackEvent;
-        return $this;
+      $this->TrackEvent = $TrackEvent;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->TrackEvent[$offset]);
+      return isset($this->TrackEvent[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->TrackEvent[$offset];
+      return $this->TrackEvent[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->TrackEvent[] = $value;
-        } else {
-            $this->TrackEvent[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->TrackEvent[] = $value;
+      } else {
+        $this->TrackEvent[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->TrackEvent[$offset]);
+      unset($this->TrackEvent[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->TrackEvent);
+      return current($this->TrackEvent);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->TrackEvent);
+      next($this->TrackEvent);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->TrackEvent);
+      return key($this->TrackEvent);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->TrackEvent);
+      reset($this->TrackEvent);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfTrackEvent implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->TrackEvent);
+      return count($this->TrackEvent);
     }
 
 }

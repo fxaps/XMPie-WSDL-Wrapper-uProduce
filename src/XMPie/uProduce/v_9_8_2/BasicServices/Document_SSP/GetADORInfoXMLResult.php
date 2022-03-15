@@ -15,7 +15,7 @@ class GetADORInfoXMLResult
      */
     public function __construct($any = null)
     {
-        $this->any = $any;
+      $this->any = $any;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetADORInfoXMLResult
      */
     public function getAny()
     {
-        return $this->any;
+      return $this->any;
     }
 
     /**
      * @param string $any
-     * @return GetADORInfoXMLResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetADORInfoXMLResult
      */
     public function setAny($any)
     {
-        $this->any = $any;
-        return $this;
+      $this->any = $any;
+      return $this;
     }
 
 }

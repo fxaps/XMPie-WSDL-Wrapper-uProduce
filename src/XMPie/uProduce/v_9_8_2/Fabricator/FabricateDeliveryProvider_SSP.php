@@ -123,10 +123,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNew
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNew
+    */
     public function CreateNew($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -141,10 +141,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfEmailProviderParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfEmailProviderParameter
+    */
     public function ArrayOfEmailProviderParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -159,10 +159,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailProviderParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailProviderParameter
+    */
     public function EmailProviderParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -177,10 +177,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfProperty
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfProperty
+    */
     public function ArrayOfProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -195,10 +195,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Property
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Property
+    */
     public function Property($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -213,10 +213,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewResponse
+    */
     public function CreateNewResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -231,10 +231,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Replace
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Replace
+    */
     public function Replace($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -249,10 +249,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ReplaceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ReplaceResponse
+    */
     public function ReplaceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -267,10 +267,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Delete
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Delete
+    */
     public function Delete($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -285,10 +285,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteResponse
+    */
     public function DeleteResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -303,10 +303,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCustomer
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCustomer
+    */
     public function GetCustomer($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -321,10 +321,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCustomerResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCustomerResponse
+    */
     public function GetCustomerResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -339,10 +339,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetProperty
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetProperty
+    */
     public function GetProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -357,10 +357,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPropertyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPropertyResponse
+    */
     public function GetPropertyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -375,10 +375,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetProperties
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetProperties
+    */
     public function GetProperties($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -393,10 +393,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfString
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfString
+    */
     public function ArrayOfString($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -411,10 +411,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPropertiesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPropertiesResponse
+    */
     public function GetPropertiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -429,10 +429,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAllProperties
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAllProperties
+    */
     public function GetAllProperties($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -447,10 +447,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAllPropertiesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAllPropertiesResponse
+    */
     public function GetAllPropertiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -465,10 +465,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDataSet
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDataSet
+    */
     public function GetDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -483,10 +483,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDataSetResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDataSetResponse
+    */
     public function GetDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -501,10 +501,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDataSetResult
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDataSetResult
+    */
     public function GetDataSetResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -519,10 +519,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetXMPTblDataSet
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetXMPTblDataSet
+    */
     public function GetXMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -537,10 +537,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetXMPTblDataSetResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetXMPTblDataSetResponse
+    */
     public function GetXMPTblDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -555,10 +555,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return XMPTblDataSet
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return XMPTblDataSet
+    */
     public function XMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -573,10 +573,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfXMPTbl
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfXMPTbl
+    */
     public function ArrayOfXMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -591,10 +591,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return XMPTbl
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return XMPTbl
+    */
     public function XMPTbl($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -609,10 +609,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfXMPTblColumn
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfXMPTblColumn
+    */
     public function ArrayOfXMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -627,10 +627,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return XMPTblColumn
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return XMPTblColumn
+    */
     public function XMPTblColumn($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -645,10 +645,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfXMPTblRow
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfXMPTblRow
+    */
     public function ArrayOfXMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -663,10 +663,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return XMPTblRow
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return XMPTblRow
+    */
     public function XMPTblRow($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -681,10 +681,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfXMPRowField
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfXMPRowField
+    */
     public function ArrayOfXMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -699,10 +699,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return XMPRowField
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return XMPRowField
+    */
     public function XMPRowField($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -717,10 +717,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetProperty
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetProperty
+    */
     public function SetProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -735,10 +735,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPropertyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPropertyResponse
+    */
     public function SetPropertyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -753,10 +753,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetProperties
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetProperties
+    */
     public function SetProperties($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -771,10 +771,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPropertiesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPropertiesResponse
+    */
     public function SetPropertiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -789,10 +789,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderParameters
+    */
     public function GetDeliveryProviderParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -807,10 +807,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderParametersResponse
+    */
     public function GetDeliveryProviderParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -825,10 +825,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDeliveryProviderParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDeliveryProviderParameters
+    */
     public function SetDeliveryProviderParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -843,10 +843,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDeliveryProviderParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDeliveryProviderParametersResponse
+    */
     public function SetDeliveryProviderParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -861,10 +861,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetID
+    */
     public function GetID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -879,10 +879,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetIDResponse
+    */
     public function GetIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -897,10 +897,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderInfo
+    */
     public function GetDeliveryProviderInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -915,10 +915,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderInfoResponse
+    */
     public function GetDeliveryProviderInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -933,10 +933,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailProviderInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailProviderInfo
+    */
     public function EmailProviderInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -951,10 +951,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderTypes
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderTypes
+    */
     public function GetDeliveryProviderTypes($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -969,10 +969,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderTypesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderTypesResponse
+    */
     public function GetDeliveryProviderTypesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -987,10 +987,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderTypesResult
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderTypesResult
+    */
     public function GetDeliveryProviderTypesResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1005,10 +1005,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderTypesXMPTblDataSet
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderTypesXMPTblDataSet
+    */
     public function GetDeliveryProviderTypesXMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1023,10 +1023,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderTypesXMPTblDataSetResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderTypesXMPTblDataSetResponse
+    */
     public function GetDeliveryProviderTypesXMPTblDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1041,10 +1041,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderType
+    */
     public function GetDeliveryProviderType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1059,10 +1059,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderTypeResponse
+    */
     public function GetDeliveryProviderTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1077,10 +1077,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderTypeResult
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderTypeResult
+    */
     public function GetDeliveryProviderTypeResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1095,10 +1095,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderTypeXMPTblDataSet
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderTypeXMPTblDataSet
+    */
     public function GetDeliveryProviderTypeXMPTblDataSet($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1113,10 +1113,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderTypeXMPTblDataSetResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderTypeXMPTblDataSetResponse
+    */
     public function GetDeliveryProviderTypeXMPTblDataSetResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1131,10 +1131,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SendMail
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SendMail
+    */
     public function SendMail($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1149,10 +1149,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailHeaderInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailHeaderInfo
+    */
     public function EmailHeaderInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1167,10 +1167,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfEmailAddress
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfEmailAddress
+    */
     public function ArrayOfEmailAddress($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1185,10 +1185,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailAddress
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailAddress
+    */
     public function EmailAddress($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1203,10 +1203,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfEmailBodyInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfEmailBodyInfo
+    */
     public function ArrayOfEmailBodyInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1221,10 +1221,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailBodyInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailBodyInfo
+    */
     public function EmailBodyInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1239,10 +1239,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailBodyOptions
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailBodyOptions
+    */
     public function EmailBodyOptions($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1257,10 +1257,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return URLInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return URLInfo
+    */
     public function URLInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1275,10 +1275,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SendMailResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SendMailResponse
+    */
     public function SendMailResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1293,10 +1293,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SendEmailResult
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SendEmailResult
+    */
     public function SendEmailResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1311,10 +1311,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SendMailByProviderInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SendMailByProviderInfo
+    */
     public function SendMailByProviderInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1329,10 +1329,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SendMailByProviderInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SendMailByProviderInfoResponse
+    */
     public function SendMailByProviderInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1347,10 +1347,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ProviderCustomActionByProviderInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ProviderCustomActionByProviderInfo
+    */
     public function ProviderCustomActionByProviderInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1365,10 +1365,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ProviderCustomActionByProviderInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ProviderCustomActionByProviderInfoResponse
+    */
     public function ProviderCustomActionByProviderInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1383,10 +1383,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ProviderCustomAction
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ProviderCustomAction
+    */
     public function ProviderCustomAction($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1401,10 +1401,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ProviderCustomActionResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ProviderCustomActionResponse
+    */
     public function ProviderCustomActionResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1419,10 +1419,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsExist
+    */
     public function IsExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1437,10 +1437,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsExistResponse
+    */
     public function IsExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1455,10 +1455,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetStatus
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetStatus
+    */
     public function GetStatus($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1473,10 +1473,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetStatusResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetStatusResponse
+    */
     public function GetStatusResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1491,10 +1491,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return StatusInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return StatusInfo
+    */
     public function StatusInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1509,10 +1509,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetSettings
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetSettings
+    */
     public function SetSettings($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1527,10 +1527,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfSetting
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfSetting
+    */
     public function ArrayOfSetting($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1545,10 +1545,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Setting
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Setting
+    */
     public function Setting($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1563,10 +1563,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetSettingsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetSettingsResponse
+    */
     public function SetSettingsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1581,10 +1581,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSettings
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSettings
+    */
     public function GetSettings($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1599,10 +1599,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSettingsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSettingsResponse
+    */
     public function GetSettingsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1617,10 +1617,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteSettings
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteSettings
+    */
     public function DeleteSettings($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1635,10 +1635,10 @@ class FabricateDeliveryProvider_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteSettingsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteSettingsResponse
+    */
     public function DeleteSettingsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1651,6 +1651,7 @@ class FabricateDeliveryProvider_SSP
         }
         return $DeleteSettingsResponse;
     }
+
 
 
 }

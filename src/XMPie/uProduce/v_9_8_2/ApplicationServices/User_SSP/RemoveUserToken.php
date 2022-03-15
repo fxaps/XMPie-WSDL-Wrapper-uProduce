@@ -27,9 +27,9 @@ class RemoveUserToken
      */
     public function __construct($inUsername = null, $inPassword = null, $inToken = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inToken = $inToken;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inToken = $inToken;
     }
 
     /**
@@ -37,17 +37,17 @@ class RemoveUserToken
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return RemoveUserToken
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\User_SSP\RemoveUserToken
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class RemoveUserToken
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return RemoveUserToken
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\User_SSP\RemoveUserToken
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class RemoveUserToken
      */
     public function getInToken()
     {
-        return $this->inToken;
+      return $this->inToken;
     }
 
     /**
      * @param string $inToken
-     * @return RemoveUserToken
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\User_SSP\RemoveUserToken
      */
     public function setInToken($inToken)
     {
-        $this->inToken = $inToken;
-        return $this;
+      $this->inToken = $inToken;
+      return $this;
     }
 
 }

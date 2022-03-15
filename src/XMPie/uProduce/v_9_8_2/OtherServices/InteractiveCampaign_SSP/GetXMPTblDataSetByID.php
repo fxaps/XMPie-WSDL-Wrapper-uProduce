@@ -27,9 +27,9 @@ class GetXMPTblDataSetByID
      */
     public function __construct($inUsername = null, $inPassword = null, $inPortID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPortID = $inPortID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPortID = $inPortID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetXMPTblDataSetByID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetXMPTblDataSetByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetXMPTblDataSetByID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetXMPTblDataSetByID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetXMPTblDataSetByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetXMPTblDataSetByID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetXMPTblDataSetByID
      */
     public function getInPortID()
     {
-        return $this->inPortID;
+      return $this->inPortID;
     }
 
     /**
      * @param string $inPortID
-     * @return GetXMPTblDataSetByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetXMPTblDataSetByID
      */
     public function setInPortID($inPortID)
     {
-        $this->inPortID = $inPortID;
-        return $this;
+      $this->inPortID = $inPortID;
+      return $this;
     }
 
 }

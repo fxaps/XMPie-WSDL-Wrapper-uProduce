@@ -33,10 +33,10 @@ class GetProperties
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inPropertiesNames = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDocumentID = $inDocumentID;
-        $this->inPropertiesNames = $inPropertiesNames;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDocumentID = $inDocumentID;
+      $this->inPropertiesNames = $inPropertiesNames;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetProperties
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetProperties
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetProperties
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetProperties
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetProperties
      */
     public function getInDocumentID()
     {
-        return $this->inDocumentID;
+      return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return GetProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetProperties
      */
     public function setInDocumentID($inDocumentID)
     {
-        $this->inDocumentID = $inDocumentID;
-        return $this;
+      $this->inDocumentID = $inDocumentID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetProperties
      */
     public function getInPropertiesNames()
     {
-        return $this->inPropertiesNames;
+      return $this->inPropertiesNames;
     }
 
     /**
      * @param ArrayOfString $inPropertiesNames
-     * @return GetProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetProperties
      */
     public function setInPropertiesNames($inPropertiesNames)
     {
-        $this->inPropertiesNames = $inPropertiesNames;
-        return $this;
+      $this->inPropertiesNames = $inPropertiesNames;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class IsCompressionExistResponse
      */
     public function __construct($IsCompressionExistResult = null)
     {
-        $this->IsCompressionExistResult = $IsCompressionExistResult;
+      $this->IsCompressionExistResult = $IsCompressionExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsCompressionExistResponse
      */
     public function getIsCompressionExistResult()
     {
-        return $this->IsCompressionExistResult;
+      return $this->IsCompressionExistResult;
     }
 
     /**
      * @param boolean $IsCompressionExistResult
-     * @return IsCompressionExistResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsCompressionExistResponse
      */
     public function setIsCompressionExistResult($IsCompressionExistResult)
     {
-        $this->IsCompressionExistResult = $IsCompressionExistResult;
-        return $this;
+      $this->IsCompressionExistResult = $IsCompressionExistResult;
+      return $this;
     }
 
 }

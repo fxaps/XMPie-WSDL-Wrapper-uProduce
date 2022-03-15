@@ -45,12 +45,12 @@ class CreateNewWithProperties
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobTicket = null, $inICPName = null, $inTouchPointID = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobTicket = $inJobTicket;
-        $this->inICPName = $inICPName;
-        $this->inTouchPointID = $inTouchPointID;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobTicket = $inJobTicket;
+      $this->inICPName = $inICPName;
+      $this->inTouchPointID = $inTouchPointID;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -58,17 +58,17 @@ class CreateNewWithProperties
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNewWithProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNewWithProperties
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class CreateNewWithProperties
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNewWithProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNewWithProperties
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class CreateNewWithProperties
      */
     public function getInJobTicket()
     {
-        return $this->inJobTicket;
+      return $this->inJobTicket;
     }
 
     /**
      * @param string $inJobTicket
-     * @return CreateNewWithProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNewWithProperties
      */
     public function setInJobTicket($inJobTicket)
     {
-        $this->inJobTicket = $inJobTicket;
-        return $this;
+      $this->inJobTicket = $inJobTicket;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class CreateNewWithProperties
      */
     public function getInICPName()
     {
-        return $this->inICPName;
+      return $this->inICPName;
     }
 
     /**
      * @param string $inICPName
-     * @return CreateNewWithProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNewWithProperties
      */
     public function setInICPName($inICPName)
     {
-        $this->inICPName = $inICPName;
-        return $this;
+      $this->inICPName = $inICPName;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class CreateNewWithProperties
      */
     public function getInTouchPointID()
     {
-        return $this->inTouchPointID;
+      return $this->inTouchPointID;
     }
 
     /**
      * @param string $inTouchPointID
-     * @return CreateNewWithProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNewWithProperties
      */
     public function setInTouchPointID($inTouchPointID)
     {
-        $this->inTouchPointID = $inTouchPointID;
-        return $this;
+      $this->inTouchPointID = $inTouchPointID;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class CreateNewWithProperties
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNewWithProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNewWithProperties
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

@@ -51,13 +51,13 @@ class CreateNewFromURL
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inType = null, $inURL = null, $inName = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inType = $inType;
-        $this->inURL = $inURL;
-        $this->inName = $inName;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inType = $inType;
+      $this->inURL = $inURL;
+      $this->inName = $inName;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class CreateNewFromURL
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNewFromURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromURL
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class CreateNewFromURL
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNewFromURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromURL
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class CreateNewFromURL
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return CreateNewFromURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromURL
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class CreateNewFromURL
      */
     public function getInType()
     {
-        return $this->inType;
+      return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return CreateNewFromURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromURL
      */
     public function setInType($inType)
     {
-        $this->inType = $inType;
-        return $this;
+      $this->inType = $inType;
+      return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class CreateNewFromURL
      */
     public function getInURL()
     {
-        return $this->inURL;
+      return $this->inURL;
     }
 
     /**
      * @param string $inURL
-     * @return CreateNewFromURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromURL
      */
     public function setInURL($inURL)
     {
-        $this->inURL = $inURL;
-        return $this;
+      $this->inURL = $inURL;
+      return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class CreateNewFromURL
      */
     public function getInName()
     {
-        return $this->inName;
+      return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return CreateNewFromURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromURL
      */
     public function setInName($inName)
     {
-        $this->inName = $inName;
-        return $this;
+      $this->inName = $inName;
+      return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class CreateNewFromURL
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNewFromURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewFromURL
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SetDocumentResponse
      */
     public function __construct($SetDocumentResult = null)
     {
-        $this->SetDocumentResult = $SetDocumentResult;
+      $this->SetDocumentResult = $SetDocumentResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetDocumentResponse
      */
     public function getSetDocumentResult()
     {
-        return $this->SetDocumentResult;
+      return $this->SetDocumentResult;
     }
 
     /**
      * @param boolean $SetDocumentResult
-     * @return SetDocumentResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDocumentResponse
      */
     public function setSetDocumentResult($SetDocumentResult)
     {
-        $this->SetDocumentResult = $SetDocumentResult;
-        return $this;
+      $this->SetDocumentResult = $SetDocumentResult;
+      return $this;
     }
 
 }

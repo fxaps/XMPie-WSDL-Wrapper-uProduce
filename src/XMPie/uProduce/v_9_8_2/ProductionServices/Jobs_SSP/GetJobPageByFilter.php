@@ -51,13 +51,13 @@ class GetJobPageByFilter
      */
     public function __construct($inUsername = null, $inPassword = null, $inFilter = null, $inJobId = null, $inPageSize = null, $inOrderByField = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inFilter = $inFilter;
-        $this->inJobId = $inJobId;
-        $this->inPageSize = $inPageSize;
-        $this->inOrderByField = $inOrderByField;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inFilter = $inFilter;
+      $this->inJobId = $inJobId;
+      $this->inPageSize = $inPageSize;
+      $this->inOrderByField = $inOrderByField;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class GetJobPageByFilter
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetJobPageByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobPageByFilter
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class GetJobPageByFilter
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetJobPageByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobPageByFilter
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class GetJobPageByFilter
      */
     public function getInFilter()
     {
-        return $this->inFilter;
+      return $this->inFilter;
     }
 
     /**
      * @param ArrayOfJobQueryPart $inFilter
-     * @return GetJobPageByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobPageByFilter
      */
     public function setInFilter($inFilter)
     {
-        $this->inFilter = $inFilter;
-        return $this;
+      $this->inFilter = $inFilter;
+      return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class GetJobPageByFilter
      */
     public function getInJobId()
     {
-        return $this->inJobId;
+      return $this->inJobId;
     }
 
     /**
      * @param string $inJobId
-     * @return GetJobPageByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobPageByFilter
      */
     public function setInJobId($inJobId)
     {
-        $this->inJobId = $inJobId;
-        return $this;
+      $this->inJobId = $inJobId;
+      return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class GetJobPageByFilter
      */
     public function getInPageSize()
     {
-        return $this->inPageSize;
+      return $this->inPageSize;
     }
 
     /**
      * @param string $inPageSize
-     * @return GetJobPageByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobPageByFilter
      */
     public function setInPageSize($inPageSize)
     {
-        $this->inPageSize = $inPageSize;
-        return $this;
+      $this->inPageSize = $inPageSize;
+      return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class GetJobPageByFilter
      */
     public function getInOrderByField()
     {
-        return $this->inOrderByField;
+      return $this->inOrderByField;
     }
 
     /**
      * @param JobOrderPart $inOrderByField
-     * @return GetJobPageByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobPageByFilter
      */
     public function setInOrderByField($inOrderByField)
     {
-        $this->inOrderByField = $inOrderByField;
-        return $this;
+      $this->inOrderByField = $inOrderByField;
+      return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class GetJobPageByFilter
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return GetJobPageByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobPageByFilter
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

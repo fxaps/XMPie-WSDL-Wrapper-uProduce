@@ -27,9 +27,9 @@ class GetModificationDate
      */
     public function __construct($inUsername = null, $inPassword = null, $inFontID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inFontID = $inFontID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inFontID = $inFontID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetModificationDate
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetModificationDate
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetModificationDate
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetModificationDate
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetModificationDate
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetModificationDate
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetModificationDate
      */
     public function getInFontID()
     {
-        return $this->inFontID;
+      return $this->inFontID;
     }
 
     /**
      * @param string $inFontID
-     * @return GetModificationDate
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetModificationDate
      */
     public function setInFontID($inFontID)
     {
-        $this->inFontID = $inFontID;
-        return $this;
+      $this->inFontID = $inFontID;
+      return $this;
     }
 
 }

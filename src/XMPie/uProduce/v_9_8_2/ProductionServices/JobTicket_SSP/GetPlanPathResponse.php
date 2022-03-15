@@ -15,7 +15,7 @@ class GetPlanPathResponse
      */
     public function __construct($GetPlanPathResult = null)
     {
-        $this->GetPlanPathResult = $GetPlanPathResult;
+      $this->GetPlanPathResult = $GetPlanPathResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPlanPathResponse
      */
     public function getGetPlanPathResult()
     {
-        return $this->GetPlanPathResult;
+      return $this->GetPlanPathResult;
     }
 
     /**
      * @param string $GetPlanPathResult
-     * @return GetPlanPathResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetPlanPathResponse
      */
     public function setGetPlanPathResult($GetPlanPathResult)
     {
-        $this->GetPlanPathResult = $GetPlanPathResult;
-        return $this;
+      $this->GetPlanPathResult = $GetPlanPathResult;
+      return $this;
     }
 
 }

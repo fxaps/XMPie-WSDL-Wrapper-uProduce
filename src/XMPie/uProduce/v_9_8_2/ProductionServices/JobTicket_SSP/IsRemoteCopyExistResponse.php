@@ -15,7 +15,7 @@ class IsRemoteCopyExistResponse
      */
     public function __construct($IsRemoteCopyExistResult = null)
     {
-        $this->IsRemoteCopyExistResult = $IsRemoteCopyExistResult;
+      $this->IsRemoteCopyExistResult = $IsRemoteCopyExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsRemoteCopyExistResponse
      */
     public function getIsRemoteCopyExistResult()
     {
-        return $this->IsRemoteCopyExistResult;
+      return $this->IsRemoteCopyExistResult;
     }
 
     /**
      * @param boolean $IsRemoteCopyExistResult
-     * @return IsRemoteCopyExistResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsRemoteCopyExistResponse
      */
     public function setIsRemoteCopyExistResult($IsRemoteCopyExistResult)
     {
-        $this->IsRemoteCopyExistResult = $IsRemoteCopyExistResult;
-        return $this;
+      $this->IsRemoteCopyExistResult = $IsRemoteCopyExistResult;
+      return $this;
     }
 
 }

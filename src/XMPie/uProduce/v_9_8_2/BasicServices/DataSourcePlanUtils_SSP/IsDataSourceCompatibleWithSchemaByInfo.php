@@ -39,11 +39,11 @@ class IsDataSourceCompatibleWithSchemaByInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inSchemaname = null, $inConnectionInfo = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPlanID = $inPlanID;
-        $this->inSchemaname = $inSchemaname;
-        $this->inConnectionInfo = $inConnectionInfo;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPlanID = $inPlanID;
+      $this->inSchemaname = $inSchemaname;
+      $this->inConnectionInfo = $inConnectionInfo;
     }
 
     /**
@@ -51,17 +51,17 @@ class IsDataSourceCompatibleWithSchemaByInfo
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return IsDataSourceCompatibleWithSchemaByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsDataSourceCompatibleWithSchemaByInfo
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class IsDataSourceCompatibleWithSchemaByInfo
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return IsDataSourceCompatibleWithSchemaByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsDataSourceCompatibleWithSchemaByInfo
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class IsDataSourceCompatibleWithSchemaByInfo
      */
     public function getInPlanID()
     {
-        return $this->inPlanID;
+      return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return IsDataSourceCompatibleWithSchemaByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsDataSourceCompatibleWithSchemaByInfo
      */
     public function setInPlanID($inPlanID)
     {
-        $this->inPlanID = $inPlanID;
-        return $this;
+      $this->inPlanID = $inPlanID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class IsDataSourceCompatibleWithSchemaByInfo
      */
     public function getInSchemaname()
     {
-        return $this->inSchemaname;
+      return $this->inSchemaname;
     }
 
     /**
      * @param string $inSchemaname
-     * @return IsDataSourceCompatibleWithSchemaByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsDataSourceCompatibleWithSchemaByInfo
      */
     public function setInSchemaname($inSchemaname)
     {
-        $this->inSchemaname = $inSchemaname;
-        return $this;
+      $this->inSchemaname = $inSchemaname;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class IsDataSourceCompatibleWithSchemaByInfo
      */
     public function getInConnectionInfo()
     {
-        return $this->inConnectionInfo;
+      return $this->inConnectionInfo;
     }
 
     /**
      * @param Connection $inConnectionInfo
-     * @return IsDataSourceCompatibleWithSchemaByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsDataSourceCompatibleWithSchemaByInfo
      */
     public function setInConnectionInfo($inConnectionInfo)
     {
-        $this->inConnectionInfo = $inConnectionInfo;
-        return $this;
+      $this->inConnectionInfo = $inConnectionInfo;
+      return $this;
     }
 
 }

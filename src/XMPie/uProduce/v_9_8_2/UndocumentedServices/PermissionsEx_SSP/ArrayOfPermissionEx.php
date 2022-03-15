@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
+class ArrayOfPermissionEx implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     protected $PermissionEx = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function getPermissionEx()
     {
-        return $this->PermissionEx;
+      return $this->PermissionEx;
     }
 
     /**
      * @param PermissionEx[] $PermissionEx
-     * @return ArrayOfPermissionEx
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\ArrayOfPermissionEx
      */
     public function setPermissionEx(array $PermissionEx = null)
     {
-        $this->PermissionEx = $PermissionEx;
-        return $this;
+      $this->PermissionEx = $PermissionEx;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->PermissionEx[$offset]);
+      return isset($this->PermissionEx[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->PermissionEx[$offset];
+      return $this->PermissionEx[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->PermissionEx[] = $value;
-        } else {
-            $this->PermissionEx[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->PermissionEx[] = $value;
+      } else {
+        $this->PermissionEx[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->PermissionEx[$offset]);
+      unset($this->PermissionEx[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->PermissionEx);
+      return current($this->PermissionEx);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->PermissionEx);
+      next($this->PermissionEx);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->PermissionEx);
+      return key($this->PermissionEx);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->PermissionEx);
+      reset($this->PermissionEx);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfPermissionEx implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->PermissionEx);
+      return count($this->PermissionEx);
     }
 
 }

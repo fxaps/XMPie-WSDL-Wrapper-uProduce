@@ -30,7 +30,7 @@ class URLInfo
      */
     public function __construct($m_ProxyPort = null)
     {
-        $this->m_ProxyPort = $m_ProxyPort;
+      $this->m_ProxyPort = $m_ProxyPort;
     }
 
     /**
@@ -38,17 +38,17 @@ class URLInfo
      */
     public function getM_ProxyServer()
     {
-        return $this->m_ProxyServer;
+      return $this->m_ProxyServer;
     }
 
     /**
      * @param string $m_ProxyServer
-     * @return URLInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\URLInfo
      */
     public function setM_ProxyServer($m_ProxyServer)
     {
-        $this->m_ProxyServer = $m_ProxyServer;
-        return $this;
+      $this->m_ProxyServer = $m_ProxyServer;
+      return $this;
     }
 
     /**
@@ -56,17 +56,17 @@ class URLInfo
      */
     public function getM_ProxyPort()
     {
-        return $this->m_ProxyPort;
+      return $this->m_ProxyPort;
     }
 
     /**
      * @param int $m_ProxyPort
-     * @return URLInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\URLInfo
      */
     public function setM_ProxyPort($m_ProxyPort)
     {
-        $this->m_ProxyPort = $m_ProxyPort;
-        return $this;
+      $this->m_ProxyPort = $m_ProxyPort;
+      return $this;
     }
 
     /**
@@ -74,17 +74,17 @@ class URLInfo
      */
     public function getM_BaseURL()
     {
-        return $this->m_BaseURL;
+      return $this->m_BaseURL;
     }
 
     /**
      * @param string $m_BaseURL
-     * @return URLInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\URLInfo
      */
     public function setM_BaseURL($m_BaseURL)
     {
-        $this->m_BaseURL = $m_BaseURL;
-        return $this;
+      $this->m_BaseURL = $m_BaseURL;
+      return $this;
     }
 
     /**
@@ -92,17 +92,17 @@ class URLInfo
      */
     public function getM_Charset()
     {
-        return $this->m_Charset;
+      return $this->m_Charset;
     }
 
     /**
      * @param string $m_Charset
-     * @return URLInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\URLInfo
      */
     public function setM_Charset($m_Charset)
     {
-        $this->m_Charset = $m_Charset;
-        return $this;
+      $this->m_Charset = $m_Charset;
+      return $this;
     }
 
 }

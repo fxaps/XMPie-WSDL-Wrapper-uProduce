@@ -15,7 +15,7 @@ class GetResourceBinaryFileStreamSizeByFileNameResponse
      */
     public function __construct($GetResourceBinaryFileStreamSizeByFileNameResult = null)
     {
-        $this->GetResourceBinaryFileStreamSizeByFileNameResult = $GetResourceBinaryFileStreamSizeByFileNameResult;
+      $this->GetResourceBinaryFileStreamSizeByFileNameResult = $GetResourceBinaryFileStreamSizeByFileNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetResourceBinaryFileStreamSizeByFileNameResponse
      */
     public function getGetResourceBinaryFileStreamSizeByFileNameResult()
     {
-        return $this->GetResourceBinaryFileStreamSizeByFileNameResult;
+      return $this->GetResourceBinaryFileStreamSizeByFileNameResult;
     }
 
     /**
      * @param int $GetResourceBinaryFileStreamSizeByFileNameResult
-     * @return GetResourceBinaryFileStreamSizeByFileNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamSizeByFileNameResponse
      */
     public function setGetResourceBinaryFileStreamSizeByFileNameResult($GetResourceBinaryFileStreamSizeByFileNameResult)
     {
-        $this->GetResourceBinaryFileStreamSizeByFileNameResult = $GetResourceBinaryFileStreamSizeByFileNameResult;
-        return $this;
+      $this->GetResourceBinaryFileStreamSizeByFileNameResult = $GetResourceBinaryFileStreamSizeByFileNameResult;
+      return $this;
     }
 
 }

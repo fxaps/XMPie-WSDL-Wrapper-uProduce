@@ -15,7 +15,7 @@ class IsImpositionExistResponse
      */
     public function __construct($IsImpositionExistResult = null)
     {
-        $this->IsImpositionExistResult = $IsImpositionExistResult;
+      $this->IsImpositionExistResult = $IsImpositionExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsImpositionExistResponse
      */
     public function getIsImpositionExistResult()
     {
-        return $this->IsImpositionExistResult;
+      return $this->IsImpositionExistResult;
     }
 
     /**
      * @param boolean $IsImpositionExistResult
-     * @return IsImpositionExistResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsImpositionExistResponse
      */
     public function setIsImpositionExistResult($IsImpositionExistResult)
     {
-        $this->IsImpositionExistResult = $IsImpositionExistResult;
-        return $this;
+      $this->IsImpositionExistResult = $IsImpositionExistResult;
+      return $this;
     }
 
 }

@@ -10,10 +10,10 @@ class XMPRowField
      */
     protected $m_FieldValue = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -21,17 +21,17 @@ class XMPRowField
      */
     public function getM_FieldValue()
     {
-        return $this->m_FieldValue;
+      return $this->m_FieldValue;
     }
 
     /**
      * @param string $m_FieldValue
-     * @return XMPRowField
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\XMPRowField
      */
     public function setM_FieldValue($m_FieldValue)
     {
-        $this->m_FieldValue = $m_FieldValue;
-        return $this;
+      $this->m_FieldValue = $m_FieldValue;
+      return $this;
     }
 
 }

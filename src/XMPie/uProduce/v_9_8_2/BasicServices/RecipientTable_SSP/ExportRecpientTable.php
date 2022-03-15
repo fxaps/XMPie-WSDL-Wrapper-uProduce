@@ -51,13 +51,13 @@ class ExportRecpientTable
      */
     public function __construct($inUsername = null, $inPassword = null, $inRecipientTableID = null, $inFilter = null, $inParamArray = null, $inOutputType = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inRecipientTableID = $inRecipientTableID;
-        $this->inFilter = $inFilter;
-        $this->inParamArray = $inParamArray;
-        $this->inOutputType = $inOutputType;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inRecipientTableID = $inRecipientTableID;
+      $this->inFilter = $inFilter;
+      $this->inParamArray = $inParamArray;
+      $this->inOutputType = $inOutputType;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class ExportRecpientTable
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return ExportRecpientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\ExportRecpientTable
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class ExportRecpientTable
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return ExportRecpientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\ExportRecpientTable
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class ExportRecpientTable
      */
     public function getInRecipientTableID()
     {
-        return $this->inRecipientTableID;
+      return $this->inRecipientTableID;
     }
 
     /**
      * @param string $inRecipientTableID
-     * @return ExportRecpientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\ExportRecpientTable
      */
     public function setInRecipientTableID($inRecipientTableID)
     {
-        $this->inRecipientTableID = $inRecipientTableID;
-        return $this;
+      $this->inRecipientTableID = $inRecipientTableID;
+      return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class ExportRecpientTable
      */
     public function getInFilter()
     {
-        return $this->inFilter;
+      return $this->inFilter;
     }
 
     /**
      * @param string $inFilter
-     * @return ExportRecpientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\ExportRecpientTable
      */
     public function setInFilter($inFilter)
     {
-        $this->inFilter = $inFilter;
-        return $this;
+      $this->inFilter = $inFilter;
+      return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class ExportRecpientTable
      */
     public function getInParamArray()
     {
-        return $this->inParamArray;
+      return $this->inParamArray;
     }
 
     /**
      * @param ArrayOfDataParameter $inParamArray
-     * @return ExportRecpientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\ExportRecpientTable
      */
     public function setInParamArray($inParamArray)
     {
-        $this->inParamArray = $inParamArray;
-        return $this;
+      $this->inParamArray = $inParamArray;
+      return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class ExportRecpientTable
      */
     public function getInOutputType()
     {
-        return $this->inOutputType;
+      return $this->inOutputType;
     }
 
     /**
      * @param string $inOutputType
-     * @return ExportRecpientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\ExportRecpientTable
      */
     public function setInOutputType($inOutputType)
     {
-        $this->inOutputType = $inOutputType;
-        return $this;
+      $this->inOutputType = $inOutputType;
+      return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class ExportRecpientTable
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return ExportRecpientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\ExportRecpientTable
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

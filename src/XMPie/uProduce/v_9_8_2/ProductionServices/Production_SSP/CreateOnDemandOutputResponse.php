@@ -15,7 +15,7 @@ class CreateOnDemandOutputResponse
      */
     public function __construct($CreateOnDemandOutputResult = null)
     {
-        $this->CreateOnDemandOutputResult = $CreateOnDemandOutputResult;
+      $this->CreateOnDemandOutputResult = $CreateOnDemandOutputResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateOnDemandOutputResponse
      */
     public function getCreateOnDemandOutputResult()
     {
-        return $this->CreateOnDemandOutputResult;
+      return $this->CreateOnDemandOutputResult;
     }
 
     /**
      * @param string $CreateOnDemandOutputResult
-     * @return CreateOnDemandOutputResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\CreateOnDemandOutputResponse
      */
     public function setCreateOnDemandOutputResult($CreateOnDemandOutputResult)
     {
-        $this->CreateOnDemandOutputResult = $CreateOnDemandOutputResult;
-        return $this;
+      $this->CreateOnDemandOutputResult = $CreateOnDemandOutputResult;
+      return $this;
     }
 
 }

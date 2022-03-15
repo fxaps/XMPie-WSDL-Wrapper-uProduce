@@ -15,7 +15,7 @@ class DeletePopulationsResponse
      */
     public function __construct($DeletePopulationsResult = null)
     {
-        $this->DeletePopulationsResult = $DeletePopulationsResult;
+      $this->DeletePopulationsResult = $DeletePopulationsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeletePopulationsResponse
      */
     public function getDeletePopulationsResult()
     {
-        return $this->DeletePopulationsResult;
+      return $this->DeletePopulationsResult;
     }
 
     /**
      * @param boolean $DeletePopulationsResult
-     * @return DeletePopulationsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeletePopulationsResponse
      */
     public function setDeletePopulationsResult($DeletePopulationsResult)
     {
-        $this->DeletePopulationsResult = $DeletePopulationsResult;
-        return $this;
+      $this->DeletePopulationsResult = $DeletePopulationsResult;
+      return $this;
     }
 
 }

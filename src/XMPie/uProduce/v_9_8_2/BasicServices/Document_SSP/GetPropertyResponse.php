@@ -15,7 +15,7 @@ class GetPropertyResponse
      */
     public function __construct($GetPropertyResult = null)
     {
-        $this->GetPropertyResult = $GetPropertyResult;
+      $this->GetPropertyResult = $GetPropertyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPropertyResponse
      */
     public function getGetPropertyResult()
     {
-        return $this->GetPropertyResult;
+      return $this->GetPropertyResult;
     }
 
     /**
      * @param Property $GetPropertyResult
-     * @return GetPropertyResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPropertyResponse
      */
     public function setGetPropertyResult($GetPropertyResult)
     {
-        $this->GetPropertyResult = $GetPropertyResult;
-        return $this;
+      $this->GetPropertyResult = $GetPropertyResult;
+      return $this;
     }
 
 }

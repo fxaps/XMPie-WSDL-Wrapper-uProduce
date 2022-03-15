@@ -39,11 +39,11 @@ class GetSettingsByID
      */
     public function __construct($inUsername = null, $inPassword = null, $inPortID = null, $inSettingsNames = null, $inIncludeInheritable = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPortID = $inPortID;
-        $this->inSettingsNames = $inSettingsNames;
-        $this->inIncludeInheritable = $inIncludeInheritable;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPortID = $inPortID;
+      $this->inSettingsNames = $inSettingsNames;
+      $this->inIncludeInheritable = $inIncludeInheritable;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetSettingsByID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetSettingsByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetSettingsByID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetSettingsByID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetSettingsByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetSettingsByID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetSettingsByID
      */
     public function getInPortID()
     {
-        return $this->inPortID;
+      return $this->inPortID;
     }
 
     /**
      * @param string $inPortID
-     * @return GetSettingsByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetSettingsByID
      */
     public function setInPortID($inPortID)
     {
-        $this->inPortID = $inPortID;
-        return $this;
+      $this->inPortID = $inPortID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetSettingsByID
      */
     public function getInSettingsNames()
     {
-        return $this->inSettingsNames;
+      return $this->inSettingsNames;
     }
 
     /**
      * @param ArrayOfString $inSettingsNames
-     * @return GetSettingsByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetSettingsByID
      */
     public function setInSettingsNames($inSettingsNames)
     {
-        $this->inSettingsNames = $inSettingsNames;
-        return $this;
+      $this->inSettingsNames = $inSettingsNames;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetSettingsByID
      */
     public function getInIncludeInheritable()
     {
-        return $this->inIncludeInheritable;
+      return $this->inIncludeInheritable;
     }
 
     /**
      * @param boolean $inIncludeInheritable
-     * @return GetSettingsByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetSettingsByID
      */
     public function setInIncludeInheritable($inIncludeInheritable)
     {
-        $this->inIncludeInheritable = $inIncludeInheritable;
-        return $this;
+      $this->inIncludeInheritable = $inIncludeInheritable;
+      return $this;
     }
 
 }

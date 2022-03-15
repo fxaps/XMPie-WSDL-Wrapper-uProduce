@@ -27,9 +27,9 @@ class GetSWFFullNameFontStreamWithFamilyAndFaceResponse
      */
     public function __construct($GetSWFFullNameFontStreamWithFamilyAndFaceResult = null, $outFamilyName = null, $outFontFace = null)
     {
-        $this->GetSWFFullNameFontStreamWithFamilyAndFaceResult = $GetSWFFullNameFontStreamWithFamilyAndFaceResult;
-        $this->outFamilyName = $outFamilyName;
-        $this->outFontFace = $outFontFace;
+      $this->GetSWFFullNameFontStreamWithFamilyAndFaceResult = $GetSWFFullNameFontStreamWithFamilyAndFaceResult;
+      $this->outFamilyName = $outFamilyName;
+      $this->outFontFace = $outFontFace;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetSWFFullNameFontStreamWithFamilyAndFaceResponse
      */
     public function getGetSWFFullNameFontStreamWithFamilyAndFaceResult()
     {
-        return $this->GetSWFFullNameFontStreamWithFamilyAndFaceResult;
+      return $this->GetSWFFullNameFontStreamWithFamilyAndFaceResult;
     }
 
     /**
      * @param base64Binary $GetSWFFullNameFontStreamWithFamilyAndFaceResult
-     * @return GetSWFFullNameFontStreamWithFamilyAndFaceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFullNameFontStreamWithFamilyAndFaceResponse
      */
     public function setGetSWFFullNameFontStreamWithFamilyAndFaceResult($GetSWFFullNameFontStreamWithFamilyAndFaceResult)
     {
-        $this->GetSWFFullNameFontStreamWithFamilyAndFaceResult = $GetSWFFullNameFontStreamWithFamilyAndFaceResult;
-        return $this;
+      $this->GetSWFFullNameFontStreamWithFamilyAndFaceResult = $GetSWFFullNameFontStreamWithFamilyAndFaceResult;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetSWFFullNameFontStreamWithFamilyAndFaceResponse
      */
     public function getOutFamilyName()
     {
-        return $this->outFamilyName;
+      return $this->outFamilyName;
     }
 
     /**
      * @param string $outFamilyName
-     * @return GetSWFFullNameFontStreamWithFamilyAndFaceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFullNameFontStreamWithFamilyAndFaceResponse
      */
     public function setOutFamilyName($outFamilyName)
     {
-        $this->outFamilyName = $outFamilyName;
-        return $this;
+      $this->outFamilyName = $outFamilyName;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetSWFFullNameFontStreamWithFamilyAndFaceResponse
      */
     public function getOutFontFace()
     {
-        return $this->outFontFace;
+      return $this->outFontFace;
     }
 
     /**
      * @param string $outFontFace
-     * @return GetSWFFullNameFontStreamWithFamilyAndFaceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFullNameFontStreamWithFamilyAndFaceResponse
      */
     public function setOutFontFace($outFontFace)
     {
-        $this->outFontFace = $outFontFace;
-        return $this;
+      $this->outFontFace = $outFontFace;
+      return $this;
     }
 
 }

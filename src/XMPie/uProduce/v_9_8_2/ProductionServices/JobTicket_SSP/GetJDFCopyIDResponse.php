@@ -15,7 +15,7 @@ class GetJDFCopyIDResponse
      */
     public function __construct($GetJDFCopyIDResult = null)
     {
-        $this->GetJDFCopyIDResult = $GetJDFCopyIDResult;
+      $this->GetJDFCopyIDResult = $GetJDFCopyIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetJDFCopyIDResponse
      */
     public function getGetJDFCopyIDResult()
     {
-        return $this->GetJDFCopyIDResult;
+      return $this->GetJDFCopyIDResult;
     }
 
     /**
      * @param string $GetJDFCopyIDResult
-     * @return GetJDFCopyIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetJDFCopyIDResponse
      */
     public function setGetJDFCopyIDResult($GetJDFCopyIDResult)
     {
-        $this->GetJDFCopyIDResult = $GetJDFCopyIDResult;
-        return $this;
+      $this->GetJDFCopyIDResult = $GetJDFCopyIDResult;
+      return $this;
     }
 
 }

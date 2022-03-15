@@ -3,57 +3,54 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP;
 
 
-use SoapClient;
-use SoapFault;
-
 /**
  * JobMessage Web Service.
  */
-class JobMessage_SSP extends SoapClient
+class JobMessage_SSP extends \SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array(
-        'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\CreateNew',
-        'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\CreateNewResponse',
-        'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\Delete',
-        'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\DeleteResponse',
-        'GetJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetJob',
-        'GetJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetJobResponse',
-        'GetContext' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetContext',
-        'GetContextResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetContextResponse',
-        'GetSeverity' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetSeverity',
-        'GetSeverityResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetSeverityResponse',
-        'GetMessageId' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetMessageId',
-        'GetMessageIdResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetMessageIdResponse',
-        'GetParams' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetParams',
-        'GetParamsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetParamsResponse',
-        'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetProperty',
-        'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetPropertyResponse',
-        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\Property',
-        'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetProperties',
-        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfString',
-        'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetPropertiesResponse',
-        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfProperty',
-        'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetAllProperties',
-        'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetAllPropertiesResponse',
-        'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetDataSet',
-        'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetDataSetResponse',
-        'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetDataSetResult',
-        'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetXMPTblDataSet',
-        'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetXMPTblDataSetResponse',
-        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\XMPTblDataSet',
-        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfXMPTbl',
-        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\XMPTbl',
-        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfXMPTblColumn',
-        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\XMPTblColumn',
-        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfXMPTblRow',
-        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\XMPTblRow',
-        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfXMPRowField',
-        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\XMPRowField',
-    );
+    private static $classmap = array (
+  'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\CreateNew',
+  'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\CreateNewResponse',
+  'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\Delete',
+  'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\DeleteResponse',
+  'GetJob' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetJob',
+  'GetJobResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetJobResponse',
+  'GetContext' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetContext',
+  'GetContextResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetContextResponse',
+  'GetSeverity' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetSeverity',
+  'GetSeverityResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetSeverityResponse',
+  'GetMessageId' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetMessageId',
+  'GetMessageIdResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetMessageIdResponse',
+  'GetParams' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetParams',
+  'GetParamsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetParamsResponse',
+  'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetProperty',
+  'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetPropertyResponse',
+  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\Property',
+  'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetProperties',
+  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfString',
+  'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetPropertiesResponse',
+  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfProperty',
+  'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetAllProperties',
+  'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetAllPropertiesResponse',
+  'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetDataSet',
+  'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetDataSetResponse',
+  'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetDataSetResult',
+  'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetXMPTblDataSet',
+  'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\GetXMPTblDataSetResponse',
+  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\XMPTblDataSet',
+  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfXMPTbl',
+  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\XMPTbl',
+  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfXMPTblColumn',
+  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\XMPTblColumn',
+  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfXMPTblRow',
+  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\XMPTblRow',
+  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\ArrayOfXMPRowField',
+  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\JobMessage_SSP\\XMPRowField',
+);
 
     /**
      * @param array $options A array of config values
@@ -62,19 +59,19 @@ class JobMessage_SSP extends SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-
-        foreach (self::$classmap as $key => $value) {
-            if (!isset($options['classmap'][$key])) {
-                $options['classmap'][$key] = $value;
-            }
-        }
-        $options = array_merge(array(
-            'features' => 1,
-        ), $options);
-        if (!$wsdl) {
-            $wsdl = 'http://localhost/xmpiewsapi/JobMessage_SSP.asmx?wsdl';
-        }
-        parent::__construct($wsdl, $options);
+    
+  foreach (self::$classmap as $key => $value) {
+    if (!isset($options['classmap'][$key])) {
+      $options['classmap'][$key] = $value;
+    }
+  }
+      $options = array_merge(array (
+  'features' => 1,
+), $options);
+      if (!$wsdl) {
+        $wsdl = 'http://localhost/xmpiewsapi/JobMessage_SSP.asmx?wsdl';
+      }
+      parent::__construct($wsdl, $options);
     }
 
     /**
@@ -85,7 +82,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function CreateNew(CreateNew $parameters)
     {
-        return $this->__soapCall('CreateNew', array($parameters));
+      return $this->__soapCall('CreateNew', array($parameters));
     }
 
     /**
@@ -96,7 +93,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function Delete(Delete $parameters)
     {
-        return $this->__soapCall('Delete', array($parameters));
+      return $this->__soapCall('Delete', array($parameters));
     }
 
     /**
@@ -107,7 +104,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function GetJob(GetJob $parameters)
     {
-        return $this->__soapCall('GetJob', array($parameters));
+      return $this->__soapCall('GetJob', array($parameters));
     }
 
     /**
@@ -118,7 +115,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function GetContext(GetContext $parameters)
     {
-        return $this->__soapCall('GetContext', array($parameters));
+      return $this->__soapCall('GetContext', array($parameters));
     }
 
     /**
@@ -129,7 +126,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function GetSeverity(GetSeverity $parameters)
     {
-        return $this->__soapCall('GetSeverity', array($parameters));
+      return $this->__soapCall('GetSeverity', array($parameters));
     }
 
     /**
@@ -140,7 +137,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function GetMessageId(GetMessageId $parameters)
     {
-        return $this->__soapCall('GetMessageId', array($parameters));
+      return $this->__soapCall('GetMessageId', array($parameters));
     }
 
     /**
@@ -151,7 +148,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function GetParams(GetParams $parameters)
     {
-        return $this->__soapCall('GetParams', array($parameters));
+      return $this->__soapCall('GetParams', array($parameters));
     }
 
     /**
@@ -162,7 +159,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function GetProperty(GetProperty $parameters)
     {
-        return $this->__soapCall('GetProperty', array($parameters));
+      return $this->__soapCall('GetProperty', array($parameters));
     }
 
     /**
@@ -173,7 +170,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function GetProperties(GetProperties $parameters)
     {
-        return $this->__soapCall('GetProperties', array($parameters));
+      return $this->__soapCall('GetProperties', array($parameters));
     }
 
     /**
@@ -184,7 +181,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function GetAllProperties(GetAllProperties $parameters)
     {
-        return $this->__soapCall('GetAllProperties', array($parameters));
+      return $this->__soapCall('GetAllProperties', array($parameters));
     }
 
     /**
@@ -195,7 +192,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function GetDataSet(GetDataSet $parameters)
     {
-        return $this->__soapCall('GetDataSet', array($parameters));
+      return $this->__soapCall('GetDataSet', array($parameters));
     }
 
     /**
@@ -206,7 +203,7 @@ class JobMessage_SSP extends SoapClient
      */
     public function GetXMPTblDataSet(GetXMPTblDataSet $parameters)
     {
-        return $this->__soapCall('GetXMPTblDataSet', array($parameters));
+      return $this->__soapCall('GetXMPTblDataSet', array($parameters));
     }
 
 }

@@ -51,13 +51,13 @@ class AddFileToOutputResults
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobID = null, $inFilePath = null, $inDeleteSource = null, $inDeleteEmptySourceFolder = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobID = $inJobID;
-        $this->inFilePath = $inFilePath;
-        $this->inDeleteSource = $inDeleteSource;
-        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobID = $inJobID;
+      $this->inFilePath = $inFilePath;
+      $this->inDeleteSource = $inDeleteSource;
+      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class AddFileToOutputResults
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return AddFileToOutputResults
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\AddFileToOutputResults
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class AddFileToOutputResults
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return AddFileToOutputResults
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\AddFileToOutputResults
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class AddFileToOutputResults
      */
     public function getInJobID()
     {
-        return $this->inJobID;
+      return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return AddFileToOutputResults
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\AddFileToOutputResults
      */
     public function setInJobID($inJobID)
     {
-        $this->inJobID = $inJobID;
-        return $this;
+      $this->inJobID = $inJobID;
+      return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class AddFileToOutputResults
      */
     public function getInFilePath()
     {
-        return $this->inFilePath;
+      return $this->inFilePath;
     }
 
     /**
      * @param string $inFilePath
-     * @return AddFileToOutputResults
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\AddFileToOutputResults
      */
     public function setInFilePath($inFilePath)
     {
-        $this->inFilePath = $inFilePath;
-        return $this;
+      $this->inFilePath = $inFilePath;
+      return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class AddFileToOutputResults
      */
     public function getInDeleteSource()
     {
-        return $this->inDeleteSource;
+      return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return AddFileToOutputResults
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\AddFileToOutputResults
      */
     public function setInDeleteSource($inDeleteSource)
     {
-        $this->inDeleteSource = $inDeleteSource;
-        return $this;
+      $this->inDeleteSource = $inDeleteSource;
+      return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class AddFileToOutputResults
      */
     public function getInDeleteEmptySourceFolder()
     {
-        return $this->inDeleteEmptySourceFolder;
+      return $this->inDeleteEmptySourceFolder;
     }
 
     /**
      * @param boolean $inDeleteEmptySourceFolder
-     * @return AddFileToOutputResults
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\AddFileToOutputResults
      */
     public function setInDeleteEmptySourceFolder($inDeleteEmptySourceFolder)
     {
-        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-        return $this;
+      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+      return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class AddFileToOutputResults
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return AddFileToOutputResults
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\AddFileToOutputResults
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

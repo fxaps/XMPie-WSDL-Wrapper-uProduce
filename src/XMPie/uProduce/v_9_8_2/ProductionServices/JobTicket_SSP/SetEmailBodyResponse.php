@@ -15,7 +15,7 @@ class SetEmailBodyResponse
      */
     public function __construct($SetEmailBodyResult = null)
     {
-        $this->SetEmailBodyResult = $SetEmailBodyResult;
+      $this->SetEmailBodyResult = $SetEmailBodyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetEmailBodyResponse
      */
     public function getSetEmailBodyResult()
     {
-        return $this->SetEmailBodyResult;
+      return $this->SetEmailBodyResult;
     }
 
     /**
      * @param boolean $SetEmailBodyResult
-     * @return SetEmailBodyResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailBodyResponse
      */
     public function setSetEmailBodyResult($SetEmailBodyResult)
     {
-        $this->SetEmailBodyResult = $SetEmailBodyResult;
-        return $this;
+      $this->SetEmailBodyResult = $SetEmailBodyResult;
+      return $this;
     }
 
 }

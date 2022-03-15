@@ -15,7 +15,7 @@ class IsFFPMDeleteSourceResponse
      */
     public function __construct($IsFFPMDeleteSourceResult = null)
     {
-        $this->IsFFPMDeleteSourceResult = $IsFFPMDeleteSourceResult;
+      $this->IsFFPMDeleteSourceResult = $IsFFPMDeleteSourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsFFPMDeleteSourceResponse
      */
     public function getIsFFPMDeleteSourceResult()
     {
-        return $this->IsFFPMDeleteSourceResult;
+      return $this->IsFFPMDeleteSourceResult;
     }
 
     /**
      * @param boolean $IsFFPMDeleteSourceResult
-     * @return IsFFPMDeleteSourceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsFFPMDeleteSourceResponse
      */
     public function setIsFFPMDeleteSourceResult($IsFFPMDeleteSourceResult)
     {
-        $this->IsFFPMDeleteSourceResult = $IsFFPMDeleteSourceResult;
-        return $this;
+      $this->IsFFPMDeleteSourceResult = $IsFFPMDeleteSourceResult;
+      return $this;
     }
 
 }

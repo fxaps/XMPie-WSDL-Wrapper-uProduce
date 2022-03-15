@@ -33,10 +33,10 @@ class DeleteTouchPoints
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inTouchPointIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inTouchPointIDArray = $inTouchPointIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inTouchPointIDArray = $inTouchPointIDArray;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeleteTouchPoints
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteTouchPoints
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteTouchPoints
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeleteTouchPoints
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteTouchPoints
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteTouchPoints
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeleteTouchPoints
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return DeleteTouchPoints
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteTouchPoints
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeleteTouchPoints
      */
     public function getInTouchPointIDArray()
     {
-        return $this->inTouchPointIDArray;
+      return $this->inTouchPointIDArray;
     }
 
     /**
      * @param ArrayOfString $inTouchPointIDArray
-     * @return DeleteTouchPoints
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteTouchPoints
      */
     public function setInTouchPointIDArray($inTouchPointIDArray)
     {
-        $this->inTouchPointIDArray = $inTouchPointIDArray;
-        return $this;
+      $this->inTouchPointIDArray = $inTouchPointIDArray;
+      return $this;
     }
 
 }

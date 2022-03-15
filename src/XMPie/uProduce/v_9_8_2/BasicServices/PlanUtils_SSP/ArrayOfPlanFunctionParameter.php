@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
+class ArrayOfPlanFunctionParameter implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     protected $PlanFunctionParameter = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function getPlanFunctionParameter()
     {
-        return $this->PlanFunctionParameter;
+      return $this->PlanFunctionParameter;
     }
 
     /**
      * @param PlanFunctionParameter[] $PlanFunctionParameter
-     * @return ArrayOfPlanFunctionParameter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\ArrayOfPlanFunctionParameter
      */
     public function setPlanFunctionParameter(array $PlanFunctionParameter = null)
     {
-        $this->PlanFunctionParameter = $PlanFunctionParameter;
-        return $this;
+      $this->PlanFunctionParameter = $PlanFunctionParameter;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->PlanFunctionParameter[$offset]);
+      return isset($this->PlanFunctionParameter[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->PlanFunctionParameter[$offset];
+      return $this->PlanFunctionParameter[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->PlanFunctionParameter[] = $value;
-        } else {
-            $this->PlanFunctionParameter[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->PlanFunctionParameter[] = $value;
+      } else {
+        $this->PlanFunctionParameter[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->PlanFunctionParameter[$offset]);
+      unset($this->PlanFunctionParameter[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->PlanFunctionParameter);
+      return current($this->PlanFunctionParameter);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->PlanFunctionParameter);
+      next($this->PlanFunctionParameter);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->PlanFunctionParameter);
+      return key($this->PlanFunctionParameter);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->PlanFunctionParameter);
+      reset($this->PlanFunctionParameter);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfPlanFunctionParameter implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->PlanFunctionParameter);
+      return count($this->PlanFunctionParameter);
     }
 
 }

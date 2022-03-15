@@ -27,9 +27,9 @@ class GetUMailOrigZip
      */
     public function __construct($inUsername = null, $inPassword = null, $inOrigZip = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inOrigZip = $inOrigZip;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inOrigZip = $inOrigZip;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetUMailOrigZip
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetUMailOrigZip
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetUMailOrigZip
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetUMailOrigZip
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetUMailOrigZip
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetUMailOrigZip
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetUMailOrigZip
      */
     public function getInOrigZip()
     {
-        return $this->inOrigZip;
+      return $this->inOrigZip;
     }
 
     /**
      * @param string $inOrigZip
-     * @return GetUMailOrigZip
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetUMailOrigZip
      */
     public function setInOrigZip($inOrigZip)
     {
-        $this->inOrigZip = $inOrigZip;
-        return $this;
+      $this->inOrigZip = $inOrigZip;
+      return $this;
     }
 
 }

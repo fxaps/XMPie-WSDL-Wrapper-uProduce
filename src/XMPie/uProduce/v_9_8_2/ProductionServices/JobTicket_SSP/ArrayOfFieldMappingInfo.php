@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
+class ArrayOfFieldMappingInfo implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     protected $FieldMappingInfo = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function getFieldMappingInfo()
     {
-        return $this->FieldMappingInfo;
+      return $this->FieldMappingInfo;
     }
 
     /**
      * @param FieldMappingInfo[] $FieldMappingInfo
-     * @return ArrayOfFieldMappingInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\ArrayOfFieldMappingInfo
      */
     public function setFieldMappingInfo(array $FieldMappingInfo = null)
     {
-        $this->FieldMappingInfo = $FieldMappingInfo;
-        return $this;
+      $this->FieldMappingInfo = $FieldMappingInfo;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->FieldMappingInfo[$offset]);
+      return isset($this->FieldMappingInfo[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->FieldMappingInfo[$offset];
+      return $this->FieldMappingInfo[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->FieldMappingInfo[] = $value;
-        } else {
-            $this->FieldMappingInfo[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->FieldMappingInfo[] = $value;
+      } else {
+        $this->FieldMappingInfo[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->FieldMappingInfo[$offset]);
+      unset($this->FieldMappingInfo[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->FieldMappingInfo);
+      return current($this->FieldMappingInfo);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->FieldMappingInfo);
+      next($this->FieldMappingInfo);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->FieldMappingInfo);
+      return key($this->FieldMappingInfo);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->FieldMappingInfo);
+      reset($this->FieldMappingInfo);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfFieldMappingInfo implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->FieldMappingInfo);
+      return count($this->FieldMappingInfo);
     }
 
 }

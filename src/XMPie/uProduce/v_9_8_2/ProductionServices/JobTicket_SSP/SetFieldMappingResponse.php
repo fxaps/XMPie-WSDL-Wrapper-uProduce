@@ -15,7 +15,7 @@ class SetFieldMappingResponse
      */
     public function __construct($SetFieldMappingResult = null)
     {
-        $this->SetFieldMappingResult = $SetFieldMappingResult;
+      $this->SetFieldMappingResult = $SetFieldMappingResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetFieldMappingResponse
      */
     public function getSetFieldMappingResult()
     {
-        return $this->SetFieldMappingResult;
+      return $this->SetFieldMappingResult;
     }
 
     /**
      * @param boolean $SetFieldMappingResult
-     * @return SetFieldMappingResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFieldMappingResponse
      */
     public function setSetFieldMappingResult($SetFieldMappingResult)
     {
-        $this->SetFieldMappingResult = $SetFieldMappingResult;
-        return $this;
+      $this->SetFieldMappingResult = $SetFieldMappingResult;
+      return $this;
     }
 
 }

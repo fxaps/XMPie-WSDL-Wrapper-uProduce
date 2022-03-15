@@ -51,13 +51,13 @@ class CreateNew
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobID = null, $inContextID = null, $inSeverityID = null, $inMessageID = null, $inMessageParamsString = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobID = $inJobID;
-        $this->inContextID = $inContextID;
-        $this->inSeverityID = $inSeverityID;
-        $this->inMessageID = $inMessageID;
-        $this->inMessageParamsString = $inMessageParamsString;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobID = $inJobID;
+      $this->inContextID = $inContextID;
+      $this->inSeverityID = $inSeverityID;
+      $this->inMessageID = $inMessageID;
+      $this->inMessageParamsString = $inMessageParamsString;
     }
 
     /**
@@ -65,17 +65,17 @@ class CreateNew
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\CreateNew
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class CreateNew
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\CreateNew
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class CreateNew
      */
     public function getInJobID()
     {
-        return $this->inJobID;
+      return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\CreateNew
      */
     public function setInJobID($inJobID)
     {
-        $this->inJobID = $inJobID;
-        return $this;
+      $this->inJobID = $inJobID;
+      return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class CreateNew
      */
     public function getInContextID()
     {
-        return $this->inContextID;
+      return $this->inContextID;
     }
 
     /**
      * @param string $inContextID
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\CreateNew
      */
     public function setInContextID($inContextID)
     {
-        $this->inContextID = $inContextID;
-        return $this;
+      $this->inContextID = $inContextID;
+      return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class CreateNew
      */
     public function getInSeverityID()
     {
-        return $this->inSeverityID;
+      return $this->inSeverityID;
     }
 
     /**
      * @param string $inSeverityID
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\CreateNew
      */
     public function setInSeverityID($inSeverityID)
     {
-        $this->inSeverityID = $inSeverityID;
-        return $this;
+      $this->inSeverityID = $inSeverityID;
+      return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class CreateNew
      */
     public function getInMessageID()
     {
-        return $this->inMessageID;
+      return $this->inMessageID;
     }
 
     /**
      * @param string $inMessageID
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\CreateNew
      */
     public function setInMessageID($inMessageID)
     {
-        $this->inMessageID = $inMessageID;
-        return $this;
+      $this->inMessageID = $inMessageID;
+      return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class CreateNew
      */
     public function getInMessageParamsString()
     {
-        return $this->inMessageParamsString;
+      return $this->inMessageParamsString;
     }
 
     /**
      * @param string $inMessageParamsString
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\CreateNew
      */
     public function setInMessageParamsString($inMessageParamsString)
     {
-        $this->inMessageParamsString = $inMessageParamsString;
-        return $this;
+      $this->inMessageParamsString = $inMessageParamsString;
+      return $this;
     }
 
 }

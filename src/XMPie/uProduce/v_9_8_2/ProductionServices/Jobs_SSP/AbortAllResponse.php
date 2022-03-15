@@ -15,7 +15,7 @@ class AbortAllResponse
      */
     public function __construct($AbortAllResult = null)
     {
-        $this->AbortAllResult = $AbortAllResult;
+      $this->AbortAllResult = $AbortAllResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AbortAllResponse
      */
     public function getAbortAllResult()
     {
-        return $this->AbortAllResult;
+      return $this->AbortAllResult;
     }
 
     /**
      * @param boolean $AbortAllResult
-     * @return AbortAllResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\AbortAllResponse
      */
     public function setAbortAllResult($AbortAllResult)
     {
-        $this->AbortAllResult = $AbortAllResult;
-        return $this;
+      $this->AbortAllResult = $AbortAllResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class IsAutomaticMergeEnabledResponse
      */
     public function __construct($IsAutomaticMergeEnabledResult = null)
     {
-        $this->IsAutomaticMergeEnabledResult = $IsAutomaticMergeEnabledResult;
+      $this->IsAutomaticMergeEnabledResult = $IsAutomaticMergeEnabledResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsAutomaticMergeEnabledResponse
      */
     public function getIsAutomaticMergeEnabledResult()
     {
-        return $this->IsAutomaticMergeEnabledResult;
+      return $this->IsAutomaticMergeEnabledResult;
     }
 
     /**
      * @param boolean $IsAutomaticMergeEnabledResult
-     * @return IsAutomaticMergeEnabledResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsAutomaticMergeEnabledResponse
      */
     public function setIsAutomaticMergeEnabledResult($IsAutomaticMergeEnabledResult)
     {
-        $this->IsAutomaticMergeEnabledResult = $IsAutomaticMergeEnabledResult;
-        return $this;
+      $this->IsAutomaticMergeEnabledResult = $IsAutomaticMergeEnabledResult;
+      return $this;
     }
 
 }

@@ -33,10 +33,10 @@ class RemoveFilterOutADOR
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inADOR = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inADOR = $inADOR;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inADOR = $inADOR;
     }
 
     /**
@@ -44,17 +44,17 @@ class RemoveFilterOutADOR
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return RemoveFilterOutADOR
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveFilterOutADOR
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class RemoveFilterOutADOR
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return RemoveFilterOutADOR
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveFilterOutADOR
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class RemoveFilterOutADOR
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return RemoveFilterOutADOR
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveFilterOutADOR
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class RemoveFilterOutADOR
      */
     public function getInADOR()
     {
-        return $this->inADOR;
+      return $this->inADOR;
     }
 
     /**
      * @param string $inADOR
-     * @return RemoveFilterOutADOR
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveFilterOutADOR
      */
     public function setInADOR($inADOR)
     {
-        $this->inADOR = $inADOR;
-        return $this;
+      $this->inADOR = $inADOR;
+      return $this;
     }
 
 }

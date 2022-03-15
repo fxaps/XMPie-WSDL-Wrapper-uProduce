@@ -27,9 +27,9 @@ class GetTicketsFromDB
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobType = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobType = $inJobType;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobType = $inJobType;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetTicketsFromDB
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetTicketsFromDB
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTicketsFromDB
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetTicketsFromDB
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetTicketsFromDB
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTicketsFromDB
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetTicketsFromDB
      */
     public function getInJobType()
     {
-        return $this->inJobType;
+      return $this->inJobType;
     }
 
     /**
      * @param string $inJobType
-     * @return GetTicketsFromDB
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTicketsFromDB
      */
     public function setInJobType($inJobType)
     {
-        $this->inJobType = $inJobType;
-        return $this;
+      $this->inJobType = $inJobType;
+      return $this;
     }
 
 }

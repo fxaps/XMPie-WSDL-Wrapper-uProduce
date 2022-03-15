@@ -33,10 +33,10 @@ class GetADORs
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inIOType = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountID = $inAccountID;
-        $this->inIOType = $inIOType;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountID = $inAccountID;
+      $this->inIOType = $inIOType;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetADORs
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetADORs
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetADORs
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetADORs
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetADORs
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetADORs
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetADORs
      */
     public function getInAccountID()
     {
-        return $this->inAccountID;
+      return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return GetADORs
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetADORs
      */
     public function setInAccountID($inAccountID)
     {
-        $this->inAccountID = $inAccountID;
-        return $this;
+      $this->inAccountID = $inAccountID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetADORs
      */
     public function getInIOType()
     {
-        return $this->inIOType;
+      return $this->inIOType;
     }
 
     /**
      * @param string $inIOType
-     * @return GetADORs
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetADORs
      */
     public function setInIOType($inIOType)
     {
-        $this->inIOType = $inIOType;
-        return $this;
+      $this->inIOType = $inIOType;
+      return $this;
     }
 
 }

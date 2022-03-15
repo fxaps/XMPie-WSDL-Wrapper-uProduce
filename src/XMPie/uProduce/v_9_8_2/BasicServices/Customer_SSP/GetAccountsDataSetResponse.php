@@ -15,7 +15,7 @@ class GetAccountsDataSetResponse
      */
     public function __construct($GetAccountsDataSetResult = null)
     {
-        $this->GetAccountsDataSetResult = $GetAccountsDataSetResult;
+      $this->GetAccountsDataSetResult = $GetAccountsDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAccountsDataSetResponse
      */
     public function getGetAccountsDataSetResult()
     {
-        return $this->GetAccountsDataSetResult;
+      return $this->GetAccountsDataSetResult;
     }
 
     /**
      * @param GetAccountsDataSetResult $GetAccountsDataSetResult
-     * @return GetAccountsDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetAccountsDataSetResponse
      */
     public function setGetAccountsDataSetResult($GetAccountsDataSetResult)
     {
-        $this->GetAccountsDataSetResult = $GetAccountsDataSetResult;
-        return $this;
+      $this->GetAccountsDataSetResult = $GetAccountsDataSetResult;
+      return $this;
     }
 
 }

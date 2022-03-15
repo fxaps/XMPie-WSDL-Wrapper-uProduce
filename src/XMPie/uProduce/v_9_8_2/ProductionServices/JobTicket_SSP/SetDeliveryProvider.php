@@ -33,10 +33,10 @@ class SetDeliveryProvider
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inDeliveryProviderInfo = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetDeliveryProvider
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetDeliveryProvider
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDeliveryProvider
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetDeliveryProvider
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetDeliveryProvider
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDeliveryProvider
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetDeliveryProvider
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return SetDeliveryProvider
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDeliveryProvider
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetDeliveryProvider
      */
     public function getInDeliveryProviderInfo()
     {
-        return $this->inDeliveryProviderInfo;
+      return $this->inDeliveryProviderInfo;
     }
 
     /**
      * @param EmailProviderInfo $inDeliveryProviderInfo
-     * @return SetDeliveryProvider
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDeliveryProvider
      */
     public function setInDeliveryProviderInfo($inDeliveryProviderInfo)
     {
-        $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
-        return $this;
+      $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
+      return $this;
     }
 
 }

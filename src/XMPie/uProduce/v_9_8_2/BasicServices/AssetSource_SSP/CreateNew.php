@@ -51,13 +51,13 @@ class CreateNew
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inType = null, $inName = null, $inPrivateParams = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inType = $inType;
-        $this->inName = $inName;
-        $this->inPrivateParams = $inPrivateParams;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inType = $inType;
+      $this->inName = $inName;
+      $this->inPrivateParams = $inPrivateParams;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class CreateNew
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\CreateNew
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class CreateNew
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\CreateNew
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class CreateNew
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\CreateNew
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class CreateNew
      */
     public function getInType()
     {
-        return $this->inType;
+      return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\CreateNew
      */
     public function setInType($inType)
     {
-        $this->inType = $inType;
-        return $this;
+      $this->inType = $inType;
+      return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class CreateNew
      */
     public function getInName()
     {
-        return $this->inName;
+      return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\CreateNew
      */
     public function setInName($inName)
     {
-        $this->inName = $inName;
-        return $this;
+      $this->inName = $inName;
+      return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class CreateNew
      */
     public function getInPrivateParams()
     {
-        return $this->inPrivateParams;
+      return $this->inPrivateParams;
     }
 
     /**
      * @param string $inPrivateParams
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\CreateNew
      */
     public function setInPrivateParams($inPrivateParams)
     {
-        $this->inPrivateParams = $inPrivateParams;
-        return $this;
+      $this->inPrivateParams = $inPrivateParams;
+      return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class CreateNew
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\CreateNew
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

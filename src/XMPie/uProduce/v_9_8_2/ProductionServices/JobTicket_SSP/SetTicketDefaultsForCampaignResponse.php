@@ -15,7 +15,7 @@ class SetTicketDefaultsForCampaignResponse
      */
     public function __construct($SetTicketDefaultsForCampaignResult = null)
     {
-        $this->SetTicketDefaultsForCampaignResult = $SetTicketDefaultsForCampaignResult;
+      $this->SetTicketDefaultsForCampaignResult = $SetTicketDefaultsForCampaignResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetTicketDefaultsForCampaignResponse
      */
     public function getSetTicketDefaultsForCampaignResult()
     {
-        return $this->SetTicketDefaultsForCampaignResult;
+      return $this->SetTicketDefaultsForCampaignResult;
     }
 
     /**
      * @param boolean $SetTicketDefaultsForCampaignResult
-     * @return SetTicketDefaultsForCampaignResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetTicketDefaultsForCampaignResponse
      */
     public function setSetTicketDefaultsForCampaignResult($SetTicketDefaultsForCampaignResult)
     {
-        $this->SetTicketDefaultsForCampaignResult = $SetTicketDefaultsForCampaignResult;
-        return $this;
+      $this->SetTicketDefaultsForCampaignResult = $SetTicketDefaultsForCampaignResult;
+      return $this;
     }
 
 }

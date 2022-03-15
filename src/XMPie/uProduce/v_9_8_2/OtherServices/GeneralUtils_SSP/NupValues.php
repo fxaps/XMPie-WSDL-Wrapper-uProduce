@@ -21,8 +21,8 @@ class NupValues
      */
     public function __construct($m_NupX = null, $m_NupY = null)
     {
-        $this->m_NupX = $m_NupX;
-        $this->m_NupY = $m_NupY;
+      $this->m_NupX = $m_NupX;
+      $this->m_NupY = $m_NupY;
     }
 
     /**
@@ -30,17 +30,17 @@ class NupValues
      */
     public function getM_NupX()
     {
-        return $this->m_NupX;
+      return $this->m_NupX;
     }
 
     /**
      * @param int $m_NupX
-     * @return NupValues
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\NupValues
      */
     public function setM_NupX($m_NupX)
     {
-        $this->m_NupX = $m_NupX;
-        return $this;
+      $this->m_NupX = $m_NupX;
+      return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class NupValues
      */
     public function getM_NupY()
     {
-        return $this->m_NupY;
+      return $this->m_NupY;
     }
 
     /**
      * @param int $m_NupY
-     * @return NupValues
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\NupValues
      */
     public function setM_NupY($m_NupY)
     {
-        $this->m_NupY = $m_NupY;
-        return $this;
+      $this->m_NupY = $m_NupY;
+      return $this;
     }
 
 }

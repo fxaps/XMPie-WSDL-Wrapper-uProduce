@@ -15,7 +15,7 @@ class GetActorPermissionsResponse
      */
     public function __construct($GetActorPermissionsResult = null)
     {
-        $this->GetActorPermissionsResult = $GetActorPermissionsResult;
+      $this->GetActorPermissionsResult = $GetActorPermissionsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetActorPermissionsResponse
      */
     public function getGetActorPermissionsResult()
     {
-        return $this->GetActorPermissionsResult;
+      return $this->GetActorPermissionsResult;
     }
 
     /**
      * @param ArrayOfPermissionEx $GetActorPermissionsResult
-     * @return GetActorPermissionsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\GetActorPermissionsResponse
      */
     public function setGetActorPermissionsResult($GetActorPermissionsResult)
     {
-        $this->GetActorPermissionsResult = $GetActorPermissionsResult;
-        return $this;
+      $this->GetActorPermissionsResult = $GetActorPermissionsResult;
+      return $this;
     }
 
 }

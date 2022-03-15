@@ -15,7 +15,7 @@ class GetAccountResponse
      */
     public function __construct($GetAccountResult = null)
     {
-        $this->GetAccountResult = $GetAccountResult;
+      $this->GetAccountResult = $GetAccountResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAccountResponse
      */
     public function getGetAccountResult()
     {
-        return $this->GetAccountResult;
+      return $this->GetAccountResult;
     }
 
     /**
      * @param string $GetAccountResult
-     * @return GetAccountResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetAccountResponse
      */
     public function setGetAccountResult($GetAccountResult)
     {
-        $this->GetAccountResult = $GetAccountResult;
-        return $this;
+      $this->GetAccountResult = $GetAccountResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SetTicketDefaultsForPlanResponse
      */
     public function __construct($SetTicketDefaultsForPlanResult = null)
     {
-        $this->SetTicketDefaultsForPlanResult = $SetTicketDefaultsForPlanResult;
+      $this->SetTicketDefaultsForPlanResult = $SetTicketDefaultsForPlanResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetTicketDefaultsForPlanResponse
      */
     public function getSetTicketDefaultsForPlanResult()
     {
-        return $this->SetTicketDefaultsForPlanResult;
+      return $this->SetTicketDefaultsForPlanResult;
     }
 
     /**
      * @param boolean $SetTicketDefaultsForPlanResult
-     * @return SetTicketDefaultsForPlanResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetTicketDefaultsForPlanResponse
      */
     public function setSetTicketDefaultsForPlanResult($SetTicketDefaultsForPlanResult)
     {
-        $this->SetTicketDefaultsForPlanResult = $SetTicketDefaultsForPlanResult;
-        return $this;
+      $this->SetTicketDefaultsForPlanResult = $SetTicketDefaultsForPlanResult;
+      return $this;
     }
 
 }

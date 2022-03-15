@@ -39,11 +39,11 @@ class SetSettingsByID
      */
     public function __construct($inUsername = null, $inPassword = null, $inPortID = null, $inSettings = null, $inSharedForAllUsers = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPortID = $inPortID;
-        $this->inSettings = $inSettings;
-        $this->inSharedForAllUsers = $inSharedForAllUsers;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPortID = $inPortID;
+      $this->inSettings = $inSettings;
+      $this->inSharedForAllUsers = $inSharedForAllUsers;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetSettingsByID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetSettingsByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SetSettingsByID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetSettingsByID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetSettingsByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SetSettingsByID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetSettingsByID
      */
     public function getInPortID()
     {
-        return $this->inPortID;
+      return $this->inPortID;
     }
 
     /**
      * @param string $inPortID
-     * @return SetSettingsByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SetSettingsByID
      */
     public function setInPortID($inPortID)
     {
-        $this->inPortID = $inPortID;
-        return $this;
+      $this->inPortID = $inPortID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetSettingsByID
      */
     public function getInSettings()
     {
-        return $this->inSettings;
+      return $this->inSettings;
     }
 
     /**
      * @param ArrayOfSetting $inSettings
-     * @return SetSettingsByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SetSettingsByID
      */
     public function setInSettings($inSettings)
     {
-        $this->inSettings = $inSettings;
-        return $this;
+      $this->inSettings = $inSettings;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetSettingsByID
      */
     public function getInSharedForAllUsers()
     {
-        return $this->inSharedForAllUsers;
+      return $this->inSharedForAllUsers;
     }
 
     /**
      * @param boolean $inSharedForAllUsers
-     * @return SetSettingsByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SetSettingsByID
      */
     public function setInSharedForAllUsers($inSharedForAllUsers)
     {
-        $this->inSharedForAllUsers = $inSharedForAllUsers;
-        return $this;
+      $this->inSharedForAllUsers = $inSharedForAllUsers;
+      return $this;
     }
 
 }

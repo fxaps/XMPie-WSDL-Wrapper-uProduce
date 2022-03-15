@@ -15,7 +15,7 @@ class GetSupportedOperationsResponse
      */
     public function __construct($GetSupportedOperationsResult = null)
     {
-        $this->GetSupportedOperationsResult = $GetSupportedOperationsResult;
+      $this->GetSupportedOperationsResult = $GetSupportedOperationsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSupportedOperationsResponse
      */
     public function getGetSupportedOperationsResult()
     {
-        return $this->GetSupportedOperationsResult;
+      return $this->GetSupportedOperationsResult;
     }
 
     /**
      * @param SupportedOperationsInfo $GetSupportedOperationsResult
-     * @return GetSupportedOperationsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetSupportedOperationsResponse
      */
     public function setGetSupportedOperationsResult($GetSupportedOperationsResult)
     {
-        $this->GetSupportedOperationsResult = $GetSupportedOperationsResult;
-        return $this;
+      $this->GetSupportedOperationsResult = $GetSupportedOperationsResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetSchemaDataSourceResponse
      */
     public function __construct($GetSchemaDataSourceResult = null)
     {
-        $this->GetSchemaDataSourceResult = $GetSchemaDataSourceResult;
+      $this->GetSchemaDataSourceResult = $GetSchemaDataSourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSchemaDataSourceResponse
      */
     public function getGetSchemaDataSourceResult()
     {
-        return $this->GetSchemaDataSourceResult;
+      return $this->GetSchemaDataSourceResult;
     }
 
     /**
      * @param Connection $GetSchemaDataSourceResult
-     * @return GetSchemaDataSourceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetSchemaDataSourceResponse
      */
     public function setGetSchemaDataSourceResult($GetSchemaDataSourceResult)
     {
-        $this->GetSchemaDataSourceResult = $GetSchemaDataSourceResult;
-        return $this;
+      $this->GetSchemaDataSourceResult = $GetSchemaDataSourceResult;
+      return $this;
     }
 
 }

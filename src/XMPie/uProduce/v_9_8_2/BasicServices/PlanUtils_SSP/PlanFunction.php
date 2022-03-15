@@ -45,10 +45,10 @@ class PlanFunction
      */
     protected $m_Parameters = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -56,17 +56,17 @@ class PlanFunction
      */
     public function getM_Name()
     {
-        return $this->m_Name;
+      return $this->m_Name;
     }
 
     /**
      * @param string $m_Name
-     * @return PlanFunction
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanFunction
      */
     public function setM_Name($m_Name)
     {
-        $this->m_Name = $m_Name;
-        return $this;
+      $this->m_Name = $m_Name;
+      return $this;
     }
 
     /**
@@ -74,17 +74,17 @@ class PlanFunction
      */
     public function getM_Type()
     {
-        return $this->m_Type;
+      return $this->m_Type;
     }
 
     /**
      * @param string $m_Type
-     * @return PlanFunction
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanFunction
      */
     public function setM_Type($m_Type)
     {
-        $this->m_Type = $m_Type;
-        return $this;
+      $this->m_Type = $m_Type;
+      return $this;
     }
 
     /**
@@ -92,17 +92,17 @@ class PlanFunction
      */
     public function getM_Expression()
     {
-        return $this->m_Expression;
+      return $this->m_Expression;
     }
 
     /**
      * @param string $m_Expression
-     * @return PlanFunction
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanFunction
      */
     public function setM_Expression($m_Expression)
     {
-        $this->m_Expression = $m_Expression;
-        return $this;
+      $this->m_Expression = $m_Expression;
+      return $this;
     }
 
     /**
@@ -110,17 +110,17 @@ class PlanFunction
      */
     public function getM_HelperExpression()
     {
-        return $this->m_HelperExpression;
+      return $this->m_HelperExpression;
     }
 
     /**
      * @param string $m_HelperExpression
-     * @return PlanFunction
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanFunction
      */
     public function setM_HelperExpression($m_HelperExpression)
     {
-        $this->m_HelperExpression = $m_HelperExpression;
-        return $this;
+      $this->m_HelperExpression = $m_HelperExpression;
+      return $this;
     }
 
     /**
@@ -128,17 +128,17 @@ class PlanFunction
      */
     public function getM_Comment()
     {
-        return $this->m_Comment;
+      return $this->m_Comment;
     }
 
     /**
      * @param string $m_Comment
-     * @return PlanFunction
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanFunction
      */
     public function setM_Comment($m_Comment)
     {
-        $this->m_Comment = $m_Comment;
-        return $this;
+      $this->m_Comment = $m_Comment;
+      return $this;
     }
 
     /**
@@ -146,17 +146,17 @@ class PlanFunction
      */
     public function getM_Language()
     {
-        return $this->m_Language;
+      return $this->m_Language;
     }
 
     /**
      * @param string $m_Language
-     * @return PlanFunction
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanFunction
      */
     public function setM_Language($m_Language)
     {
-        $this->m_Language = $m_Language;
-        return $this;
+      $this->m_Language = $m_Language;
+      return $this;
     }
 
     /**
@@ -164,17 +164,17 @@ class PlanFunction
      */
     public function getM_Group()
     {
-        return $this->m_Group;
+      return $this->m_Group;
     }
 
     /**
      * @param string $m_Group
-     * @return PlanFunction
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanFunction
      */
     public function setM_Group($m_Group)
     {
-        $this->m_Group = $m_Group;
-        return $this;
+      $this->m_Group = $m_Group;
+      return $this;
     }
 
     /**
@@ -182,17 +182,17 @@ class PlanFunction
      */
     public function getM_Parameters()
     {
-        return $this->m_Parameters;
+      return $this->m_Parameters;
     }
 
     /**
      * @param ArrayOfPlanFunctionParameter $m_Parameters
-     * @return PlanFunction
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanFunction
      */
     public function setM_Parameters($m_Parameters)
     {
-        $this->m_Parameters = $m_Parameters;
-        return $this;
+      $this->m_Parameters = $m_Parameters;
+      return $this;
     }
 
 }

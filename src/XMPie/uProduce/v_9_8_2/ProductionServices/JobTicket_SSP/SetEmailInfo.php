@@ -63,15 +63,15 @@ class SetEmailInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inEmailADORName = null, $inSenderADORName = null, $inSubjectADORName = null, $inEmbed = null, $inOutputType = null, $inBaseURL = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inEmailADORName = $inEmailADORName;
-        $this->inSenderADORName = $inSenderADORName;
-        $this->inSubjectADORName = $inSubjectADORName;
-        $this->inEmbed = $inEmbed;
-        $this->inOutputType = $inOutputType;
-        $this->inBaseURL = $inBaseURL;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inEmailADORName = $inEmailADORName;
+      $this->inSenderADORName = $inSenderADORName;
+      $this->inSubjectADORName = $inSubjectADORName;
+      $this->inEmbed = $inEmbed;
+      $this->inOutputType = $inOutputType;
+      $this->inBaseURL = $inBaseURL;
     }
 
     /**
@@ -79,17 +79,17 @@ class SetEmailInfo
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetEmailInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailInfo
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -97,17 +97,17 @@ class SetEmailInfo
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetEmailInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailInfo
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -115,17 +115,17 @@ class SetEmailInfo
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return SetEmailInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailInfo
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -133,17 +133,17 @@ class SetEmailInfo
      */
     public function getInEmailADORName()
     {
-        return $this->inEmailADORName;
+      return $this->inEmailADORName;
     }
 
     /**
      * @param string $inEmailADORName
-     * @return SetEmailInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailInfo
      */
     public function setInEmailADORName($inEmailADORName)
     {
-        $this->inEmailADORName = $inEmailADORName;
-        return $this;
+      $this->inEmailADORName = $inEmailADORName;
+      return $this;
     }
 
     /**
@@ -151,17 +151,17 @@ class SetEmailInfo
      */
     public function getInSenderADORName()
     {
-        return $this->inSenderADORName;
+      return $this->inSenderADORName;
     }
 
     /**
      * @param string $inSenderADORName
-     * @return SetEmailInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailInfo
      */
     public function setInSenderADORName($inSenderADORName)
     {
-        $this->inSenderADORName = $inSenderADORName;
-        return $this;
+      $this->inSenderADORName = $inSenderADORName;
+      return $this;
     }
 
     /**
@@ -169,17 +169,17 @@ class SetEmailInfo
      */
     public function getInSubjectADORName()
     {
-        return $this->inSubjectADORName;
+      return $this->inSubjectADORName;
     }
 
     /**
      * @param string $inSubjectADORName
-     * @return SetEmailInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailInfo
      */
     public function setInSubjectADORName($inSubjectADORName)
     {
-        $this->inSubjectADORName = $inSubjectADORName;
-        return $this;
+      $this->inSubjectADORName = $inSubjectADORName;
+      return $this;
     }
 
     /**
@@ -187,17 +187,17 @@ class SetEmailInfo
      */
     public function getInEmbed()
     {
-        return $this->inEmbed;
+      return $this->inEmbed;
     }
 
     /**
      * @param boolean $inEmbed
-     * @return SetEmailInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailInfo
      */
     public function setInEmbed($inEmbed)
     {
-        $this->inEmbed = $inEmbed;
-        return $this;
+      $this->inEmbed = $inEmbed;
+      return $this;
     }
 
     /**
@@ -205,17 +205,17 @@ class SetEmailInfo
      */
     public function getInOutputType()
     {
-        return $this->inOutputType;
+      return $this->inOutputType;
     }
 
     /**
      * @param string $inOutputType
-     * @return SetEmailInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailInfo
      */
     public function setInOutputType($inOutputType)
     {
-        $this->inOutputType = $inOutputType;
-        return $this;
+      $this->inOutputType = $inOutputType;
+      return $this;
     }
 
     /**
@@ -223,17 +223,17 @@ class SetEmailInfo
      */
     public function getInBaseURL()
     {
-        return $this->inBaseURL;
+      return $this->inBaseURL;
     }
 
     /**
      * @param string $inBaseURL
-     * @return SetEmailInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailInfo
      */
     public function setInBaseURL($inBaseURL)
     {
-        $this->inBaseURL = $inBaseURL;
-        return $this;
+      $this->inBaseURL = $inBaseURL;
+      return $this;
     }
 
 }

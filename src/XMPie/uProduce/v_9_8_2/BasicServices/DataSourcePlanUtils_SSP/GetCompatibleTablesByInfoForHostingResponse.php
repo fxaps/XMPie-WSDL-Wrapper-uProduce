@@ -15,7 +15,7 @@ class GetCompatibleTablesByInfoForHostingResponse
      */
     public function __construct($GetCompatibleTablesByInfoForHostingResult = null)
     {
-        $this->GetCompatibleTablesByInfoForHostingResult = $GetCompatibleTablesByInfoForHostingResult;
+      $this->GetCompatibleTablesByInfoForHostingResult = $GetCompatibleTablesByInfoForHostingResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCompatibleTablesByInfoForHostingResponse
      */
     public function getGetCompatibleTablesByInfoForHostingResult()
     {
-        return $this->GetCompatibleTablesByInfoForHostingResult;
+      return $this->GetCompatibleTablesByInfoForHostingResult;
     }
 
     /**
      * @param ArrayOfString $GetCompatibleTablesByInfoForHostingResult
-     * @return GetCompatibleTablesByInfoForHostingResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesByInfoForHostingResponse
      */
     public function setGetCompatibleTablesByInfoForHostingResult($GetCompatibleTablesByInfoForHostingResult)
     {
-        $this->GetCompatibleTablesByInfoForHostingResult = $GetCompatibleTablesByInfoForHostingResult;
-        return $this;
+      $this->GetCompatibleTablesByInfoForHostingResult = $GetCompatibleTablesByInfoForHostingResult;
+      return $this;
     }
 
 }

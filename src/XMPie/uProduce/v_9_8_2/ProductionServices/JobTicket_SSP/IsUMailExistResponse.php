@@ -15,7 +15,7 @@ class IsUMailExistResponse
      */
     public function __construct($IsUMailExistResult = null)
     {
-        $this->IsUMailExistResult = $IsUMailExistResult;
+      $this->IsUMailExistResult = $IsUMailExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsUMailExistResponse
      */
     public function getIsUMailExistResult()
     {
-        return $this->IsUMailExistResult;
+      return $this->IsUMailExistResult;
     }
 
     /**
      * @param boolean $IsUMailExistResult
-     * @return IsUMailExistResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsUMailExistResponse
      */
     public function setIsUMailExistResult($IsUMailExistResult)
     {
-        $this->IsUMailExistResult = $IsUMailExistResult;
-        return $this;
+      $this->IsUMailExistResult = $IsUMailExistResult;
+      return $this;
     }
 
 }

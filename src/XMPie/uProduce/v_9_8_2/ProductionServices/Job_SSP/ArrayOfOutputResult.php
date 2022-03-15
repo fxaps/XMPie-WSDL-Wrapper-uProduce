@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
+class ArrayOfOutputResult implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     protected $OutputResult = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function getOutputResult()
     {
-        return $this->OutputResult;
+      return $this->OutputResult;
     }
 
     /**
      * @param OutputResult[] $OutputResult
-     * @return ArrayOfOutputResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\ArrayOfOutputResult
      */
     public function setOutputResult(array $OutputResult = null)
     {
-        $this->OutputResult = $OutputResult;
-        return $this;
+      $this->OutputResult = $OutputResult;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->OutputResult[$offset]);
+      return isset($this->OutputResult[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->OutputResult[$offset];
+      return $this->OutputResult[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->OutputResult[] = $value;
-        } else {
-            $this->OutputResult[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->OutputResult[] = $value;
+      } else {
+        $this->OutputResult[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->OutputResult[$offset]);
+      unset($this->OutputResult[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->OutputResult);
+      return current($this->OutputResult);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->OutputResult);
+      next($this->OutputResult);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->OutputResult);
+      return key($this->OutputResult);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->OutputResult);
+      reset($this->OutputResult);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfOutputResult implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->OutputResult);
+      return count($this->OutputResult);
     }
 
 }

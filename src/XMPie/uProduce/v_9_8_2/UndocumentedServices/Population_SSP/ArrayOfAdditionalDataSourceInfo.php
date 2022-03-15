@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countable
+class ArrayOfAdditionalDataSourceInfo implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     protected $AdditionalDataSourceInfo = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function getAdditionalDataSourceInfo()
     {
-        return $this->AdditionalDataSourceInfo;
+      return $this->AdditionalDataSourceInfo;
     }
 
     /**
      * @param AdditionalDataSourceInfo[] $AdditionalDataSourceInfo
-     * @return ArrayOfAdditionalDataSourceInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\ArrayOfAdditionalDataSourceInfo
      */
     public function setAdditionalDataSourceInfo(array $AdditionalDataSourceInfo = null)
     {
-        $this->AdditionalDataSourceInfo = $AdditionalDataSourceInfo;
-        return $this;
+      $this->AdditionalDataSourceInfo = $AdditionalDataSourceInfo;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function offsetExists($offset)
     {
-        return isset($this->AdditionalDataSourceInfo[$offset]);
+      return isset($this->AdditionalDataSourceInfo[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function offsetGet($offset)
     {
-        return $this->AdditionalDataSourceInfo[$offset];
+      return $this->AdditionalDataSourceInfo[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->AdditionalDataSourceInfo[] = $value;
-        } else {
-            $this->AdditionalDataSourceInfo[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->AdditionalDataSourceInfo[] = $value;
+      } else {
+        $this->AdditionalDataSourceInfo[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function offsetUnset($offset)
     {
-        unset($this->AdditionalDataSourceInfo[$offset]);
+      unset($this->AdditionalDataSourceInfo[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function current()
     {
-        return current($this->AdditionalDataSourceInfo);
+      return current($this->AdditionalDataSourceInfo);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function next()
     {
-        next($this->AdditionalDataSourceInfo);
+      next($this->AdditionalDataSourceInfo);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function key()
     {
-        return key($this->AdditionalDataSourceInfo);
+      return key($this->AdditionalDataSourceInfo);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function rewind()
     {
-        reset($this->AdditionalDataSourceInfo);
+      reset($this->AdditionalDataSourceInfo);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfAdditionalDataSourceInfo implements ArrayAccess, Iterator, Countabl
      */
     public function count()
     {
-        return count($this->AdditionalDataSourceInfo);
+      return count($this->AdditionalDataSourceInfo);
     }
 
 }

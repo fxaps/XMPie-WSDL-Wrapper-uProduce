@@ -81,18 +81,18 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountName = null, $inCampaignName = null, $inICPName = null, $inADORNames = null, $inFrom = null, $inTo = null, $inAsPairs = null, $inIncludeTabularAdorsData = null, $inEventContext = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountName = $inAccountName;
-        $this->inCampaignName = $inCampaignName;
-        $this->inICPName = $inICPName;
-        $this->inADORNames = $inADORNames;
-        $this->inFrom = $inFrom;
-        $this->inTo = $inTo;
-        $this->inAsPairs = $inAsPairs;
-        $this->inIncludeTabularAdorsData = $inIncludeTabularAdorsData;
-        $this->inEventContext = $inEventContext;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountName = $inAccountName;
+      $this->inCampaignName = $inCampaignName;
+      $this->inICPName = $inICPName;
+      $this->inADORNames = $inADORNames;
+      $this->inFrom = $inFrom;
+      $this->inTo = $inTo;
+      $this->inAsPairs = $inAsPairs;
+      $this->inIncludeTabularAdorsData = $inIncludeTabularAdorsData;
+      $this->inEventContext = $inEventContext;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -100,17 +100,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -118,17 +118,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -136,17 +136,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInAccountName()
     {
-        return $this->inAccountName;
+      return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInAccountName($inAccountName)
     {
-        $this->inAccountName = $inAccountName;
-        return $this;
+      $this->inAccountName = $inAccountName;
+      return $this;
     }
 
     /**
@@ -154,17 +154,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInCampaignName()
     {
-        return $this->inCampaignName;
+      return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInCampaignName($inCampaignName)
     {
-        $this->inCampaignName = $inCampaignName;
-        return $this;
+      $this->inCampaignName = $inCampaignName;
+      return $this;
     }
 
     /**
@@ -172,17 +172,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInICPName()
     {
-        return $this->inICPName;
+      return $this->inICPName;
     }
 
     /**
      * @param string $inICPName
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInICPName($inICPName)
     {
-        $this->inICPName = $inICPName;
-        return $this;
+      $this->inICPName = $inICPName;
+      return $this;
     }
 
     /**
@@ -190,17 +190,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInADORNames()
     {
-        return $this->inADORNames;
+      return $this->inADORNames;
     }
 
     /**
      * @param ArrayOfString $inADORNames
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInADORNames($inADORNames)
     {
-        $this->inADORNames = $inADORNames;
-        return $this;
+      $this->inADORNames = $inADORNames;
+      return $this;
     }
 
     /**
@@ -208,17 +208,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInFrom()
     {
-        return $this->inFrom;
+      return $this->inFrom;
     }
 
     /**
      * @param int $inFrom
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInFrom($inFrom)
     {
-        $this->inFrom = $inFrom;
-        return $this;
+      $this->inFrom = $inFrom;
+      return $this;
     }
 
     /**
@@ -226,17 +226,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInTo()
     {
-        return $this->inTo;
+      return $this->inTo;
     }
 
     /**
      * @param int $inTo
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInTo($inTo)
     {
-        $this->inTo = $inTo;
-        return $this;
+      $this->inTo = $inTo;
+      return $this;
     }
 
     /**
@@ -244,17 +244,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInAsPairs()
     {
-        return $this->inAsPairs;
+      return $this->inAsPairs;
     }
 
     /**
      * @param boolean $inAsPairs
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInAsPairs($inAsPairs)
     {
-        $this->inAsPairs = $inAsPairs;
-        return $this;
+      $this->inAsPairs = $inAsPairs;
+      return $this;
     }
 
     /**
@@ -262,17 +262,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInIncludeTabularAdorsData()
     {
-        return $this->inIncludeTabularAdorsData;
+      return $this->inIncludeTabularAdorsData;
     }
 
     /**
      * @param boolean $inIncludeTabularAdorsData
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInIncludeTabularAdorsData($inIncludeTabularAdorsData)
     {
-        $this->inIncludeTabularAdorsData = $inIncludeTabularAdorsData;
-        return $this;
+      $this->inIncludeTabularAdorsData = $inIncludeTabularAdorsData;
+      return $this;
     }
 
     /**
@@ -280,17 +280,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInEventContext()
     {
-        return $this->inEventContext;
+      return $this->inEventContext;
     }
 
     /**
      * @param string $inEventContext
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInEventContext($inEventContext)
     {
-        $this->inEventContext = $inEventContext;
-        return $this;
+      $this->inEventContext = $inEventContext;
+      return $this;
     }
 
     /**
@@ -298,17 +298,17 @@ class GetADORsValuesForRangeXMPDataSet
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return GetADORsValuesForRangeXMPDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRangeXMPDataSet
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

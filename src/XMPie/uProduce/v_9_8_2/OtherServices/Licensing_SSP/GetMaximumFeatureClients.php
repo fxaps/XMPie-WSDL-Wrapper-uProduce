@@ -27,9 +27,9 @@ class GetMaximumFeatureClients
      */
     public function __construct($inUsername = null, $inPassword = null, $inFeatureTypeID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inFeatureTypeID = $inFeatureTypeID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inFeatureTypeID = $inFeatureTypeID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetMaximumFeatureClients
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetMaximumFeatureClients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetMaximumFeatureClients
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetMaximumFeatureClients
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetMaximumFeatureClients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetMaximumFeatureClients
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetMaximumFeatureClients
      */
     public function getInFeatureTypeID()
     {
-        return $this->inFeatureTypeID;
+      return $this->inFeatureTypeID;
     }
 
     /**
      * @param int $inFeatureTypeID
-     * @return GetMaximumFeatureClients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetMaximumFeatureClients
      */
     public function setInFeatureTypeID($inFeatureTypeID)
     {
-        $this->inFeatureTypeID = $inFeatureTypeID;
-        return $this;
+      $this->inFeatureTypeID = $inFeatureTypeID;
+      return $this;
     }
 
 }

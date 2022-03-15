@@ -33,10 +33,10 @@ class LockResource
      */
     public function __construct($inUsername = null, $inPassword = null, $inResourceType = null, $inResourceID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inResourceType = $inResourceType;
-        $this->inResourceID = $inResourceID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inResourceType = $inResourceType;
+      $this->inResourceID = $inResourceID;
     }
 
     /**
@@ -44,17 +44,17 @@ class LockResource
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return LockResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\LockResource
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class LockResource
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return LockResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\LockResource
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class LockResource
      */
     public function getInResourceType()
     {
-        return $this->inResourceType;
+      return $this->inResourceType;
     }
 
     /**
      * @param string $inResourceType
-     * @return LockResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\LockResource
      */
     public function setInResourceType($inResourceType)
     {
-        $this->inResourceType = $inResourceType;
-        return $this;
+      $this->inResourceType = $inResourceType;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class LockResource
      */
     public function getInResourceID()
     {
-        return $this->inResourceID;
+      return $this->inResourceID;
     }
 
     /**
      * @param string $inResourceID
-     * @return LockResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\LockResource
      */
     public function setInResourceID($inResourceID)
     {
-        $this->inResourceID = $inResourceID;
-        return $this;
+      $this->inResourceID = $inResourceID;
+      return $this;
     }
 
 }

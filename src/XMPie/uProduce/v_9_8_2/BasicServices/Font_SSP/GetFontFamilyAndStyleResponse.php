@@ -21,8 +21,8 @@ class GetFontFamilyAndStyleResponse
      */
     public function __construct($outFamilyName = null, $outFontStyle = null)
     {
-        $this->outFamilyName = $outFamilyName;
-        $this->outFontStyle = $outFontStyle;
+      $this->outFamilyName = $outFamilyName;
+      $this->outFontStyle = $outFontStyle;
     }
 
     /**
@@ -30,17 +30,17 @@ class GetFontFamilyAndStyleResponse
      */
     public function getOutFamilyName()
     {
-        return $this->outFamilyName;
+      return $this->outFamilyName;
     }
 
     /**
      * @param string $outFamilyName
-     * @return GetFontFamilyAndStyleResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetFontFamilyAndStyleResponse
      */
     public function setOutFamilyName($outFamilyName)
     {
-        $this->outFamilyName = $outFamilyName;
-        return $this;
+      $this->outFamilyName = $outFamilyName;
+      return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class GetFontFamilyAndStyleResponse
      */
     public function getOutFontStyle()
     {
-        return $this->outFontStyle;
+      return $this->outFontStyle;
     }
 
     /**
      * @param string $outFontStyle
-     * @return GetFontFamilyAndStyleResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetFontFamilyAndStyleResponse
      */
     public function setOutFontStyle($outFontStyle)
     {
-        $this->outFontStyle = $outFontStyle;
-        return $this;
+      $this->outFontStyle = $outFontStyle;
+      return $this;
     }
 
 }

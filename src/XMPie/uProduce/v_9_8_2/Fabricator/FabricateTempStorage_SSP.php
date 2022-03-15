@@ -63,10 +63,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateFile
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateFile
+    */
     public function CreateFile($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -81,10 +81,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateFileResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateFileResponse
+    */
     public function CreateFileResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -99,10 +99,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AppendFileBinaryStream
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AppendFileBinaryStream
+    */
     public function AppendFileBinaryStream($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -117,10 +117,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AppendFileBinaryStreamResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AppendFileBinaryStreamResponse
+    */
     public function AppendFileBinaryStreamResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -135,10 +135,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFilePath
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFilePath
+    */
     public function GetFilePath($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -153,10 +153,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFilePathResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFilePathResponse
+    */
     public function GetFilePathResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -171,10 +171,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFileBinaryStream
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFileBinaryStream
+    */
     public function GetFileBinaryStream($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -189,10 +189,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFileBinaryStreamResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFileBinaryStreamResponse
+    */
     public function GetFileBinaryStreamResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -207,10 +207,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFileBinaryStreamChunk
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFileBinaryStreamChunk
+    */
     public function GetFileBinaryStreamChunk($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -225,10 +225,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFileBinaryStreamChunkResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFileBinaryStreamChunkResponse
+    */
     public function GetFileBinaryStreamChunkResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -243,10 +243,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFileBinaryStreamSize
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFileBinaryStreamSize
+    */
     public function GetFileBinaryStreamSize($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -261,10 +261,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFileBinaryStreamSizeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFileBinaryStreamSizeResponse
+    */
     public function GetFileBinaryStreamSizeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -279,10 +279,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteFile
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteFile
+    */
     public function DeleteFile($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -297,10 +297,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteFileResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteFileResponse
+    */
     public function DeleteFileResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -315,10 +315,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateFolder
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateFolder
+    */
     public function CreateFolder($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -333,10 +333,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateFolderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateFolderResponse
+    */
     public function CreateFolderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -351,10 +351,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddFileToFolder
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddFileToFolder
+    */
     public function AddFileToFolder($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -369,10 +369,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddFileToFolderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddFileToFolderResponse
+    */
     public function AddFileToFolderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -387,10 +387,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteFolder
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteFolder
+    */
     public function DeleteFolder($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -405,10 +405,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteFolderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteFolderResponse
+    */
     public function DeleteFolderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -423,10 +423,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFolderFiles
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFolderFiles
+    */
     public function GetFolderFiles($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -441,10 +441,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFolderFilesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFolderFilesResponse
+    */
     public function GetFolderFilesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -459,10 +459,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfString
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfString
+    */
     public function ArrayOfString($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -477,10 +477,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteAll
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteAll
+    */
     public function DeleteAll($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -495,10 +495,10 @@ class FabricateTempStorage_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteAllResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteAllResponse
+    */
     public function DeleteAllResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -511,6 +511,7 @@ class FabricateTempStorage_SSP
         }
         return $DeleteAllResponse;
     }
+
 
 
 }

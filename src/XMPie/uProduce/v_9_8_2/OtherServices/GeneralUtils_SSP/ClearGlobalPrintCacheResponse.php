@@ -15,7 +15,7 @@ class ClearGlobalPrintCacheResponse
      */
     public function __construct($ClearGlobalPrintCacheResult = null)
     {
-        $this->ClearGlobalPrintCacheResult = $ClearGlobalPrintCacheResult;
+      $this->ClearGlobalPrintCacheResult = $ClearGlobalPrintCacheResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ClearGlobalPrintCacheResponse
      */
     public function getClearGlobalPrintCacheResult()
     {
-        return $this->ClearGlobalPrintCacheResult;
+      return $this->ClearGlobalPrintCacheResult;
     }
 
     /**
      * @param boolean $ClearGlobalPrintCacheResult
-     * @return ClearGlobalPrintCacheResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ClearGlobalPrintCacheResponse
      */
     public function setClearGlobalPrintCacheResult($ClearGlobalPrintCacheResult)
     {
-        $this->ClearGlobalPrintCacheResult = $ClearGlobalPrintCacheResult;
-        return $this;
+      $this->ClearGlobalPrintCacheResult = $ClearGlobalPrintCacheResult;
+      return $this;
     }
 
 }

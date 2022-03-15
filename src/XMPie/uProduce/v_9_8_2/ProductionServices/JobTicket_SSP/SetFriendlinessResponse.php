@@ -15,7 +15,7 @@ class SetFriendlinessResponse
      */
     public function __construct($SetFriendlinessResult = null)
     {
-        $this->SetFriendlinessResult = $SetFriendlinessResult;
+      $this->SetFriendlinessResult = $SetFriendlinessResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetFriendlinessResponse
      */
     public function getSetFriendlinessResult()
     {
-        return $this->SetFriendlinessResult;
+      return $this->SetFriendlinessResult;
     }
 
     /**
      * @param boolean $SetFriendlinessResult
-     * @return SetFriendlinessResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFriendlinessResponse
      */
     public function setSetFriendlinessResult($SetFriendlinessResult)
     {
-        $this->SetFriendlinessResult = $SetFriendlinessResult;
-        return $this;
+      $this->SetFriendlinessResult = $SetFriendlinessResult;
+      return $this;
     }
 
 }

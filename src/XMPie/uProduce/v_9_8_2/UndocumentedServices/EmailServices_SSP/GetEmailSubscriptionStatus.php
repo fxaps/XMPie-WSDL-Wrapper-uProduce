@@ -39,11 +39,11 @@ class GetEmailSubscriptionStatus
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inPublicationID = null, $inEmailAddress = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountID = $inAccountID;
-        $this->inPublicationID = $inPublicationID;
-        $this->inEmailAddress = $inEmailAddress;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountID = $inAccountID;
+      $this->inPublicationID = $inPublicationID;
+      $this->inEmailAddress = $inEmailAddress;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetEmailSubscriptionStatus
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetEmailSubscriptionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\GetEmailSubscriptionStatus
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetEmailSubscriptionStatus
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetEmailSubscriptionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\GetEmailSubscriptionStatus
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetEmailSubscriptionStatus
      */
     public function getInAccountID()
     {
-        return $this->inAccountID;
+      return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return GetEmailSubscriptionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\GetEmailSubscriptionStatus
      */
     public function setInAccountID($inAccountID)
     {
-        $this->inAccountID = $inAccountID;
-        return $this;
+      $this->inAccountID = $inAccountID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetEmailSubscriptionStatus
      */
     public function getInPublicationID()
     {
-        return $this->inPublicationID;
+      return $this->inPublicationID;
     }
 
     /**
      * @param string $inPublicationID
-     * @return GetEmailSubscriptionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\GetEmailSubscriptionStatus
      */
     public function setInPublicationID($inPublicationID)
     {
-        $this->inPublicationID = $inPublicationID;
-        return $this;
+      $this->inPublicationID = $inPublicationID;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetEmailSubscriptionStatus
      */
     public function getInEmailAddress()
     {
-        return $this->inEmailAddress;
+      return $this->inEmailAddress;
     }
 
     /**
      * @param string $inEmailAddress
-     * @return GetEmailSubscriptionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\GetEmailSubscriptionStatus
      */
     public function setInEmailAddress($inEmailAddress)
     {
-        $this->inEmailAddress = $inEmailAddress;
-        return $this;
+      $this->inEmailAddress = $inEmailAddress;
+      return $this;
     }
 
 }

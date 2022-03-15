@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfSetting implements ArrayAccess, Iterator, Countable
+class ArrayOfSetting implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     protected $Setting = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function getSetting()
     {
-        return $this->Setting;
+      return $this->Setting;
     }
 
     /**
      * @param Setting[] $Setting
-     * @return ArrayOfSetting
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\ArrayOfSetting
      */
     public function setSetting(array $Setting = null)
     {
-        $this->Setting = $Setting;
-        return $this;
+      $this->Setting = $Setting;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->Setting[$offset]);
+      return isset($this->Setting[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->Setting[$offset];
+      return $this->Setting[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->Setting[] = $value;
-        } else {
-            $this->Setting[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->Setting[] = $value;
+      } else {
+        $this->Setting[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->Setting[$offset]);
+      unset($this->Setting[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->Setting);
+      return current($this->Setting);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->Setting);
+      next($this->Setting);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->Setting);
+      return key($this->Setting);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->Setting);
+      reset($this->Setting);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfSetting implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->Setting);
+      return count($this->Setting);
     }
 
 }

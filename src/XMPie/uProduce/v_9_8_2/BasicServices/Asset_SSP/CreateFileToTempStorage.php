@@ -33,10 +33,10 @@ class CreateFileToTempStorage
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetID = null, $inCopyFileName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAssetID = $inAssetID;
-        $this->inCopyFileName = $inCopyFileName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAssetID = $inAssetID;
+      $this->inCopyFileName = $inCopyFileName;
     }
 
     /**
@@ -44,17 +44,17 @@ class CreateFileToTempStorage
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateFileToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateFileToTempStorage
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class CreateFileToTempStorage
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateFileToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateFileToTempStorage
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class CreateFileToTempStorage
      */
     public function getInAssetID()
     {
-        return $this->inAssetID;
+      return $this->inAssetID;
     }
 
     /**
      * @param string $inAssetID
-     * @return CreateFileToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateFileToTempStorage
      */
     public function setInAssetID($inAssetID)
     {
-        $this->inAssetID = $inAssetID;
-        return $this;
+      $this->inAssetID = $inAssetID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class CreateFileToTempStorage
      */
     public function getInCopyFileName()
     {
-        return $this->inCopyFileName;
+      return $this->inCopyFileName;
     }
 
     /**
      * @param string $inCopyFileName
-     * @return CreateFileToTempStorage
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\CreateFileToTempStorage
      */
     public function setInCopyFileName($inCopyFileName)
     {
-        $this->inCopyFileName = $inCopyFileName;
-        return $this;
+      $this->inCopyFileName = $inCopyFileName;
+      return $this;
     }
 
 }

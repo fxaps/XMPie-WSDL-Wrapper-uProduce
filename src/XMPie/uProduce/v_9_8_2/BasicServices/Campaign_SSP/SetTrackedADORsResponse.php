@@ -15,7 +15,7 @@ class SetTrackedADORsResponse
      */
     public function __construct($SetTrackedADORsResult = null)
     {
-        $this->SetTrackedADORsResult = $SetTrackedADORsResult;
+      $this->SetTrackedADORsResult = $SetTrackedADORsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetTrackedADORsResponse
      */
     public function getSetTrackedADORsResult()
     {
-        return $this->SetTrackedADORsResult;
+      return $this->SetTrackedADORsResult;
     }
 
     /**
      * @param boolean $SetTrackedADORsResult
-     * @return SetTrackedADORsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\SetTrackedADORsResponse
      */
     public function setSetTrackedADORsResult($SetTrackedADORsResult)
     {
-        $this->SetTrackedADORsResult = $SetTrackedADORsResult;
-        return $this;
+      $this->SetTrackedADORsResult = $SetTrackedADORsResult;
+      return $this;
     }
 
 }

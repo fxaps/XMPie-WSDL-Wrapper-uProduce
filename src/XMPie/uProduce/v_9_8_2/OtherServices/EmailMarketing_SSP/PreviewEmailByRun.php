@@ -39,11 +39,11 @@ class PreviewEmailByRun
      */
     public function __construct($inUsername = null, $inPassword = null, $inRunGUID = null, $inEmailMarketingID = null, $inRecipientID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inRunGUID = $inRunGUID;
-        $this->inEmailMarketingID = $inEmailMarketingID;
-        $this->inRecipientID = $inRecipientID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inRunGUID = $inRunGUID;
+      $this->inEmailMarketingID = $inEmailMarketingID;
+      $this->inRecipientID = $inRecipientID;
     }
 
     /**
@@ -51,17 +51,17 @@ class PreviewEmailByRun
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return PreviewEmailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByRun
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class PreviewEmailByRun
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return PreviewEmailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByRun
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class PreviewEmailByRun
      */
     public function getInRunGUID()
     {
-        return $this->inRunGUID;
+      return $this->inRunGUID;
     }
 
     /**
      * @param string $inRunGUID
-     * @return PreviewEmailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByRun
      */
     public function setInRunGUID($inRunGUID)
     {
-        $this->inRunGUID = $inRunGUID;
-        return $this;
+      $this->inRunGUID = $inRunGUID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class PreviewEmailByRun
      */
     public function getInEmailMarketingID()
     {
-        return $this->inEmailMarketingID;
+      return $this->inEmailMarketingID;
     }
 
     /**
      * @param string $inEmailMarketingID
-     * @return PreviewEmailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByRun
      */
     public function setInEmailMarketingID($inEmailMarketingID)
     {
-        $this->inEmailMarketingID = $inEmailMarketingID;
-        return $this;
+      $this->inEmailMarketingID = $inEmailMarketingID;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class PreviewEmailByRun
      */
     public function getInRecipientID()
     {
-        return $this->inRecipientID;
+      return $this->inRecipientID;
     }
 
     /**
      * @param string $inRecipientID
-     * @return PreviewEmailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailByRun
      */
     public function setInRecipientID($inRecipientID)
     {
-        $this->inRecipientID = $inRecipientID;
-        return $this;
+      $this->inRecipientID = $inRecipientID;
+      return $this;
     }
 
 }

@@ -27,9 +27,9 @@ class GetDataSet
      */
     public function __construct($inUsername = null, $inPassword = null, $inDeliveryProviderID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDeliveryProviderID = $inDeliveryProviderID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDeliveryProviderID = $inDeliveryProviderID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetDataSet
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetDataSet
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetDataSet
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetDataSet
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetDataSet
      */
     public function getInDeliveryProviderID()
     {
-        return $this->inDeliveryProviderID;
+      return $this->inDeliveryProviderID;
     }
 
     /**
      * @param string $inDeliveryProviderID
-     * @return GetDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetDataSet
      */
     public function setInDeliveryProviderID($inDeliveryProviderID)
     {
-        $this->inDeliveryProviderID = $inDeliveryProviderID;
-        return $this;
+      $this->inDeliveryProviderID = $inDeliveryProviderID;
+      return $this;
     }
 
 }

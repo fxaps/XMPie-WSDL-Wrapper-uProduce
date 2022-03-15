@@ -15,7 +15,7 @@ class GetAvailableOutputFormatsResponse
      */
     public function __construct($GetAvailableOutputFormatsResult = null)
     {
-        $this->GetAvailableOutputFormatsResult = $GetAvailableOutputFormatsResult;
+      $this->GetAvailableOutputFormatsResult = $GetAvailableOutputFormatsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAvailableOutputFormatsResponse
      */
     public function getGetAvailableOutputFormatsResult()
     {
-        return $this->GetAvailableOutputFormatsResult;
+      return $this->GetAvailableOutputFormatsResult;
     }
 
     /**
      * @param ArrayOfString $GetAvailableOutputFormatsResult
-     * @return GetAvailableOutputFormatsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetAvailableOutputFormatsResponse
      */
     public function setGetAvailableOutputFormatsResult($GetAvailableOutputFormatsResult)
     {
-        $this->GetAvailableOutputFormatsResult = $GetAvailableOutputFormatsResult;
-        return $this;
+      $this->GetAvailableOutputFormatsResult = $GetAvailableOutputFormatsResult;
+      return $this;
     }
 
 }

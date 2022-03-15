@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
+class ArrayOfEmailProviderParameter implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     protected $EmailProviderParameter = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function getEmailProviderParameter()
     {
-        return $this->EmailProviderParameter;
+      return $this->EmailProviderParameter;
     }
 
     /**
      * @param EmailProviderParameter[] $EmailProviderParameter
-     * @return ArrayOfEmailProviderParameter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\ArrayOfEmailProviderParameter
      */
     public function setEmailProviderParameter(array $EmailProviderParameter = null)
     {
-        $this->EmailProviderParameter = $EmailProviderParameter;
-        return $this;
+      $this->EmailProviderParameter = $EmailProviderParameter;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->EmailProviderParameter[$offset]);
+      return isset($this->EmailProviderParameter[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->EmailProviderParameter[$offset];
+      return $this->EmailProviderParameter[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->EmailProviderParameter[] = $value;
-        } else {
-            $this->EmailProviderParameter[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->EmailProviderParameter[] = $value;
+      } else {
+        $this->EmailProviderParameter[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->EmailProviderParameter[$offset]);
+      unset($this->EmailProviderParameter[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->EmailProviderParameter);
+      return current($this->EmailProviderParameter);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->EmailProviderParameter);
+      next($this->EmailProviderParameter);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->EmailProviderParameter);
+      return key($this->EmailProviderParameter);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->EmailProviderParameter);
+      reset($this->EmailProviderParameter);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfEmailProviderParameter implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->EmailProviderParameter);
+      return count($this->EmailProviderParameter);
     }
 
 }

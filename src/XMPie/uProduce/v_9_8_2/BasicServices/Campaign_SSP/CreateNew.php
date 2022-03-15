@@ -39,11 +39,11 @@ class CreateNew
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inName = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountID = $inAccountID;
-        $this->inName = $inName;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountID = $inAccountID;
+      $this->inName = $inName;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -51,17 +51,17 @@ class CreateNew
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNew
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class CreateNew
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNew
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class CreateNew
      */
     public function getInAccountID()
     {
-        return $this->inAccountID;
+      return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNew
      */
     public function setInAccountID($inAccountID)
     {
-        $this->inAccountID = $inAccountID;
-        return $this;
+      $this->inAccountID = $inAccountID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class CreateNew
      */
     public function getInName()
     {
-        return $this->inName;
+      return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNew
      */
     public function setInName($inName)
     {
-        $this->inName = $inName;
-        return $this;
+      $this->inName = $inName;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class CreateNew
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNew
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

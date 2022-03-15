@@ -45,12 +45,12 @@ class GetOutputResultBinaryFileStreamChunk
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobID = null, $inResultIndex = null, $inOffset = null, $inoutCount = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobID = $inJobID;
-        $this->inResultIndex = $inResultIndex;
-        $this->inOffset = $inOffset;
-        $this->inoutCount = $inoutCount;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobID = $inJobID;
+      $this->inResultIndex = $inResultIndex;
+      $this->inOffset = $inOffset;
+      $this->inoutCount = $inoutCount;
     }
 
     /**
@@ -58,17 +58,17 @@ class GetOutputResultBinaryFileStreamChunk
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetOutputResultBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultBinaryFileStreamChunk
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class GetOutputResultBinaryFileStreamChunk
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetOutputResultBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultBinaryFileStreamChunk
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class GetOutputResultBinaryFileStreamChunk
      */
     public function getInJobID()
     {
-        return $this->inJobID;
+      return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return GetOutputResultBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultBinaryFileStreamChunk
      */
     public function setInJobID($inJobID)
     {
-        $this->inJobID = $inJobID;
-        return $this;
+      $this->inJobID = $inJobID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class GetOutputResultBinaryFileStreamChunk
      */
     public function getInResultIndex()
     {
-        return $this->inResultIndex;
+      return $this->inResultIndex;
     }
 
     /**
      * @param int $inResultIndex
-     * @return GetOutputResultBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultBinaryFileStreamChunk
      */
     public function setInResultIndex($inResultIndex)
     {
-        $this->inResultIndex = $inResultIndex;
-        return $this;
+      $this->inResultIndex = $inResultIndex;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class GetOutputResultBinaryFileStreamChunk
      */
     public function getInOffset()
     {
-        return $this->inOffset;
+      return $this->inOffset;
     }
 
     /**
      * @param int $inOffset
-     * @return GetOutputResultBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultBinaryFileStreamChunk
      */
     public function setInOffset($inOffset)
     {
-        $this->inOffset = $inOffset;
-        return $this;
+      $this->inOffset = $inOffset;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class GetOutputResultBinaryFileStreamChunk
      */
     public function getInoutCount()
     {
-        return $this->inoutCount;
+      return $this->inoutCount;
     }
 
     /**
      * @param int $inoutCount
-     * @return GetOutputResultBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultBinaryFileStreamChunk
      */
     public function setInoutCount($inoutCount)
     {
-        $this->inoutCount = $inoutCount;
-        return $this;
+      $this->inoutCount = $inoutCount;
+      return $this;
     }
 
 }

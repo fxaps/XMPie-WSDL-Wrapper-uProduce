@@ -33,10 +33,10 @@ class DecodeSeverity
      */
     public function __construct($inUsername = null, $inPassword = null, $inSeverityID = null, $inLanguageID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inSeverityID = $inSeverityID;
-        $this->inLanguageID = $inLanguageID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inSeverityID = $inSeverityID;
+      $this->inLanguageID = $inLanguageID;
     }
 
     /**
@@ -44,17 +44,17 @@ class DecodeSeverity
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DecodeSeverity
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeSeverity
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DecodeSeverity
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DecodeSeverity
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeSeverity
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DecodeSeverity
      */
     public function getInSeverityID()
     {
-        return $this->inSeverityID;
+      return $this->inSeverityID;
     }
 
     /**
      * @param string $inSeverityID
-     * @return DecodeSeverity
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeSeverity
      */
     public function setInSeverityID($inSeverityID)
     {
-        $this->inSeverityID = $inSeverityID;
-        return $this;
+      $this->inSeverityID = $inSeverityID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DecodeSeverity
      */
     public function getInLanguageID()
     {
-        return $this->inLanguageID;
+      return $this->inLanguageID;
     }
 
     /**
      * @param int $inLanguageID
-     * @return DecodeSeverity
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeSeverity
      */
     public function setInLanguageID($inLanguageID)
     {
-        $this->inLanguageID = $inLanguageID;
-        return $this;
+      $this->inLanguageID = $inLanguageID;
+      return $this;
     }
 
 }

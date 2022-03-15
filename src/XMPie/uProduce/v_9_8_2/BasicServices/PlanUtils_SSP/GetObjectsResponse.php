@@ -15,7 +15,7 @@ class GetObjectsResponse
      */
     public function __construct($GetObjectsResult = null)
     {
-        $this->GetObjectsResult = $GetObjectsResult;
+      $this->GetObjectsResult = $GetObjectsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetObjectsResponse
      */
     public function getGetObjectsResult()
     {
-        return $this->GetObjectsResult;
+      return $this->GetObjectsResult;
     }
 
     /**
      * @param ArrayOfPlanObject $GetObjectsResult
-     * @return GetObjectsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetObjectsResponse
      */
     public function setGetObjectsResult($GetObjectsResult)
     {
-        $this->GetObjectsResult = $GetObjectsResult;
-        return $this;
+      $this->GetObjectsResult = $GetObjectsResult;
+      return $this;
     }
 
 }

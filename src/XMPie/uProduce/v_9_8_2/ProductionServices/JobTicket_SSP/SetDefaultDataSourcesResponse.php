@@ -15,7 +15,7 @@ class SetDefaultDataSourcesResponse
      */
     public function __construct($SetDefaultDataSourcesResult = null)
     {
-        $this->SetDefaultDataSourcesResult = $SetDefaultDataSourcesResult;
+      $this->SetDefaultDataSourcesResult = $SetDefaultDataSourcesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetDefaultDataSourcesResponse
      */
     public function getSetDefaultDataSourcesResult()
     {
-        return $this->SetDefaultDataSourcesResult;
+      return $this->SetDefaultDataSourcesResult;
     }
 
     /**
      * @param boolean $SetDefaultDataSourcesResult
-     * @return SetDefaultDataSourcesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultDataSourcesResponse
      */
     public function setSetDefaultDataSourcesResult($SetDefaultDataSourcesResult)
     {
-        $this->SetDefaultDataSourcesResult = $SetDefaultDataSourcesResult;
-        return $this;
+      $this->SetDefaultDataSourcesResult = $SetDefaultDataSourcesResult;
+      return $this;
     }
 
 }

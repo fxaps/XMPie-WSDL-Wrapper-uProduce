@@ -15,7 +15,7 @@ class RemoveJDFParametersResponse
      */
     public function __construct($RemoveJDFParametersResult = null)
     {
-        $this->RemoveJDFParametersResult = $RemoveJDFParametersResult;
+      $this->RemoveJDFParametersResult = $RemoveJDFParametersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveJDFParametersResponse
      */
     public function getRemoveJDFParametersResult()
     {
-        return $this->RemoveJDFParametersResult;
+      return $this->RemoveJDFParametersResult;
     }
 
     /**
      * @param boolean $RemoveJDFParametersResult
-     * @return RemoveJDFParametersResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveJDFParametersResponse
      */
     public function setRemoveJDFParametersResult($RemoveJDFParametersResult)
     {
-        $this->RemoveJDFParametersResult = $RemoveJDFParametersResult;
-        return $this;
+      $this->RemoveJDFParametersResult = $RemoveJDFParametersResult;
+      return $this;
     }
 
 }

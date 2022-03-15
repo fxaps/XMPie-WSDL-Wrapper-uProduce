@@ -15,7 +15,7 @@ class GetSubJobSplitCountResponse
      */
     public function __construct($GetSubJobSplitCountResult = null)
     {
-        $this->GetSubJobSplitCountResult = $GetSubJobSplitCountResult;
+      $this->GetSubJobSplitCountResult = $GetSubJobSplitCountResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSubJobSplitCountResponse
      */
     public function getGetSubJobSplitCountResult()
     {
-        return $this->GetSubJobSplitCountResult;
+      return $this->GetSubJobSplitCountResult;
     }
 
     /**
      * @param int $GetSubJobSplitCountResult
-     * @return GetSubJobSplitCountResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetSubJobSplitCountResponse
      */
     public function setGetSubJobSplitCountResult($GetSubJobSplitCountResult)
     {
-        $this->GetSubJobSplitCountResult = $GetSubJobSplitCountResult;
-        return $this;
+      $this->GetSubJobSplitCountResult = $GetSubJobSplitCountResult;
+      return $this;
     }
 
 }

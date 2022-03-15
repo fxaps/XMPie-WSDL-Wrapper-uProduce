@@ -27,9 +27,9 @@ class CreateFile
      */
     public function __construct($inUsername = null, $inPassword = null, $inFileName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inFileName = $inFileName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inFileName = $inFileName;
     }
 
     /**
@@ -37,17 +37,17 @@ class CreateFile
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\CreateFile
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class CreateFile
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\CreateFile
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class CreateFile
      */
     public function getInFileName()
     {
-        return $this->inFileName;
+      return $this->inFileName;
     }
 
     /**
      * @param string $inFileName
-     * @return CreateFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\CreateFile
      */
     public function setInFileName($inFileName)
     {
-        $this->inFileName = $inFileName;
-        return $this;
+      $this->inFileName = $inFileName;
+      return $this;
     }
 
 }

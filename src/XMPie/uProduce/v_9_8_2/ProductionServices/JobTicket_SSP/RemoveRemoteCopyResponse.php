@@ -15,7 +15,7 @@ class RemoveRemoteCopyResponse
      */
     public function __construct($RemoveRemoteCopyResult = null)
     {
-        $this->RemoveRemoteCopyResult = $RemoveRemoteCopyResult;
+      $this->RemoveRemoteCopyResult = $RemoveRemoteCopyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveRemoteCopyResponse
      */
     public function getRemoveRemoteCopyResult()
     {
-        return $this->RemoveRemoteCopyResult;
+      return $this->RemoveRemoteCopyResult;
     }
 
     /**
      * @param boolean $RemoveRemoteCopyResult
-     * @return RemoveRemoteCopyResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveRemoteCopyResponse
      */
     public function setRemoveRemoteCopyResult($RemoveRemoteCopyResult)
     {
-        $this->RemoveRemoteCopyResult = $RemoveRemoteCopyResult;
-        return $this;
+      $this->RemoveRemoteCopyResult = $RemoveRemoteCopyResult;
+      return $this;
     }
 
 }

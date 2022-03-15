@@ -15,7 +15,7 @@ class ExecuteResponse
      */
     public function __construct($ExecuteResult = null)
     {
-        $this->ExecuteResult = $ExecuteResult;
+      $this->ExecuteResult = $ExecuteResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ExecuteResponse
      */
     public function getExecuteResult()
     {
-        return $this->ExecuteResult;
+      return $this->ExecuteResult;
     }
 
     /**
      * @param boolean $ExecuteResult
-     * @return ExecuteResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\CustomButton_SSP\ExecuteResponse
      */
     public function setExecuteResult($ExecuteResult)
     {
-        $this->ExecuteResult = $ExecuteResult;
-        return $this;
+      $this->ExecuteResult = $ExecuteResult;
+      return $this;
     }
 
 }

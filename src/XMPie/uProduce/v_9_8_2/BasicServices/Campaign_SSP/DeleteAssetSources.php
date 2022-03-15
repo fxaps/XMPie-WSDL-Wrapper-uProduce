@@ -33,10 +33,10 @@ class DeleteAssetSources
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inAssetSourceIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inAssetSourceIDArray = $inAssetSourceIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inAssetSourceIDArray = $inAssetSourceIDArray;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeleteAssetSources
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteAssetSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAssetSources
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeleteAssetSources
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteAssetSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAssetSources
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeleteAssetSources
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return DeleteAssetSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAssetSources
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeleteAssetSources
      */
     public function getInAssetSourceIDArray()
     {
-        return $this->inAssetSourceIDArray;
+      return $this->inAssetSourceIDArray;
     }
 
     /**
      * @param ArrayOfString $inAssetSourceIDArray
-     * @return DeleteAssetSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAssetSources
      */
     public function setInAssetSourceIDArray($inAssetSourceIDArray)
     {
-        $this->inAssetSourceIDArray = $inAssetSourceIDArray;
-        return $this;
+      $this->inAssetSourceIDArray = $inAssetSourceIDArray;
+      return $this;
     }
 
 }

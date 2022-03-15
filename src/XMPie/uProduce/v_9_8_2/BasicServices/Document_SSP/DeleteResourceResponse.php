@@ -15,7 +15,7 @@ class DeleteResourceResponse
      */
     public function __construct($DeleteResourceResult = null)
     {
-        $this->DeleteResourceResult = $DeleteResourceResult;
+      $this->DeleteResourceResult = $DeleteResourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteResourceResponse
      */
     public function getDeleteResourceResult()
     {
-        return $this->DeleteResourceResult;
+      return $this->DeleteResourceResult;
     }
 
     /**
      * @param boolean $DeleteResourceResult
-     * @return DeleteResourceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\DeleteResourceResponse
      */
     public function setDeleteResourceResult($DeleteResourceResult)
     {
-        $this->DeleteResourceResult = $DeleteResourceResult;
-        return $this;
+      $this->DeleteResourceResult = $DeleteResourceResult;
+      return $this;
     }
 
 }

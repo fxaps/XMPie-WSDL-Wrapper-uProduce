@@ -15,7 +15,7 @@ class GetCustomizationsCountResponse
      */
     public function __construct($GetCustomizationsCountResult = null)
     {
-        $this->GetCustomizationsCountResult = $GetCustomizationsCountResult;
+      $this->GetCustomizationsCountResult = $GetCustomizationsCountResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCustomizationsCountResponse
      */
     public function getGetCustomizationsCountResult()
     {
-        return $this->GetCustomizationsCountResult;
+      return $this->GetCustomizationsCountResult;
     }
 
     /**
      * @param int $GetCustomizationsCountResult
-     * @return GetCustomizationsCountResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetCustomizationsCountResponse
      */
     public function setGetCustomizationsCountResult($GetCustomizationsCountResult)
     {
-        $this->GetCustomizationsCountResult = $GetCustomizationsCountResult;
-        return $this;
+      $this->GetCustomizationsCountResult = $GetCustomizationsCountResult;
+      return $this;
     }
 
 }

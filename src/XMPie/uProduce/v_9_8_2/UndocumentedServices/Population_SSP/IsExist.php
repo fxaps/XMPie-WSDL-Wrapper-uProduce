@@ -33,10 +33,10 @@ class IsExist
      */
     public function __construct($inUsername = null, $inPassword = null, $inPopulationGUID = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPopulationGUID = $inPopulationGUID;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPopulationGUID = $inPopulationGUID;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -44,17 +44,17 @@ class IsExist
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return IsExist
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\IsExist
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class IsExist
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return IsExist
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\IsExist
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class IsExist
      */
     public function getInPopulationGUID()
     {
-        return $this->inPopulationGUID;
+      return $this->inPopulationGUID;
     }
 
     /**
      * @param string $inPopulationGUID
-     * @return IsExist
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\IsExist
      */
     public function setInPopulationGUID($inPopulationGUID)
     {
-        $this->inPopulationGUID = $inPopulationGUID;
-        return $this;
+      $this->inPopulationGUID = $inPopulationGUID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class IsExist
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return IsExist
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\IsExist
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

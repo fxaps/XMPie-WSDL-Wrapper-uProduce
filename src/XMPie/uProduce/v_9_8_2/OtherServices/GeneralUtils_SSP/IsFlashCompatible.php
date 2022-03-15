@@ -27,9 +27,9 @@ class IsFlashCompatible
      */
     public function __construct($inUsername = null, $inPassword = null, $inSourceImageURL = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inSourceImageURL = $inSourceImageURL;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inSourceImageURL = $inSourceImageURL;
     }
 
     /**
@@ -37,17 +37,17 @@ class IsFlashCompatible
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return IsFlashCompatible
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatible
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class IsFlashCompatible
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return IsFlashCompatible
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatible
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class IsFlashCompatible
      */
     public function getInSourceImageURL()
     {
-        return $this->inSourceImageURL;
+      return $this->inSourceImageURL;
     }
 
     /**
      * @param string $inSourceImageURL
-     * @return IsFlashCompatible
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatible
      */
     public function setInSourceImageURL($inSourceImageURL)
     {
-        $this->inSourceImageURL = $inSourceImageURL;
-        return $this;
+      $this->inSourceImageURL = $inSourceImageURL;
+      return $this;
     }
 
 }

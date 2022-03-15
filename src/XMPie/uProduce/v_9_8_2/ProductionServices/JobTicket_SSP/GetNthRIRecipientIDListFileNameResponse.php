@@ -15,7 +15,7 @@ class GetNthRIRecipientIDListFileNameResponse
      */
     public function __construct($GetNthRIRecipientIDListFileNameResult = null)
     {
-        $this->GetNthRIRecipientIDListFileNameResult = $GetNthRIRecipientIDListFileNameResult;
+      $this->GetNthRIRecipientIDListFileNameResult = $GetNthRIRecipientIDListFileNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthRIRecipientIDListFileNameResponse
      */
     public function getGetNthRIRecipientIDListFileNameResult()
     {
-        return $this->GetNthRIRecipientIDListFileNameResult;
+      return $this->GetNthRIRecipientIDListFileNameResult;
     }
 
     /**
      * @param string $GetNthRIRecipientIDListFileNameResult
-     * @return GetNthRIRecipientIDListFileNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthRIRecipientIDListFileNameResponse
      */
     public function setGetNthRIRecipientIDListFileNameResult($GetNthRIRecipientIDListFileNameResult)
     {
-        $this->GetNthRIRecipientIDListFileNameResult = $GetNthRIRecipientIDListFileNameResult;
-        return $this;
+      $this->GetNthRIRecipientIDListFileNameResult = $GetNthRIRecipientIDListFileNameResult;
+      return $this;
     }
 
 }

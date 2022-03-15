@@ -68,10 +68,10 @@ class RecipientsInfo
      */
     public function __construct($m_From = null, $m_To = null, $m_FilterType = null, $m_recipientIDListMergeType = null)
     {
-        $this->m_From = $m_From;
-        $this->m_To = $m_To;
-        $this->m_FilterType = $m_FilterType;
-        $this->m_recipientIDListMergeType = $m_recipientIDListMergeType;
+      $this->m_From = $m_From;
+      $this->m_To = $m_To;
+      $this->m_FilterType = $m_FilterType;
+      $this->m_recipientIDListMergeType = $m_recipientIDListMergeType;
     }
 
     /**
@@ -79,17 +79,17 @@ class RecipientsInfo
      */
     public function getM_From()
     {
-        return $this->m_From;
+      return $this->m_From;
     }
 
     /**
      * @param int $m_From
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_From($m_From)
     {
-        $this->m_From = $m_From;
-        return $this;
+      $this->m_From = $m_From;
+      return $this;
     }
 
     /**
@@ -97,17 +97,17 @@ class RecipientsInfo
      */
     public function getM_To()
     {
-        return $this->m_To;
+      return $this->m_To;
     }
 
     /**
      * @param int $m_To
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_To($m_To)
     {
-        $this->m_To = $m_To;
-        return $this;
+      $this->m_To = $m_To;
+      return $this;
     }
 
     /**
@@ -115,17 +115,17 @@ class RecipientsInfo
      */
     public function getM_FilterType()
     {
-        return $this->m_FilterType;
+      return $this->m_FilterType;
     }
 
     /**
      * @param int $m_FilterType
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_FilterType($m_FilterType)
     {
-        $this->m_FilterType = $m_FilterType;
-        return $this;
+      $this->m_FilterType = $m_FilterType;
+      return $this;
     }
 
     /**
@@ -133,17 +133,17 @@ class RecipientsInfo
      */
     public function getM_Filter()
     {
-        return $this->m_Filter;
+      return $this->m_Filter;
     }
 
     /**
      * @param string $m_Filter
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_Filter($m_Filter)
     {
-        $this->m_Filter = $m_Filter;
-        return $this;
+      $this->m_Filter = $m_Filter;
+      return $this;
     }
 
     /**
@@ -151,17 +151,17 @@ class RecipientsInfo
      */
     public function getM_SubFilter()
     {
-        return $this->m_SubFilter;
+      return $this->m_SubFilter;
     }
 
     /**
      * @param string $m_SubFilter
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_SubFilter($m_SubFilter)
     {
-        $this->m_SubFilter = $m_SubFilter;
-        return $this;
+      $this->m_SubFilter = $m_SubFilter;
+      return $this;
     }
 
     /**
@@ -169,17 +169,17 @@ class RecipientsInfo
      */
     public function getM_SelectOneQuery()
     {
-        return $this->m_SelectOneQuery;
+      return $this->m_SelectOneQuery;
     }
 
     /**
      * @param string $m_SelectOneQuery
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_SelectOneQuery($m_SelectOneQuery)
     {
-        $this->m_SelectOneQuery = $m_SelectOneQuery;
-        return $this;
+      $this->m_SelectOneQuery = $m_SelectOneQuery;
+      return $this;
     }
 
     /**
@@ -187,17 +187,17 @@ class RecipientsInfo
      */
     public function getM_InsertQuery()
     {
-        return $this->m_InsertQuery;
+      return $this->m_InsertQuery;
     }
 
     /**
      * @param string $m_InsertQuery
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_InsertQuery($m_InsertQuery)
     {
-        $this->m_InsertQuery = $m_InsertQuery;
-        return $this;
+      $this->m_InsertQuery = $m_InsertQuery;
+      return $this;
     }
 
     /**
@@ -205,17 +205,17 @@ class RecipientsInfo
      */
     public function getM_UpdateQuery()
     {
-        return $this->m_UpdateQuery;
+      return $this->m_UpdateQuery;
     }
 
     /**
      * @param string $m_UpdateQuery
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_UpdateQuery($m_UpdateQuery)
     {
-        $this->m_UpdateQuery = $m_UpdateQuery;
-        return $this;
+      $this->m_UpdateQuery = $m_UpdateQuery;
+      return $this;
     }
 
     /**
@@ -223,17 +223,17 @@ class RecipientsInfo
      */
     public function getM_DeleteQuery()
     {
-        return $this->m_DeleteQuery;
+      return $this->m_DeleteQuery;
     }
 
     /**
      * @param string $m_DeleteQuery
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_DeleteQuery($m_DeleteQuery)
     {
-        $this->m_DeleteQuery = $m_DeleteQuery;
-        return $this;
+      $this->m_DeleteQuery = $m_DeleteQuery;
+      return $this;
     }
 
     /**
@@ -241,17 +241,17 @@ class RecipientsInfo
      */
     public function getM_recipientIDListFileName()
     {
-        return $this->m_recipientIDListFileName;
+      return $this->m_recipientIDListFileName;
     }
 
     /**
      * @param string $m_recipientIDListFileName
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_recipientIDListFileName($m_recipientIDListFileName)
     {
-        $this->m_recipientIDListFileName = $m_recipientIDListFileName;
-        return $this;
+      $this->m_recipientIDListFileName = $m_recipientIDListFileName;
+      return $this;
     }
 
     /**
@@ -259,17 +259,17 @@ class RecipientsInfo
      */
     public function getM_recipientIDListMergeType()
     {
-        return $this->m_recipientIDListMergeType;
+      return $this->m_recipientIDListMergeType;
     }
 
     /**
      * @param int $m_recipientIDListMergeType
-     * @return RecipientsInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\RecipientsInfo
      */
     public function setM_recipientIDListMergeType($m_recipientIDListMergeType)
     {
-        $this->m_recipientIDListMergeType = $m_recipientIDListMergeType;
-        return $this;
+      $this->m_recipientIDListMergeType = $m_recipientIDListMergeType;
+      return $this;
     }
 
 }

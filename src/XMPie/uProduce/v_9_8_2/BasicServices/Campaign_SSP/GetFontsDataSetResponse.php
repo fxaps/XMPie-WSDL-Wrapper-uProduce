@@ -15,7 +15,7 @@ class GetFontsDataSetResponse
      */
     public function __construct($GetFontsDataSetResult = null)
     {
-        $this->GetFontsDataSetResult = $GetFontsDataSetResult;
+      $this->GetFontsDataSetResult = $GetFontsDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFontsDataSetResponse
      */
     public function getGetFontsDataSetResult()
     {
-        return $this->GetFontsDataSetResult;
+      return $this->GetFontsDataSetResult;
     }
 
     /**
      * @param GetFontsDataSetResult $GetFontsDataSetResult
-     * @return GetFontsDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetFontsDataSetResponse
      */
     public function setGetFontsDataSetResult($GetFontsDataSetResult)
     {
-        $this->GetFontsDataSetResult = $GetFontsDataSetResult;
-        return $this;
+      $this->GetFontsDataSetResult = $GetFontsDataSetResult;
+      return $this;
     }
 
 }

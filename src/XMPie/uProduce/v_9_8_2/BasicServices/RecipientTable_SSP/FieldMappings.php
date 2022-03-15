@@ -10,10 +10,10 @@ class FieldMappings
      */
     protected $m_mappings = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -21,17 +21,17 @@ class FieldMappings
      */
     public function getM_mappings()
     {
-        return $this->m_mappings;
+      return $this->m_mappings;
     }
 
     /**
      * @param ArrayOfFieldMappingInfo $m_mappings
-     * @return FieldMappings
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\FieldMappings
      */
     public function setM_mappings($m_mappings)
     {
-        $this->m_mappings = $m_mappings;
-        return $this;
+      $this->m_mappings = $m_mappings;
+      return $this;
     }
 
 }

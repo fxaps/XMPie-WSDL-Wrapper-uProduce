@@ -15,7 +15,7 @@ class GetOutputFileNameResponse
      */
     public function __construct($GetOutputFileNameResult = null)
     {
-        $this->GetOutputFileNameResult = $GetOutputFileNameResult;
+      $this->GetOutputFileNameResult = $GetOutputFileNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetOutputFileNameResponse
      */
     public function getGetOutputFileNameResult()
     {
-        return $this->GetOutputFileNameResult;
+      return $this->GetOutputFileNameResult;
     }
 
     /**
      * @param string $GetOutputFileNameResult
-     * @return GetOutputFileNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetOutputFileNameResponse
      */
     public function setGetOutputFileNameResult($GetOutputFileNameResult)
     {
-        $this->GetOutputFileNameResult = $GetOutputFileNameResult;
-        return $this;
+      $this->GetOutputFileNameResult = $GetOutputFileNameResult;
+      return $this;
     }
 
 }

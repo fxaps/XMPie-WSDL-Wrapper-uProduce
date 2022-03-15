@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
+class ArrayOfAssetSourceStruct implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     protected $AssetSourceStruct = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function getAssetSourceStruct()
     {
-        return $this->AssetSourceStruct;
+      return $this->AssetSourceStruct;
     }
 
     /**
      * @param AssetSourceStruct[] $AssetSourceStruct
-     * @return ArrayOfAssetSourceStruct
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\ArrayOfAssetSourceStruct
      */
     public function setAssetSourceStruct(array $AssetSourceStruct = null)
     {
-        $this->AssetSourceStruct = $AssetSourceStruct;
-        return $this;
+      $this->AssetSourceStruct = $AssetSourceStruct;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->AssetSourceStruct[$offset]);
+      return isset($this->AssetSourceStruct[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->AssetSourceStruct[$offset];
+      return $this->AssetSourceStruct[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->AssetSourceStruct[] = $value;
-        } else {
-            $this->AssetSourceStruct[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->AssetSourceStruct[] = $value;
+      } else {
+        $this->AssetSourceStruct[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->AssetSourceStruct[$offset]);
+      unset($this->AssetSourceStruct[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->AssetSourceStruct);
+      return current($this->AssetSourceStruct);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->AssetSourceStruct);
+      next($this->AssetSourceStruct);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->AssetSourceStruct);
+      return key($this->AssetSourceStruct);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->AssetSourceStruct);
+      reset($this->AssetSourceStruct);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfAssetSourceStruct implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->AssetSourceStruct);
+      return count($this->AssetSourceStruct);
     }
 
 }

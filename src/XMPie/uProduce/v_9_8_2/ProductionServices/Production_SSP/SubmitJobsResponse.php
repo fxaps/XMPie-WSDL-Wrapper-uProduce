@@ -15,7 +15,7 @@ class SubmitJobsResponse
      */
     public function __construct($SubmitJobsResult = null)
     {
-        $this->SubmitJobsResult = $SubmitJobsResult;
+      $this->SubmitJobsResult = $SubmitJobsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SubmitJobsResponse
      */
     public function getSubmitJobsResult()
     {
-        return $this->SubmitJobsResult;
+      return $this->SubmitJobsResult;
     }
 
     /**
      * @param ArrayOfString $SubmitJobsResult
-     * @return SubmitJobsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitJobsResponse
      */
     public function setSubmitJobsResult($SubmitJobsResult)
     {
-        $this->SubmitJobsResult = $SubmitJobsResult;
-        return $this;
+      $this->SubmitJobsResult = $SubmitJobsResult;
+      return $this;
     }
 
 }

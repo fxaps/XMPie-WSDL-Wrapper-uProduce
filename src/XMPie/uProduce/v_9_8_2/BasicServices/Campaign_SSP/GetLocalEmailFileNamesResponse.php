@@ -15,7 +15,7 @@ class GetLocalEmailFileNamesResponse
      */
     public function __construct($GetLocalEmailFileNamesResult = null)
     {
-        $this->GetLocalEmailFileNamesResult = $GetLocalEmailFileNamesResult;
+      $this->GetLocalEmailFileNamesResult = $GetLocalEmailFileNamesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetLocalEmailFileNamesResponse
      */
     public function getGetLocalEmailFileNamesResult()
     {
-        return $this->GetLocalEmailFileNamesResult;
+      return $this->GetLocalEmailFileNamesResult;
     }
 
     /**
      * @param ArrayOfString $GetLocalEmailFileNamesResult
-     * @return GetLocalEmailFileNamesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetLocalEmailFileNamesResponse
      */
     public function setGetLocalEmailFileNamesResult($GetLocalEmailFileNamesResult)
     {
-        $this->GetLocalEmailFileNamesResult = $GetLocalEmailFileNamesResult;
-        return $this;
+      $this->GetLocalEmailFileNamesResult = $GetLocalEmailFileNamesResult;
+      return $this;
     }
 
 }

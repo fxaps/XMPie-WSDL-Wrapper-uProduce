@@ -27,9 +27,9 @@ class GetAllProperties
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountDataSourceID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountDataSourceID = $inAccountDataSourceID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountDataSourceID = $inAccountDataSourceID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetAllProperties
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetAllProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\GetAllProperties
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetAllProperties
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetAllProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\GetAllProperties
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetAllProperties
      */
     public function getInAccountDataSourceID()
     {
-        return $this->inAccountDataSourceID;
+      return $this->inAccountDataSourceID;
     }
 
     /**
      * @param string $inAccountDataSourceID
-     * @return GetAllProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\GetAllProperties
      */
     public function setInAccountDataSourceID($inAccountDataSourceID)
     {
-        $this->inAccountDataSourceID = $inAccountDataSourceID;
-        return $this;
+      $this->inAccountDataSourceID = $inAccountDataSourceID;
+      return $this;
     }
 
 }

@@ -45,12 +45,12 @@ class GetLastJob
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inIncludeDeleted = null, $inIncludeFailed = null, $inJobType = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inIncludeDeleted = $inIncludeDeleted;
-        $this->inIncludeFailed = $inIncludeFailed;
-        $this->inJobType = $inJobType;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inIncludeDeleted = $inIncludeDeleted;
+      $this->inIncludeFailed = $inIncludeFailed;
+      $this->inJobType = $inJobType;
     }
 
     /**
@@ -58,17 +58,17 @@ class GetLastJob
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetLastJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetLastJob
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class GetLastJob
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetLastJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetLastJob
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class GetLastJob
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return GetLastJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetLastJob
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class GetLastJob
      */
     public function getInIncludeDeleted()
     {
-        return $this->inIncludeDeleted;
+      return $this->inIncludeDeleted;
     }
 
     /**
      * @param boolean $inIncludeDeleted
-     * @return GetLastJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetLastJob
      */
     public function setInIncludeDeleted($inIncludeDeleted)
     {
-        $this->inIncludeDeleted = $inIncludeDeleted;
-        return $this;
+      $this->inIncludeDeleted = $inIncludeDeleted;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class GetLastJob
      */
     public function getInIncludeFailed()
     {
-        return $this->inIncludeFailed;
+      return $this->inIncludeFailed;
     }
 
     /**
      * @param boolean $inIncludeFailed
-     * @return GetLastJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetLastJob
      */
     public function setInIncludeFailed($inIncludeFailed)
     {
-        $this->inIncludeFailed = $inIncludeFailed;
-        return $this;
+      $this->inIncludeFailed = $inIncludeFailed;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class GetLastJob
      */
     public function getInJobType()
     {
-        return $this->inJobType;
+      return $this->inJobType;
     }
 
     /**
      * @param string $inJobType
-     * @return GetLastJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetLastJob
      */
     public function setInJobType($inJobType)
     {
-        $this->inJobType = $inJobType;
-        return $this;
+      $this->inJobType = $inJobType;
+      return $this;
     }
 
 }

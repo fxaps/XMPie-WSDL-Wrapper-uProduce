@@ -15,10 +15,10 @@ class PermissionEntity
      */
     protected $m_Type = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -26,17 +26,17 @@ class PermissionEntity
      */
     public function getM_ID()
     {
-        return $this->m_ID;
+      return $this->m_ID;
     }
 
     /**
      * @param string $m_ID
-     * @return PermissionEntity
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\PermissionEntity
      */
     public function setM_ID($m_ID)
     {
-        $this->m_ID = $m_ID;
-        return $this;
+      $this->m_ID = $m_ID;
+      return $this;
     }
 
     /**
@@ -44,17 +44,17 @@ class PermissionEntity
      */
     public function getM_Type()
     {
-        return $this->m_Type;
+      return $this->m_Type;
     }
 
     /**
      * @param string $m_Type
-     * @return PermissionEntity
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\PermissionEntity
      */
     public function setM_Type($m_Type)
     {
-        $this->m_Type = $m_Type;
-        return $this;
+      $this->m_Type = $m_Type;
+      return $this;
     }
 
 }

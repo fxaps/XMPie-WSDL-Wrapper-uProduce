@@ -15,7 +15,7 @@ class IsJobTrackedResponse
      */
     public function __construct($IsJobTrackedResult = null)
     {
-        $this->IsJobTrackedResult = $IsJobTrackedResult;
+      $this->IsJobTrackedResult = $IsJobTrackedResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsJobTrackedResponse
      */
     public function getIsJobTrackedResult()
     {
-        return $this->IsJobTrackedResult;
+      return $this->IsJobTrackedResult;
     }
 
     /**
      * @param boolean $IsJobTrackedResult
-     * @return IsJobTrackedResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsJobTrackedResponse
      */
     public function setIsJobTrackedResult($IsJobTrackedResult)
     {
-        $this->IsJobTrackedResult = $IsJobTrackedResult;
-        return $this;
+      $this->IsJobTrackedResult = $IsJobTrackedResult;
+      return $this;
     }
 
 }

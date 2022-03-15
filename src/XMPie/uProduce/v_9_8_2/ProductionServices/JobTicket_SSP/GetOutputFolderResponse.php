@@ -15,7 +15,7 @@ class GetOutputFolderResponse
      */
     public function __construct($GetOutputFolderResult = null)
     {
-        $this->GetOutputFolderResult = $GetOutputFolderResult;
+      $this->GetOutputFolderResult = $GetOutputFolderResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetOutputFolderResponse
      */
     public function getGetOutputFolderResult()
     {
-        return $this->GetOutputFolderResult;
+      return $this->GetOutputFolderResult;
     }
 
     /**
      * @param string $GetOutputFolderResult
-     * @return GetOutputFolderResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetOutputFolderResponse
      */
     public function setGetOutputFolderResult($GetOutputFolderResult)
     {
-        $this->GetOutputFolderResult = $GetOutputFolderResult;
-        return $this;
+      $this->GetOutputFolderResult = $GetOutputFolderResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetPopulationsResponse
      */
     public function __construct($GetPopulationsResult = null)
     {
-        $this->GetPopulationsResult = $GetPopulationsResult;
+      $this->GetPopulationsResult = $GetPopulationsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPopulationsResponse
      */
     public function getGetPopulationsResult()
     {
-        return $this->GetPopulationsResult;
+      return $this->GetPopulationsResult;
     }
 
     /**
      * @param ArrayOfString $GetPopulationsResult
-     * @return GetPopulationsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetPopulationsResponse
      */
     public function setGetPopulationsResult($GetPopulationsResult)
     {
-        $this->GetPopulationsResult = $GetPopulationsResult;
-        return $this;
+      $this->GetPopulationsResult = $GetPopulationsResult;
+      return $this;
     }
 
 }

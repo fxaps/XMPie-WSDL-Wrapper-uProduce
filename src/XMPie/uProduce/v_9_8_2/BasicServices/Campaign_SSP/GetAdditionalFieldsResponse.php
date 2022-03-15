@@ -15,7 +15,7 @@ class GetAdditionalFieldsResponse
      */
     public function __construct($GetAdditionalFieldsResult = null)
     {
-        $this->GetAdditionalFieldsResult = $GetAdditionalFieldsResult;
+      $this->GetAdditionalFieldsResult = $GetAdditionalFieldsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAdditionalFieldsResponse
      */
     public function getGetAdditionalFieldsResult()
     {
-        return $this->GetAdditionalFieldsResult;
+      return $this->GetAdditionalFieldsResult;
     }
 
     /**
      * @param ArrayOfString $GetAdditionalFieldsResult
-     * @return GetAdditionalFieldsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetAdditionalFieldsResponse
      */
     public function setGetAdditionalFieldsResult($GetAdditionalFieldsResult)
     {
-        $this->GetAdditionalFieldsResult = $GetAdditionalFieldsResult;
-        return $this;
+      $this->GetAdditionalFieldsResult = $GetAdditionalFieldsResult;
+      return $this;
     }
 
 }

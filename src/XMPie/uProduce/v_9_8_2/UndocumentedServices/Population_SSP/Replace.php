@@ -45,12 +45,12 @@ class Replace
      */
     public function __construct($inUsername = null, $inPassword = null, $inPopulationGUID = null, $inName = null, $inPopulationInfo = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPopulationGUID = $inPopulationGUID;
-        $this->inName = $inName;
-        $this->inPopulationInfo = $inPopulationInfo;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPopulationGUID = $inPopulationGUID;
+      $this->inName = $inName;
+      $this->inPopulationInfo = $inPopulationInfo;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -58,17 +58,17 @@ class Replace
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return Replace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\Replace
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class Replace
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return Replace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\Replace
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class Replace
      */
     public function getInPopulationGUID()
     {
-        return $this->inPopulationGUID;
+      return $this->inPopulationGUID;
     }
 
     /**
      * @param string $inPopulationGUID
-     * @return Replace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\Replace
      */
     public function setInPopulationGUID($inPopulationGUID)
     {
-        $this->inPopulationGUID = $inPopulationGUID;
-        return $this;
+      $this->inPopulationGUID = $inPopulationGUID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class Replace
      */
     public function getInName()
     {
-        return $this->inName;
+      return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return Replace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\Replace
      */
     public function setInName($inName)
     {
-        $this->inName = $inName;
-        return $this;
+      $this->inName = $inName;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class Replace
      */
     public function getInPopulationInfo()
     {
-        return $this->inPopulationInfo;
+      return $this->inPopulationInfo;
     }
 
     /**
      * @param PopulationInfo $inPopulationInfo
-     * @return Replace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\Replace
      */
     public function setInPopulationInfo($inPopulationInfo)
     {
-        $this->inPopulationInfo = $inPopulationInfo;
-        return $this;
+      $this->inPopulationInfo = $inPopulationInfo;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class Replace
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return Replace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\Replace
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

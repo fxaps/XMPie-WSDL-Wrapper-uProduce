@@ -15,7 +15,7 @@ class GetResourcePermissionsResponse
      */
     public function __construct($GetResourcePermissionsResult = null)
     {
-        $this->GetResourcePermissionsResult = $GetResourcePermissionsResult;
+      $this->GetResourcePermissionsResult = $GetResourcePermissionsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetResourcePermissionsResponse
      */
     public function getGetResourcePermissionsResult()
     {
-        return $this->GetResourcePermissionsResult;
+      return $this->GetResourcePermissionsResult;
     }
 
     /**
      * @param ArrayOfPermissionEx $GetResourcePermissionsResult
-     * @return GetResourcePermissionsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\GetResourcePermissionsResponse
      */
     public function setGetResourcePermissionsResult($GetResourcePermissionsResult)
     {
-        $this->GetResourcePermissionsResult = $GetResourcePermissionsResult;
-        return $this;
+      $this->GetResourcePermissionsResult = $GetResourcePermissionsResult;
+      return $this;
     }
 
 }

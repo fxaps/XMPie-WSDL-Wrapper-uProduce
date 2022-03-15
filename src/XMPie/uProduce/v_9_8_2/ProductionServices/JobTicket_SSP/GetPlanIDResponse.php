@@ -15,7 +15,7 @@ class GetPlanIDResponse
      */
     public function __construct($GetPlanIDResult = null)
     {
-        $this->GetPlanIDResult = $GetPlanIDResult;
+      $this->GetPlanIDResult = $GetPlanIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPlanIDResponse
      */
     public function getGetPlanIDResult()
     {
-        return $this->GetPlanIDResult;
+      return $this->GetPlanIDResult;
     }
 
     /**
      * @param string $GetPlanIDResult
-     * @return GetPlanIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetPlanIDResponse
      */
     public function setGetPlanIDResult($GetPlanIDResult)
     {
-        $this->GetPlanIDResult = $GetPlanIDResult;
-        return $this;
+      $this->GetPlanIDResult = $GetPlanIDResult;
+      return $this;
     }
 
 }

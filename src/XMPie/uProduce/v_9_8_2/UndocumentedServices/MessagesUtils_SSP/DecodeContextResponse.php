@@ -15,7 +15,7 @@ class DecodeContextResponse
      */
     public function __construct($DecodeContextResult = null)
     {
-        $this->DecodeContextResult = $DecodeContextResult;
+      $this->DecodeContextResult = $DecodeContextResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DecodeContextResponse
      */
     public function getDecodeContextResult()
     {
-        return $this->DecodeContextResult;
+      return $this->DecodeContextResult;
     }
 
     /**
      * @param string $DecodeContextResult
-     * @return DecodeContextResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeContextResponse
      */
     public function setDecodeContextResult($DecodeContextResult)
     {
-        $this->DecodeContextResult = $DecodeContextResult;
-        return $this;
+      $this->DecodeContextResult = $DecodeContextResult;
+      return $this;
     }
 
 }

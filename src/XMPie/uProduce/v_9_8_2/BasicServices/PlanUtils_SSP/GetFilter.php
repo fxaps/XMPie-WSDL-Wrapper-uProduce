@@ -39,11 +39,11 @@ class GetFilter
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inFilterName = null, $inTrivialPlan = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPlanID = $inPlanID;
-        $this->inFilterName = $inFilterName;
-        $this->inTrivialPlan = $inTrivialPlan;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPlanID = $inPlanID;
+      $this->inFilterName = $inFilterName;
+      $this->inTrivialPlan = $inTrivialPlan;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetFilter
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetFilter
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetFilter
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetFilter
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetFilter
      */
     public function getInPlanID()
     {
-        return $this->inPlanID;
+      return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return GetFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetFilter
      */
     public function setInPlanID($inPlanID)
     {
-        $this->inPlanID = $inPlanID;
-        return $this;
+      $this->inPlanID = $inPlanID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetFilter
      */
     public function getInFilterName()
     {
-        return $this->inFilterName;
+      return $this->inFilterName;
     }
 
     /**
      * @param string $inFilterName
-     * @return GetFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetFilter
      */
     public function setInFilterName($inFilterName)
     {
-        $this->inFilterName = $inFilterName;
-        return $this;
+      $this->inFilterName = $inFilterName;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetFilter
      */
     public function getInTrivialPlan()
     {
-        return $this->inTrivialPlan;
+      return $this->inTrivialPlan;
     }
 
     /**
      * @param boolean $inTrivialPlan
-     * @return GetFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetFilter
      */
     public function setInTrivialPlan($inTrivialPlan)
     {
-        $this->inTrivialPlan = $inTrivialPlan;
-        return $this;
+      $this->inTrivialPlan = $inTrivialPlan;
+      return $this;
     }
 
 }

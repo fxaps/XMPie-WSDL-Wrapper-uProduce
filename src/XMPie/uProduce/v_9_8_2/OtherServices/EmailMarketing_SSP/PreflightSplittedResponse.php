@@ -15,7 +15,7 @@ class PreflightSplittedResponse
      */
     public function __construct($PreflightSplittedResult = null)
     {
-        $this->PreflightSplittedResult = $PreflightSplittedResult;
+      $this->PreflightSplittedResult = $PreflightSplittedResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class PreflightSplittedResponse
      */
     public function getPreflightSplittedResult()
     {
-        return $this->PreflightSplittedResult;
+      return $this->PreflightSplittedResult;
     }
 
     /**
      * @param ArrayOfString $PreflightSplittedResult
-     * @return PreflightSplittedResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreflightSplittedResponse
      */
     public function setPreflightSplittedResult($PreflightSplittedResult)
     {
-        $this->PreflightSplittedResult = $PreflightSplittedResult;
-        return $this;
+      $this->PreflightSplittedResult = $PreflightSplittedResult;
+      return $this;
     }
 
 }

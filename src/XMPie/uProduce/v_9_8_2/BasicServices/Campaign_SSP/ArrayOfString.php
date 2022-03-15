@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfString implements ArrayAccess, Iterator, Countable
+class ArrayOfString implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     protected $string = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function getString()
     {
-        return $this->string;
+      return $this->string;
     }
 
     /**
      * @param string[] $string
-     * @return ArrayOfString
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\ArrayOfString
      */
     public function setString(array $string = null)
     {
-        $this->string = $string;
-        return $this;
+      $this->string = $string;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->string[$offset]);
+      return isset($this->string[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->string[$offset];
+      return $this->string[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->string[] = $value;
-        } else {
-            $this->string[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->string[] = $value;
+      } else {
+        $this->string[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->string[$offset]);
+      unset($this->string[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->string);
+      return current($this->string);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->string);
+      next($this->string);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->string);
+      return key($this->string);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->string);
+      reset($this->string);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfString implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->string);
+      return count($this->string);
     }
 
 }

@@ -15,7 +15,7 @@ class GetUMailPCWTResponse
      */
     public function __construct($GetUMailPCWTResult = null)
     {
-        $this->GetUMailPCWTResult = $GetUMailPCWTResult;
+      $this->GetUMailPCWTResult = $GetUMailPCWTResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUMailPCWTResponse
      */
     public function getGetUMailPCWTResult()
     {
-        return $this->GetUMailPCWTResult;
+      return $this->GetUMailPCWTResult;
     }
 
     /**
      * @param string $GetUMailPCWTResult
-     * @return GetUMailPCWTResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetUMailPCWTResponse
      */
     public function setGetUMailPCWTResult($GetUMailPCWTResult)
     {
-        $this->GetUMailPCWTResult = $GetUMailPCWTResult;
-        return $this;
+      $this->GetUMailPCWTResult = $GetUMailPCWTResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetMessagesDataSetResponse
      */
     public function __construct($GetMessagesDataSetResult = null)
     {
-        $this->GetMessagesDataSetResult = $GetMessagesDataSetResult;
+      $this->GetMessagesDataSetResult = $GetMessagesDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMessagesDataSetResponse
      */
     public function getGetMessagesDataSetResult()
     {
-        return $this->GetMessagesDataSetResult;
+      return $this->GetMessagesDataSetResult;
     }
 
     /**
      * @param GetMessagesDataSetResult $GetMessagesDataSetResult
-     * @return GetMessagesDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetMessagesDataSetResponse
      */
     public function setGetMessagesDataSetResult($GetMessagesDataSetResult)
     {
-        $this->GetMessagesDataSetResult = $GetMessagesDataSetResult;
-        return $this;
+      $this->GetMessagesDataSetResult = $GetMessagesDataSetResult;
+      return $this;
     }
 
 }

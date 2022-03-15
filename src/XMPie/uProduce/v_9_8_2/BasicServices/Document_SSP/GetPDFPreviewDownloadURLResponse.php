@@ -15,7 +15,7 @@ class GetPDFPreviewDownloadURLResponse
      */
     public function __construct($GetPDFPreviewDownloadURLResult = null)
     {
-        $this->GetPDFPreviewDownloadURLResult = $GetPDFPreviewDownloadURLResult;
+      $this->GetPDFPreviewDownloadURLResult = $GetPDFPreviewDownloadURLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPDFPreviewDownloadURLResponse
      */
     public function getGetPDFPreviewDownloadURLResult()
     {
-        return $this->GetPDFPreviewDownloadURLResult;
+      return $this->GetPDFPreviewDownloadURLResult;
     }
 
     /**
      * @param string $GetPDFPreviewDownloadURLResult
-     * @return GetPDFPreviewDownloadURLResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewDownloadURLResponse
      */
     public function setGetPDFPreviewDownloadURLResult($GetPDFPreviewDownloadURLResult)
     {
-        $this->GetPDFPreviewDownloadURLResult = $GetPDFPreviewDownloadURLResult;
-        return $this;
+      $this->GetPDFPreviewDownloadURLResult = $GetPDFPreviewDownloadURLResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetTrackingADORsResponse
      */
     public function __construct($GetTrackingADORsResult = null)
     {
-        $this->GetTrackingADORsResult = $GetTrackingADORsResult;
+      $this->GetTrackingADORsResult = $GetTrackingADORsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTrackingADORsResponse
      */
     public function getGetTrackingADORsResult()
     {
-        return $this->GetTrackingADORsResult;
+      return $this->GetTrackingADORsResult;
     }
 
     /**
      * @param ArrayOfString $GetTrackingADORsResult
-     * @return GetTrackingADORsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTrackingADORsResponse
      */
     public function setGetTrackingADORsResult($GetTrackingADORsResult)
     {
-        $this->GetTrackingADORsResult = $GetTrackingADORsResult;
-        return $this;
+      $this->GetTrackingADORsResult = $GetTrackingADORsResult;
+      return $this;
     }
 
 }

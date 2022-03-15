@@ -15,7 +15,7 @@ class GetAdditionalFieldDefaultValueResponse
      */
     public function __construct($GetAdditionalFieldDefaultValueResult = null)
     {
-        $this->GetAdditionalFieldDefaultValueResult = $GetAdditionalFieldDefaultValueResult;
+      $this->GetAdditionalFieldDefaultValueResult = $GetAdditionalFieldDefaultValueResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAdditionalFieldDefaultValueResponse
      */
     public function getGetAdditionalFieldDefaultValueResult()
     {
-        return $this->GetAdditionalFieldDefaultValueResult;
+      return $this->GetAdditionalFieldDefaultValueResult;
     }
 
     /**
      * @param string $GetAdditionalFieldDefaultValueResult
-     * @return GetAdditionalFieldDefaultValueResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetAdditionalFieldDefaultValueResponse
      */
     public function setGetAdditionalFieldDefaultValueResult($GetAdditionalFieldDefaultValueResult)
     {
-        $this->GetAdditionalFieldDefaultValueResult = $GetAdditionalFieldDefaultValueResult;
-        return $this;
+      $this->GetAdditionalFieldDefaultValueResult = $GetAdditionalFieldDefaultValueResult;
+      return $this;
     }
 
 }

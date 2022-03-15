@@ -39,11 +39,11 @@ class GetSWFFullNameFontFamilyAndFace
      */
     public function __construct($inUsername = null, $inPassword = null, $inFontID = null, $outFamilyName = null, $outFontFace = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inFontID = $inFontID;
-        $this->outFamilyName = $outFamilyName;
-        $this->outFontFace = $outFontFace;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inFontID = $inFontID;
+      $this->outFamilyName = $outFamilyName;
+      $this->outFontFace = $outFontFace;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetSWFFullNameFontFamilyAndFace
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetSWFFullNameFontFamilyAndFace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFullNameFontFamilyAndFace
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetSWFFullNameFontFamilyAndFace
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetSWFFullNameFontFamilyAndFace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFullNameFontFamilyAndFace
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetSWFFullNameFontFamilyAndFace
      */
     public function getInFontID()
     {
-        return $this->inFontID;
+      return $this->inFontID;
     }
 
     /**
      * @param string $inFontID
-     * @return GetSWFFullNameFontFamilyAndFace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFullNameFontFamilyAndFace
      */
     public function setInFontID($inFontID)
     {
-        $this->inFontID = $inFontID;
-        return $this;
+      $this->inFontID = $inFontID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetSWFFullNameFontFamilyAndFace
      */
     public function getOutFamilyName()
     {
-        return $this->outFamilyName;
+      return $this->outFamilyName;
     }
 
     /**
      * @param string $outFamilyName
-     * @return GetSWFFullNameFontFamilyAndFace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFullNameFontFamilyAndFace
      */
     public function setOutFamilyName($outFamilyName)
     {
-        $this->outFamilyName = $outFamilyName;
-        return $this;
+      $this->outFamilyName = $outFamilyName;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetSWFFullNameFontFamilyAndFace
      */
     public function getOutFontFace()
     {
-        return $this->outFontFace;
+      return $this->outFontFace;
     }
 
     /**
      * @param string $outFontFace
-     * @return GetSWFFullNameFontFamilyAndFace
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFullNameFontFamilyAndFace
      */
     public function setOutFontFace($outFontFace)
     {
-        $this->outFontFace = $outFontFace;
-        return $this;
+      $this->outFontFace = $outFontFace;
+      return $this;
     }
 
 }

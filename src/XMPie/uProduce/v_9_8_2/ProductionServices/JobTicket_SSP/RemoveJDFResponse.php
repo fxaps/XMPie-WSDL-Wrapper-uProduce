@@ -15,7 +15,7 @@ class RemoveJDFResponse
      */
     public function __construct($RemoveJDFResult = null)
     {
-        $this->RemoveJDFResult = $RemoveJDFResult;
+      $this->RemoveJDFResult = $RemoveJDFResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveJDFResponse
      */
     public function getRemoveJDFResult()
     {
-        return $this->RemoveJDFResult;
+      return $this->RemoveJDFResult;
     }
 
     /**
      * @param boolean $RemoveJDFResult
-     * @return RemoveJDFResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveJDFResponse
      */
     public function setRemoveJDFResult($RemoveJDFResult)
     {
-        $this->RemoveJDFResult = $RemoveJDFResult;
-        return $this;
+      $this->RemoveJDFResult = $RemoveJDFResult;
+      return $this;
     }
 
 }

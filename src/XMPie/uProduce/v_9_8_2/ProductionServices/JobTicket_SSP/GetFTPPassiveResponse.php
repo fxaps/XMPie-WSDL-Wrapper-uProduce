@@ -15,7 +15,7 @@ class GetFTPPassiveResponse
      */
     public function __construct($GetFTPPassiveResult = null)
     {
-        $this->GetFTPPassiveResult = $GetFTPPassiveResult;
+      $this->GetFTPPassiveResult = $GetFTPPassiveResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFTPPassiveResponse
      */
     public function getGetFTPPassiveResult()
     {
-        return $this->GetFTPPassiveResult;
+      return $this->GetFTPPassiveResult;
     }
 
     /**
      * @param boolean $GetFTPPassiveResult
-     * @return GetFTPPassiveResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFTPPassiveResponse
      */
     public function setGetFTPPassiveResult($GetFTPPassiveResult)
     {
-        $this->GetFTPPassiveResult = $GetFTPPassiveResult;
-        return $this;
+      $this->GetFTPPassiveResult = $GetFTPPassiveResult;
+      return $this;
     }
 
 }

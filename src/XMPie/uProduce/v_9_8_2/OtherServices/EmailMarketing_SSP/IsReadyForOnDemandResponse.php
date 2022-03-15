@@ -15,7 +15,7 @@ class IsReadyForOnDemandResponse
      */
     public function __construct($IsReadyForOnDemandResult = null)
     {
-        $this->IsReadyForOnDemandResult = $IsReadyForOnDemandResult;
+      $this->IsReadyForOnDemandResult = $IsReadyForOnDemandResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsReadyForOnDemandResponse
      */
     public function getIsReadyForOnDemandResult()
     {
-        return $this->IsReadyForOnDemandResult;
+      return $this->IsReadyForOnDemandResult;
     }
 
     /**
      * @param string $IsReadyForOnDemandResult
-     * @return IsReadyForOnDemandResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\IsReadyForOnDemandResponse
      */
     public function setIsReadyForOnDemandResult($IsReadyForOnDemandResult)
     {
-        $this->IsReadyForOnDemandResult = $IsReadyForOnDemandResult;
-        return $this;
+      $this->IsReadyForOnDemandResult = $IsReadyForOnDemandResult;
+      return $this;
     }
 
 }

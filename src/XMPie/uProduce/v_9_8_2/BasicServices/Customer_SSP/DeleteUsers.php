@@ -27,9 +27,9 @@ class DeleteUsers
      */
     public function __construct($inUsername = null, $inPassword = null, $inUserIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inUserIDArray = $inUserIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inUserIDArray = $inUserIDArray;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteUsers
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteUsers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteUsers
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteUsers
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteUsers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteUsers
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteUsers
      */
     public function getInUserIDArray()
     {
-        return $this->inUserIDArray;
+      return $this->inUserIDArray;
     }
 
     /**
      * @param ArrayOfString $inUserIDArray
-     * @return DeleteUsers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteUsers
      */
     public function setInUserIDArray($inUserIDArray)
     {
-        $this->inUserIDArray = $inUserIDArray;
-        return $this;
+      $this->inUserIDArray = $inUserIDArray;
+      return $this;
     }
 
 }

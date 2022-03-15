@@ -39,11 +39,11 @@ class GetBinaryFileStreamChunk
      */
     public function __construct($inUsername = null, $inPassword = null, $inDataSourceID = null, $inOffset = null, $inoutCount = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDataSourceID = $inDataSourceID;
-        $this->inOffset = $inOffset;
-        $this->inoutCount = $inoutCount;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDataSourceID = $inDataSourceID;
+      $this->inOffset = $inOffset;
+      $this->inoutCount = $inoutCount;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetBinaryFileStreamChunk
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetBinaryFileStreamChunk
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetBinaryFileStreamChunk
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetBinaryFileStreamChunk
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetBinaryFileStreamChunk
      */
     public function getInDataSourceID()
     {
-        return $this->inDataSourceID;
+      return $this->inDataSourceID;
     }
 
     /**
      * @param string $inDataSourceID
-     * @return GetBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetBinaryFileStreamChunk
      */
     public function setInDataSourceID($inDataSourceID)
     {
-        $this->inDataSourceID = $inDataSourceID;
-        return $this;
+      $this->inDataSourceID = $inDataSourceID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetBinaryFileStreamChunk
      */
     public function getInOffset()
     {
-        return $this->inOffset;
+      return $this->inOffset;
     }
 
     /**
      * @param int $inOffset
-     * @return GetBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetBinaryFileStreamChunk
      */
     public function setInOffset($inOffset)
     {
-        $this->inOffset = $inOffset;
-        return $this;
+      $this->inOffset = $inOffset;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetBinaryFileStreamChunk
      */
     public function getInoutCount()
     {
-        return $this->inoutCount;
+      return $this->inoutCount;
     }
 
     /**
      * @param int $inoutCount
-     * @return GetBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetBinaryFileStreamChunk
      */
     public function setInoutCount($inoutCount)
     {
-        $this->inoutCount = $inoutCount;
-        return $this;
+      $this->inoutCount = $inoutCount;
+      return $this;
     }
 
 }

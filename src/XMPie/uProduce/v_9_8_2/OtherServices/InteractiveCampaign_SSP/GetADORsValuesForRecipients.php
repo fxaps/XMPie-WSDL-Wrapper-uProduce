@@ -75,17 +75,17 @@ class GetADORsValuesForRecipients
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountName = null, $inCampaignName = null, $inICPName = null, $inADORNames = null, $inRecipientIDs = null, $inAsPairs = null, $inIncludeTabularAdorsData = null, $inEventContext = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountName = $inAccountName;
-        $this->inCampaignName = $inCampaignName;
-        $this->inICPName = $inICPName;
-        $this->inADORNames = $inADORNames;
-        $this->inRecipientIDs = $inRecipientIDs;
-        $this->inAsPairs = $inAsPairs;
-        $this->inIncludeTabularAdorsData = $inIncludeTabularAdorsData;
-        $this->inEventContext = $inEventContext;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountName = $inAccountName;
+      $this->inCampaignName = $inCampaignName;
+      $this->inICPName = $inICPName;
+      $this->inADORNames = $inADORNames;
+      $this->inRecipientIDs = $inRecipientIDs;
+      $this->inAsPairs = $inAsPairs;
+      $this->inIncludeTabularAdorsData = $inIncludeTabularAdorsData;
+      $this->inEventContext = $inEventContext;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -93,17 +93,17 @@ class GetADORsValuesForRecipients
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -111,17 +111,17 @@ class GetADORsValuesForRecipients
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -129,17 +129,17 @@ class GetADORsValuesForRecipients
      */
     public function getInAccountName()
     {
-        return $this->inAccountName;
+      return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInAccountName($inAccountName)
     {
-        $this->inAccountName = $inAccountName;
-        return $this;
+      $this->inAccountName = $inAccountName;
+      return $this;
     }
 
     /**
@@ -147,17 +147,17 @@ class GetADORsValuesForRecipients
      */
     public function getInCampaignName()
     {
-        return $this->inCampaignName;
+      return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInCampaignName($inCampaignName)
     {
-        $this->inCampaignName = $inCampaignName;
-        return $this;
+      $this->inCampaignName = $inCampaignName;
+      return $this;
     }
 
     /**
@@ -165,17 +165,17 @@ class GetADORsValuesForRecipients
      */
     public function getInICPName()
     {
-        return $this->inICPName;
+      return $this->inICPName;
     }
 
     /**
      * @param string $inICPName
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInICPName($inICPName)
     {
-        $this->inICPName = $inICPName;
-        return $this;
+      $this->inICPName = $inICPName;
+      return $this;
     }
 
     /**
@@ -183,17 +183,17 @@ class GetADORsValuesForRecipients
      */
     public function getInADORNames()
     {
-        return $this->inADORNames;
+      return $this->inADORNames;
     }
 
     /**
      * @param ArrayOfString $inADORNames
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInADORNames($inADORNames)
     {
-        $this->inADORNames = $inADORNames;
-        return $this;
+      $this->inADORNames = $inADORNames;
+      return $this;
     }
 
     /**
@@ -201,17 +201,17 @@ class GetADORsValuesForRecipients
      */
     public function getInRecipientIDs()
     {
-        return $this->inRecipientIDs;
+      return $this->inRecipientIDs;
     }
 
     /**
      * @param ArrayOfString $inRecipientIDs
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInRecipientIDs($inRecipientIDs)
     {
-        $this->inRecipientIDs = $inRecipientIDs;
-        return $this;
+      $this->inRecipientIDs = $inRecipientIDs;
+      return $this;
     }
 
     /**
@@ -219,17 +219,17 @@ class GetADORsValuesForRecipients
      */
     public function getInAsPairs()
     {
-        return $this->inAsPairs;
+      return $this->inAsPairs;
     }
 
     /**
      * @param boolean $inAsPairs
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInAsPairs($inAsPairs)
     {
-        $this->inAsPairs = $inAsPairs;
-        return $this;
+      $this->inAsPairs = $inAsPairs;
+      return $this;
     }
 
     /**
@@ -237,17 +237,17 @@ class GetADORsValuesForRecipients
      */
     public function getInIncludeTabularAdorsData()
     {
-        return $this->inIncludeTabularAdorsData;
+      return $this->inIncludeTabularAdorsData;
     }
 
     /**
      * @param boolean $inIncludeTabularAdorsData
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInIncludeTabularAdorsData($inIncludeTabularAdorsData)
     {
-        $this->inIncludeTabularAdorsData = $inIncludeTabularAdorsData;
-        return $this;
+      $this->inIncludeTabularAdorsData = $inIncludeTabularAdorsData;
+      return $this;
     }
 
     /**
@@ -255,17 +255,17 @@ class GetADORsValuesForRecipients
      */
     public function getInEventContext()
     {
-        return $this->inEventContext;
+      return $this->inEventContext;
     }
 
     /**
      * @param string $inEventContext
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInEventContext($inEventContext)
     {
-        $this->inEventContext = $inEventContext;
-        return $this;
+      $this->inEventContext = $inEventContext;
+      return $this;
     }
 
     /**
@@ -273,17 +273,17 @@ class GetADORsValuesForRecipients
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return GetADORsValuesForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipients
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

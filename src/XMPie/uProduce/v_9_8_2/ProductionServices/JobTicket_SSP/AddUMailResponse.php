@@ -15,7 +15,7 @@ class AddUMailResponse
      */
     public function __construct($AddUMailResult = null)
     {
-        $this->AddUMailResult = $AddUMailResult;
+      $this->AddUMailResult = $AddUMailResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddUMailResponse
      */
     public function getAddUMailResult()
     {
-        return $this->AddUMailResult;
+      return $this->AddUMailResult;
     }
 
     /**
      * @param boolean $AddUMailResult
-     * @return AddUMailResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddUMailResponse
      */
     public function setAddUMailResult($AddUMailResult)
     {
-        $this->AddUMailResult = $AddUMailResult;
-        return $this;
+      $this->AddUMailResult = $AddUMailResult;
+      return $this;
     }
 
 }

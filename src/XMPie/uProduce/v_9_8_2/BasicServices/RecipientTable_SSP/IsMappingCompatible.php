@@ -27,9 +27,9 @@ class IsMappingCompatible
      */
     public function __construct($inUsername = null, $inPassword = null, $inRecipientTableID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inRecipientTableID = $inRecipientTableID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inRecipientTableID = $inRecipientTableID;
     }
 
     /**
@@ -37,17 +37,17 @@ class IsMappingCompatible
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return IsMappingCompatible
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMappingCompatible
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class IsMappingCompatible
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return IsMappingCompatible
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMappingCompatible
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class IsMappingCompatible
      */
     public function getInRecipientTableID()
     {
-        return $this->inRecipientTableID;
+      return $this->inRecipientTableID;
     }
 
     /**
      * @param string $inRecipientTableID
-     * @return IsMappingCompatible
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMappingCompatible
      */
     public function setInRecipientTableID($inRecipientTableID)
     {
-        $this->inRecipientTableID = $inRecipientTableID;
-        return $this;
+      $this->inRecipientTableID = $inRecipientTableID;
+      return $this;
     }
 
 }

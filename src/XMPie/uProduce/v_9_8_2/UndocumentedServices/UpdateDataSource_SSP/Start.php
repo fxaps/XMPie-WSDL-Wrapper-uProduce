@@ -87,19 +87,19 @@ class Start
      */
     public function __construct($inUsername = null, $inPassword = null, $inRecipientTableId = null, $inFileName = null, $inDataSourceType = null, $inDelimiter = null, $inTransactionType = null, $inUploadedTableName = null, $inSelectedPrimaryKey = null, $inMapping = null, $inAllowDuplicatesAfterMerge = null, $inAllowDuplicatesInUploadedFile = null, $inIsDryRun = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inRecipientTableId = $inRecipientTableId;
-        $this->inFileName = $inFileName;
-        $this->inDataSourceType = $inDataSourceType;
-        $this->inDelimiter = $inDelimiter;
-        $this->inTransactionType = $inTransactionType;
-        $this->inUploadedTableName = $inUploadedTableName;
-        $this->inSelectedPrimaryKey = $inSelectedPrimaryKey;
-        $this->inMapping = $inMapping;
-        $this->inAllowDuplicatesAfterMerge = $inAllowDuplicatesAfterMerge;
-        $this->inAllowDuplicatesInUploadedFile = $inAllowDuplicatesInUploadedFile;
-        $this->inIsDryRun = $inIsDryRun;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inRecipientTableId = $inRecipientTableId;
+      $this->inFileName = $inFileName;
+      $this->inDataSourceType = $inDataSourceType;
+      $this->inDelimiter = $inDelimiter;
+      $this->inTransactionType = $inTransactionType;
+      $this->inUploadedTableName = $inUploadedTableName;
+      $this->inSelectedPrimaryKey = $inSelectedPrimaryKey;
+      $this->inMapping = $inMapping;
+      $this->inAllowDuplicatesAfterMerge = $inAllowDuplicatesAfterMerge;
+      $this->inAllowDuplicatesInUploadedFile = $inAllowDuplicatesInUploadedFile;
+      $this->inIsDryRun = $inIsDryRun;
     }
 
     /**
@@ -107,17 +107,17 @@ class Start
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -125,17 +125,17 @@ class Start
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -143,17 +143,17 @@ class Start
      */
     public function getInRecipientTableId()
     {
-        return $this->inRecipientTableId;
+      return $this->inRecipientTableId;
     }
 
     /**
      * @param string $inRecipientTableId
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInRecipientTableId($inRecipientTableId)
     {
-        $this->inRecipientTableId = $inRecipientTableId;
-        return $this;
+      $this->inRecipientTableId = $inRecipientTableId;
+      return $this;
     }
 
     /**
@@ -161,17 +161,17 @@ class Start
      */
     public function getInFileName()
     {
-        return $this->inFileName;
+      return $this->inFileName;
     }
 
     /**
      * @param string $inFileName
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInFileName($inFileName)
     {
-        $this->inFileName = $inFileName;
-        return $this;
+      $this->inFileName = $inFileName;
+      return $this;
     }
 
     /**
@@ -179,17 +179,17 @@ class Start
      */
     public function getInDataSourceType()
     {
-        return $this->inDataSourceType;
+      return $this->inDataSourceType;
     }
 
     /**
      * @param string $inDataSourceType
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInDataSourceType($inDataSourceType)
     {
-        $this->inDataSourceType = $inDataSourceType;
-        return $this;
+      $this->inDataSourceType = $inDataSourceType;
+      return $this;
     }
 
     /**
@@ -197,17 +197,17 @@ class Start
      */
     public function getInDelimiter()
     {
-        return $this->inDelimiter;
+      return $this->inDelimiter;
     }
 
     /**
      * @param string $inDelimiter
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInDelimiter($inDelimiter)
     {
-        $this->inDelimiter = $inDelimiter;
-        return $this;
+      $this->inDelimiter = $inDelimiter;
+      return $this;
     }
 
     /**
@@ -215,17 +215,17 @@ class Start
      */
     public function getInTransactionType()
     {
-        return $this->inTransactionType;
+      return $this->inTransactionType;
     }
 
     /**
      * @param TransactionType $inTransactionType
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInTransactionType($inTransactionType)
     {
-        $this->inTransactionType = $inTransactionType;
-        return $this;
+      $this->inTransactionType = $inTransactionType;
+      return $this;
     }
 
     /**
@@ -233,17 +233,17 @@ class Start
      */
     public function getInUploadedTableName()
     {
-        return $this->inUploadedTableName;
+      return $this->inUploadedTableName;
     }
 
     /**
      * @param string $inUploadedTableName
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInUploadedTableName($inUploadedTableName)
     {
-        $this->inUploadedTableName = $inUploadedTableName;
-        return $this;
+      $this->inUploadedTableName = $inUploadedTableName;
+      return $this;
     }
 
     /**
@@ -251,17 +251,17 @@ class Start
      */
     public function getInSelectedPrimaryKey()
     {
-        return $this->inSelectedPrimaryKey;
+      return $this->inSelectedPrimaryKey;
     }
 
     /**
      * @param string $inSelectedPrimaryKey
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInSelectedPrimaryKey($inSelectedPrimaryKey)
     {
-        $this->inSelectedPrimaryKey = $inSelectedPrimaryKey;
-        return $this;
+      $this->inSelectedPrimaryKey = $inSelectedPrimaryKey;
+      return $this;
     }
 
     /**
@@ -269,17 +269,17 @@ class Start
      */
     public function getInMapping()
     {
-        return $this->inMapping;
+      return $this->inMapping;
     }
 
     /**
      * @param UploadedFieldMappings $inMapping
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInMapping($inMapping)
     {
-        $this->inMapping = $inMapping;
-        return $this;
+      $this->inMapping = $inMapping;
+      return $this;
     }
 
     /**
@@ -287,17 +287,17 @@ class Start
      */
     public function getInAllowDuplicatesAfterMerge()
     {
-        return $this->inAllowDuplicatesAfterMerge;
+      return $this->inAllowDuplicatesAfterMerge;
     }
 
     /**
      * @param boolean $inAllowDuplicatesAfterMerge
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInAllowDuplicatesAfterMerge($inAllowDuplicatesAfterMerge)
     {
-        $this->inAllowDuplicatesAfterMerge = $inAllowDuplicatesAfterMerge;
-        return $this;
+      $this->inAllowDuplicatesAfterMerge = $inAllowDuplicatesAfterMerge;
+      return $this;
     }
 
     /**
@@ -305,17 +305,17 @@ class Start
      */
     public function getInAllowDuplicatesInUploadedFile()
     {
-        return $this->inAllowDuplicatesInUploadedFile;
+      return $this->inAllowDuplicatesInUploadedFile;
     }
 
     /**
      * @param boolean $inAllowDuplicatesInUploadedFile
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInAllowDuplicatesInUploadedFile($inAllowDuplicatesInUploadedFile)
     {
-        $this->inAllowDuplicatesInUploadedFile = $inAllowDuplicatesInUploadedFile;
-        return $this;
+      $this->inAllowDuplicatesInUploadedFile = $inAllowDuplicatesInUploadedFile;
+      return $this;
     }
 
     /**
@@ -323,17 +323,17 @@ class Start
      */
     public function getInIsDryRun()
     {
-        return $this->inIsDryRun;
+      return $this->inIsDryRun;
     }
 
     /**
      * @param boolean $inIsDryRun
-     * @return Start
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\Start
      */
     public function setInIsDryRun($inIsDryRun)
     {
-        $this->inIsDryRun = $inIsDryRun;
-        return $this;
+      $this->inIsDryRun = $inIsDryRun;
+      return $this;
     }
 
 }

@@ -21,8 +21,8 @@ class GetDeliveryProviderTypes
      */
     public function __construct($inUsername = null, $inPassword = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
     }
 
     /**
@@ -30,17 +30,17 @@ class GetDeliveryProviderTypes
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetDeliveryProviderTypes
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetDeliveryProviderTypes
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class GetDeliveryProviderTypes
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetDeliveryProviderTypes
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetDeliveryProviderTypes
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
 }

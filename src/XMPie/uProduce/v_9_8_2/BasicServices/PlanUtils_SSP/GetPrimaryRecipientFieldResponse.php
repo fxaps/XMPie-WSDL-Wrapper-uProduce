@@ -15,7 +15,7 @@ class GetPrimaryRecipientFieldResponse
      */
     public function __construct($GetPrimaryRecipientFieldResult = null)
     {
-        $this->GetPrimaryRecipientFieldResult = $GetPrimaryRecipientFieldResult;
+      $this->GetPrimaryRecipientFieldResult = $GetPrimaryRecipientFieldResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPrimaryRecipientFieldResponse
      */
     public function getGetPrimaryRecipientFieldResult()
     {
-        return $this->GetPrimaryRecipientFieldResult;
+      return $this->GetPrimaryRecipientFieldResult;
     }
 
     /**
      * @param RecipientField $GetPrimaryRecipientFieldResult
-     * @return GetPrimaryRecipientFieldResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetPrimaryRecipientFieldResponse
      */
     public function setGetPrimaryRecipientFieldResult($GetPrimaryRecipientFieldResult)
     {
-        $this->GetPrimaryRecipientFieldResult = $GetPrimaryRecipientFieldResult;
-        return $this;
+      $this->GetPrimaryRecipientFieldResult = $GetPrimaryRecipientFieldResult;
+      return $this;
     }
 
 }

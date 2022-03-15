@@ -15,7 +15,7 @@ class ValidateFriendlyURLResponse
      */
     public function __construct($ValidateFriendlyURLResult = null)
     {
-        $this->ValidateFriendlyURLResult = $ValidateFriendlyURLResult;
+      $this->ValidateFriendlyURLResult = $ValidateFriendlyURLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ValidateFriendlyURLResponse
      */
     public function getValidateFriendlyURLResult()
     {
-        return $this->ValidateFriendlyURLResult;
+      return $this->ValidateFriendlyURLResult;
     }
 
     /**
      * @param boolean $ValidateFriendlyURLResult
-     * @return ValidateFriendlyURLResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ValidateFriendlyURLResponse
      */
     public function setValidateFriendlyURLResult($ValidateFriendlyURLResult)
     {
-        $this->ValidateFriendlyURLResult = $ValidateFriendlyURLResult;
-        return $this;
+      $this->ValidateFriendlyURLResult = $ValidateFriendlyURLResult;
+      return $this;
     }
 
 }

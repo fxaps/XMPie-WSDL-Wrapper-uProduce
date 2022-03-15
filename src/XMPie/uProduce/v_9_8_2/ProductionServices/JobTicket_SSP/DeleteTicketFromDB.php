@@ -27,9 +27,9 @@ class DeleteTicketFromDB
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketGUID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketGUID = $inTicketGUID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketGUID = $inTicketGUID;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteTicketFromDB
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteTicketFromDB
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\DeleteTicketFromDB
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteTicketFromDB
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteTicketFromDB
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\DeleteTicketFromDB
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteTicketFromDB
      */
     public function getInTicketGUID()
     {
-        return $this->inTicketGUID;
+      return $this->inTicketGUID;
     }
 
     /**
      * @param string $inTicketGUID
-     * @return DeleteTicketFromDB
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\DeleteTicketFromDB
      */
     public function setInTicketGUID($inTicketGUID)
     {
-        $this->inTicketGUID = $inTicketGUID;
-        return $this;
+      $this->inTicketGUID = $inTicketGUID;
+      return $this;
     }
 
 }

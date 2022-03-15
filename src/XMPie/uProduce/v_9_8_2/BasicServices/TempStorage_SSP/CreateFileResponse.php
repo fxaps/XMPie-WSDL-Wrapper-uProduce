@@ -15,7 +15,7 @@ class CreateFileResponse
      */
     public function __construct($CreateFileResult = null)
     {
-        $this->CreateFileResult = $CreateFileResult;
+      $this->CreateFileResult = $CreateFileResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateFileResponse
      */
     public function getCreateFileResult()
     {
-        return $this->CreateFileResult;
+      return $this->CreateFileResult;
     }
 
     /**
      * @param string $CreateFileResult
-     * @return CreateFileResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\CreateFileResponse
      */
     public function setCreateFileResult($CreateFileResult)
     {
-        $this->CreateFileResult = $CreateFileResult;
-        return $this;
+      $this->CreateFileResult = $CreateFileResult;
+      return $this;
     }
 
 }

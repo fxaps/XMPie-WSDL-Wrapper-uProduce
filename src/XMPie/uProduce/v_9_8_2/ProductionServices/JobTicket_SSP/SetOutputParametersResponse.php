@@ -15,7 +15,7 @@ class SetOutputParametersResponse
      */
     public function __construct($SetOutputParametersResult = null)
     {
-        $this->SetOutputParametersResult = $SetOutputParametersResult;
+      $this->SetOutputParametersResult = $SetOutputParametersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetOutputParametersResponse
      */
     public function getSetOutputParametersResult()
     {
-        return $this->SetOutputParametersResult;
+      return $this->SetOutputParametersResult;
     }
 
     /**
      * @param boolean $SetOutputParametersResult
-     * @return SetOutputParametersResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOutputParametersResponse
      */
     public function setSetOutputParametersResult($SetOutputParametersResult)
     {
-        $this->SetOutputParametersResult = $SetOutputParametersResult;
-        return $this;
+      $this->SetOutputParametersResult = $SetOutputParametersResult;
+      return $this;
     }
 
 }

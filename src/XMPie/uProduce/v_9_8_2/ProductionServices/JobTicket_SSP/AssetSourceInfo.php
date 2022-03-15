@@ -35,10 +35,10 @@ class AssetSourceInfo
      */
     protected $m_Params = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -46,17 +46,17 @@ class AssetSourceInfo
      */
     public function getM_Type()
     {
-        return $this->m_Type;
+      return $this->m_Type;
     }
 
     /**
      * @param string $m_Type
-     * @return AssetSourceInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AssetSourceInfo
      */
     public function setM_Type($m_Type)
     {
-        $this->m_Type = $m_Type;
-        return $this;
+      $this->m_Type = $m_Type;
+      return $this;
     }
 
     /**
@@ -64,17 +64,17 @@ class AssetSourceInfo
      */
     public function getM_AssemblyPath()
     {
-        return $this->m_AssemblyPath;
+      return $this->m_AssemblyPath;
     }
 
     /**
      * @param string $m_AssemblyPath
-     * @return AssetSourceInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AssetSourceInfo
      */
     public function setM_AssemblyPath($m_AssemblyPath)
     {
-        $this->m_AssemblyPath = $m_AssemblyPath;
-        return $this;
+      $this->m_AssemblyPath = $m_AssemblyPath;
+      return $this;
     }
 
     /**
@@ -82,17 +82,17 @@ class AssetSourceInfo
      */
     public function getM_ClassName()
     {
-        return $this->m_ClassName;
+      return $this->m_ClassName;
     }
 
     /**
      * @param string $m_ClassName
-     * @return AssetSourceInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AssetSourceInfo
      */
     public function setM_ClassName($m_ClassName)
     {
-        $this->m_ClassName = $m_ClassName;
-        return $this;
+      $this->m_ClassName = $m_ClassName;
+      return $this;
     }
 
     /**
@@ -100,17 +100,17 @@ class AssetSourceInfo
      */
     public function getM_ControlName()
     {
-        return $this->m_ControlName;
+      return $this->m_ControlName;
     }
 
     /**
      * @param string $m_ControlName
-     * @return AssetSourceInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AssetSourceInfo
      */
     public function setM_ControlName($m_ControlName)
     {
-        $this->m_ControlName = $m_ControlName;
-        return $this;
+      $this->m_ControlName = $m_ControlName;
+      return $this;
     }
 
     /**
@@ -118,17 +118,17 @@ class AssetSourceInfo
      */
     public function getM_AssetSourceID()
     {
-        return $this->m_AssetSourceID;
+      return $this->m_AssetSourceID;
     }
 
     /**
      * @param string $m_AssetSourceID
-     * @return AssetSourceInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AssetSourceInfo
      */
     public function setM_AssetSourceID($m_AssetSourceID)
     {
-        $this->m_AssetSourceID = $m_AssetSourceID;
-        return $this;
+      $this->m_AssetSourceID = $m_AssetSourceID;
+      return $this;
     }
 
     /**
@@ -136,17 +136,17 @@ class AssetSourceInfo
      */
     public function getM_Params()
     {
-        return $this->m_Params;
+      return $this->m_Params;
     }
 
     /**
      * @param ArrayOfAssetSourceParameter $m_Params
-     * @return AssetSourceInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AssetSourceInfo
      */
     public function setM_Params($m_Params)
     {
-        $this->m_Params = $m_Params;
-        return $this;
+      $this->m_Params = $m_Params;
+      return $this;
     }
 
 }

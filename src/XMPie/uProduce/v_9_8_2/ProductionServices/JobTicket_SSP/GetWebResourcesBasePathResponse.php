@@ -15,7 +15,7 @@ class GetWebResourcesBasePathResponse
      */
     public function __construct($GetWebResourcesBasePathResult = null)
     {
-        $this->GetWebResourcesBasePathResult = $GetWebResourcesBasePathResult;
+      $this->GetWebResourcesBasePathResult = $GetWebResourcesBasePathResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetWebResourcesBasePathResponse
      */
     public function getGetWebResourcesBasePathResult()
     {
-        return $this->GetWebResourcesBasePathResult;
+      return $this->GetWebResourcesBasePathResult;
     }
 
     /**
      * @param string $GetWebResourcesBasePathResult
-     * @return GetWebResourcesBasePathResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetWebResourcesBasePathResponse
      */
     public function setGetWebResourcesBasePathResult($GetWebResourcesBasePathResult)
     {
-        $this->GetWebResourcesBasePathResult = $GetWebResourcesBasePathResult;
-        return $this;
+      $this->GetWebResourcesBasePathResult = $GetWebResourcesBasePathResult;
+      return $this;
     }
 
 }

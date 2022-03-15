@@ -33,10 +33,10 @@ class GetTablesMatchToRecipientTable
      */
     public function __construct($inUsername = null, $inPassword = null, $inUploadedTablesDataSet = null, $inRecipientTableId = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inUploadedTablesDataSet = $inUploadedTablesDataSet;
-        $this->inRecipientTableId = $inRecipientTableId;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inUploadedTablesDataSet = $inUploadedTablesDataSet;
+      $this->inRecipientTableId = $inRecipientTableId;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetTablesMatchToRecipientTable
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetTablesMatchToRecipientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetTablesMatchToRecipientTable
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetTablesMatchToRecipientTable
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetTablesMatchToRecipientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetTablesMatchToRecipientTable
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetTablesMatchToRecipientTable
      */
     public function getInUploadedTablesDataSet()
     {
-        return $this->inUploadedTablesDataSet;
+      return $this->inUploadedTablesDataSet;
     }
 
     /**
      * @param XMPTblDataSet $inUploadedTablesDataSet
-     * @return GetTablesMatchToRecipientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetTablesMatchToRecipientTable
      */
     public function setInUploadedTablesDataSet($inUploadedTablesDataSet)
     {
-        $this->inUploadedTablesDataSet = $inUploadedTablesDataSet;
-        return $this;
+      $this->inUploadedTablesDataSet = $inUploadedTablesDataSet;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetTablesMatchToRecipientTable
      */
     public function getInRecipientTableId()
     {
-        return $this->inRecipientTableId;
+      return $this->inRecipientTableId;
     }
 
     /**
      * @param string $inRecipientTableId
-     * @return GetTablesMatchToRecipientTable
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetTablesMatchToRecipientTable
      */
     public function setInRecipientTableId($inRecipientTableId)
     {
-        $this->inRecipientTableId = $inRecipientTableId;
-        return $this;
+      $this->inRecipientTableId = $inRecipientTableId;
+      return $this;
     }
 
 }

@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
+class ArrayOfEmailBodyOptions implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     protected $EmailBodyOptions = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function getEmailBodyOptions()
     {
-        return $this->EmailBodyOptions;
+      return $this->EmailBodyOptions;
     }
 
     /**
      * @param EmailBodyOptions[] $EmailBodyOptions
-     * @return ArrayOfEmailBodyOptions
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\ArrayOfEmailBodyOptions
      */
     public function setEmailBodyOptions(array $EmailBodyOptions = null)
     {
-        $this->EmailBodyOptions = $EmailBodyOptions;
-        return $this;
+      $this->EmailBodyOptions = $EmailBodyOptions;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->EmailBodyOptions[$offset]);
+      return isset($this->EmailBodyOptions[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->EmailBodyOptions[$offset];
+      return $this->EmailBodyOptions[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->EmailBodyOptions[] = $value;
-        } else {
-            $this->EmailBodyOptions[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->EmailBodyOptions[] = $value;
+      } else {
+        $this->EmailBodyOptions[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->EmailBodyOptions[$offset]);
+      unset($this->EmailBodyOptions[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->EmailBodyOptions);
+      return current($this->EmailBodyOptions);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->EmailBodyOptions);
+      next($this->EmailBodyOptions);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->EmailBodyOptions);
+      return key($this->EmailBodyOptions);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->EmailBodyOptions);
+      reset($this->EmailBodyOptions);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfEmailBodyOptions implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->EmailBodyOptions);
+      return count($this->EmailBodyOptions);
     }
 
 }

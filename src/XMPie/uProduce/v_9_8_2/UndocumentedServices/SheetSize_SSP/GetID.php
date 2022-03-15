@@ -27,9 +27,9 @@ class GetID
      */
     public function __construct($inUsername = null, $inPassword = null, $inSheetSizeName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inSheetSizeName = $inSheetSizeName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inSheetSizeName = $inSheetSizeName;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetID
      */
     public function getInSheetSizeName()
     {
-        return $this->inSheetSizeName;
+      return $this->inSheetSizeName;
     }
 
     /**
      * @param string $inSheetSizeName
-     * @return GetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetID
      */
     public function setInSheetSizeName($inSheetSizeName)
     {
-        $this->inSheetSizeName = $inSheetSizeName;
-        return $this;
+      $this->inSheetSizeName = $inSheetSizeName;
+      return $this;
     }
 
 }

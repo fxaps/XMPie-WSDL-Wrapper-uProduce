@@ -15,7 +15,7 @@ class GetADORValuesDataSetResponse
      */
     public function __construct($GetADORValuesDataSetResult = null)
     {
-        $this->GetADORValuesDataSetResult = $GetADORValuesDataSetResult;
+      $this->GetADORValuesDataSetResult = $GetADORValuesDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetADORValuesDataSetResponse
      */
     public function getGetADORValuesDataSetResult()
     {
-        return $this->GetADORValuesDataSetResult;
+      return $this->GetADORValuesDataSetResult;
     }
 
     /**
      * @param GetADORValuesDataSetResult $GetADORValuesDataSetResult
-     * @return GetADORValuesDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetADORValuesDataSetResponse
      */
     public function setGetADORValuesDataSetResult($GetADORValuesDataSetResult)
     {
-        $this->GetADORValuesDataSetResult = $GetADORValuesDataSetResult;
-        return $this;
+      $this->GetADORValuesDataSetResult = $GetADORValuesDataSetResult;
+      return $this;
     }
 
 }

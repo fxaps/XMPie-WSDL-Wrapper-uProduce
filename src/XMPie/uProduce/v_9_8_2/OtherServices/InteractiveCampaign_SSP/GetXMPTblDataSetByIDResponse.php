@@ -15,7 +15,7 @@ class GetXMPTblDataSetByIDResponse
      */
     public function __construct($GetXMPTblDataSetByIDResult = null)
     {
-        $this->GetXMPTblDataSetByIDResult = $GetXMPTblDataSetByIDResult;
+      $this->GetXMPTblDataSetByIDResult = $GetXMPTblDataSetByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetXMPTblDataSetByIDResponse
      */
     public function getGetXMPTblDataSetByIDResult()
     {
-        return $this->GetXMPTblDataSetByIDResult;
+      return $this->GetXMPTblDataSetByIDResult;
     }
 
     /**
      * @param XMPTblDataSet $GetXMPTblDataSetByIDResult
-     * @return GetXMPTblDataSetByIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetXMPTblDataSetByIDResponse
      */
     public function setGetXMPTblDataSetByIDResult($GetXMPTblDataSetByIDResult)
     {
-        $this->GetXMPTblDataSetByIDResult = $GetXMPTblDataSetByIDResult;
-        return $this;
+      $this->GetXMPTblDataSetByIDResult = $GetXMPTblDataSetByIDResult;
+      return $this;
     }
 
 }

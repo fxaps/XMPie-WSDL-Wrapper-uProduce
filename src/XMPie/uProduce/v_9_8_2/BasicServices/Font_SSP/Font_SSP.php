@@ -3,103 +3,100 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP;
 
 
-use SoapClient;
-use SoapFault;
-
 /**
  * Font Web Service.
  */
-class Font_SSP extends SoapClient
+class Font_SSP extends \SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array(
-        'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\CreateNew',
-        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfProperty',
-        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\Property',
-        'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\CreateNewResponse',
-        'CreateNewFromZip' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\CreateNewFromZip',
-        'CreateNewFromZipResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\CreateNewFromZipResponse',
-        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfString',
-        'Replace' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\Replace',
-        'ReplaceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ReplaceResponse',
-        'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\Delete',
-        'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\DeleteResponse',
-        'GetCampaign' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetCampaign',
-        'GetCampaignResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetCampaignResponse',
-        'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetProperty',
-        'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetPropertyResponse',
-        'GetModificationDate' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetModificationDate',
-        'GetModificationDateResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetModificationDateResponse',
-        'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetProperties',
-        'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetPropertiesResponse',
-        'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetAllProperties',
-        'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetAllPropertiesResponse',
-        'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetDataSet',
-        'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetDataSetResponse',
-        'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetDataSetResult',
-        'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetXMPTblDataSet',
-        'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetXMPTblDataSetResponse',
-        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\XMPTblDataSet',
-        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfXMPTbl',
-        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\XMPTbl',
-        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfXMPTblColumn',
-        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\XMPTblColumn',
-        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfXMPTblRow',
-        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\XMPTblRow',
-        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfXMPRowField',
-        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\XMPRowField',
-        'SetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\SetProperty',
-        'SetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\SetPropertyResponse',
-        'SetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\SetProperties',
-        'SetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\SetPropertiesResponse',
-        'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetName',
-        'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetNameResponse',
-        'GetPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetPath',
-        'GetPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetPathResponse',
-        'GetSecondaryPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSecondaryPath',
-        'GetSecondaryPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSecondaryPathResponse',
-        'GetBinaryFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStream',
-        'GetBinaryFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStreamResponse',
-        'GetBinarySecondaryFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStream',
-        'GetBinarySecondaryFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStreamResponse',
-        'GetBinaryFileStreamChunk' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStreamChunk',
-        'GetBinaryFileStreamChunkResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStreamChunkResponse',
-        'GetBinarySecondaryFileStreamChunk' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStreamChunk',
-        'GetBinarySecondaryFileStreamChunkResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStreamChunkResponse',
-        'GetBinaryFileStreamSize' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStreamSize',
-        'GetBinaryFileStreamSizeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStreamSizeResponse',
-        'GetBinarySecondaryFileStreamSize' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStreamSize',
-        'GetBinarySecondaryFileStreamSizeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStreamSizeResponse',
-        'GetFontFileInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFileInfo',
-        'GetFontFileInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFileInfoResponse',
-        'FontInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\FontInfo',
-        'GetFontFileSizeInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFileSizeInfo',
-        'GetFontFileSizeInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFileSizeInfoResponse',
-        'FontSizeInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\FontSizeInfo',
-        'GetUEditCompatibleFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetUEditCompatibleFileStream',
-        'GetUEditCompatibleFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetUEditCompatibleFileStreamResponse',
-        'GetSWFFontFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFontFileStream',
-        'GetSWFFontFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFontFileStreamResponse',
-        'GetSWFFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFileStream',
-        'GetSWFFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFileStreamResponse',
-        'GetFontFamilyAndStyle' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFamilyAndStyle',
-        'GetFontFamilyAndStyleResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFamilyAndStyleResponse',
-        'GetDownloadURL' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetDownloadURL',
-        'GetDownloadURLResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetDownloadURLResponse',
-        'GetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetID',
-        'GetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetIDResponse',
-        'GetSWFFullNameFontStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontStream',
-        'GetSWFFullNameFontStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontStreamResponse',
-        'GetSWFFullNameFontFamilyAndFace' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontFamilyAndFace',
-        'GetSWFFullNameFontFamilyAndFaceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontFamilyAndFaceResponse',
-        'GetSWFFullNameFontStreamWithFamilyAndFace' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontStreamWithFamilyAndFace',
-        'GetSWFFullNameFontStreamWithFamilyAndFaceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontStreamWithFamilyAndFaceResponse',
-        'GetSWFFontVersion' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFontVersion',
-        'GetSWFFontVersionResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFontVersionResponse',
-    );
+    private static $classmap = array (
+  'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\CreateNew',
+  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfProperty',
+  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\Property',
+  'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\CreateNewResponse',
+  'CreateNewFromZip' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\CreateNewFromZip',
+  'CreateNewFromZipResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\CreateNewFromZipResponse',
+  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfString',
+  'Replace' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\Replace',
+  'ReplaceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ReplaceResponse',
+  'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\Delete',
+  'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\DeleteResponse',
+  'GetCampaign' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetCampaign',
+  'GetCampaignResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetCampaignResponse',
+  'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetProperty',
+  'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetPropertyResponse',
+  'GetModificationDate' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetModificationDate',
+  'GetModificationDateResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetModificationDateResponse',
+  'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetProperties',
+  'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetPropertiesResponse',
+  'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetAllProperties',
+  'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetAllPropertiesResponse',
+  'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetDataSet',
+  'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetDataSetResponse',
+  'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetDataSetResult',
+  'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetXMPTblDataSet',
+  'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetXMPTblDataSetResponse',
+  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\XMPTblDataSet',
+  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfXMPTbl',
+  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\XMPTbl',
+  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfXMPTblColumn',
+  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\XMPTblColumn',
+  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfXMPTblRow',
+  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\XMPTblRow',
+  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\ArrayOfXMPRowField',
+  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\XMPRowField',
+  'SetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\SetProperty',
+  'SetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\SetPropertyResponse',
+  'SetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\SetProperties',
+  'SetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\SetPropertiesResponse',
+  'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetName',
+  'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetNameResponse',
+  'GetPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetPath',
+  'GetPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetPathResponse',
+  'GetSecondaryPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSecondaryPath',
+  'GetSecondaryPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSecondaryPathResponse',
+  'GetBinaryFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStream',
+  'GetBinaryFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStreamResponse',
+  'GetBinarySecondaryFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStream',
+  'GetBinarySecondaryFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStreamResponse',
+  'GetBinaryFileStreamChunk' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStreamChunk',
+  'GetBinaryFileStreamChunkResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStreamChunkResponse',
+  'GetBinarySecondaryFileStreamChunk' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStreamChunk',
+  'GetBinarySecondaryFileStreamChunkResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStreamChunkResponse',
+  'GetBinaryFileStreamSize' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStreamSize',
+  'GetBinaryFileStreamSizeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinaryFileStreamSizeResponse',
+  'GetBinarySecondaryFileStreamSize' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStreamSize',
+  'GetBinarySecondaryFileStreamSizeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetBinarySecondaryFileStreamSizeResponse',
+  'GetFontFileInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFileInfo',
+  'GetFontFileInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFileInfoResponse',
+  'FontInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\FontInfo',
+  'GetFontFileSizeInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFileSizeInfo',
+  'GetFontFileSizeInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFileSizeInfoResponse',
+  'FontSizeInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\FontSizeInfo',
+  'GetUEditCompatibleFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetUEditCompatibleFileStream',
+  'GetUEditCompatibleFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetUEditCompatibleFileStreamResponse',
+  'GetSWFFontFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFontFileStream',
+  'GetSWFFontFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFontFileStreamResponse',
+  'GetSWFFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFileStream',
+  'GetSWFFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFileStreamResponse',
+  'GetFontFamilyAndStyle' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFamilyAndStyle',
+  'GetFontFamilyAndStyleResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetFontFamilyAndStyleResponse',
+  'GetDownloadURL' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetDownloadURL',
+  'GetDownloadURLResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetDownloadURLResponse',
+  'GetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetID',
+  'GetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetIDResponse',
+  'GetSWFFullNameFontStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontStream',
+  'GetSWFFullNameFontStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontStreamResponse',
+  'GetSWFFullNameFontFamilyAndFace' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontFamilyAndFace',
+  'GetSWFFullNameFontFamilyAndFaceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontFamilyAndFaceResponse',
+  'GetSWFFullNameFontStreamWithFamilyAndFace' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontStreamWithFamilyAndFace',
+  'GetSWFFullNameFontStreamWithFamilyAndFaceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFullNameFontStreamWithFamilyAndFaceResponse',
+  'GetSWFFontVersion' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFontVersion',
+  'GetSWFFontVersionResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\Font_SSP\\GetSWFFontVersionResponse',
+);
 
     /**
      * @param array $options A array of config values
@@ -108,19 +105,19 @@ class Font_SSP extends SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-
-        foreach (self::$classmap as $key => $value) {
-            if (!isset($options['classmap'][$key])) {
-                $options['classmap'][$key] = $value;
-            }
-        }
-        $options = array_merge(array(
-            'features' => 1,
-        ), $options);
-        if (!$wsdl) {
-            $wsdl = 'http://localhost/xmpiewsapi/Font_SSP.asmx?wsdl';
-        }
-        parent::__construct($wsdl, $options);
+    
+  foreach (self::$classmap as $key => $value) {
+    if (!isset($options['classmap'][$key])) {
+      $options['classmap'][$key] = $value;
+    }
+  }
+      $options = array_merge(array (
+  'features' => 1,
+), $options);
+      if (!$wsdl) {
+        $wsdl = 'http://localhost/xmpiewsapi/Font_SSP.asmx?wsdl';
+      }
+      parent::__construct($wsdl, $options);
     }
 
     /**
@@ -131,7 +128,7 @@ class Font_SSP extends SoapClient
      */
     public function CreateNew(CreateNew $parameters)
     {
-        return $this->__soapCall('CreateNew', array($parameters));
+      return $this->__soapCall('CreateNew', array($parameters));
     }
 
     /**
@@ -142,7 +139,7 @@ class Font_SSP extends SoapClient
      */
     public function CreateNewFromZip(CreateNewFromZip $parameters)
     {
-        return $this->__soapCall('CreateNewFromZip', array($parameters));
+      return $this->__soapCall('CreateNewFromZip', array($parameters));
     }
 
     /**
@@ -153,7 +150,7 @@ class Font_SSP extends SoapClient
      */
     public function Replace(Replace $parameters)
     {
-        return $this->__soapCall('Replace', array($parameters));
+      return $this->__soapCall('Replace', array($parameters));
     }
 
     /**
@@ -164,7 +161,7 @@ class Font_SSP extends SoapClient
      */
     public function Delete(Delete $parameters)
     {
-        return $this->__soapCall('Delete', array($parameters));
+      return $this->__soapCall('Delete', array($parameters));
     }
 
     /**
@@ -175,7 +172,7 @@ class Font_SSP extends SoapClient
      */
     public function GetCampaign(GetCampaign $parameters)
     {
-        return $this->__soapCall('GetCampaign', array($parameters));
+      return $this->__soapCall('GetCampaign', array($parameters));
     }
 
     /**
@@ -186,7 +183,7 @@ class Font_SSP extends SoapClient
      */
     public function GetProperty(GetProperty $parameters)
     {
-        return $this->__soapCall('GetProperty', array($parameters));
+      return $this->__soapCall('GetProperty', array($parameters));
     }
 
     /**
@@ -197,7 +194,7 @@ class Font_SSP extends SoapClient
      */
     public function GetModificationDate(GetModificationDate $parameters)
     {
-        return $this->__soapCall('GetModificationDate', array($parameters));
+      return $this->__soapCall('GetModificationDate', array($parameters));
     }
 
     /**
@@ -208,7 +205,7 @@ class Font_SSP extends SoapClient
      */
     public function GetProperties(GetProperties $parameters)
     {
-        return $this->__soapCall('GetProperties', array($parameters));
+      return $this->__soapCall('GetProperties', array($parameters));
     }
 
     /**
@@ -219,7 +216,7 @@ class Font_SSP extends SoapClient
      */
     public function GetAllProperties(GetAllProperties $parameters)
     {
-        return $this->__soapCall('GetAllProperties', array($parameters));
+      return $this->__soapCall('GetAllProperties', array($parameters));
     }
 
     /**
@@ -230,7 +227,7 @@ class Font_SSP extends SoapClient
      */
     public function GetDataSet(GetDataSet $parameters)
     {
-        return $this->__soapCall('GetDataSet', array($parameters));
+      return $this->__soapCall('GetDataSet', array($parameters));
     }
 
     /**
@@ -241,7 +238,7 @@ class Font_SSP extends SoapClient
      */
     public function GetXMPTblDataSet(GetXMPTblDataSet $parameters)
     {
-        return $this->__soapCall('GetXMPTblDataSet', array($parameters));
+      return $this->__soapCall('GetXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -252,7 +249,7 @@ class Font_SSP extends SoapClient
      */
     public function SetProperty(SetProperty $parameters)
     {
-        return $this->__soapCall('SetProperty', array($parameters));
+      return $this->__soapCall('SetProperty', array($parameters));
     }
 
     /**
@@ -263,7 +260,7 @@ class Font_SSP extends SoapClient
      */
     public function SetProperties(SetProperties $parameters)
     {
-        return $this->__soapCall('SetProperties', array($parameters));
+      return $this->__soapCall('SetProperties', array($parameters));
     }
 
     /**
@@ -274,7 +271,7 @@ class Font_SSP extends SoapClient
      */
     public function GetName(GetName $parameters)
     {
-        return $this->__soapCall('GetName', array($parameters));
+      return $this->__soapCall('GetName', array($parameters));
     }
 
     /**
@@ -285,7 +282,7 @@ class Font_SSP extends SoapClient
      */
     public function GetPath(GetPath $parameters)
     {
-        return $this->__soapCall('GetPath', array($parameters));
+      return $this->__soapCall('GetPath', array($parameters));
     }
 
     /**
@@ -296,7 +293,7 @@ class Font_SSP extends SoapClient
      */
     public function GetSecondaryPath(GetSecondaryPath $parameters)
     {
-        return $this->__soapCall('GetSecondaryPath', array($parameters));
+      return $this->__soapCall('GetSecondaryPath', array($parameters));
     }
 
     /**
@@ -307,7 +304,7 @@ class Font_SSP extends SoapClient
      */
     public function GetBinaryFileStream(GetBinaryFileStream $parameters)
     {
-        return $this->__soapCall('GetBinaryFileStream', array($parameters));
+      return $this->__soapCall('GetBinaryFileStream', array($parameters));
     }
 
     /**
@@ -318,7 +315,7 @@ class Font_SSP extends SoapClient
      */
     public function GetBinarySecondaryFileStream(GetBinarySecondaryFileStream $parameters)
     {
-        return $this->__soapCall('GetBinarySecondaryFileStream', array($parameters));
+      return $this->__soapCall('GetBinarySecondaryFileStream', array($parameters));
     }
 
     /**
@@ -329,7 +326,7 @@ class Font_SSP extends SoapClient
      */
     public function GetBinaryFileStreamChunk(GetBinaryFileStreamChunk $parameters)
     {
-        return $this->__soapCall('GetBinaryFileStreamChunk', array($parameters));
+      return $this->__soapCall('GetBinaryFileStreamChunk', array($parameters));
     }
 
     /**
@@ -340,7 +337,7 @@ class Font_SSP extends SoapClient
      */
     public function GetBinarySecondaryFileStreamChunk(GetBinarySecondaryFileStreamChunk $parameters)
     {
-        return $this->__soapCall('GetBinarySecondaryFileStreamChunk', array($parameters));
+      return $this->__soapCall('GetBinarySecondaryFileStreamChunk', array($parameters));
     }
 
     /**
@@ -351,7 +348,7 @@ class Font_SSP extends SoapClient
      */
     public function GetBinaryFileStreamSize(GetBinaryFileStreamSize $parameters)
     {
-        return $this->__soapCall('GetBinaryFileStreamSize', array($parameters));
+      return $this->__soapCall('GetBinaryFileStreamSize', array($parameters));
     }
 
     /**
@@ -362,7 +359,7 @@ class Font_SSP extends SoapClient
      */
     public function GetBinarySecondaryFileStreamSize(GetBinarySecondaryFileStreamSize $parameters)
     {
-        return $this->__soapCall('GetBinarySecondaryFileStreamSize', array($parameters));
+      return $this->__soapCall('GetBinarySecondaryFileStreamSize', array($parameters));
     }
 
     /**
@@ -373,7 +370,7 @@ class Font_SSP extends SoapClient
      */
     public function GetFontFileInfo(GetFontFileInfo $parameters)
     {
-        return $this->__soapCall('GetFontFileInfo', array($parameters));
+      return $this->__soapCall('GetFontFileInfo', array($parameters));
     }
 
     /**
@@ -384,7 +381,7 @@ class Font_SSP extends SoapClient
      */
     public function GetFontFileSizeInfo(GetFontFileSizeInfo $parameters)
     {
-        return $this->__soapCall('GetFontFileSizeInfo', array($parameters));
+      return $this->__soapCall('GetFontFileSizeInfo', array($parameters));
     }
 
     /**
@@ -395,7 +392,7 @@ class Font_SSP extends SoapClient
      */
     public function GetUEditCompatibleFileStream(GetUEditCompatibleFileStream $parameters)
     {
-        return $this->__soapCall('GetUEditCompatibleFileStream', array($parameters));
+      return $this->__soapCall('GetUEditCompatibleFileStream', array($parameters));
     }
 
     /**
@@ -406,7 +403,7 @@ class Font_SSP extends SoapClient
      */
     public function GetSWFFontFileStream(GetSWFFontFileStream $parameters)
     {
-        return $this->__soapCall('GetSWFFontFileStream', array($parameters));
+      return $this->__soapCall('GetSWFFontFileStream', array($parameters));
     }
 
     /**
@@ -417,7 +414,7 @@ class Font_SSP extends SoapClient
      */
     public function GetSWFFileStream(GetSWFFileStream $parameters)
     {
-        return $this->__soapCall('GetSWFFileStream', array($parameters));
+      return $this->__soapCall('GetSWFFileStream', array($parameters));
     }
 
     /**
@@ -428,7 +425,7 @@ class Font_SSP extends SoapClient
      */
     public function GetFontFamilyAndStyle(GetFontFamilyAndStyle $parameters)
     {
-        return $this->__soapCall('GetFontFamilyAndStyle', array($parameters));
+      return $this->__soapCall('GetFontFamilyAndStyle', array($parameters));
     }
 
     /**
@@ -439,7 +436,7 @@ class Font_SSP extends SoapClient
      */
     public function GetDownloadURL(GetDownloadURL $parameters)
     {
-        return $this->__soapCall('GetDownloadURL', array($parameters));
+      return $this->__soapCall('GetDownloadURL', array($parameters));
     }
 
     /**
@@ -450,18 +447,18 @@ class Font_SSP extends SoapClient
      */
     public function GetID(GetID $parameters)
     {
-        return $this->__soapCall('GetID', array($parameters));
+      return $this->__soapCall('GetID', array($parameters));
     }
 
     /**
-     * Converts the font to SWF Font where the Font Face is always Regular and the real Font Face is                               concatenated to the Family Name and returns the font stream.
+     * Converts the font to SWF Font where the Font Face is always Regular and the real Font Face is 							   concatenated to the Family Name and returns the font stream.
      *
      * @param GetSWFFullNameFontStream $parameters
      * @return GetSWFFullNameFontStreamResponse
      */
     public function GetSWFFullNameFontStream(GetSWFFullNameFontStream $parameters)
     {
-        return $this->__soapCall('GetSWFFullNameFontStream', array($parameters));
+      return $this->__soapCall('GetSWFFullNameFontStream', array($parameters));
     }
 
     /**
@@ -472,18 +469,18 @@ class Font_SSP extends SoapClient
      */
     public function GetSWFFullNameFontFamilyAndFace(GetSWFFullNameFontFamilyAndFace $parameters)
     {
-        return $this->__soapCall('GetSWFFullNameFontFamilyAndFace', array($parameters));
+      return $this->__soapCall('GetSWFFullNameFontFamilyAndFace', array($parameters));
     }
 
     /**
-     * Converts the font to SWF Font where the Font Face is always Regular and the real Font Face is                               concatenated to the Family Name and returns the font stream and the original Family Name & Font Face.
+     * Converts the font to SWF Font where the Font Face is always Regular and the real Font Face is 							   concatenated to the Family Name and returns the font stream and the original Family Name & Font Face.
      *
      * @param GetSWFFullNameFontStreamWithFamilyAndFace $parameters
      * @return GetSWFFullNameFontStreamWithFamilyAndFaceResponse
      */
     public function GetSWFFullNameFontStreamWithFamilyAndFace(GetSWFFullNameFontStreamWithFamilyAndFace $parameters)
     {
-        return $this->__soapCall('GetSWFFullNameFontStreamWithFamilyAndFace', array($parameters));
+      return $this->__soapCall('GetSWFFullNameFontStreamWithFamilyAndFace', array($parameters));
     }
 
     /**
@@ -494,7 +491,7 @@ class Font_SSP extends SoapClient
      */
     public function GetSWFFontVersion(GetSWFFontVersion $parameters)
     {
-        return $this->__soapCall('GetSWFFontVersion', array($parameters));
+      return $this->__soapCall('GetSWFFontVersion', array($parameters));
     }
 
 }

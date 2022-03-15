@@ -15,7 +15,7 @@ class DeleteAllPortsResponse
      */
     public function __construct($DeleteAllPortsResult = null)
     {
-        $this->DeleteAllPortsResult = $DeleteAllPortsResult;
+      $this->DeleteAllPortsResult = $DeleteAllPortsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAllPortsResponse
      */
     public function getDeleteAllPortsResult()
     {
-        return $this->DeleteAllPortsResult;
+      return $this->DeleteAllPortsResult;
     }
 
     /**
      * @param boolean $DeleteAllPortsResult
-     * @return DeleteAllPortsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAllPortsResponse
      */
     public function setDeleteAllPortsResult($DeleteAllPortsResult)
     {
-        $this->DeleteAllPortsResult = $DeleteAllPortsResult;
-        return $this;
+      $this->DeleteAllPortsResult = $DeleteAllPortsResult;
+      return $this;
     }
 
 }

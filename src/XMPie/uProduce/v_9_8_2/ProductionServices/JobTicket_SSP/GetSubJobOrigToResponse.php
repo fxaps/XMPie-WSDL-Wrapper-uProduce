@@ -15,7 +15,7 @@ class GetSubJobOrigToResponse
      */
     public function __construct($GetSubJobOrigToResult = null)
     {
-        $this->GetSubJobOrigToResult = $GetSubJobOrigToResult;
+      $this->GetSubJobOrigToResult = $GetSubJobOrigToResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSubJobOrigToResponse
      */
     public function getGetSubJobOrigToResult()
     {
-        return $this->GetSubJobOrigToResult;
+      return $this->GetSubJobOrigToResult;
     }
 
     /**
      * @param int $GetSubJobOrigToResult
-     * @return GetSubJobOrigToResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetSubJobOrigToResponse
      */
     public function setGetSubJobOrigToResult($GetSubJobOrigToResult)
     {
-        $this->GetSubJobOrigToResult = $GetSubJobOrigToResult;
-        return $this;
+      $this->GetSubJobOrigToResult = $GetSubJobOrigToResult;
+      return $this;
     }
 
 }

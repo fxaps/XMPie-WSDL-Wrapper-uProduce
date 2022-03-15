@@ -15,7 +15,7 @@ class StartResponse
      */
     public function __construct($StartResult = null)
     {
-        $this->StartResult = $StartResult;
+      $this->StartResult = $StartResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class StartResponse
      */
     public function getStartResult()
     {
-        return $this->StartResult;
+      return $this->StartResult;
     }
 
     /**
      * @param StatusStructure $StartResult
-     * @return StartResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\StartResponse
      */
     public function setStartResult($StartResult)
     {
-        $this->StartResult = $StartResult;
-        return $this;
+      $this->StartResult = $StartResult;
+      return $this;
     }
 
 }

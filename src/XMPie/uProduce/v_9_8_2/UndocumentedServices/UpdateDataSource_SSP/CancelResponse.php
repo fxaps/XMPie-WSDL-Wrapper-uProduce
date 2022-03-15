@@ -15,7 +15,7 @@ class CancelResponse
      */
     public function __construct($CancelResult = null)
     {
-        $this->CancelResult = $CancelResult;
+      $this->CancelResult = $CancelResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CancelResponse
      */
     public function getCancelResult()
     {
-        return $this->CancelResult;
+      return $this->CancelResult;
     }
 
     /**
      * @param StatusStructure $CancelResult
-     * @return CancelResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\CancelResponse
      */
     public function setCancelResult($CancelResult)
     {
-        $this->CancelResult = $CancelResult;
-        return $this;
+      $this->CancelResult = $CancelResult;
+      return $this;
     }
 
 }

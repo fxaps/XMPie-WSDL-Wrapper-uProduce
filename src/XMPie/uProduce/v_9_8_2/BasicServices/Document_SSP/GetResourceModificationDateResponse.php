@@ -15,7 +15,7 @@ class GetResourceModificationDateResponse
      */
     public function __construct($GetResourceModificationDateResult = null)
     {
-        $this->GetResourceModificationDateResult = $GetResourceModificationDateResult;
+      $this->GetResourceModificationDateResult = $GetResourceModificationDateResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetResourceModificationDateResponse
      */
     public function getGetResourceModificationDateResult()
     {
-        return $this->GetResourceModificationDateResult;
+      return $this->GetResourceModificationDateResult;
     }
 
     /**
      * @param float $GetResourceModificationDateResult
-     * @return GetResourceModificationDateResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceModificationDateResponse
      */
     public function setGetResourceModificationDateResult($GetResourceModificationDateResult)
     {
-        $this->GetResourceModificationDateResult = $GetResourceModificationDateResult;
-        return $this;
+      $this->GetResourceModificationDateResult = $GetResourceModificationDateResult;
+      return $this;
     }
 
 }

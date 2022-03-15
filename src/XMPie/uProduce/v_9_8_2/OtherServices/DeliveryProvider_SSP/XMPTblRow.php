@@ -10,10 +10,10 @@ class XMPTblRow
      */
     protected $m_Fields = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -21,17 +21,17 @@ class XMPTblRow
      */
     public function getM_Fields()
     {
-        return $this->m_Fields;
+      return $this->m_Fields;
     }
 
     /**
      * @param ArrayOfXMPRowField $m_Fields
-     * @return XMPTblRow
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\XMPTblRow
      */
     public function setM_Fields($m_Fields)
     {
-        $this->m_Fields = $m_Fields;
-        return $this;
+      $this->m_Fields = $m_Fields;
+      return $this;
     }
 
 }

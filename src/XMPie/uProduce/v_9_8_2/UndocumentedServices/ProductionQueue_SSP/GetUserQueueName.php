@@ -33,10 +33,10 @@ class GetUserQueueName
      */
     public function __construct($inUsername = null, $inPassword = null, $inQueueTypeID = null, $inUserID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inQueueTypeID = $inQueueTypeID;
-        $this->inUserID = $inUserID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inQueueTypeID = $inQueueTypeID;
+      $this->inUserID = $inUserID;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetUserQueueName
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetUserQueueName
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ProductionQueue_SSP\GetUserQueueName
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetUserQueueName
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetUserQueueName
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ProductionQueue_SSP\GetUserQueueName
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetUserQueueName
      */
     public function getInQueueTypeID()
     {
-        return $this->inQueueTypeID;
+      return $this->inQueueTypeID;
     }
 
     /**
      * @param string $inQueueTypeID
-     * @return GetUserQueueName
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ProductionQueue_SSP\GetUserQueueName
      */
     public function setInQueueTypeID($inQueueTypeID)
     {
-        $this->inQueueTypeID = $inQueueTypeID;
-        return $this;
+      $this->inQueueTypeID = $inQueueTypeID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetUserQueueName
      */
     public function getInUserID()
     {
-        return $this->inUserID;
+      return $this->inUserID;
     }
 
     /**
      * @param string $inUserID
-     * @return GetUserQueueName
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ProductionQueue_SSP\GetUserQueueName
      */
     public function setInUserID($inUserID)
     {
-        $this->inUserID = $inUserID;
-        return $this;
+      $this->inUserID = $inUserID;
+      return $this;
     }
 
 }

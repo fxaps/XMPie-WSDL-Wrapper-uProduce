@@ -15,7 +15,7 @@ class GetUCreateXMSiteDefinitionsPathResponse
      */
     public function __construct($GetUCreateXMSiteDefinitionsPathResult = null)
     {
-        $this->GetUCreateXMSiteDefinitionsPathResult = $GetUCreateXMSiteDefinitionsPathResult;
+      $this->GetUCreateXMSiteDefinitionsPathResult = $GetUCreateXMSiteDefinitionsPathResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUCreateXMSiteDefinitionsPathResponse
      */
     public function getGetUCreateXMSiteDefinitionsPathResult()
     {
-        return $this->GetUCreateXMSiteDefinitionsPathResult;
+      return $this->GetUCreateXMSiteDefinitionsPathResult;
     }
 
     /**
      * @param string $GetUCreateXMSiteDefinitionsPathResult
-     * @return GetUCreateXMSiteDefinitionsPathResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetUCreateXMSiteDefinitionsPathResponse
      */
     public function setGetUCreateXMSiteDefinitionsPathResult($GetUCreateXMSiteDefinitionsPathResult)
     {
-        $this->GetUCreateXMSiteDefinitionsPathResult = $GetUCreateXMSiteDefinitionsPathResult;
-        return $this;
+      $this->GetUCreateXMSiteDefinitionsPathResult = $GetUCreateXMSiteDefinitionsPathResult;
+      return $this;
     }
 
 }

@@ -45,12 +45,12 @@ class GetResourceBinaryFileStreamChunkByFileName
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inResourceFileName = null, $inOffset = null, $inoutCount = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDocumentID = $inDocumentID;
-        $this->inResourceFileName = $inResourceFileName;
-        $this->inOffset = $inOffset;
-        $this->inoutCount = $inoutCount;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDocumentID = $inDocumentID;
+      $this->inResourceFileName = $inResourceFileName;
+      $this->inOffset = $inOffset;
+      $this->inoutCount = $inoutCount;
     }
 
     /**
@@ -58,17 +58,17 @@ class GetResourceBinaryFileStreamChunkByFileName
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetResourceBinaryFileStreamChunkByFileName
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamChunkByFileName
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class GetResourceBinaryFileStreamChunkByFileName
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetResourceBinaryFileStreamChunkByFileName
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamChunkByFileName
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class GetResourceBinaryFileStreamChunkByFileName
      */
     public function getInDocumentID()
     {
-        return $this->inDocumentID;
+      return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return GetResourceBinaryFileStreamChunkByFileName
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamChunkByFileName
      */
     public function setInDocumentID($inDocumentID)
     {
-        $this->inDocumentID = $inDocumentID;
-        return $this;
+      $this->inDocumentID = $inDocumentID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class GetResourceBinaryFileStreamChunkByFileName
      */
     public function getInResourceFileName()
     {
-        return $this->inResourceFileName;
+      return $this->inResourceFileName;
     }
 
     /**
      * @param string $inResourceFileName
-     * @return GetResourceBinaryFileStreamChunkByFileName
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamChunkByFileName
      */
     public function setInResourceFileName($inResourceFileName)
     {
-        $this->inResourceFileName = $inResourceFileName;
-        return $this;
+      $this->inResourceFileName = $inResourceFileName;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class GetResourceBinaryFileStreamChunkByFileName
      */
     public function getInOffset()
     {
-        return $this->inOffset;
+      return $this->inOffset;
     }
 
     /**
      * @param int $inOffset
-     * @return GetResourceBinaryFileStreamChunkByFileName
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamChunkByFileName
      */
     public function setInOffset($inOffset)
     {
-        $this->inOffset = $inOffset;
-        return $this;
+      $this->inOffset = $inOffset;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class GetResourceBinaryFileStreamChunkByFileName
      */
     public function getInoutCount()
     {
-        return $this->inoutCount;
+      return $this->inoutCount;
     }
 
     /**
      * @param int $inoutCount
-     * @return GetResourceBinaryFileStreamChunkByFileName
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceBinaryFileStreamChunkByFileName
      */
     public function setInoutCount($inoutCount)
     {
-        $this->inoutCount = $inoutCount;
-        return $this;
+      $this->inoutCount = $inoutCount;
+      return $this;
     }
 
 }

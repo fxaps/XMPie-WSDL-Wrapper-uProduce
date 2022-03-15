@@ -39,11 +39,11 @@ class CreateNew
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobTicket = null, $inICPName = null, $inTouchPointID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobTicket = $inJobTicket;
-        $this->inICPName = $inICPName;
-        $this->inTouchPointID = $inTouchPointID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobTicket = $inJobTicket;
+      $this->inICPName = $inICPName;
+      $this->inTouchPointID = $inTouchPointID;
     }
 
     /**
@@ -51,17 +51,17 @@ class CreateNew
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNew
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class CreateNew
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNew
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class CreateNew
      */
     public function getInJobTicket()
     {
-        return $this->inJobTicket;
+      return $this->inJobTicket;
     }
 
     /**
      * @param string $inJobTicket
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNew
      */
     public function setInJobTicket($inJobTicket)
     {
-        $this->inJobTicket = $inJobTicket;
-        return $this;
+      $this->inJobTicket = $inJobTicket;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class CreateNew
      */
     public function getInICPName()
     {
-        return $this->inICPName;
+      return $this->inICPName;
     }
 
     /**
      * @param string $inICPName
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNew
      */
     public function setInICPName($inICPName)
     {
-        $this->inICPName = $inICPName;
-        return $this;
+      $this->inICPName = $inICPName;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class CreateNew
      */
     public function getInTouchPointID()
     {
-        return $this->inTouchPointID;
+      return $this->inTouchPointID;
     }
 
     /**
      * @param string $inTouchPointID
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\CreateNew
      */
     public function setInTouchPointID($inTouchPointID)
     {
-        $this->inTouchPointID = $inTouchPointID;
-        return $this;
+      $this->inTouchPointID = $inTouchPointID;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetRecipientFieldsResponse
      */
     public function __construct($GetRecipientFieldsResult = null)
     {
-        $this->GetRecipientFieldsResult = $GetRecipientFieldsResult;
+      $this->GetRecipientFieldsResult = $GetRecipientFieldsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetRecipientFieldsResponse
      */
     public function getGetRecipientFieldsResult()
     {
-        return $this->GetRecipientFieldsResult;
+      return $this->GetRecipientFieldsResult;
     }
 
     /**
      * @param ArrayOfPlanDataField $GetRecipientFieldsResult
-     * @return GetRecipientFieldsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetRecipientFieldsResponse
      */
     public function setGetRecipientFieldsResult($GetRecipientFieldsResult)
     {
-        $this->GetRecipientFieldsResult = $GetRecipientFieldsResult;
-        return $this;
+      $this->GetRecipientFieldsResult = $GetRecipientFieldsResult;
+      return $this;
     }
 
 }

@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfProperty implements ArrayAccess, Iterator, Countable
+class ArrayOfProperty implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     protected $Property = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function getProperty()
     {
-        return $this->Property;
+      return $this->Property;
     }
 
     /**
      * @param Property[] $Property
-     * @return ArrayOfProperty
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\ArrayOfProperty
      */
     public function setProperty(array $Property = null)
     {
-        $this->Property = $Property;
-        return $this;
+      $this->Property = $Property;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->Property[$offset]);
+      return isset($this->Property[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->Property[$offset];
+      return $this->Property[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->Property[] = $value;
-        } else {
-            $this->Property[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->Property[] = $value;
+      } else {
+        $this->Property[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->Property[$offset]);
+      unset($this->Property[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->Property);
+      return current($this->Property);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->Property);
+      next($this->Property);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->Property);
+      return key($this->Property);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->Property);
+      reset($this->Property);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfProperty implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->Property);
+      return count($this->Property);
     }
 
 }

@@ -21,8 +21,8 @@ class GetAvailableClicks
      */
     public function __construct($inUsername = null, $inPassword = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
     }
 
     /**
@@ -30,17 +30,17 @@ class GetAvailableClicks
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetAvailableClicks
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetAvailableClicks
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class GetAvailableClicks
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetAvailableClicks
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetAvailableClicks
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
 }

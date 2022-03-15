@@ -51,8 +51,8 @@ class PopulationRecipientInformation
      */
     public function __construct($m_DataSourceConnection = null, $m_FilterType = null)
     {
-        $this->m_DataSourceConnection = $m_DataSourceConnection;
-        $this->m_FilterType = $m_FilterType;
+      $this->m_DataSourceConnection = $m_DataSourceConnection;
+      $this->m_FilterType = $m_FilterType;
     }
 
     /**
@@ -60,17 +60,17 @@ class PopulationRecipientInformation
      */
     public function getM_DataSourceID()
     {
-        return $this->m_DataSourceID;
+      return $this->m_DataSourceID;
     }
 
     /**
      * @param string $m_DataSourceID
-     * @return PopulationRecipientInformation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationRecipientInformation
      */
     public function setM_DataSourceID($m_DataSourceID)
     {
-        $this->m_DataSourceID = $m_DataSourceID;
-        return $this;
+      $this->m_DataSourceID = $m_DataSourceID;
+      return $this;
     }
 
     /**
@@ -78,17 +78,17 @@ class PopulationRecipientInformation
      */
     public function getM_DataSourceConnection()
     {
-        return $this->m_DataSourceConnection;
+      return $this->m_DataSourceConnection;
     }
 
     /**
      * @param Connection $m_DataSourceConnection
-     * @return PopulationRecipientInformation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationRecipientInformation
      */
     public function setM_DataSourceConnection($m_DataSourceConnection)
     {
-        $this->m_DataSourceConnection = $m_DataSourceConnection;
-        return $this;
+      $this->m_DataSourceConnection = $m_DataSourceConnection;
+      return $this;
     }
 
     /**
@@ -96,17 +96,17 @@ class PopulationRecipientInformation
      */
     public function getM_FilterType()
     {
-        return $this->m_FilterType;
+      return $this->m_FilterType;
     }
 
     /**
      * @param int $m_FilterType
-     * @return PopulationRecipientInformation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationRecipientInformation
      */
     public function setM_FilterType($m_FilterType)
     {
-        $this->m_FilterType = $m_FilterType;
-        return $this;
+      $this->m_FilterType = $m_FilterType;
+      return $this;
     }
 
     /**
@@ -114,17 +114,17 @@ class PopulationRecipientInformation
      */
     public function getM_Filter()
     {
-        return $this->m_Filter;
+      return $this->m_Filter;
     }
 
     /**
      * @param string $m_Filter
-     * @return PopulationRecipientInformation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationRecipientInformation
      */
     public function setM_Filter($m_Filter)
     {
-        $this->m_Filter = $m_Filter;
-        return $this;
+      $this->m_Filter = $m_Filter;
+      return $this;
     }
 
     /**
@@ -132,17 +132,17 @@ class PopulationRecipientInformation
      */
     public function getM_SelectOneQuery()
     {
-        return $this->m_SelectOneQuery;
+      return $this->m_SelectOneQuery;
     }
 
     /**
      * @param string $m_SelectOneQuery
-     * @return PopulationRecipientInformation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationRecipientInformation
      */
     public function setM_SelectOneQuery($m_SelectOneQuery)
     {
-        $this->m_SelectOneQuery = $m_SelectOneQuery;
-        return $this;
+      $this->m_SelectOneQuery = $m_SelectOneQuery;
+      return $this;
     }
 
     /**
@@ -150,17 +150,17 @@ class PopulationRecipientInformation
      */
     public function getM_InsertQuery()
     {
-        return $this->m_InsertQuery;
+      return $this->m_InsertQuery;
     }
 
     /**
      * @param string $m_InsertQuery
-     * @return PopulationRecipientInformation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationRecipientInformation
      */
     public function setM_InsertQuery($m_InsertQuery)
     {
-        $this->m_InsertQuery = $m_InsertQuery;
-        return $this;
+      $this->m_InsertQuery = $m_InsertQuery;
+      return $this;
     }
 
     /**
@@ -168,17 +168,17 @@ class PopulationRecipientInformation
      */
     public function getM_UpdateQuery()
     {
-        return $this->m_UpdateQuery;
+      return $this->m_UpdateQuery;
     }
 
     /**
      * @param string $m_UpdateQuery
-     * @return PopulationRecipientInformation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationRecipientInformation
      */
     public function setM_UpdateQuery($m_UpdateQuery)
     {
-        $this->m_UpdateQuery = $m_UpdateQuery;
-        return $this;
+      $this->m_UpdateQuery = $m_UpdateQuery;
+      return $this;
     }
 
     /**
@@ -186,17 +186,17 @@ class PopulationRecipientInformation
      */
     public function getM_DeleteQuery()
     {
-        return $this->m_DeleteQuery;
+      return $this->m_DeleteQuery;
     }
 
     /**
      * @param string $m_DeleteQuery
-     * @return PopulationRecipientInformation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationRecipientInformation
      */
     public function setM_DeleteQuery($m_DeleteQuery)
     {
-        $this->m_DeleteQuery = $m_DeleteQuery;
-        return $this;
+      $this->m_DeleteQuery = $m_DeleteQuery;
+      return $this;
     }
 
 }

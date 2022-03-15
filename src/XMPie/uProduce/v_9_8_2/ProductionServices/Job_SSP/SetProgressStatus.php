@@ -39,11 +39,11 @@ class SetProgressStatus
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobID = null, $inProgressMethod = null, $inProgressProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobID = $inJobID;
-        $this->inProgressMethod = $inProgressMethod;
-        $this->inProgressProps = $inProgressProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobID = $inJobID;
+      $this->inProgressMethod = $inProgressMethod;
+      $this->inProgressProps = $inProgressProps;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetProgressStatus
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetProgressStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\SetProgressStatus
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetProgressStatus
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetProgressStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\SetProgressStatus
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetProgressStatus
      */
     public function getInJobID()
     {
-        return $this->inJobID;
+      return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return SetProgressStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\SetProgressStatus
      */
     public function setInJobID($inJobID)
     {
-        $this->inJobID = $inJobID;
-        return $this;
+      $this->inJobID = $inJobID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetProgressStatus
      */
     public function getInProgressMethod()
     {
-        return $this->inProgressMethod;
+      return $this->inProgressMethod;
     }
 
     /**
      * @param string $inProgressMethod
-     * @return SetProgressStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\SetProgressStatus
      */
     public function setInProgressMethod($inProgressMethod)
     {
-        $this->inProgressMethod = $inProgressMethod;
-        return $this;
+      $this->inProgressMethod = $inProgressMethod;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetProgressStatus
      */
     public function getInProgressProps()
     {
-        return $this->inProgressProps;
+      return $this->inProgressProps;
     }
 
     /**
      * @param ArrayOfProperty $inProgressProps
-     * @return SetProgressStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\SetProgressStatus
      */
     public function setInProgressProps($inProgressProps)
     {
-        $this->inProgressProps = $inProgressProps;
-        return $this;
+      $this->inProgressProps = $inProgressProps;
+      return $this;
     }
 
 }

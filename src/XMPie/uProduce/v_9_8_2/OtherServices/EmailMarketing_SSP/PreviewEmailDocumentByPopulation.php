@@ -45,12 +45,12 @@ class PreviewEmailDocumentByPopulation
      */
     public function __construct($inUsername = null, $inPassword = null, $inPopulationGUID = null, $inDocument = null, $inIsHTML = null, $inRecipientID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPopulationGUID = $inPopulationGUID;
-        $this->inDocument = $inDocument;
-        $this->inIsHTML = $inIsHTML;
-        $this->inRecipientID = $inRecipientID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPopulationGUID = $inPopulationGUID;
+      $this->inDocument = $inDocument;
+      $this->inIsHTML = $inIsHTML;
+      $this->inRecipientID = $inRecipientID;
     }
 
     /**
@@ -58,17 +58,17 @@ class PreviewEmailDocumentByPopulation
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return PreviewEmailDocumentByPopulation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByPopulation
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class PreviewEmailDocumentByPopulation
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return PreviewEmailDocumentByPopulation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByPopulation
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class PreviewEmailDocumentByPopulation
      */
     public function getInPopulationGUID()
     {
-        return $this->inPopulationGUID;
+      return $this->inPopulationGUID;
     }
 
     /**
      * @param string $inPopulationGUID
-     * @return PreviewEmailDocumentByPopulation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByPopulation
      */
     public function setInPopulationGUID($inPopulationGUID)
     {
-        $this->inPopulationGUID = $inPopulationGUID;
-        return $this;
+      $this->inPopulationGUID = $inPopulationGUID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class PreviewEmailDocumentByPopulation
      */
     public function getInDocument()
     {
-        return $this->inDocument;
+      return $this->inDocument;
     }
 
     /**
      * @param string $inDocument
-     * @return PreviewEmailDocumentByPopulation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByPopulation
      */
     public function setInDocument($inDocument)
     {
-        $this->inDocument = $inDocument;
-        return $this;
+      $this->inDocument = $inDocument;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class PreviewEmailDocumentByPopulation
      */
     public function getInIsHTML()
     {
-        return $this->inIsHTML;
+      return $this->inIsHTML;
     }
 
     /**
      * @param boolean $inIsHTML
-     * @return PreviewEmailDocumentByPopulation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByPopulation
      */
     public function setInIsHTML($inIsHTML)
     {
-        $this->inIsHTML = $inIsHTML;
-        return $this;
+      $this->inIsHTML = $inIsHTML;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class PreviewEmailDocumentByPopulation
      */
     public function getInRecipientID()
     {
-        return $this->inRecipientID;
+      return $this->inRecipientID;
     }
 
     /**
      * @param string $inRecipientID
-     * @return PreviewEmailDocumentByPopulation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentByPopulation
      */
     public function setInRecipientID($inRecipientID)
     {
-        $this->inRecipientID = $inRecipientID;
-        return $this;
+      $this->inRecipientID = $inRecipientID;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SaveNewTicketToDBResponse
      */
     public function __construct($SaveNewTicketToDBResult = null)
     {
-        $this->SaveNewTicketToDBResult = $SaveNewTicketToDBResult;
+      $this->SaveNewTicketToDBResult = $SaveNewTicketToDBResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SaveNewTicketToDBResponse
      */
     public function getSaveNewTicketToDBResult()
     {
-        return $this->SaveNewTicketToDBResult;
+      return $this->SaveNewTicketToDBResult;
     }
 
     /**
      * @param string $SaveNewTicketToDBResult
-     * @return SaveNewTicketToDBResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SaveNewTicketToDBResponse
      */
     public function setSaveNewTicketToDBResult($SaveNewTicketToDBResult)
     {
-        $this->SaveNewTicketToDBResult = $SaveNewTicketToDBResult;
-        return $this;
+      $this->SaveNewTicketToDBResult = $SaveNewTicketToDBResult;
+      return $this;
     }
 
 }

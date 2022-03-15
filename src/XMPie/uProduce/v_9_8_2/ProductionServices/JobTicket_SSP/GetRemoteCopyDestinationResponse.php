@@ -15,7 +15,7 @@ class GetRemoteCopyDestinationResponse
      */
     public function __construct($GetRemoteCopyDestinationResult = null)
     {
-        $this->GetRemoteCopyDestinationResult = $GetRemoteCopyDestinationResult;
+      $this->GetRemoteCopyDestinationResult = $GetRemoteCopyDestinationResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetRemoteCopyDestinationResponse
      */
     public function getGetRemoteCopyDestinationResult()
     {
-        return $this->GetRemoteCopyDestinationResult;
+      return $this->GetRemoteCopyDestinationResult;
     }
 
     /**
      * @param string $GetRemoteCopyDestinationResult
-     * @return GetRemoteCopyDestinationResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetRemoteCopyDestinationResponse
      */
     public function setGetRemoteCopyDestinationResult($GetRemoteCopyDestinationResult)
     {
-        $this->GetRemoteCopyDestinationResult = $GetRemoteCopyDestinationResult;
-        return $this;
+      $this->GetRemoteCopyDestinationResult = $GetRemoteCopyDestinationResult;
+      return $this;
     }
 
 }

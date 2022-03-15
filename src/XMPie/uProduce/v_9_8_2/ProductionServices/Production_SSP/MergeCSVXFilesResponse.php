@@ -15,7 +15,7 @@ class MergeCSVXFilesResponse
      */
     public function __construct($MergeCSVXFilesResult = null)
     {
-        $this->MergeCSVXFilesResult = $MergeCSVXFilesResult;
+      $this->MergeCSVXFilesResult = $MergeCSVXFilesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class MergeCSVXFilesResponse
      */
     public function getMergeCSVXFilesResult()
     {
-        return $this->MergeCSVXFilesResult;
+      return $this->MergeCSVXFilesResult;
     }
 
     /**
      * @param boolean $MergeCSVXFilesResult
-     * @return MergeCSVXFilesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\MergeCSVXFilesResponse
      */
     public function setMergeCSVXFilesResult($MergeCSVXFilesResult)
     {
-        $this->MergeCSVXFilesResult = $MergeCSVXFilesResult;
-        return $this;
+      $this->MergeCSVXFilesResult = $MergeCSVXFilesResult;
+      return $this;
     }
 
 }

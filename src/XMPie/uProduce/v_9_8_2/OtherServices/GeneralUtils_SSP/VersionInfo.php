@@ -15,10 +15,10 @@ class VersionInfo
      */
     protected $m_Version = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -26,17 +26,17 @@ class VersionInfo
      */
     public function getM_BuildNumber()
     {
-        return $this->m_BuildNumber;
+      return $this->m_BuildNumber;
     }
 
     /**
      * @param string $m_BuildNumber
-     * @return VersionInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\VersionInfo
      */
     public function setM_BuildNumber($m_BuildNumber)
     {
-        $this->m_BuildNumber = $m_BuildNumber;
-        return $this;
+      $this->m_BuildNumber = $m_BuildNumber;
+      return $this;
     }
 
     /**
@@ -44,17 +44,17 @@ class VersionInfo
      */
     public function getM_Version()
     {
-        return $this->m_Version;
+      return $this->m_Version;
     }
 
     /**
      * @param string $m_Version
-     * @return VersionInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\VersionInfo
      */
     public function setM_Version($m_Version)
     {
-        $this->m_Version = $m_Version;
-        return $this;
+      $this->m_Version = $m_Version;
+      return $this;
     }
 
 }

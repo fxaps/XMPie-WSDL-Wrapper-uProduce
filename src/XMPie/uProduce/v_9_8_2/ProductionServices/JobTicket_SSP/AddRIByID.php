@@ -39,11 +39,11 @@ class AddRIByID
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inRIInfo = null, $inDataSourceID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inRIInfo = $inRIInfo;
-        $this->inDataSourceID = $inDataSourceID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inRIInfo = $inRIInfo;
+      $this->inDataSourceID = $inDataSourceID;
     }
 
     /**
@@ -51,17 +51,17 @@ class AddRIByID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return AddRIByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddRIByID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class AddRIByID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return AddRIByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddRIByID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class AddRIByID
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return AddRIByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddRIByID
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class AddRIByID
      */
     public function getInRIInfo()
     {
-        return $this->inRIInfo;
+      return $this->inRIInfo;
     }
 
     /**
      * @param RecipientsInfo $inRIInfo
-     * @return AddRIByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddRIByID
      */
     public function setInRIInfo($inRIInfo)
     {
-        $this->inRIInfo = $inRIInfo;
-        return $this;
+      $this->inRIInfo = $inRIInfo;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class AddRIByID
      */
     public function getInDataSourceID()
     {
-        return $this->inDataSourceID;
+      return $this->inDataSourceID;
     }
 
     /**
      * @param string $inDataSourceID
-     * @return AddRIByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddRIByID
      */
     public function setInDataSourceID($inDataSourceID)
     {
-        $this->inDataSourceID = $inDataSourceID;
-        return $this;
+      $this->inDataSourceID = $inDataSourceID;
+      return $this;
     }
 
 }

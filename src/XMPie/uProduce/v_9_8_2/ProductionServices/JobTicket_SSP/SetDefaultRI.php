@@ -45,12 +45,12 @@ class SetDefaultRI
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inCampaignID = null, $inTableName = null, $inFlatOriented = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inCampaignID = $inCampaignID;
-        $this->inTableName = $inTableName;
-        $this->inFlatOriented = $inFlatOriented;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inCampaignID = $inCampaignID;
+      $this->inTableName = $inTableName;
+      $this->inFlatOriented = $inFlatOriented;
     }
 
     /**
@@ -58,17 +58,17 @@ class SetDefaultRI
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetDefaultRI
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultRI
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class SetDefaultRI
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetDefaultRI
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultRI
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class SetDefaultRI
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return SetDefaultRI
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultRI
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class SetDefaultRI
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return SetDefaultRI
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultRI
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class SetDefaultRI
      */
     public function getInTableName()
     {
-        return $this->inTableName;
+      return $this->inTableName;
     }
 
     /**
      * @param string $inTableName
-     * @return SetDefaultRI
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultRI
      */
     public function setInTableName($inTableName)
     {
-        $this->inTableName = $inTableName;
-        return $this;
+      $this->inTableName = $inTableName;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class SetDefaultRI
      */
     public function getInFlatOriented()
     {
-        return $this->inFlatOriented;
+      return $this->inFlatOriented;
     }
 
     /**
      * @param boolean $inFlatOriented
-     * @return SetDefaultRI
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDefaultRI
      */
     public function setInFlatOriented($inFlatOriented)
     {
-        $this->inFlatOriented = $inFlatOriented;
-        return $this;
+      $this->inFlatOriented = $inFlatOriented;
+      return $this;
     }
 
 }

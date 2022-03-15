@@ -39,11 +39,11 @@ class ProviderCustomActionByProviderInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inDeliveryProviderInfo = null, $action = null, $actionParams = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
-        $this->action = $action;
-        $this->actionParams = $actionParams;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
+      $this->action = $action;
+      $this->actionParams = $actionParams;
     }
 
     /**
@@ -51,17 +51,17 @@ class ProviderCustomActionByProviderInfo
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return ProviderCustomActionByProviderInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\ProviderCustomActionByProviderInfo
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class ProviderCustomActionByProviderInfo
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return ProviderCustomActionByProviderInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\ProviderCustomActionByProviderInfo
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class ProviderCustomActionByProviderInfo
      */
     public function getInDeliveryProviderInfo()
     {
-        return $this->inDeliveryProviderInfo;
+      return $this->inDeliveryProviderInfo;
     }
 
     /**
      * @param EmailProviderInfo $inDeliveryProviderInfo
-     * @return ProviderCustomActionByProviderInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\ProviderCustomActionByProviderInfo
      */
     public function setInDeliveryProviderInfo($inDeliveryProviderInfo)
     {
-        $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
-        return $this;
+      $this->inDeliveryProviderInfo = $inDeliveryProviderInfo;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class ProviderCustomActionByProviderInfo
      */
     public function getAction()
     {
-        return $this->action;
+      return $this->action;
     }
 
     /**
      * @param string $action
-     * @return ProviderCustomActionByProviderInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\ProviderCustomActionByProviderInfo
      */
     public function setAction($action)
     {
-        $this->action = $action;
-        return $this;
+      $this->action = $action;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class ProviderCustomActionByProviderInfo
      */
     public function getActionParams()
     {
-        return $this->actionParams;
+      return $this->actionParams;
     }
 
     /**
      * @param string $actionParams
-     * @return ProviderCustomActionByProviderInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\ProviderCustomActionByProviderInfo
      */
     public function setActionParams($actionParams)
     {
-        $this->actionParams = $actionParams;
-        return $this;
+      $this->actionParams = $actionParams;
+      return $this;
     }
 
 }

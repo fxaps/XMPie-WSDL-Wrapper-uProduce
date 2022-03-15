@@ -15,7 +15,7 @@ class GetActivenessResponse
      */
     public function __construct($GetActivenessResult = null)
     {
-        $this->GetActivenessResult = $GetActivenessResult;
+      $this->GetActivenessResult = $GetActivenessResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetActivenessResponse
      */
     public function getGetActivenessResult()
     {
-        return $this->GetActivenessResult;
+      return $this->GetActivenessResult;
     }
 
     /**
      * @param boolean $GetActivenessResult
-     * @return GetActivenessResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetActivenessResponse
      */
     public function setGetActivenessResult($GetActivenessResult)
     {
-        $this->GetActivenessResult = $GetActivenessResult;
-        return $this;
+      $this->GetActivenessResult = $GetActivenessResult;
+      return $this;
     }
 
 }

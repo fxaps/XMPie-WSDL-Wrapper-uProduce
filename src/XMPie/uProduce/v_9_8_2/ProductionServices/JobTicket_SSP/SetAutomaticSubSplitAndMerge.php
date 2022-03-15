@@ -39,11 +39,11 @@ class SetAutomaticSubSplitAndMerge
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inEnableAutomaticSubSplit = null, $inEnableAutomaticMerge = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inEnableAutomaticSubSplit = $inEnableAutomaticSubSplit;
-        $this->inEnableAutomaticMerge = $inEnableAutomaticMerge;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inEnableAutomaticSubSplit = $inEnableAutomaticSubSplit;
+      $this->inEnableAutomaticMerge = $inEnableAutomaticMerge;
     }
 
     /**
@@ -51,17 +51,17 @@ class SetAutomaticSubSplitAndMerge
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetAutomaticSubSplitAndMerge
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAutomaticSubSplitAndMerge
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SetAutomaticSubSplitAndMerge
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetAutomaticSubSplitAndMerge
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAutomaticSubSplitAndMerge
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SetAutomaticSubSplitAndMerge
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return SetAutomaticSubSplitAndMerge
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAutomaticSubSplitAndMerge
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SetAutomaticSubSplitAndMerge
      */
     public function getInEnableAutomaticSubSplit()
     {
-        return $this->inEnableAutomaticSubSplit;
+      return $this->inEnableAutomaticSubSplit;
     }
 
     /**
      * @param boolean $inEnableAutomaticSubSplit
-     * @return SetAutomaticSubSplitAndMerge
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAutomaticSubSplitAndMerge
      */
     public function setInEnableAutomaticSubSplit($inEnableAutomaticSubSplit)
     {
-        $this->inEnableAutomaticSubSplit = $inEnableAutomaticSubSplit;
-        return $this;
+      $this->inEnableAutomaticSubSplit = $inEnableAutomaticSubSplit;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SetAutomaticSubSplitAndMerge
      */
     public function getInEnableAutomaticMerge()
     {
-        return $this->inEnableAutomaticMerge;
+      return $this->inEnableAutomaticMerge;
     }
 
     /**
      * @param boolean $inEnableAutomaticMerge
-     * @return SetAutomaticSubSplitAndMerge
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAutomaticSubSplitAndMerge
      */
     public function setInEnableAutomaticMerge($inEnableAutomaticMerge)
     {
-        $this->inEnableAutomaticMerge = $inEnableAutomaticMerge;
-        return $this;
+      $this->inEnableAutomaticMerge = $inEnableAutomaticMerge;
+      return $this;
     }
 
 }

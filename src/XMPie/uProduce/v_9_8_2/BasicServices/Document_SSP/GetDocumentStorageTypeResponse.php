@@ -15,7 +15,7 @@ class GetDocumentStorageTypeResponse
      */
     public function __construct($GetDocumentStorageTypeResult = null)
     {
-        $this->GetDocumentStorageTypeResult = $GetDocumentStorageTypeResult;
+      $this->GetDocumentStorageTypeResult = $GetDocumentStorageTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDocumentStorageTypeResponse
      */
     public function getGetDocumentStorageTypeResult()
     {
-        return $this->GetDocumentStorageTypeResult;
+      return $this->GetDocumentStorageTypeResult;
     }
 
     /**
      * @param GetDocumentStorageTypeResult $GetDocumentStorageTypeResult
-     * @return GetDocumentStorageTypeResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetDocumentStorageTypeResponse
      */
     public function setGetDocumentStorageTypeResult($GetDocumentStorageTypeResult)
     {
-        $this->GetDocumentStorageTypeResult = $GetDocumentStorageTypeResult;
-        return $this;
+      $this->GetDocumentStorageTypeResult = $GetDocumentStorageTypeResult;
+      return $this;
     }
 
 }

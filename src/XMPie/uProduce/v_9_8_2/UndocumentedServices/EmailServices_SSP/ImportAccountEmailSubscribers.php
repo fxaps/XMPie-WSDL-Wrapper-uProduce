@@ -39,11 +39,11 @@ class ImportAccountEmailSubscribers
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inFilePath = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountID = $inAccountID;
-        $this->inFilePath = $inFilePath;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountID = $inAccountID;
+      $this->inFilePath = $inFilePath;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -51,17 +51,17 @@ class ImportAccountEmailSubscribers
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return ImportAccountEmailSubscribers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ImportAccountEmailSubscribers
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class ImportAccountEmailSubscribers
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return ImportAccountEmailSubscribers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ImportAccountEmailSubscribers
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class ImportAccountEmailSubscribers
      */
     public function getInAccountID()
     {
-        return $this->inAccountID;
+      return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return ImportAccountEmailSubscribers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ImportAccountEmailSubscribers
      */
     public function setInAccountID($inAccountID)
     {
-        $this->inAccountID = $inAccountID;
-        return $this;
+      $this->inAccountID = $inAccountID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class ImportAccountEmailSubscribers
      */
     public function getInFilePath()
     {
-        return $this->inFilePath;
+      return $this->inFilePath;
     }
 
     /**
      * @param string $inFilePath
-     * @return ImportAccountEmailSubscribers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ImportAccountEmailSubscribers
      */
     public function setInFilePath($inFilePath)
     {
-        $this->inFilePath = $inFilePath;
-        return $this;
+      $this->inFilePath = $inFilePath;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class ImportAccountEmailSubscribers
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return ImportAccountEmailSubscribers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ImportAccountEmailSubscribers
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

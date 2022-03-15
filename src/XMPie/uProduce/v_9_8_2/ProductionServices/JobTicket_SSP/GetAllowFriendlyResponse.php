@@ -15,7 +15,7 @@ class GetAllowFriendlyResponse
      */
     public function __construct($GetAllowFriendlyResult = null)
     {
-        $this->GetAllowFriendlyResult = $GetAllowFriendlyResult;
+      $this->GetAllowFriendlyResult = $GetAllowFriendlyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAllowFriendlyResponse
      */
     public function getGetAllowFriendlyResult()
     {
-        return $this->GetAllowFriendlyResult;
+      return $this->GetAllowFriendlyResult;
     }
 
     /**
      * @param boolean $GetAllowFriendlyResult
-     * @return GetAllowFriendlyResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetAllowFriendlyResponse
      */
     public function setGetAllowFriendlyResult($GetAllowFriendlyResult)
     {
-        $this->GetAllowFriendlyResult = $GetAllowFriendlyResult;
-        return $this;
+      $this->GetAllowFriendlyResult = $GetAllowFriendlyResult;
+      return $this;
     }
 
 }

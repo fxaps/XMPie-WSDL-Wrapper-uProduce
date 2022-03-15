@@ -15,7 +15,7 @@ class GetNthAssetSourceResponse
      */
     public function __construct($GetNthAssetSourceResult = null)
     {
-        $this->GetNthAssetSourceResult = $GetNthAssetSourceResult;
+      $this->GetNthAssetSourceResult = $GetNthAssetSourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthAssetSourceResponse
      */
     public function getGetNthAssetSourceResult()
     {
-        return $this->GetNthAssetSourceResult;
+      return $this->GetNthAssetSourceResult;
     }
 
     /**
      * @param AssetSourceStruct $GetNthAssetSourceResult
-     * @return GetNthAssetSourceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthAssetSourceResponse
      */
     public function setGetNthAssetSourceResult($GetNthAssetSourceResult)
     {
-        $this->GetNthAssetSourceResult = $GetNthAssetSourceResult;
-        return $this;
+      $this->GetNthAssetSourceResult = $GetNthAssetSourceResult;
+      return $this;
     }
 
 }

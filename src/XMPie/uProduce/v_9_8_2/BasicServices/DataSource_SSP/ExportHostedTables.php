@@ -57,14 +57,14 @@ class ExportHostedTables
      */
     public function __construct($inUsername = null, $inPassword = null, $inDataSourceID = null, $inTableNames = null, $inDestination = null, $inType = null, $inCompressOutput = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDataSourceID = $inDataSourceID;
-        $this->inTableNames = $inTableNames;
-        $this->inDestination = $inDestination;
-        $this->inType = $inType;
-        $this->inCompressOutput = $inCompressOutput;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDataSourceID = $inDataSourceID;
+      $this->inTableNames = $inTableNames;
+      $this->inDestination = $inDestination;
+      $this->inType = $inType;
+      $this->inCompressOutput = $inCompressOutput;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -72,17 +72,17 @@ class ExportHostedTables
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return ExportHostedTables
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ExportHostedTables
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class ExportHostedTables
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return ExportHostedTables
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ExportHostedTables
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class ExportHostedTables
      */
     public function getInDataSourceID()
     {
-        return $this->inDataSourceID;
+      return $this->inDataSourceID;
     }
 
     /**
      * @param string $inDataSourceID
-     * @return ExportHostedTables
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ExportHostedTables
      */
     public function setInDataSourceID($inDataSourceID)
     {
-        $this->inDataSourceID = $inDataSourceID;
-        return $this;
+      $this->inDataSourceID = $inDataSourceID;
+      return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class ExportHostedTables
      */
     public function getInTableNames()
     {
-        return $this->inTableNames;
+      return $this->inTableNames;
     }
 
     /**
      * @param ArrayOfString $inTableNames
-     * @return ExportHostedTables
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ExportHostedTables
      */
     public function setInTableNames($inTableNames)
     {
-        $this->inTableNames = $inTableNames;
-        return $this;
+      $this->inTableNames = $inTableNames;
+      return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class ExportHostedTables
      */
     public function getInDestination()
     {
-        return $this->inDestination;
+      return $this->inDestination;
     }
 
     /**
      * @param string $inDestination
-     * @return ExportHostedTables
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ExportHostedTables
      */
     public function setInDestination($inDestination)
     {
-        $this->inDestination = $inDestination;
-        return $this;
+      $this->inDestination = $inDestination;
+      return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class ExportHostedTables
      */
     public function getInType()
     {
-        return $this->inType;
+      return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return ExportHostedTables
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ExportHostedTables
      */
     public function setInType($inType)
     {
-        $this->inType = $inType;
-        return $this;
+      $this->inType = $inType;
+      return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class ExportHostedTables
      */
     public function getInCompressOutput()
     {
-        return $this->inCompressOutput;
+      return $this->inCompressOutput;
     }
 
     /**
      * @param boolean $inCompressOutput
-     * @return ExportHostedTables
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ExportHostedTables
      */
     public function setInCompressOutput($inCompressOutput)
     {
-        $this->inCompressOutput = $inCompressOutput;
-        return $this;
+      $this->inCompressOutput = $inCompressOutput;
+      return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class ExportHostedTables
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return ExportHostedTables
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ExportHostedTables
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

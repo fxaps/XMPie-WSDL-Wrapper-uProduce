@@ -15,7 +15,7 @@ class GetDeliveryProviderTypeXMPTblDataSetResponse
      */
     public function __construct($GetDeliveryProviderTypeXMPTblDataSetResult = null)
     {
-        $this->GetDeliveryProviderTypeXMPTblDataSetResult = $GetDeliveryProviderTypeXMPTblDataSetResult;
+      $this->GetDeliveryProviderTypeXMPTblDataSetResult = $GetDeliveryProviderTypeXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDeliveryProviderTypeXMPTblDataSetResponse
      */
     public function getGetDeliveryProviderTypeXMPTblDataSetResult()
     {
-        return $this->GetDeliveryProviderTypeXMPTblDataSetResult;
+      return $this->GetDeliveryProviderTypeXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetDeliveryProviderTypeXMPTblDataSetResult
-     * @return GetDeliveryProviderTypeXMPTblDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetDeliveryProviderTypeXMPTblDataSetResponse
      */
     public function setGetDeliveryProviderTypeXMPTblDataSetResult($GetDeliveryProviderTypeXMPTblDataSetResult)
     {
-        $this->GetDeliveryProviderTypeXMPTblDataSetResult = $GetDeliveryProviderTypeXMPTblDataSetResult;
-        return $this;
+      $this->GetDeliveryProviderTypeXMPTblDataSetResult = $GetDeliveryProviderTypeXMPTblDataSetResult;
+      return $this;
     }
 
 }

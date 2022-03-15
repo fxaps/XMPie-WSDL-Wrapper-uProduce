@@ -33,10 +33,10 @@ class GetAllProperties
      */
     public function __construct($inUsername = null, $inPassword = null, $inSheetSizeID = null, $inPropertiesNames = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inSheetSizeID = $inSheetSizeID;
-        $this->inPropertiesNames = $inPropertiesNames;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inSheetSizeID = $inSheetSizeID;
+      $this->inPropertiesNames = $inPropertiesNames;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetAllProperties
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetAllProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetAllProperties
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetAllProperties
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetAllProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetAllProperties
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetAllProperties
      */
     public function getInSheetSizeID()
     {
-        return $this->inSheetSizeID;
+      return $this->inSheetSizeID;
     }
 
     /**
      * @param string $inSheetSizeID
-     * @return GetAllProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetAllProperties
      */
     public function setInSheetSizeID($inSheetSizeID)
     {
-        $this->inSheetSizeID = $inSheetSizeID;
-        return $this;
+      $this->inSheetSizeID = $inSheetSizeID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetAllProperties
      */
     public function getInPropertiesNames()
     {
-        return $this->inPropertiesNames;
+      return $this->inPropertiesNames;
     }
 
     /**
      * @param ArrayOfString $inPropertiesNames
-     * @return GetAllProperties
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetAllProperties
      */
     public function setInPropertiesNames($inPropertiesNames)
     {
-        $this->inPropertiesNames = $inPropertiesNames;
-        return $this;
+      $this->inPropertiesNames = $inPropertiesNames;
+      return $this;
     }
 
 }

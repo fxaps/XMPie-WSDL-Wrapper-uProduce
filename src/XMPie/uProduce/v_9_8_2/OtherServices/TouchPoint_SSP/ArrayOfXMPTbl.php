@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\TouchPoint_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
+class ArrayOfXMPTbl implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     protected $XMPTbl = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function getXMPTbl()
     {
-        return $this->XMPTbl;
+      return $this->XMPTbl;
     }
 
     /**
      * @param XMPTbl[] $XMPTbl
-     * @return ArrayOfXMPTbl
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\TouchPoint_SSP\ArrayOfXMPTbl
      */
     public function setXMPTbl(array $XMPTbl = null)
     {
-        $this->XMPTbl = $XMPTbl;
-        return $this;
+      $this->XMPTbl = $XMPTbl;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->XMPTbl[$offset]);
+      return isset($this->XMPTbl[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->XMPTbl[$offset];
+      return $this->XMPTbl[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->XMPTbl[] = $value;
-        } else {
-            $this->XMPTbl[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->XMPTbl[] = $value;
+      } else {
+        $this->XMPTbl[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->XMPTbl[$offset]);
+      unset($this->XMPTbl[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->XMPTbl);
+      return current($this->XMPTbl);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->XMPTbl);
+      next($this->XMPTbl);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->XMPTbl);
+      return key($this->XMPTbl);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->XMPTbl);
+      reset($this->XMPTbl);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfXMPTbl implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->XMPTbl);
+      return count($this->XMPTbl);
     }
 
 }

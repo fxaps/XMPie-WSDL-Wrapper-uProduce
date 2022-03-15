@@ -33,10 +33,10 @@ class GetStatus
      */
     public function __construct($inUsername = null, $inPassword = null, $inDeliveryProviderID = null, $inExtended = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDeliveryProviderID = $inDeliveryProviderID;
-        $this->inExtended = $inExtended;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDeliveryProviderID = $inDeliveryProviderID;
+      $this->inExtended = $inExtended;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetStatus
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetStatus
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetStatus
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetStatus
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetStatus
      */
     public function getInDeliveryProviderID()
     {
-        return $this->inDeliveryProviderID;
+      return $this->inDeliveryProviderID;
     }
 
     /**
      * @param string $inDeliveryProviderID
-     * @return GetStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetStatus
      */
     public function setInDeliveryProviderID($inDeliveryProviderID)
     {
-        $this->inDeliveryProviderID = $inDeliveryProviderID;
-        return $this;
+      $this->inDeliveryProviderID = $inDeliveryProviderID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetStatus
      */
     public function getInExtended()
     {
-        return $this->inExtended;
+      return $this->inExtended;
     }
 
     /**
      * @param boolean $inExtended
-     * @return GetStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetStatus
      */
     public function setInExtended($inExtended)
     {
-        $this->inExtended = $inExtended;
-        return $this;
+      $this->inExtended = $inExtended;
+      return $this;
     }
 
 }

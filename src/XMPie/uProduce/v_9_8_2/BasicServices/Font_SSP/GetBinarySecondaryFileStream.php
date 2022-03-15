@@ -27,9 +27,9 @@ class GetBinarySecondaryFileStream
      */
     public function __construct($inUsername = null, $inPassword = null, $inFontID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inFontID = $inFontID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inFontID = $inFontID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetBinarySecondaryFileStream
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetBinarySecondaryFileStream
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetBinarySecondaryFileStream
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetBinarySecondaryFileStream
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetBinarySecondaryFileStream
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetBinarySecondaryFileStream
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetBinarySecondaryFileStream
      */
     public function getInFontID()
     {
-        return $this->inFontID;
+      return $this->inFontID;
     }
 
     /**
      * @param string $inFontID
-     * @return GetBinarySecondaryFileStream
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetBinarySecondaryFileStream
      */
     public function setInFontID($inFontID)
     {
-        $this->inFontID = $inFontID;
-        return $this;
+      $this->inFontID = $inFontID;
+      return $this;
     }
 
 }

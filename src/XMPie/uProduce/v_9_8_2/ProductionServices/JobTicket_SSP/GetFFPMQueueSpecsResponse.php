@@ -15,7 +15,7 @@ class GetFFPMQueueSpecsResponse
      */
     public function __construct($GetFFPMQueueSpecsResult = null)
     {
-        $this->GetFFPMQueueSpecsResult = $GetFFPMQueueSpecsResult;
+      $this->GetFFPMQueueSpecsResult = $GetFFPMQueueSpecsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFFPMQueueSpecsResponse
      */
     public function getGetFFPMQueueSpecsResult()
     {
-        return $this->GetFFPMQueueSpecsResult;
+      return $this->GetFFPMQueueSpecsResult;
     }
 
     /**
      * @param string $GetFFPMQueueSpecsResult
-     * @return GetFFPMQueueSpecsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFFPMQueueSpecsResponse
      */
     public function setGetFFPMQueueSpecsResult($GetFFPMQueueSpecsResult)
     {
-        $this->GetFFPMQueueSpecsResult = $GetFFPMQueueSpecsResult;
-        return $this;
+      $this->GetFFPMQueueSpecsResult = $GetFFPMQueueSpecsResult;
+      return $this;
     }
 
 }

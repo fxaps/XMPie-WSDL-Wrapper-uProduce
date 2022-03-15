@@ -15,7 +15,7 @@ class GetPathResponse
      */
     public function __construct($GetPathResult = null)
     {
-        $this->GetPathResult = $GetPathResult;
+      $this->GetPathResult = $GetPathResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPathResponse
      */
     public function getGetPathResult()
     {
-        return $this->GetPathResult;
+      return $this->GetPathResult;
     }
 
     /**
      * @param string $GetPathResult
-     * @return GetPathResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\GetPathResponse
      */
     public function setGetPathResult($GetPathResult)
     {
-        $this->GetPathResult = $GetPathResult;
-        return $this;
+      $this->GetPathResult = $GetPathResult;
+      return $this;
     }
 
 }

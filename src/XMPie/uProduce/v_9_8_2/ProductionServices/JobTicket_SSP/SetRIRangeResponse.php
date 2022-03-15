@@ -15,7 +15,7 @@ class SetRIRangeResponse
      */
     public function __construct($SetRIRangeResult = null)
     {
-        $this->SetRIRangeResult = $SetRIRangeResult;
+      $this->SetRIRangeResult = $SetRIRangeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetRIRangeResponse
      */
     public function getSetRIRangeResult()
     {
-        return $this->SetRIRangeResult;
+      return $this->SetRIRangeResult;
     }
 
     /**
      * @param boolean $SetRIRangeResult
-     * @return SetRIRangeResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetRIRangeResponse
      */
     public function setSetRIRangeResult($SetRIRangeResult)
     {
-        $this->SetRIRangeResult = $SetRIRangeResult;
-        return $this;
+      $this->SetRIRangeResult = $SetRIRangeResult;
+      return $this;
     }
 
 }

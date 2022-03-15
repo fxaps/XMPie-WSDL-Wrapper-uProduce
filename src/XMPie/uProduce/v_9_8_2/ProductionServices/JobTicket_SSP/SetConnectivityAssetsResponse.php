@@ -15,7 +15,7 @@ class SetConnectivityAssetsResponse
      */
     public function __construct($SetConnectivityAssetsResult = null)
     {
-        $this->SetConnectivityAssetsResult = $SetConnectivityAssetsResult;
+      $this->SetConnectivityAssetsResult = $SetConnectivityAssetsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetConnectivityAssetsResponse
      */
     public function getSetConnectivityAssetsResult()
     {
-        return $this->SetConnectivityAssetsResult;
+      return $this->SetConnectivityAssetsResult;
     }
 
     /**
      * @param boolean $SetConnectivityAssetsResult
-     * @return SetConnectivityAssetsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetConnectivityAssetsResponse
      */
     public function setSetConnectivityAssetsResult($SetConnectivityAssetsResult)
     {
-        $this->SetConnectivityAssetsResult = $SetConnectivityAssetsResult;
-        return $this;
+      $this->SetConnectivityAssetsResult = $SetConnectivityAssetsResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetADORsValuesForRecipientsXMPDataSetResponse
      */
     public function __construct($GetADORsValuesForRecipientsXMPDataSetResult = null)
     {
-        $this->GetADORsValuesForRecipientsXMPDataSetResult = $GetADORsValuesForRecipientsXMPDataSetResult;
+      $this->GetADORsValuesForRecipientsXMPDataSetResult = $GetADORsValuesForRecipientsXMPDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetADORsValuesForRecipientsXMPDataSetResponse
      */
     public function getGetADORsValuesForRecipientsXMPDataSetResult()
     {
-        return $this->GetADORsValuesForRecipientsXMPDataSetResult;
+      return $this->GetADORsValuesForRecipientsXMPDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetADORsValuesForRecipientsXMPDataSetResult
-     * @return GetADORsValuesForRecipientsXMPDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetADORsValuesForRecipientsXMPDataSetResponse
      */
     public function setGetADORsValuesForRecipientsXMPDataSetResult($GetADORsValuesForRecipientsXMPDataSetResult)
     {
-        $this->GetADORsValuesForRecipientsXMPDataSetResult = $GetADORsValuesForRecipientsXMPDataSetResult;
-        return $this;
+      $this->GetADORsValuesForRecipientsXMPDataSetResult = $GetADORsValuesForRecipientsXMPDataSetResult;
+      return $this;
     }
 
 }

@@ -35,7 +35,7 @@ class PlanAudienceSegment
      */
     public function __construct($m_Color = null)
     {
-        $this->m_Color = $m_Color;
+      $this->m_Color = $m_Color;
     }
 
     /**
@@ -43,17 +43,17 @@ class PlanAudienceSegment
      */
     public function getM_ID()
     {
-        return $this->m_ID;
+      return $this->m_ID;
     }
 
     /**
      * @param string $m_ID
-     * @return PlanAudienceSegment
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudienceSegment
      */
     public function setM_ID($m_ID)
     {
-        $this->m_ID = $m_ID;
-        return $this;
+      $this->m_ID = $m_ID;
+      return $this;
     }
 
     /**
@@ -61,17 +61,17 @@ class PlanAudienceSegment
      */
     public function getM_Name()
     {
-        return $this->m_Name;
+      return $this->m_Name;
     }
 
     /**
      * @param string $m_Name
-     * @return PlanAudienceSegment
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudienceSegment
      */
     public function setM_Name($m_Name)
     {
-        $this->m_Name = $m_Name;
-        return $this;
+      $this->m_Name = $m_Name;
+      return $this;
     }
 
     /**
@@ -79,17 +79,17 @@ class PlanAudienceSegment
      */
     public function getM_Color()
     {
-        return $this->m_Color;
+      return $this->m_Color;
     }
 
     /**
      * @param int $m_Color
-     * @return PlanAudienceSegment
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudienceSegment
      */
     public function setM_Color($m_Color)
     {
-        $this->m_Color = $m_Color;
-        return $this;
+      $this->m_Color = $m_Color;
+      return $this;
     }
 
     /**
@@ -97,17 +97,17 @@ class PlanAudienceSegment
      */
     public function getM_Comment()
     {
-        return $this->m_Comment;
+      return $this->m_Comment;
     }
 
     /**
      * @param string $m_Comment
-     * @return PlanAudienceSegment
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudienceSegment
      */
     public function setM_Comment($m_Comment)
     {
-        $this->m_Comment = $m_Comment;
-        return $this;
+      $this->m_Comment = $m_Comment;
+      return $this;
     }
 
     /**
@@ -115,17 +115,17 @@ class PlanAudienceSegment
      */
     public function getM_Expression()
     {
-        return $this->m_Expression;
+      return $this->m_Expression;
     }
 
     /**
      * @param string $m_Expression
-     * @return PlanAudienceSegment
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\PlanAudienceSegment
      */
     public function setM_Expression($m_Expression)
     {
-        $this->m_Expression = $m_Expression;
-        return $this;
+      $this->m_Expression = $m_Expression;
+      return $this;
     }
 
 }

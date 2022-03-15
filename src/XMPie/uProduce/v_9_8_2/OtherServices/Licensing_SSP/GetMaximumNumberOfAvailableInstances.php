@@ -27,9 +27,9 @@ class GetMaximumNumberOfAvailableInstances
      */
     public function __construct($inUsername = null, $inPassword = null, $inType = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inType = $inType;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inType = $inType;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetMaximumNumberOfAvailableInstances
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetMaximumNumberOfAvailableInstances
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetMaximumNumberOfAvailableInstances
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetMaximumNumberOfAvailableInstances
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetMaximumNumberOfAvailableInstances
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetMaximumNumberOfAvailableInstances
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetMaximumNumberOfAvailableInstances
      */
     public function getInType()
     {
-        return $this->inType;
+      return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return GetMaximumNumberOfAvailableInstances
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetMaximumNumberOfAvailableInstances
      */
     public function setInType($inType)
     {
-        $this->inType = $inType;
-        return $this;
+      $this->inType = $inType;
+      return $this;
     }
 
 }

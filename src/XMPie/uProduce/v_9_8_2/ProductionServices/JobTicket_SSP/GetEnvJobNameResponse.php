@@ -15,7 +15,7 @@ class GetEnvJobNameResponse
      */
     public function __construct($GetEnvJobNameResult = null)
     {
-        $this->GetEnvJobNameResult = $GetEnvJobNameResult;
+      $this->GetEnvJobNameResult = $GetEnvJobNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetEnvJobNameResponse
      */
     public function getGetEnvJobNameResult()
     {
-        return $this->GetEnvJobNameResult;
+      return $this->GetEnvJobNameResult;
     }
 
     /**
      * @param string $GetEnvJobNameResult
-     * @return GetEnvJobNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetEnvJobNameResponse
      */
     public function setGetEnvJobNameResult($GetEnvJobNameResult)
     {
-        $this->GetEnvJobNameResult = $GetEnvJobNameResult;
-        return $this;
+      $this->GetEnvJobNameResult = $GetEnvJobNameResult;
+      return $this;
     }
 
 }

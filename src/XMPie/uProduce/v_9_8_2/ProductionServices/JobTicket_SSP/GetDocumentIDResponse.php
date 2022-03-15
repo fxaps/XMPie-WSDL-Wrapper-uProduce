@@ -15,7 +15,7 @@ class GetDocumentIDResponse
      */
     public function __construct($GetDocumentIDResult = null)
     {
-        $this->GetDocumentIDResult = $GetDocumentIDResult;
+      $this->GetDocumentIDResult = $GetDocumentIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDocumentIDResponse
      */
     public function getGetDocumentIDResult()
     {
-        return $this->GetDocumentIDResult;
+      return $this->GetDocumentIDResult;
     }
 
     /**
      * @param string $GetDocumentIDResult
-     * @return GetDocumentIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetDocumentIDResponse
      */
     public function setGetDocumentIDResult($GetDocumentIDResult)
     {
-        $this->GetDocumentIDResult = $GetDocumentIDResult;
-        return $this;
+      $this->GetDocumentIDResult = $GetDocumentIDResult;
+      return $this;
     }
 
 }

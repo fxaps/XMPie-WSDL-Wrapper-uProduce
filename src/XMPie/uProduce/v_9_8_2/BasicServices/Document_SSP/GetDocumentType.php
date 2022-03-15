@@ -27,9 +27,9 @@ class GetDocumentType
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentType = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDocumentType = $inDocumentType;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDocumentType = $inDocumentType;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetDocumentType
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetDocumentType
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetDocumentType
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetDocumentType
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetDocumentType
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetDocumentType
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetDocumentType
      */
     public function getInDocumentType()
     {
-        return $this->inDocumentType;
+      return $this->inDocumentType;
     }
 
     /**
      * @param string $inDocumentType
-     * @return GetDocumentType
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetDocumentType
      */
     public function setInDocumentType($inDocumentType)
     {
-        $this->inDocumentType = $inDocumentType;
-        return $this;
+      $this->inDocumentType = $inDocumentType;
+      return $this;
     }
 
 }

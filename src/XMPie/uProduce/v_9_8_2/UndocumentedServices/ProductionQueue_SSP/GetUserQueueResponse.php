@@ -15,7 +15,7 @@ class GetUserQueueResponse
      */
     public function __construct($GetUserQueueResult = null)
     {
-        $this->GetUserQueueResult = $GetUserQueueResult;
+      $this->GetUserQueueResult = $GetUserQueueResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUserQueueResponse
      */
     public function getGetUserQueueResult()
     {
-        return $this->GetUserQueueResult;
+      return $this->GetUserQueueResult;
     }
 
     /**
      * @param string $GetUserQueueResult
-     * @return GetUserQueueResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ProductionQueue_SSP\GetUserQueueResponse
      */
     public function setGetUserQueueResult($GetUserQueueResult)
     {
-        $this->GetUserQueueResult = $GetUserQueueResult;
-        return $this;
+      $this->GetUserQueueResult = $GetUserQueueResult;
+      return $this;
     }
 
 }

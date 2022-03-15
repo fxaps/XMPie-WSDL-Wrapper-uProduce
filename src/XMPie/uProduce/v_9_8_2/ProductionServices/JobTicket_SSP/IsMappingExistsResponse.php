@@ -15,7 +15,7 @@ class IsMappingExistsResponse
      */
     public function __construct($IsMappingExistsResult = null)
     {
-        $this->IsMappingExistsResult = $IsMappingExistsResult;
+      $this->IsMappingExistsResult = $IsMappingExistsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsMappingExistsResponse
      */
     public function getIsMappingExistsResult()
     {
-        return $this->IsMappingExistsResult;
+      return $this->IsMappingExistsResult;
     }
 
     /**
      * @param boolean $IsMappingExistsResult
-     * @return IsMappingExistsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsMappingExistsResponse
      */
     public function setIsMappingExistsResult($IsMappingExistsResult)
     {
-        $this->IsMappingExistsResult = $IsMappingExistsResult;
-        return $this;
+      $this->IsMappingExistsResult = $IsMappingExistsResult;
+      return $this;
     }
 
 }

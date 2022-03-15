@@ -3,46 +3,46 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\Fabricator;
 
 
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetProductInfo;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetProductInfoResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\ProductInfo;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetProductInfoForUser;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetProductInfoForUserResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetProxyInfo;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetProxyInfoResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\ProxyInfo;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetProxyInfo;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetProxyInfoResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPProxy;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPProxyResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPSProxy;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\TestHTTPSProxyResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetCloudGatewayConfiguration;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\CloudGatewayConfiguration;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\ArrayOfProperty;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\Property;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\ArrayOfCloudSubscription;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\CloudSubscription;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetCloudGatewayConfigurationResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetCloudGatewayConfiguration;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetCloudGatewayConfigurationResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetDistillJobOptionNames;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\GetDistillJobOptionNamesResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\ArrayOfString;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsFeatureSupported;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsFeatureSupportedResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsCircleModeAvailable;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsCircleModeAvailableResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetCircleModeAvailable;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SetCircleModeAvailableResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsCampaignTypeSupported;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\IsCampaignTypeSupportedResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SelectSupportedCampaignType;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SelectSupportedCampaignTypeResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\UnselectSupportedCampaignType;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\UnselectSupportedCampaignTypeResponse;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\WasCampaignTypeEverSupported;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\WasCampaignTypeEverSupportedResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\GetProductInfo;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\GetProductInfoResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\ProductInfo;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\GetProductInfoForUser;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\GetProductInfoForUserResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\GetProxyInfo;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\GetProxyInfoResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\ProxyInfo;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\SetProxyInfo;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\SetProxyInfoResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\TestHTTPProxy;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\TestHTTPProxyResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\TestHTTPSProxy;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\TestHTTPSProxyResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\SetCloudGatewayConfiguration;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\CloudGatewayConfiguration;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\ArrayOfProperty;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\Property;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\ArrayOfCloudSubscription;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\CloudSubscription;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\SetCloudGatewayConfigurationResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\GetCloudGatewayConfiguration;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\GetCloudGatewayConfigurationResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\GetDistillJobOptionNames;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\GetDistillJobOptionNamesResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\ArrayOfString;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\IsFeatureSupported;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\IsFeatureSupportedResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\IsCircleModeAvailable;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\IsCircleModeAvailableResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\SetCircleModeAvailable;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\SetCircleModeAvailableResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\IsCampaignTypeSupported;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\IsCampaignTypeSupportedResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\SelectSupportedCampaignType;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\SelectSupportedCampaignTypeResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\UnselectSupportedCampaignType;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\UnselectSupportedCampaignTypeResponse;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\WasCampaignTypeEverSupported;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\WasCampaignTypeEverSupportedResponse;
 
 
 class FabricateSystemManager_SSP
@@ -78,10 +78,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetProductInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetProductInfo
+    */
     public function GetProductInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -96,10 +96,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetProductInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetProductInfoResponse
+    */
     public function GetProductInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -114,10 +114,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ProductInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ProductInfo
+    */
     public function ProductInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -132,10 +132,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetProductInfoForUser
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetProductInfoForUser
+    */
     public function GetProductInfoForUser($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -150,10 +150,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetProductInfoForUserResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetProductInfoForUserResponse
+    */
     public function GetProductInfoForUserResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -168,10 +168,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetProxyInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetProxyInfo
+    */
     public function GetProxyInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -186,10 +186,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetProxyInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetProxyInfoResponse
+    */
     public function GetProxyInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -204,10 +204,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ProxyInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ProxyInfo
+    */
     public function ProxyInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -222,10 +222,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetProxyInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetProxyInfo
+    */
     public function SetProxyInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -240,10 +240,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetProxyInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetProxyInfoResponse
+    */
     public function SetProxyInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -258,10 +258,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return TestHTTPProxy
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return TestHTTPProxy
+    */
     public function TestHTTPProxy($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -276,10 +276,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return TestHTTPProxyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return TestHTTPProxyResponse
+    */
     public function TestHTTPProxyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -294,10 +294,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return TestHTTPSProxy
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return TestHTTPSProxy
+    */
     public function TestHTTPSProxy($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -312,10 +312,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return TestHTTPSProxyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return TestHTTPSProxyResponse
+    */
     public function TestHTTPSProxyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -330,10 +330,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCloudGatewayConfiguration
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCloudGatewayConfiguration
+    */
     public function SetCloudGatewayConfiguration($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -348,10 +348,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CloudGatewayConfiguration
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CloudGatewayConfiguration
+    */
     public function CloudGatewayConfiguration($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -366,10 +366,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfProperty
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfProperty
+    */
     public function ArrayOfProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -384,10 +384,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Property
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Property
+    */
     public function Property($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -402,10 +402,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfCloudSubscription
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfCloudSubscription
+    */
     public function ArrayOfCloudSubscription($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -420,10 +420,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CloudSubscription
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CloudSubscription
+    */
     public function CloudSubscription($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -438,10 +438,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCloudGatewayConfigurationResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCloudGatewayConfigurationResponse
+    */
     public function SetCloudGatewayConfigurationResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -456,10 +456,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCloudGatewayConfiguration
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCloudGatewayConfiguration
+    */
     public function GetCloudGatewayConfiguration($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -474,10 +474,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCloudGatewayConfigurationResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCloudGatewayConfigurationResponse
+    */
     public function GetCloudGatewayConfigurationResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -492,10 +492,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDistillJobOptionNames
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDistillJobOptionNames
+    */
     public function GetDistillJobOptionNames($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -510,10 +510,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDistillJobOptionNamesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDistillJobOptionNamesResponse
+    */
     public function GetDistillJobOptionNamesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -528,10 +528,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfString
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfString
+    */
     public function ArrayOfString($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -546,10 +546,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFeatureSupported
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFeatureSupported
+    */
     public function IsFeatureSupported($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -564,10 +564,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFeatureSupportedResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFeatureSupportedResponse
+    */
     public function IsFeatureSupportedResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -582,10 +582,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsCircleModeAvailable
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsCircleModeAvailable
+    */
     public function IsCircleModeAvailable($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -600,10 +600,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsCircleModeAvailableResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsCircleModeAvailableResponse
+    */
     public function IsCircleModeAvailableResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -618,10 +618,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCircleModeAvailable
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCircleModeAvailable
+    */
     public function SetCircleModeAvailable($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -636,10 +636,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCircleModeAvailableResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCircleModeAvailableResponse
+    */
     public function SetCircleModeAvailableResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -654,10 +654,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsCampaignTypeSupported
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsCampaignTypeSupported
+    */
     public function IsCampaignTypeSupported($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -672,10 +672,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsCampaignTypeSupportedResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsCampaignTypeSupportedResponse
+    */
     public function IsCampaignTypeSupportedResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -690,10 +690,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SelectSupportedCampaignType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SelectSupportedCampaignType
+    */
     public function SelectSupportedCampaignType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -708,10 +708,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SelectSupportedCampaignTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SelectSupportedCampaignTypeResponse
+    */
     public function SelectSupportedCampaignTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -726,10 +726,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return UnselectSupportedCampaignType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return UnselectSupportedCampaignType
+    */
     public function UnselectSupportedCampaignType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -744,10 +744,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return UnselectSupportedCampaignTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return UnselectSupportedCampaignTypeResponse
+    */
     public function UnselectSupportedCampaignTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -762,10 +762,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return WasCampaignTypeEverSupported
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return WasCampaignTypeEverSupported
+    */
     public function WasCampaignTypeEverSupported($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -780,10 +780,10 @@ class FabricateSystemManager_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return WasCampaignTypeEverSupportedResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return WasCampaignTypeEverSupportedResponse
+    */
     public function WasCampaignTypeEverSupportedResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -796,6 +796,7 @@ class FabricateSystemManager_SSP
         }
         return $WasCampaignTypeEverSupportedResponse;
     }
+
 
 
 }

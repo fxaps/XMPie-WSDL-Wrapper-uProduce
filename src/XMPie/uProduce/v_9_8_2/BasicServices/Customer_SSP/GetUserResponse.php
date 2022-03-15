@@ -15,7 +15,7 @@ class GetUserResponse
      */
     public function __construct($GetUserResult = null)
     {
-        $this->GetUserResult = $GetUserResult;
+      $this->GetUserResult = $GetUserResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUserResponse
      */
     public function getGetUserResult()
     {
-        return $this->GetUserResult;
+      return $this->GetUserResult;
     }
 
     /**
      * @param string $GetUserResult
-     * @return GetUserResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetUserResponse
      */
     public function setGetUserResult($GetUserResult)
     {
-        $this->GetUserResult = $GetUserResult;
-        return $this;
+      $this->GetUserResult = $GetUserResult;
+      return $this;
     }
 
 }

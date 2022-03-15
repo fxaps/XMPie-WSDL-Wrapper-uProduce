@@ -27,9 +27,9 @@ class DeleteDeliveryProviders
      */
     public function __construct($inUsername = null, $inPassword = null, $inDeliveryProviderIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDeliveryProviderIDArray = $inDeliveryProviderIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDeliveryProviderIDArray = $inDeliveryProviderIDArray;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteDeliveryProviders
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteDeliveryProviders
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteDeliveryProviders
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteDeliveryProviders
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteDeliveryProviders
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteDeliveryProviders
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteDeliveryProviders
      */
     public function getInDeliveryProviderIDArray()
     {
-        return $this->inDeliveryProviderIDArray;
+      return $this->inDeliveryProviderIDArray;
     }
 
     /**
      * @param ArrayOfString $inDeliveryProviderIDArray
-     * @return DeleteDeliveryProviders
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteDeliveryProviders
      */
     public function setInDeliveryProviderIDArray($inDeliveryProviderIDArray)
     {
-        $this->inDeliveryProviderIDArray = $inDeliveryProviderIDArray;
-        return $this;
+      $this->inDeliveryProviderIDArray = $inDeliveryProviderIDArray;
+      return $this;
     }
 
 }

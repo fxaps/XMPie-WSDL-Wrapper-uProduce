@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
+class ArrayOfPlanUserViewField implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     protected $PlanUserViewField = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function getPlanUserViewField()
     {
-        return $this->PlanUserViewField;
+      return $this->PlanUserViewField;
     }
 
     /**
      * @param PlanUserViewField[] $PlanUserViewField
-     * @return ArrayOfPlanUserViewField
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\ArrayOfPlanUserViewField
      */
     public function setPlanUserViewField(array $PlanUserViewField = null)
     {
-        $this->PlanUserViewField = $PlanUserViewField;
-        return $this;
+      $this->PlanUserViewField = $PlanUserViewField;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->PlanUserViewField[$offset]);
+      return isset($this->PlanUserViewField[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->PlanUserViewField[$offset];
+      return $this->PlanUserViewField[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->PlanUserViewField[] = $value;
-        } else {
-            $this->PlanUserViewField[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->PlanUserViewField[] = $value;
+      } else {
+        $this->PlanUserViewField[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->PlanUserViewField[$offset]);
+      unset($this->PlanUserViewField[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->PlanUserViewField);
+      return current($this->PlanUserViewField);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->PlanUserViewField);
+      next($this->PlanUserViewField);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->PlanUserViewField);
+      return key($this->PlanUserViewField);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->PlanUserViewField);
+      reset($this->PlanUserViewField);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfPlanUserViewField implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->PlanUserViewField);
+      return count($this->PlanUserViewField);
     }
 
 }

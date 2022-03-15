@@ -15,7 +15,7 @@ class ExportCampaignEmailSubscribersResponse
      */
     public function __construct($ExportCampaignEmailSubscribersResult = null)
     {
-        $this->ExportCampaignEmailSubscribersResult = $ExportCampaignEmailSubscribersResult;
+      $this->ExportCampaignEmailSubscribersResult = $ExportCampaignEmailSubscribersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ExportCampaignEmailSubscribersResponse
      */
     public function getExportCampaignEmailSubscribersResult()
     {
-        return $this->ExportCampaignEmailSubscribersResult;
+      return $this->ExportCampaignEmailSubscribersResult;
     }
 
     /**
      * @param string $ExportCampaignEmailSubscribersResult
-     * @return ExportCampaignEmailSubscribersResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ExportCampaignEmailSubscribersResponse
      */
     public function setExportCampaignEmailSubscribersResult($ExportCampaignEmailSubscribersResult)
     {
-        $this->ExportCampaignEmailSubscribersResult = $ExportCampaignEmailSubscribersResult;
-        return $this;
+      $this->ExportCampaignEmailSubscribersResult = $ExportCampaignEmailSubscribersResult;
+      return $this;
     }
 
 }

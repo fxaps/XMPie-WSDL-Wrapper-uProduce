@@ -15,7 +15,7 @@ class GetMappingResponse
      */
     public function __construct($GetMappingResult = null)
     {
-        $this->GetMappingResult = $GetMappingResult;
+      $this->GetMappingResult = $GetMappingResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMappingResponse
      */
     public function getGetMappingResult()
     {
-        return $this->GetMappingResult;
+      return $this->GetMappingResult;
     }
 
     /**
      * @param FieldMappings $GetMappingResult
-     * @return GetMappingResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\GetMappingResponse
      */
     public function setGetMappingResult($GetMappingResult)
     {
-        $this->GetMappingResult = $GetMappingResult;
-        return $this;
+      $this->GetMappingResult = $GetMappingResult;
+      return $this;
     }
 
 }

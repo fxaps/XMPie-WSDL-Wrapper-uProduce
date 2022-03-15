@@ -15,7 +15,7 @@ class ResumeOnDemandJobResponse
      */
     public function __construct($ResumeOnDemandJobResult = null)
     {
-        $this->ResumeOnDemandJobResult = $ResumeOnDemandJobResult;
+      $this->ResumeOnDemandJobResult = $ResumeOnDemandJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ResumeOnDemandJobResponse
      */
     public function getResumeOnDemandJobResult()
     {
-        return $this->ResumeOnDemandJobResult;
+      return $this->ResumeOnDemandJobResult;
     }
 
     /**
      * @param boolean $ResumeOnDemandJobResult
-     * @return ResumeOnDemandJobResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\ResumeOnDemandJobResponse
      */
     public function setResumeOnDemandJobResult($ResumeOnDemandJobResult)
     {
-        $this->ResumeOnDemandJobResult = $ResumeOnDemandJobResult;
-        return $this;
+      $this->ResumeOnDemandJobResult = $ResumeOnDemandJobResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SetDataSourcesByIDResponse
      */
     public function __construct($SetDataSourcesByIDResult = null)
     {
-        $this->SetDataSourcesByIDResult = $SetDataSourcesByIDResult;
+      $this->SetDataSourcesByIDResult = $SetDataSourcesByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetDataSourcesByIDResponse
      */
     public function getSetDataSourcesByIDResult()
     {
-        return $this->SetDataSourcesByIDResult;
+      return $this->SetDataSourcesByIDResult;
     }
 
     /**
      * @param boolean $SetDataSourcesByIDResult
-     * @return SetDataSourcesByIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDataSourcesByIDResponse
      */
     public function setSetDataSourcesByIDResult($SetDataSourcesByIDResult)
     {
-        $this->SetDataSourcesByIDResult = $SetDataSourcesByIDResult;
-        return $this;
+      $this->SetDataSourcesByIDResult = $SetDataSourcesByIDResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetSWFFontVersionResponse
      */
     public function __construct($GetSWFFontVersionResult = null)
     {
-        $this->GetSWFFontVersionResult = $GetSWFFontVersionResult;
+      $this->GetSWFFontVersionResult = $GetSWFFontVersionResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSWFFontVersionResponse
      */
     public function getGetSWFFontVersionResult()
     {
-        return $this->GetSWFFontVersionResult;
+      return $this->GetSWFFontVersionResult;
     }
 
     /**
      * @param string $GetSWFFontVersionResult
-     * @return GetSWFFontVersionResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFontVersionResponse
      */
     public function setGetSWFFontVersionResult($GetSWFFontVersionResult)
     {
-        $this->GetSWFFontVersionResult = $GetSWFFontVersionResult;
-        return $this;
+      $this->GetSWFFontVersionResult = $GetSWFFontVersionResult;
+      return $this;
     }
 
 }

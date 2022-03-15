@@ -57,14 +57,14 @@ class GetPDFPreviewDownloadURL
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inMimeType = null, $inIsInline = null, $inMacTypeHex = null, $inMacCreatorHex = null, $inReturnInternalURL = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDocumentID = $inDocumentID;
-        $this->inMimeType = $inMimeType;
-        $this->inIsInline = $inIsInline;
-        $this->inMacTypeHex = $inMacTypeHex;
-        $this->inMacCreatorHex = $inMacCreatorHex;
-        $this->inReturnInternalURL = $inReturnInternalURL;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDocumentID = $inDocumentID;
+      $this->inMimeType = $inMimeType;
+      $this->inIsInline = $inIsInline;
+      $this->inMacTypeHex = $inMacTypeHex;
+      $this->inMacCreatorHex = $inMacCreatorHex;
+      $this->inReturnInternalURL = $inReturnInternalURL;
     }
 
     /**
@@ -72,17 +72,17 @@ class GetPDFPreviewDownloadURL
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetPDFPreviewDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewDownloadURL
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class GetPDFPreviewDownloadURL
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetPDFPreviewDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewDownloadURL
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class GetPDFPreviewDownloadURL
      */
     public function getInDocumentID()
     {
-        return $this->inDocumentID;
+      return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return GetPDFPreviewDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewDownloadURL
      */
     public function setInDocumentID($inDocumentID)
     {
-        $this->inDocumentID = $inDocumentID;
-        return $this;
+      $this->inDocumentID = $inDocumentID;
+      return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class GetPDFPreviewDownloadURL
      */
     public function getInMimeType()
     {
-        return $this->inMimeType;
+      return $this->inMimeType;
     }
 
     /**
      * @param string $inMimeType
-     * @return GetPDFPreviewDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewDownloadURL
      */
     public function setInMimeType($inMimeType)
     {
-        $this->inMimeType = $inMimeType;
-        return $this;
+      $this->inMimeType = $inMimeType;
+      return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class GetPDFPreviewDownloadURL
      */
     public function getInIsInline()
     {
-        return $this->inIsInline;
+      return $this->inIsInline;
     }
 
     /**
      * @param boolean $inIsInline
-     * @return GetPDFPreviewDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewDownloadURL
      */
     public function setInIsInline($inIsInline)
     {
-        $this->inIsInline = $inIsInline;
-        return $this;
+      $this->inIsInline = $inIsInline;
+      return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class GetPDFPreviewDownloadURL
      */
     public function getInMacTypeHex()
     {
-        return $this->inMacTypeHex;
+      return $this->inMacTypeHex;
     }
 
     /**
      * @param string $inMacTypeHex
-     * @return GetPDFPreviewDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewDownloadURL
      */
     public function setInMacTypeHex($inMacTypeHex)
     {
-        $this->inMacTypeHex = $inMacTypeHex;
-        return $this;
+      $this->inMacTypeHex = $inMacTypeHex;
+      return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class GetPDFPreviewDownloadURL
      */
     public function getInMacCreatorHex()
     {
-        return $this->inMacCreatorHex;
+      return $this->inMacCreatorHex;
     }
 
     /**
      * @param string $inMacCreatorHex
-     * @return GetPDFPreviewDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewDownloadURL
      */
     public function setInMacCreatorHex($inMacCreatorHex)
     {
-        $this->inMacCreatorHex = $inMacCreatorHex;
-        return $this;
+      $this->inMacCreatorHex = $inMacCreatorHex;
+      return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class GetPDFPreviewDownloadURL
      */
     public function getInReturnInternalURL()
     {
-        return $this->inReturnInternalURL;
+      return $this->inReturnInternalURL;
     }
 
     /**
      * @param boolean $inReturnInternalURL
-     * @return GetPDFPreviewDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewDownloadURL
      */
     public function setInReturnInternalURL($inReturnInternalURL)
     {
-        $this->inReturnInternalURL = $inReturnInternalURL;
-        return $this;
+      $this->inReturnInternalURL = $inReturnInternalURL;
+      return $this;
     }
 
 }

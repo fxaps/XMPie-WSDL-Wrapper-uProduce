@@ -15,7 +15,7 @@ class GetDefaultCacheEnvResponse
      */
     public function __construct($GetDefaultCacheEnvResult = null)
     {
-        $this->GetDefaultCacheEnvResult = $GetDefaultCacheEnvResult;
+      $this->GetDefaultCacheEnvResult = $GetDefaultCacheEnvResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDefaultCacheEnvResponse
      */
     public function getGetDefaultCacheEnvResult()
     {
-        return $this->GetDefaultCacheEnvResult;
+      return $this->GetDefaultCacheEnvResult;
     }
 
     /**
      * @param boolean $GetDefaultCacheEnvResult
-     * @return GetDefaultCacheEnvResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetDefaultCacheEnvResponse
      */
     public function setGetDefaultCacheEnvResult($GetDefaultCacheEnvResult)
     {
-        $this->GetDefaultCacheEnvResult = $GetDefaultCacheEnvResult;
-        return $this;
+      $this->GetDefaultCacheEnvResult = $GetDefaultCacheEnvResult;
+      return $this;
     }
 
 }

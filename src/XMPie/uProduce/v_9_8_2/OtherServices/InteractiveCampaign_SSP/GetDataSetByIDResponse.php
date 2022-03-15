@@ -15,7 +15,7 @@ class GetDataSetByIDResponse
      */
     public function __construct($GetDataSetByIDResult = null)
     {
-        $this->GetDataSetByIDResult = $GetDataSetByIDResult;
+      $this->GetDataSetByIDResult = $GetDataSetByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDataSetByIDResponse
      */
     public function getGetDataSetByIDResult()
     {
-        return $this->GetDataSetByIDResult;
+      return $this->GetDataSetByIDResult;
     }
 
     /**
      * @param GetDataSetByIDResult $GetDataSetByIDResult
-     * @return GetDataSetByIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetDataSetByIDResponse
      */
     public function setGetDataSetByIDResult($GetDataSetByIDResult)
     {
-        $this->GetDataSetByIDResult = $GetDataSetByIDResult;
-        return $this;
+      $this->GetDataSetByIDResult = $GetDataSetByIDResult;
+      return $this;
     }
 
 }

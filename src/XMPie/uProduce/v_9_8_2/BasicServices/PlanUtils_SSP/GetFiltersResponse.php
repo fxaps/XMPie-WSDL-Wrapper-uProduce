@@ -15,7 +15,7 @@ class GetFiltersResponse
      */
     public function __construct($GetFiltersResult = null)
     {
-        $this->GetFiltersResult = $GetFiltersResult;
+      $this->GetFiltersResult = $GetFiltersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFiltersResponse
      */
     public function getGetFiltersResult()
     {
-        return $this->GetFiltersResult;
+      return $this->GetFiltersResult;
     }
 
     /**
      * @param ArrayOfPlanFilter $GetFiltersResult
-     * @return GetFiltersResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetFiltersResponse
      */
     public function setGetFiltersResult($GetFiltersResult)
     {
-        $this->GetFiltersResult = $GetFiltersResult;
-        return $this;
+      $this->GetFiltersResult = $GetFiltersResult;
+      return $this;
     }
 
 }

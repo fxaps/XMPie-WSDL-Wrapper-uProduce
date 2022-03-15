@@ -15,7 +15,7 @@ class RemoveFFPMResponse
      */
     public function __construct($RemoveFFPMResult = null)
     {
-        $this->RemoveFFPMResult = $RemoveFFPMResult;
+      $this->RemoveFFPMResult = $RemoveFFPMResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveFFPMResponse
      */
     public function getRemoveFFPMResult()
     {
-        return $this->RemoveFFPMResult;
+      return $this->RemoveFFPMResult;
     }
 
     /**
      * @param boolean $RemoveFFPMResult
-     * @return RemoveFFPMResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveFFPMResponse
      */
     public function setRemoveFFPMResult($RemoveFFPMResult)
     {
-        $this->RemoveFFPMResult = $RemoveFFPMResult;
-        return $this;
+      $this->RemoveFFPMResult = $RemoveFFPMResult;
+      return $this;
     }
 
 }

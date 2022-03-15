@@ -27,9 +27,9 @@ class CalluProduceAPIViaXmlFile
      */
     public function __construct($inUsername = null, $inPassword = null, $inPath = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPath = $inPath;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPath = $inPath;
     }
 
     /**
@@ -37,17 +37,17 @@ class CalluProduceAPIViaXmlFile
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CalluProduceAPIViaXmlFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalluProduceAPIViaXmlFile
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class CalluProduceAPIViaXmlFile
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CalluProduceAPIViaXmlFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalluProduceAPIViaXmlFile
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class CalluProduceAPIViaXmlFile
      */
     public function getInPath()
     {
-        return $this->inPath;
+      return $this->inPath;
     }
 
     /**
      * @param string $inPath
-     * @return CalluProduceAPIViaXmlFile
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\CalluProduceAPIViaXmlFile
      */
     public function setInPath($inPath)
     {
-        $this->inPath = $inPath;
-        return $this;
+      $this->inPath = $inPath;
+      return $this;
     }
 
 }

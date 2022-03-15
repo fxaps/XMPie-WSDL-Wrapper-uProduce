@@ -15,7 +15,7 @@ class GetUImageSettingsResponse
      */
     public function __construct($GetUImageSettingsResult = null)
     {
-        $this->GetUImageSettingsResult = $GetUImageSettingsResult;
+      $this->GetUImageSettingsResult = $GetUImageSettingsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUImageSettingsResponse
      */
     public function getGetUImageSettingsResult()
     {
-        return $this->GetUImageSettingsResult;
+      return $this->GetUImageSettingsResult;
     }
 
     /**
      * @param string $GetUImageSettingsResult
-     * @return GetUImageSettingsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetUImageSettingsResponse
      */
     public function setGetUImageSettingsResult($GetUImageSettingsResult)
     {
-        $this->GetUImageSettingsResult = $GetUImageSettingsResult;
-        return $this;
+      $this->GetUImageSettingsResult = $GetUImageSettingsResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetUsersDataSetResponse
      */
     public function __construct($GetUsersDataSetResult = null)
     {
-        $this->GetUsersDataSetResult = $GetUsersDataSetResult;
+      $this->GetUsersDataSetResult = $GetUsersDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUsersDataSetResponse
      */
     public function getGetUsersDataSetResult()
     {
-        return $this->GetUsersDataSetResult;
+      return $this->GetUsersDataSetResult;
     }
 
     /**
      * @param GetUsersDataSetResult $GetUsersDataSetResult
-     * @return GetUsersDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetUsersDataSetResponse
      */
     public function setGetUsersDataSetResult($GetUsersDataSetResult)
     {
-        $this->GetUsersDataSetResult = $GetUsersDataSetResult;
-        return $this;
+      $this->GetUsersDataSetResult = $GetUsersDataSetResult;
+      return $this;
     }
 
 }

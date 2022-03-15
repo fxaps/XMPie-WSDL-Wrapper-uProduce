@@ -15,7 +15,7 @@ class IsFriendlyUrlRedirectModeResponse
      */
     public function __construct($IsFriendlyUrlRedirectModeResult = null)
     {
-        $this->IsFriendlyUrlRedirectModeResult = $IsFriendlyUrlRedirectModeResult;
+      $this->IsFriendlyUrlRedirectModeResult = $IsFriendlyUrlRedirectModeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsFriendlyUrlRedirectModeResponse
      */
     public function getIsFriendlyUrlRedirectModeResult()
     {
-        return $this->IsFriendlyUrlRedirectModeResult;
+      return $this->IsFriendlyUrlRedirectModeResult;
     }
 
     /**
      * @param boolean $IsFriendlyUrlRedirectModeResult
-     * @return IsFriendlyUrlRedirectModeResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsFriendlyUrlRedirectModeResponse
      */
     public function setIsFriendlyUrlRedirectModeResult($IsFriendlyUrlRedirectModeResult)
     {
-        $this->IsFriendlyUrlRedirectModeResult = $IsFriendlyUrlRedirectModeResult;
-        return $this;
+      $this->IsFriendlyUrlRedirectModeResult = $IsFriendlyUrlRedirectModeResult;
+      return $this;
     }
 
 }

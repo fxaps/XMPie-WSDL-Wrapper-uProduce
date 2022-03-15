@@ -15,7 +15,7 @@ class GetJDFCopyDestinationResponse
      */
     public function __construct($GetJDFCopyDestinationResult = null)
     {
-        $this->GetJDFCopyDestinationResult = $GetJDFCopyDestinationResult;
+      $this->GetJDFCopyDestinationResult = $GetJDFCopyDestinationResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetJDFCopyDestinationResponse
      */
     public function getGetJDFCopyDestinationResult()
     {
-        return $this->GetJDFCopyDestinationResult;
+      return $this->GetJDFCopyDestinationResult;
     }
 
     /**
      * @param string $GetJDFCopyDestinationResult
-     * @return GetJDFCopyDestinationResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetJDFCopyDestinationResponse
      */
     public function setGetJDFCopyDestinationResult($GetJDFCopyDestinationResult)
     {
-        $this->GetJDFCopyDestinationResult = $GetJDFCopyDestinationResult;
-        return $this;
+      $this->GetJDFCopyDestinationResult = $GetJDFCopyDestinationResult;
+      return $this;
     }
 
 }

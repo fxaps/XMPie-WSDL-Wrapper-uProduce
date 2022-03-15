@@ -30,7 +30,7 @@ class PopulationInfo
      */
     public function __construct($m_RecipientInformation = null)
     {
-        $this->m_RecipientInformation = $m_RecipientInformation;
+      $this->m_RecipientInformation = $m_RecipientInformation;
     }
 
     /**
@@ -38,17 +38,17 @@ class PopulationInfo
      */
     public function getM_Plan()
     {
-        return $this->m_Plan;
+      return $this->m_Plan;
     }
 
     /**
      * @param string $m_Plan
-     * @return PopulationInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationInfo
      */
     public function setM_Plan($m_Plan)
     {
-        $this->m_Plan = $m_Plan;
-        return $this;
+      $this->m_Plan = $m_Plan;
+      return $this;
     }
 
     /**
@@ -56,17 +56,17 @@ class PopulationInfo
      */
     public function getM_RecipientInformation()
     {
-        return $this->m_RecipientInformation;
+      return $this->m_RecipientInformation;
     }
 
     /**
      * @param PopulationRecipientInformation $m_RecipientInformation
-     * @return PopulationInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationInfo
      */
     public function setM_RecipientInformation($m_RecipientInformation)
     {
-        $this->m_RecipientInformation = $m_RecipientInformation;
-        return $this;
+      $this->m_RecipientInformation = $m_RecipientInformation;
+      return $this;
     }
 
     /**
@@ -74,17 +74,17 @@ class PopulationInfo
      */
     public function getM_AdditionalRecipientInformation()
     {
-        return $this->m_AdditionalRecipientInformation;
+      return $this->m_AdditionalRecipientInformation;
     }
 
     /**
      * @param ArrayOfPopulationRecipientInformation $m_AdditionalRecipientInformation
-     * @return PopulationInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationInfo
      */
     public function setM_AdditionalRecipientInformation($m_AdditionalRecipientInformation)
     {
-        $this->m_AdditionalRecipientInformation = $m_AdditionalRecipientInformation;
-        return $this;
+      $this->m_AdditionalRecipientInformation = $m_AdditionalRecipientInformation;
+      return $this;
     }
 
     /**
@@ -92,17 +92,17 @@ class PopulationInfo
      */
     public function getM_AdditionalDataSources()
     {
-        return $this->m_AdditionalDataSources;
+      return $this->m_AdditionalDataSources;
     }
 
     /**
      * @param ArrayOfAdditionalDataSourceInfo $m_AdditionalDataSources
-     * @return PopulationInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\PopulationInfo
      */
     public function setM_AdditionalDataSources($m_AdditionalDataSources)
     {
-        $this->m_AdditionalDataSources = $m_AdditionalDataSources;
-        return $this;
+      $this->m_AdditionalDataSources = $m_AdditionalDataSources;
+      return $this;
     }
 
 }

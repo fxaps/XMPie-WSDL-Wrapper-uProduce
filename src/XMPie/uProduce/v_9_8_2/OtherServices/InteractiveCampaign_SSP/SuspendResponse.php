@@ -15,7 +15,7 @@ class SuspendResponse
      */
     public function __construct($SuspendResult = null)
     {
-        $this->SuspendResult = $SuspendResult;
+      $this->SuspendResult = $SuspendResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SuspendResponse
      */
     public function getSuspendResult()
     {
-        return $this->SuspendResult;
+      return $this->SuspendResult;
     }
 
     /**
      * @param boolean $SuspendResult
-     * @return SuspendResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\SuspendResponse
      */
     public function setSuspendResult($SuspendResult)
     {
-        $this->SuspendResult = $SuspendResult;
-        return $this;
+      $this->SuspendResult = $SuspendResult;
+      return $this;
     }
 
 }

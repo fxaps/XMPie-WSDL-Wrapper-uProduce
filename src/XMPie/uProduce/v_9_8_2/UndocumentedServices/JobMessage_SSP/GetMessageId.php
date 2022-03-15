@@ -27,9 +27,9 @@ class GetMessageId
      */
     public function __construct($inUsername = null, $inPassword = null, $inMessageID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inMessageID = $inMessageID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inMessageID = $inMessageID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetMessageId
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetMessageId
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\GetMessageId
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetMessageId
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetMessageId
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\GetMessageId
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetMessageId
      */
     public function getInMessageID()
     {
-        return $this->inMessageID;
+      return $this->inMessageID;
     }
 
     /**
      * @param string $inMessageID
-     * @return GetMessageId
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\GetMessageId
      */
     public function setInMessageID($inMessageID)
     {
-        $this->inMessageID = $inMessageID;
-        return $this;
+      $this->inMessageID = $inMessageID;
+      return $this;
     }
 
 }

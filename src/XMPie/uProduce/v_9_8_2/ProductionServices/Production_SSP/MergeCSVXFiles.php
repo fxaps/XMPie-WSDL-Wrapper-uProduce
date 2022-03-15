@@ -33,10 +33,10 @@ class MergeCSVXFiles
      */
     public function __construct($inUsername = null, $inPassword = null, $inCSVXFilePaths = null, $inOutputCSVXPath = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCSVXFilePaths = $inCSVXFilePaths;
-        $this->inOutputCSVXPath = $inOutputCSVXPath;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCSVXFilePaths = $inCSVXFilePaths;
+      $this->inOutputCSVXPath = $inOutputCSVXPath;
     }
 
     /**
@@ -44,17 +44,17 @@ class MergeCSVXFiles
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return MergeCSVXFiles
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\MergeCSVXFiles
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class MergeCSVXFiles
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return MergeCSVXFiles
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\MergeCSVXFiles
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class MergeCSVXFiles
      */
     public function getInCSVXFilePaths()
     {
-        return $this->inCSVXFilePaths;
+      return $this->inCSVXFilePaths;
     }
 
     /**
      * @param ArrayOfString $inCSVXFilePaths
-     * @return MergeCSVXFiles
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\MergeCSVXFiles
      */
     public function setInCSVXFilePaths($inCSVXFilePaths)
     {
-        $this->inCSVXFilePaths = $inCSVXFilePaths;
-        return $this;
+      $this->inCSVXFilePaths = $inCSVXFilePaths;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class MergeCSVXFiles
      */
     public function getInOutputCSVXPath()
     {
-        return $this->inOutputCSVXPath;
+      return $this->inOutputCSVXPath;
     }
 
     /**
      * @param string $inOutputCSVXPath
-     * @return MergeCSVXFiles
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\MergeCSVXFiles
      */
     public function setInOutputCSVXPath($inOutputCSVXPath)
     {
-        $this->inOutputCSVXPath = $inOutputCSVXPath;
-        return $this;
+      $this->inOutputCSVXPath = $inOutputCSVXPath;
+      return $this;
     }
 
 }

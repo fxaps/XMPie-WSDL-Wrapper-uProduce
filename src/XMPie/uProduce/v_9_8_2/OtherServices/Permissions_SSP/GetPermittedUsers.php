@@ -39,11 +39,11 @@ class GetPermittedUsers
      */
     public function __construct($inUsername = null, $inPassword = null, $inResourceType = null, $inResourceID = null, $inActionType = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inResourceType = $inResourceType;
-        $this->inResourceID = $inResourceID;
-        $this->inActionType = $inActionType;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inResourceType = $inResourceType;
+      $this->inResourceID = $inResourceID;
+      $this->inActionType = $inActionType;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetPermittedUsers
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetPermittedUsers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\GetPermittedUsers
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetPermittedUsers
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetPermittedUsers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\GetPermittedUsers
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetPermittedUsers
      */
     public function getInResourceType()
     {
-        return $this->inResourceType;
+      return $this->inResourceType;
     }
 
     /**
      * @param string $inResourceType
-     * @return GetPermittedUsers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\GetPermittedUsers
      */
     public function setInResourceType($inResourceType)
     {
-        $this->inResourceType = $inResourceType;
-        return $this;
+      $this->inResourceType = $inResourceType;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetPermittedUsers
      */
     public function getInResourceID()
     {
-        return $this->inResourceID;
+      return $this->inResourceID;
     }
 
     /**
      * @param string $inResourceID
-     * @return GetPermittedUsers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\GetPermittedUsers
      */
     public function setInResourceID($inResourceID)
     {
-        $this->inResourceID = $inResourceID;
-        return $this;
+      $this->inResourceID = $inResourceID;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetPermittedUsers
      */
     public function getInActionType()
     {
-        return $this->inActionType;
+      return $this->inActionType;
     }
 
     /**
      * @param string $inActionType
-     * @return GetPermittedUsers
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\GetPermittedUsers
      */
     public function setInActionType($inActionType)
     {
-        $this->inActionType = $inActionType;
-        return $this;
+      $this->inActionType = $inActionType;
+      return $this;
     }
 
 }

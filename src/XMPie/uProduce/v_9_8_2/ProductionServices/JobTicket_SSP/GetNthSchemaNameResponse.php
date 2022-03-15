@@ -15,7 +15,7 @@ class GetNthSchemaNameResponse
      */
     public function __construct($GetNthSchemaNameResult = null)
     {
-        $this->GetNthSchemaNameResult = $GetNthSchemaNameResult;
+      $this->GetNthSchemaNameResult = $GetNthSchemaNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthSchemaNameResponse
      */
     public function getGetNthSchemaNameResult()
     {
-        return $this->GetNthSchemaNameResult;
+      return $this->GetNthSchemaNameResult;
     }
 
     /**
      * @param string $GetNthSchemaNameResult
-     * @return GetNthSchemaNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthSchemaNameResponse
      */
     public function setGetNthSchemaNameResult($GetNthSchemaNameResult)
     {
-        $this->GetNthSchemaNameResult = $GetNthSchemaNameResult;
-        return $this;
+      $this->GetNthSchemaNameResult = $GetNthSchemaNameResult;
+      return $this;
     }
 
 }

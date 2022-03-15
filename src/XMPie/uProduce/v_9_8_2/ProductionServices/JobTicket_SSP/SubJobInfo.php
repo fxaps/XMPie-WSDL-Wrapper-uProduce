@@ -39,11 +39,11 @@ class SubJobInfo
      */
     public function __construct($m_Index = null, $m_SplitNum = null, $m_SplitType = null, $m_OrigFrom = null, $m_OrigTo = null)
     {
-        $this->m_Index = $m_Index;
-        $this->m_SplitNum = $m_SplitNum;
-        $this->m_SplitType = $m_SplitType;
-        $this->m_OrigFrom = $m_OrigFrom;
-        $this->m_OrigTo = $m_OrigTo;
+      $this->m_Index = $m_Index;
+      $this->m_SplitNum = $m_SplitNum;
+      $this->m_SplitType = $m_SplitType;
+      $this->m_OrigFrom = $m_OrigFrom;
+      $this->m_OrigTo = $m_OrigTo;
     }
 
     /**
@@ -51,17 +51,17 @@ class SubJobInfo
      */
     public function getM_Index()
     {
-        return $this->m_Index;
+      return $this->m_Index;
     }
 
     /**
      * @param int $m_Index
-     * @return SubJobInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SubJobInfo
      */
     public function setM_Index($m_Index)
     {
-        $this->m_Index = $m_Index;
-        return $this;
+      $this->m_Index = $m_Index;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class SubJobInfo
      */
     public function getM_SplitNum()
     {
-        return $this->m_SplitNum;
+      return $this->m_SplitNum;
     }
 
     /**
      * @param int $m_SplitNum
-     * @return SubJobInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SubJobInfo
      */
     public function setM_SplitNum($m_SplitNum)
     {
-        $this->m_SplitNum = $m_SplitNum;
-        return $this;
+      $this->m_SplitNum = $m_SplitNum;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class SubJobInfo
      */
     public function getM_SplitType()
     {
-        return $this->m_SplitType;
+      return $this->m_SplitType;
     }
 
     /**
      * @param int $m_SplitType
-     * @return SubJobInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SubJobInfo
      */
     public function setM_SplitType($m_SplitType)
     {
-        $this->m_SplitType = $m_SplitType;
-        return $this;
+      $this->m_SplitType = $m_SplitType;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class SubJobInfo
      */
     public function getM_OrigFrom()
     {
-        return $this->m_OrigFrom;
+      return $this->m_OrigFrom;
     }
 
     /**
      * @param int $m_OrigFrom
-     * @return SubJobInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SubJobInfo
      */
     public function setM_OrigFrom($m_OrigFrom)
     {
-        $this->m_OrigFrom = $m_OrigFrom;
-        return $this;
+      $this->m_OrigFrom = $m_OrigFrom;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class SubJobInfo
      */
     public function getM_OrigTo()
     {
-        return $this->m_OrigTo;
+      return $this->m_OrigTo;
     }
 
     /**
      * @param int $m_OrigTo
-     * @return SubJobInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SubJobInfo
      */
     public function setM_OrigTo($m_OrigTo)
     {
-        $this->m_OrigTo = $m_OrigTo;
-        return $this;
+      $this->m_OrigTo = $m_OrigTo;
+      return $this;
     }
 
 }

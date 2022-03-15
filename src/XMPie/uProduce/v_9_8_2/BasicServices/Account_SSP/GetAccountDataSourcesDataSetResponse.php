@@ -15,7 +15,7 @@ class GetAccountDataSourcesDataSetResponse
      */
     public function __construct($GetAccountDataSourcesDataSetResult = null)
     {
-        $this->GetAccountDataSourcesDataSetResult = $GetAccountDataSourcesDataSetResult;
+      $this->GetAccountDataSourcesDataSetResult = $GetAccountDataSourcesDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAccountDataSourcesDataSetResponse
      */
     public function getGetAccountDataSourcesDataSetResult()
     {
-        return $this->GetAccountDataSourcesDataSetResult;
+      return $this->GetAccountDataSourcesDataSetResult;
     }
 
     /**
      * @param GetAccountDataSourcesDataSetResult $GetAccountDataSourcesDataSetResult
-     * @return GetAccountDataSourcesDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetAccountDataSourcesDataSetResponse
      */
     public function setGetAccountDataSourcesDataSetResult($GetAccountDataSourcesDataSetResult)
     {
-        $this->GetAccountDataSourcesDataSetResult = $GetAccountDataSourcesDataSetResult;
-        return $this;
+      $this->GetAccountDataSourcesDataSetResult = $GetAccountDataSourcesDataSetResult;
+      return $this;
     }
 
 }

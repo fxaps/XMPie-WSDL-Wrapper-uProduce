@@ -15,7 +15,7 @@ class GetEmailMarketingIDResponse
      */
     public function __construct($GetEmailMarketingIDResult = null)
     {
-        $this->GetEmailMarketingIDResult = $GetEmailMarketingIDResult;
+      $this->GetEmailMarketingIDResult = $GetEmailMarketingIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetEmailMarketingIDResponse
      */
     public function getGetEmailMarketingIDResult()
     {
-        return $this->GetEmailMarketingIDResult;
+      return $this->GetEmailMarketingIDResult;
     }
 
     /**
      * @param string $GetEmailMarketingIDResult
-     * @return GetEmailMarketingIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetEmailMarketingIDResponse
      */
     public function setGetEmailMarketingIDResult($GetEmailMarketingIDResult)
     {
-        $this->GetEmailMarketingIDResult = $GetEmailMarketingIDResult;
-        return $this;
+      $this->GetEmailMarketingIDResult = $GetEmailMarketingIDResult;
+      return $this;
     }
 
 }

@@ -57,14 +57,14 @@ class SubmitSplittedJob
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobTicket = null, $inSplittingType = null, $inSplittingInfo = null, $inPriority = null, $inTouchPointID = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobTicket = $inJobTicket;
-        $this->inSplittingType = $inSplittingType;
-        $this->inSplittingInfo = $inSplittingInfo;
-        $this->inPriority = $inPriority;
-        $this->inTouchPointID = $inTouchPointID;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobTicket = $inJobTicket;
+      $this->inSplittingType = $inSplittingType;
+      $this->inSplittingInfo = $inSplittingInfo;
+      $this->inPriority = $inPriority;
+      $this->inTouchPointID = $inTouchPointID;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -72,17 +72,17 @@ class SubmitSplittedJob
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SubmitSplittedJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitSplittedJob
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class SubmitSplittedJob
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SubmitSplittedJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitSplittedJob
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class SubmitSplittedJob
      */
     public function getInJobTicket()
     {
-        return $this->inJobTicket;
+      return $this->inJobTicket;
     }
 
     /**
      * @param string $inJobTicket
-     * @return SubmitSplittedJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitSplittedJob
      */
     public function setInJobTicket($inJobTicket)
     {
-        $this->inJobTicket = $inJobTicket;
-        return $this;
+      $this->inJobTicket = $inJobTicket;
+      return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class SubmitSplittedJob
      */
     public function getInSplittingType()
     {
-        return $this->inSplittingType;
+      return $this->inSplittingType;
     }
 
     /**
      * @param string $inSplittingType
-     * @return SubmitSplittedJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitSplittedJob
      */
     public function setInSplittingType($inSplittingType)
     {
-        $this->inSplittingType = $inSplittingType;
-        return $this;
+      $this->inSplittingType = $inSplittingType;
+      return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class SubmitSplittedJob
      */
     public function getInSplittingInfo()
     {
-        return $this->inSplittingInfo;
+      return $this->inSplittingInfo;
     }
 
     /**
      * @param string $inSplittingInfo
-     * @return SubmitSplittedJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitSplittedJob
      */
     public function setInSplittingInfo($inSplittingInfo)
     {
-        $this->inSplittingInfo = $inSplittingInfo;
-        return $this;
+      $this->inSplittingInfo = $inSplittingInfo;
+      return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class SubmitSplittedJob
      */
     public function getInPriority()
     {
-        return $this->inPriority;
+      return $this->inPriority;
     }
 
     /**
      * @param string $inPriority
-     * @return SubmitSplittedJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitSplittedJob
      */
     public function setInPriority($inPriority)
     {
-        $this->inPriority = $inPriority;
-        return $this;
+      $this->inPriority = $inPriority;
+      return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class SubmitSplittedJob
      */
     public function getInTouchPointID()
     {
-        return $this->inTouchPointID;
+      return $this->inTouchPointID;
     }
 
     /**
      * @param string $inTouchPointID
-     * @return SubmitSplittedJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitSplittedJob
      */
     public function setInTouchPointID($inTouchPointID)
     {
-        $this->inTouchPointID = $inTouchPointID;
-        return $this;
+      $this->inTouchPointID = $inTouchPointID;
+      return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class SubmitSplittedJob
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return SubmitSplittedJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitSplittedJob
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetNthRIDataSourceResponse
      */
     public function __construct($GetNthRIDataSourceResult = null)
     {
-        $this->GetNthRIDataSourceResult = $GetNthRIDataSourceResult;
+      $this->GetNthRIDataSourceResult = $GetNthRIDataSourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthRIDataSourceResponse
      */
     public function getGetNthRIDataSourceResult()
     {
-        return $this->GetNthRIDataSourceResult;
+      return $this->GetNthRIDataSourceResult;
     }
 
     /**
      * @param Connection $GetNthRIDataSourceResult
-     * @return GetNthRIDataSourceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthRIDataSourceResponse
      */
     public function setGetNthRIDataSourceResult($GetNthRIDataSourceResult)
     {
-        $this->GetNthRIDataSourceResult = $GetNthRIDataSourceResult;
-        return $this;
+      $this->GetNthRIDataSourceResult = $GetNthRIDataSourceResult;
+      return $this;
     }
 
 }

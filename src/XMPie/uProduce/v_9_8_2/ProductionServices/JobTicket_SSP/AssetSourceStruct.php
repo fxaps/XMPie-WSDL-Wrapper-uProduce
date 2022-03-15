@@ -25,10 +25,10 @@ class AssetSourceStruct
      */
     protected $m_DllName = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -36,17 +36,17 @@ class AssetSourceStruct
      */
     public function getM_Params()
     {
-        return $this->m_Params;
+      return $this->m_Params;
     }
 
     /**
      * @param string $m_Params
-     * @return AssetSourceStruct
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AssetSourceStruct
      */
     public function setM_Params($m_Params)
     {
-        $this->m_Params = $m_Params;
-        return $this;
+      $this->m_Params = $m_Params;
+      return $this;
     }
 
     /**
@@ -54,17 +54,17 @@ class AssetSourceStruct
      */
     public function getM_ObjectName()
     {
-        return $this->m_ObjectName;
+      return $this->m_ObjectName;
     }
 
     /**
      * @param string $m_ObjectName
-     * @return AssetSourceStruct
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AssetSourceStruct
      */
     public function setM_ObjectName($m_ObjectName)
     {
-        $this->m_ObjectName = $m_ObjectName;
-        return $this;
+      $this->m_ObjectName = $m_ObjectName;
+      return $this;
     }
 
     /**
@@ -72,17 +72,17 @@ class AssetSourceStruct
      */
     public function getM_ProdObjectName()
     {
-        return $this->m_ProdObjectName;
+      return $this->m_ProdObjectName;
     }
 
     /**
      * @param string $m_ProdObjectName
-     * @return AssetSourceStruct
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AssetSourceStruct
      */
     public function setM_ProdObjectName($m_ProdObjectName)
     {
-        $this->m_ProdObjectName = $m_ProdObjectName;
-        return $this;
+      $this->m_ProdObjectName = $m_ProdObjectName;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class AssetSourceStruct
      */
     public function getM_DllName()
     {
-        return $this->m_DllName;
+      return $this->m_DllName;
     }
 
     /**
      * @param string $m_DllName
-     * @return AssetSourceStruct
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AssetSourceStruct
      */
     public function setM_DllName($m_DllName)
     {
-        $this->m_DllName = $m_DllName;
-        return $this;
+      $this->m_DllName = $m_DllName;
+      return $this;
     }
 
 }

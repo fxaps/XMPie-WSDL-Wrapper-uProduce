@@ -33,10 +33,10 @@ class AddUserToken
      */
     public function __construct($inUsername = null, $inPassword = null, $inUserID = null, $inToken = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inUserID = $inUserID;
-        $this->inToken = $inToken;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inUserID = $inUserID;
+      $this->inToken = $inToken;
     }
 
     /**
@@ -44,17 +44,17 @@ class AddUserToken
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return AddUserToken
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\User_SSP\AddUserToken
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class AddUserToken
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return AddUserToken
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\User_SSP\AddUserToken
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class AddUserToken
      */
     public function getInUserID()
     {
-        return $this->inUserID;
+      return $this->inUserID;
     }
 
     /**
      * @param string $inUserID
-     * @return AddUserToken
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\User_SSP\AddUserToken
      */
     public function setInUserID($inUserID)
     {
-        $this->inUserID = $inUserID;
-        return $this;
+      $this->inUserID = $inUserID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class AddUserToken
      */
     public function getInToken()
     {
-        return $this->inToken;
+      return $this->inToken;
     }
 
     /**
      * @param string $inToken
-     * @return AddUserToken
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\User_SSP\AddUserToken
      */
     public function setInToken($inToken)
     {
-        $this->inToken = $inToken;
-        return $this;
+      $this->inToken = $inToken;
+      return $this;
     }
 
 }

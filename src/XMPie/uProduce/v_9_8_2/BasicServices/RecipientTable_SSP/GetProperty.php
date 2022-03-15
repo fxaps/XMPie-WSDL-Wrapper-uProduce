@@ -33,10 +33,10 @@ class GetProperty
      */
     public function __construct($inUsername = null, $inPassword = null, $inRecipientTableID = null, $PropertyName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inRecipientTableID = $inRecipientTableID;
-        $this->PropertyName = $PropertyName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inRecipientTableID = $inRecipientTableID;
+      $this->PropertyName = $PropertyName;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetProperty
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetProperty
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\GetProperty
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetProperty
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetProperty
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\GetProperty
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetProperty
      */
     public function getInRecipientTableID()
     {
-        return $this->inRecipientTableID;
+      return $this->inRecipientTableID;
     }
 
     /**
      * @param string $inRecipientTableID
-     * @return GetProperty
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\GetProperty
      */
     public function setInRecipientTableID($inRecipientTableID)
     {
-        $this->inRecipientTableID = $inRecipientTableID;
-        return $this;
+      $this->inRecipientTableID = $inRecipientTableID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetProperty
      */
     public function getPropertyName()
     {
-        return $this->PropertyName;
+      return $this->PropertyName;
     }
 
     /**
      * @param string $PropertyName
-     * @return GetProperty
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\GetProperty
      */
     public function setPropertyName($PropertyName)
     {
-        $this->PropertyName = $PropertyName;
-        return $this;
+      $this->PropertyName = $PropertyName;
+      return $this;
     }
 
 }

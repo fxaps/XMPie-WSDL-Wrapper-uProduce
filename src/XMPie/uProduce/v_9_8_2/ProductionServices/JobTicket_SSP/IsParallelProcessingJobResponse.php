@@ -15,7 +15,7 @@ class IsParallelProcessingJobResponse
      */
     public function __construct($IsParallelProcessingJobResult = null)
     {
-        $this->IsParallelProcessingJobResult = $IsParallelProcessingJobResult;
+      $this->IsParallelProcessingJobResult = $IsParallelProcessingJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsParallelProcessingJobResponse
      */
     public function getIsParallelProcessingJobResult()
     {
-        return $this->IsParallelProcessingJobResult;
+      return $this->IsParallelProcessingJobResult;
     }
 
     /**
      * @param boolean $IsParallelProcessingJobResult
-     * @return IsParallelProcessingJobResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsParallelProcessingJobResponse
      */
     public function setIsParallelProcessingJobResult($IsParallelProcessingJobResult)
     {
-        $this->IsParallelProcessingJobResult = $IsParallelProcessingJobResult;
-        return $this;
+      $this->IsParallelProcessingJobResult = $IsParallelProcessingJobResult;
+      return $this;
     }
 
 }

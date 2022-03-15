@@ -15,7 +15,7 @@ class IsVPCCompressionResponse
      */
     public function __construct($IsVPCCompressionResult = null)
     {
-        $this->IsVPCCompressionResult = $IsVPCCompressionResult;
+      $this->IsVPCCompressionResult = $IsVPCCompressionResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsVPCCompressionResponse
      */
     public function getIsVPCCompressionResult()
     {
-        return $this->IsVPCCompressionResult;
+      return $this->IsVPCCompressionResult;
     }
 
     /**
      * @param boolean $IsVPCCompressionResult
-     * @return IsVPCCompressionResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsVPCCompressionResponse
      */
     public function setIsVPCCompressionResult($IsVPCCompressionResult)
     {
-        $this->IsVPCCompressionResult = $IsVPCCompressionResult;
-        return $this;
+      $this->IsVPCCompressionResult = $IsVPCCompressionResult;
+      return $this;
     }
 
 }

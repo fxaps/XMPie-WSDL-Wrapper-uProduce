@@ -21,8 +21,8 @@ class IsFlashCompatibleReturnCompatibleVersionResponse
      */
     public function __construct($IsFlashCompatibleReturnCompatibleVersionResult = null, $outCompatibleImage = null)
     {
-        $this->IsFlashCompatibleReturnCompatibleVersionResult = $IsFlashCompatibleReturnCompatibleVersionResult;
-        $this->outCompatibleImage = $outCompatibleImage;
+      $this->IsFlashCompatibleReturnCompatibleVersionResult = $IsFlashCompatibleReturnCompatibleVersionResult;
+      $this->outCompatibleImage = $outCompatibleImage;
     }
 
     /**
@@ -30,17 +30,17 @@ class IsFlashCompatibleReturnCompatibleVersionResponse
      */
     public function getIsFlashCompatibleReturnCompatibleVersionResult()
     {
-        return $this->IsFlashCompatibleReturnCompatibleVersionResult;
+      return $this->IsFlashCompatibleReturnCompatibleVersionResult;
     }
 
     /**
      * @param boolean $IsFlashCompatibleReturnCompatibleVersionResult
-     * @return IsFlashCompatibleReturnCompatibleVersionResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatibleReturnCompatibleVersionResponse
      */
     public function setIsFlashCompatibleReturnCompatibleVersionResult($IsFlashCompatibleReturnCompatibleVersionResult)
     {
-        $this->IsFlashCompatibleReturnCompatibleVersionResult = $IsFlashCompatibleReturnCompatibleVersionResult;
-        return $this;
+      $this->IsFlashCompatibleReturnCompatibleVersionResult = $IsFlashCompatibleReturnCompatibleVersionResult;
+      return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class IsFlashCompatibleReturnCompatibleVersionResponse
      */
     public function getOutCompatibleImage()
     {
-        return $this->outCompatibleImage;
+      return $this->outCompatibleImage;
     }
 
     /**
      * @param base64Binary $outCompatibleImage
-     * @return IsFlashCompatibleReturnCompatibleVersionResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\IsFlashCompatibleReturnCompatibleVersionResponse
      */
     public function setOutCompatibleImage($outCompatibleImage)
     {
-        $this->outCompatibleImage = $outCompatibleImage;
-        return $this;
+      $this->outCompatibleImage = $outCompatibleImage;
+      return $this;
     }
 
 }

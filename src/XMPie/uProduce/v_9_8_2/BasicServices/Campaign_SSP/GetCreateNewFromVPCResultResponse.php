@@ -15,7 +15,7 @@ class GetCreateNewFromVPCResultResponse
      */
     public function __construct($GetCreateNewFromVPCResultResult = null)
     {
-        $this->GetCreateNewFromVPCResultResult = $GetCreateNewFromVPCResultResult;
+      $this->GetCreateNewFromVPCResultResult = $GetCreateNewFromVPCResultResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCreateNewFromVPCResultResponse
      */
     public function getGetCreateNewFromVPCResultResult()
     {
-        return $this->GetCreateNewFromVPCResultResult;
+      return $this->GetCreateNewFromVPCResultResult;
     }
 
     /**
      * @param CreateCampaignResult $GetCreateNewFromVPCResultResult
-     * @return GetCreateNewFromVPCResultResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetCreateNewFromVPCResultResponse
      */
     public function setGetCreateNewFromVPCResultResult($GetCreateNewFromVPCResultResult)
     {
-        $this->GetCreateNewFromVPCResultResult = $GetCreateNewFromVPCResultResult;
-        return $this;
+      $this->GetCreateNewFromVPCResultResult = $GetCreateNewFromVPCResultResult;
+      return $this;
     }
 
 }

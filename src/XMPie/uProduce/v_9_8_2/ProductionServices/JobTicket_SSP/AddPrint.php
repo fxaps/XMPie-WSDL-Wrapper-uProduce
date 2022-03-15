@@ -39,11 +39,11 @@ class AddPrint
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inPrinter = null, $inDeleteSource = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inPrinter = $inPrinter;
-        $this->inDeleteSource = $inDeleteSource;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inPrinter = $inPrinter;
+      $this->inDeleteSource = $inDeleteSource;
     }
 
     /**
@@ -51,17 +51,17 @@ class AddPrint
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return AddPrint
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddPrint
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class AddPrint
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return AddPrint
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddPrint
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class AddPrint
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return AddPrint
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddPrint
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class AddPrint
      */
     public function getInPrinter()
     {
-        return $this->inPrinter;
+      return $this->inPrinter;
     }
 
     /**
      * @param string $inPrinter
-     * @return AddPrint
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddPrint
      */
     public function setInPrinter($inPrinter)
     {
-        $this->inPrinter = $inPrinter;
-        return $this;
+      $this->inPrinter = $inPrinter;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class AddPrint
      */
     public function getInDeleteSource()
     {
-        return $this->inDeleteSource;
+      return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return AddPrint
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddPrint
      */
     public function setInDeleteSource($inDeleteSource)
     {
-        $this->inDeleteSource = $inDeleteSource;
-        return $this;
+      $this->inDeleteSource = $inDeleteSource;
+      return $this;
     }
 
 }

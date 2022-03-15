@@ -15,7 +15,7 @@ class ExportAccountEmailSubscribersResponse
      */
     public function __construct($ExportAccountEmailSubscribersResult = null)
     {
-        $this->ExportAccountEmailSubscribersResult = $ExportAccountEmailSubscribersResult;
+      $this->ExportAccountEmailSubscribersResult = $ExportAccountEmailSubscribersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ExportAccountEmailSubscribersResponse
      */
     public function getExportAccountEmailSubscribersResult()
     {
-        return $this->ExportAccountEmailSubscribersResult;
+      return $this->ExportAccountEmailSubscribersResult;
     }
 
     /**
      * @param string $ExportAccountEmailSubscribersResult
-     * @return ExportAccountEmailSubscribersResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\ExportAccountEmailSubscribersResponse
      */
     public function setExportAccountEmailSubscribersResult($ExportAccountEmailSubscribersResult)
     {
-        $this->ExportAccountEmailSubscribersResult = $ExportAccountEmailSubscribersResult;
-        return $this;
+      $this->ExportAccountEmailSubscribersResult = $ExportAccountEmailSubscribersResult;
+      return $this;
     }
 
 }

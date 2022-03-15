@@ -33,10 +33,10 @@ class ProcessImageInAIE
      */
     public function __construct($inUsername = null, $inPassword = null, $inSourceImageURL = null, $inConfigFileName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inSourceImageURL = $inSourceImageURL;
-        $this->inConfigFileName = $inConfigFileName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inSourceImageURL = $inSourceImageURL;
+      $this->inConfigFileName = $inConfigFileName;
     }
 
     /**
@@ -44,17 +44,17 @@ class ProcessImageInAIE
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return ProcessImageInAIE
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ProcessImageInAIE
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class ProcessImageInAIE
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return ProcessImageInAIE
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ProcessImageInAIE
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class ProcessImageInAIE
      */
     public function getInSourceImageURL()
     {
-        return $this->inSourceImageURL;
+      return $this->inSourceImageURL;
     }
 
     /**
      * @param string $inSourceImageURL
-     * @return ProcessImageInAIE
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ProcessImageInAIE
      */
     public function setInSourceImageURL($inSourceImageURL)
     {
-        $this->inSourceImageURL = $inSourceImageURL;
-        return $this;
+      $this->inSourceImageURL = $inSourceImageURL;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class ProcessImageInAIE
      */
     public function getInConfigFileName()
     {
-        return $this->inConfigFileName;
+      return $this->inConfigFileName;
     }
 
     /**
      * @param string $inConfigFileName
-     * @return ProcessImageInAIE
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\ProcessImageInAIE
      */
     public function setInConfigFileName($inConfigFileName)
     {
-        $this->inConfigFileName = $inConfigFileName;
-        return $this;
+      $this->inConfigFileName = $inConfigFileName;
+      return $this;
     }
 
 }

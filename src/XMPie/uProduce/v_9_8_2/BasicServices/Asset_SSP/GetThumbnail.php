@@ -45,12 +45,12 @@ class GetThumbnail
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetID = null, $inWidth = null, $inLength = null, $inResolution = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAssetID = $inAssetID;
-        $this->inWidth = $inWidth;
-        $this->inLength = $inLength;
-        $this->inResolution = $inResolution;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAssetID = $inAssetID;
+      $this->inWidth = $inWidth;
+      $this->inLength = $inLength;
+      $this->inResolution = $inResolution;
     }
 
     /**
@@ -58,17 +58,17 @@ class GetThumbnail
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetThumbnail
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\GetThumbnail
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class GetThumbnail
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetThumbnail
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\GetThumbnail
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class GetThumbnail
      */
     public function getInAssetID()
     {
-        return $this->inAssetID;
+      return $this->inAssetID;
     }
 
     /**
      * @param string $inAssetID
-     * @return GetThumbnail
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\GetThumbnail
      */
     public function setInAssetID($inAssetID)
     {
-        $this->inAssetID = $inAssetID;
-        return $this;
+      $this->inAssetID = $inAssetID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class GetThumbnail
      */
     public function getInWidth()
     {
-        return $this->inWidth;
+      return $this->inWidth;
     }
 
     /**
      * @param int $inWidth
-     * @return GetThumbnail
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\GetThumbnail
      */
     public function setInWidth($inWidth)
     {
-        $this->inWidth = $inWidth;
-        return $this;
+      $this->inWidth = $inWidth;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class GetThumbnail
      */
     public function getInLength()
     {
-        return $this->inLength;
+      return $this->inLength;
     }
 
     /**
      * @param int $inLength
-     * @return GetThumbnail
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\GetThumbnail
      */
     public function setInLength($inLength)
     {
-        $this->inLength = $inLength;
-        return $this;
+      $this->inLength = $inLength;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class GetThumbnail
      */
     public function getInResolution()
     {
-        return $this->inResolution;
+      return $this->inResolution;
     }
 
     /**
      * @param int $inResolution
-     * @return GetThumbnail
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\GetThumbnail
      */
     public function setInResolution($inResolution)
     {
-        $this->inResolution = $inResolution;
-        return $this;
+      $this->inResolution = $inResolution;
+      return $this;
     }
 
 }

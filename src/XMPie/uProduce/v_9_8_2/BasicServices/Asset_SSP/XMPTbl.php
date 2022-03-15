@@ -20,10 +20,10 @@ class XMPTbl
      */
     protected $m_RowArray = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -31,17 +31,17 @@ class XMPTbl
      */
     public function getM_TableName()
     {
-        return $this->m_TableName;
+      return $this->m_TableName;
     }
 
     /**
      * @param string $m_TableName
-     * @return XMPTbl
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\XMPTbl
      */
     public function setM_TableName($m_TableName)
     {
-        $this->m_TableName = $m_TableName;
-        return $this;
+      $this->m_TableName = $m_TableName;
+      return $this;
     }
 
     /**
@@ -49,17 +49,17 @@ class XMPTbl
      */
     public function getM_ColumnNameArray()
     {
-        return $this->m_ColumnNameArray;
+      return $this->m_ColumnNameArray;
     }
 
     /**
      * @param ArrayOfXMPTblColumn $m_ColumnNameArray
-     * @return XMPTbl
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\XMPTbl
      */
     public function setM_ColumnNameArray($m_ColumnNameArray)
     {
-        $this->m_ColumnNameArray = $m_ColumnNameArray;
-        return $this;
+      $this->m_ColumnNameArray = $m_ColumnNameArray;
+      return $this;
     }
 
     /**
@@ -67,17 +67,17 @@ class XMPTbl
      */
     public function getM_RowArray()
     {
-        return $this->m_RowArray;
+      return $this->m_RowArray;
     }
 
     /**
      * @param ArrayOfXMPTblRow $m_RowArray
-     * @return XMPTbl
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\XMPTbl
      */
     public function setM_RowArray($m_RowArray)
     {
-        $this->m_RowArray = $m_RowArray;
-        return $this;
+      $this->m_RowArray = $m_RowArray;
+      return $this;
     }
 
 }

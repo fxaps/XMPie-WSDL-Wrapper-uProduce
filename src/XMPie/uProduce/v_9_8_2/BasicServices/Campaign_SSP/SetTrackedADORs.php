@@ -33,10 +33,10 @@ class SetTrackedADORs
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inAdorNames = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inAdorNames = $inAdorNames;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inAdorNames = $inAdorNames;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetTrackedADORs
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetTrackedADORs
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\SetTrackedADORs
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetTrackedADORs
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetTrackedADORs
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\SetTrackedADORs
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetTrackedADORs
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return SetTrackedADORs
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\SetTrackedADORs
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetTrackedADORs
      */
     public function getInAdorNames()
     {
-        return $this->inAdorNames;
+      return $this->inAdorNames;
     }
 
     /**
      * @param ArrayOfString $inAdorNames
-     * @return SetTrackedADORs
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\SetTrackedADORs
      */
     public function setInAdorNames($inAdorNames)
     {
-        $this->inAdorNames = $inAdorNames;
-        return $this;
+      $this->inAdorNames = $inAdorNames;
+      return $this;
     }
 
 }

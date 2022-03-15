@@ -3,95 +3,92 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP;
 
 
-use SoapClient;
-use SoapFault;
-
 /**
  * PlanUtils Web Service.
  */
-class PlanUtils_SSP extends SoapClient
+class PlanUtils_SSP extends \SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array(
-        'GetADOR' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetADOR',
-        'GetADORResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetADORResponse',
-        'PlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanObject',
-        'GetADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetADORs',
-        'GetADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetADORsResponse',
-        'ArrayOfPlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanObject',
-        'GetTabularADORColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetTabularADORColumn',
-        'GetTabularADORColumnResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetTabularADORColumnResponse',
-        'PlanTabularColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanTabularColumn',
-        'GetTabularADORColumns' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetTabularADORColumns',
-        'GetTabularADORColumnsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetTabularADORColumnsResponse',
-        'ArrayOfPlanTabularColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanTabularColumn',
-        'GetVariable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetVariable',
-        'GetVariableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetVariableResponse',
-        'GetVariables' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetVariables',
-        'GetVariablesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetVariablesResponse',
-        'GetUserView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetUserView',
-        'GetUserViewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetUserViewResponse',
-        'GetUserViews' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetUserViews',
-        'GetUserViewsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetUserViewsResponse',
-        'GetObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetObject',
-        'GetObjectResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetObjectResponse',
-        'GetObjects' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetObjects',
-        'GetObjectsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetObjectsResponse',
-        'IsEmptyExpression' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\IsEmptyExpression',
-        'IsEmptyExpressionResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\IsEmptyExpressionResponse',
-        'PlanContainsExpression' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanContainsExpression',
-        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfString',
-        'PlanContainsExpressionResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanContainsExpressionResponse',
-        'ArrayOfBoolean' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfBoolean',
-        'GetSchemaNames' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetSchemaNames',
-        'GetSchemaNamesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetSchemaNamesResponse',
-        'GetRecipientFields' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetRecipientFields',
-        'GetRecipientFieldsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetRecipientFieldsResponse',
-        'ArrayOfPlanDataField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanDataField',
-        'PlanDataField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanDataField',
-        'GetPrimaryRecipientField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetPrimaryRecipientField',
-        'GetPrimaryRecipientFieldResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetPrimaryRecipientFieldResponse',
-        'RecipientField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\RecipientField',
-        'GetFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetFilter',
-        'GetFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetFilterResponse',
-        'PlanFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanFilter',
-        'GetFilters' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetFilters',
-        'GetFiltersResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetFiltersResponse',
-        'ArrayOfPlanFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanFilter',
-        'GetPlanStructure' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetPlanStructure',
-        'GetPlanStructureResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetPlanStructureResponse',
-        'PlanStructure' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanStructure',
-        'ArrayOfPlanADOR' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanADOR',
-        'PlanADOR' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanADOR',
-        'ArrayOfPlanAudienceSegmentInstance' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanAudienceSegmentInstance',
-        'PlanAudienceSegmentInstance' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanAudienceSegmentInstance',
-        'ArrayOfPlanAudience' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanAudience',
-        'PlanAudience' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanAudience',
-        'ArrayOfPlanAudienceSegment' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanAudienceSegment',
-        'PlanAudienceSegment' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanAudienceSegment',
-        'ArrayOfPlanVariable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanVariable',
-        'PlanVariable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanVariable',
-        'ArrayOfPlanUserView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanUserView',
-        'PlanUserView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanUserView',
-        'ArrayOfPlanUserViewField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanUserViewField',
-        'PlanUserViewField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanUserViewField',
-        'ArrayOfRecipientField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfRecipientField',
-        'ArrayOfPlanFunction' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanFunction',
-        'PlanFunction' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanFunction',
-        'ArrayOfPlanFunctionParameter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanFunctionParameter',
-        'PlanFunctionParameter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanFunctionParameter',
-        'ArrayOfPlanDataSource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanDataSource',
-        'PlanDataSource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanDataSource',
-        'ArrayOfPlanDataTable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanDataTable',
-        'PlanDataTable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanDataTable',
-        'CreatePlanFile' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\CreatePlanFile',
-        'CreatePlanFileResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\CreatePlanFileResponse',
-        'IsPlanSubsetOfComparedPlan' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\IsPlanSubsetOfComparedPlan',
-        'IsPlanSubsetOfComparedPlanResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\IsPlanSubsetOfComparedPlanResponse',
-    );
+    private static $classmap = array (
+  'GetADOR' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetADOR',
+  'GetADORResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetADORResponse',
+  'PlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanObject',
+  'GetADORs' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetADORs',
+  'GetADORsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetADORsResponse',
+  'ArrayOfPlanObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanObject',
+  'GetTabularADORColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetTabularADORColumn',
+  'GetTabularADORColumnResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetTabularADORColumnResponse',
+  'PlanTabularColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanTabularColumn',
+  'GetTabularADORColumns' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetTabularADORColumns',
+  'GetTabularADORColumnsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetTabularADORColumnsResponse',
+  'ArrayOfPlanTabularColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanTabularColumn',
+  'GetVariable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetVariable',
+  'GetVariableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetVariableResponse',
+  'GetVariables' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetVariables',
+  'GetVariablesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetVariablesResponse',
+  'GetUserView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetUserView',
+  'GetUserViewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetUserViewResponse',
+  'GetUserViews' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetUserViews',
+  'GetUserViewsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetUserViewsResponse',
+  'GetObject' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetObject',
+  'GetObjectResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetObjectResponse',
+  'GetObjects' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetObjects',
+  'GetObjectsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetObjectsResponse',
+  'IsEmptyExpression' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\IsEmptyExpression',
+  'IsEmptyExpressionResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\IsEmptyExpressionResponse',
+  'PlanContainsExpression' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanContainsExpression',
+  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfString',
+  'PlanContainsExpressionResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanContainsExpressionResponse',
+  'ArrayOfBoolean' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfBoolean',
+  'GetSchemaNames' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetSchemaNames',
+  'GetSchemaNamesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetSchemaNamesResponse',
+  'GetRecipientFields' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetRecipientFields',
+  'GetRecipientFieldsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetRecipientFieldsResponse',
+  'ArrayOfPlanDataField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanDataField',
+  'PlanDataField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanDataField',
+  'GetPrimaryRecipientField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetPrimaryRecipientField',
+  'GetPrimaryRecipientFieldResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetPrimaryRecipientFieldResponse',
+  'RecipientField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\RecipientField',
+  'GetFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetFilter',
+  'GetFilterResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetFilterResponse',
+  'PlanFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanFilter',
+  'GetFilters' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetFilters',
+  'GetFiltersResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetFiltersResponse',
+  'ArrayOfPlanFilter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanFilter',
+  'GetPlanStructure' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetPlanStructure',
+  'GetPlanStructureResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\GetPlanStructureResponse',
+  'PlanStructure' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanStructure',
+  'ArrayOfPlanADOR' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanADOR',
+  'PlanADOR' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanADOR',
+  'ArrayOfPlanAudienceSegmentInstance' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanAudienceSegmentInstance',
+  'PlanAudienceSegmentInstance' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanAudienceSegmentInstance',
+  'ArrayOfPlanAudience' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanAudience',
+  'PlanAudience' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanAudience',
+  'ArrayOfPlanAudienceSegment' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanAudienceSegment',
+  'PlanAudienceSegment' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanAudienceSegment',
+  'ArrayOfPlanVariable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanVariable',
+  'PlanVariable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanVariable',
+  'ArrayOfPlanUserView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanUserView',
+  'PlanUserView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanUserView',
+  'ArrayOfPlanUserViewField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanUserViewField',
+  'PlanUserViewField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanUserViewField',
+  'ArrayOfRecipientField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfRecipientField',
+  'ArrayOfPlanFunction' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanFunction',
+  'PlanFunction' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanFunction',
+  'ArrayOfPlanFunctionParameter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanFunctionParameter',
+  'PlanFunctionParameter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanFunctionParameter',
+  'ArrayOfPlanDataSource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanDataSource',
+  'PlanDataSource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanDataSource',
+  'ArrayOfPlanDataTable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\ArrayOfPlanDataTable',
+  'PlanDataTable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\PlanDataTable',
+  'CreatePlanFile' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\CreatePlanFile',
+  'CreatePlanFileResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\CreatePlanFileResponse',
+  'IsPlanSubsetOfComparedPlan' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\IsPlanSubsetOfComparedPlan',
+  'IsPlanSubsetOfComparedPlanResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\PlanUtils_SSP\\IsPlanSubsetOfComparedPlanResponse',
+);
 
     /**
      * @param array $options A array of config values
@@ -100,19 +97,19 @@ class PlanUtils_SSP extends SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-
-        foreach (self::$classmap as $key => $value) {
-            if (!isset($options['classmap'][$key])) {
-                $options['classmap'][$key] = $value;
-            }
-        }
-        $options = array_merge(array(
-            'features' => 1,
-        ), $options);
-        if (!$wsdl) {
-            $wsdl = 'http://localhost/xmpiewsapi/PlanUtils_SSP.asmx?wsdl';
-        }
-        parent::__construct($wsdl, $options);
+    
+  foreach (self::$classmap as $key => $value) {
+    if (!isset($options['classmap'][$key])) {
+      $options['classmap'][$key] = $value;
+    }
+  }
+      $options = array_merge(array (
+  'features' => 1,
+), $options);
+      if (!$wsdl) {
+        $wsdl = 'http://localhost/xmpiewsapi/PlanUtils_SSP.asmx?wsdl';
+      }
+      parent::__construct($wsdl, $options);
     }
 
     /**
@@ -123,7 +120,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetADOR(GetADOR $parameters)
     {
-        return $this->__soapCall('GetADOR', array($parameters));
+      return $this->__soapCall('GetADOR', array($parameters));
     }
 
     /**
@@ -134,7 +131,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetADORs(GetADORs $parameters)
     {
-        return $this->__soapCall('GetADORs', array($parameters));
+      return $this->__soapCall('GetADORs', array($parameters));
     }
 
     /**
@@ -145,7 +142,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetTabularADORColumn(GetTabularADORColumn $parameters)
     {
-        return $this->__soapCall('GetTabularADORColumn', array($parameters));
+      return $this->__soapCall('GetTabularADORColumn', array($parameters));
     }
 
     /**
@@ -156,7 +153,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetTabularADORColumns(GetTabularADORColumns $parameters)
     {
-        return $this->__soapCall('GetTabularADORColumns', array($parameters));
+      return $this->__soapCall('GetTabularADORColumns', array($parameters));
     }
 
     /**
@@ -167,7 +164,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetVariable(GetVariable $parameters)
     {
-        return $this->__soapCall('GetVariable', array($parameters));
+      return $this->__soapCall('GetVariable', array($parameters));
     }
 
     /**
@@ -178,7 +175,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetVariables(GetVariables $parameters)
     {
-        return $this->__soapCall('GetVariables', array($parameters));
+      return $this->__soapCall('GetVariables', array($parameters));
     }
 
     /**
@@ -189,7 +186,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetUserView(GetUserView $parameters)
     {
-        return $this->__soapCall('GetUserView', array($parameters));
+      return $this->__soapCall('GetUserView', array($parameters));
     }
 
     /**
@@ -200,7 +197,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetUserViews(GetUserViews $parameters)
     {
-        return $this->__soapCall('GetUserViews', array($parameters));
+      return $this->__soapCall('GetUserViews', array($parameters));
     }
 
     /**
@@ -211,7 +208,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetObject(GetObject $parameters)
     {
-        return $this->__soapCall('GetObject', array($parameters));
+      return $this->__soapCall('GetObject', array($parameters));
     }
 
     /**
@@ -222,7 +219,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetObjects(GetObjects $parameters)
     {
-        return $this->__soapCall('GetObjects', array($parameters));
+      return $this->__soapCall('GetObjects', array($parameters));
     }
 
     /**
@@ -233,7 +230,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function IsEmptyExpression(IsEmptyExpression $parameters)
     {
-        return $this->__soapCall('IsEmptyExpression', array($parameters));
+      return $this->__soapCall('IsEmptyExpression', array($parameters));
     }
 
     /**
@@ -244,7 +241,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function PlanContainsExpression(PlanContainsExpression $parameters)
     {
-        return $this->__soapCall('PlanContainsExpression', array($parameters));
+      return $this->__soapCall('PlanContainsExpression', array($parameters));
     }
 
     /**
@@ -255,7 +252,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetSchemaNames(GetSchemaNames $parameters)
     {
-        return $this->__soapCall('GetSchemaNames', array($parameters));
+      return $this->__soapCall('GetSchemaNames', array($parameters));
     }
 
     /**
@@ -266,7 +263,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetRecipientFields(GetRecipientFields $parameters)
     {
-        return $this->__soapCall('GetRecipientFields', array($parameters));
+      return $this->__soapCall('GetRecipientFields', array($parameters));
     }
 
     /**
@@ -277,7 +274,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetPrimaryRecipientField(GetPrimaryRecipientField $parameters)
     {
-        return $this->__soapCall('GetPrimaryRecipientField', array($parameters));
+      return $this->__soapCall('GetPrimaryRecipientField', array($parameters));
     }
 
     /**
@@ -288,7 +285,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetFilter(GetFilter $parameters)
     {
-        return $this->__soapCall('GetFilter', array($parameters));
+      return $this->__soapCall('GetFilter', array($parameters));
     }
 
     /**
@@ -299,7 +296,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetFilters(GetFilters $parameters)
     {
-        return $this->__soapCall('GetFilters', array($parameters));
+      return $this->__soapCall('GetFilters', array($parameters));
     }
 
     /**
@@ -310,7 +307,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function GetPlanStructure(GetPlanStructure $parameters)
     {
-        return $this->__soapCall('GetPlanStructure', array($parameters));
+      return $this->__soapCall('GetPlanStructure', array($parameters));
     }
 
     /**
@@ -321,7 +318,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function CreatePlanFile(CreatePlanFile $parameters)
     {
-        return $this->__soapCall('CreatePlanFile', array($parameters));
+      return $this->__soapCall('CreatePlanFile', array($parameters));
     }
 
     /**
@@ -332,7 +329,7 @@ class PlanUtils_SSP extends SoapClient
      */
     public function IsPlanSubsetOfComparedPlan(IsPlanSubsetOfComparedPlan $parameters)
     {
-        return $this->__soapCall('IsPlanSubsetOfComparedPlan', array($parameters));
+      return $this->__soapCall('IsPlanSubsetOfComparedPlan', array($parameters));
     }
 
 }

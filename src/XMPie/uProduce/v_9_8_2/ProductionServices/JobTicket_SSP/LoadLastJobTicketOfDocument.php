@@ -45,12 +45,12 @@ class LoadLastJobTicketOfDocument
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inIncludeDeleted = null, $inIncludeFailed = null, $inJobType = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDocumentID = $inDocumentID;
-        $this->inIncludeDeleted = $inIncludeDeleted;
-        $this->inIncludeFailed = $inIncludeFailed;
-        $this->inJobType = $inJobType;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDocumentID = $inDocumentID;
+      $this->inIncludeDeleted = $inIncludeDeleted;
+      $this->inIncludeFailed = $inIncludeFailed;
+      $this->inJobType = $inJobType;
     }
 
     /**
@@ -58,17 +58,17 @@ class LoadLastJobTicketOfDocument
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return LoadLastJobTicketOfDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\LoadLastJobTicketOfDocument
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class LoadLastJobTicketOfDocument
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return LoadLastJobTicketOfDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\LoadLastJobTicketOfDocument
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class LoadLastJobTicketOfDocument
      */
     public function getInDocumentID()
     {
-        return $this->inDocumentID;
+      return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return LoadLastJobTicketOfDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\LoadLastJobTicketOfDocument
      */
     public function setInDocumentID($inDocumentID)
     {
-        $this->inDocumentID = $inDocumentID;
-        return $this;
+      $this->inDocumentID = $inDocumentID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class LoadLastJobTicketOfDocument
      */
     public function getInIncludeDeleted()
     {
-        return $this->inIncludeDeleted;
+      return $this->inIncludeDeleted;
     }
 
     /**
      * @param boolean $inIncludeDeleted
-     * @return LoadLastJobTicketOfDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\LoadLastJobTicketOfDocument
      */
     public function setInIncludeDeleted($inIncludeDeleted)
     {
-        $this->inIncludeDeleted = $inIncludeDeleted;
-        return $this;
+      $this->inIncludeDeleted = $inIncludeDeleted;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class LoadLastJobTicketOfDocument
      */
     public function getInIncludeFailed()
     {
-        return $this->inIncludeFailed;
+      return $this->inIncludeFailed;
     }
 
     /**
      * @param boolean $inIncludeFailed
-     * @return LoadLastJobTicketOfDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\LoadLastJobTicketOfDocument
      */
     public function setInIncludeFailed($inIncludeFailed)
     {
-        $this->inIncludeFailed = $inIncludeFailed;
-        return $this;
+      $this->inIncludeFailed = $inIncludeFailed;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class LoadLastJobTicketOfDocument
      */
     public function getInJobType()
     {
-        return $this->inJobType;
+      return $this->inJobType;
     }
 
     /**
      * @param string $inJobType
-     * @return LoadLastJobTicketOfDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\LoadLastJobTicketOfDocument
      */
     public function setInJobType($inJobType)
     {
-        $this->inJobType = $inJobType;
-        return $this;
+      $this->inJobType = $inJobType;
+      return $this;
     }
 
 }

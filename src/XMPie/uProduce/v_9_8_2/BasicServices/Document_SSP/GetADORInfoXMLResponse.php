@@ -15,7 +15,7 @@ class GetADORInfoXMLResponse
      */
     public function __construct($GetADORInfoXMLResult = null)
     {
-        $this->GetADORInfoXMLResult = $GetADORInfoXMLResult;
+      $this->GetADORInfoXMLResult = $GetADORInfoXMLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetADORInfoXMLResponse
      */
     public function getGetADORInfoXMLResult()
     {
-        return $this->GetADORInfoXMLResult;
+      return $this->GetADORInfoXMLResult;
     }
 
     /**
      * @param GetADORInfoXMLResult $GetADORInfoXMLResult
-     * @return GetADORInfoXMLResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetADORInfoXMLResponse
      */
     public function setGetADORInfoXMLResult($GetADORInfoXMLResult)
     {
-        $this->GetADORInfoXMLResult = $GetADORInfoXMLResult;
-        return $this;
+      $this->GetADORInfoXMLResult = $GetADORInfoXMLResult;
+      return $this;
     }
 
 }

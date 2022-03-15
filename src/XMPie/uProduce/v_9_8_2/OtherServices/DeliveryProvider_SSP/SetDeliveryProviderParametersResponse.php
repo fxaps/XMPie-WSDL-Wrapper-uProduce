@@ -15,7 +15,7 @@ class SetDeliveryProviderParametersResponse
      */
     public function __construct($SetDeliveryProviderParametersResult = null)
     {
-        $this->SetDeliveryProviderParametersResult = $SetDeliveryProviderParametersResult;
+      $this->SetDeliveryProviderParametersResult = $SetDeliveryProviderParametersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetDeliveryProviderParametersResponse
      */
     public function getSetDeliveryProviderParametersResult()
     {
-        return $this->SetDeliveryProviderParametersResult;
+      return $this->SetDeliveryProviderParametersResult;
     }
 
     /**
      * @param boolean $SetDeliveryProviderParametersResult
-     * @return SetDeliveryProviderParametersResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\SetDeliveryProviderParametersResponse
      */
     public function setSetDeliveryProviderParametersResult($SetDeliveryProviderParametersResult)
     {
-        $this->SetDeliveryProviderParametersResult = $SetDeliveryProviderParametersResult;
-        return $this;
+      $this->SetDeliveryProviderParametersResult = $SetDeliveryProviderParametersResult;
+      return $this;
     }
 
 }

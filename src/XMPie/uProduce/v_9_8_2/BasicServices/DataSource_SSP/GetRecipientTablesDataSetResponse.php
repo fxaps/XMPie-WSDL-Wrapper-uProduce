@@ -15,7 +15,7 @@ class GetRecipientTablesDataSetResponse
      */
     public function __construct($GetRecipientTablesDataSetResult = null)
     {
-        $this->GetRecipientTablesDataSetResult = $GetRecipientTablesDataSetResult;
+      $this->GetRecipientTablesDataSetResult = $GetRecipientTablesDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetRecipientTablesDataSetResponse
      */
     public function getGetRecipientTablesDataSetResult()
     {
-        return $this->GetRecipientTablesDataSetResult;
+      return $this->GetRecipientTablesDataSetResult;
     }
 
     /**
      * @param GetRecipientTablesDataSetResult $GetRecipientTablesDataSetResult
-     * @return GetRecipientTablesDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetRecipientTablesDataSetResponse
      */
     public function setGetRecipientTablesDataSetResult($GetRecipientTablesDataSetResult)
     {
-        $this->GetRecipientTablesDataSetResult = $GetRecipientTablesDataSetResult;
-        return $this;
+      $this->GetRecipientTablesDataSetResult = $GetRecipientTablesDataSetResult;
+      return $this;
     }
 
 }

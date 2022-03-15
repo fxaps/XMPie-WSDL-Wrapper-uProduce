@@ -15,7 +15,7 @@ class GetFileNameResponse
      */
     public function __construct($GetFileNameResult = null)
     {
-        $this->GetFileNameResult = $GetFileNameResult;
+      $this->GetFileNameResult = $GetFileNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFileNameResponse
      */
     public function getGetFileNameResult()
     {
-        return $this->GetFileNameResult;
+      return $this->GetFileNameResult;
     }
 
     /**
      * @param string $GetFileNameResult
-     * @return GetFileNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Asset_SSP\GetFileNameResponse
      */
     public function setGetFileNameResult($GetFileNameResult)
     {
-        $this->GetFileNameResult = $GetFileNameResult;
-        return $this;
+      $this->GetFileNameResult = $GetFileNameResult;
+      return $this;
     }
 
 }

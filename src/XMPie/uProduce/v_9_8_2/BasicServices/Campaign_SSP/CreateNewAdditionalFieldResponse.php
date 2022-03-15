@@ -15,7 +15,7 @@ class CreateNewAdditionalFieldResponse
      */
     public function __construct($CreateNewAdditionalFieldResult = null)
     {
-        $this->CreateNewAdditionalFieldResult = $CreateNewAdditionalFieldResult;
+      $this->CreateNewAdditionalFieldResult = $CreateNewAdditionalFieldResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewAdditionalFieldResponse
      */
     public function getCreateNewAdditionalFieldResult()
     {
-        return $this->CreateNewAdditionalFieldResult;
+      return $this->CreateNewAdditionalFieldResult;
     }
 
     /**
      * @param boolean $CreateNewAdditionalFieldResult
-     * @return CreateNewAdditionalFieldResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNewAdditionalFieldResponse
      */
     public function setCreateNewAdditionalFieldResult($CreateNewAdditionalFieldResult)
     {
-        $this->CreateNewAdditionalFieldResult = $CreateNewAdditionalFieldResult;
-        return $this;
+      $this->CreateNewAdditionalFieldResult = $CreateNewAdditionalFieldResult;
+      return $this;
     }
 
 }

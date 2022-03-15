@@ -15,7 +15,7 @@ class IsRemoteCopyDeleteSourceResponse
      */
     public function __construct($IsRemoteCopyDeleteSourceResult = null)
     {
-        $this->IsRemoteCopyDeleteSourceResult = $IsRemoteCopyDeleteSourceResult;
+      $this->IsRemoteCopyDeleteSourceResult = $IsRemoteCopyDeleteSourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsRemoteCopyDeleteSourceResponse
      */
     public function getIsRemoteCopyDeleteSourceResult()
     {
-        return $this->IsRemoteCopyDeleteSourceResult;
+      return $this->IsRemoteCopyDeleteSourceResult;
     }
 
     /**
      * @param boolean $IsRemoteCopyDeleteSourceResult
-     * @return IsRemoteCopyDeleteSourceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsRemoteCopyDeleteSourceResponse
      */
     public function setIsRemoteCopyDeleteSourceResult($IsRemoteCopyDeleteSourceResult)
     {
-        $this->IsRemoteCopyDeleteSourceResult = $IsRemoteCopyDeleteSourceResult;
-        return $this;
+      $this->IsRemoteCopyDeleteSourceResult = $IsRemoteCopyDeleteSourceResult;
+      return $this;
     }
 
 }

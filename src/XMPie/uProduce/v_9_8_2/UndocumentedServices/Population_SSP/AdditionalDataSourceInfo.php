@@ -15,10 +15,10 @@ class AdditionalDataSourceInfo
      */
     protected $m_DataSourceID = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -26,17 +26,17 @@ class AdditionalDataSourceInfo
      */
     public function getM_SchemaName()
     {
-        return $this->m_SchemaName;
+      return $this->m_SchemaName;
     }
 
     /**
      * @param string $m_SchemaName
-     * @return AdditionalDataSourceInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AdditionalDataSourceInfo
      */
     public function setM_SchemaName($m_SchemaName)
     {
-        $this->m_SchemaName = $m_SchemaName;
-        return $this;
+      $this->m_SchemaName = $m_SchemaName;
+      return $this;
     }
 
     /**
@@ -44,17 +44,17 @@ class AdditionalDataSourceInfo
      */
     public function getM_DataSourceID()
     {
-        return $this->m_DataSourceID;
+      return $this->m_DataSourceID;
     }
 
     /**
      * @param string $m_DataSourceID
-     * @return AdditionalDataSourceInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\AdditionalDataSourceInfo
      */
     public function setM_DataSourceID($m_DataSourceID)
     {
-        $this->m_DataSourceID = $m_DataSourceID;
-        return $this;
+      $this->m_DataSourceID = $m_DataSourceID;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetBinaryFileStreamResponse
      */
     public function __construct($GetBinaryFileStreamResult = null)
     {
-        $this->GetBinaryFileStreamResult = $GetBinaryFileStreamResult;
+      $this->GetBinaryFileStreamResult = $GetBinaryFileStreamResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetBinaryFileStreamResponse
      */
     public function getGetBinaryFileStreamResult()
     {
-        return $this->GetBinaryFileStreamResult;
+      return $this->GetBinaryFileStreamResult;
     }
 
     /**
      * @param base64Binary $GetBinaryFileStreamResult
-     * @return GetBinaryFileStreamResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP\GetBinaryFileStreamResponse
      */
     public function setGetBinaryFileStreamResult($GetBinaryFileStreamResult)
     {
-        $this->GetBinaryFileStreamResult = $GetBinaryFileStreamResult;
-        return $this;
+      $this->GetBinaryFileStreamResult = $GetBinaryFileStreamResult;
+      return $this;
     }
 
 }

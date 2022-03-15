@@ -15,7 +15,7 @@ class DeleteAllJobsByFilterResponse
      */
     public function __construct($DeleteAllJobsByFilterResult = null)
     {
-        $this->DeleteAllJobsByFilterResult = $DeleteAllJobsByFilterResult;
+      $this->DeleteAllJobsByFilterResult = $DeleteAllJobsByFilterResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAllJobsByFilterResponse
      */
     public function getDeleteAllJobsByFilterResult()
     {
-        return $this->DeleteAllJobsByFilterResult;
+      return $this->DeleteAllJobsByFilterResult;
     }
 
     /**
      * @param boolean $DeleteAllJobsByFilterResult
-     * @return DeleteAllJobsByFilterResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\DeleteAllJobsByFilterResponse
      */
     public function setDeleteAllJobsByFilterResult($DeleteAllJobsByFilterResult)
     {
-        $this->DeleteAllJobsByFilterResult = $DeleteAllJobsByFilterResult;
-        return $this;
+      $this->DeleteAllJobsByFilterResult = $DeleteAllJobsByFilterResult;
+      return $this;
     }
 
 }

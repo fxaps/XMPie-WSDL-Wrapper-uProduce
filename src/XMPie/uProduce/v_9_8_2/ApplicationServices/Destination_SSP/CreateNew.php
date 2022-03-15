@@ -45,12 +45,12 @@ class CreateNew
      */
     public function __construct($inUsername = null, $inPassword = null, $inName = null, $inType = null, $inAddress = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inName = $inName;
-        $this->inType = $inType;
-        $this->inAddress = $inAddress;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inName = $inName;
+      $this->inType = $inType;
+      $this->inAddress = $inAddress;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -58,17 +58,17 @@ class CreateNew
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\CreateNew
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class CreateNew
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\CreateNew
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class CreateNew
      */
     public function getInName()
     {
-        return $this->inName;
+      return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\CreateNew
      */
     public function setInName($inName)
     {
-        $this->inName = $inName;
-        return $this;
+      $this->inName = $inName;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class CreateNew
      */
     public function getInType()
     {
-        return $this->inType;
+      return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\CreateNew
      */
     public function setInType($inType)
     {
-        $this->inType = $inType;
-        return $this;
+      $this->inType = $inType;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class CreateNew
      */
     public function getInAddress()
     {
-        return $this->inAddress;
+      return $this->inAddress;
     }
 
     /**
      * @param string $inAddress
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\CreateNew
      */
     public function setInAddress($inAddress)
     {
-        $this->inAddress = $inAddress;
-        return $this;
+      $this->inAddress = $inAddress;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class CreateNew
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\CreateNew
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

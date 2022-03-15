@@ -15,7 +15,7 @@ class GetFTPUserResponse
      */
     public function __construct($GetFTPUserResult = null)
     {
-        $this->GetFTPUserResult = $GetFTPUserResult;
+      $this->GetFTPUserResult = $GetFTPUserResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFTPUserResponse
      */
     public function getGetFTPUserResult()
     {
-        return $this->GetFTPUserResult;
+      return $this->GetFTPUserResult;
     }
 
     /**
      * @param string $GetFTPUserResult
-     * @return GetFTPUserResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFTPUserResponse
      */
     public function setGetFTPUserResult($GetFTPUserResult)
     {
-        $this->GetFTPUserResult = $GetFTPUserResult;
-        return $this;
+      $this->GetFTPUserResult = $GetFTPUserResult;
+      return $this;
     }
 
 }

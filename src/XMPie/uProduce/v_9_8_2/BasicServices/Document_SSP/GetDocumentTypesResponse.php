@@ -15,7 +15,7 @@ class GetDocumentTypesResponse
      */
     public function __construct($GetDocumentTypesResult = null)
     {
-        $this->GetDocumentTypesResult = $GetDocumentTypesResult;
+      $this->GetDocumentTypesResult = $GetDocumentTypesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDocumentTypesResponse
      */
     public function getGetDocumentTypesResult()
     {
-        return $this->GetDocumentTypesResult;
+      return $this->GetDocumentTypesResult;
     }
 
     /**
      * @param GetDocumentTypesResult $GetDocumentTypesResult
-     * @return GetDocumentTypesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetDocumentTypesResponse
      */
     public function setGetDocumentTypesResult($GetDocumentTypesResult)
     {
-        $this->GetDocumentTypesResult = $GetDocumentTypesResult;
-        return $this;
+      $this->GetDocumentTypesResult = $GetDocumentTypesResult;
+      return $this;
     }
 
 }

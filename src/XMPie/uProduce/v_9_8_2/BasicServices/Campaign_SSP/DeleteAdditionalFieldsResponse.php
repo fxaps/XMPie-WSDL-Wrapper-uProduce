@@ -15,7 +15,7 @@ class DeleteAdditionalFieldsResponse
      */
     public function __construct($DeleteAdditionalFieldsResult = null)
     {
-        $this->DeleteAdditionalFieldsResult = $DeleteAdditionalFieldsResult;
+      $this->DeleteAdditionalFieldsResult = $DeleteAdditionalFieldsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteAdditionalFieldsResponse
      */
     public function getDeleteAdditionalFieldsResult()
     {
-        return $this->DeleteAdditionalFieldsResult;
+      return $this->DeleteAdditionalFieldsResult;
     }
 
     /**
      * @param boolean $DeleteAdditionalFieldsResult
-     * @return DeleteAdditionalFieldsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAdditionalFieldsResponse
      */
     public function setDeleteAdditionalFieldsResult($DeleteAdditionalFieldsResult)
     {
-        $this->DeleteAdditionalFieldsResult = $DeleteAdditionalFieldsResult;
-        return $this;
+      $this->DeleteAdditionalFieldsResult = $DeleteAdditionalFieldsResult;
+      return $this;
     }
 
 }

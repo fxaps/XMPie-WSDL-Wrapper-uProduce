@@ -45,12 +45,12 @@ class SetDocument
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inDocumentFolder = null, $inDocumentName = null, $inDocumentType = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inDocumentFolder = $inDocumentFolder;
-        $this->inDocumentName = $inDocumentName;
-        $this->inDocumentType = $inDocumentType;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inDocumentFolder = $inDocumentFolder;
+      $this->inDocumentName = $inDocumentName;
+      $this->inDocumentType = $inDocumentType;
     }
 
     /**
@@ -58,17 +58,17 @@ class SetDocument
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDocument
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class SetDocument
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDocument
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class SetDocument
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return SetDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDocument
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class SetDocument
      */
     public function getInDocumentFolder()
     {
-        return $this->inDocumentFolder;
+      return $this->inDocumentFolder;
     }
 
     /**
      * @param string $inDocumentFolder
-     * @return SetDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDocument
      */
     public function setInDocumentFolder($inDocumentFolder)
     {
-        $this->inDocumentFolder = $inDocumentFolder;
-        return $this;
+      $this->inDocumentFolder = $inDocumentFolder;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class SetDocument
      */
     public function getInDocumentName()
     {
-        return $this->inDocumentName;
+      return $this->inDocumentName;
     }
 
     /**
      * @param string $inDocumentName
-     * @return SetDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDocument
      */
     public function setInDocumentName($inDocumentName)
     {
-        $this->inDocumentName = $inDocumentName;
-        return $this;
+      $this->inDocumentName = $inDocumentName;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class SetDocument
      */
     public function getInDocumentType()
     {
-        return $this->inDocumentType;
+      return $this->inDocumentType;
     }
 
     /**
      * @param string $inDocumentType
-     * @return SetDocument
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDocument
      */
     public function setInDocumentType($inDocumentType)
     {
-        $this->inDocumentType = $inDocumentType;
-        return $this;
+      $this->inDocumentType = $inDocumentType;
+      return $this;
     }
 
 }

@@ -33,10 +33,10 @@ class GetJobCountByFilter
      */
     public function __construct($inUsername = null, $inPassword = null, $inFilter = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inFilter = $inFilter;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inFilter = $inFilter;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetJobCountByFilter
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetJobCountByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobCountByFilter
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetJobCountByFilter
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetJobCountByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobCountByFilter
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetJobCountByFilter
      */
     public function getInFilter()
     {
-        return $this->inFilter;
+      return $this->inFilter;
     }
 
     /**
      * @param ArrayOfJobQueryPart $inFilter
-     * @return GetJobCountByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobCountByFilter
      */
     public function setInFilter($inFilter)
     {
-        $this->inFilter = $inFilter;
-        return $this;
+      $this->inFilter = $inFilter;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetJobCountByFilter
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return GetJobCountByFilter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobCountByFilter
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class IsExistByIDResponse
      */
     public function __construct($IsExistByIDResult = null)
     {
-        $this->IsExistByIDResult = $IsExistByIDResult;
+      $this->IsExistByIDResult = $IsExistByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsExistByIDResponse
      */
     public function getIsExistByIDResult()
     {
-        return $this->IsExistByIDResult;
+      return $this->IsExistByIDResult;
     }
 
     /**
      * @param boolean $IsExistByIDResult
-     * @return IsExistByIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\IsExistByIDResponse
      */
     public function setIsExistByIDResult($IsExistByIDResult)
     {
-        $this->IsExistByIDResult = $IsExistByIDResult;
-        return $this;
+      $this->IsExistByIDResult = $IsExistByIDResult;
+      return $this;
     }
 
 }

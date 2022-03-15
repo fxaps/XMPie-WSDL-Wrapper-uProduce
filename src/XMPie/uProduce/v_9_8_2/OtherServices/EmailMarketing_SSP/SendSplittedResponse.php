@@ -15,7 +15,7 @@ class SendSplittedResponse
      */
     public function __construct($SendSplittedResult = null)
     {
-        $this->SendSplittedResult = $SendSplittedResult;
+      $this->SendSplittedResult = $SendSplittedResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SendSplittedResponse
      */
     public function getSendSplittedResult()
     {
-        return $this->SendSplittedResult;
+      return $this->SendSplittedResult;
     }
 
     /**
      * @param ArrayOfString $SendSplittedResult
-     * @return SendSplittedResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendSplittedResponse
      */
     public function setSendSplittedResult($SendSplittedResult)
     {
-        $this->SendSplittedResult = $SendSplittedResult;
-        return $this;
+      $this->SendSplittedResult = $SendSplittedResult;
+      return $this;
     }
 
 }

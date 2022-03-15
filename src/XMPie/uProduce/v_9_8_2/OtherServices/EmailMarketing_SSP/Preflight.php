@@ -45,12 +45,12 @@ class Preflight
      */
     public function __construct($inUsername = null, $inPassword = null, $inEmailMarketingID = null, $inJobTicket = null, $inJobName = null, $inPriority = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inEmailMarketingID = $inEmailMarketingID;
-        $this->inJobTicket = $inJobTicket;
-        $this->inJobName = $inJobName;
-        $this->inPriority = $inPriority;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inEmailMarketingID = $inEmailMarketingID;
+      $this->inJobTicket = $inJobTicket;
+      $this->inJobName = $inJobName;
+      $this->inPriority = $inPriority;
     }
 
     /**
@@ -58,17 +58,17 @@ class Preflight
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return Preflight
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Preflight
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class Preflight
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return Preflight
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Preflight
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class Preflight
      */
     public function getInEmailMarketingID()
     {
-        return $this->inEmailMarketingID;
+      return $this->inEmailMarketingID;
     }
 
     /**
      * @param string $inEmailMarketingID
-     * @return Preflight
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Preflight
      */
     public function setInEmailMarketingID($inEmailMarketingID)
     {
-        $this->inEmailMarketingID = $inEmailMarketingID;
-        return $this;
+      $this->inEmailMarketingID = $inEmailMarketingID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class Preflight
      */
     public function getInJobTicket()
     {
-        return $this->inJobTicket;
+      return $this->inJobTicket;
     }
 
     /**
      * @param string $inJobTicket
-     * @return Preflight
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Preflight
      */
     public function setInJobTicket($inJobTicket)
     {
-        $this->inJobTicket = $inJobTicket;
-        return $this;
+      $this->inJobTicket = $inJobTicket;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class Preflight
      */
     public function getInJobName()
     {
-        return $this->inJobName;
+      return $this->inJobName;
     }
 
     /**
      * @param string $inJobName
-     * @return Preflight
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Preflight
      */
     public function setInJobName($inJobName)
     {
-        $this->inJobName = $inJobName;
-        return $this;
+      $this->inJobName = $inJobName;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class Preflight
      */
     public function getInPriority()
     {
-        return $this->inPriority;
+      return $this->inPriority;
     }
 
     /**
      * @param string $inPriority
-     * @return Preflight
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\Preflight
      */
     public function setInPriority($inPriority)
     {
-        $this->inPriority = $inPriority;
-        return $this;
+      $this->inPriority = $inPriority;
+      return $this;
     }
 
 }

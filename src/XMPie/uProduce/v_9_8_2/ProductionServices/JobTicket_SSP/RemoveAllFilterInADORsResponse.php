@@ -15,7 +15,7 @@ class RemoveAllFilterInADORsResponse
      */
     public function __construct($RemoveAllFilterInADORsResult = null)
     {
-        $this->RemoveAllFilterInADORsResult = $RemoveAllFilterInADORsResult;
+      $this->RemoveAllFilterInADORsResult = $RemoveAllFilterInADORsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveAllFilterInADORsResponse
      */
     public function getRemoveAllFilterInADORsResult()
     {
-        return $this->RemoveAllFilterInADORsResult;
+      return $this->RemoveAllFilterInADORsResult;
     }
 
     /**
      * @param boolean $RemoveAllFilterInADORsResult
-     * @return RemoveAllFilterInADORsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveAllFilterInADORsResponse
      */
     public function setRemoveAllFilterInADORsResult($RemoveAllFilterInADORsResult)
     {
-        $this->RemoveAllFilterInADORsResult = $RemoveAllFilterInADORsResult;
-        return $this;
+      $this->RemoveAllFilterInADORsResult = $RemoveAllFilterInADORsResult;
+      return $this;
     }
 
 }

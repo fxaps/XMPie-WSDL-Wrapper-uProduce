@@ -63,15 +63,15 @@ class GetOutputResultDownloadURL
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobID = null, $inResultIndex = null, $inMimeType = null, $inIsInline = null, $inMacTypeHex = null, $inMacCreatorHex = null, $inReturnInternalURL = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobID = $inJobID;
-        $this->inResultIndex = $inResultIndex;
-        $this->inMimeType = $inMimeType;
-        $this->inIsInline = $inIsInline;
-        $this->inMacTypeHex = $inMacTypeHex;
-        $this->inMacCreatorHex = $inMacCreatorHex;
-        $this->inReturnInternalURL = $inReturnInternalURL;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobID = $inJobID;
+      $this->inResultIndex = $inResultIndex;
+      $this->inMimeType = $inMimeType;
+      $this->inIsInline = $inIsInline;
+      $this->inMacTypeHex = $inMacTypeHex;
+      $this->inMacCreatorHex = $inMacCreatorHex;
+      $this->inReturnInternalURL = $inReturnInternalURL;
     }
 
     /**
@@ -79,17 +79,17 @@ class GetOutputResultDownloadURL
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetOutputResultDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultDownloadURL
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -97,17 +97,17 @@ class GetOutputResultDownloadURL
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetOutputResultDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultDownloadURL
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -115,17 +115,17 @@ class GetOutputResultDownloadURL
      */
     public function getInJobID()
     {
-        return $this->inJobID;
+      return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return GetOutputResultDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultDownloadURL
      */
     public function setInJobID($inJobID)
     {
-        $this->inJobID = $inJobID;
-        return $this;
+      $this->inJobID = $inJobID;
+      return $this;
     }
 
     /**
@@ -133,17 +133,17 @@ class GetOutputResultDownloadURL
      */
     public function getInResultIndex()
     {
-        return $this->inResultIndex;
+      return $this->inResultIndex;
     }
 
     /**
      * @param int $inResultIndex
-     * @return GetOutputResultDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultDownloadURL
      */
     public function setInResultIndex($inResultIndex)
     {
-        $this->inResultIndex = $inResultIndex;
-        return $this;
+      $this->inResultIndex = $inResultIndex;
+      return $this;
     }
 
     /**
@@ -151,17 +151,17 @@ class GetOutputResultDownloadURL
      */
     public function getInMimeType()
     {
-        return $this->inMimeType;
+      return $this->inMimeType;
     }
 
     /**
      * @param string $inMimeType
-     * @return GetOutputResultDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultDownloadURL
      */
     public function setInMimeType($inMimeType)
     {
-        $this->inMimeType = $inMimeType;
-        return $this;
+      $this->inMimeType = $inMimeType;
+      return $this;
     }
 
     /**
@@ -169,17 +169,17 @@ class GetOutputResultDownloadURL
      */
     public function getInIsInline()
     {
-        return $this->inIsInline;
+      return $this->inIsInline;
     }
 
     /**
      * @param boolean $inIsInline
-     * @return GetOutputResultDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultDownloadURL
      */
     public function setInIsInline($inIsInline)
     {
-        $this->inIsInline = $inIsInline;
-        return $this;
+      $this->inIsInline = $inIsInline;
+      return $this;
     }
 
     /**
@@ -187,17 +187,17 @@ class GetOutputResultDownloadURL
      */
     public function getInMacTypeHex()
     {
-        return $this->inMacTypeHex;
+      return $this->inMacTypeHex;
     }
 
     /**
      * @param string $inMacTypeHex
-     * @return GetOutputResultDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultDownloadURL
      */
     public function setInMacTypeHex($inMacTypeHex)
     {
-        $this->inMacTypeHex = $inMacTypeHex;
-        return $this;
+      $this->inMacTypeHex = $inMacTypeHex;
+      return $this;
     }
 
     /**
@@ -205,17 +205,17 @@ class GetOutputResultDownloadURL
      */
     public function getInMacCreatorHex()
     {
-        return $this->inMacCreatorHex;
+      return $this->inMacCreatorHex;
     }
 
     /**
      * @param string $inMacCreatorHex
-     * @return GetOutputResultDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultDownloadURL
      */
     public function setInMacCreatorHex($inMacCreatorHex)
     {
-        $this->inMacCreatorHex = $inMacCreatorHex;
-        return $this;
+      $this->inMacCreatorHex = $inMacCreatorHex;
+      return $this;
     }
 
     /**
@@ -223,17 +223,17 @@ class GetOutputResultDownloadURL
      */
     public function getInReturnInternalURL()
     {
-        return $this->inReturnInternalURL;
+      return $this->inReturnInternalURL;
     }
 
     /**
      * @param boolean $inReturnInternalURL
-     * @return GetOutputResultDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultDownloadURL
      */
     public function setInReturnInternalURL($inReturnInternalURL)
     {
-        $this->inReturnInternalURL = $inReturnInternalURL;
-        return $this;
+      $this->inReturnInternalURL = $inReturnInternalURL;
+      return $this;
     }
 
 }

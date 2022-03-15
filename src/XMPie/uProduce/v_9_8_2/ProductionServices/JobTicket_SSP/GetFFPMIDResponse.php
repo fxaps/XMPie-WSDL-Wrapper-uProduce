@@ -15,7 +15,7 @@ class GetFFPMIDResponse
      */
     public function __construct($GetFFPMIDResult = null)
     {
-        $this->GetFFPMIDResult = $GetFFPMIDResult;
+      $this->GetFFPMIDResult = $GetFFPMIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFFPMIDResponse
      */
     public function getGetFFPMIDResult()
     {
-        return $this->GetFFPMIDResult;
+      return $this->GetFFPMIDResult;
     }
 
     /**
      * @param string $GetFFPMIDResult
-     * @return GetFFPMIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFFPMIDResponse
      */
     public function setGetFFPMIDResult($GetFFPMIDResult)
     {
-        $this->GetFFPMIDResult = $GetFFPMIDResult;
-        return $this;
+      $this->GetFFPMIDResult = $GetFFPMIDResult;
+      return $this;
     }
 
 }

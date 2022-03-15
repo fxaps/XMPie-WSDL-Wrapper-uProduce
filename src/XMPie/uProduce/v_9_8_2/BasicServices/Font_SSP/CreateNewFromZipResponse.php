@@ -15,7 +15,7 @@ class CreateNewFromZipResponse
      */
     public function __construct($CreateNewFromZipResult = null)
     {
-        $this->CreateNewFromZipResult = $CreateNewFromZipResult;
+      $this->CreateNewFromZipResult = $CreateNewFromZipResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewFromZipResponse
      */
     public function getCreateNewFromZipResult()
     {
-        return $this->CreateNewFromZipResult;
+      return $this->CreateNewFromZipResult;
     }
 
     /**
      * @param ArrayOfString $CreateNewFromZipResult
-     * @return CreateNewFromZipResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\CreateNewFromZipResponse
      */
     public function setCreateNewFromZipResult($CreateNewFromZipResult)
     {
-        $this->CreateNewFromZipResult = $CreateNewFromZipResult;
-        return $this;
+      $this->CreateNewFromZipResult = $CreateNewFromZipResult;
+      return $this;
     }
 
 }

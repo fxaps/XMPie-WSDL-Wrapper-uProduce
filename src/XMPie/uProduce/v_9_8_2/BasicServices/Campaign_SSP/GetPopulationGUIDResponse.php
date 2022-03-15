@@ -15,7 +15,7 @@ class GetPopulationGUIDResponse
      */
     public function __construct($GetPopulationGUIDResult = null)
     {
-        $this->GetPopulationGUIDResult = $GetPopulationGUIDResult;
+      $this->GetPopulationGUIDResult = $GetPopulationGUIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPopulationGUIDResponse
      */
     public function getGetPopulationGUIDResult()
     {
-        return $this->GetPopulationGUIDResult;
+      return $this->GetPopulationGUIDResult;
     }
 
     /**
      * @param string $GetPopulationGUIDResult
-     * @return GetPopulationGUIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetPopulationGUIDResponse
      */
     public function setGetPopulationGUIDResult($GetPopulationGUIDResult)
     {
-        $this->GetPopulationGUIDResult = $GetPopulationGUIDResult;
-        return $this;
+      $this->GetPopulationGUIDResult = $GetPopulationGUIDResult;
+      return $this;
     }
 
 }

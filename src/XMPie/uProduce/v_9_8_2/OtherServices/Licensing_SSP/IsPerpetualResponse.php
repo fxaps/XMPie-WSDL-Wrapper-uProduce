@@ -15,7 +15,7 @@ class IsPerpetualResponse
      */
     public function __construct($IsPerpetualResult = null)
     {
-        $this->IsPerpetualResult = $IsPerpetualResult;
+      $this->IsPerpetualResult = $IsPerpetualResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsPerpetualResponse
      */
     public function getIsPerpetualResult()
     {
-        return $this->IsPerpetualResult;
+      return $this->IsPerpetualResult;
     }
 
     /**
      * @param boolean $IsPerpetualResult
-     * @return IsPerpetualResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\IsPerpetualResponse
      */
     public function setIsPerpetualResult($IsPerpetualResult)
     {
-        $this->IsPerpetualResult = $IsPerpetualResult;
-        return $this;
+      $this->IsPerpetualResult = $IsPerpetualResult;
+      return $this;
     }
 
 }

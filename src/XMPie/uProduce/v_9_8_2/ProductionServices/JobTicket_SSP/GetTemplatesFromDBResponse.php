@@ -15,7 +15,7 @@ class GetTemplatesFromDBResponse
      */
     public function __construct($GetTemplatesFromDBResult = null)
     {
-        $this->GetTemplatesFromDBResult = $GetTemplatesFromDBResult;
+      $this->GetTemplatesFromDBResult = $GetTemplatesFromDBResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTemplatesFromDBResponse
      */
     public function getGetTemplatesFromDBResult()
     {
-        return $this->GetTemplatesFromDBResult;
+      return $this->GetTemplatesFromDBResult;
     }
 
     /**
      * @param GetTemplatesFromDBResult $GetTemplatesFromDBResult
-     * @return GetTemplatesFromDBResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTemplatesFromDBResponse
      */
     public function setGetTemplatesFromDBResult($GetTemplatesFromDBResult)
     {
-        $this->GetTemplatesFromDBResult = $GetTemplatesFromDBResult;
-        return $this;
+      $this->GetTemplatesFromDBResult = $GetTemplatesFromDBResult;
+      return $this;
     }
 
 }

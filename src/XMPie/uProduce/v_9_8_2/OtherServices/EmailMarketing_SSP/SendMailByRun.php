@@ -51,13 +51,13 @@ class SendMailByRun
      */
     public function __construct($inUsername = null, $inPassword = null, $inRunGUID = null, $inEmailMarketingID = null, $inRecipientIDs = null, $overrideHeader = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inRunGUID = $inRunGUID;
-        $this->inEmailMarketingID = $inEmailMarketingID;
-        $this->inRecipientIDs = $inRecipientIDs;
-        $this->overrideHeader = $overrideHeader;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inRunGUID = $inRunGUID;
+      $this->inEmailMarketingID = $inEmailMarketingID;
+      $this->inRecipientIDs = $inRecipientIDs;
+      $this->overrideHeader = $overrideHeader;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -65,17 +65,17 @@ class SendMailByRun
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SendMailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMailByRun
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class SendMailByRun
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SendMailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMailByRun
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class SendMailByRun
      */
     public function getInRunGUID()
     {
-        return $this->inRunGUID;
+      return $this->inRunGUID;
     }
 
     /**
      * @param string $inRunGUID
-     * @return SendMailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMailByRun
      */
     public function setInRunGUID($inRunGUID)
     {
-        $this->inRunGUID = $inRunGUID;
-        return $this;
+      $this->inRunGUID = $inRunGUID;
+      return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class SendMailByRun
      */
     public function getInEmailMarketingID()
     {
-        return $this->inEmailMarketingID;
+      return $this->inEmailMarketingID;
     }
 
     /**
      * @param string $inEmailMarketingID
-     * @return SendMailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMailByRun
      */
     public function setInEmailMarketingID($inEmailMarketingID)
     {
-        $this->inEmailMarketingID = $inEmailMarketingID;
-        return $this;
+      $this->inEmailMarketingID = $inEmailMarketingID;
+      return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class SendMailByRun
      */
     public function getInRecipientIDs()
     {
-        return $this->inRecipientIDs;
+      return $this->inRecipientIDs;
     }
 
     /**
      * @param ArrayOfString $inRecipientIDs
-     * @return SendMailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMailByRun
      */
     public function setInRecipientIDs($inRecipientIDs)
     {
-        $this->inRecipientIDs = $inRecipientIDs;
-        return $this;
+      $this->inRecipientIDs = $inRecipientIDs;
+      return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class SendMailByRun
      */
     public function getOverrideHeader()
     {
-        return $this->overrideHeader;
+      return $this->overrideHeader;
     }
 
     /**
      * @param EmailHeaderInfo $overrideHeader
-     * @return SendMailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMailByRun
      */
     public function setOverrideHeader($overrideHeader)
     {
-        $this->overrideHeader = $overrideHeader;
-        return $this;
+      $this->overrideHeader = $overrideHeader;
+      return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class SendMailByRun
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return SendMailByRun
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMailByRun
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

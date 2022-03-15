@@ -15,7 +15,7 @@ class GetJobTypesXMPTblDataSetResponse
      */
     public function __construct($GetJobTypesXMPTblDataSetResult = null)
     {
-        $this->GetJobTypesXMPTblDataSetResult = $GetJobTypesXMPTblDataSetResult;
+      $this->GetJobTypesXMPTblDataSetResult = $GetJobTypesXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetJobTypesXMPTblDataSetResponse
      */
     public function getGetJobTypesXMPTblDataSetResult()
     {
-        return $this->GetJobTypesXMPTblDataSetResult;
+      return $this->GetJobTypesXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetJobTypesXMPTblDataSetResult
-     * @return GetJobTypesXMPTblDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\GetJobTypesXMPTblDataSetResponse
      */
     public function setGetJobTypesXMPTblDataSetResult($GetJobTypesXMPTblDataSetResult)
     {
-        $this->GetJobTypesXMPTblDataSetResult = $GetJobTypesXMPTblDataSetResult;
-        return $this;
+      $this->GetJobTypesXMPTblDataSetResult = $GetJobTypesXMPTblDataSetResult;
+      return $this;
     }
 
 }

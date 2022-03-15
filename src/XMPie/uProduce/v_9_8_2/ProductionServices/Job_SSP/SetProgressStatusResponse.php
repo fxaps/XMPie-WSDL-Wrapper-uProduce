@@ -15,7 +15,7 @@ class SetProgressStatusResponse
      */
     public function __construct($SetProgressStatusResult = null)
     {
-        $this->SetProgressStatusResult = $SetProgressStatusResult;
+      $this->SetProgressStatusResult = $SetProgressStatusResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetProgressStatusResponse
      */
     public function getSetProgressStatusResult()
     {
-        return $this->SetProgressStatusResult;
+      return $this->SetProgressStatusResult;
     }
 
     /**
      * @param boolean $SetProgressStatusResult
-     * @return SetProgressStatusResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\SetProgressStatusResponse
      */
     public function setSetProgressStatusResult($SetProgressStatusResult)
     {
-        $this->SetProgressStatusResult = $SetProgressStatusResult;
-        return $this;
+      $this->SetProgressStatusResult = $SetProgressStatusResult;
+      return $this;
     }
 
 }

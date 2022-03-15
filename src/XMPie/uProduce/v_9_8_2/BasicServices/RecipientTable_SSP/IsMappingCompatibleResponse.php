@@ -15,7 +15,7 @@ class IsMappingCompatibleResponse
      */
     public function __construct($IsMappingCompatibleResult = null)
     {
-        $this->IsMappingCompatibleResult = $IsMappingCompatibleResult;
+      $this->IsMappingCompatibleResult = $IsMappingCompatibleResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsMappingCompatibleResponse
      */
     public function getIsMappingCompatibleResult()
     {
-        return $this->IsMappingCompatibleResult;
+      return $this->IsMappingCompatibleResult;
     }
 
     /**
      * @param EMappingCompatibleStatus $IsMappingCompatibleResult
-     * @return IsMappingCompatibleResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\IsMappingCompatibleResponse
      */
     public function setIsMappingCompatibleResult($IsMappingCompatibleResult)
     {
-        $this->IsMappingCompatibleResult = $IsMappingCompatibleResult;
-        return $this;
+      $this->IsMappingCompatibleResult = $IsMappingCompatibleResult;
+      return $this;
     }
 
 }

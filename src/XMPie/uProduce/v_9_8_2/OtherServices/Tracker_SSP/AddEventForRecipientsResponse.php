@@ -15,7 +15,7 @@ class AddEventForRecipientsResponse
      */
     public function __construct($AddEventForRecipientsResult = null)
     {
-        $this->AddEventForRecipientsResult = $AddEventForRecipientsResult;
+      $this->AddEventForRecipientsResult = $AddEventForRecipientsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddEventForRecipientsResponse
      */
     public function getAddEventForRecipientsResult()
     {
-        return $this->AddEventForRecipientsResult;
+      return $this->AddEventForRecipientsResult;
     }
 
     /**
      * @param boolean $AddEventForRecipientsResult
-     * @return AddEventForRecipientsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventForRecipientsResponse
      */
     public function setAddEventForRecipientsResult($AddEventForRecipientsResult)
     {
-        $this->AddEventForRecipientsResult = $AddEventForRecipientsResult;
-        return $this;
+      $this->AddEventForRecipientsResult = $AddEventForRecipientsResult;
+      return $this;
     }
 
 }

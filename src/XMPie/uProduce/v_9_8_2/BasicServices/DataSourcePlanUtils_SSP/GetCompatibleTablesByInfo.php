@@ -45,12 +45,12 @@ class GetCompatibleTablesByInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inConnectionInfo = null, $inTrivialPlan = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPlanID = $inPlanID;
-        $this->inConnectionInfo = $inConnectionInfo;
-        $this->inTrivialPlan = $inTrivialPlan;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPlanID = $inPlanID;
+      $this->inConnectionInfo = $inConnectionInfo;
+      $this->inTrivialPlan = $inTrivialPlan;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -58,17 +58,17 @@ class GetCompatibleTablesByInfo
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetCompatibleTablesByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesByInfo
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class GetCompatibleTablesByInfo
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetCompatibleTablesByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesByInfo
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class GetCompatibleTablesByInfo
      */
     public function getInPlanID()
     {
-        return $this->inPlanID;
+      return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return GetCompatibleTablesByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesByInfo
      */
     public function setInPlanID($inPlanID)
     {
-        $this->inPlanID = $inPlanID;
-        return $this;
+      $this->inPlanID = $inPlanID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class GetCompatibleTablesByInfo
      */
     public function getInConnectionInfo()
     {
-        return $this->inConnectionInfo;
+      return $this->inConnectionInfo;
     }
 
     /**
      * @param Connection $inConnectionInfo
-     * @return GetCompatibleTablesByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesByInfo
      */
     public function setInConnectionInfo($inConnectionInfo)
     {
-        $this->inConnectionInfo = $inConnectionInfo;
-        return $this;
+      $this->inConnectionInfo = $inConnectionInfo;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class GetCompatibleTablesByInfo
      */
     public function getInTrivialPlan()
     {
-        return $this->inTrivialPlan;
+      return $this->inTrivialPlan;
     }
 
     /**
      * @param boolean $inTrivialPlan
-     * @return GetCompatibleTablesByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesByInfo
      */
     public function setInTrivialPlan($inTrivialPlan)
     {
-        $this->inTrivialPlan = $inTrivialPlan;
-        return $this;
+      $this->inTrivialPlan = $inTrivialPlan;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class GetCompatibleTablesByInfo
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return GetCompatibleTablesByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesByInfo
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

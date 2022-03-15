@@ -15,7 +15,7 @@ class AddRIResponse
      */
     public function __construct($AddRIResult = null)
     {
-        $this->AddRIResult = $AddRIResult;
+      $this->AddRIResult = $AddRIResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddRIResponse
      */
     public function getAddRIResult()
     {
-        return $this->AddRIResult;
+      return $this->AddRIResult;
     }
 
     /**
      * @param boolean $AddRIResult
-     * @return AddRIResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddRIResponse
      */
     public function setAddRIResult($AddRIResult)
     {
-        $this->AddRIResult = $AddRIResult;
-        return $this;
+      $this->AddRIResult = $AddRIResult;
+      return $this;
     }
 
 }

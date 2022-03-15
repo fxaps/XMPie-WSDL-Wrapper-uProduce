@@ -15,7 +15,7 @@ class GetCustomizationsResponse
      */
     public function __construct($GetCustomizationsResult = null)
     {
-        $this->GetCustomizationsResult = $GetCustomizationsResult;
+      $this->GetCustomizationsResult = $GetCustomizationsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCustomizationsResponse
      */
     public function getGetCustomizationsResult()
     {
-        return $this->GetCustomizationsResult;
+      return $this->GetCustomizationsResult;
     }
 
     /**
      * @param ArrayOfCustomization $GetCustomizationsResult
-     * @return GetCustomizationsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetCustomizationsResponse
      */
     public function setGetCustomizationsResult($GetCustomizationsResult)
     {
-        $this->GetCustomizationsResult = $GetCustomizationsResult;
-        return $this;
+      $this->GetCustomizationsResult = $GetCustomizationsResult;
+      return $this;
     }
 
 }

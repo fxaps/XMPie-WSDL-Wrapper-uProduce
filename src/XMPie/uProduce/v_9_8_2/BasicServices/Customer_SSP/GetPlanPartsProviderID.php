@@ -33,10 +33,10 @@ class GetPlanPartsProviderID
      */
     public function __construct($inUsername = null, $inPassword = null, $inDllName = null, $inFuncName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDllName = $inDllName;
-        $this->inFuncName = $inFuncName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDllName = $inDllName;
+      $this->inFuncName = $inFuncName;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetPlanPartsProviderID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetPlanPartsProviderID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetPlanPartsProviderID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetPlanPartsProviderID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetPlanPartsProviderID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetPlanPartsProviderID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetPlanPartsProviderID
      */
     public function getInDllName()
     {
-        return $this->inDllName;
+      return $this->inDllName;
     }
 
     /**
      * @param string $inDllName
-     * @return GetPlanPartsProviderID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetPlanPartsProviderID
      */
     public function setInDllName($inDllName)
     {
-        $this->inDllName = $inDllName;
-        return $this;
+      $this->inDllName = $inDllName;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetPlanPartsProviderID
      */
     public function getInFuncName()
     {
-        return $this->inFuncName;
+      return $this->inFuncName;
     }
 
     /**
      * @param string $inFuncName
-     * @return GetPlanPartsProviderID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetPlanPartsProviderID
      */
     public function setInFuncName($inFuncName)
     {
-        $this->inFuncName = $inFuncName;
-        return $this;
+      $this->inFuncName = $inFuncName;
+      return $this;
     }
 
 }

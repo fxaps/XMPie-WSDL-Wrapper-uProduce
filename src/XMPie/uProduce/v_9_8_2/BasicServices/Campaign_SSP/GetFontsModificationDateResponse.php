@@ -15,7 +15,7 @@ class GetFontsModificationDateResponse
      */
     public function __construct($GetFontsModificationDateResult = null)
     {
-        $this->GetFontsModificationDateResult = $GetFontsModificationDateResult;
+      $this->GetFontsModificationDateResult = $GetFontsModificationDateResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFontsModificationDateResponse
      */
     public function getGetFontsModificationDateResult()
     {
-        return $this->GetFontsModificationDateResult;
+      return $this->GetFontsModificationDateResult;
     }
 
     /**
      * @param ArrayOfProperty $GetFontsModificationDateResult
-     * @return GetFontsModificationDateResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetFontsModificationDateResponse
      */
     public function setGetFontsModificationDateResult($GetFontsModificationDateResult)
     {
-        $this->GetFontsModificationDateResult = $GetFontsModificationDateResult;
-        return $this;
+      $this->GetFontsModificationDateResult = $GetFontsModificationDateResult;
+      return $this;
     }
 
 }

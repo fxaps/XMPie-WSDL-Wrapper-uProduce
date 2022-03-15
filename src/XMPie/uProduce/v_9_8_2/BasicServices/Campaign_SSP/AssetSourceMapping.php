@@ -15,7 +15,7 @@ class AssetSourceMapping
      */
     public function __construct($ID = null)
     {
-        $this->ID = $ID;
+      $this->ID = $ID;
     }
 
     /**
@@ -23,17 +23,17 @@ class AssetSourceMapping
      */
     public function getID()
     {
-        return $this->ID;
+      return $this->ID;
     }
 
     /**
      * @param IDMapping $ID
-     * @return AssetSourceMapping
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\AssetSourceMapping
      */
     public function setID($ID)
     {
-        $this->ID = $ID;
-        return $this;
+      $this->ID = $ID;
+      return $this;
     }
 
 }

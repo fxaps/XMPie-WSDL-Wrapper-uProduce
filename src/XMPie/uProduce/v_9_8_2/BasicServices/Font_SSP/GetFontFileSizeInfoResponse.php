@@ -15,7 +15,7 @@ class GetFontFileSizeInfoResponse
      */
     public function __construct($GetFontFileSizeInfoResult = null)
     {
-        $this->GetFontFileSizeInfoResult = $GetFontFileSizeInfoResult;
+      $this->GetFontFileSizeInfoResult = $GetFontFileSizeInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFontFileSizeInfoResponse
      */
     public function getGetFontFileSizeInfoResult()
     {
-        return $this->GetFontFileSizeInfoResult;
+      return $this->GetFontFileSizeInfoResult;
     }
 
     /**
      * @param FontSizeInfo $GetFontFileSizeInfoResult
-     * @return GetFontFileSizeInfoResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetFontFileSizeInfoResponse
      */
     public function setGetFontFileSizeInfoResult($GetFontFileSizeInfoResult)
     {
-        $this->GetFontFileSizeInfoResult = $GetFontFileSizeInfoResult;
-        return $this;
+      $this->GetFontFileSizeInfoResult = $GetFontFileSizeInfoResult;
+      return $this;
     }
 
 }

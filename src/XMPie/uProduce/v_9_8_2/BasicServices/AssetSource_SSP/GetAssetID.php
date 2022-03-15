@@ -33,10 +33,10 @@ class GetAssetID
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetSourceID = null, $inAssetFileName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAssetSourceID = $inAssetSourceID;
-        $this->inAssetFileName = $inAssetFileName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAssetSourceID = $inAssetSourceID;
+      $this->inAssetFileName = $inAssetFileName;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetAssetID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetAssetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetAssetID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetAssetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetAssetID
      */
     public function getInAssetSourceID()
     {
-        return $this->inAssetSourceID;
+      return $this->inAssetSourceID;
     }
 
     /**
      * @param string $inAssetSourceID
-     * @return GetAssetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetID
      */
     public function setInAssetSourceID($inAssetSourceID)
     {
-        $this->inAssetSourceID = $inAssetSourceID;
-        return $this;
+      $this->inAssetSourceID = $inAssetSourceID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetAssetID
      */
     public function getInAssetFileName()
     {
-        return $this->inAssetFileName;
+      return $this->inAssetFileName;
     }
 
     /**
      * @param string $inAssetFileName
-     * @return GetAssetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetID
      */
     public function setInAssetFileName($inAssetFileName)
     {
-        $this->inAssetFileName = $inAssetFileName;
-        return $this;
+      $this->inAssetFileName = $inAssetFileName;
+      return $this;
     }
 
 }

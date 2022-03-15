@@ -27,9 +27,9 @@ class GetAssetSourceType
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetSourceType = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAssetSourceType = $inAssetSourceType;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAssetSourceType = $inAssetSourceType;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetAssetSourceType
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetAssetSourceType
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSourceUtils_SSP\GetAssetSourceType
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetAssetSourceType
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetAssetSourceType
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSourceUtils_SSP\GetAssetSourceType
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetAssetSourceType
      */
     public function getInAssetSourceType()
     {
-        return $this->inAssetSourceType;
+      return $this->inAssetSourceType;
     }
 
     /**
      * @param string $inAssetSourceType
-     * @return GetAssetSourceType
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSourceUtils_SSP\GetAssetSourceType
      */
     public function setInAssetSourceType($inAssetSourceType)
     {
-        $this->inAssetSourceType = $inAssetSourceType;
-        return $this;
+      $this->inAssetSourceType = $inAssetSourceType;
+      return $this;
     }
 
 }

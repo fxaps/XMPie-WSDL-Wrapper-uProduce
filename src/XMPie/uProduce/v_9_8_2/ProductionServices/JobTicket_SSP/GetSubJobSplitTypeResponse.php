@@ -15,7 +15,7 @@ class GetSubJobSplitTypeResponse
      */
     public function __construct($GetSubJobSplitTypeResult = null)
     {
-        $this->GetSubJobSplitTypeResult = $GetSubJobSplitTypeResult;
+      $this->GetSubJobSplitTypeResult = $GetSubJobSplitTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSubJobSplitTypeResponse
      */
     public function getGetSubJobSplitTypeResult()
     {
-        return $this->GetSubJobSplitTypeResult;
+      return $this->GetSubJobSplitTypeResult;
     }
 
     /**
      * @param int $GetSubJobSplitTypeResult
-     * @return GetSubJobSplitTypeResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetSubJobSplitTypeResponse
      */
     public function setGetSubJobSplitTypeResult($GetSubJobSplitTypeResult)
     {
-        $this->GetSubJobSplitTypeResult = $GetSubJobSplitTypeResult;
-        return $this;
+      $this->GetSubJobSplitTypeResult = $GetSubJobSplitTypeResult;
+      return $this;
     }
 
 }

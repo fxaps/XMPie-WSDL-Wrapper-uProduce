@@ -20,7 +20,7 @@ class EmailBodyOptions
      */
     public function __construct($m_EmbedResources = null)
     {
-        $this->m_EmbedResources = $m_EmbedResources;
+      $this->m_EmbedResources = $m_EmbedResources;
     }
 
     /**
@@ -28,17 +28,17 @@ class EmailBodyOptions
      */
     public function getM_EmbedResources()
     {
-        return $this->m_EmbedResources;
+      return $this->m_EmbedResources;
     }
 
     /**
      * @param boolean $m_EmbedResources
-     * @return EmailBodyOptions
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\EmailBodyOptions
      */
     public function setM_EmbedResources($m_EmbedResources)
     {
-        $this->m_EmbedResources = $m_EmbedResources;
-        return $this;
+      $this->m_EmbedResources = $m_EmbedResources;
+      return $this;
     }
 
     /**
@@ -46,17 +46,17 @@ class EmailBodyOptions
      */
     public function getM_Charset()
     {
-        return $this->m_Charset;
+      return $this->m_Charset;
     }
 
     /**
      * @param string $m_Charset
-     * @return EmailBodyOptions
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\EmailBodyOptions
      */
     public function setM_Charset($m_Charset)
     {
-        $this->m_Charset = $m_Charset;
-        return $this;
+      $this->m_Charset = $m_Charset;
+      return $this;
     }
 
 }

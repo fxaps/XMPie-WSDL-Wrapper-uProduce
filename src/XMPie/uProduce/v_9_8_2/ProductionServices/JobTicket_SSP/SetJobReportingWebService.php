@@ -33,10 +33,10 @@ class SetJobReportingWebService
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inWebServiceURL = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inWebServiceURL = $inWebServiceURL;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inWebServiceURL = $inWebServiceURL;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetJobReportingWebService
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetJobReportingWebService
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobReportingWebService
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetJobReportingWebService
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetJobReportingWebService
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobReportingWebService
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetJobReportingWebService
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return SetJobReportingWebService
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobReportingWebService
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetJobReportingWebService
      */
     public function getInWebServiceURL()
     {
-        return $this->inWebServiceURL;
+      return $this->inWebServiceURL;
     }
 
     /**
      * @param string $inWebServiceURL
-     * @return SetJobReportingWebService
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobReportingWebService
      */
     public function setInWebServiceURL($inWebServiceURL)
     {
-        $this->inWebServiceURL = $inWebServiceURL;
-        return $this;
+      $this->inWebServiceURL = $inWebServiceURL;
+      return $this;
     }
 
 }

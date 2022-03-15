@@ -15,7 +15,7 @@ class GetUEditCompatibleFileStreamResponse
      */
     public function __construct($GetUEditCompatibleFileStreamResult = null)
     {
-        $this->GetUEditCompatibleFileStreamResult = $GetUEditCompatibleFileStreamResult;
+      $this->GetUEditCompatibleFileStreamResult = $GetUEditCompatibleFileStreamResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUEditCompatibleFileStreamResponse
      */
     public function getGetUEditCompatibleFileStreamResult()
     {
-        return $this->GetUEditCompatibleFileStreamResult;
+      return $this->GetUEditCompatibleFileStreamResult;
     }
 
     /**
      * @param base64Binary $GetUEditCompatibleFileStreamResult
-     * @return GetUEditCompatibleFileStreamResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetUEditCompatibleFileStreamResponse
      */
     public function setGetUEditCompatibleFileStreamResult($GetUEditCompatibleFileStreamResult)
     {
-        $this->GetUEditCompatibleFileStreamResult = $GetUEditCompatibleFileStreamResult;
-        return $this;
+      $this->GetUEditCompatibleFileStreamResult = $GetUEditCompatibleFileStreamResult;
+      return $this;
     }
 
 }

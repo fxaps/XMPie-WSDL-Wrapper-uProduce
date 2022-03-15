@@ -15,7 +15,7 @@ class CreateNewResourceResponse
      */
     public function __construct($CreateNewResourceResult = null)
     {
-        $this->CreateNewResourceResult = $CreateNewResourceResult;
+      $this->CreateNewResourceResult = $CreateNewResourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewResourceResponse
      */
     public function getCreateNewResourceResult()
     {
-        return $this->CreateNewResourceResult;
+      return $this->CreateNewResourceResult;
     }
 
     /**
      * @param string $CreateNewResourceResult
-     * @return CreateNewResourceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewResourceResponse
      */
     public function setCreateNewResourceResult($CreateNewResourceResult)
     {
-        $this->CreateNewResourceResult = $CreateNewResourceResult;
-        return $this;
+      $this->CreateNewResourceResult = $CreateNewResourceResult;
+      return $this;
     }
 
 }

@@ -51,13 +51,13 @@ class GetObject
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inObjectName = null, $inObjectType = null, $inIOType = null, $inTrivialPlan = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPlanID = $inPlanID;
-        $this->inObjectName = $inObjectName;
-        $this->inObjectType = $inObjectType;
-        $this->inIOType = $inIOType;
-        $this->inTrivialPlan = $inTrivialPlan;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPlanID = $inPlanID;
+      $this->inObjectName = $inObjectName;
+      $this->inObjectType = $inObjectType;
+      $this->inIOType = $inIOType;
+      $this->inTrivialPlan = $inTrivialPlan;
     }
 
     /**
@@ -65,17 +65,17 @@ class GetObject
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetObject
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetObject
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -83,17 +83,17 @@ class GetObject
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetObject
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetObject
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -101,17 +101,17 @@ class GetObject
      */
     public function getInPlanID()
     {
-        return $this->inPlanID;
+      return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return GetObject
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetObject
      */
     public function setInPlanID($inPlanID)
     {
-        $this->inPlanID = $inPlanID;
-        return $this;
+      $this->inPlanID = $inPlanID;
+      return $this;
     }
 
     /**
@@ -119,17 +119,17 @@ class GetObject
      */
     public function getInObjectName()
     {
-        return $this->inObjectName;
+      return $this->inObjectName;
     }
 
     /**
      * @param string $inObjectName
-     * @return GetObject
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetObject
      */
     public function setInObjectName($inObjectName)
     {
-        $this->inObjectName = $inObjectName;
-        return $this;
+      $this->inObjectName = $inObjectName;
+      return $this;
     }
 
     /**
@@ -137,17 +137,17 @@ class GetObject
      */
     public function getInObjectType()
     {
-        return $this->inObjectType;
+      return $this->inObjectType;
     }
 
     /**
      * @param string $inObjectType
-     * @return GetObject
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetObject
      */
     public function setInObjectType($inObjectType)
     {
-        $this->inObjectType = $inObjectType;
-        return $this;
+      $this->inObjectType = $inObjectType;
+      return $this;
     }
 
     /**
@@ -155,17 +155,17 @@ class GetObject
      */
     public function getInIOType()
     {
-        return $this->inIOType;
+      return $this->inIOType;
     }
 
     /**
      * @param string $inIOType
-     * @return GetObject
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetObject
      */
     public function setInIOType($inIOType)
     {
-        $this->inIOType = $inIOType;
-        return $this;
+      $this->inIOType = $inIOType;
+      return $this;
     }
 
     /**
@@ -173,17 +173,17 @@ class GetObject
      */
     public function getInTrivialPlan()
     {
-        return $this->inTrivialPlan;
+      return $this->inTrivialPlan;
     }
 
     /**
      * @param boolean $inTrivialPlan
-     * @return GetObject
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetObject
      */
     public function setInTrivialPlan($inTrivialPlan)
     {
-        $this->inTrivialPlan = $inTrivialPlan;
-        return $this;
+      $this->inTrivialPlan = $inTrivialPlan;
+      return $this;
     }
 
 }

@@ -3,61 +3,59 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP;
 
 
-use SoapClient;
-
 /**
  * Permission Web Service.
  */
-class Permissions_SSP extends SoapClient
+class Permissions_SSP extends \SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array(
-        'IsAllowed' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\IsAllowed',
-        'IsAllowedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\IsAllowedResponse',
-        'SetAllowed' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\SetAllowed',
-        'SetAllowedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\SetAllowedResponse',
-        'Get' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\Get',
-        'GetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetResponse',
-        'ArrayOfPermission' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfPermission',
-        'Permission' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\Permission',
-        'GetView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetView',
-        'GetViewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetViewResponse',
-        'GetViewResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetViewResult',
-        'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetXMPTblDataSet',
-        'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetXMPTblDataSetResponse',
-        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\XMPTblDataSet',
-        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfXMPTbl',
-        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\XMPTbl',
-        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfXMPTblColumn',
-        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\XMPTblColumn',
-        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfXMPTblRow',
-        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\XMPTblRow',
-        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfXMPRowField',
-        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\XMPRowField',
-        'SetAllowedList' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\SetAllowedList',
-        'SetAllowedListResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\SetAllowedListResponse',
-        'RemoveOverload' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\RemoveOverload',
-        'RemoveOverloadResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\RemoveOverloadResponse',
-        'GetPermittedUsers' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsers',
-        'GetPermittedUsersResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersResponse',
-        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfString',
-        'GetPermittedUsersView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersView',
-        'GetPermittedUsersViewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersViewResponse',
-        'GetPermittedUsersViewResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersViewResult',
-        'GetPermittedUsersXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersXMPTblDataSet',
-        'GetPermittedUsersXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersXMPTblDataSetResponse',
-        'LockResource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\LockResource',
-        'LockResourceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\LockResourceResponse',
-        'UnLockResource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\UnLockResource',
-        'UnLockResourceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\UnLockResourceResponse',
-        'IsResourceLocked' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\IsResourceLocked',
-        'IsResourceLockedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\IsResourceLockedResponse',
-        'GetResourceLockingUserName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetResourceLockingUserName',
-        'GetResourceLockingUserNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetResourceLockingUserNameResponse',
-    );
+    private static $classmap = array (
+  'IsAllowed' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\IsAllowed',
+  'IsAllowedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\IsAllowedResponse',
+  'SetAllowed' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\SetAllowed',
+  'SetAllowedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\SetAllowedResponse',
+  'Get' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\Get',
+  'GetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetResponse',
+  'ArrayOfPermission' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfPermission',
+  'Permission' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\Permission',
+  'GetView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetView',
+  'GetViewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetViewResponse',
+  'GetViewResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetViewResult',
+  'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetXMPTblDataSet',
+  'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetXMPTblDataSetResponse',
+  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\XMPTblDataSet',
+  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfXMPTbl',
+  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\XMPTbl',
+  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfXMPTblColumn',
+  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\XMPTblColumn',
+  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfXMPTblRow',
+  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\XMPTblRow',
+  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfXMPRowField',
+  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\XMPRowField',
+  'SetAllowedList' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\SetAllowedList',
+  'SetAllowedListResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\SetAllowedListResponse',
+  'RemoveOverload' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\RemoveOverload',
+  'RemoveOverloadResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\RemoveOverloadResponse',
+  'GetPermittedUsers' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsers',
+  'GetPermittedUsersResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersResponse',
+  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\ArrayOfString',
+  'GetPermittedUsersView' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersView',
+  'GetPermittedUsersViewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersViewResponse',
+  'GetPermittedUsersViewResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersViewResult',
+  'GetPermittedUsersXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersXMPTblDataSet',
+  'GetPermittedUsersXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetPermittedUsersXMPTblDataSetResponse',
+  'LockResource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\LockResource',
+  'LockResourceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\LockResourceResponse',
+  'UnLockResource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\UnLockResource',
+  'UnLockResourceResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\UnLockResourceResponse',
+  'IsResourceLocked' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\IsResourceLocked',
+  'IsResourceLockedResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\IsResourceLockedResponse',
+  'GetResourceLockingUserName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetResourceLockingUserName',
+  'GetResourceLockingUserNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\Permissions_SSP\\GetResourceLockingUserNameResponse',
+);
 
     /**
      * @param array $options A array of config values
@@ -66,19 +64,19 @@ class Permissions_SSP extends SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-
-        foreach (self::$classmap as $key => $value) {
-            if (!isset($options['classmap'][$key])) {
-                $options['classmap'][$key] = $value;
-            }
-        }
-        $options = array_merge(array(
-            'features' => 1,
-        ), $options);
-        if (!$wsdl) {
-            $wsdl = 'http://localhost/xmpiewsapi/Permissions_SSP.asmx?wsdl';
-        }
-        parent::__construct($wsdl, $options);
+    
+  foreach (self::$classmap as $key => $value) {
+    if (!isset($options['classmap'][$key])) {
+      $options['classmap'][$key] = $value;
+    }
+  }
+      $options = array_merge(array (
+  'features' => 1,
+), $options);
+      if (!$wsdl) {
+        $wsdl = 'http://localhost/xmpiewsapi/Permissions_SSP.asmx?wsdl';
+      }
+      parent::__construct($wsdl, $options);
     }
 
     /**
@@ -89,7 +87,7 @@ class Permissions_SSP extends SoapClient
      */
     public function IsAllowed(IsAllowed $parameters)
     {
-        return $this->__soapCall('IsAllowed', array($parameters));
+      return $this->__soapCall('IsAllowed', array($parameters));
     }
 
     /**
@@ -100,7 +98,7 @@ class Permissions_SSP extends SoapClient
      */
     public function SetAllowed(SetAllowed $parameters)
     {
-        return $this->__soapCall('SetAllowed', array($parameters));
+      return $this->__soapCall('SetAllowed', array($parameters));
     }
 
     /**
@@ -111,7 +109,7 @@ class Permissions_SSP extends SoapClient
      */
     public function Get(Get $parameters)
     {
-        return $this->__soapCall('Get', array($parameters));
+      return $this->__soapCall('Get', array($parameters));
     }
 
     /**
@@ -122,7 +120,7 @@ class Permissions_SSP extends SoapClient
      */
     public function GetView(GetView $parameters)
     {
-        return $this->__soapCall('GetView', array($parameters));
+      return $this->__soapCall('GetView', array($parameters));
     }
 
     /**
@@ -133,7 +131,7 @@ class Permissions_SSP extends SoapClient
      */
     public function GetXMPTblDataSet(GetXMPTblDataSet $parameters)
     {
-        return $this->__soapCall('GetXMPTblDataSet', array($parameters));
+      return $this->__soapCall('GetXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -144,7 +142,7 @@ class Permissions_SSP extends SoapClient
      */
     public function SetAllowedList(SetAllowedList $parameters)
     {
-        return $this->__soapCall('SetAllowedList', array($parameters));
+      return $this->__soapCall('SetAllowedList', array($parameters));
     }
 
     /**
@@ -155,7 +153,7 @@ class Permissions_SSP extends SoapClient
      */
     public function RemoveOverload(RemoveOverload $parameters)
     {
-        return $this->__soapCall('RemoveOverload', array($parameters));
+      return $this->__soapCall('RemoveOverload', array($parameters));
     }
 
     /**
@@ -166,7 +164,7 @@ class Permissions_SSP extends SoapClient
      */
     public function GetPermittedUsers(GetPermittedUsers $parameters)
     {
-        return $this->__soapCall('GetPermittedUsers', array($parameters));
+      return $this->__soapCall('GetPermittedUsers', array($parameters));
     }
 
     /**
@@ -177,7 +175,7 @@ class Permissions_SSP extends SoapClient
      */
     public function GetPermittedUsersView(GetPermittedUsersView $parameters)
     {
-        return $this->__soapCall('GetPermittedUsersView', array($parameters));
+      return $this->__soapCall('GetPermittedUsersView', array($parameters));
     }
 
     /**
@@ -188,7 +186,7 @@ class Permissions_SSP extends SoapClient
      */
     public function GetPermittedUsersXMPTblDataSet(GetPermittedUsersXMPTblDataSet $parameters)
     {
-        return $this->__soapCall('GetPermittedUsersXMPTblDataSet', array($parameters));
+      return $this->__soapCall('GetPermittedUsersXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -199,7 +197,7 @@ class Permissions_SSP extends SoapClient
      */
     public function LockResource(LockResource $parameters)
     {
-        return $this->__soapCall('LockResource', array($parameters));
+      return $this->__soapCall('LockResource', array($parameters));
     }
 
     /**
@@ -210,7 +208,7 @@ class Permissions_SSP extends SoapClient
      */
     public function UnLockResource(UnLockResource $parameters)
     {
-        return $this->__soapCall('UnLockResource', array($parameters));
+      return $this->__soapCall('UnLockResource', array($parameters));
     }
 
     /**
@@ -221,7 +219,7 @@ class Permissions_SSP extends SoapClient
      */
     public function IsResourceLocked(IsResourceLocked $parameters)
     {
-        return $this->__soapCall('IsResourceLocked', array($parameters));
+      return $this->__soapCall('IsResourceLocked', array($parameters));
     }
 
     /**
@@ -232,7 +230,7 @@ class Permissions_SSP extends SoapClient
      */
     public function GetResourceLockingUserName(GetResourceLockingUserName $parameters)
     {
-        return $this->__soapCall('GetResourceLockingUserName', array($parameters));
+      return $this->__soapCall('GetResourceLockingUserName', array($parameters));
     }
 
 }

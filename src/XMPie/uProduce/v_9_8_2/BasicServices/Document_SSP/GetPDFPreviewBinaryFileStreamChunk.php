@@ -39,11 +39,11 @@ class GetPDFPreviewBinaryFileStreamChunk
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inOffset = null, $inoutCount = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDocumentID = $inDocumentID;
-        $this->inOffset = $inOffset;
-        $this->inoutCount = $inoutCount;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDocumentID = $inDocumentID;
+      $this->inOffset = $inOffset;
+      $this->inoutCount = $inoutCount;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetPDFPreviewBinaryFileStreamChunk
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetPDFPreviewBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewBinaryFileStreamChunk
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetPDFPreviewBinaryFileStreamChunk
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetPDFPreviewBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewBinaryFileStreamChunk
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetPDFPreviewBinaryFileStreamChunk
      */
     public function getInDocumentID()
     {
-        return $this->inDocumentID;
+      return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return GetPDFPreviewBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewBinaryFileStreamChunk
      */
     public function setInDocumentID($inDocumentID)
     {
-        $this->inDocumentID = $inDocumentID;
-        return $this;
+      $this->inDocumentID = $inDocumentID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetPDFPreviewBinaryFileStreamChunk
      */
     public function getInOffset()
     {
-        return $this->inOffset;
+      return $this->inOffset;
     }
 
     /**
      * @param int $inOffset
-     * @return GetPDFPreviewBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewBinaryFileStreamChunk
      */
     public function setInOffset($inOffset)
     {
-        $this->inOffset = $inOffset;
-        return $this;
+      $this->inOffset = $inOffset;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetPDFPreviewBinaryFileStreamChunk
      */
     public function getInoutCount()
     {
-        return $this->inoutCount;
+      return $this->inoutCount;
     }
 
     /**
      * @param int $inoutCount
-     * @return GetPDFPreviewBinaryFileStreamChunk
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetPDFPreviewBinaryFileStreamChunk
      */
     public function setInoutCount($inoutCount)
     {
-        $this->inoutCount = $inoutCount;
-        return $this;
+      $this->inoutCount = $inoutCount;
+      return $this;
     }
 
 }

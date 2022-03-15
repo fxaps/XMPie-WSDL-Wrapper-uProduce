@@ -15,7 +15,7 @@ class GetUMailTemplateResponse
      */
     public function __construct($GetUMailTemplateResult = null)
     {
-        $this->GetUMailTemplateResult = $GetUMailTemplateResult;
+      $this->GetUMailTemplateResult = $GetUMailTemplateResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUMailTemplateResponse
      */
     public function getGetUMailTemplateResult()
     {
-        return $this->GetUMailTemplateResult;
+      return $this->GetUMailTemplateResult;
     }
 
     /**
      * @param string $GetUMailTemplateResult
-     * @return GetUMailTemplateResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetUMailTemplateResponse
      */
     public function setGetUMailTemplateResult($GetUMailTemplateResult)
     {
-        $this->GetUMailTemplateResult = $GetUMailTemplateResult;
-        return $this;
+      $this->GetUMailTemplateResult = $GetUMailTemplateResult;
+      return $this;
     }
 
 }

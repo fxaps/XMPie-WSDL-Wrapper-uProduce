@@ -15,7 +15,7 @@ class GetPortLinkAccountResponse
      */
     public function __construct($GetPortLinkAccountResult = null)
     {
-        $this->GetPortLinkAccountResult = $GetPortLinkAccountResult;
+      $this->GetPortLinkAccountResult = $GetPortLinkAccountResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPortLinkAccountResponse
      */
     public function getGetPortLinkAccountResult()
     {
-        return $this->GetPortLinkAccountResult;
+      return $this->GetPortLinkAccountResult;
     }
 
     /**
      * @param string $GetPortLinkAccountResult
-     * @return GetPortLinkAccountResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetPortLinkAccountResponse
      */
     public function setGetPortLinkAccountResult($GetPortLinkAccountResult)
     {
-        $this->GetPortLinkAccountResult = $GetPortLinkAccountResult;
-        return $this;
+      $this->GetPortLinkAccountResult = $GetPortLinkAccountResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetDataSetResponse
      */
     public function __construct($GetDataSetResult = null)
     {
-        $this->GetDataSetResult = $GetDataSetResult;
+      $this->GetDataSetResult = $GetDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDataSetResponse
      */
     public function getGetDataSetResult()
     {
-        return $this->GetDataSetResult;
+      return $this->GetDataSetResult;
     }
 
     /**
      * @param GetDataSetResult $GetDataSetResult
-     * @return GetDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetDataSetResponse
      */
     public function setGetDataSetResult($GetDataSetResult)
     {
-        $this->GetDataSetResult = $GetDataSetResult;
-        return $this;
+      $this->GetDataSetResult = $GetDataSetResult;
+      return $this;
     }
 
 }

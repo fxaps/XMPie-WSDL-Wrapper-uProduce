@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
+class ArrayOfPlanAudienceSegment implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     protected $PlanAudienceSegment = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function getPlanAudienceSegment()
     {
-        return $this->PlanAudienceSegment;
+      return $this->PlanAudienceSegment;
     }
 
     /**
      * @param PlanAudienceSegment[] $PlanAudienceSegment
-     * @return ArrayOfPlanAudienceSegment
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\ArrayOfPlanAudienceSegment
      */
     public function setPlanAudienceSegment(array $PlanAudienceSegment = null)
     {
-        $this->PlanAudienceSegment = $PlanAudienceSegment;
-        return $this;
+      $this->PlanAudienceSegment = $PlanAudienceSegment;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->PlanAudienceSegment[$offset]);
+      return isset($this->PlanAudienceSegment[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->PlanAudienceSegment[$offset];
+      return $this->PlanAudienceSegment[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->PlanAudienceSegment[] = $value;
-        } else {
-            $this->PlanAudienceSegment[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->PlanAudienceSegment[] = $value;
+      } else {
+        $this->PlanAudienceSegment[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->PlanAudienceSegment[$offset]);
+      unset($this->PlanAudienceSegment[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->PlanAudienceSegment);
+      return current($this->PlanAudienceSegment);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->PlanAudienceSegment);
+      next($this->PlanAudienceSegment);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->PlanAudienceSegment);
+      return key($this->PlanAudienceSegment);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->PlanAudienceSegment);
+      reset($this->PlanAudienceSegment);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfPlanAudienceSegment implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->PlanAudienceSegment);
+      return count($this->PlanAudienceSegment);
     }
 
 }

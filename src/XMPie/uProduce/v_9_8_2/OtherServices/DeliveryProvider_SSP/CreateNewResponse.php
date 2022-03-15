@@ -15,7 +15,7 @@ class CreateNewResponse
      */
     public function __construct($CreateNewResult = null)
     {
-        $this->CreateNewResult = $CreateNewResult;
+      $this->CreateNewResult = $CreateNewResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewResponse
      */
     public function getCreateNewResult()
     {
-        return $this->CreateNewResult;
+      return $this->CreateNewResult;
     }
 
     /**
      * @param string $CreateNewResult
-     * @return CreateNewResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\CreateNewResponse
      */
     public function setCreateNewResult($CreateNewResult)
     {
-        $this->CreateNewResult = $CreateNewResult;
-        return $this;
+      $this->CreateNewResult = $CreateNewResult;
+      return $this;
     }
 
 }

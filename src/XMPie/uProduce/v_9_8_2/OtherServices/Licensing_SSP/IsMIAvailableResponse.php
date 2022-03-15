@@ -15,7 +15,7 @@ class IsMIAvailableResponse
      */
     public function __construct($IsMIAvailableResult = null)
     {
-        $this->IsMIAvailableResult = $IsMIAvailableResult;
+      $this->IsMIAvailableResult = $IsMIAvailableResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsMIAvailableResponse
      */
     public function getIsMIAvailableResult()
     {
-        return $this->IsMIAvailableResult;
+      return $this->IsMIAvailableResult;
     }
 
     /**
      * @param boolean $IsMIAvailableResult
-     * @return IsMIAvailableResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\IsMIAvailableResponse
      */
     public function setIsMIAvailableResult($IsMIAvailableResult)
     {
-        $this->IsMIAvailableResult = $IsMIAvailableResult;
-        return $this;
+      $this->IsMIAvailableResult = $IsMIAvailableResult;
+      return $this;
     }
 
 }

@@ -27,9 +27,9 @@ class GetStatus
      */
     public function __construct($inUsername = null, $inPassword = null, $inTransactionId = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTransactionId = $inTransactionId;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTransactionId = $inTransactionId;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetStatus
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetStatus
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetStatus
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetStatus
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetStatus
      */
     public function getInTransactionId()
     {
-        return $this->inTransactionId;
+      return $this->inTransactionId;
     }
 
     /**
      * @param string $inTransactionId
-     * @return GetStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetStatus
      */
     public function setInTransactionId($inTransactionId)
     {
-        $this->inTransactionId = $inTransactionId;
-        return $this;
+      $this->inTransactionId = $inTransactionId;
+      return $this;
     }
 
 }

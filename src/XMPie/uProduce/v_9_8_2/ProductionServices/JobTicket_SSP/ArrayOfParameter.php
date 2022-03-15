@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfParameter implements ArrayAccess, Iterator, Countable
+class ArrayOfParameter implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     protected $Parameter = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function getParameter()
     {
-        return $this->Parameter;
+      return $this->Parameter;
     }
 
     /**
      * @param Parameter[] $Parameter
-     * @return ArrayOfParameter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\ArrayOfParameter
      */
     public function setParameter(array $Parameter = null)
     {
-        $this->Parameter = $Parameter;
-        return $this;
+      $this->Parameter = $Parameter;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->Parameter[$offset]);
+      return isset($this->Parameter[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->Parameter[$offset];
+      return $this->Parameter[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->Parameter[] = $value;
-        } else {
-            $this->Parameter[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->Parameter[] = $value;
+      } else {
+        $this->Parameter[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->Parameter[$offset]);
+      unset($this->Parameter[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->Parameter);
+      return current($this->Parameter);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->Parameter);
+      next($this->Parameter);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->Parameter);
+      return key($this->Parameter);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->Parameter);
+      reset($this->Parameter);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfParameter implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->Parameter);
+      return count($this->Parameter);
     }
 
 }

@@ -15,7 +15,7 @@ class GetDataSourcesDataSetResponse
      */
     public function __construct($GetDataSourcesDataSetResult = null)
     {
-        $this->GetDataSourcesDataSetResult = $GetDataSourcesDataSetResult;
+      $this->GetDataSourcesDataSetResult = $GetDataSourcesDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDataSourcesDataSetResponse
      */
     public function getGetDataSourcesDataSetResult()
     {
-        return $this->GetDataSourcesDataSetResult;
+      return $this->GetDataSourcesDataSetResult;
     }
 
     /**
      * @param GetDataSourcesDataSetResult $GetDataSourcesDataSetResult
-     * @return GetDataSourcesDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetDataSourcesDataSetResponse
      */
     public function setGetDataSourcesDataSetResult($GetDataSourcesDataSetResult)
     {
-        $this->GetDataSourcesDataSetResult = $GetDataSourcesDataSetResult;
-        return $this;
+      $this->GetDataSourcesDataSetResult = $GetDataSourcesDataSetResult;
+      return $this;
     }
 
 }

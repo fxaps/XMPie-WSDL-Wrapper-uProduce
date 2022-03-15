@@ -57,14 +57,14 @@ class CreateNew
      */
     public function __construct($inUsername = null, $inPassword = null, $inName = null, $inPluralFormName = null, $inAbbreviation = null, $inConversionNumerator = null, $inConversionDenominator = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inName = $inName;
-        $this->inPluralFormName = $inPluralFormName;
-        $this->inAbbreviation = $inAbbreviation;
-        $this->inConversionNumerator = $inConversionNumerator;
-        $this->inConversionDenominator = $inConversionDenominator;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inName = $inName;
+      $this->inPluralFormName = $inPluralFormName;
+      $this->inAbbreviation = $inAbbreviation;
+      $this->inConversionNumerator = $inConversionNumerator;
+      $this->inConversionDenominator = $inConversionDenominator;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -72,17 +72,17 @@ class CreateNew
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\CreateNew
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class CreateNew
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\CreateNew
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class CreateNew
      */
     public function getInName()
     {
-        return $this->inName;
+      return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\CreateNew
      */
     public function setInName($inName)
     {
-        $this->inName = $inName;
-        return $this;
+      $this->inName = $inName;
+      return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class CreateNew
      */
     public function getInPluralFormName()
     {
-        return $this->inPluralFormName;
+      return $this->inPluralFormName;
     }
 
     /**
      * @param string $inPluralFormName
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\CreateNew
      */
     public function setInPluralFormName($inPluralFormName)
     {
-        $this->inPluralFormName = $inPluralFormName;
-        return $this;
+      $this->inPluralFormName = $inPluralFormName;
+      return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class CreateNew
      */
     public function getInAbbreviation()
     {
-        return $this->inAbbreviation;
+      return $this->inAbbreviation;
     }
 
     /**
      * @param string $inAbbreviation
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\CreateNew
      */
     public function setInAbbreviation($inAbbreviation)
     {
-        $this->inAbbreviation = $inAbbreviation;
-        return $this;
+      $this->inAbbreviation = $inAbbreviation;
+      return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class CreateNew
      */
     public function getInConversionNumerator()
     {
-        return $this->inConversionNumerator;
+      return $this->inConversionNumerator;
     }
 
     /**
      * @param float $inConversionNumerator
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\CreateNew
      */
     public function setInConversionNumerator($inConversionNumerator)
     {
-        $this->inConversionNumerator = $inConversionNumerator;
-        return $this;
+      $this->inConversionNumerator = $inConversionNumerator;
+      return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class CreateNew
      */
     public function getInConversionDenominator()
     {
-        return $this->inConversionDenominator;
+      return $this->inConversionDenominator;
     }
 
     /**
      * @param float $inConversionDenominator
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\CreateNew
      */
     public function setInConversionDenominator($inConversionDenominator)
     {
-        $this->inConversionDenominator = $inConversionDenominator;
-        return $this;
+      $this->inConversionDenominator = $inConversionDenominator;
+      return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class CreateNew
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\CreateNew
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

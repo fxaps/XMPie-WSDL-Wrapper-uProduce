@@ -33,10 +33,10 @@ class RemoveMetaDataGroup
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inGroupName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inGroupName = $inGroupName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inGroupName = $inGroupName;
     }
 
     /**
@@ -44,17 +44,17 @@ class RemoveMetaDataGroup
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return RemoveMetaDataGroup
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveMetaDataGroup
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class RemoveMetaDataGroup
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return RemoveMetaDataGroup
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveMetaDataGroup
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class RemoveMetaDataGroup
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return RemoveMetaDataGroup
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveMetaDataGroup
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class RemoveMetaDataGroup
      */
     public function getInGroupName()
     {
-        return $this->inGroupName;
+      return $this->inGroupName;
     }
 
     /**
      * @param ArrayOfString $inGroupName
-     * @return RemoveMetaDataGroup
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveMetaDataGroup
      */
     public function setInGroupName($inGroupName)
     {
-        $this->inGroupName = $inGroupName;
-        return $this;
+      $this->inGroupName = $inGroupName;
+      return $this;
     }
 
 }

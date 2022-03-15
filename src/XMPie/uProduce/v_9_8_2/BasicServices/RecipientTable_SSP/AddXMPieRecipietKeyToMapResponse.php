@@ -15,7 +15,7 @@ class AddXMPieRecipietKeyToMapResponse
      */
     public function __construct($AddXMPieRecipietKeyToMapResult = null)
     {
-        $this->AddXMPieRecipietKeyToMapResult = $AddXMPieRecipietKeyToMapResult;
+      $this->AddXMPieRecipietKeyToMapResult = $AddXMPieRecipietKeyToMapResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddXMPieRecipietKeyToMapResponse
      */
     public function getAddXMPieRecipietKeyToMapResult()
     {
-        return $this->AddXMPieRecipietKeyToMapResult;
+      return $this->AddXMPieRecipietKeyToMapResult;
     }
 
     /**
      * @param boolean $AddXMPieRecipietKeyToMapResult
-     * @return AddXMPieRecipietKeyToMapResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\RecipientTable_SSP\AddXMPieRecipietKeyToMapResponse
      */
     public function setAddXMPieRecipietKeyToMapResult($AddXMPieRecipietKeyToMapResult)
     {
-        $this->AddXMPieRecipietKeyToMapResult = $AddXMPieRecipietKeyToMapResult;
-        return $this;
+      $this->AddXMPieRecipietKeyToMapResult = $AddXMPieRecipietKeyToMapResult;
+      return $this;
     }
 
 }

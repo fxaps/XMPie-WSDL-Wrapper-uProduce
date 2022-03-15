@@ -27,9 +27,9 @@ class GetCampaign
      */
     public function __construct($inUsername = null, $inPassword = null, $inTouchPointID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTouchPointID = $inTouchPointID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTouchPointID = $inTouchPointID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetCampaign
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\TouchPoint_SSP\GetCampaign
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetCampaign
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\TouchPoint_SSP\GetCampaign
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetCampaign
      */
     public function getInTouchPointID()
     {
-        return $this->inTouchPointID;
+      return $this->inTouchPointID;
     }
 
     /**
      * @param string $inTouchPointID
-     * @return GetCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\TouchPoint_SSP\GetCampaign
      */
     public function setInTouchPointID($inTouchPointID)
     {
-        $this->inTouchPointID = $inTouchPointID;
-        return $this;
+      $this->inTouchPointID = $inTouchPointID;
+      return $this;
     }
 
 }

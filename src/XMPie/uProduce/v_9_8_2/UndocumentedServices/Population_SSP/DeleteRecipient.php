@@ -39,11 +39,11 @@ class DeleteRecipient
      */
     public function __construct($inUsername = null, $inPassword = null, $inPopulationOrContextId = null, $inRecipientID = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPopulationOrContextId = $inPopulationOrContextId;
-        $this->inRecipientID = $inRecipientID;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPopulationOrContextId = $inPopulationOrContextId;
+      $this->inRecipientID = $inRecipientID;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -51,17 +51,17 @@ class DeleteRecipient
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteRecipient
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\DeleteRecipient
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class DeleteRecipient
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteRecipient
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\DeleteRecipient
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class DeleteRecipient
      */
     public function getInPopulationOrContextId()
     {
-        return $this->inPopulationOrContextId;
+      return $this->inPopulationOrContextId;
     }
 
     /**
      * @param string $inPopulationOrContextId
-     * @return DeleteRecipient
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\DeleteRecipient
      */
     public function setInPopulationOrContextId($inPopulationOrContextId)
     {
-        $this->inPopulationOrContextId = $inPopulationOrContextId;
-        return $this;
+      $this->inPopulationOrContextId = $inPopulationOrContextId;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class DeleteRecipient
      */
     public function getInRecipientID()
     {
-        return $this->inRecipientID;
+      return $this->inRecipientID;
     }
 
     /**
      * @param string $inRecipientID
-     * @return DeleteRecipient
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\DeleteRecipient
      */
     public function setInRecipientID($inRecipientID)
     {
-        $this->inRecipientID = $inRecipientID;
-        return $this;
+      $this->inRecipientID = $inRecipientID;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class DeleteRecipient
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return DeleteRecipient
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\DeleteRecipient
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

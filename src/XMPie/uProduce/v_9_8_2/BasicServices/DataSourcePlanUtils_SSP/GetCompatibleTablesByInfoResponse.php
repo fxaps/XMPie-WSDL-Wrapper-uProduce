@@ -15,7 +15,7 @@ class GetCompatibleTablesByInfoResponse
      */
     public function __construct($GetCompatibleTablesByInfoResult = null)
     {
-        $this->GetCompatibleTablesByInfoResult = $GetCompatibleTablesByInfoResult;
+      $this->GetCompatibleTablesByInfoResult = $GetCompatibleTablesByInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCompatibleTablesByInfoResponse
      */
     public function getGetCompatibleTablesByInfoResult()
     {
-        return $this->GetCompatibleTablesByInfoResult;
+      return $this->GetCompatibleTablesByInfoResult;
     }
 
     /**
      * @param ArrayOfString $GetCompatibleTablesByInfoResult
-     * @return GetCompatibleTablesByInfoResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetCompatibleTablesByInfoResponse
      */
     public function setGetCompatibleTablesByInfoResult($GetCompatibleTablesByInfoResult)
     {
-        $this->GetCompatibleTablesByInfoResult = $GetCompatibleTablesByInfoResult;
-        return $this;
+      $this->GetCompatibleTablesByInfoResult = $GetCompatibleTablesByInfoResult;
+      return $this;
     }
 
 }

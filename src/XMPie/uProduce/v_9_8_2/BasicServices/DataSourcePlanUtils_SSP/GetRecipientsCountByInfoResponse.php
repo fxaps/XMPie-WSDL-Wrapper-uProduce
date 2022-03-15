@@ -15,7 +15,7 @@ class GetRecipientsCountByInfoResponse
      */
     public function __construct($GetRecipientsCountByInfoResult = null)
     {
-        $this->GetRecipientsCountByInfoResult = $GetRecipientsCountByInfoResult;
+      $this->GetRecipientsCountByInfoResult = $GetRecipientsCountByInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetRecipientsCountByInfoResponse
      */
     public function getGetRecipientsCountByInfoResult()
     {
-        return $this->GetRecipientsCountByInfoResult;
+      return $this->GetRecipientsCountByInfoResult;
     }
 
     /**
      * @param int $GetRecipientsCountByInfoResult
-     * @return GetRecipientsCountByInfoResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\GetRecipientsCountByInfoResponse
      */
     public function setGetRecipientsCountByInfoResult($GetRecipientsCountByInfoResult)
     {
-        $this->GetRecipientsCountByInfoResult = $GetRecipientsCountByInfoResult;
-        return $this;
+      $this->GetRecipientsCountByInfoResult = $GetRecipientsCountByInfoResult;
+      return $this;
     }
 
 }

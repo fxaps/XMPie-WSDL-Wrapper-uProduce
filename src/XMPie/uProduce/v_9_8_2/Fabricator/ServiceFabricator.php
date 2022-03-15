@@ -29,7 +29,6 @@ use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\Licensing
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\Permissions_SSP;
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\TouchPoint_SSP\TouchPoint_SSP;
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\Tracker_SSP;
-use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\SystemManager_SSP\SystemManager_SSP;
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\Job_SSP;
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\Jobs_SSP;
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\JobTicket_SSP;
@@ -46,6 +45,7 @@ use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvide
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\Population_SSP;
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ProductionQueue_SSP\ProductionQueue_SSP;
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\SheetSize_SSP;
+use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SystemManager_SSP\SystemManager_SSP;
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\UpdateDataSource_SSP;
 use XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\XMPieInternalAPI_SSP\XMPieInternalAPI_SSP;
 
@@ -101,12 +101,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Destination_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Destination_SSP
+    * @throws SoapFault
+    */
     public function Destination_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Destination_SSP.asmx?wsdl";
@@ -127,12 +127,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return User_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return User_SSP
+    * @throws SoapFault
+    */
     public function User_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/User_SSP.asmx?wsdl";
@@ -153,12 +153,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Account_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Account_SSP
+    * @throws SoapFault
+    */
     public function Account_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Account_SSP.asmx?wsdl";
@@ -179,12 +179,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Asset_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Asset_SSP
+    * @throws SoapFault
+    */
     public function Asset_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Asset_SSP.asmx?wsdl";
@@ -205,12 +205,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return AssetSource_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return AssetSource_SSP
+    * @throws SoapFault
+    */
     public function AssetSource_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/AssetSource_SSP.asmx?wsdl";
@@ -231,12 +231,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return AssetSourceUtils_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return AssetSourceUtils_SSP
+    * @throws SoapFault
+    */
     public function AssetSourceUtils_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/AssetSourceUtils_SSP.asmx?wsdl";
@@ -257,12 +257,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Campaign_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Campaign_SSP
+    * @throws SoapFault
+    */
     public function Campaign_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Campaign_SSP.asmx?wsdl";
@@ -283,12 +283,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Customer_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Customer_SSP
+    * @throws SoapFault
+    */
     public function Customer_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Customer_SSP.asmx?wsdl";
@@ -309,12 +309,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return DataSource_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return DataSource_SSP
+    * @throws SoapFault
+    */
     public function DataSource_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/DataSource_SSP.asmx?wsdl";
@@ -335,12 +335,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return DataSourcePlanUtils_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return DataSourcePlanUtils_SSP
+    * @throws SoapFault
+    */
     public function DataSourcePlanUtils_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/DataSourcePlanUtils_SSP.asmx?wsdl";
@@ -361,12 +361,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Document_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Document_SSP
+    * @throws SoapFault
+    */
     public function Document_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Document_SSP.asmx?wsdl";
@@ -387,12 +387,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Font_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Font_SSP
+    * @throws SoapFault
+    */
     public function Font_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Font_SSP.asmx?wsdl";
@@ -413,12 +413,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Plan_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Plan_SSP
+    * @throws SoapFault
+    */
     public function Plan_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Plan_SSP.asmx?wsdl";
@@ -439,12 +439,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return PlanUtils_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return PlanUtils_SSP
+    * @throws SoapFault
+    */
     public function PlanUtils_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/PlanUtils_SSP.asmx?wsdl";
@@ -465,12 +465,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return RecipientTable_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return RecipientTable_SSP
+    * @throws SoapFault
+    */
     public function RecipientTable_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/RecipientTable_SSP.asmx?wsdl";
@@ -491,12 +491,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return TempStorage_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return TempStorage_SSP
+    * @throws SoapFault
+    */
     public function TempStorage_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/TempStorage_SSP.asmx?wsdl";
@@ -517,12 +517,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return DeliveryProvider_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return DeliveryProvider_SSP
+    * @throws SoapFault
+    */
     public function DeliveryProvider_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/DeliveryProvider_SSP.asmx?wsdl";
@@ -543,12 +543,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return EmailMarketing_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return EmailMarketing_SSP
+    * @throws SoapFault
+    */
     public function EmailMarketing_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/EmailMarketing_SSP.asmx?wsdl";
@@ -569,12 +569,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return GeneralUtils_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return GeneralUtils_SSP
+    * @throws SoapFault
+    */
     public function GeneralUtils_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/GeneralUtils_SSP.asmx?wsdl";
@@ -595,12 +595,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return InteractiveCampaign_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return InteractiveCampaign_SSP
+    * @throws SoapFault
+    */
     public function InteractiveCampaign_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/InteractiveCampaign_SSP.asmx?wsdl";
@@ -621,12 +621,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Licensing_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Licensing_SSP
+    * @throws SoapFault
+    */
     public function Licensing_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Licensing_SSP.asmx?wsdl";
@@ -647,12 +647,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Permissions_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Permissions_SSP
+    * @throws SoapFault
+    */
     public function Permissions_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Permissions_SSP.asmx?wsdl";
@@ -673,12 +673,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return TouchPoint_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return TouchPoint_SSP
+    * @throws SoapFault
+    */
     public function TouchPoint_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/TouchPoint_SSP.asmx?wsdl";
@@ -699,12 +699,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Tracker_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Tracker_SSP
+    * @throws SoapFault
+    */
     public function Tracker_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Tracker_SSP.asmx?wsdl";
@@ -725,38 +725,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return SystemManager_SSP
-     * @throws SoapFault
-     */
-    public function SystemManager_SSP($options = null, $serverUrl = null)
-    {
-        $append = "xmpiewsapi/SystemManager_SSP.asmx?wsdl";
-
-        if ($options) {
-            $options = array_merge($this->options, $options);
-        } else {
-            $options = $this->getOptions();
-        }
-
-        if ($serverUrl) {
-            $serverUrl = Formatter::fixServerUrl($serverUrl) . $append;
-        } else {
-            $serverUrl = $this->getUProduceUrl() . $append;
-        }
-
-        return new SystemManager_SSP($options, $serverUrl);
-    }
-
-
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Job_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Job_SSP
+    * @throws SoapFault
+    */
     public function Job_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Job_SSP.asmx?wsdl";
@@ -777,12 +751,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Jobs_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Jobs_SSP
+    * @throws SoapFault
+    */
     public function Jobs_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Jobs_SSP.asmx?wsdl";
@@ -803,12 +777,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return JobTicket_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return JobTicket_SSP
+    * @throws SoapFault
+    */
     public function JobTicket_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/JobTicket_SSP.asmx?wsdl";
@@ -829,12 +803,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Production_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Production_SSP
+    * @throws SoapFault
+    */
     public function Production_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Production_SSP.asmx?wsdl";
@@ -855,12 +829,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return AccountDataSource_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return AccountDataSource_SSP
+    * @throws SoapFault
+    */
     public function AccountDataSource_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/AccountDataSource_SSP.asmx?wsdl";
@@ -881,12 +855,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return ConfigFile_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return ConfigFile_SSP
+    * @throws SoapFault
+    */
     public function ConfigFile_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/ConfigFile_SSP.asmx?wsdl";
@@ -907,12 +881,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return CustomButton_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return CustomButton_SSP
+    * @throws SoapFault
+    */
     public function CustomButton_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/CustomButton_SSP.asmx?wsdl";
@@ -933,12 +907,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return EmailServices_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return EmailServices_SSP
+    * @throws SoapFault
+    */
     public function EmailServices_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/EmailServices_SSP.asmx?wsdl";
@@ -959,12 +933,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return JobMessage_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return JobMessage_SSP
+    * @throws SoapFault
+    */
     public function JobMessage_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/JobMessage_SSP.asmx?wsdl";
@@ -985,12 +959,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return MeasurementUnit_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return MeasurementUnit_SSP
+    * @throws SoapFault
+    */
     public function MeasurementUnit_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/MeasurementUnit_SSP.asmx?wsdl";
@@ -1011,12 +985,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return MessagesUtils_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return MessagesUtils_SSP
+    * @throws SoapFault
+    */
     public function MessagesUtils_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/MessagesUtils_SSP.asmx?wsdl";
@@ -1037,12 +1011,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return PermissionsEx_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return PermissionsEx_SSP
+    * @throws SoapFault
+    */
     public function PermissionsEx_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/PermissionsEx_SSP.asmx?wsdl";
@@ -1063,12 +1037,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return PlanPartsProvider_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return PlanPartsProvider_SSP
+    * @throws SoapFault
+    */
     public function PlanPartsProvider_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/PlanPartsProvider_SSP.asmx?wsdl";
@@ -1089,12 +1063,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return Population_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return Population_SSP
+    * @throws SoapFault
+    */
     public function Population_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/Population_SSP.asmx?wsdl";
@@ -1115,12 +1089,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return ProductionQueue_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return ProductionQueue_SSP
+    * @throws SoapFault
+    */
     public function ProductionQueue_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/ProductionQueue_SSP.asmx?wsdl";
@@ -1141,12 +1115,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return SheetSize_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return SheetSize_SSP
+    * @throws SoapFault
+    */
     public function SheetSize_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/SheetSize_SSP.asmx?wsdl";
@@ -1167,12 +1141,38 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return UpdateDataSource_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return SystemManager_SSP
+    * @throws SoapFault
+    */
+    public function SystemManager_SSP($options = null, $serverUrl = null)
+    {
+        $append = "xmpiewsapi/SystemManager_SSP.asmx?wsdl";
+
+        if ($options) {
+            $options = array_merge($this->options, $options);
+        } else {
+            $options = $this->getOptions();
+        }
+
+        if ($serverUrl) {
+            $serverUrl = Formatter::fixServerUrl($serverUrl) . $append;
+        } else {
+            $serverUrl = $this->getUProduceUrl() . $append;
+        }
+
+        return new SystemManager_SSP($options, $serverUrl);
+    }
+
+
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return UpdateDataSource_SSP
+    * @throws SoapFault
+    */
     public function UpdateDataSource_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/UpdateDataSource_SSP.asmx?wsdl";
@@ -1193,12 +1193,12 @@ class ServiceFabricator
     }
 
 
-    /**
-     * @param null|array $options
-     * @param null|string $serverUrl
-     * @return XMPieInternalAPI_SSP
-     * @throws SoapFault
-     */
+   /**
+    * @param null|array $options
+    * @param null|string $serverUrl
+    * @return XMPieInternalAPI_SSP
+    * @throws SoapFault
+    */
     public function XMPieInternalAPI_SSP($options = null, $serverUrl = null)
     {
         $append = "xmpiewsapi/XMPieInternalAPI_SSP.asmx?wsdl";
@@ -1217,6 +1217,7 @@ class ServiceFabricator
 
         return new XMPieInternalAPI_SSP($options, $serverUrl);
     }
+
 
 
 }

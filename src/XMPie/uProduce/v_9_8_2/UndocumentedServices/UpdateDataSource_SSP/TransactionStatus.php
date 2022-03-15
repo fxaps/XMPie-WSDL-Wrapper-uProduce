@@ -48,10 +48,10 @@ class TransactionStatus
      */
     public function __construct($m_TransactionType = null, $m_state = null, $recipientsDoneSuccessfully = null, $recipientsFailed = null)
     {
-        $this->m_TransactionType = $m_TransactionType;
-        $this->m_state = $m_state;
-        $this->recipientsDoneSuccessfully = $recipientsDoneSuccessfully;
-        $this->recipientsFailed = $recipientsFailed;
+      $this->m_TransactionType = $m_TransactionType;
+      $this->m_state = $m_state;
+      $this->recipientsDoneSuccessfully = $recipientsDoneSuccessfully;
+      $this->recipientsFailed = $recipientsFailed;
     }
 
     /**
@@ -59,17 +59,17 @@ class TransactionStatus
      */
     public function getM_TransactionType()
     {
-        return $this->m_TransactionType;
+      return $this->m_TransactionType;
     }
 
     /**
      * @param TransactionType $m_TransactionType
-     * @return TransactionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\TransactionStatus
      */
     public function setM_TransactionType($m_TransactionType)
     {
-        $this->m_TransactionType = $m_TransactionType;
-        return $this;
+      $this->m_TransactionType = $m_TransactionType;
+      return $this;
     }
 
     /**
@@ -77,17 +77,17 @@ class TransactionStatus
      */
     public function getM_state()
     {
-        return $this->m_state;
+      return $this->m_state;
     }
 
     /**
      * @param TransactionState $m_state
-     * @return TransactionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\TransactionStatus
      */
     public function setM_state($m_state)
     {
-        $this->m_state = $m_state;
-        return $this;
+      $this->m_state = $m_state;
+      return $this;
     }
 
     /**
@@ -95,17 +95,17 @@ class TransactionStatus
      */
     public function getM_elaborateErrorMessage()
     {
-        return $this->m_elaborateErrorMessage;
+      return $this->m_elaborateErrorMessage;
     }
 
     /**
      * @param string $m_elaborateErrorMessage
-     * @return TransactionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\TransactionStatus
      */
     public function setM_elaborateErrorMessage($m_elaborateErrorMessage)
     {
-        $this->m_elaborateErrorMessage = $m_elaborateErrorMessage;
-        return $this;
+      $this->m_elaborateErrorMessage = $m_elaborateErrorMessage;
+      return $this;
     }
 
     /**
@@ -113,17 +113,17 @@ class TransactionStatus
      */
     public function getRecipientsDoneSuccessfully()
     {
-        return $this->recipientsDoneSuccessfully;
+      return $this->recipientsDoneSuccessfully;
     }
 
     /**
      * @param int $recipientsDoneSuccessfully
-     * @return TransactionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\TransactionStatus
      */
     public function setRecipientsDoneSuccessfully($recipientsDoneSuccessfully)
     {
-        $this->recipientsDoneSuccessfully = $recipientsDoneSuccessfully;
-        return $this;
+      $this->recipientsDoneSuccessfully = $recipientsDoneSuccessfully;
+      return $this;
     }
 
     /**
@@ -131,17 +131,17 @@ class TransactionStatus
      */
     public function getRecipientsFailed()
     {
-        return $this->recipientsFailed;
+      return $this->recipientsFailed;
     }
 
     /**
      * @param int $recipientsFailed
-     * @return TransactionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\TransactionStatus
      */
     public function setRecipientsFailed($recipientsFailed)
     {
-        $this->recipientsFailed = $recipientsFailed;
-        return $this;
+      $this->recipientsFailed = $recipientsFailed;
+      return $this;
     }
 
     /**
@@ -149,17 +149,17 @@ class TransactionStatus
      */
     public function getSucceededRecipientsInfoFile()
     {
-        return $this->SucceededRecipientsInfoFile;
+      return $this->SucceededRecipientsInfoFile;
     }
 
     /**
      * @param string $SucceededRecipientsInfoFile
-     * @return TransactionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\TransactionStatus
      */
     public function setSucceededRecipientsInfoFile($SucceededRecipientsInfoFile)
     {
-        $this->SucceededRecipientsInfoFile = $SucceededRecipientsInfoFile;
-        return $this;
+      $this->SucceededRecipientsInfoFile = $SucceededRecipientsInfoFile;
+      return $this;
     }
 
     /**
@@ -167,17 +167,17 @@ class TransactionStatus
      */
     public function getFailedRecipientsInfoFile()
     {
-        return $this->FailedRecipientsInfoFile;
+      return $this->FailedRecipientsInfoFile;
     }
 
     /**
      * @param string $FailedRecipientsInfoFile
-     * @return TransactionStatus
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\TransactionStatus
      */
     public function setFailedRecipientsInfoFile($FailedRecipientsInfoFile)
     {
-        $this->FailedRecipientsInfoFile = $FailedRecipientsInfoFile;
-        return $this;
+      $this->FailedRecipientsInfoFile = $FailedRecipientsInfoFile;
+      return $this;
     }
 
 }

@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
+class ArrayOfAssetSourceParameter implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     protected $AssetSourceParameter = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function getAssetSourceParameter()
     {
-        return $this->AssetSourceParameter;
+      return $this->AssetSourceParameter;
     }
 
     /**
      * @param AssetSourceParameter[] $AssetSourceParameter
-     * @return ArrayOfAssetSourceParameter
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\ArrayOfAssetSourceParameter
      */
     public function setAssetSourceParameter(array $AssetSourceParameter = null)
     {
-        $this->AssetSourceParameter = $AssetSourceParameter;
-        return $this;
+      $this->AssetSourceParameter = $AssetSourceParameter;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->AssetSourceParameter[$offset]);
+      return isset($this->AssetSourceParameter[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->AssetSourceParameter[$offset];
+      return $this->AssetSourceParameter[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->AssetSourceParameter[] = $value;
-        } else {
-            $this->AssetSourceParameter[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->AssetSourceParameter[] = $value;
+      } else {
+        $this->AssetSourceParameter[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->AssetSourceParameter[$offset]);
+      unset($this->AssetSourceParameter[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->AssetSourceParameter);
+      return current($this->AssetSourceParameter);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->AssetSourceParameter);
+      next($this->AssetSourceParameter);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->AssetSourceParameter);
+      return key($this->AssetSourceParameter);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->AssetSourceParameter);
+      reset($this->AssetSourceParameter);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfAssetSourceParameter implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->AssetSourceParameter);
+      return count($this->AssetSourceParameter);
     }
 
 }

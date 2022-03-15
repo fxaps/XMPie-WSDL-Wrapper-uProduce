@@ -33,10 +33,10 @@ class SetAssetSourceParameters
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetSourceID = null, $inAssetSourceParameters = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAssetSourceID = $inAssetSourceID;
-        $this->inAssetSourceParameters = $inAssetSourceParameters;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAssetSourceID = $inAssetSourceID;
+      $this->inAssetSourceParameters = $inAssetSourceParameters;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetAssetSourceParameters
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetAssetSourceParameters
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetAssetSourceParameters
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetAssetSourceParameters
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetAssetSourceParameters
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetAssetSourceParameters
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetAssetSourceParameters
      */
     public function getInAssetSourceID()
     {
-        return $this->inAssetSourceID;
+      return $this->inAssetSourceID;
     }
 
     /**
      * @param string $inAssetSourceID
-     * @return SetAssetSourceParameters
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetAssetSourceParameters
      */
     public function setInAssetSourceID($inAssetSourceID)
     {
-        $this->inAssetSourceID = $inAssetSourceID;
-        return $this;
+      $this->inAssetSourceID = $inAssetSourceID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetAssetSourceParameters
      */
     public function getInAssetSourceParameters()
     {
-        return $this->inAssetSourceParameters;
+      return $this->inAssetSourceParameters;
     }
 
     /**
      * @param ArrayOfAssetSourceParameter $inAssetSourceParameters
-     * @return SetAssetSourceParameters
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetAssetSourceParameters
      */
     public function setInAssetSourceParameters($inAssetSourceParameters)
     {
-        $this->inAssetSourceParameters = $inAssetSourceParameters;
-        return $this;
+      $this->inAssetSourceParameters = $inAssetSourceParameters;
+      return $this;
     }
 
 }

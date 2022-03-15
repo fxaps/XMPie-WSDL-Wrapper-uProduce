@@ -15,7 +15,7 @@ class SendMailByProviderInfoResponse
      */
     public function __construct($SendMailByProviderInfoResult = null)
     {
-        $this->SendMailByProviderInfoResult = $SendMailByProviderInfoResult;
+      $this->SendMailByProviderInfoResult = $SendMailByProviderInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SendMailByProviderInfoResponse
      */
     public function getSendMailByProviderInfoResult()
     {
-        return $this->SendMailByProviderInfoResult;
+      return $this->SendMailByProviderInfoResult;
     }
 
     /**
      * @param SendEmailResult $SendMailByProviderInfoResult
-     * @return SendMailByProviderInfoResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\SendMailByProviderInfoResponse
      */
     public function setSendMailByProviderInfoResult($SendMailByProviderInfoResult)
     {
-        $this->SendMailByProviderInfoResult = $SendMailByProviderInfoResult;
-        return $this;
+      $this->SendMailByProviderInfoResult = $SendMailByProviderInfoResult;
+      return $this;
     }
 
 }

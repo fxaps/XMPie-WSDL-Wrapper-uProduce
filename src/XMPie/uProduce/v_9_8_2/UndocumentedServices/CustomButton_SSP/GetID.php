@@ -27,9 +27,9 @@ class GetID
      */
     public function __construct($inUsername = null, $inPassword = null, $inCustomButtonName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCustomButtonName = $inCustomButtonName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCustomButtonName = $inCustomButtonName;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\CustomButton_SSP\GetID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\CustomButton_SSP\GetID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetID
      */
     public function getInCustomButtonName()
     {
-        return $this->inCustomButtonName;
+      return $this->inCustomButtonName;
     }
 
     /**
      * @param string $inCustomButtonName
-     * @return GetID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\CustomButton_SSP\GetID
      */
     public function setInCustomButtonName($inCustomButtonName)
     {
-        $this->inCustomButtonName = $inCustomButtonName;
-        return $this;
+      $this->inCustomButtonName = $inCustomButtonName;
+      return $this;
     }
 
 }

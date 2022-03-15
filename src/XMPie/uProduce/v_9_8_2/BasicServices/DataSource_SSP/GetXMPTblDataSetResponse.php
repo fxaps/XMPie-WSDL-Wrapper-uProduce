@@ -15,7 +15,7 @@ class GetXMPTblDataSetResponse
      */
     public function __construct($GetXMPTblDataSetResult = null)
     {
-        $this->GetXMPTblDataSetResult = $GetXMPTblDataSetResult;
+      $this->GetXMPTblDataSetResult = $GetXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetXMPTblDataSetResponse
      */
     public function getGetXMPTblDataSetResult()
     {
-        return $this->GetXMPTblDataSetResult;
+      return $this->GetXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetXMPTblDataSetResult
-     * @return GetXMPTblDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetXMPTblDataSetResponse
      */
     public function setGetXMPTblDataSetResult($GetXMPTblDataSetResult)
     {
-        $this->GetXMPTblDataSetResult = $GetXMPTblDataSetResult;
-        return $this;
+      $this->GetXMPTblDataSetResult = $GetXMPTblDataSetResult;
+      return $this;
     }
 
 }

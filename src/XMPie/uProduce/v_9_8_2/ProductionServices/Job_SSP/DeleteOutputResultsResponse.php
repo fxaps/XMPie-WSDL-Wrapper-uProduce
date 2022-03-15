@@ -15,7 +15,7 @@ class DeleteOutputResultsResponse
      */
     public function __construct($DeleteOutputResultsResult = null)
     {
-        $this->DeleteOutputResultsResult = $DeleteOutputResultsResult;
+      $this->DeleteOutputResultsResult = $DeleteOutputResultsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteOutputResultsResponse
      */
     public function getDeleteOutputResultsResult()
     {
-        return $this->DeleteOutputResultsResult;
+      return $this->DeleteOutputResultsResult;
     }
 
     /**
      * @param boolean $DeleteOutputResultsResult
-     * @return DeleteOutputResultsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\DeleteOutputResultsResponse
      */
     public function setDeleteOutputResultsResult($DeleteOutputResultsResult)
     {
-        $this->DeleteOutputResultsResult = $DeleteOutputResultsResult;
-        return $this;
+      $this->DeleteOutputResultsResult = $DeleteOutputResultsResult;
+      return $this;
     }
 
 }

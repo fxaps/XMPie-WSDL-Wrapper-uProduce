@@ -33,10 +33,10 @@ class DecodeContext
      */
     public function __construct($inUsername = null, $inPassword = null, $inContextID = null, $inLanguageID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inContextID = $inContextID;
-        $this->inLanguageID = $inLanguageID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inContextID = $inContextID;
+      $this->inLanguageID = $inLanguageID;
     }
 
     /**
@@ -44,17 +44,17 @@ class DecodeContext
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DecodeContext
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeContext
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DecodeContext
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DecodeContext
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeContext
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DecodeContext
      */
     public function getInContextID()
     {
-        return $this->inContextID;
+      return $this->inContextID;
     }
 
     /**
      * @param string $inContextID
-     * @return DecodeContext
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeContext
      */
     public function setInContextID($inContextID)
     {
-        $this->inContextID = $inContextID;
-        return $this;
+      $this->inContextID = $inContextID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DecodeContext
      */
     public function getInLanguageID()
     {
-        return $this->inLanguageID;
+      return $this->inLanguageID;
     }
 
     /**
      * @param int $inLanguageID
-     * @return DecodeContext
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MessagesUtils_SSP\DecodeContext
      */
     public function setInLanguageID($inLanguageID)
     {
-        $this->inLanguageID = $inLanguageID;
-        return $this;
+      $this->inLanguageID = $inLanguageID;
+      return $this;
     }
 
 }

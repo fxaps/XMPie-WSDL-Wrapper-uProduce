@@ -15,7 +15,7 @@ class IsSubJobResponse
      */
     public function __construct($IsSubJobResult = null)
     {
-        $this->IsSubJobResult = $IsSubJobResult;
+      $this->IsSubJobResult = $IsSubJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsSubJobResponse
      */
     public function getIsSubJobResult()
     {
-        return $this->IsSubJobResult;
+      return $this->IsSubJobResult;
     }
 
     /**
      * @param boolean $IsSubJobResult
-     * @return IsSubJobResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsSubJobResponse
      */
     public function setIsSubJobResult($IsSubJobResult)
     {
-        $this->IsSubJobResult = $IsSubJobResult;
-        return $this;
+      $this->IsSubJobResult = $IsSubJobResult;
+      return $this;
     }
 
 }

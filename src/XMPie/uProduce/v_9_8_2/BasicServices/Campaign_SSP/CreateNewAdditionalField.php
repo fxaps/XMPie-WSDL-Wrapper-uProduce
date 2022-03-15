@@ -45,12 +45,12 @@ class CreateNewAdditionalField
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inFieldName = null, $inDefaultValue = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inFieldName = $inFieldName;
-        $this->inDefaultValue = $inDefaultValue;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inFieldName = $inFieldName;
+      $this->inDefaultValue = $inDefaultValue;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -58,17 +58,17 @@ class CreateNewAdditionalField
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNewAdditionalField
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNewAdditionalField
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class CreateNewAdditionalField
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNewAdditionalField
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNewAdditionalField
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class CreateNewAdditionalField
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return CreateNewAdditionalField
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNewAdditionalField
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class CreateNewAdditionalField
      */
     public function getInFieldName()
     {
-        return $this->inFieldName;
+      return $this->inFieldName;
     }
 
     /**
      * @param string $inFieldName
-     * @return CreateNewAdditionalField
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNewAdditionalField
      */
     public function setInFieldName($inFieldName)
     {
-        $this->inFieldName = $inFieldName;
-        return $this;
+      $this->inFieldName = $inFieldName;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class CreateNewAdditionalField
      */
     public function getInDefaultValue()
     {
-        return $this->inDefaultValue;
+      return $this->inDefaultValue;
     }
 
     /**
      * @param string $inDefaultValue
-     * @return CreateNewAdditionalField
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNewAdditionalField
      */
     public function setInDefaultValue($inDefaultValue)
     {
-        $this->inDefaultValue = $inDefaultValue;
-        return $this;
+      $this->inDefaultValue = $inDefaultValue;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class CreateNewAdditionalField
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNewAdditionalField
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNewAdditionalField
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

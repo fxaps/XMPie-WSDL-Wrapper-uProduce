@@ -15,7 +15,7 @@ class GetCustomButtonsDataSetResponse
      */
     public function __construct($GetCustomButtonsDataSetResult = null)
     {
-        $this->GetCustomButtonsDataSetResult = $GetCustomButtonsDataSetResult;
+      $this->GetCustomButtonsDataSetResult = $GetCustomButtonsDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCustomButtonsDataSetResponse
      */
     public function getGetCustomButtonsDataSetResult()
     {
-        return $this->GetCustomButtonsDataSetResult;
+      return $this->GetCustomButtonsDataSetResult;
     }
 
     /**
      * @param GetCustomButtonsDataSetResult $GetCustomButtonsDataSetResult
-     * @return GetCustomButtonsDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetCustomButtonsDataSetResponse
      */
     public function setGetCustomButtonsDataSetResult($GetCustomButtonsDataSetResult)
     {
-        $this->GetCustomButtonsDataSetResult = $GetCustomButtonsDataSetResult;
-        return $this;
+      $this->GetCustomButtonsDataSetResult = $GetCustomButtonsDataSetResult;
+      return $this;
     }
 
 }

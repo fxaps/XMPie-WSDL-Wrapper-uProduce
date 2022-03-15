@@ -27,9 +27,9 @@ class GetStatusByID
      */
     public function __construct($inUsername = null, $inPassword = null, $inPortID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPortID = $inPortID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPortID = $inPortID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetStatusByID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetStatusByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetStatusByID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetStatusByID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetStatusByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetStatusByID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetStatusByID
      */
     public function getInPortID()
     {
-        return $this->inPortID;
+      return $this->inPortID;
     }
 
     /**
      * @param string $inPortID
-     * @return GetStatusByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetStatusByID
      */
     public function setInPortID($inPortID)
     {
-        $this->inPortID = $inPortID;
-        return $this;
+      $this->inPortID = $inPortID;
+      return $this;
     }
 
 }

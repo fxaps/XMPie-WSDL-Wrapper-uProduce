@@ -15,7 +15,7 @@ class GetMessageIdResponse
      */
     public function __construct($GetMessageIdResult = null)
     {
-        $this->GetMessageIdResult = $GetMessageIdResult;
+      $this->GetMessageIdResult = $GetMessageIdResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMessageIdResponse
      */
     public function getGetMessageIdResult()
     {
-        return $this->GetMessageIdResult;
+      return $this->GetMessageIdResult;
     }
 
     /**
      * @param string $GetMessageIdResult
-     * @return GetMessageIdResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\JobMessage_SSP\GetMessageIdResponse
      */
     public function setGetMessageIdResult($GetMessageIdResult)
     {
-        $this->GetMessageIdResult = $GetMessageIdResult;
-        return $this;
+      $this->GetMessageIdResult = $GetMessageIdResult;
+      return $this;
     }
 
 }

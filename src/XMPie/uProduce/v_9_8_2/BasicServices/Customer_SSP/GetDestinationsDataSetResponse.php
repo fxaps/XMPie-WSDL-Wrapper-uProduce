@@ -15,7 +15,7 @@ class GetDestinationsDataSetResponse
      */
     public function __construct($GetDestinationsDataSetResult = null)
     {
-        $this->GetDestinationsDataSetResult = $GetDestinationsDataSetResult;
+      $this->GetDestinationsDataSetResult = $GetDestinationsDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDestinationsDataSetResponse
      */
     public function getGetDestinationsDataSetResult()
     {
-        return $this->GetDestinationsDataSetResult;
+      return $this->GetDestinationsDataSetResult;
     }
 
     /**
      * @param GetDestinationsDataSetResult $GetDestinationsDataSetResult
-     * @return GetDestinationsDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetDestinationsDataSetResponse
      */
     public function setGetDestinationsDataSetResult($GetDestinationsDataSetResult)
     {
-        $this->GetDestinationsDataSetResult = $GetDestinationsDataSetResult;
-        return $this;
+      $this->GetDestinationsDataSetResult = $GetDestinationsDataSetResult;
+      return $this;
     }
 
 }

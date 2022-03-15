@@ -15,7 +15,7 @@ class GetNthEmailBodyResponse
      */
     public function __construct($GetNthEmailBodyResult = null)
     {
-        $this->GetNthEmailBodyResult = $GetNthEmailBodyResult;
+      $this->GetNthEmailBodyResult = $GetNthEmailBodyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthEmailBodyResponse
      */
     public function getGetNthEmailBodyResult()
     {
-        return $this->GetNthEmailBodyResult;
+      return $this->GetNthEmailBodyResult;
     }
 
     /**
      * @param EmailBodyInfo $GetNthEmailBodyResult
-     * @return GetNthEmailBodyResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthEmailBodyResponse
      */
     public function setGetNthEmailBodyResult($GetNthEmailBodyResult)
     {
-        $this->GetNthEmailBodyResult = $GetNthEmailBodyResult;
-        return $this;
+      $this->GetNthEmailBodyResult = $GetNthEmailBodyResult;
+      return $this;
     }
 
 }

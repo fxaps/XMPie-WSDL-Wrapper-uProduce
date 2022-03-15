@@ -15,7 +15,7 @@ class DeleteTouchPointsResponse
      */
     public function __construct($DeleteTouchPointsResult = null)
     {
-        $this->DeleteTouchPointsResult = $DeleteTouchPointsResult;
+      $this->DeleteTouchPointsResult = $DeleteTouchPointsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteTouchPointsResponse
      */
     public function getDeleteTouchPointsResult()
     {
-        return $this->DeleteTouchPointsResult;
+      return $this->DeleteTouchPointsResult;
     }
 
     /**
      * @param boolean $DeleteTouchPointsResult
-     * @return DeleteTouchPointsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteTouchPointsResponse
      */
     public function setDeleteTouchPointsResult($DeleteTouchPointsResult)
     {
-        $this->DeleteTouchPointsResult = $DeleteTouchPointsResult;
-        return $this;
+      $this->DeleteTouchPointsResult = $DeleteTouchPointsResult;
+      return $this;
     }
 
 }

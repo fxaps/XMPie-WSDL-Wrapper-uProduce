@@ -15,7 +15,7 @@ class SetEmailAdorNameResponse
      */
     public function __construct($SetEmailAdorNameResult = null)
     {
-        $this->SetEmailAdorNameResult = $SetEmailAdorNameResult;
+      $this->SetEmailAdorNameResult = $SetEmailAdorNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetEmailAdorNameResponse
      */
     public function getSetEmailAdorNameResult()
     {
-        return $this->SetEmailAdorNameResult;
+      return $this->SetEmailAdorNameResult;
     }
 
     /**
      * @param boolean $SetEmailAdorNameResult
-     * @return SetEmailAdorNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetEmailAdorNameResponse
      */
     public function setSetEmailAdorNameResult($SetEmailAdorNameResult)
     {
-        $this->SetEmailAdorNameResult = $SetEmailAdorNameResult;
-        return $this;
+      $this->SetEmailAdorNameResult = $SetEmailAdorNameResult;
+      return $this;
     }
 
 }

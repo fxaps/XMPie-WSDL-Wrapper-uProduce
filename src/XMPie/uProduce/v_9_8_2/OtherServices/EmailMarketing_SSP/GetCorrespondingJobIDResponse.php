@@ -15,7 +15,7 @@ class GetCorrespondingJobIDResponse
      */
     public function __construct($GetCorrespondingJobIDResult = null)
     {
-        $this->GetCorrespondingJobIDResult = $GetCorrespondingJobIDResult;
+      $this->GetCorrespondingJobIDResult = $GetCorrespondingJobIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCorrespondingJobIDResponse
      */
     public function getGetCorrespondingJobIDResult()
     {
-        return $this->GetCorrespondingJobIDResult;
+      return $this->GetCorrespondingJobIDResult;
     }
 
     /**
      * @param string $GetCorrespondingJobIDResult
-     * @return GetCorrespondingJobIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\GetCorrespondingJobIDResponse
      */
     public function setGetCorrespondingJobIDResult($GetCorrespondingJobIDResult)
     {
-        $this->GetCorrespondingJobIDResult = $GetCorrespondingJobIDResult;
-        return $this;
+      $this->GetCorrespondingJobIDResult = $GetCorrespondingJobIDResult;
+      return $this;
     }
 
 }

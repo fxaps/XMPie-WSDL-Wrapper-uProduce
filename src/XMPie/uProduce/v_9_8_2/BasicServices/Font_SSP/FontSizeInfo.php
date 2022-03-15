@@ -75,17 +75,17 @@ class FontSizeInfo
      */
     public function __construct($size = null, $ascender = null, $descender = null, $winAscender = null, $winDescender = null, $gap = null, $height = null, $underline_position = null, $underline_thickness = null, $strikeout_position = null, $strikeout_thickness = null)
     {
-        $this->size = $size;
-        $this->ascender = $ascender;
-        $this->descender = $descender;
-        $this->winAscender = $winAscender;
-        $this->winDescender = $winDescender;
-        $this->gap = $gap;
-        $this->height = $height;
-        $this->underline_position = $underline_position;
-        $this->underline_thickness = $underline_thickness;
-        $this->strikeout_position = $strikeout_position;
-        $this->strikeout_thickness = $strikeout_thickness;
+      $this->size = $size;
+      $this->ascender = $ascender;
+      $this->descender = $descender;
+      $this->winAscender = $winAscender;
+      $this->winDescender = $winDescender;
+      $this->gap = $gap;
+      $this->height = $height;
+      $this->underline_position = $underline_position;
+      $this->underline_thickness = $underline_thickness;
+      $this->strikeout_position = $strikeout_position;
+      $this->strikeout_thickness = $strikeout_thickness;
     }
 
     /**
@@ -93,17 +93,17 @@ class FontSizeInfo
      */
     public function getSize()
     {
-        return $this->size;
+      return $this->size;
     }
 
     /**
      * @param float $size
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setSize($size)
     {
-        $this->size = $size;
-        return $this;
+      $this->size = $size;
+      return $this;
     }
 
     /**
@@ -111,17 +111,17 @@ class FontSizeInfo
      */
     public function getAscender()
     {
-        return $this->ascender;
+      return $this->ascender;
     }
 
     /**
      * @param float $ascender
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setAscender($ascender)
     {
-        $this->ascender = $ascender;
-        return $this;
+      $this->ascender = $ascender;
+      return $this;
     }
 
     /**
@@ -129,17 +129,17 @@ class FontSizeInfo
      */
     public function getDescender()
     {
-        return $this->descender;
+      return $this->descender;
     }
 
     /**
      * @param float $descender
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setDescender($descender)
     {
-        $this->descender = $descender;
-        return $this;
+      $this->descender = $descender;
+      return $this;
     }
 
     /**
@@ -147,17 +147,17 @@ class FontSizeInfo
      */
     public function getWinAscender()
     {
-        return $this->winAscender;
+      return $this->winAscender;
     }
 
     /**
      * @param float $winAscender
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setWinAscender($winAscender)
     {
-        $this->winAscender = $winAscender;
-        return $this;
+      $this->winAscender = $winAscender;
+      return $this;
     }
 
     /**
@@ -165,17 +165,17 @@ class FontSizeInfo
      */
     public function getWinDescender()
     {
-        return $this->winDescender;
+      return $this->winDescender;
     }
 
     /**
      * @param float $winDescender
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setWinDescender($winDescender)
     {
-        $this->winDescender = $winDescender;
-        return $this;
+      $this->winDescender = $winDescender;
+      return $this;
     }
 
     /**
@@ -183,17 +183,17 @@ class FontSizeInfo
      */
     public function getGap()
     {
-        return $this->gap;
+      return $this->gap;
     }
 
     /**
      * @param float $gap
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setGap($gap)
     {
-        $this->gap = $gap;
-        return $this;
+      $this->gap = $gap;
+      return $this;
     }
 
     /**
@@ -201,17 +201,17 @@ class FontSizeInfo
      */
     public function getHeight()
     {
-        return $this->height;
+      return $this->height;
     }
 
     /**
      * @param float $height
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setHeight($height)
     {
-        $this->height = $height;
-        return $this;
+      $this->height = $height;
+      return $this;
     }
 
     /**
@@ -219,17 +219,17 @@ class FontSizeInfo
      */
     public function getUnderline_position()
     {
-        return $this->underline_position;
+      return $this->underline_position;
     }
 
     /**
      * @param float $underline_position
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setUnderline_position($underline_position)
     {
-        $this->underline_position = $underline_position;
-        return $this;
+      $this->underline_position = $underline_position;
+      return $this;
     }
 
     /**
@@ -237,17 +237,17 @@ class FontSizeInfo
      */
     public function getUnderline_thickness()
     {
-        return $this->underline_thickness;
+      return $this->underline_thickness;
     }
 
     /**
      * @param float $underline_thickness
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setUnderline_thickness($underline_thickness)
     {
-        $this->underline_thickness = $underline_thickness;
-        return $this;
+      $this->underline_thickness = $underline_thickness;
+      return $this;
     }
 
     /**
@@ -255,17 +255,17 @@ class FontSizeInfo
      */
     public function getStrikeout_position()
     {
-        return $this->strikeout_position;
+      return $this->strikeout_position;
     }
 
     /**
      * @param float $strikeout_position
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setStrikeout_position($strikeout_position)
     {
-        $this->strikeout_position = $strikeout_position;
-        return $this;
+      $this->strikeout_position = $strikeout_position;
+      return $this;
     }
 
     /**
@@ -273,17 +273,17 @@ class FontSizeInfo
      */
     public function getStrikeout_thickness()
     {
-        return $this->strikeout_thickness;
+      return $this->strikeout_thickness;
     }
 
     /**
      * @param float $strikeout_thickness
-     * @return FontSizeInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\FontSizeInfo
      */
     public function setStrikeout_thickness($strikeout_thickness)
     {
-        $this->strikeout_thickness = $strikeout_thickness;
-        return $this;
+      $this->strikeout_thickness = $strikeout_thickness;
+      return $this;
     }
 
 }

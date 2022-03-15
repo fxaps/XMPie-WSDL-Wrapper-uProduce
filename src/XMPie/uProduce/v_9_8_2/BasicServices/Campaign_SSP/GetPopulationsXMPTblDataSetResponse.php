@@ -15,7 +15,7 @@ class GetPopulationsXMPTblDataSetResponse
      */
     public function __construct($GetPopulationsXMPTblDataSetResult = null)
     {
-        $this->GetPopulationsXMPTblDataSetResult = $GetPopulationsXMPTblDataSetResult;
+      $this->GetPopulationsXMPTblDataSetResult = $GetPopulationsXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPopulationsXMPTblDataSetResponse
      */
     public function getGetPopulationsXMPTblDataSetResult()
     {
-        return $this->GetPopulationsXMPTblDataSetResult;
+      return $this->GetPopulationsXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetPopulationsXMPTblDataSetResult
-     * @return GetPopulationsXMPTblDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetPopulationsXMPTblDataSetResponse
      */
     public function setGetPopulationsXMPTblDataSetResult($GetPopulationsXMPTblDataSetResult)
     {
-        $this->GetPopulationsXMPTblDataSetResult = $GetPopulationsXMPTblDataSetResult;
-        return $this;
+      $this->GetPopulationsXMPTblDataSetResult = $GetPopulationsXMPTblDataSetResult;
+      return $this;
     }
 
 }

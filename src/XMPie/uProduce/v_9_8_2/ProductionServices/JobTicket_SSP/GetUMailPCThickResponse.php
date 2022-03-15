@@ -15,7 +15,7 @@ class GetUMailPCThickResponse
      */
     public function __construct($GetUMailPCThickResult = null)
     {
-        $this->GetUMailPCThickResult = $GetUMailPCThickResult;
+      $this->GetUMailPCThickResult = $GetUMailPCThickResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetUMailPCThickResponse
      */
     public function getGetUMailPCThickResult()
     {
-        return $this->GetUMailPCThickResult;
+      return $this->GetUMailPCThickResult;
     }
 
     /**
      * @param string $GetUMailPCThickResult
-     * @return GetUMailPCThickResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetUMailPCThickResponse
      */
     public function setGetUMailPCThickResult($GetUMailPCThickResult)
     {
-        $this->GetUMailPCThickResult = $GetUMailPCThickResult;
-        return $this;
+      $this->GetUMailPCThickResult = $GetUMailPCThickResult;
+      return $this;
     }
 
 }

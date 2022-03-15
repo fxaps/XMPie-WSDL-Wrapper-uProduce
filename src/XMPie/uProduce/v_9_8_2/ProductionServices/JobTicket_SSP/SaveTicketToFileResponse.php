@@ -15,7 +15,7 @@ class SaveTicketToFileResponse
      */
     public function __construct($SaveTicketToFileResult = null)
     {
-        $this->SaveTicketToFileResult = $SaveTicketToFileResult;
+      $this->SaveTicketToFileResult = $SaveTicketToFileResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SaveTicketToFileResponse
      */
     public function getSaveTicketToFileResult()
     {
-        return $this->SaveTicketToFileResult;
+      return $this->SaveTicketToFileResult;
     }
 
     /**
      * @param boolean $SaveTicketToFileResult
-     * @return SaveTicketToFileResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SaveTicketToFileResponse
      */
     public function setSaveTicketToFileResult($SaveTicketToFileResult)
     {
-        $this->SaveTicketToFileResult = $SaveTicketToFileResult;
-        return $this;
+      $this->SaveTicketToFileResult = $SaveTicketToFileResult;
+      return $this;
     }
 
 }

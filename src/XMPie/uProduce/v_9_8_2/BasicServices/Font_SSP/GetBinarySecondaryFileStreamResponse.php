@@ -15,7 +15,7 @@ class GetBinarySecondaryFileStreamResponse
      */
     public function __construct($GetBinarySecondaryFileStreamResult = null)
     {
-        $this->GetBinarySecondaryFileStreamResult = $GetBinarySecondaryFileStreamResult;
+      $this->GetBinarySecondaryFileStreamResult = $GetBinarySecondaryFileStreamResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetBinarySecondaryFileStreamResponse
      */
     public function getGetBinarySecondaryFileStreamResult()
     {
-        return $this->GetBinarySecondaryFileStreamResult;
+      return $this->GetBinarySecondaryFileStreamResult;
     }
 
     /**
      * @param base64Binary $GetBinarySecondaryFileStreamResult
-     * @return GetBinarySecondaryFileStreamResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetBinarySecondaryFileStreamResponse
      */
     public function setGetBinarySecondaryFileStreamResult($GetBinarySecondaryFileStreamResult)
     {
-        $this->GetBinarySecondaryFileStreamResult = $GetBinarySecondaryFileStreamResult;
-        return $this;
+      $this->GetBinarySecondaryFileStreamResult = $GetBinarySecondaryFileStreamResult;
+      return $this;
     }
 
 }

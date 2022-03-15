@@ -27,9 +27,9 @@ class Delete
      */
     public function __construct($inUsername = null, $inPassword = null, $inConfigFileID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inConfigFileID = $inConfigFileID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inConfigFileID = $inConfigFileID;
     }
 
     /**
@@ -37,17 +37,17 @@ class Delete
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return Delete
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\Delete
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class Delete
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return Delete
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\Delete
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class Delete
      */
     public function getInConfigFileID()
     {
-        return $this->inConfigFileID;
+      return $this->inConfigFileID;
     }
 
     /**
      * @param string $inConfigFileID
-     * @return Delete
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\ConfigFile_SSP\Delete
      */
     public function setInConfigFileID($inConfigFileID)
     {
-        $this->inConfigFileID = $inConfigFileID;
-        return $this;
+      $this->inConfigFileID = $inConfigFileID;
+      return $this;
     }
 
 }

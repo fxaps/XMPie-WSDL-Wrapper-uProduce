@@ -33,10 +33,10 @@ class DeleteAdditionalFieldValues
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inFieldNames = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inFieldNames = $inFieldNames;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inFieldNames = $inFieldNames;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeleteAdditionalFieldValues
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteAdditionalFieldValues
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAdditionalFieldValues
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeleteAdditionalFieldValues
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteAdditionalFieldValues
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAdditionalFieldValues
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeleteAdditionalFieldValues
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return DeleteAdditionalFieldValues
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAdditionalFieldValues
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeleteAdditionalFieldValues
      */
     public function getInFieldNames()
     {
-        return $this->inFieldNames;
+      return $this->inFieldNames;
     }
 
     /**
      * @param ArrayOfString $inFieldNames
-     * @return DeleteAdditionalFieldValues
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\DeleteAdditionalFieldValues
      */
     public function setInFieldNames($inFieldNames)
     {
-        $this->inFieldNames = $inFieldNames;
-        return $this;
+      $this->inFieldNames = $inFieldNames;
+      return $this;
     }
 
 }

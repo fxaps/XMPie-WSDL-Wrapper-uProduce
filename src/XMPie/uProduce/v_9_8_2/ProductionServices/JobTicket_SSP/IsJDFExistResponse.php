@@ -15,7 +15,7 @@ class IsJDFExistResponse
      */
     public function __construct($IsJDFExistResult = null)
     {
-        $this->IsJDFExistResult = $IsJDFExistResult;
+      $this->IsJDFExistResult = $IsJDFExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsJDFExistResponse
      */
     public function getIsJDFExistResult()
     {
-        return $this->IsJDFExistResult;
+      return $this->IsJDFExistResult;
     }
 
     /**
      * @param boolean $IsJDFExistResult
-     * @return IsJDFExistResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsJDFExistResponse
      */
     public function setIsJDFExistResult($IsJDFExistResult)
     {
-        $this->IsJDFExistResult = $IsJDFExistResult;
-        return $this;
+      $this->IsJDFExistResult = $IsJDFExistResult;
+      return $this;
     }
 
 }

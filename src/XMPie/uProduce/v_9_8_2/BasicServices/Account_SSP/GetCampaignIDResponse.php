@@ -15,7 +15,7 @@ class GetCampaignIDResponse
      */
     public function __construct($GetCampaignIDResult = null)
     {
-        $this->GetCampaignIDResult = $GetCampaignIDResult;
+      $this->GetCampaignIDResult = $GetCampaignIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCampaignIDResponse
      */
     public function getGetCampaignIDResult()
     {
-        return $this->GetCampaignIDResult;
+      return $this->GetCampaignIDResult;
     }
 
     /**
      * @param string $GetCampaignIDResult
-     * @return GetCampaignIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetCampaignIDResponse
      */
     public function setGetCampaignIDResult($GetCampaignIDResult)
     {
-        $this->GetCampaignIDResult = $GetCampaignIDResult;
-        return $this;
+      $this->GetCampaignIDResult = $GetCampaignIDResult;
+      return $this;
     }
 
 }

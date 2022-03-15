@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
+class ArrayOfXMPTblMatching implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     protected $XMPTblMatching = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function getXMPTblMatching()
     {
-        return $this->XMPTblMatching;
+      return $this->XMPTblMatching;
     }
 
     /**
      * @param XMPTblMatching[] $XMPTblMatching
-     * @return ArrayOfXMPTblMatching
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\ArrayOfXMPTblMatching
      */
     public function setXMPTblMatching(array $XMPTblMatching = null)
     {
-        $this->XMPTblMatching = $XMPTblMatching;
-        return $this;
+      $this->XMPTblMatching = $XMPTblMatching;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->XMPTblMatching[$offset]);
+      return isset($this->XMPTblMatching[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->XMPTblMatching[$offset];
+      return $this->XMPTblMatching[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->XMPTblMatching[] = $value;
-        } else {
-            $this->XMPTblMatching[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->XMPTblMatching[] = $value;
+      } else {
+        $this->XMPTblMatching[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->XMPTblMatching[$offset]);
+      unset($this->XMPTblMatching[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->XMPTblMatching);
+      return current($this->XMPTblMatching);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->XMPTblMatching);
+      next($this->XMPTblMatching);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->XMPTblMatching);
+      return key($this->XMPTblMatching);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->XMPTblMatching);
+      reset($this->XMPTblMatching);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfXMPTblMatching implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->XMPTblMatching);
+      return count($this->XMPTblMatching);
     }
 
 }

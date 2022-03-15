@@ -15,7 +15,7 @@ class DeployHTMLDocumentJobResponse
      */
     public function __construct($DeployHTMLDocumentJobResult = null)
     {
-        $this->DeployHTMLDocumentJobResult = $DeployHTMLDocumentJobResult;
+      $this->DeployHTMLDocumentJobResult = $DeployHTMLDocumentJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeployHTMLDocumentJobResponse
      */
     public function getDeployHTMLDocumentJobResult()
     {
-        return $this->DeployHTMLDocumentJobResult;
+      return $this->DeployHTMLDocumentJobResult;
     }
 
     /**
      * @param string $DeployHTMLDocumentJobResult
-     * @return DeployHTMLDocumentJobResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\DeployHTMLDocumentJobResponse
      */
     public function setDeployHTMLDocumentJobResult($DeployHTMLDocumentJobResult)
     {
-        $this->DeployHTMLDocumentJobResult = $DeployHTMLDocumentJobResult;
-        return $this;
+      $this->DeployHTMLDocumentJobResult = $DeployHTMLDocumentJobResult;
+      return $this;
     }
 
 }

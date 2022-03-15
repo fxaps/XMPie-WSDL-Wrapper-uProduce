@@ -15,7 +15,7 @@ class ReQueueResponse
      */
     public function __construct($ReQueueResult = null)
     {
-        $this->ReQueueResult = $ReQueueResult;
+      $this->ReQueueResult = $ReQueueResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ReQueueResponse
      */
     public function getReQueueResult()
     {
-        return $this->ReQueueResult;
+      return $this->ReQueueResult;
     }
 
     /**
      * @param boolean $ReQueueResult
-     * @return ReQueueResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\ReQueueResponse
      */
     public function setReQueueResult($ReQueueResult)
     {
-        $this->ReQueueResult = $ReQueueResult;
-        return $this;
+      $this->ReQueueResult = $ReQueueResult;
+      return $this;
     }
 
 }

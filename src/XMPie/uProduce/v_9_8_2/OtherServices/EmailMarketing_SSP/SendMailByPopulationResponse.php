@@ -15,7 +15,7 @@ class SendMailByPopulationResponse
      */
     public function __construct($SendMailByPopulationResult = null)
     {
-        $this->SendMailByPopulationResult = $SendMailByPopulationResult;
+      $this->SendMailByPopulationResult = $SendMailByPopulationResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SendMailByPopulationResponse
      */
     public function getSendMailByPopulationResult()
     {
-        return $this->SendMailByPopulationResult;
+      return $this->SendMailByPopulationResult;
     }
 
     /**
      * @param ArrayOfSendEmailResult $SendMailByPopulationResult
-     * @return SendMailByPopulationResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendMailByPopulationResponse
      */
     public function setSendMailByPopulationResult($SendMailByPopulationResult)
     {
-        $this->SendMailByPopulationResult = $SendMailByPopulationResult;
-        return $this;
+      $this->SendMailByPopulationResult = $SendMailByPopulationResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class IsSplittedJobResponse
      */
     public function __construct($IsSplittedJobResult = null)
     {
-        $this->IsSplittedJobResult = $IsSplittedJobResult;
+      $this->IsSplittedJobResult = $IsSplittedJobResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsSplittedJobResponse
      */
     public function getIsSplittedJobResult()
     {
-        return $this->IsSplittedJobResult;
+      return $this->IsSplittedJobResult;
     }
 
     /**
      * @param boolean $IsSplittedJobResult
-     * @return IsSplittedJobResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsSplittedJobResponse
      */
     public function setIsSplittedJobResult($IsSplittedJobResult)
     {
-        $this->IsSplittedJobResult = $IsSplittedJobResult;
-        return $this;
+      $this->IsSplittedJobResult = $IsSplittedJobResult;
+      return $this;
     }
 
 }

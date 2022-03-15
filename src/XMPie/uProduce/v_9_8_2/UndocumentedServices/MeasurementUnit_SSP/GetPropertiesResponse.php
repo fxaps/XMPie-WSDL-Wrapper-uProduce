@@ -15,7 +15,7 @@ class GetPropertiesResponse
      */
     public function __construct($GetPropertiesResult = null)
     {
-        $this->GetPropertiesResult = $GetPropertiesResult;
+      $this->GetPropertiesResult = $GetPropertiesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPropertiesResponse
      */
     public function getGetPropertiesResult()
     {
-        return $this->GetPropertiesResult;
+      return $this->GetPropertiesResult;
     }
 
     /**
      * @param ArrayOfProperty $GetPropertiesResult
-     * @return GetPropertiesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\GetPropertiesResponse
      */
     public function setGetPropertiesResult($GetPropertiesResult)
     {
-        $this->GetPropertiesResult = $GetPropertiesResult;
-        return $this;
+      $this->GetPropertiesResult = $GetPropertiesResult;
+      return $this;
     }
 
 }

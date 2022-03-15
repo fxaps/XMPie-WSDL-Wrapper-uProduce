@@ -15,7 +15,7 @@ class InsertADORsValuesForRecipientResponse
      */
     public function __construct($InsertADORsValuesForRecipientResult = null)
     {
-        $this->InsertADORsValuesForRecipientResult = $InsertADORsValuesForRecipientResult;
+      $this->InsertADORsValuesForRecipientResult = $InsertADORsValuesForRecipientResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class InsertADORsValuesForRecipientResponse
      */
     public function getInsertADORsValuesForRecipientResult()
     {
-        return $this->InsertADORsValuesForRecipientResult;
+      return $this->InsertADORsValuesForRecipientResult;
     }
 
     /**
      * @param string $InsertADORsValuesForRecipientResult
-     * @return InsertADORsValuesForRecipientResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\InsertADORsValuesForRecipientResponse
      */
     public function setInsertADORsValuesForRecipientResult($InsertADORsValuesForRecipientResult)
     {
-        $this->InsertADORsValuesForRecipientResult = $InsertADORsValuesForRecipientResult;
-        return $this;
+      $this->InsertADORsValuesForRecipientResult = $InsertADORsValuesForRecipientResult;
+      return $this;
     }
 
 }

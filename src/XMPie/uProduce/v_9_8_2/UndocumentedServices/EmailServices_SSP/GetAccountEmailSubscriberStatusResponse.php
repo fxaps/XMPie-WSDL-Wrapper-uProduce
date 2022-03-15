@@ -15,7 +15,7 @@ class GetAccountEmailSubscriberStatusResponse
      */
     public function __construct($GetAccountEmailSubscriberStatusResult = null)
     {
-        $this->GetAccountEmailSubscriberStatusResult = $GetAccountEmailSubscriberStatusResult;
+      $this->GetAccountEmailSubscriberStatusResult = $GetAccountEmailSubscriberStatusResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAccountEmailSubscriberStatusResponse
      */
     public function getGetAccountEmailSubscriberStatusResult()
     {
-        return $this->GetAccountEmailSubscriberStatusResult;
+      return $this->GetAccountEmailSubscriberStatusResult;
     }
 
     /**
      * @param boolean $GetAccountEmailSubscriberStatusResult
-     * @return GetAccountEmailSubscriberStatusResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\EmailServices_SSP\GetAccountEmailSubscriberStatusResponse
      */
     public function setGetAccountEmailSubscriberStatusResult($GetAccountEmailSubscriberStatusResult)
     {
-        $this->GetAccountEmailSubscriberStatusResult = $GetAccountEmailSubscriberStatusResult;
-        return $this;
+      $this->GetAccountEmailSubscriberStatusResult = $GetAccountEmailSubscriberStatusResult;
+      return $this;
     }
 
 }

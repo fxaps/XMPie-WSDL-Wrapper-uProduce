@@ -15,7 +15,7 @@ class CreateResourceThumbnailToTempStorageResponse
      */
     public function __construct($CreateResourceThumbnailToTempStorageResult = null)
     {
-        $this->CreateResourceThumbnailToTempStorageResult = $CreateResourceThumbnailToTempStorageResult;
+      $this->CreateResourceThumbnailToTempStorageResult = $CreateResourceThumbnailToTempStorageResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateResourceThumbnailToTempStorageResponse
      */
     public function getCreateResourceThumbnailToTempStorageResult()
     {
-        return $this->CreateResourceThumbnailToTempStorageResult;
+      return $this->CreateResourceThumbnailToTempStorageResult;
     }
 
     /**
      * @param string $CreateResourceThumbnailToTempStorageResult
-     * @return CreateResourceThumbnailToTempStorageResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateResourceThumbnailToTempStorageResponse
      */
     public function setCreateResourceThumbnailToTempStorageResult($CreateResourceThumbnailToTempStorageResult)
     {
-        $this->CreateResourceThumbnailToTempStorageResult = $CreateResourceThumbnailToTempStorageResult;
-        return $this;
+      $this->CreateResourceThumbnailToTempStorageResult = $CreateResourceThumbnailToTempStorageResult;
+      return $this;
     }
 
 }

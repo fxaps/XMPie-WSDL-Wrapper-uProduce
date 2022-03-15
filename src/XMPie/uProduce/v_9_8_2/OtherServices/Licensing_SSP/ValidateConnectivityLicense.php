@@ -33,10 +33,10 @@ class ValidateConnectivityLicense
      */
     public function __construct($inUsername = null, $inPassword = null, $inMachineID = null, $inMachineName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inMachineID = $inMachineID;
-        $this->inMachineName = $inMachineName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inMachineID = $inMachineID;
+      $this->inMachineName = $inMachineName;
     }
 
     /**
@@ -44,17 +44,17 @@ class ValidateConnectivityLicense
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return ValidateConnectivityLicense
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateConnectivityLicense
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class ValidateConnectivityLicense
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return ValidateConnectivityLicense
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateConnectivityLicense
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class ValidateConnectivityLicense
      */
     public function getInMachineID()
     {
-        return $this->inMachineID;
+      return $this->inMachineID;
     }
 
     /**
      * @param string $inMachineID
-     * @return ValidateConnectivityLicense
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateConnectivityLicense
      */
     public function setInMachineID($inMachineID)
     {
-        $this->inMachineID = $inMachineID;
-        return $this;
+      $this->inMachineID = $inMachineID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class ValidateConnectivityLicense
      */
     public function getInMachineName()
     {
-        return $this->inMachineName;
+      return $this->inMachineName;
     }
 
     /**
      * @param string $inMachineName
-     * @return ValidateConnectivityLicense
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateConnectivityLicense
      */
     public function setInMachineName($inMachineName)
     {
-        $this->inMachineName = $inMachineName;
-        return $this;
+      $this->inMachineName = $inMachineName;
+      return $this;
     }
 
 }

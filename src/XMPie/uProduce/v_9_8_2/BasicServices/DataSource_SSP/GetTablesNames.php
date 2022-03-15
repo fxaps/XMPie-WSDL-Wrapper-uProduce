@@ -33,10 +33,10 @@ class GetTablesNames
      */
     public function __construct($inUsername = null, $inPassword = null, $inDataSourceID = null, $inExcludeNonPrimaryTables = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDataSourceID = $inDataSourceID;
-        $this->inExcludeNonPrimaryTables = $inExcludeNonPrimaryTables;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDataSourceID = $inDataSourceID;
+      $this->inExcludeNonPrimaryTables = $inExcludeNonPrimaryTables;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetTablesNames
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetTablesNames
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetTablesNames
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetTablesNames
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetTablesNames
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetTablesNames
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetTablesNames
      */
     public function getInDataSourceID()
     {
-        return $this->inDataSourceID;
+      return $this->inDataSourceID;
     }
 
     /**
      * @param string $inDataSourceID
-     * @return GetTablesNames
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetTablesNames
      */
     public function setInDataSourceID($inDataSourceID)
     {
-        $this->inDataSourceID = $inDataSourceID;
-        return $this;
+      $this->inDataSourceID = $inDataSourceID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetTablesNames
      */
     public function getInExcludeNonPrimaryTables()
     {
-        return $this->inExcludeNonPrimaryTables;
+      return $this->inExcludeNonPrimaryTables;
     }
 
     /**
      * @param boolean $inExcludeNonPrimaryTables
-     * @return GetTablesNames
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\GetTablesNames
      */
     public function setInExcludeNonPrimaryTables($inExcludeNonPrimaryTables)
     {
-        $this->inExcludeNonPrimaryTables = $inExcludeNonPrimaryTables;
-        return $this;
+      $this->inExcludeNonPrimaryTables = $inExcludeNonPrimaryTables;
+      return $this;
     }
 
 }

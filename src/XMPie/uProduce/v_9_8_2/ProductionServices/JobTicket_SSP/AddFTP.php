@@ -63,15 +63,15 @@ class AddFTP
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inAddress = null, $inPort = null, $inUser = null, $inPassWord = null, $inPassive = null, $inDeleteSource = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inAddress = $inAddress;
-        $this->inPort = $inPort;
-        $this->inUser = $inUser;
-        $this->inPassWord = $inPassWord;
-        $this->inPassive = $inPassive;
-        $this->inDeleteSource = $inDeleteSource;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inAddress = $inAddress;
+      $this->inPort = $inPort;
+      $this->inUser = $inUser;
+      $this->inPassWord = $inPassWord;
+      $this->inPassive = $inPassive;
+      $this->inDeleteSource = $inDeleteSource;
     }
 
     /**
@@ -79,17 +79,17 @@ class AddFTP
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return AddFTP
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTP
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -97,17 +97,17 @@ class AddFTP
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return AddFTP
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTP
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -115,17 +115,17 @@ class AddFTP
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return AddFTP
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTP
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -133,17 +133,17 @@ class AddFTP
      */
     public function getInAddress()
     {
-        return $this->inAddress;
+      return $this->inAddress;
     }
 
     /**
      * @param string $inAddress
-     * @return AddFTP
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTP
      */
     public function setInAddress($inAddress)
     {
-        $this->inAddress = $inAddress;
-        return $this;
+      $this->inAddress = $inAddress;
+      return $this;
     }
 
     /**
@@ -151,17 +151,17 @@ class AddFTP
      */
     public function getInPort()
     {
-        return $this->inPort;
+      return $this->inPort;
     }
 
     /**
      * @param int $inPort
-     * @return AddFTP
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTP
      */
     public function setInPort($inPort)
     {
-        $this->inPort = $inPort;
-        return $this;
+      $this->inPort = $inPort;
+      return $this;
     }
 
     /**
@@ -169,17 +169,17 @@ class AddFTP
      */
     public function getInUser()
     {
-        return $this->inUser;
+      return $this->inUser;
     }
 
     /**
      * @param string $inUser
-     * @return AddFTP
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTP
      */
     public function setInUser($inUser)
     {
-        $this->inUser = $inUser;
-        return $this;
+      $this->inUser = $inUser;
+      return $this;
     }
 
     /**
@@ -187,17 +187,17 @@ class AddFTP
      */
     public function getInPassWord()
     {
-        return $this->inPassWord;
+      return $this->inPassWord;
     }
 
     /**
      * @param string $inPassWord
-     * @return AddFTP
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTP
      */
     public function setInPassWord($inPassWord)
     {
-        $this->inPassWord = $inPassWord;
-        return $this;
+      $this->inPassWord = $inPassWord;
+      return $this;
     }
 
     /**
@@ -205,17 +205,17 @@ class AddFTP
      */
     public function getInPassive()
     {
-        return $this->inPassive;
+      return $this->inPassive;
     }
 
     /**
      * @param boolean $inPassive
-     * @return AddFTP
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTP
      */
     public function setInPassive($inPassive)
     {
-        $this->inPassive = $inPassive;
-        return $this;
+      $this->inPassive = $inPassive;
+      return $this;
     }
 
     /**
@@ -223,17 +223,17 @@ class AddFTP
      */
     public function getInDeleteSource()
     {
-        return $this->inDeleteSource;
+      return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return AddFTP
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddFTP
      */
     public function setInDeleteSource($inDeleteSource)
     {
-        $this->inDeleteSource = $inDeleteSource;
-        return $this;
+      $this->inDeleteSource = $inDeleteSource;
+      return $this;
     }
 
 }

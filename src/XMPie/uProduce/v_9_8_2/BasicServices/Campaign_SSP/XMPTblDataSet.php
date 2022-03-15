@@ -10,10 +10,10 @@ class XMPTblDataSet
      */
     protected $m_Tables = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -21,17 +21,17 @@ class XMPTblDataSet
      */
     public function getM_Tables()
     {
-        return $this->m_Tables;
+      return $this->m_Tables;
     }
 
     /**
      * @param ArrayOfXMPTbl $m_Tables
-     * @return XMPTblDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\XMPTblDataSet
      */
     public function setM_Tables($m_Tables)
     {
-        $this->m_Tables = $m_Tables;
-        return $this;
+      $this->m_Tables = $m_Tables;
+      return $this;
     }
 
 }

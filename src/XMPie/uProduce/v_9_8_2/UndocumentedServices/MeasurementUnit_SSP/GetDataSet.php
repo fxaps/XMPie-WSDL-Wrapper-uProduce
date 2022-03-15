@@ -27,9 +27,9 @@ class GetDataSet
      */
     public function __construct($inUsername = null, $inPassword = null, $inMeasurementUnitID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inMeasurementUnitID = $inMeasurementUnitID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inMeasurementUnitID = $inMeasurementUnitID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetDataSet
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\GetDataSet
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetDataSet
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\GetDataSet
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetDataSet
      */
     public function getInMeasurementUnitID()
     {
-        return $this->inMeasurementUnitID;
+      return $this->inMeasurementUnitID;
     }
 
     /**
      * @param string $inMeasurementUnitID
-     * @return GetDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\MeasurementUnit_SSP\GetDataSet
      */
     public function setInMeasurementUnitID($inMeasurementUnitID)
     {
-        $this->inMeasurementUnitID = $inMeasurementUnitID;
-        return $this;
+      $this->inMeasurementUnitID = $inMeasurementUnitID;
+      return $this;
     }
 
 }

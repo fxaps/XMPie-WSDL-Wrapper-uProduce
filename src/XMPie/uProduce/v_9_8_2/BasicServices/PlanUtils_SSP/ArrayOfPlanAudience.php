@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
+class ArrayOfPlanAudience implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     protected $PlanAudience = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function getPlanAudience()
     {
-        return $this->PlanAudience;
+      return $this->PlanAudience;
     }
 
     /**
      * @param PlanAudience[] $PlanAudience
-     * @return ArrayOfPlanAudience
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\ArrayOfPlanAudience
      */
     public function setPlanAudience(array $PlanAudience = null)
     {
-        $this->PlanAudience = $PlanAudience;
-        return $this;
+      $this->PlanAudience = $PlanAudience;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->PlanAudience[$offset]);
+      return isset($this->PlanAudience[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->PlanAudience[$offset];
+      return $this->PlanAudience[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->PlanAudience[] = $value;
-        } else {
-            $this->PlanAudience[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->PlanAudience[] = $value;
+      } else {
+        $this->PlanAudience[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->PlanAudience[$offset]);
+      unset($this->PlanAudience[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->PlanAudience);
+      return current($this->PlanAudience);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->PlanAudience);
+      next($this->PlanAudience);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->PlanAudience);
+      return key($this->PlanAudience);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->PlanAudience);
+      reset($this->PlanAudience);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfPlanAudience implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->PlanAudience);
+      return count($this->PlanAudience);
     }
 
 }

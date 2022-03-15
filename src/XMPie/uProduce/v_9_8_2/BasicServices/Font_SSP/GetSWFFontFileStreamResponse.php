@@ -27,9 +27,9 @@ class GetSWFFontFileStreamResponse
      */
     public function __construct($GetSWFFontFileStreamResult = null, $outFamilyName = null, $outFontStyle = null)
     {
-        $this->GetSWFFontFileStreamResult = $GetSWFFontFileStreamResult;
-        $this->outFamilyName = $outFamilyName;
-        $this->outFontStyle = $outFontStyle;
+      $this->GetSWFFontFileStreamResult = $GetSWFFontFileStreamResult;
+      $this->outFamilyName = $outFamilyName;
+      $this->outFontStyle = $outFontStyle;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetSWFFontFileStreamResponse
      */
     public function getGetSWFFontFileStreamResult()
     {
-        return $this->GetSWFFontFileStreamResult;
+      return $this->GetSWFFontFileStreamResult;
     }
 
     /**
      * @param base64Binary $GetSWFFontFileStreamResult
-     * @return GetSWFFontFileStreamResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFontFileStreamResponse
      */
     public function setGetSWFFontFileStreamResult($GetSWFFontFileStreamResult)
     {
-        $this->GetSWFFontFileStreamResult = $GetSWFFontFileStreamResult;
-        return $this;
+      $this->GetSWFFontFileStreamResult = $GetSWFFontFileStreamResult;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetSWFFontFileStreamResponse
      */
     public function getOutFamilyName()
     {
-        return $this->outFamilyName;
+      return $this->outFamilyName;
     }
 
     /**
      * @param string $outFamilyName
-     * @return GetSWFFontFileStreamResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFontFileStreamResponse
      */
     public function setOutFamilyName($outFamilyName)
     {
-        $this->outFamilyName = $outFamilyName;
-        return $this;
+      $this->outFamilyName = $outFamilyName;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetSWFFontFileStreamResponse
      */
     public function getOutFontStyle()
     {
-        return $this->outFontStyle;
+      return $this->outFontStyle;
     }
 
     /**
      * @param string $outFontStyle
-     * @return GetSWFFontFileStreamResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFontFileStreamResponse
      */
     public function setOutFontStyle($outFontStyle)
     {
-        $this->outFontStyle = $outFontStyle;
-        return $this;
+      $this->outFontStyle = $outFontStyle;
+      return $this;
     }
 
 }

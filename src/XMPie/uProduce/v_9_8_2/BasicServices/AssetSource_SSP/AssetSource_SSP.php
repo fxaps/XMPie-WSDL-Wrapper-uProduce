@@ -3,117 +3,114 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP;
 
 
-use SoapClient;
-use SoapFault;
-
 /**
  * AssetSource Web Service.
  */
-class AssetSource_SSP extends SoapClient
+class AssetSource_SSP extends \SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array(
-        'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CreateNew',
-        'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfProperty',
-        'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\Property',
-        'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CreateNewResponse',
-        'CreateNewEx' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CreateNewEx',
-        'ArrayOfAssetSourceParameter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfAssetSourceParameter',
-        'AssetSourceParameter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\AssetSourceParameter',
-        'CreateNewExResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CreateNewExResponse',
-        'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\Delete',
-        'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteResponse',
-        'GetCampaign' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetCampaign',
-        'GetCampaignResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetCampaignResponse',
-        'GetAssetSourceProviderSupport' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceProviderSupport',
-        'GetAssetSourceProviderSupportResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceProviderSupportResponse',
-        'AssetSourceProviderSupport' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\AssetSourceProviderSupport',
-        'GetFolderPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetFolderPath',
-        'GetFolderPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetFolderPathResponse',
-        'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetProperty',
-        'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetPropertyResponse',
-        'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetProperties',
-        'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfString',
-        'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetPropertiesResponse',
-        'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAllProperties',
-        'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAllPropertiesResponse',
-        'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetDataSet',
-        'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetDataSetResponse',
-        'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetDataSetResult',
-        'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetXMPTblDataSet',
-        'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetXMPTblDataSetResponse',
-        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\XMPTblDataSet',
-        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfXMPTbl',
-        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\XMPTbl',
-        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfXMPTblColumn',
-        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\XMPTblColumn',
-        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfXMPTblRow',
-        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\XMPTblRow',
-        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfXMPRowField',
-        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\XMPRowField',
-        'SetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetProperty',
-        'SetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetPropertyResponse',
-        'SetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetProperties',
-        'SetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetPropertiesResponse',
-        'IsAssetsViewAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\IsAssetsViewAvailable',
-        'IsAssetsViewAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\IsAssetsViewAvailableResponse',
-        'GetAssetSourceType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceType',
-        'GetAssetSourceTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceTypeResponse',
-        'GetAssetSourceParameters' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceParameters',
-        'GetAssetSourceParametersResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceParametersResponse',
-        'SetAssetSourceParameters' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetAssetSourceParameters',
-        'SetAssetSourceParametersResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetAssetSourceParametersResponse',
-        'GetAssetSourceInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceInfo',
-        'GetAssetSourceInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceInfoResponse',
-        'AssetSourceStruct' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\AssetSourceStruct',
-        'GetAssetSourceInfoEx' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceInfoEx',
-        'GetAssetSourceInfoExResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceInfoExResponse',
-        'AssetSourceInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\AssetSourceInfo',
-        'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetName',
-        'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetNameResponse',
-        'SetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetName',
-        'SetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetNameResponse',
-        'GetPriority' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetPriority',
-        'GetPriorityResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetPriorityResponse',
-        'SetPriority' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetPriority',
-        'SetPriorityResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetPriorityResponse',
-        'GetActiveness' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetActiveness',
-        'GetActivenessResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetActivenessResponse',
-        'SetActiveness' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetActiveness',
-        'SetActivenessResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetActivenessResponse',
-        'GetAssetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetID',
-        'GetAssetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetIDResponse',
-        'GetAssets' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssets',
-        'GetAssetsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsResponse',
-        'GetAssetsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsDataSet',
-        'GetAssetsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsDataSetResponse',
-        'GetAssetsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsDataSetResult',
-        'GetAssetsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsXMPTblDataSet',
-        'GetAssetsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsXMPTblDataSetResponse',
-        'DeleteAssets' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteAssets',
-        'DeleteAssetsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteAssetsResponse',
-        'DeleteAllAssets' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteAllAssets',
-        'DeleteAllAssetsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteAllAssetsResponse',
-        'GetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetID',
-        'GetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetIDResponse',
-        'IsExist' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\IsExist',
-        'IsExistResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\IsExistResponse',
-        'SetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetSettings',
-        'ArrayOfSetting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfSetting',
-        'Setting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\Setting',
-        'SetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetSettingsResponse',
-        'GetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetSettings',
-        'GetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetSettingsResponse',
-        'DeleteSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteSettings',
-        'DeleteSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteSettingsResponse',
-        'CloneAssetSource' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CloneCustom',
-        'CloneResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CloneResponse',
-        'AssetSourceMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\AssetSourceMapping',
-        'IDMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\IDMapping',
-    );
+    private static $classmap = array (
+  'CreateNew' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CreateNew',
+  'ArrayOfProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfProperty',
+  'Property' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\Property',
+  'CreateNewResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CreateNewResponse',
+  'CreateNewEx' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CreateNewEx',
+  'ArrayOfAssetSourceParameter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfAssetSourceParameter',
+  'AssetSourceParameter' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\AssetSourceParameter',
+  'CreateNewExResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CreateNewExResponse',
+  'Delete' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\Delete',
+  'DeleteResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteResponse',
+  'GetCampaign' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetCampaign',
+  'GetCampaignResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetCampaignResponse',
+  'GetAssetSourceProviderSupport' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceProviderSupport',
+  'GetAssetSourceProviderSupportResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceProviderSupportResponse',
+  'AssetSourceProviderSupport' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\AssetSourceProviderSupport',
+  'GetFolderPath' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetFolderPath',
+  'GetFolderPathResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetFolderPathResponse',
+  'GetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetProperty',
+  'GetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetPropertyResponse',
+  'GetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetProperties',
+  'ArrayOfString' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfString',
+  'GetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetPropertiesResponse',
+  'GetAllProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAllProperties',
+  'GetAllPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAllPropertiesResponse',
+  'GetDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetDataSet',
+  'GetDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetDataSetResponse',
+  'GetDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetDataSetResult',
+  'GetXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetXMPTblDataSet',
+  'GetXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetXMPTblDataSetResponse',
+  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\XMPTblDataSet',
+  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfXMPTbl',
+  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\XMPTbl',
+  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfXMPTblColumn',
+  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\XMPTblColumn',
+  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfXMPTblRow',
+  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\XMPTblRow',
+  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfXMPRowField',
+  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\XMPRowField',
+  'SetProperty' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetProperty',
+  'SetPropertyResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetPropertyResponse',
+  'SetProperties' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetProperties',
+  'SetPropertiesResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetPropertiesResponse',
+  'IsAssetsViewAvailable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\IsAssetsViewAvailable',
+  'IsAssetsViewAvailableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\IsAssetsViewAvailableResponse',
+  'GetAssetSourceType' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceType',
+  'GetAssetSourceTypeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceTypeResponse',
+  'GetAssetSourceParameters' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceParameters',
+  'GetAssetSourceParametersResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceParametersResponse',
+  'SetAssetSourceParameters' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetAssetSourceParameters',
+  'SetAssetSourceParametersResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetAssetSourceParametersResponse',
+  'GetAssetSourceInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceInfo',
+  'GetAssetSourceInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceInfoResponse',
+  'AssetSourceStruct' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\AssetSourceStruct',
+  'GetAssetSourceInfoEx' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceInfoEx',
+  'GetAssetSourceInfoExResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetSourceInfoExResponse',
+  'AssetSourceInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\AssetSourceInfo',
+  'GetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetName',
+  'GetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetNameResponse',
+  'SetName' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetName',
+  'SetNameResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetNameResponse',
+  'GetPriority' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetPriority',
+  'GetPriorityResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetPriorityResponse',
+  'SetPriority' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetPriority',
+  'SetPriorityResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetPriorityResponse',
+  'GetActiveness' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetActiveness',
+  'GetActivenessResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetActivenessResponse',
+  'SetActiveness' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetActiveness',
+  'SetActivenessResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetActivenessResponse',
+  'GetAssetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetID',
+  'GetAssetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetIDResponse',
+  'GetAssets' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssets',
+  'GetAssetsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsResponse',
+  'GetAssetsDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsDataSet',
+  'GetAssetsDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsDataSetResponse',
+  'GetAssetsDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsDataSetResult',
+  'GetAssetsXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsXMPTblDataSet',
+  'GetAssetsXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetAssetsXMPTblDataSetResponse',
+  'DeleteAssets' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteAssets',
+  'DeleteAssetsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteAssetsResponse',
+  'DeleteAllAssets' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteAllAssets',
+  'DeleteAllAssetsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteAllAssetsResponse',
+  'GetID' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetID',
+  'GetIDResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetIDResponse',
+  'IsExist' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\IsExist',
+  'IsExistResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\IsExistResponse',
+  'SetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetSettings',
+  'ArrayOfSetting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\ArrayOfSetting',
+  'Setting' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\Setting',
+  'SetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\SetSettingsResponse',
+  'GetSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetSettings',
+  'GetSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\GetSettingsResponse',
+  'DeleteSettings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteSettings',
+  'DeleteSettingsResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\DeleteSettingsResponse',
+  'CloneAssetSource_SSP' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CloneCustom',
+  'CloneResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\CloneResponse',
+  'AssetSourceMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\AssetSourceMapping',
+  'IDMapping' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\BasicServices\\AssetSource_SSP\\IDMapping',
+);
 
     /**
      * @param array $options A array of config values
@@ -122,19 +119,19 @@ class AssetSource_SSP extends SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-
-        foreach (self::$classmap as $key => $value) {
-            if (!isset($options['classmap'][$key])) {
-                $options['classmap'][$key] = $value;
-            }
-        }
-        $options = array_merge(array(
-            'features' => 1,
-        ), $options);
-        if (!$wsdl) {
-            $wsdl = 'http://localhost/xmpiewsapi/AssetSource_SSP.asmx?wsdl';
-        }
-        parent::__construct($wsdl, $options);
+    
+  foreach (self::$classmap as $key => $value) {
+    if (!isset($options['classmap'][$key])) {
+      $options['classmap'][$key] = $value;
+    }
+  }
+      $options = array_merge(array (
+  'features' => 1,
+), $options);
+      if (!$wsdl) {
+        $wsdl = 'http://localhost/xmpiewsapi/AssetSource_SSP.asmx?wsdl';
+      }
+      parent::__construct($wsdl, $options);
     }
 
     /**
@@ -145,7 +142,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function CreateNew(CreateNew $parameters)
     {
-        return $this->__soapCall('CreateNew', array($parameters));
+      return $this->__soapCall('CreateNew', array($parameters));
     }
 
     /**
@@ -156,7 +153,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function CreateNewEx(CreateNewEx $parameters)
     {
-        return $this->__soapCall('CreateNewEx', array($parameters));
+      return $this->__soapCall('CreateNewEx', array($parameters));
     }
 
     /**
@@ -167,7 +164,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function Delete(Delete $parameters)
     {
-        return $this->__soapCall('Delete', array($parameters));
+      return $this->__soapCall('Delete', array($parameters));
     }
 
     /**
@@ -178,7 +175,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetCampaign(GetCampaign $parameters)
     {
-        return $this->__soapCall('GetCampaign', array($parameters));
+      return $this->__soapCall('GetCampaign', array($parameters));
     }
 
     /**
@@ -189,7 +186,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetAssetSourceProviderSupport(GetAssetSourceProviderSupport $parameters)
     {
-        return $this->__soapCall('GetAssetSourceProviderSupport', array($parameters));
+      return $this->__soapCall('GetAssetSourceProviderSupport', array($parameters));
     }
 
     /**
@@ -200,7 +197,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetFolderPath(GetFolderPath $parameters)
     {
-        return $this->__soapCall('GetFolderPath', array($parameters));
+      return $this->__soapCall('GetFolderPath', array($parameters));
     }
 
     /**
@@ -211,7 +208,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetProperty(GetProperty $parameters)
     {
-        return $this->__soapCall('GetProperty', array($parameters));
+      return $this->__soapCall('GetProperty', array($parameters));
     }
 
     /**
@@ -222,7 +219,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetProperties(GetProperties $parameters)
     {
-        return $this->__soapCall('GetProperties', array($parameters));
+      return $this->__soapCall('GetProperties', array($parameters));
     }
 
     /**
@@ -233,7 +230,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetAllProperties(GetAllProperties $parameters)
     {
-        return $this->__soapCall('GetAllProperties', array($parameters));
+      return $this->__soapCall('GetAllProperties', array($parameters));
     }
 
     /**
@@ -244,7 +241,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetDataSet(GetDataSet $parameters)
     {
-        return $this->__soapCall('GetDataSet', array($parameters));
+      return $this->__soapCall('GetDataSet', array($parameters));
     }
 
     /**
@@ -255,7 +252,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetXMPTblDataSet(GetXMPTblDataSet $parameters)
     {
-        return $this->__soapCall('GetXMPTblDataSet', array($parameters));
+      return $this->__soapCall('GetXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -266,7 +263,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function SetProperty(SetProperty $parameters)
     {
-        return $this->__soapCall('SetProperty', array($parameters));
+      return $this->__soapCall('SetProperty', array($parameters));
     }
 
     /**
@@ -277,7 +274,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function SetProperties(SetProperties $parameters)
     {
-        return $this->__soapCall('SetProperties', array($parameters));
+      return $this->__soapCall('SetProperties', array($parameters));
     }
 
     /**
@@ -288,7 +285,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function IsAssetsViewAvailable(IsAssetsViewAvailable $parameters)
     {
-        return $this->__soapCall('IsAssetsViewAvailable', array($parameters));
+      return $this->__soapCall('IsAssetsViewAvailable', array($parameters));
     }
 
     /**
@@ -299,7 +296,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetAssetSourceType(GetAssetSourceType $parameters)
     {
-        return $this->__soapCall('GetAssetSourceType', array($parameters));
+      return $this->__soapCall('GetAssetSourceType', array($parameters));
     }
 
     /**
@@ -310,7 +307,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetAssetSourceParameters(GetAssetSourceParameters $parameters)
     {
-        return $this->__soapCall('GetAssetSourceParameters', array($parameters));
+      return $this->__soapCall('GetAssetSourceParameters', array($parameters));
     }
 
     /**
@@ -321,7 +318,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function SetAssetSourceParameters(SetAssetSourceParameters $parameters)
     {
-        return $this->__soapCall('SetAssetSourceParameters', array($parameters));
+      return $this->__soapCall('SetAssetSourceParameters', array($parameters));
     }
 
     /**
@@ -332,7 +329,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetAssetSourceInfo(GetAssetSourceInfo $parameters)
     {
-        return $this->__soapCall('GetAssetSourceInfo', array($parameters));
+      return $this->__soapCall('GetAssetSourceInfo', array($parameters));
     }
 
     /**
@@ -343,7 +340,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetAssetSourceInfoEx(GetAssetSourceInfoEx $parameters)
     {
-        return $this->__soapCall('GetAssetSourceInfoEx', array($parameters));
+      return $this->__soapCall('GetAssetSourceInfoEx', array($parameters));
     }
 
     /**
@@ -354,7 +351,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetName(GetName $parameters)
     {
-        return $this->__soapCall('GetName', array($parameters));
+      return $this->__soapCall('GetName', array($parameters));
     }
 
     /**
@@ -365,7 +362,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function SetName(SetName $parameters)
     {
-        return $this->__soapCall('SetName', array($parameters));
+      return $this->__soapCall('SetName', array($parameters));
     }
 
     /**
@@ -376,7 +373,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetPriority(GetPriority $parameters)
     {
-        return $this->__soapCall('GetPriority', array($parameters));
+      return $this->__soapCall('GetPriority', array($parameters));
     }
 
     /**
@@ -387,7 +384,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function SetPriority(SetPriority $parameters)
     {
-        return $this->__soapCall('SetPriority', array($parameters));
+      return $this->__soapCall('SetPriority', array($parameters));
     }
 
     /**
@@ -398,7 +395,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetActiveness(GetActiveness $parameters)
     {
-        return $this->__soapCall('GetActiveness', array($parameters));
+      return $this->__soapCall('GetActiveness', array($parameters));
     }
 
     /**
@@ -409,7 +406,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function SetActiveness(SetActiveness $parameters)
     {
-        return $this->__soapCall('SetActiveness', array($parameters));
+      return $this->__soapCall('SetActiveness', array($parameters));
     }
 
     /**
@@ -420,7 +417,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetAssetID(GetAssetID $parameters)
     {
-        return $this->__soapCall('GetAssetID', array($parameters));
+      return $this->__soapCall('GetAssetID', array($parameters));
     }
 
     /**
@@ -431,7 +428,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetAssets(GetAssets $parameters)
     {
-        return $this->__soapCall('GetAssets', array($parameters));
+      return $this->__soapCall('GetAssets', array($parameters));
     }
 
     /**
@@ -442,7 +439,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetAssetsDataSet(GetAssetsDataSet $parameters)
     {
-        return $this->__soapCall('GetAssetsDataSet', array($parameters));
+      return $this->__soapCall('GetAssetsDataSet', array($parameters));
     }
 
     /**
@@ -453,7 +450,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetAssetsXMPTblDataSet(GetAssetsXMPTblDataSet $parameters)
     {
-        return $this->__soapCall('GetAssetsXMPTblDataSet', array($parameters));
+      return $this->__soapCall('GetAssetsXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -464,7 +461,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function DeleteAssets(DeleteAssets $parameters)
     {
-        return $this->__soapCall('DeleteAssets', array($parameters));
+      return $this->__soapCall('DeleteAssets', array($parameters));
     }
 
     /**
@@ -475,7 +472,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function DeleteAllAssets(DeleteAllAssets $parameters)
     {
-        return $this->__soapCall('DeleteAllAssets', array($parameters));
+      return $this->__soapCall('DeleteAllAssets', array($parameters));
     }
 
     /**
@@ -486,7 +483,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetID(GetID $parameters)
     {
-        return $this->__soapCall('GetID', array($parameters));
+      return $this->__soapCall('GetID', array($parameters));
     }
 
     /**
@@ -497,7 +494,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function IsExist(IsExist $parameters)
     {
-        return $this->__soapCall('IsExist', array($parameters));
+      return $this->__soapCall('IsExist', array($parameters));
     }
 
     /**
@@ -508,7 +505,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function SetSettings(SetSettings $parameters)
     {
-        return $this->__soapCall('SetSettings', array($parameters));
+      return $this->__soapCall('SetSettings', array($parameters));
     }
 
     /**
@@ -519,7 +516,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function GetSettings(GetSettings $parameters)
     {
-        return $this->__soapCall('GetSettings', array($parameters));
+      return $this->__soapCall('GetSettings', array($parameters));
     }
 
     /**
@@ -530,7 +527,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function DeleteSettings(DeleteSettings $parameters)
     {
-        return $this->__soapCall('DeleteSettings', array($parameters));
+      return $this->__soapCall('DeleteSettings', array($parameters));
     }
 
     /**
@@ -541,7 +538,7 @@ class AssetSource_SSP extends SoapClient
      */
     public function aClone($parameters)
     {
-        return $this->__soapCall('Clone', array($parameters));
+      return $this->__soapCall('Clone', array($parameters));
     }
 
 }

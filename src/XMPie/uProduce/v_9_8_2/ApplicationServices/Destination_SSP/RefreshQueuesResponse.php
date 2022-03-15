@@ -15,7 +15,7 @@ class RefreshQueuesResponse
      */
     public function __construct($RefreshQueuesResult = null)
     {
-        $this->RefreshQueuesResult = $RefreshQueuesResult;
+      $this->RefreshQueuesResult = $RefreshQueuesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RefreshQueuesResponse
      */
     public function getRefreshQueuesResult()
     {
-        return $this->RefreshQueuesResult;
+      return $this->RefreshQueuesResult;
     }
 
     /**
      * @param boolean $RefreshQueuesResult
-     * @return RefreshQueuesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\RefreshQueuesResponse
      */
     public function setRefreshQueuesResult($RefreshQueuesResult)
     {
-        $this->RefreshQueuesResult = $RefreshQueuesResult;
-        return $this;
+      $this->RefreshQueuesResult = $RefreshQueuesResult;
+      return $this;
     }
 
 }

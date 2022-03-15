@@ -15,7 +15,7 @@ class AddJDFCopyByIDResponse
      */
     public function __construct($AddJDFCopyByIDResult = null)
     {
-        $this->AddJDFCopyByIDResult = $AddJDFCopyByIDResult;
+      $this->AddJDFCopyByIDResult = $AddJDFCopyByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class AddJDFCopyByIDResponse
      */
     public function getAddJDFCopyByIDResult()
     {
-        return $this->AddJDFCopyByIDResult;
+      return $this->AddJDFCopyByIDResult;
     }
 
     /**
      * @param boolean $AddJDFCopyByIDResult
-     * @return AddJDFCopyByIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddJDFCopyByIDResponse
      */
     public function setAddJDFCopyByIDResult($AddJDFCopyByIDResult)
     {
-        $this->AddJDFCopyByIDResult = $AddJDFCopyByIDResult;
-        return $this;
+      $this->AddJDFCopyByIDResult = $AddJDFCopyByIDResult;
+      return $this;
     }
 
 }

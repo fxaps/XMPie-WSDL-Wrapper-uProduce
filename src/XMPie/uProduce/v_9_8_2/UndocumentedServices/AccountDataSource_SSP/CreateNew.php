@@ -69,16 +69,16 @@ class CreateNew
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inType = null, $inName = null, $inConnectionString = null, $inAdditionalInfo = null, $inSourceFolder = null, $inDeleteSource = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountID = $inAccountID;
-        $this->inType = $inType;
-        $this->inName = $inName;
-        $this->inConnectionString = $inConnectionString;
-        $this->inAdditionalInfo = $inAdditionalInfo;
-        $this->inSourceFolder = $inSourceFolder;
-        $this->inDeleteSource = $inDeleteSource;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountID = $inAccountID;
+      $this->inType = $inType;
+      $this->inName = $inName;
+      $this->inConnectionString = $inConnectionString;
+      $this->inAdditionalInfo = $inAdditionalInfo;
+      $this->inSourceFolder = $inSourceFolder;
+      $this->inDeleteSource = $inDeleteSource;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -86,17 +86,17 @@ class CreateNew
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNew
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -104,17 +104,17 @@ class CreateNew
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNew
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -122,17 +122,17 @@ class CreateNew
      */
     public function getInAccountID()
     {
-        return $this->inAccountID;
+      return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNew
      */
     public function setInAccountID($inAccountID)
     {
-        $this->inAccountID = $inAccountID;
-        return $this;
+      $this->inAccountID = $inAccountID;
+      return $this;
     }
 
     /**
@@ -140,17 +140,17 @@ class CreateNew
      */
     public function getInType()
     {
-        return $this->inType;
+      return $this->inType;
     }
 
     /**
      * @param string $inType
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNew
      */
     public function setInType($inType)
     {
-        $this->inType = $inType;
-        return $this;
+      $this->inType = $inType;
+      return $this;
     }
 
     /**
@@ -158,17 +158,17 @@ class CreateNew
      */
     public function getInName()
     {
-        return $this->inName;
+      return $this->inName;
     }
 
     /**
      * @param string $inName
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNew
      */
     public function setInName($inName)
     {
-        $this->inName = $inName;
-        return $this;
+      $this->inName = $inName;
+      return $this;
     }
 
     /**
@@ -176,17 +176,17 @@ class CreateNew
      */
     public function getInConnectionString()
     {
-        return $this->inConnectionString;
+      return $this->inConnectionString;
     }
 
     /**
      * @param string $inConnectionString
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNew
      */
     public function setInConnectionString($inConnectionString)
     {
-        $this->inConnectionString = $inConnectionString;
-        return $this;
+      $this->inConnectionString = $inConnectionString;
+      return $this;
     }
 
     /**
@@ -194,17 +194,17 @@ class CreateNew
      */
     public function getInAdditionalInfo()
     {
-        return $this->inAdditionalInfo;
+      return $this->inAdditionalInfo;
     }
 
     /**
      * @param string $inAdditionalInfo
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNew
      */
     public function setInAdditionalInfo($inAdditionalInfo)
     {
-        $this->inAdditionalInfo = $inAdditionalInfo;
-        return $this;
+      $this->inAdditionalInfo = $inAdditionalInfo;
+      return $this;
     }
 
     /**
@@ -212,17 +212,17 @@ class CreateNew
      */
     public function getInSourceFolder()
     {
-        return $this->inSourceFolder;
+      return $this->inSourceFolder;
     }
 
     /**
      * @param string $inSourceFolder
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNew
      */
     public function setInSourceFolder($inSourceFolder)
     {
-        $this->inSourceFolder = $inSourceFolder;
-        return $this;
+      $this->inSourceFolder = $inSourceFolder;
+      return $this;
     }
 
     /**
@@ -230,17 +230,17 @@ class CreateNew
      */
     public function getInDeleteSource()
     {
-        return $this->inDeleteSource;
+      return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNew
      */
     public function setInDeleteSource($inDeleteSource)
     {
-        $this->inDeleteSource = $inDeleteSource;
-        return $this;
+      $this->inDeleteSource = $inDeleteSource;
+      return $this;
     }
 
     /**
@@ -248,17 +248,17 @@ class CreateNew
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\AccountDataSource_SSP\CreateNew
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

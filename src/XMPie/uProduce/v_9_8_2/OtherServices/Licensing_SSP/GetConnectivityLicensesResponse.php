@@ -15,7 +15,7 @@ class GetConnectivityLicensesResponse
      */
     public function __construct($GetConnectivityLicensesResult = null)
     {
-        $this->GetConnectivityLicensesResult = $GetConnectivityLicensesResult;
+      $this->GetConnectivityLicensesResult = $GetConnectivityLicensesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetConnectivityLicensesResponse
      */
     public function getGetConnectivityLicensesResult()
     {
-        return $this->GetConnectivityLicensesResult;
+      return $this->GetConnectivityLicensesResult;
     }
 
     /**
      * @param GetConnectivityLicensesResult $GetConnectivityLicensesResult
-     * @return GetConnectivityLicensesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetConnectivityLicensesResponse
      */
     public function setGetConnectivityLicensesResult($GetConnectivityLicensesResult)
     {
-        $this->GetConnectivityLicensesResult = $GetConnectivityLicensesResult;
-        return $this;
+      $this->GetConnectivityLicensesResult = $GetConnectivityLicensesResult;
+      return $this;
     }
 
 }

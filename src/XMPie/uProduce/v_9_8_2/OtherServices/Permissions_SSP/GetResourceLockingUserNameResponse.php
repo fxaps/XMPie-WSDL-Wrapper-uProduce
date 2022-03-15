@@ -15,7 +15,7 @@ class GetResourceLockingUserNameResponse
      */
     public function __construct($GetResourceLockingUserNameResult = null)
     {
-        $this->GetResourceLockingUserNameResult = $GetResourceLockingUserNameResult;
+      $this->GetResourceLockingUserNameResult = $GetResourceLockingUserNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetResourceLockingUserNameResponse
      */
     public function getGetResourceLockingUserNameResult()
     {
-        return $this->GetResourceLockingUserNameResult;
+      return $this->GetResourceLockingUserNameResult;
     }
 
     /**
      * @param string $GetResourceLockingUserNameResult
-     * @return GetResourceLockingUserNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\GetResourceLockingUserNameResponse
      */
     public function setGetResourceLockingUserNameResult($GetResourceLockingUserNameResult)
     {
-        $this->GetResourceLockingUserNameResult = $GetResourceLockingUserNameResult;
-        return $this;
+      $this->GetResourceLockingUserNameResult = $GetResourceLockingUserNameResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetAssetsPrefixTypeResponse
      */
     public function __construct($GetAssetsPrefixTypeResult = null)
     {
-        $this->GetAssetsPrefixTypeResult = $GetAssetsPrefixTypeResult;
+      $this->GetAssetsPrefixTypeResult = $GetAssetsPrefixTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAssetsPrefixTypeResponse
      */
     public function getGetAssetsPrefixTypeResult()
     {
-        return $this->GetAssetsPrefixTypeResult;
+      return $this->GetAssetsPrefixTypeResult;
     }
 
     /**
      * @param string $GetAssetsPrefixTypeResult
-     * @return GetAssetsPrefixTypeResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetAssetsPrefixTypeResponse
      */
     public function setGetAssetsPrefixTypeResult($GetAssetsPrefixTypeResult)
     {
-        $this->GetAssetsPrefixTypeResult = $GetAssetsPrefixTypeResult;
-        return $this;
+      $this->GetAssetsPrefixTypeResult = $GetAssetsPrefixTypeResult;
+      return $this;
     }
 
 }

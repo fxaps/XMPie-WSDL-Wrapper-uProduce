@@ -27,9 +27,9 @@ class DeleteSheetSizes
      */
     public function __construct($inUsername = null, $inPassword = null, $inSheetSizeIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inSheetSizeIDArray = $inSheetSizeIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inSheetSizeIDArray = $inSheetSizeIDArray;
     }
 
     /**
@@ -37,17 +37,17 @@ class DeleteSheetSizes
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteSheetSizes
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteSheetSizes
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class DeleteSheetSizes
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteSheetSizes
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteSheetSizes
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class DeleteSheetSizes
      */
     public function getInSheetSizeIDArray()
     {
-        return $this->inSheetSizeIDArray;
+      return $this->inSheetSizeIDArray;
     }
 
     /**
      * @param ArrayOfString $inSheetSizeIDArray
-     * @return DeleteSheetSizes
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteSheetSizes
      */
     public function setInSheetSizeIDArray($inSheetSizeIDArray)
     {
-        $this->inSheetSizeIDArray = $inSheetSizeIDArray;
-        return $this;
+      $this->inSheetSizeIDArray = $inSheetSizeIDArray;
+      return $this;
     }
 
 }

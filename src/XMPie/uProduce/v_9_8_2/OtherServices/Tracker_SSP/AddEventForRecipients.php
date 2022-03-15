@@ -63,15 +63,15 @@ class AddEventForRecipients
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inJobID = null, $inEventType = null, $inRecipientIDs = null, $inEventContext = null, $inHitDate = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inJobID = $inJobID;
-        $this->inEventType = $inEventType;
-        $this->inRecipientIDs = $inRecipientIDs;
-        $this->inEventContext = $inEventContext;
-        $this->inHitDate = $inHitDate;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inJobID = $inJobID;
+      $this->inEventType = $inEventType;
+      $this->inRecipientIDs = $inRecipientIDs;
+      $this->inEventContext = $inEventContext;
+      $this->inHitDate = $inHitDate;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -79,17 +79,17 @@ class AddEventForRecipients
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return AddEventForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventForRecipients
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -97,17 +97,17 @@ class AddEventForRecipients
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return AddEventForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventForRecipients
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -115,17 +115,17 @@ class AddEventForRecipients
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return AddEventForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventForRecipients
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -133,17 +133,17 @@ class AddEventForRecipients
      */
     public function getInJobID()
     {
-        return $this->inJobID;
+      return $this->inJobID;
     }
 
     /**
      * @param string $inJobID
-     * @return AddEventForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventForRecipients
      */
     public function setInJobID($inJobID)
     {
-        $this->inJobID = $inJobID;
-        return $this;
+      $this->inJobID = $inJobID;
+      return $this;
     }
 
     /**
@@ -151,17 +151,17 @@ class AddEventForRecipients
      */
     public function getInEventType()
     {
-        return $this->inEventType;
+      return $this->inEventType;
     }
 
     /**
      * @param string $inEventType
-     * @return AddEventForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventForRecipients
      */
     public function setInEventType($inEventType)
     {
-        $this->inEventType = $inEventType;
-        return $this;
+      $this->inEventType = $inEventType;
+      return $this;
     }
 
     /**
@@ -169,17 +169,17 @@ class AddEventForRecipients
      */
     public function getInRecipientIDs()
     {
-        return $this->inRecipientIDs;
+      return $this->inRecipientIDs;
     }
 
     /**
      * @param ArrayOfString $inRecipientIDs
-     * @return AddEventForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventForRecipients
      */
     public function setInRecipientIDs($inRecipientIDs)
     {
-        $this->inRecipientIDs = $inRecipientIDs;
-        return $this;
+      $this->inRecipientIDs = $inRecipientIDs;
+      return $this;
     }
 
     /**
@@ -187,17 +187,17 @@ class AddEventForRecipients
      */
     public function getInEventContext()
     {
-        return $this->inEventContext;
+      return $this->inEventContext;
     }
 
     /**
      * @param string $inEventContext
-     * @return AddEventForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventForRecipients
      */
     public function setInEventContext($inEventContext)
     {
-        $this->inEventContext = $inEventContext;
-        return $this;
+      $this->inEventContext = $inEventContext;
+      return $this;
     }
 
     /**
@@ -205,17 +205,17 @@ class AddEventForRecipients
      */
     public function getInHitDate()
     {
-        return $this->inHitDate;
+      return $this->inHitDate;
     }
 
     /**
      * @param XMPDateTime $inHitDate
-     * @return AddEventForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventForRecipients
      */
     public function setInHitDate($inHitDate)
     {
-        $this->inHitDate = $inHitDate;
-        return $this;
+      $this->inHitDate = $inHitDate;
+      return $this;
     }
 
     /**
@@ -223,17 +223,17 @@ class AddEventForRecipients
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return AddEventForRecipients
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Tracker_SSP\AddEventForRecipients
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

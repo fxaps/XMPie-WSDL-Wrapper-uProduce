@@ -39,11 +39,11 @@ class CreateNewTicketForCampaign
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inRITableName = null, $inFlatOriented = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inRITableName = $inRITableName;
-        $this->inFlatOriented = $inFlatOriented;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inRITableName = $inRITableName;
+      $this->inFlatOriented = $inFlatOriented;
     }
 
     /**
@@ -51,17 +51,17 @@ class CreateNewTicketForCampaign
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNewTicketForCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForCampaign
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class CreateNewTicketForCampaign
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNewTicketForCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForCampaign
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class CreateNewTicketForCampaign
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return CreateNewTicketForCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForCampaign
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class CreateNewTicketForCampaign
      */
     public function getInRITableName()
     {
-        return $this->inRITableName;
+      return $this->inRITableName;
     }
 
     /**
      * @param string $inRITableName
-     * @return CreateNewTicketForCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForCampaign
      */
     public function setInRITableName($inRITableName)
     {
-        $this->inRITableName = $inRITableName;
-        return $this;
+      $this->inRITableName = $inRITableName;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class CreateNewTicketForCampaign
      */
     public function getInFlatOriented()
     {
-        return $this->inFlatOriented;
+      return $this->inFlatOriented;
     }
 
     /**
      * @param boolean $inFlatOriented
-     * @return CreateNewTicketForCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketForCampaign
      */
     public function setInFlatOriented($inFlatOriented)
     {
-        $this->inFlatOriented = $inFlatOriented;
-        return $this;
+      $this->inFlatOriented = $inFlatOriented;
+      return $this;
     }
 
 }

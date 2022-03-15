@@ -57,14 +57,14 @@ class GetAssetsDataSet
      */
     public function __construct($inUsername = null, $inPassword = null, $inAssetSourceID = null, $inPageSize = null, $inPageIndex = null, $inPageAssetId = null, $inSortingAssetInfoPropertyNames = null, $inSortingDirection = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAssetSourceID = $inAssetSourceID;
-        $this->inPageSize = $inPageSize;
-        $this->inPageIndex = $inPageIndex;
-        $this->inPageAssetId = $inPageAssetId;
-        $this->inSortingAssetInfoPropertyNames = $inSortingAssetInfoPropertyNames;
-        $this->inSortingDirection = $inSortingDirection;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAssetSourceID = $inAssetSourceID;
+      $this->inPageSize = $inPageSize;
+      $this->inPageIndex = $inPageIndex;
+      $this->inPageAssetId = $inPageAssetId;
+      $this->inSortingAssetInfoPropertyNames = $inSortingAssetInfoPropertyNames;
+      $this->inSortingDirection = $inSortingDirection;
     }
 
     /**
@@ -72,17 +72,17 @@ class GetAssetsDataSet
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetAssetsDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetsDataSet
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class GetAssetsDataSet
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetAssetsDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetsDataSet
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class GetAssetsDataSet
      */
     public function getInAssetSourceID()
     {
-        return $this->inAssetSourceID;
+      return $this->inAssetSourceID;
     }
 
     /**
      * @param string $inAssetSourceID
-     * @return GetAssetsDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetsDataSet
      */
     public function setInAssetSourceID($inAssetSourceID)
     {
-        $this->inAssetSourceID = $inAssetSourceID;
-        return $this;
+      $this->inAssetSourceID = $inAssetSourceID;
+      return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class GetAssetsDataSet
      */
     public function getInPageSize()
     {
-        return $this->inPageSize;
+      return $this->inPageSize;
     }
 
     /**
      * @param int $inPageSize
-     * @return GetAssetsDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetsDataSet
      */
     public function setInPageSize($inPageSize)
     {
-        $this->inPageSize = $inPageSize;
-        return $this;
+      $this->inPageSize = $inPageSize;
+      return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class GetAssetsDataSet
      */
     public function getInPageIndex()
     {
-        return $this->inPageIndex;
+      return $this->inPageIndex;
     }
 
     /**
      * @param int $inPageIndex
-     * @return GetAssetsDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetsDataSet
      */
     public function setInPageIndex($inPageIndex)
     {
-        $this->inPageIndex = $inPageIndex;
-        return $this;
+      $this->inPageIndex = $inPageIndex;
+      return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class GetAssetsDataSet
      */
     public function getInPageAssetId()
     {
-        return $this->inPageAssetId;
+      return $this->inPageAssetId;
     }
 
     /**
      * @param string $inPageAssetId
-     * @return GetAssetsDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetsDataSet
      */
     public function setInPageAssetId($inPageAssetId)
     {
-        $this->inPageAssetId = $inPageAssetId;
-        return $this;
+      $this->inPageAssetId = $inPageAssetId;
+      return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class GetAssetsDataSet
      */
     public function getInSortingAssetInfoPropertyNames()
     {
-        return $this->inSortingAssetInfoPropertyNames;
+      return $this->inSortingAssetInfoPropertyNames;
     }
 
     /**
      * @param ArrayOfString $inSortingAssetInfoPropertyNames
-     * @return GetAssetsDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetsDataSet
      */
     public function setInSortingAssetInfoPropertyNames($inSortingAssetInfoPropertyNames)
     {
-        $this->inSortingAssetInfoPropertyNames = $inSortingAssetInfoPropertyNames;
-        return $this;
+      $this->inSortingAssetInfoPropertyNames = $inSortingAssetInfoPropertyNames;
+      return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class GetAssetsDataSet
      */
     public function getInSortingDirection()
     {
-        return $this->inSortingDirection;
+      return $this->inSortingDirection;
     }
 
     /**
      * @param string $inSortingDirection
-     * @return GetAssetsDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\GetAssetsDataSet
      */
     public function setInSortingDirection($inSortingDirection)
     {
-        $this->inSortingDirection = $inSortingDirection;
-        return $this;
+      $this->inSortingDirection = $inSortingDirection;
+      return $this;
     }
 
 }

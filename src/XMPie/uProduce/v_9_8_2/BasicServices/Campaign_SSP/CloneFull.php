@@ -45,12 +45,12 @@ class CloneFull
      */
     public function __construct($inUsername = null, $inPassword = null, $inCampaignID = null, $inTargetAccountID = null, $inTargetName = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inCampaignID = $inCampaignID;
-        $this->inTargetAccountID = $inTargetAccountID;
-        $this->inTargetName = $inTargetName;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inCampaignID = $inCampaignID;
+      $this->inTargetAccountID = $inTargetAccountID;
+      $this->inTargetName = $inTargetName;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -58,17 +58,17 @@ class CloneFull
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CloneFull
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneFull
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class CloneFull
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CloneFull
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneFull
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class CloneFull
      */
     public function getInCampaignID()
     {
-        return $this->inCampaignID;
+      return $this->inCampaignID;
     }
 
     /**
      * @param string $inCampaignID
-     * @return CloneFull
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneFull
      */
     public function setInCampaignID($inCampaignID)
     {
-        $this->inCampaignID = $inCampaignID;
-        return $this;
+      $this->inCampaignID = $inCampaignID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class CloneFull
      */
     public function getInTargetAccountID()
     {
-        return $this->inTargetAccountID;
+      return $this->inTargetAccountID;
     }
 
     /**
      * @param string $inTargetAccountID
-     * @return CloneFull
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneFull
      */
     public function setInTargetAccountID($inTargetAccountID)
     {
-        $this->inTargetAccountID = $inTargetAccountID;
-        return $this;
+      $this->inTargetAccountID = $inTargetAccountID;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class CloneFull
      */
     public function getInTargetName()
     {
-        return $this->inTargetName;
+      return $this->inTargetName;
     }
 
     /**
      * @param string $inTargetName
-     * @return CloneFull
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneFull
      */
     public function setInTargetName($inTargetName)
     {
-        $this->inTargetName = $inTargetName;
-        return $this;
+      $this->inTargetName = $inTargetName;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class CloneFull
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CloneFull
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CloneFull
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

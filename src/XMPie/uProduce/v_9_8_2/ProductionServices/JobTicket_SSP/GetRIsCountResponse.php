@@ -15,7 +15,7 @@ class GetRIsCountResponse
      */
     public function __construct($GetRIsCountResult = null)
     {
-        $this->GetRIsCountResult = $GetRIsCountResult;
+      $this->GetRIsCountResult = $GetRIsCountResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetRIsCountResponse
      */
     public function getGetRIsCountResult()
     {
-        return $this->GetRIsCountResult;
+      return $this->GetRIsCountResult;
     }
 
     /**
      * @param int $GetRIsCountResult
-     * @return GetRIsCountResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetRIsCountResponse
      */
     public function setGetRIsCountResult($GetRIsCountResult)
     {
-        $this->GetRIsCountResult = $GetRIsCountResult;
-        return $this;
+      $this->GetRIsCountResult = $GetRIsCountResult;
+      return $this;
     }
 
 }

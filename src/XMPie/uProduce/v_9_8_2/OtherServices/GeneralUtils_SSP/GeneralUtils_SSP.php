@@ -3,76 +3,73 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\GeneralUtils_SSP;
 
 
-use SoapClient;
-use SoapFault;
-
 /**
  * GeneralUtils Web Service.
  */
-class GeneralUtils_SSP extends SoapClient
+class GeneralUtils_SSP extends \SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array(
-        'CalluProduceAPIViaXml' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalluProduceAPIViaXml',
-        'CalluProduceAPIViaXmlResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalluProduceAPIViaXmlResponse',
-        'CalluProduceAPIViaXmlFile' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalluProduceAPIViaXmlFile',
-        'CalluProduceAPIViaXmlFileResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalluProduceAPIViaXmlFileResponse',
-        'CalculateProductionImpositionNup' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalculateProductionImpositionNup',
-        'CalculateProductionImpositionNupResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalculateProductionImpositionNupResponse',
-        'NupValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\NupValues',
-        'GetBinaryFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStream',
-        'GetBinaryFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStreamResponse',
-        'GetBinaryFileStreamChunk' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStreamChunk',
-        'GetBinaryFileStreamChunkResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStreamChunkResponse',
-        'GetBinaryFileStreamSize' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStreamSize',
-        'GetBinaryFileStreamSizeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStreamSizeResponse',
-        'GetBinaryFileThumbnailStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileThumbnailStream',
-        'GetBinaryFileThumbnailStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileThumbnailStreamResponse',
-        'CreateThumbnailToTempStorage' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CreateThumbnailToTempStorage',
-        'CreateThumbnailToTempStorageResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CreateThumbnailToTempStorageResponse',
-        'ClearProductionElementsCache' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ClearProductionElementsCache',
-        'ClearProductionElementsCacheResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ClearProductionElementsCacheResponse',
-        'ClearGlobalPrintCache' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ClearGlobalPrintCache',
-        'ClearGlobalPrintCacheResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ClearGlobalPrintCacheResponse',
-        'GetHeliconProxyUpdateScript' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetHeliconProxyUpdateScript',
-        'GetHeliconProxyUpdateScriptResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetHeliconProxyUpdateScriptResponse',
-        'GetHeliconSupportedVersion' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetHeliconSupportedVersion',
-        'GetHeliconSupportedVersionResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetHeliconSupportedVersionResponse',
-        'IsFlashCompatibleReturnCompatibleVersion' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\IsFlashCompatibleReturnCompatibleVersion',
-        'IsFlashCompatibleReturnCompatibleVersionResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\IsFlashCompatibleReturnCompatibleVersionResponse',
-        'IsFlashCompatible' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\IsFlashCompatible',
-        'IsFlashCompatibleResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\IsFlashCompatibleResponse',
-        'ProcessImageInAIE' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ProcessImageInAIE',
-        'ProcessImageInAIEResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ProcessImageInAIEResponse',
-        'GetPathLocatorDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorDataSet',
-        'GetPathLocatorDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorDataSetResponse',
-        'GetPathLocatorDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorDataSetResult',
-        'GetPathLocatorXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorXMPTblDataSet',
-        'GetPathLocatorXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorXMPTblDataSetResponse',
-        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\XMPTblDataSet',
-        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ArrayOfXMPTbl',
-        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\XMPTbl',
-        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ArrayOfXMPTblColumn',
-        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\XMPTblColumn',
-        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ArrayOfXMPTblRow',
-        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\XMPTblRow',
-        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ArrayOfXMPRowField',
-        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\XMPRowField',
-        'GetPathLocatorValue' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorValue',
-        'GetPathLocatorValueResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorValueResponse',
-        'SetPathLocatorValue' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\SetPathLocatorValue',
-        'SetPathLocatorValueResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\SetPathLocatorValueResponse',
-        'ValidateFriendlyURL' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ValidateFriendlyURL',
-        'ValidateFriendlyURLResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ValidateFriendlyURLResponse',
-        'GetVersionInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetVersionInfo',
-        'GetVersionInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetVersionInfoResponse',
-        'VersionInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\VersionInfo',
-        'GetVersionInfoEx' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetVersionInfoEx',
-        'GetVersionInfoExResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetVersionInfoExResponse',
-    );
+    private static $classmap = array (
+  'CalluProduceAPIViaXml' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalluProduceAPIViaXml',
+  'CalluProduceAPIViaXmlResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalluProduceAPIViaXmlResponse',
+  'CalluProduceAPIViaXmlFile' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalluProduceAPIViaXmlFile',
+  'CalluProduceAPIViaXmlFileResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalluProduceAPIViaXmlFileResponse',
+  'CalculateProductionImpositionNup' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalculateProductionImpositionNup',
+  'CalculateProductionImpositionNupResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CalculateProductionImpositionNupResponse',
+  'NupValues' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\NupValues',
+  'GetBinaryFileStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStream',
+  'GetBinaryFileStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStreamResponse',
+  'GetBinaryFileStreamChunk' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStreamChunk',
+  'GetBinaryFileStreamChunkResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStreamChunkResponse',
+  'GetBinaryFileStreamSize' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStreamSize',
+  'GetBinaryFileStreamSizeResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileStreamSizeResponse',
+  'GetBinaryFileThumbnailStream' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileThumbnailStream',
+  'GetBinaryFileThumbnailStreamResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetBinaryFileThumbnailStreamResponse',
+  'CreateThumbnailToTempStorage' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CreateThumbnailToTempStorage',
+  'CreateThumbnailToTempStorageResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\CreateThumbnailToTempStorageResponse',
+  'ClearProductionElementsCache' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ClearProductionElementsCache',
+  'ClearProductionElementsCacheResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ClearProductionElementsCacheResponse',
+  'ClearGlobalPrintCache' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ClearGlobalPrintCache',
+  'ClearGlobalPrintCacheResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ClearGlobalPrintCacheResponse',
+  'GetHeliconProxyUpdateScript' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetHeliconProxyUpdateScript',
+  'GetHeliconProxyUpdateScriptResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetHeliconProxyUpdateScriptResponse',
+  'GetHeliconSupportedVersion' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetHeliconSupportedVersion',
+  'GetHeliconSupportedVersionResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetHeliconSupportedVersionResponse',
+  'IsFlashCompatibleReturnCompatibleVersion' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\IsFlashCompatibleReturnCompatibleVersion',
+  'IsFlashCompatibleReturnCompatibleVersionResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\IsFlashCompatibleReturnCompatibleVersionResponse',
+  'IsFlashCompatible' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\IsFlashCompatible',
+  'IsFlashCompatibleResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\IsFlashCompatibleResponse',
+  'ProcessImageInAIE' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ProcessImageInAIE',
+  'ProcessImageInAIEResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ProcessImageInAIEResponse',
+  'GetPathLocatorDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorDataSet',
+  'GetPathLocatorDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorDataSetResponse',
+  'GetPathLocatorDataSetResult' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorDataSetResult',
+  'GetPathLocatorXMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorXMPTblDataSet',
+  'GetPathLocatorXMPTblDataSetResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorXMPTblDataSetResponse',
+  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\XMPTblDataSet',
+  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ArrayOfXMPTbl',
+  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\XMPTbl',
+  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ArrayOfXMPTblColumn',
+  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\XMPTblColumn',
+  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ArrayOfXMPTblRow',
+  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\XMPTblRow',
+  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ArrayOfXMPRowField',
+  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\XMPRowField',
+  'GetPathLocatorValue' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorValue',
+  'GetPathLocatorValueResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetPathLocatorValueResponse',
+  'SetPathLocatorValue' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\SetPathLocatorValue',
+  'SetPathLocatorValueResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\SetPathLocatorValueResponse',
+  'ValidateFriendlyURL' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ValidateFriendlyURL',
+  'ValidateFriendlyURLResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\ValidateFriendlyURLResponse',
+  'GetVersionInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetVersionInfo',
+  'GetVersionInfoResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetVersionInfoResponse',
+  'VersionInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\VersionInfo',
+  'GetVersionInfoEx' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetVersionInfoEx',
+  'GetVersionInfoExResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\OtherServices\\GeneralUtils_SSP\\GetVersionInfoExResponse',
+);
 
     /**
      * @param array $options A array of config values
@@ -81,19 +78,19 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-
-        foreach (self::$classmap as $key => $value) {
-            if (!isset($options['classmap'][$key])) {
-                $options['classmap'][$key] = $value;
-            }
-        }
-        $options = array_merge(array(
-            'features' => 1,
-        ), $options);
-        if (!$wsdl) {
-            $wsdl = 'http://localhost/xmpiewsapi/GeneralUtils_SSP.asmx?wsdl';
-        }
-        parent::__construct($wsdl, $options);
+    
+  foreach (self::$classmap as $key => $value) {
+    if (!isset($options['classmap'][$key])) {
+      $options['classmap'][$key] = $value;
+    }
+  }
+      $options = array_merge(array (
+  'features' => 1,
+), $options);
+      if (!$wsdl) {
+        $wsdl = 'http://localhost/xmpiewsapi/GeneralUtils_SSP.asmx?wsdl';
+      }
+      parent::__construct($wsdl, $options);
     }
 
     /**
@@ -104,7 +101,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function CalluProduceAPIViaXml(CalluProduceAPIViaXml $parameters)
     {
-        return $this->__soapCall('CalluProduceAPIViaXml', array($parameters));
+      return $this->__soapCall('CalluProduceAPIViaXml', array($parameters));
     }
 
     /**
@@ -115,7 +112,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function CalluProduceAPIViaXmlFile(CalluProduceAPIViaXmlFile $parameters)
     {
-        return $this->__soapCall('CalluProduceAPIViaXmlFile', array($parameters));
+      return $this->__soapCall('CalluProduceAPIViaXmlFile', array($parameters));
     }
 
     /**
@@ -126,7 +123,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function CalculateProductionImpositionNup(CalculateProductionImpositionNup $parameters)
     {
-        return $this->__soapCall('CalculateProductionImpositionNup', array($parameters));
+      return $this->__soapCall('CalculateProductionImpositionNup', array($parameters));
     }
 
     /**
@@ -137,7 +134,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetBinaryFileStream(GetBinaryFileStream $parameters)
     {
-        return $this->__soapCall('GetBinaryFileStream', array($parameters));
+      return $this->__soapCall('GetBinaryFileStream', array($parameters));
     }
 
     /**
@@ -148,7 +145,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetBinaryFileStreamChunk(GetBinaryFileStreamChunk $parameters)
     {
-        return $this->__soapCall('GetBinaryFileStreamChunk', array($parameters));
+      return $this->__soapCall('GetBinaryFileStreamChunk', array($parameters));
     }
 
     /**
@@ -159,7 +156,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetBinaryFileStreamSize(GetBinaryFileStreamSize $parameters)
     {
-        return $this->__soapCall('GetBinaryFileStreamSize', array($parameters));
+      return $this->__soapCall('GetBinaryFileStreamSize', array($parameters));
     }
 
     /**
@@ -170,7 +167,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetBinaryFileThumbnailStream(GetBinaryFileThumbnailStream $parameters)
     {
-        return $this->__soapCall('GetBinaryFileThumbnailStream', array($parameters));
+      return $this->__soapCall('GetBinaryFileThumbnailStream', array($parameters));
     }
 
     /**
@@ -181,7 +178,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function CreateThumbnailToTempStorage(CreateThumbnailToTempStorage $parameters)
     {
-        return $this->__soapCall('CreateThumbnailToTempStorage', array($parameters));
+      return $this->__soapCall('CreateThumbnailToTempStorage', array($parameters));
     }
 
     /**
@@ -192,7 +189,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function ClearProductionElementsCache(ClearProductionElementsCache $parameters)
     {
-        return $this->__soapCall('ClearProductionElementsCache', array($parameters));
+      return $this->__soapCall('ClearProductionElementsCache', array($parameters));
     }
 
     /**
@@ -203,7 +200,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function ClearGlobalPrintCache(ClearGlobalPrintCache $parameters)
     {
-        return $this->__soapCall('ClearGlobalPrintCache', array($parameters));
+      return $this->__soapCall('ClearGlobalPrintCache', array($parameters));
     }
 
     /**
@@ -214,7 +211,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetHeliconProxyUpdateScript(GetHeliconProxyUpdateScript $parameters)
     {
-        return $this->__soapCall('GetHeliconProxyUpdateScript', array($parameters));
+      return $this->__soapCall('GetHeliconProxyUpdateScript', array($parameters));
     }
 
     /**
@@ -225,7 +222,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetHeliconSupportedVersion(GetHeliconSupportedVersion $parameters)
     {
-        return $this->__soapCall('GetHeliconSupportedVersion', array($parameters));
+      return $this->__soapCall('GetHeliconSupportedVersion', array($parameters));
     }
 
     /**
@@ -236,7 +233,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function IsFlashCompatibleReturnCompatibleVersion(IsFlashCompatibleReturnCompatibleVersion $parameters)
     {
-        return $this->__soapCall('IsFlashCompatibleReturnCompatibleVersion', array($parameters));
+      return $this->__soapCall('IsFlashCompatibleReturnCompatibleVersion', array($parameters));
     }
 
     /**
@@ -247,7 +244,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function IsFlashCompatible(IsFlashCompatible $parameters)
     {
-        return $this->__soapCall('IsFlashCompatible', array($parameters));
+      return $this->__soapCall('IsFlashCompatible', array($parameters));
     }
 
     /**
@@ -258,7 +255,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function ProcessImageInAIE(ProcessImageInAIE $parameters)
     {
-        return $this->__soapCall('ProcessImageInAIE', array($parameters));
+      return $this->__soapCall('ProcessImageInAIE', array($parameters));
     }
 
     /**
@@ -269,7 +266,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetPathLocatorDataSet(GetPathLocatorDataSet $parameters)
     {
-        return $this->__soapCall('GetPathLocatorDataSet', array($parameters));
+      return $this->__soapCall('GetPathLocatorDataSet', array($parameters));
     }
 
     /**
@@ -280,7 +277,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetPathLocatorXMPTblDataSet(GetPathLocatorXMPTblDataSet $parameters)
     {
-        return $this->__soapCall('GetPathLocatorXMPTblDataSet', array($parameters));
+      return $this->__soapCall('GetPathLocatorXMPTblDataSet', array($parameters));
     }
 
     /**
@@ -291,7 +288,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetPathLocatorValue(GetPathLocatorValue $parameters)
     {
-        return $this->__soapCall('GetPathLocatorValue', array($parameters));
+      return $this->__soapCall('GetPathLocatorValue', array($parameters));
     }
 
     /**
@@ -302,7 +299,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function SetPathLocatorValue(SetPathLocatorValue $parameters)
     {
-        return $this->__soapCall('SetPathLocatorValue', array($parameters));
+      return $this->__soapCall('SetPathLocatorValue', array($parameters));
     }
 
     /**
@@ -313,7 +310,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function ValidateFriendlyURL(ValidateFriendlyURL $parameters)
     {
-        return $this->__soapCall('ValidateFriendlyURL', array($parameters));
+      return $this->__soapCall('ValidateFriendlyURL', array($parameters));
     }
 
     /**
@@ -324,7 +321,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetVersionInfo(GetVersionInfo $parameters)
     {
-        return $this->__soapCall('GetVersionInfo', array($parameters));
+      return $this->__soapCall('GetVersionInfo', array($parameters));
     }
 
     /**
@@ -335,7 +332,7 @@ class GeneralUtils_SSP extends SoapClient
      */
     public function GetVersionInfoEx(GetVersionInfoEx $parameters)
     {
-        return $this->__soapCall('GetVersionInfoEx', array($parameters));
+      return $this->__soapCall('GetVersionInfoEx', array($parameters));
     }
 
 }

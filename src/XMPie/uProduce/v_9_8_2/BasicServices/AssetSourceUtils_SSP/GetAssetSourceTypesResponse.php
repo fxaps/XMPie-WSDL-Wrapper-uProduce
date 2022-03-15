@@ -15,7 +15,7 @@ class GetAssetSourceTypesResponse
      */
     public function __construct($GetAssetSourceTypesResult = null)
     {
-        $this->GetAssetSourceTypesResult = $GetAssetSourceTypesResult;
+      $this->GetAssetSourceTypesResult = $GetAssetSourceTypesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAssetSourceTypesResponse
      */
     public function getGetAssetSourceTypesResult()
     {
-        return $this->GetAssetSourceTypesResult;
+      return $this->GetAssetSourceTypesResult;
     }
 
     /**
      * @param GetAssetSourceTypesResult $GetAssetSourceTypesResult
-     * @return GetAssetSourceTypesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSourceUtils_SSP\GetAssetSourceTypesResponse
      */
     public function setGetAssetSourceTypesResult($GetAssetSourceTypesResult)
     {
-        $this->GetAssetSourceTypesResult = $GetAssetSourceTypesResult;
-        return $this;
+      $this->GetAssetSourceTypesResult = $GetAssetSourceTypesResult;
+      return $this;
     }
 
 }

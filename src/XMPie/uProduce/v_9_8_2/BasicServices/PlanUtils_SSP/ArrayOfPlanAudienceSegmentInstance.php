@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Countable
+class ArrayOfPlanAudienceSegmentInstance implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     protected $PlanAudienceSegmentInstance = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function getPlanAudienceSegmentInstance()
     {
-        return $this->PlanAudienceSegmentInstance;
+      return $this->PlanAudienceSegmentInstance;
     }
 
     /**
      * @param PlanAudienceSegmentInstance[] $PlanAudienceSegmentInstance
-     * @return ArrayOfPlanAudienceSegmentInstance
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\ArrayOfPlanAudienceSegmentInstance
      */
     public function setPlanAudienceSegmentInstance(array $PlanAudienceSegmentInstance = null)
     {
-        $this->PlanAudienceSegmentInstance = $PlanAudienceSegmentInstance;
-        return $this;
+      $this->PlanAudienceSegmentInstance = $PlanAudienceSegmentInstance;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function offsetExists($offset)
     {
-        return isset($this->PlanAudienceSegmentInstance[$offset]);
+      return isset($this->PlanAudienceSegmentInstance[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function offsetGet($offset)
     {
-        return $this->PlanAudienceSegmentInstance[$offset];
+      return $this->PlanAudienceSegmentInstance[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->PlanAudienceSegmentInstance[] = $value;
-        } else {
-            $this->PlanAudienceSegmentInstance[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->PlanAudienceSegmentInstance[] = $value;
+      } else {
+        $this->PlanAudienceSegmentInstance[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function offsetUnset($offset)
     {
-        unset($this->PlanAudienceSegmentInstance[$offset]);
+      unset($this->PlanAudienceSegmentInstance[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function current()
     {
-        return current($this->PlanAudienceSegmentInstance);
+      return current($this->PlanAudienceSegmentInstance);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function next()
     {
-        next($this->PlanAudienceSegmentInstance);
+      next($this->PlanAudienceSegmentInstance);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function key()
     {
-        return key($this->PlanAudienceSegmentInstance);
+      return key($this->PlanAudienceSegmentInstance);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function rewind()
     {
-        reset($this->PlanAudienceSegmentInstance);
+      reset($this->PlanAudienceSegmentInstance);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfPlanAudienceSegmentInstance implements ArrayAccess, Iterator, Count
      */
     public function count()
     {
-        return count($this->PlanAudienceSegmentInstance);
+      return count($this->PlanAudienceSegmentInstance);
     }
 
 }

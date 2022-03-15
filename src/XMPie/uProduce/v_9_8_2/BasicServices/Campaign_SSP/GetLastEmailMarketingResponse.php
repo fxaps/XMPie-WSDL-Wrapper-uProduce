@@ -15,7 +15,7 @@ class GetLastEmailMarketingResponse
      */
     public function __construct($GetLastEmailMarketingResult = null)
     {
-        $this->GetLastEmailMarketingResult = $GetLastEmailMarketingResult;
+      $this->GetLastEmailMarketingResult = $GetLastEmailMarketingResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetLastEmailMarketingResponse
      */
     public function getGetLastEmailMarketingResult()
     {
-        return $this->GetLastEmailMarketingResult;
+      return $this->GetLastEmailMarketingResult;
     }
 
     /**
      * @param string $GetLastEmailMarketingResult
-     * @return GetLastEmailMarketingResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetLastEmailMarketingResponse
      */
     public function setGetLastEmailMarketingResult($GetLastEmailMarketingResult)
     {
-        $this->GetLastEmailMarketingResult = $GetLastEmailMarketingResult;
-        return $this;
+      $this->GetLastEmailMarketingResult = $GetLastEmailMarketingResult;
+      return $this;
     }
 
 }

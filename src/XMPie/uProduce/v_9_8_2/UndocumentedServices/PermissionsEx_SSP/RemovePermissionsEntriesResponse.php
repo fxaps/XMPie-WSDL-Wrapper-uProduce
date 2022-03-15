@@ -15,7 +15,7 @@ class RemovePermissionsEntriesResponse
      */
     public function __construct($RemovePermissionsEntriesResult = null)
     {
-        $this->RemovePermissionsEntriesResult = $RemovePermissionsEntriesResult;
+      $this->RemovePermissionsEntriesResult = $RemovePermissionsEntriesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemovePermissionsEntriesResponse
      */
     public function getRemovePermissionsEntriesResult()
     {
-        return $this->RemovePermissionsEntriesResult;
+      return $this->RemovePermissionsEntriesResult;
     }
 
     /**
      * @param boolean $RemovePermissionsEntriesResult
-     * @return RemovePermissionsEntriesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PermissionsEx_SSP\RemovePermissionsEntriesResponse
      */
     public function setRemovePermissionsEntriesResult($RemovePermissionsEntriesResult)
     {
-        $this->RemovePermissionsEntriesResult = $RemovePermissionsEntriesResult;
-        return $this;
+      $this->RemovePermissionsEntriesResult = $RemovePermissionsEntriesResult;
+      return $this;
     }
 
 }

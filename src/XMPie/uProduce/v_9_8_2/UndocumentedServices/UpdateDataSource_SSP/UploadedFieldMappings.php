@@ -10,10 +10,10 @@ class UploadedFieldMappings
      */
     protected $m_mappings = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -21,17 +21,17 @@ class UploadedFieldMappings
      */
     public function getM_mappings()
     {
-        return $this->m_mappings;
+      return $this->m_mappings;
     }
 
     /**
      * @param ArrayOfUploadedFieldMappingInfo $m_mappings
-     * @return UploadedFieldMappings
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\UploadedFieldMappings
      */
     public function setM_mappings($m_mappings)
     {
-        $this->m_mappings = $m_mappings;
-        return $this;
+      $this->m_mappings = $m_mappings;
+      return $this;
     }
 
 }

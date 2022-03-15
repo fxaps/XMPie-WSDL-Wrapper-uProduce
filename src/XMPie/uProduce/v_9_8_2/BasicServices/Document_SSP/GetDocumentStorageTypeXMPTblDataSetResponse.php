@@ -15,7 +15,7 @@ class GetDocumentStorageTypeXMPTblDataSetResponse
      */
     public function __construct($GetDocumentStorageTypeXMPTblDataSetResult = null)
     {
-        $this->GetDocumentStorageTypeXMPTblDataSetResult = $GetDocumentStorageTypeXMPTblDataSetResult;
+      $this->GetDocumentStorageTypeXMPTblDataSetResult = $GetDocumentStorageTypeXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDocumentStorageTypeXMPTblDataSetResponse
      */
     public function getGetDocumentStorageTypeXMPTblDataSetResult()
     {
-        return $this->GetDocumentStorageTypeXMPTblDataSetResult;
+      return $this->GetDocumentStorageTypeXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetDocumentStorageTypeXMPTblDataSetResult
-     * @return GetDocumentStorageTypeXMPTblDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetDocumentStorageTypeXMPTblDataSetResponse
      */
     public function setGetDocumentStorageTypeXMPTblDataSetResult($GetDocumentStorageTypeXMPTblDataSetResult)
     {
-        $this->GetDocumentStorageTypeXMPTblDataSetResult = $GetDocumentStorageTypeXMPTblDataSetResult;
-        return $this;
+      $this->GetDocumentStorageTypeXMPTblDataSetResult = $GetDocumentStorageTypeXMPTblDataSetResult;
+      return $this;
     }
 
 }

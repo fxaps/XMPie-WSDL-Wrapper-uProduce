@@ -15,7 +15,7 @@ class SetJobReportCallbackURLResponse
      */
     public function __construct($SetJobReportCallbackURLResult = null)
     {
-        $this->SetJobReportCallbackURLResult = $SetJobReportCallbackURLResult;
+      $this->SetJobReportCallbackURLResult = $SetJobReportCallbackURLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetJobReportCallbackURLResponse
      */
     public function getSetJobReportCallbackURLResult()
     {
-        return $this->SetJobReportCallbackURLResult;
+      return $this->SetJobReportCallbackURLResult;
     }
 
     /**
      * @param boolean $SetJobReportCallbackURLResult
-     * @return SetJobReportCallbackURLResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetJobReportCallbackURLResponse
      */
     public function setSetJobReportCallbackURLResult($SetJobReportCallbackURLResult)
     {
-        $this->SetJobReportCallbackURLResult = $SetJobReportCallbackURLResult;
-        return $this;
+      $this->SetJobReportCallbackURLResult = $SetJobReportCallbackURLResult;
+      return $this;
     }
 
 }

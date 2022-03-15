@@ -15,7 +15,7 @@ class CreateNewFromCPKGResponse
      */
     public function __construct($CreateNewFromCPKGResult = null)
     {
-        $this->CreateNewFromCPKGResult = $CreateNewFromCPKGResult;
+      $this->CreateNewFromCPKGResult = $CreateNewFromCPKGResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewFromCPKGResponse
      */
     public function getCreateNewFromCPKGResult()
     {
-        return $this->CreateNewFromCPKGResult;
+      return $this->CreateNewFromCPKGResult;
     }
 
     /**
      * @param string $CreateNewFromCPKGResult
-     * @return CreateNewFromCPKGResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\CreateNewFromCPKGResponse
      */
     public function setCreateNewFromCPKGResult($CreateNewFromCPKGResult)
     {
-        $this->CreateNewFromCPKGResult = $CreateNewFromCPKGResult;
-        return $this;
+      $this->CreateNewFromCPKGResult = $CreateNewFromCPKGResult;
+      return $this;
     }
 
 }

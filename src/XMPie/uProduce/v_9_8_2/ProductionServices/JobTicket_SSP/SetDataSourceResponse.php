@@ -15,7 +15,7 @@ class SetDataSourceResponse
      */
     public function __construct($SetDataSourceResult = null)
     {
-        $this->SetDataSourceResult = $SetDataSourceResult;
+      $this->SetDataSourceResult = $SetDataSourceResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetDataSourceResponse
      */
     public function getSetDataSourceResult()
     {
-        return $this->SetDataSourceResult;
+      return $this->SetDataSourceResult;
     }
 
     /**
      * @param boolean $SetDataSourceResult
-     * @return SetDataSourceResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetDataSourceResponse
      */
     public function setSetDataSourceResult($SetDataSourceResult)
     {
-        $this->SetDataSourceResult = $SetDataSourceResult;
-        return $this;
+      $this->SetDataSourceResult = $SetDataSourceResult;
+      return $this;
     }
 
 }

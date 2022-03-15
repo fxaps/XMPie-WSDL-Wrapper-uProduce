@@ -15,7 +15,7 @@ class GetDeliveryProviderParametersResponse
      */
     public function __construct($GetDeliveryProviderParametersResult = null)
     {
-        $this->GetDeliveryProviderParametersResult = $GetDeliveryProviderParametersResult;
+      $this->GetDeliveryProviderParametersResult = $GetDeliveryProviderParametersResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDeliveryProviderParametersResponse
      */
     public function getGetDeliveryProviderParametersResult()
     {
-        return $this->GetDeliveryProviderParametersResult;
+      return $this->GetDeliveryProviderParametersResult;
     }
 
     /**
      * @param ArrayOfEmailProviderParameter $GetDeliveryProviderParametersResult
-     * @return GetDeliveryProviderParametersResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\DeliveryProvider_SSP\GetDeliveryProviderParametersResponse
      */
     public function setGetDeliveryProviderParametersResult($GetDeliveryProviderParametersResult)
     {
-        $this->GetDeliveryProviderParametersResult = $GetDeliveryProviderParametersResult;
-        return $this;
+      $this->GetDeliveryProviderParametersResult = $GetDeliveryProviderParametersResult;
+      return $this;
     }
 
 }

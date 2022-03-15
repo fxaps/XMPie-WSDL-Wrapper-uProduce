@@ -3,50 +3,47 @@
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP;
 
 
-use SoapClient;
-use SoapFault;
-
 /**
  * UpdateDataSource Web Service.
  */
-class UpdateDataSource_SSP extends SoapClient
+class UpdateDataSource_SSP extends \SoapClient
 {
 
     /**
      * @var array $classmap The defined classes
      */
-    private static $classmap = array(
-        'GetTableFieldsForTemplate' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetTableFieldsForTemplate',
-        'GetTableFieldsForTemplateResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetTableFieldsForTemplateResponse',
-        'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfXMPTblColumn',
-        'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPTblColumn',
-        'GetUploadedFileTablesSchema' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetUploadedFileTablesSchema',
-        'GetUploadedFileTablesSchemaResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetUploadedFileTablesSchemaResponse',
-        'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPTblDataSet',
-        'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfXMPTbl',
-        'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPTbl',
-        'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfXMPTblRow',
-        'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPTblRow',
-        'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfXMPRowField',
-        'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPRowField',
-        'GetTablesMatchToRecipientTable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetTablesMatchToRecipientTable',
-        'GetTablesMatchToRecipientTableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetTablesMatchToRecipientTableResponse',
-        'ArrayOfXMPTblMatching' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfXMPTblMatching',
-        'XMPTblMatching' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPTblMatching',
-        'Start' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\Start',
-        'UploadedFieldMappings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\UploadedFieldMappings',
-        'ArrayOfUploadedFieldMappingInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfUploadedFieldMappingInfo',
-        'UploadedFieldMappingInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\UploadedFieldMappingInfo',
-        'StartResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\StartResponse',
-        'StatusStructure' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\StatusStructure',
-        'TransactionStatus' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\TransactionStatus',
-        'GetStatus' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetStatus',
-        'GetStatusResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetStatusResponse',
-        'Cancel' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\Cancel',
-        'CancelResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\CancelResponse',
-        'Commit' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\Commit',
-        'CommitResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\CommitResponse',
-    );
+    private static $classmap = array (
+  'GetTableFieldsForTemplate' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetTableFieldsForTemplate',
+  'GetTableFieldsForTemplateResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetTableFieldsForTemplateResponse',
+  'ArrayOfXMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfXMPTblColumn',
+  'XMPTblColumn' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPTblColumn',
+  'GetUploadedFileTablesSchema' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetUploadedFileTablesSchema',
+  'GetUploadedFileTablesSchemaResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetUploadedFileTablesSchemaResponse',
+  'XMPTblDataSet' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPTblDataSet',
+  'ArrayOfXMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfXMPTbl',
+  'XMPTbl' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPTbl',
+  'ArrayOfXMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfXMPTblRow',
+  'XMPTblRow' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPTblRow',
+  'ArrayOfXMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfXMPRowField',
+  'XMPRowField' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPRowField',
+  'GetTablesMatchToRecipientTable' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetTablesMatchToRecipientTable',
+  'GetTablesMatchToRecipientTableResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetTablesMatchToRecipientTableResponse',
+  'ArrayOfXMPTblMatching' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfXMPTblMatching',
+  'XMPTblMatching' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\XMPTblMatching',
+  'Start' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\Start',
+  'UploadedFieldMappings' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\UploadedFieldMappings',
+  'ArrayOfUploadedFieldMappingInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\ArrayOfUploadedFieldMappingInfo',
+  'UploadedFieldMappingInfo' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\UploadedFieldMappingInfo',
+  'StartResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\StartResponse',
+  'StatusStructure' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\StatusStructure',
+  'TransactionStatus' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\TransactionStatus',
+  'GetStatus' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetStatus',
+  'GetStatusResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\GetStatusResponse',
+  'Cancel' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\Cancel',
+  'CancelResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\CancelResponse',
+  'Commit' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\Commit',
+  'CommitResponse' => 'XMPieWsdlClient\\XMPie\\uProduce\\v_9_8_2\\UndocumentedServices\\UpdateDataSource_SSP\\CommitResponse',
+);
 
     /**
      * @param array $options A array of config values
@@ -55,19 +52,19 @@ class UpdateDataSource_SSP extends SoapClient
      */
     public function __construct(array $options = array(), $wsdl = null)
     {
-
-        foreach (self::$classmap as $key => $value) {
-            if (!isset($options['classmap'][$key])) {
-                $options['classmap'][$key] = $value;
-            }
-        }
-        $options = array_merge(array(
-            'features' => 1,
-        ), $options);
-        if (!$wsdl) {
-            $wsdl = 'http://localhost/xmpiewsapi/UpdateDataSource_SSP.asmx?wsdl';
-        }
-        parent::__construct($wsdl, $options);
+    
+  foreach (self::$classmap as $key => $value) {
+    if (!isset($options['classmap'][$key])) {
+      $options['classmap'][$key] = $value;
+    }
+  }
+      $options = array_merge(array (
+  'features' => 1,
+), $options);
+      if (!$wsdl) {
+        $wsdl = 'http://localhost/xmpiewsapi/UpdateDataSource_SSP.asmx?wsdl';
+      }
+      parent::__construct($wsdl, $options);
     }
 
     /**
@@ -78,7 +75,7 @@ class UpdateDataSource_SSP extends SoapClient
      */
     public function GetTableFieldsForTemplate(GetTableFieldsForTemplate $parameters)
     {
-        return $this->__soapCall('GetTableFieldsForTemplate', array($parameters));
+      return $this->__soapCall('GetTableFieldsForTemplate', array($parameters));
     }
 
     /**
@@ -89,7 +86,7 @@ class UpdateDataSource_SSP extends SoapClient
      */
     public function GetUploadedFileTablesSchema(GetUploadedFileTablesSchema $parameters)
     {
-        return $this->__soapCall('GetUploadedFileTablesSchema', array($parameters));
+      return $this->__soapCall('GetUploadedFileTablesSchema', array($parameters));
     }
 
     /**
@@ -100,7 +97,7 @@ class UpdateDataSource_SSP extends SoapClient
      */
     public function GetTablesMatchToRecipientTable(GetTablesMatchToRecipientTable $parameters)
     {
-        return $this->__soapCall('GetTablesMatchToRecipientTable', array($parameters));
+      return $this->__soapCall('GetTablesMatchToRecipientTable', array($parameters));
     }
 
     /**
@@ -111,7 +108,7 @@ class UpdateDataSource_SSP extends SoapClient
      */
     public function Start(Start $parameters)
     {
-        return $this->__soapCall('Start', array($parameters));
+      return $this->__soapCall('Start', array($parameters));
     }
 
     /**
@@ -122,7 +119,7 @@ class UpdateDataSource_SSP extends SoapClient
      */
     public function GetStatus(GetStatus $parameters)
     {
-        return $this->__soapCall('GetStatus', array($parameters));
+      return $this->__soapCall('GetStatus', array($parameters));
     }
 
     /**
@@ -133,7 +130,7 @@ class UpdateDataSource_SSP extends SoapClient
      */
     public function Cancel(Cancel $parameters)
     {
-        return $this->__soapCall('Cancel', array($parameters));
+      return $this->__soapCall('Cancel', array($parameters));
     }
 
     /**
@@ -144,7 +141,7 @@ class UpdateDataSource_SSP extends SoapClient
      */
     public function Commit(Commit $parameters)
     {
-        return $this->__soapCall('Commit', array($parameters));
+      return $this->__soapCall('Commit', array($parameters));
     }
 
 }

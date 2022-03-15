@@ -15,7 +15,7 @@ class ReplaceFromZipResponse
      */
     public function __construct($ReplaceFromZipResult = null)
     {
-        $this->ReplaceFromZipResult = $ReplaceFromZipResult;
+      $this->ReplaceFromZipResult = $ReplaceFromZipResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ReplaceFromZipResponse
      */
     public function getReplaceFromZipResult()
     {
-        return $this->ReplaceFromZipResult;
+      return $this->ReplaceFromZipResult;
     }
 
     /**
      * @param boolean $ReplaceFromZipResult
-     * @return ReplaceFromZipResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\ReplaceFromZipResponse
      */
     public function setReplaceFromZipResult($ReplaceFromZipResult)
     {
-        $this->ReplaceFromZipResult = $ReplaceFromZipResult;
-        return $this;
+      $this->ReplaceFromZipResult = $ReplaceFromZipResult;
+      return $this;
     }
 
 }

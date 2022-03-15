@@ -15,7 +15,7 @@ class SetSplittedJobInfoResponse
      */
     public function __construct($SetSplittedJobInfoResult = null)
     {
-        $this->SetSplittedJobInfoResult = $SetSplittedJobInfoResult;
+      $this->SetSplittedJobInfoResult = $SetSplittedJobInfoResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetSplittedJobInfoResponse
      */
     public function getSetSplittedJobInfoResult()
     {
-        return $this->SetSplittedJobInfoResult;
+      return $this->SetSplittedJobInfoResult;
     }
 
     /**
      * @param boolean $SetSplittedJobInfoResult
-     * @return SetSplittedJobInfoResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetSplittedJobInfoResponse
      */
     public function setSetSplittedJobInfoResult($SetSplittedJobInfoResult)
     {
-        $this->SetSplittedJobInfoResult = $SetSplittedJobInfoResult;
-        return $this;
+      $this->SetSplittedJobInfoResult = $SetSplittedJobInfoResult;
+      return $this;
     }
 
 }

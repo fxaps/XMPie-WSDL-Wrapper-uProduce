@@ -15,7 +15,7 @@ class GetCampaignsXMPTblDataSetResponse
      */
     public function __construct($GetCampaignsXMPTblDataSetResult = null)
     {
-        $this->GetCampaignsXMPTblDataSetResult = $GetCampaignsXMPTblDataSetResult;
+      $this->GetCampaignsXMPTblDataSetResult = $GetCampaignsXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetCampaignsXMPTblDataSetResponse
      */
     public function getGetCampaignsXMPTblDataSetResult()
     {
-        return $this->GetCampaignsXMPTblDataSetResult;
+      return $this->GetCampaignsXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetCampaignsXMPTblDataSetResult
-     * @return GetCampaignsXMPTblDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\GetCampaignsXMPTblDataSetResponse
      */
     public function setGetCampaignsXMPTblDataSetResult($GetCampaignsXMPTblDataSetResult)
     {
-        $this->GetCampaignsXMPTblDataSetResult = $GetCampaignsXMPTblDataSetResult;
-        return $this;
+      $this->GetCampaignsXMPTblDataSetResult = $GetCampaignsXMPTblDataSetResult;
+      return $this;
     }
 
 }

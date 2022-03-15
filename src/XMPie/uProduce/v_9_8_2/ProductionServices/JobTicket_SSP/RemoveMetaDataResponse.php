@@ -15,7 +15,7 @@ class RemoveMetaDataResponse
      */
     public function __construct($RemoveMetaDataResult = null)
     {
-        $this->RemoveMetaDataResult = $RemoveMetaDataResult;
+      $this->RemoveMetaDataResult = $RemoveMetaDataResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveMetaDataResponse
      */
     public function getRemoveMetaDataResult()
     {
-        return $this->RemoveMetaDataResult;
+      return $this->RemoveMetaDataResult;
     }
 
     /**
      * @param boolean $RemoveMetaDataResult
-     * @return RemoveMetaDataResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveMetaDataResponse
      */
     public function setRemoveMetaDataResult($RemoveMetaDataResult)
     {
-        $this->RemoveMetaDataResult = $RemoveMetaDataResult;
-        return $this;
+      $this->RemoveMetaDataResult = $RemoveMetaDataResult;
+      return $this;
     }
 
 }

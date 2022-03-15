@@ -15,7 +15,7 @@ class ReplaceFromFileResponse
      */
     public function __construct($ReplaceFromFileResult = null)
     {
-        $this->ReplaceFromFileResult = $ReplaceFromFileResult;
+      $this->ReplaceFromFileResult = $ReplaceFromFileResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ReplaceFromFileResponse
      */
     public function getReplaceFromFileResult()
     {
-        return $this->ReplaceFromFileResult;
+      return $this->ReplaceFromFileResult;
     }
 
     /**
      * @param boolean $ReplaceFromFileResult
-     * @return ReplaceFromFileResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromFileResponse
      */
     public function setReplaceFromFileResult($ReplaceFromFileResult)
     {
-        $this->ReplaceFromFileResult = $ReplaceFromFileResult;
-        return $this;
+      $this->ReplaceFromFileResult = $ReplaceFromFileResult;
+      return $this;
     }
 
 }

@@ -27,9 +27,9 @@ class Abort
      */
     public function __construct($inUsername = null, $inPassword = null, $inJobIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inJobIDArray = $inJobIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inJobIDArray = $inJobIDArray;
     }
 
     /**
@@ -37,17 +37,17 @@ class Abort
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return Abort
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\Abort
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class Abort
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return Abort
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\Abort
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class Abort
      */
     public function getInJobIDArray()
     {
-        return $this->inJobIDArray;
+      return $this->inJobIDArray;
     }
 
     /**
      * @param ArrayOfString $inJobIDArray
-     * @return Abort
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\Abort
      */
     public function setInJobIDArray($inJobIDArray)
     {
-        $this->inJobIDArray = $inJobIDArray;
-        return $this;
+      $this->inJobIDArray = $inJobIDArray;
+      return $this;
     }
 
 }

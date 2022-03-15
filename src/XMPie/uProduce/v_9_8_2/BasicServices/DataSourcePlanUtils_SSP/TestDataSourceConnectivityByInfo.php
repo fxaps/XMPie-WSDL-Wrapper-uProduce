@@ -27,9 +27,9 @@ class TestDataSourceConnectivityByInfo
      */
     public function __construct($inUsername = null, $inPassword = null, $inConnectionInfo = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inConnectionInfo = $inConnectionInfo;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inConnectionInfo = $inConnectionInfo;
     }
 
     /**
@@ -37,17 +37,17 @@ class TestDataSourceConnectivityByInfo
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return TestDataSourceConnectivityByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\TestDataSourceConnectivityByInfo
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class TestDataSourceConnectivityByInfo
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return TestDataSourceConnectivityByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\TestDataSourceConnectivityByInfo
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class TestDataSourceConnectivityByInfo
      */
     public function getInConnectionInfo()
     {
-        return $this->inConnectionInfo;
+      return $this->inConnectionInfo;
     }
 
     /**
      * @param Connection $inConnectionInfo
-     * @return TestDataSourceConnectivityByInfo
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\TestDataSourceConnectivityByInfo
      */
     public function setInConnectionInfo($inConnectionInfo)
     {
-        $this->inConnectionInfo = $inConnectionInfo;
-        return $this;
+      $this->inConnectionInfo = $inConnectionInfo;
+      return $this;
     }
 
 }

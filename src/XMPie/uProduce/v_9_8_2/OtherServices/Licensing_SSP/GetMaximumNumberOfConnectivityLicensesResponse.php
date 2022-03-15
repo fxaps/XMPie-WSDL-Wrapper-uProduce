@@ -15,7 +15,7 @@ class GetMaximumNumberOfConnectivityLicensesResponse
      */
     public function __construct($GetMaximumNumberOfConnectivityLicensesResult = null)
     {
-        $this->GetMaximumNumberOfConnectivityLicensesResult = $GetMaximumNumberOfConnectivityLicensesResult;
+      $this->GetMaximumNumberOfConnectivityLicensesResult = $GetMaximumNumberOfConnectivityLicensesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetMaximumNumberOfConnectivityLicensesResponse
      */
     public function getGetMaximumNumberOfConnectivityLicensesResult()
     {
-        return $this->GetMaximumNumberOfConnectivityLicensesResult;
+      return $this->GetMaximumNumberOfConnectivityLicensesResult;
     }
 
     /**
      * @param int $GetMaximumNumberOfConnectivityLicensesResult
-     * @return GetMaximumNumberOfConnectivityLicensesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\GetMaximumNumberOfConnectivityLicensesResponse
      */
     public function setGetMaximumNumberOfConnectivityLicensesResult($GetMaximumNumberOfConnectivityLicensesResult)
     {
-        $this->GetMaximumNumberOfConnectivityLicensesResult = $GetMaximumNumberOfConnectivityLicensesResult;
-        return $this;
+      $this->GetMaximumNumberOfConnectivityLicensesResult = $GetMaximumNumberOfConnectivityLicensesResult;
+      return $this;
     }
 
 }

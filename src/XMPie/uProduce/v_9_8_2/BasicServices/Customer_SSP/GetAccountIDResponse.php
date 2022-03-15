@@ -15,7 +15,7 @@ class GetAccountIDResponse
      */
     public function __construct($GetAccountIDResult = null)
     {
-        $this->GetAccountIDResult = $GetAccountIDResult;
+      $this->GetAccountIDResult = $GetAccountIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAccountIDResponse
      */
     public function getGetAccountIDResult()
     {
-        return $this->GetAccountIDResult;
+      return $this->GetAccountIDResult;
     }
 
     /**
      * @param string $GetAccountIDResult
-     * @return GetAccountIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetAccountIDResponse
      */
     public function setGetAccountIDResult($GetAccountIDResult)
     {
-        $this->GetAccountIDResult = $GetAccountIDResult;
-        return $this;
+      $this->GetAccountIDResult = $GetAccountIDResult;
+      return $this;
     }
 
 }

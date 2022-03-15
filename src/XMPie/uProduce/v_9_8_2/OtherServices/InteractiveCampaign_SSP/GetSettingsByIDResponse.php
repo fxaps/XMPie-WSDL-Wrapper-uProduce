@@ -15,7 +15,7 @@ class GetSettingsByIDResponse
      */
     public function __construct($GetSettingsByIDResult = null)
     {
-        $this->GetSettingsByIDResult = $GetSettingsByIDResult;
+      $this->GetSettingsByIDResult = $GetSettingsByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSettingsByIDResponse
      */
     public function getGetSettingsByIDResult()
     {
-        return $this->GetSettingsByIDResult;
+      return $this->GetSettingsByIDResult;
     }
 
     /**
      * @param ArrayOfSetting $GetSettingsByIDResult
-     * @return GetSettingsByIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetSettingsByIDResponse
      */
     public function setGetSettingsByIDResult($GetSettingsByIDResult)
     {
-        $this->GetSettingsByIDResult = $GetSettingsByIDResult;
-        return $this;
+      $this->GetSettingsByIDResult = $GetSettingsByIDResult;
+      return $this;
     }
 
 }

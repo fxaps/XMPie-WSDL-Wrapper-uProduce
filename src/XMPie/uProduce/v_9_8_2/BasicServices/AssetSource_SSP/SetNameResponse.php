@@ -15,7 +15,7 @@ class SetNameResponse
      */
     public function __construct($SetNameResult = null)
     {
-        $this->SetNameResult = $SetNameResult;
+      $this->SetNameResult = $SetNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetNameResponse
      */
     public function getSetNameResult()
     {
-        return $this->SetNameResult;
+      return $this->SetNameResult;
     }
 
     /**
      * @param boolean $SetNameResult
-     * @return SetNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\AssetSource_SSP\SetNameResponse
      */
     public function setSetNameResult($SetNameResult)
     {
-        $this->SetNameResult = $SetNameResult;
-        return $this;
+      $this->SetNameResult = $SetNameResult;
+      return $this;
     }
 
 }

@@ -33,10 +33,10 @@ class SetFieldMapping
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inFieldMapping = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inFieldMapping = $inFieldMapping;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inFieldMapping = $inFieldMapping;
     }
 
     /**
@@ -44,17 +44,17 @@ class SetFieldMapping
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return SetFieldMapping
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFieldMapping
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class SetFieldMapping
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return SetFieldMapping
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFieldMapping
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class SetFieldMapping
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return SetFieldMapping
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFieldMapping
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class SetFieldMapping
      */
     public function getInFieldMapping()
     {
-        return $this->inFieldMapping;
+      return $this->inFieldMapping;
     }
 
     /**
      * @param FieldMappings $inFieldMapping
-     * @return SetFieldMapping
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFieldMapping
      */
     public function setInFieldMapping($inFieldMapping)
     {
-        $this->inFieldMapping = $inFieldMapping;
-        return $this;
+      $this->inFieldMapping = $inFieldMapping;
+      return $this;
     }
 
 }

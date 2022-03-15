@@ -15,7 +15,7 @@ class SetPlanResponse
      */
     public function __construct($SetPlanResult = null)
     {
-        $this->SetPlanResult = $SetPlanResult;
+      $this->SetPlanResult = $SetPlanResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetPlanResponse
      */
     public function getSetPlanResult()
     {
-        return $this->SetPlanResult;
+      return $this->SetPlanResult;
     }
 
     /**
      * @param boolean $SetPlanResult
-     * @return SetPlanResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetPlanResponse
      */
     public function setSetPlanResult($SetPlanResult)
     {
-        $this->SetPlanResult = $SetPlanResult;
-        return $this;
+      $this->SetPlanResult = $SetPlanResult;
+      return $this;
     }
 
 }

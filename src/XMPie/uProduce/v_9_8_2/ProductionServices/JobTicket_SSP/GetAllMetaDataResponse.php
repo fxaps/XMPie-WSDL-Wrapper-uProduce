@@ -15,7 +15,7 @@ class GetAllMetaDataResponse
      */
     public function __construct($GetAllMetaDataResult = null)
     {
-        $this->GetAllMetaDataResult = $GetAllMetaDataResult;
+      $this->GetAllMetaDataResult = $GetAllMetaDataResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetAllMetaDataResponse
      */
     public function getGetAllMetaDataResult()
     {
-        return $this->GetAllMetaDataResult;
+      return $this->GetAllMetaDataResult;
     }
 
     /**
      * @param ArrayOfProperty $GetAllMetaDataResult
-     * @return GetAllMetaDataResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetAllMetaDataResponse
      */
     public function setGetAllMetaDataResult($GetAllMetaDataResult)
     {
-        $this->GetAllMetaDataResult = $GetAllMetaDataResult;
-        return $this;
+      $this->GetAllMetaDataResult = $GetAllMetaDataResult;
+      return $this;
     }
 
 }

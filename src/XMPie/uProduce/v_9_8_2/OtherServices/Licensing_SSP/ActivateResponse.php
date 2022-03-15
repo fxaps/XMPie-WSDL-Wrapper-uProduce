@@ -15,7 +15,7 @@ class ActivateResponse
      */
     public function __construct($ActivateResult = null)
     {
-        $this->ActivateResult = $ActivateResult;
+      $this->ActivateResult = $ActivateResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ActivateResponse
      */
     public function getActivateResult()
     {
-        return $this->ActivateResult;
+      return $this->ActivateResult;
     }
 
     /**
      * @param Report $ActivateResult
-     * @return ActivateResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ActivateResponse
      */
     public function setActivateResult($ActivateResult)
     {
-        $this->ActivateResult = $ActivateResult;
-        return $this;
+      $this->ActivateResult = $ActivateResult;
+      return $this;
     }
 
 }

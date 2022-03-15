@@ -26,8 +26,8 @@ class JobQueryPart
      */
     public function __construct($m_JobField = null, $m_Operator = null)
     {
-        $this->m_JobField = $m_JobField;
-        $this->m_Operator = $m_Operator;
+      $this->m_JobField = $m_JobField;
+      $this->m_Operator = $m_Operator;
     }
 
     /**
@@ -35,17 +35,17 @@ class JobQueryPart
      */
     public function getM_JobField()
     {
-        return $this->m_JobField;
+      return $this->m_JobField;
     }
 
     /**
      * @param EJobField $m_JobField
-     * @return JobQueryPart
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\JobQueryPart
      */
     public function setM_JobField($m_JobField)
     {
-        $this->m_JobField = $m_JobField;
-        return $this;
+      $this->m_JobField = $m_JobField;
+      return $this;
     }
 
     /**
@@ -53,17 +53,17 @@ class JobQueryPart
      */
     public function getM_Operator()
     {
-        return $this->m_Operator;
+      return $this->m_Operator;
     }
 
     /**
      * @param ERelationalOperator $m_Operator
-     * @return JobQueryPart
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\JobQueryPart
      */
     public function setM_Operator($m_Operator)
     {
-        $this->m_Operator = $m_Operator;
-        return $this;
+      $this->m_Operator = $m_Operator;
+      return $this;
     }
 
     /**
@@ -71,17 +71,17 @@ class JobQueryPart
      */
     public function getM_Value()
     {
-        return $this->m_Value;
+      return $this->m_Value;
     }
 
     /**
      * @param ArrayOfString $m_Value
-     * @return JobQueryPart
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\JobQueryPart
      */
     public function setM_Value($m_Value)
     {
-        $this->m_Value = $m_Value;
-        return $this;
+      $this->m_Value = $m_Value;
+      return $this;
     }
 
 }

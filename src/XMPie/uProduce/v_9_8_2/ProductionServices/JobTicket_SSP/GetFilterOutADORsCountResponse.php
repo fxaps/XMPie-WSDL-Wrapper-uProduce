@@ -15,7 +15,7 @@ class GetFilterOutADORsCountResponse
      */
     public function __construct($GetFilterOutADORsCountResult = null)
     {
-        $this->GetFilterOutADORsCountResult = $GetFilterOutADORsCountResult;
+      $this->GetFilterOutADORsCountResult = $GetFilterOutADORsCountResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetFilterOutADORsCountResponse
      */
     public function getGetFilterOutADORsCountResult()
     {
-        return $this->GetFilterOutADORsCountResult;
+      return $this->GetFilterOutADORsCountResult;
     }
 
     /**
      * @param int $GetFilterOutADORsCountResult
-     * @return GetFilterOutADORsCountResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetFilterOutADORsCountResponse
      */
     public function setGetFilterOutADORsCountResult($GetFilterOutADORsCountResult)
     {
-        $this->GetFilterOutADORsCountResult = $GetFilterOutADORsCountResult;
-        return $this;
+      $this->GetFilterOutADORsCountResult = $GetFilterOutADORsCountResult;
+      return $this;
     }
 
 }

@@ -39,11 +39,11 @@ class RemoveOverload
      */
     public function __construct($inUsername = null, $inPassword = null, $inUserID = null, $inResourceType = null, $inResourceID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inUserID = $inUserID;
-        $this->inResourceType = $inResourceType;
-        $this->inResourceID = $inResourceID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inUserID = $inUserID;
+      $this->inResourceType = $inResourceType;
+      $this->inResourceID = $inResourceID;
     }
 
     /**
@@ -51,17 +51,17 @@ class RemoveOverload
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return RemoveOverload
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\RemoveOverload
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class RemoveOverload
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return RemoveOverload
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\RemoveOverload
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class RemoveOverload
      */
     public function getInUserID()
     {
-        return $this->inUserID;
+      return $this->inUserID;
     }
 
     /**
      * @param string $inUserID
-     * @return RemoveOverload
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\RemoveOverload
      */
     public function setInUserID($inUserID)
     {
-        $this->inUserID = $inUserID;
-        return $this;
+      $this->inUserID = $inUserID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class RemoveOverload
      */
     public function getInResourceType()
     {
-        return $this->inResourceType;
+      return $this->inResourceType;
     }
 
     /**
      * @param string $inResourceType
-     * @return RemoveOverload
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\RemoveOverload
      */
     public function setInResourceType($inResourceType)
     {
-        $this->inResourceType = $inResourceType;
-        return $this;
+      $this->inResourceType = $inResourceType;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class RemoveOverload
      */
     public function getInResourceID()
     {
-        return $this->inResourceID;
+      return $this->inResourceID;
     }
 
     /**
      * @param string $inResourceID
-     * @return RemoveOverload
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\RemoveOverload
      */
     public function setInResourceID($inResourceID)
     {
-        $this->inResourceID = $inResourceID;
-        return $this;
+      $this->inResourceID = $inResourceID;
+      return $this;
     }
 
 }

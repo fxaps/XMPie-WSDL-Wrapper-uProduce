@@ -15,7 +15,7 @@ class ValidateConnectivityLicenseResponse
      */
     public function __construct($ValidateConnectivityLicenseResult = null)
     {
-        $this->ValidateConnectivityLicenseResult = $ValidateConnectivityLicenseResult;
+      $this->ValidateConnectivityLicenseResult = $ValidateConnectivityLicenseResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ValidateConnectivityLicenseResponse
      */
     public function getValidateConnectivityLicenseResult()
     {
-        return $this->ValidateConnectivityLicenseResult;
+      return $this->ValidateConnectivityLicenseResult;
     }
 
     /**
      * @param boolean $ValidateConnectivityLicenseResult
-     * @return ValidateConnectivityLicenseResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Licensing_SSP\ValidateConnectivityLicenseResponse
      */
     public function setValidateConnectivityLicenseResult($ValidateConnectivityLicenseResult)
     {
-        $this->ValidateConnectivityLicenseResult = $ValidateConnectivityLicenseResult;
-        return $this;
+      $this->ValidateConnectivityLicenseResult = $ValidateConnectivityLicenseResult;
+      return $this;
     }
 
 }

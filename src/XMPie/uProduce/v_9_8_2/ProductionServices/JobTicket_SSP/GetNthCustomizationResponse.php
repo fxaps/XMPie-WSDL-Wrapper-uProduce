@@ -15,7 +15,7 @@ class GetNthCustomizationResponse
      */
     public function __construct($GetNthCustomizationResult = null)
     {
-        $this->GetNthCustomizationResult = $GetNthCustomizationResult;
+      $this->GetNthCustomizationResult = $GetNthCustomizationResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetNthCustomizationResponse
      */
     public function getGetNthCustomizationResult()
     {
-        return $this->GetNthCustomizationResult;
+      return $this->GetNthCustomizationResult;
     }
 
     /**
      * @param Customization $GetNthCustomizationResult
-     * @return GetNthCustomizationResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetNthCustomizationResponse
      */
     public function setGetNthCustomizationResult($GetNthCustomizationResult)
     {
-        $this->GetNthCustomizationResult = $GetNthCustomizationResult;
-        return $this;
+      $this->GetNthCustomizationResult = $GetNthCustomizationResult;
+      return $this;
     }
 
 }

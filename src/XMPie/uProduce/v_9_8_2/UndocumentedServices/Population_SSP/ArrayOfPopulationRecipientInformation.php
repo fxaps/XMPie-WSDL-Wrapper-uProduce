@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Countable
+class ArrayOfPopulationRecipientInformation implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     protected $PopulationRecipientInformation = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function getPopulationRecipientInformation()
     {
-        return $this->PopulationRecipientInformation;
+      return $this->PopulationRecipientInformation;
     }
 
     /**
      * @param PopulationRecipientInformation[] $PopulationRecipientInformation
-     * @return ArrayOfPopulationRecipientInformation
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\ArrayOfPopulationRecipientInformation
      */
     public function setPopulationRecipientInformation(array $PopulationRecipientInformation = null)
     {
-        $this->PopulationRecipientInformation = $PopulationRecipientInformation;
-        return $this;
+      $this->PopulationRecipientInformation = $PopulationRecipientInformation;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function offsetExists($offset)
     {
-        return isset($this->PopulationRecipientInformation[$offset]);
+      return isset($this->PopulationRecipientInformation[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function offsetGet($offset)
     {
-        return $this->PopulationRecipientInformation[$offset];
+      return $this->PopulationRecipientInformation[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->PopulationRecipientInformation[] = $value;
-        } else {
-            $this->PopulationRecipientInformation[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->PopulationRecipientInformation[] = $value;
+      } else {
+        $this->PopulationRecipientInformation[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function offsetUnset($offset)
     {
-        unset($this->PopulationRecipientInformation[$offset]);
+      unset($this->PopulationRecipientInformation[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function current()
     {
-        return current($this->PopulationRecipientInformation);
+      return current($this->PopulationRecipientInformation);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function next()
     {
-        next($this->PopulationRecipientInformation);
+      next($this->PopulationRecipientInformation);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function key()
     {
-        return key($this->PopulationRecipientInformation);
+      return key($this->PopulationRecipientInformation);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function rewind()
     {
-        reset($this->PopulationRecipientInformation);
+      reset($this->PopulationRecipientInformation);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfPopulationRecipientInformation implements ArrayAccess, Iterator, Co
      */
     public function count()
     {
-        return count($this->PopulationRecipientInformation);
+      return count($this->PopulationRecipientInformation);
     }
 
 }

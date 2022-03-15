@@ -30,7 +30,7 @@ class SendEmailResult
      */
     public function __construct($m_Success = null)
     {
-        $this->m_Success = $m_Success;
+      $this->m_Success = $m_Success;
     }
 
     /**
@@ -38,17 +38,17 @@ class SendEmailResult
      */
     public function getM_Success()
     {
-        return $this->m_Success;
+      return $this->m_Success;
     }
 
     /**
      * @param boolean $m_Success
-     * @return SendEmailResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendEmailResult
      */
     public function setM_Success($m_Success)
     {
-        $this->m_Success = $m_Success;
-        return $this;
+      $this->m_Success = $m_Success;
+      return $this;
     }
 
     /**
@@ -56,17 +56,17 @@ class SendEmailResult
      */
     public function getM_ErrorDescription()
     {
-        return $this->m_ErrorDescription;
+      return $this->m_ErrorDescription;
     }
 
     /**
      * @param string $m_ErrorDescription
-     * @return SendEmailResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendEmailResult
      */
     public function setM_ErrorDescription($m_ErrorDescription)
     {
-        $this->m_ErrorDescription = $m_ErrorDescription;
-        return $this;
+      $this->m_ErrorDescription = $m_ErrorDescription;
+      return $this;
     }
 
     /**
@@ -74,17 +74,17 @@ class SendEmailResult
      */
     public function getM_RecipID()
     {
-        return $this->m_RecipID;
+      return $this->m_RecipID;
     }
 
     /**
      * @param string $m_RecipID
-     * @return SendEmailResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendEmailResult
      */
     public function setM_RecipID($m_RecipID)
     {
-        $this->m_RecipID = $m_RecipID;
-        return $this;
+      $this->m_RecipID = $m_RecipID;
+      return $this;
     }
 
     /**
@@ -92,17 +92,17 @@ class SendEmailResult
      */
     public function getM_EmailID()
     {
-        return $this->m_EmailID;
+      return $this->m_EmailID;
     }
 
     /**
      * @param string $m_EmailID
-     * @return SendEmailResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\SendEmailResult
      */
     public function setM_EmailID($m_EmailID)
     {
-        $this->m_EmailID = $m_EmailID;
-        return $this;
+      $this->m_EmailID = $m_EmailID;
+      return $this;
     }
 
 }

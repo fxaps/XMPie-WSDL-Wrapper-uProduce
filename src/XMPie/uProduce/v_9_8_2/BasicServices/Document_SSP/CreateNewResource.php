@@ -57,14 +57,14 @@ class CreateNewResource
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inResourcePath = null, $inOverwriteIfExist = null, $inDeleteSource = null, $inDeleteEmptySourceFolder = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDocumentID = $inDocumentID;
-        $this->inResourcePath = $inResourcePath;
-        $this->inOverwriteIfExist = $inOverwriteIfExist;
-        $this->inDeleteSource = $inDeleteSource;
-        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDocumentID = $inDocumentID;
+      $this->inResourcePath = $inResourcePath;
+      $this->inOverwriteIfExist = $inOverwriteIfExist;
+      $this->inDeleteSource = $inDeleteSource;
+      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -72,17 +72,17 @@ class CreateNewResource
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNewResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewResource
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -90,17 +90,17 @@ class CreateNewResource
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNewResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewResource
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -108,17 +108,17 @@ class CreateNewResource
      */
     public function getInDocumentID()
     {
-        return $this->inDocumentID;
+      return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return CreateNewResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewResource
      */
     public function setInDocumentID($inDocumentID)
     {
-        $this->inDocumentID = $inDocumentID;
-        return $this;
+      $this->inDocumentID = $inDocumentID;
+      return $this;
     }
 
     /**
@@ -126,17 +126,17 @@ class CreateNewResource
      */
     public function getInResourcePath()
     {
-        return $this->inResourcePath;
+      return $this->inResourcePath;
     }
 
     /**
      * @param string $inResourcePath
-     * @return CreateNewResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewResource
      */
     public function setInResourcePath($inResourcePath)
     {
-        $this->inResourcePath = $inResourcePath;
-        return $this;
+      $this->inResourcePath = $inResourcePath;
+      return $this;
     }
 
     /**
@@ -144,17 +144,17 @@ class CreateNewResource
      */
     public function getInOverwriteIfExist()
     {
-        return $this->inOverwriteIfExist;
+      return $this->inOverwriteIfExist;
     }
 
     /**
      * @param boolean $inOverwriteIfExist
-     * @return CreateNewResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewResource
      */
     public function setInOverwriteIfExist($inOverwriteIfExist)
     {
-        $this->inOverwriteIfExist = $inOverwriteIfExist;
-        return $this;
+      $this->inOverwriteIfExist = $inOverwriteIfExist;
+      return $this;
     }
 
     /**
@@ -162,17 +162,17 @@ class CreateNewResource
      */
     public function getInDeleteSource()
     {
-        return $this->inDeleteSource;
+      return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return CreateNewResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewResource
      */
     public function setInDeleteSource($inDeleteSource)
     {
-        $this->inDeleteSource = $inDeleteSource;
-        return $this;
+      $this->inDeleteSource = $inDeleteSource;
+      return $this;
     }
 
     /**
@@ -180,17 +180,17 @@ class CreateNewResource
      */
     public function getInDeleteEmptySourceFolder()
     {
-        return $this->inDeleteEmptySourceFolder;
+      return $this->inDeleteEmptySourceFolder;
     }
 
     /**
      * @param boolean $inDeleteEmptySourceFolder
-     * @return CreateNewResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewResource
      */
     public function setInDeleteEmptySourceFolder($inDeleteEmptySourceFolder)
     {
-        $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
-        return $this;
+      $this->inDeleteEmptySourceFolder = $inDeleteEmptySourceFolder;
+      return $this;
     }
 
     /**
@@ -198,17 +198,17 @@ class CreateNewResource
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNewResource
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\CreateNewResource
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

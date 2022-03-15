@@ -15,7 +15,7 @@ class IsFFPMExistResponse
      */
     public function __construct($IsFFPMExistResult = null)
     {
-        $this->IsFFPMExistResult = $IsFFPMExistResult;
+      $this->IsFFPMExistResult = $IsFFPMExistResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsFFPMExistResponse
      */
     public function getIsFFPMExistResult()
     {
-        return $this->IsFFPMExistResult;
+      return $this->IsFFPMExistResult;
     }
 
     /**
      * @param boolean $IsFFPMExistResult
-     * @return IsFFPMExistResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\IsFFPMExistResponse
      */
     public function setIsFFPMExistResult($IsFFPMExistResult)
     {
-        $this->IsFFPMExistResult = $IsFFPMExistResult;
-        return $this;
+      $this->IsFFPMExistResult = $IsFFPMExistResult;
+      return $this;
     }
 
 }

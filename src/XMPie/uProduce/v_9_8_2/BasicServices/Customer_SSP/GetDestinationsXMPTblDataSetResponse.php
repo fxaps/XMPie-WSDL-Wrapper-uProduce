@@ -15,7 +15,7 @@ class GetDestinationsXMPTblDataSetResponse
      */
     public function __construct($GetDestinationsXMPTblDataSetResult = null)
     {
-        $this->GetDestinationsXMPTblDataSetResult = $GetDestinationsXMPTblDataSetResult;
+      $this->GetDestinationsXMPTblDataSetResult = $GetDestinationsXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDestinationsXMPTblDataSetResponse
      */
     public function getGetDestinationsXMPTblDataSetResult()
     {
-        return $this->GetDestinationsXMPTblDataSetResult;
+      return $this->GetDestinationsXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetDestinationsXMPTblDataSetResult
-     * @return GetDestinationsXMPTblDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetDestinationsXMPTblDataSetResponse
      */
     public function setGetDestinationsXMPTblDataSetResult($GetDestinationsXMPTblDataSetResult)
     {
-        $this->GetDestinationsXMPTblDataSetResult = $GetDestinationsXMPTblDataSetResult;
-        return $this;
+      $this->GetDestinationsXMPTblDataSetResult = $GetDestinationsXMPTblDataSetResult;
+      return $this;
     }
 
 }

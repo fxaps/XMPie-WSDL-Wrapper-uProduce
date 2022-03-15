@@ -33,10 +33,10 @@ class DeleteAccountDataSources
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountID = null, $inAccountDataSourceIDArray = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountID = $inAccountID;
-        $this->inAccountDataSourceIDArray = $inAccountDataSourceIDArray;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountID = $inAccountID;
+      $this->inAccountDataSourceIDArray = $inAccountDataSourceIDArray;
     }
 
     /**
@@ -44,17 +44,17 @@ class DeleteAccountDataSources
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeleteAccountDataSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\DeleteAccountDataSources
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class DeleteAccountDataSources
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeleteAccountDataSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\DeleteAccountDataSources
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class DeleteAccountDataSources
      */
     public function getInAccountID()
     {
-        return $this->inAccountID;
+      return $this->inAccountID;
     }
 
     /**
      * @param string $inAccountID
-     * @return DeleteAccountDataSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\DeleteAccountDataSources
      */
     public function setInAccountID($inAccountID)
     {
-        $this->inAccountID = $inAccountID;
-        return $this;
+      $this->inAccountID = $inAccountID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class DeleteAccountDataSources
      */
     public function getInAccountDataSourceIDArray()
     {
-        return $this->inAccountDataSourceIDArray;
+      return $this->inAccountDataSourceIDArray;
     }
 
     /**
      * @param ArrayOfString $inAccountDataSourceIDArray
-     * @return DeleteAccountDataSources
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Account_SSP\DeleteAccountDataSources
      */
     public function setInAccountDataSourceIDArray($inAccountDataSourceIDArray)
     {
-        $this->inAccountDataSourceIDArray = $inAccountDataSourceIDArray;
-        return $this;
+      $this->inAccountDataSourceIDArray = $inAccountDataSourceIDArray;
+      return $this;
     }
 
 }

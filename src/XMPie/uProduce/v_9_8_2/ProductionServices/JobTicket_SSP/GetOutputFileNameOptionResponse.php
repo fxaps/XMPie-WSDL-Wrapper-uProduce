@@ -15,7 +15,7 @@ class GetOutputFileNameOptionResponse
      */
     public function __construct($GetOutputFileNameOptionResult = null)
     {
-        $this->GetOutputFileNameOptionResult = $GetOutputFileNameOptionResult;
+      $this->GetOutputFileNameOptionResult = $GetOutputFileNameOptionResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetOutputFileNameOptionResponse
      */
     public function getGetOutputFileNameOptionResult()
     {
-        return $this->GetOutputFileNameOptionResult;
+      return $this->GetOutputFileNameOptionResult;
     }
 
     /**
      * @param int $GetOutputFileNameOptionResult
-     * @return GetOutputFileNameOptionResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetOutputFileNameOptionResponse
      */
     public function setGetOutputFileNameOptionResult($GetOutputFileNameOptionResult)
     {
-        $this->GetOutputFileNameOptionResult = $GetOutputFileNameOptionResult;
-        return $this;
+      $this->GetOutputFileNameOptionResult = $GetOutputFileNameOptionResult;
+      return $this;
     }
 
 }

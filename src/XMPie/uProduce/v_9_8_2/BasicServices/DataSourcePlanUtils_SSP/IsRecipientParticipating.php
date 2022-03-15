@@ -45,12 +45,12 @@ class IsRecipientParticipating
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inDataSourceID = null, $inRIInfo = null, $inRecipientID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPlanID = $inPlanID;
-        $this->inDataSourceID = $inDataSourceID;
-        $this->inRIInfo = $inRIInfo;
-        $this->inRecipientID = $inRecipientID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPlanID = $inPlanID;
+      $this->inDataSourceID = $inDataSourceID;
+      $this->inRIInfo = $inRIInfo;
+      $this->inRecipientID = $inRecipientID;
     }
 
     /**
@@ -58,17 +58,17 @@ class IsRecipientParticipating
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return IsRecipientParticipating
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsRecipientParticipating
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class IsRecipientParticipating
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return IsRecipientParticipating
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsRecipientParticipating
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class IsRecipientParticipating
      */
     public function getInPlanID()
     {
-        return $this->inPlanID;
+      return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return IsRecipientParticipating
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsRecipientParticipating
      */
     public function setInPlanID($inPlanID)
     {
-        $this->inPlanID = $inPlanID;
-        return $this;
+      $this->inPlanID = $inPlanID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class IsRecipientParticipating
      */
     public function getInDataSourceID()
     {
-        return $this->inDataSourceID;
+      return $this->inDataSourceID;
     }
 
     /**
      * @param string $inDataSourceID
-     * @return IsRecipientParticipating
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsRecipientParticipating
      */
     public function setInDataSourceID($inDataSourceID)
     {
-        $this->inDataSourceID = $inDataSourceID;
-        return $this;
+      $this->inDataSourceID = $inDataSourceID;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class IsRecipientParticipating
      */
     public function getInRIInfo()
     {
-        return $this->inRIInfo;
+      return $this->inRIInfo;
     }
 
     /**
      * @param RecipientsInfo $inRIInfo
-     * @return IsRecipientParticipating
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsRecipientParticipating
      */
     public function setInRIInfo($inRIInfo)
     {
-        $this->inRIInfo = $inRIInfo;
-        return $this;
+      $this->inRIInfo = $inRIInfo;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class IsRecipientParticipating
      */
     public function getInRecipientID()
     {
-        return $this->inRecipientID;
+      return $this->inRecipientID;
     }
 
     /**
      * @param string $inRecipientID
-     * @return IsRecipientParticipating
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSourcePlanUtils_SSP\IsRecipientParticipating
      */
     public function setInRecipientID($inRecipientID)
     {
-        $this->inRecipientID = $inRecipientID;
-        return $this;
+      $this->inRecipientID = $inRecipientID;
+      return $this;
     }
 
 }

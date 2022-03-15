@@ -15,7 +15,7 @@ class GetSchemasDataSourcesResponse
      */
     public function __construct($GetSchemasDataSourcesResult = null)
     {
-        $this->GetSchemasDataSourcesResult = $GetSchemasDataSourcesResult;
+      $this->GetSchemasDataSourcesResult = $GetSchemasDataSourcesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSchemasDataSourcesResponse
      */
     public function getGetSchemasDataSourcesResult()
     {
-        return $this->GetSchemasDataSourcesResult;
+      return $this->GetSchemasDataSourcesResult;
     }
 
     /**
      * @param ArrayOfConnection $GetSchemasDataSourcesResult
-     * @return GetSchemasDataSourcesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetSchemasDataSourcesResponse
      */
     public function setGetSchemasDataSourcesResult($GetSchemasDataSourcesResult)
     {
-        $this->GetSchemasDataSourcesResult = $GetSchemasDataSourcesResult;
-        return $this;
+      $this->GetSchemasDataSourcesResult = $GetSchemasDataSourcesResult;
+      return $this;
     }
 
 }

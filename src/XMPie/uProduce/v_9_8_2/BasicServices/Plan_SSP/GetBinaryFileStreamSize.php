@@ -27,9 +27,9 @@ class GetBinaryFileStreamSize
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPlanID = $inPlanID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPlanID = $inPlanID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetBinaryFileStreamSize
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetBinaryFileStreamSize
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetBinaryFileStreamSize
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetBinaryFileStreamSize
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetBinaryFileStreamSize
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetBinaryFileStreamSize
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetBinaryFileStreamSize
      */
     public function getInPlanID()
     {
-        return $this->inPlanID;
+      return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return GetBinaryFileStreamSize
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Plan_SSP\GetBinaryFileStreamSize
      */
     public function setInPlanID($inPlanID)
     {
-        $this->inPlanID = $inPlanID;
-        return $this;
+      $this->inPlanID = $inPlanID;
+      return $this;
     }
 
 }

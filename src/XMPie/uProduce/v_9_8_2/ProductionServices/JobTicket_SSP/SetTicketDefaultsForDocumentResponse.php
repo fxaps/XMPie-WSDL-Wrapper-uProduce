@@ -15,7 +15,7 @@ class SetTicketDefaultsForDocumentResponse
      */
     public function __construct($SetTicketDefaultsForDocumentResult = null)
     {
-        $this->SetTicketDefaultsForDocumentResult = $SetTicketDefaultsForDocumentResult;
+      $this->SetTicketDefaultsForDocumentResult = $SetTicketDefaultsForDocumentResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetTicketDefaultsForDocumentResponse
      */
     public function getSetTicketDefaultsForDocumentResult()
     {
-        return $this->SetTicketDefaultsForDocumentResult;
+      return $this->SetTicketDefaultsForDocumentResult;
     }
 
     /**
      * @param boolean $SetTicketDefaultsForDocumentResult
-     * @return SetTicketDefaultsForDocumentResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetTicketDefaultsForDocumentResponse
      */
     public function setSetTicketDefaultsForDocumentResult($SetTicketDefaultsForDocumentResult)
     {
-        $this->SetTicketDefaultsForDocumentResult = $SetTicketDefaultsForDocumentResult;
-        return $this;
+      $this->SetTicketDefaultsForDocumentResult = $SetTicketDefaultsForDocumentResult;
+      return $this;
     }
 
 }

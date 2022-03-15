@@ -15,7 +15,7 @@ class GetTicketsFromDBResponse
      */
     public function __construct($GetTicketsFromDBResult = null)
     {
-        $this->GetTicketsFromDBResult = $GetTicketsFromDBResult;
+      $this->GetTicketsFromDBResult = $GetTicketsFromDBResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTicketsFromDBResponse
      */
     public function getGetTicketsFromDBResult()
     {
-        return $this->GetTicketsFromDBResult;
+      return $this->GetTicketsFromDBResult;
     }
 
     /**
      * @param GetTicketsFromDBResult $GetTicketsFromDBResult
-     * @return GetTicketsFromDBResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetTicketsFromDBResponse
      */
     public function setGetTicketsFromDBResult($GetTicketsFromDBResult)
     {
-        $this->GetTicketsFromDBResult = $GetTicketsFromDBResult;
-        return $this;
+      $this->GetTicketsFromDBResult = $GetTicketsFromDBResult;
+      return $this;
     }
 
 }

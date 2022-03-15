@@ -15,7 +15,7 @@ class RemoveAllSchemaDataSourcesResponse
      */
     public function __construct($RemoveAllSchemaDataSourcesResult = null)
     {
-        $this->RemoveAllSchemaDataSourcesResult = $RemoveAllSchemaDataSourcesResult;
+      $this->RemoveAllSchemaDataSourcesResult = $RemoveAllSchemaDataSourcesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveAllSchemaDataSourcesResponse
      */
     public function getRemoveAllSchemaDataSourcesResult()
     {
-        return $this->RemoveAllSchemaDataSourcesResult;
+      return $this->RemoveAllSchemaDataSourcesResult;
     }
 
     /**
      * @param boolean $RemoveAllSchemaDataSourcesResult
-     * @return RemoveAllSchemaDataSourcesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveAllSchemaDataSourcesResponse
      */
     public function setRemoveAllSchemaDataSourcesResult($RemoveAllSchemaDataSourcesResult)
     {
-        $this->RemoveAllSchemaDataSourcesResult = $RemoveAllSchemaDataSourcesResult;
-        return $this;
+      $this->RemoveAllSchemaDataSourcesResult = $RemoveAllSchemaDataSourcesResult;
+      return $this;
     }
 
 }

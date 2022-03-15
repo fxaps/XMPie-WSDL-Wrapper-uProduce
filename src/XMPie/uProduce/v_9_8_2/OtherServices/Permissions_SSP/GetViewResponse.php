@@ -15,7 +15,7 @@ class GetViewResponse
      */
     public function __construct($GetViewResult = null)
     {
-        $this->GetViewResult = $GetViewResult;
+      $this->GetViewResult = $GetViewResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetViewResponse
      */
     public function getGetViewResult()
     {
-        return $this->GetViewResult;
+      return $this->GetViewResult;
     }
 
     /**
      * @param GetViewResult $GetViewResult
-     * @return GetViewResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\GetViewResponse
      */
     public function setGetViewResult($GetViewResult)
     {
-        $this->GetViewResult = $GetViewResult;
-        return $this;
+      $this->GetViewResult = $GetViewResult;
+      return $this;
     }
 
 }

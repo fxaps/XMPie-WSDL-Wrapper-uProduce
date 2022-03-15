@@ -15,7 +15,7 @@ class GetTrackAllTextADORsResponse
      */
     public function __construct($GetTrackAllTextADORsResult = null)
     {
-        $this->GetTrackAllTextADORsResult = $GetTrackAllTextADORsResult;
+      $this->GetTrackAllTextADORsResult = $GetTrackAllTextADORsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetTrackAllTextADORsResponse
      */
     public function getGetTrackAllTextADORsResult()
     {
-        return $this->GetTrackAllTextADORsResult;
+      return $this->GetTrackAllTextADORsResult;
     }
 
     /**
      * @param boolean $GetTrackAllTextADORsResult
-     * @return GetTrackAllTextADORsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetTrackAllTextADORsResponse
      */
     public function setGetTrackAllTextADORsResult($GetTrackAllTextADORsResult)
     {
-        $this->GetTrackAllTextADORsResult = $GetTrackAllTextADORsResult;
-        return $this;
+      $this->GetTrackAllTextADORsResult = $GetTrackAllTextADORsResult;
+      return $this;
     }
 
 }

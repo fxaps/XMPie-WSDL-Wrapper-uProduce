@@ -36,8 +36,8 @@ class OnDemandOutputResult
      */
     public function __construct($m_Status = null, $m_FileSize = null)
     {
-        $this->m_Status = $m_Status;
-        $this->m_FileSize = $m_FileSize;
+      $this->m_Status = $m_Status;
+      $this->m_FileSize = $m_FileSize;
     }
 
     /**
@@ -45,17 +45,17 @@ class OnDemandOutputResult
      */
     public function getM_Status()
     {
-        return $this->m_Status;
+      return $this->m_Status;
     }
 
     /**
      * @param int $m_Status
-     * @return OnDemandOutputResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\OnDemandOutputResult
      */
     public function setM_Status($m_Status)
     {
-        $this->m_Status = $m_Status;
-        return $this;
+      $this->m_Status = $m_Status;
+      return $this;
     }
 
     /**
@@ -63,17 +63,17 @@ class OnDemandOutputResult
      */
     public function getM_Message()
     {
-        return $this->m_Message;
+      return $this->m_Message;
     }
 
     /**
      * @param string $m_Message
-     * @return OnDemandOutputResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\OnDemandOutputResult
      */
     public function setM_Message($m_Message)
     {
-        $this->m_Message = $m_Message;
-        return $this;
+      $this->m_Message = $m_Message;
+      return $this;
     }
 
     /**
@@ -81,17 +81,17 @@ class OnDemandOutputResult
      */
     public function getM_FileName()
     {
-        return $this->m_FileName;
+      return $this->m_FileName;
     }
 
     /**
      * @param string $m_FileName
-     * @return OnDemandOutputResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\OnDemandOutputResult
      */
     public function setM_FileName($m_FileName)
     {
-        $this->m_FileName = $m_FileName;
-        return $this;
+      $this->m_FileName = $m_FileName;
+      return $this;
     }
 
     /**
@@ -99,17 +99,17 @@ class OnDemandOutputResult
      */
     public function getM_FileSize()
     {
-        return $this->m_FileSize;
+      return $this->m_FileSize;
     }
 
     /**
      * @param int $m_FileSize
-     * @return OnDemandOutputResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\OnDemandOutputResult
      */
     public function setM_FileSize($m_FileSize)
     {
-        $this->m_FileSize = $m_FileSize;
-        return $this;
+      $this->m_FileSize = $m_FileSize;
+      return $this;
     }
 
     /**
@@ -117,17 +117,17 @@ class OnDemandOutputResult
      */
     public function getM_FileToken()
     {
-        return $this->m_FileToken;
+      return $this->m_FileToken;
     }
 
     /**
      * @param string $m_FileToken
-     * @return OnDemandOutputResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\OnDemandOutputResult
      */
     public function setM_FileToken($m_FileToken)
     {
-        $this->m_FileToken = $m_FileToken;
-        return $this;
+      $this->m_FileToken = $m_FileToken;
+      return $this;
     }
 
 }

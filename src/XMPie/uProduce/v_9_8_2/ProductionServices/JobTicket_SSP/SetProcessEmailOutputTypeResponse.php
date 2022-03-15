@@ -15,7 +15,7 @@ class SetProcessEmailOutputTypeResponse
      */
     public function __construct($SetProcessEmailOutputTypeResult = null)
     {
-        $this->SetProcessEmailOutputTypeResult = $SetProcessEmailOutputTypeResult;
+      $this->SetProcessEmailOutputTypeResult = $SetProcessEmailOutputTypeResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetProcessEmailOutputTypeResponse
      */
     public function getSetProcessEmailOutputTypeResult()
     {
-        return $this->SetProcessEmailOutputTypeResult;
+      return $this->SetProcessEmailOutputTypeResult;
     }
 
     /**
      * @param boolean $SetProcessEmailOutputTypeResult
-     * @return SetProcessEmailOutputTypeResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetProcessEmailOutputTypeResponse
      */
     public function setSetProcessEmailOutputTypeResult($SetProcessEmailOutputTypeResult)
     {
-        $this->SetProcessEmailOutputTypeResult = $SetProcessEmailOutputTypeResult;
-        return $this;
+      $this->SetProcessEmailOutputTypeResult = $SetProcessEmailOutputTypeResult;
+      return $this;
     }
 
 }

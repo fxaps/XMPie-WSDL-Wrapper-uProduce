@@ -33,10 +33,10 @@ class GetCampaign
      */
     public function __construct($inUsername = null, $inPassword = null, $inPopulationGUID = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPopulationGUID = $inPopulationGUID;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPopulationGUID = $inPopulationGUID;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetCampaign
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetCampaign
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetCampaign
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetCampaign
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetCampaign
      */
     public function getInPopulationGUID()
     {
-        return $this->inPopulationGUID;
+      return $this->inPopulationGUID;
     }
 
     /**
      * @param string $inPopulationGUID
-     * @return GetCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetCampaign
      */
     public function setInPopulationGUID($inPopulationGUID)
     {
-        $this->inPopulationGUID = $inPopulationGUID;
-        return $this;
+      $this->inPopulationGUID = $inPopulationGUID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetCampaign
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return GetCampaign
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetCampaign
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

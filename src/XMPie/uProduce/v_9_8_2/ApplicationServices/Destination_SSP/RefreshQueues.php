@@ -27,9 +27,9 @@ class RefreshQueues
      */
     public function __construct($inUsername = null, $inPassword = null, $inExeLocation = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inExeLocation = $inExeLocation;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inExeLocation = $inExeLocation;
     }
 
     /**
@@ -37,17 +37,17 @@ class RefreshQueues
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return RefreshQueues
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\RefreshQueues
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class RefreshQueues
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return RefreshQueues
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\RefreshQueues
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class RefreshQueues
      */
     public function getInExeLocation()
     {
-        return $this->inExeLocation;
+      return $this->inExeLocation;
     }
 
     /**
      * @param string $inExeLocation
-     * @return RefreshQueues
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\RefreshQueues
      */
     public function setInExeLocation($inExeLocation)
     {
-        $this->inExeLocation = $inExeLocation;
-        return $this;
+      $this->inExeLocation = $inExeLocation;
+      return $this;
     }
 
 }

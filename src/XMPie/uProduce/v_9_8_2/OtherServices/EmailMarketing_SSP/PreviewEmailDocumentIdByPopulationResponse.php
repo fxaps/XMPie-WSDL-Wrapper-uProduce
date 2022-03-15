@@ -15,7 +15,7 @@ class PreviewEmailDocumentIdByPopulationResponse
      */
     public function __construct($PreviewEmailDocumentIdByPopulationResult = null)
     {
-        $this->PreviewEmailDocumentIdByPopulationResult = $PreviewEmailDocumentIdByPopulationResult;
+      $this->PreviewEmailDocumentIdByPopulationResult = $PreviewEmailDocumentIdByPopulationResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class PreviewEmailDocumentIdByPopulationResponse
      */
     public function getPreviewEmailDocumentIdByPopulationResult()
     {
-        return $this->PreviewEmailDocumentIdByPopulationResult;
+      return $this->PreviewEmailDocumentIdByPopulationResult;
     }
 
     /**
      * @param PreviewEmailResult $PreviewEmailDocumentIdByPopulationResult
-     * @return PreviewEmailDocumentIdByPopulationResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\EmailMarketing_SSP\PreviewEmailDocumentIdByPopulationResponse
      */
     public function setPreviewEmailDocumentIdByPopulationResult($PreviewEmailDocumentIdByPopulationResult)
     {
-        $this->PreviewEmailDocumentIdByPopulationResult = $PreviewEmailDocumentIdByPopulationResult;
-        return $this;
+      $this->PreviewEmailDocumentIdByPopulationResult = $PreviewEmailDocumentIdByPopulationResult;
+      return $this;
     }
 
 }

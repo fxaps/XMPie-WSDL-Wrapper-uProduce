@@ -15,7 +15,7 @@ class GetSWFFullNameFontStreamResponse
      */
     public function __construct($GetSWFFullNameFontStreamResult = null)
     {
-        $this->GetSWFFullNameFontStreamResult = $GetSWFFullNameFontStreamResult;
+      $this->GetSWFFullNameFontStreamResult = $GetSWFFullNameFontStreamResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSWFFullNameFontStreamResponse
      */
     public function getGetSWFFullNameFontStreamResult()
     {
-        return $this->GetSWFFullNameFontStreamResult;
+      return $this->GetSWFFullNameFontStreamResult;
     }
 
     /**
      * @param base64Binary $GetSWFFullNameFontStreamResult
-     * @return GetSWFFullNameFontStreamResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Font_SSP\GetSWFFullNameFontStreamResponse
      */
     public function setGetSWFFullNameFontStreamResult($GetSWFFullNameFontStreamResult)
     {
-        $this->GetSWFFullNameFontStreamResult = $GetSWFFullNameFontStreamResult;
-        return $this;
+      $this->GetSWFFullNameFontStreamResult = $GetSWFFullNameFontStreamResult;
+      return $this;
     }
 
 }

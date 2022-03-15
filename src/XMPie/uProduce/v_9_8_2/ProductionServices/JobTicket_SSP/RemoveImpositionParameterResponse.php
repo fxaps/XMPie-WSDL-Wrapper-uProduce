@@ -15,7 +15,7 @@ class RemoveImpositionParameterResponse
      */
     public function __construct($RemoveImpositionParameterResult = null)
     {
-        $this->RemoveImpositionParameterResult = $RemoveImpositionParameterResult;
+      $this->RemoveImpositionParameterResult = $RemoveImpositionParameterResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveImpositionParameterResponse
      */
     public function getRemoveImpositionParameterResult()
     {
-        return $this->RemoveImpositionParameterResult;
+      return $this->RemoveImpositionParameterResult;
     }
 
     /**
      * @param boolean $RemoveImpositionParameterResult
-     * @return RemoveImpositionParameterResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveImpositionParameterResponse
      */
     public function setRemoveImpositionParameterResult($RemoveImpositionParameterResult)
     {
-        $this->RemoveImpositionParameterResult = $RemoveImpositionParameterResult;
-        return $this;
+      $this->RemoveImpositionParameterResult = $RemoveImpositionParameterResult;
+      return $this;
     }
 
 }

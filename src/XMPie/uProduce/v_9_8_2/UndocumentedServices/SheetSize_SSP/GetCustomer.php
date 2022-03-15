@@ -27,9 +27,9 @@ class GetCustomer
      */
     public function __construct($inUsername = null, $inPassword = null, $inSheetSizeID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inSheetSizeID = $inSheetSizeID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inSheetSizeID = $inSheetSizeID;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetCustomer
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetCustomer
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetCustomer
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetCustomer
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetCustomer
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetCustomer
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetCustomer
      */
     public function getInSheetSizeID()
     {
-        return $this->inSheetSizeID;
+      return $this->inSheetSizeID;
     }
 
     /**
      * @param string $inSheetSizeID
-     * @return GetCustomer
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\SheetSize_SSP\GetCustomer
      */
     public function setInSheetSizeID($inSheetSizeID)
     {
-        $this->inSheetSizeID = $inSheetSizeID;
-        return $this;
+      $this->inSheetSizeID = $inSheetSizeID;
+      return $this;
     }
 
 }

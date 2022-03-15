@@ -15,7 +15,7 @@ class DeleteDestinationsResponse
      */
     public function __construct($DeleteDestinationsResult = null)
     {
-        $this->DeleteDestinationsResult = $DeleteDestinationsResult;
+      $this->DeleteDestinationsResult = $DeleteDestinationsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class DeleteDestinationsResponse
      */
     public function getDeleteDestinationsResult()
     {
-        return $this->DeleteDestinationsResult;
+      return $this->DeleteDestinationsResult;
     }
 
     /**
      * @param boolean $DeleteDestinationsResult
-     * @return DeleteDestinationsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\DeleteDestinationsResponse
      */
     public function setDeleteDestinationsResult($DeleteDestinationsResult)
     {
-        $this->DeleteDestinationsResult = $DeleteDestinationsResult;
-        return $this;
+      $this->DeleteDestinationsResult = $DeleteDestinationsResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetPlanStructureResponse
      */
     public function __construct($GetPlanStructureResult = null)
     {
-        $this->GetPlanStructureResult = $GetPlanStructureResult;
+      $this->GetPlanStructureResult = $GetPlanStructureResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPlanStructureResponse
      */
     public function getGetPlanStructureResult()
     {
-        return $this->GetPlanStructureResult;
+      return $this->GetPlanStructureResult;
     }
 
     /**
      * @param PlanStructure $GetPlanStructureResult
-     * @return GetPlanStructureResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetPlanStructureResponse
      */
     public function setGetPlanStructureResult($GetPlanStructureResult)
     {
-        $this->GetPlanStructureResult = $GetPlanStructureResult;
-        return $this;
+      $this->GetPlanStructureResult = $GetPlanStructureResult;
+      return $this;
     }
 
 }

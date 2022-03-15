@@ -15,7 +15,7 @@ class RemoveJDFCopyResponse
      */
     public function __construct($RemoveJDFCopyResult = null)
     {
-        $this->RemoveJDFCopyResult = $RemoveJDFCopyResult;
+      $this->RemoveJDFCopyResult = $RemoveJDFCopyResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveJDFCopyResponse
      */
     public function getRemoveJDFCopyResult()
     {
-        return $this->RemoveJDFCopyResult;
+      return $this->RemoveJDFCopyResult;
     }
 
     /**
      * @param boolean $RemoveJDFCopyResult
-     * @return RemoveJDFCopyResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\RemoveJDFCopyResponse
      */
     public function setRemoveJDFCopyResult($RemoveJDFCopyResult)
     {
-        $this->RemoveJDFCopyResult = $RemoveJDFCopyResult;
-        return $this;
+      $this->RemoveJDFCopyResult = $RemoveJDFCopyResult;
+      return $this;
     }
 
 }

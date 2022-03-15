@@ -20,7 +20,7 @@ class Report
      */
     public function __construct($m_Status = null)
     {
-        $this->m_Status = $m_Status;
+      $this->m_Status = $m_Status;
     }
 
     /**
@@ -28,17 +28,17 @@ class Report
      */
     public function getM_Status()
     {
-        return $this->m_Status;
+      return $this->m_Status;
     }
 
     /**
      * @param boolean $m_Status
-     * @return Report
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\Report
      */
     public function setM_Status($m_Status)
     {
-        $this->m_Status = $m_Status;
-        return $this;
+      $this->m_Status = $m_Status;
+      return $this;
     }
 
     /**
@@ -46,17 +46,17 @@ class Report
      */
     public function getM_Messages()
     {
-        return $this->m_Messages;
+      return $this->m_Messages;
     }
 
     /**
      * @param ArrayOfReportMessage $m_Messages
-     * @return Report
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\DataSource_SSP\Report
      */
     public function setM_Messages($m_Messages)
     {
-        $this->m_Messages = $m_Messages;
-        return $this;
+      $this->m_Messages = $m_Messages;
+      return $this;
     }
 
 }

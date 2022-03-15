@@ -15,7 +15,7 @@ class UpdateADORValuesResponse
      */
     public function __construct($UpdateADORValuesResult = null)
     {
-        $this->UpdateADORValuesResult = $UpdateADORValuesResult;
+      $this->UpdateADORValuesResult = $UpdateADORValuesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class UpdateADORValuesResponse
      */
     public function getUpdateADORValuesResult()
     {
-        return $this->UpdateADORValuesResult;
+      return $this->UpdateADORValuesResult;
     }
 
     /**
      * @param string $UpdateADORValuesResult
-     * @return UpdateADORValuesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\UpdateADORValuesResponse
      */
     public function setUpdateADORValuesResult($UpdateADORValuesResult)
     {
-        $this->UpdateADORValuesResult = $UpdateADORValuesResult;
-        return $this;
+      $this->UpdateADORValuesResult = $UpdateADORValuesResult;
+      return $this;
     }
 
 }

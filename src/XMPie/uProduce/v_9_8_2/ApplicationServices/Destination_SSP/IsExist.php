@@ -27,9 +27,9 @@ class IsExist
      */
     public function __construct($inUsername = null, $inPassword = null, $inDestinationID = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDestinationID = $inDestinationID;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDestinationID = $inDestinationID;
     }
 
     /**
@@ -37,17 +37,17 @@ class IsExist
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return IsExist
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\IsExist
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class IsExist
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return IsExist
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\IsExist
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class IsExist
      */
     public function getInDestinationID()
     {
-        return $this->inDestinationID;
+      return $this->inDestinationID;
     }
 
     /**
      * @param string $inDestinationID
-     * @return IsExist
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\Destination_SSP\IsExist
      */
     public function setInDestinationID($inDestinationID)
     {
-        $this->inDestinationID = $inDestinationID;
-        return $this;
+      $this->inDestinationID = $inDestinationID;
+      return $this;
     }
 
 }

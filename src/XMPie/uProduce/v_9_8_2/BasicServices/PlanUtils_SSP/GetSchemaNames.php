@@ -33,10 +33,10 @@ class GetSchemaNames
      */
     public function __construct($inUsername = null, $inPassword = null, $inPlanID = null, $inTrivialPlan = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPlanID = $inPlanID;
-        $this->inTrivialPlan = $inTrivialPlan;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPlanID = $inPlanID;
+      $this->inTrivialPlan = $inTrivialPlan;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetSchemaNames
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetSchemaNames
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetSchemaNames
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetSchemaNames
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetSchemaNames
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetSchemaNames
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetSchemaNames
      */
     public function getInPlanID()
     {
-        return $this->inPlanID;
+      return $this->inPlanID;
     }
 
     /**
      * @param string $inPlanID
-     * @return GetSchemaNames
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetSchemaNames
      */
     public function setInPlanID($inPlanID)
     {
-        $this->inPlanID = $inPlanID;
-        return $this;
+      $this->inPlanID = $inPlanID;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetSchemaNames
      */
     public function getInTrivialPlan()
     {
-        return $this->inTrivialPlan;
+      return $this->inTrivialPlan;
     }
 
     /**
      * @param boolean $inTrivialPlan
-     * @return GetSchemaNames
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\PlanUtils_SSP\GetSchemaNames
      */
     public function setInTrivialPlan($inTrivialPlan)
     {
-        $this->inTrivialPlan = $inTrivialPlan;
-        return $this;
+      $this->inTrivialPlan = $inTrivialPlan;
+      return $this;
     }
 
 }

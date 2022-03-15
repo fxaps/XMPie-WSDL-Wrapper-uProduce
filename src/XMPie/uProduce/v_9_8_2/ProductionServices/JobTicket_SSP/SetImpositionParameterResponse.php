@@ -15,7 +15,7 @@ class SetImpositionParameterResponse
      */
     public function __construct($SetImpositionParameterResult = null)
     {
-        $this->SetImpositionParameterResult = $SetImpositionParameterResult;
+      $this->SetImpositionParameterResult = $SetImpositionParameterResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetImpositionParameterResponse
      */
     public function getSetImpositionParameterResult()
     {
-        return $this->SetImpositionParameterResult;
+      return $this->SetImpositionParameterResult;
     }
 
     /**
      * @param boolean $SetImpositionParameterResult
-     * @return SetImpositionParameterResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetImpositionParameterResponse
      */
     public function setSetImpositionParameterResult($SetImpositionParameterResult)
     {
-        $this->SetImpositionParameterResult = $SetImpositionParameterResult;
-        return $this;
+      $this->SetImpositionParameterResult = $SetImpositionParameterResult;
+      return $this;
     }
 
 }

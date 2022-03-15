@@ -15,7 +15,7 @@ class RemoveAllUsersTokenResponse
      */
     public function __construct($RemoveAllUsersTokenResult = null)
     {
-        $this->RemoveAllUsersTokenResult = $RemoveAllUsersTokenResult;
+      $this->RemoveAllUsersTokenResult = $RemoveAllUsersTokenResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class RemoveAllUsersTokenResponse
      */
     public function getRemoveAllUsersTokenResult()
     {
-        return $this->RemoveAllUsersTokenResult;
+      return $this->RemoveAllUsersTokenResult;
     }
 
     /**
      * @param boolean $RemoveAllUsersTokenResult
-     * @return RemoveAllUsersTokenResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ApplicationServices\User_SSP\RemoveAllUsersTokenResponse
      */
     public function setRemoveAllUsersTokenResult($RemoveAllUsersTokenResult)
     {
-        $this->RemoveAllUsersTokenResult = $RemoveAllUsersTokenResult;
-        return $this;
+      $this->RemoveAllUsersTokenResult = $RemoveAllUsersTokenResult;
+      return $this;
     }
 
 }

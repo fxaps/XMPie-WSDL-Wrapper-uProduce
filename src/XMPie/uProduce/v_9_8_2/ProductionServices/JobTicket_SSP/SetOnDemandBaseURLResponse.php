@@ -15,7 +15,7 @@ class SetOnDemandBaseURLResponse
      */
     public function __construct($SetOnDemandBaseURLResult = null)
     {
-        $this->SetOnDemandBaseURLResult = $SetOnDemandBaseURLResult;
+      $this->SetOnDemandBaseURLResult = $SetOnDemandBaseURLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetOnDemandBaseURLResponse
      */
     public function getSetOnDemandBaseURLResult()
     {
-        return $this->SetOnDemandBaseURLResult;
+      return $this->SetOnDemandBaseURLResult;
     }
 
     /**
      * @param boolean $SetOnDemandBaseURLResult
-     * @return SetOnDemandBaseURLResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetOnDemandBaseURLResponse
      */
     public function setSetOnDemandBaseURLResult($SetOnDemandBaseURLResult)
     {
-        $this->SetOnDemandBaseURLResult = $SetOnDemandBaseURLResult;
-        return $this;
+      $this->SetOnDemandBaseURLResult = $SetOnDemandBaseURLResult;
+      return $this;
     }
 
 }

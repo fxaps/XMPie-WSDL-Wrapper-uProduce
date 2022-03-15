@@ -15,7 +15,7 @@ class OverwriteTicketInDBResponse
      */
     public function __construct($OverwriteTicketInDBResult = null)
     {
-        $this->OverwriteTicketInDBResult = $OverwriteTicketInDBResult;
+      $this->OverwriteTicketInDBResult = $OverwriteTicketInDBResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class OverwriteTicketInDBResponse
      */
     public function getOverwriteTicketInDBResult()
     {
-        return $this->OverwriteTicketInDBResult;
+      return $this->OverwriteTicketInDBResult;
     }
 
     /**
      * @param boolean $OverwriteTicketInDBResult
-     * @return OverwriteTicketInDBResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\OverwriteTicketInDBResponse
      */
     public function setOverwriteTicketInDBResult($OverwriteTicketInDBResult)
     {
-        $this->OverwriteTicketInDBResult = $OverwriteTicketInDBResult;
-        return $this;
+      $this->OverwriteTicketInDBResult = $OverwriteTicketInDBResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class ReplaceFromStreamResponse
      */
     public function __construct($ReplaceFromStreamResult = null)
     {
-        $this->ReplaceFromStreamResult = $ReplaceFromStreamResult;
+      $this->ReplaceFromStreamResult = $ReplaceFromStreamResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class ReplaceFromStreamResponse
      */
     public function getReplaceFromStreamResult()
     {
-        return $this->ReplaceFromStreamResult;
+      return $this->ReplaceFromStreamResult;
     }
 
     /**
      * @param boolean $ReplaceFromStreamResult
-     * @return ReplaceFromStreamResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\ReplaceFromStreamResponse
      */
     public function setReplaceFromStreamResult($ReplaceFromStreamResult)
     {
-        $this->ReplaceFromStreamResult = $ReplaceFromStreamResult;
-        return $this;
+      $this->ReplaceFromStreamResult = $ReplaceFromStreamResult;
+      return $this;
     }
 
 }

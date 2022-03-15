@@ -15,7 +15,7 @@ class CreateNewTicketResponse
      */
     public function __construct($CreateNewTicketResult = null)
     {
-        $this->CreateNewTicketResult = $CreateNewTicketResult;
+      $this->CreateNewTicketResult = $CreateNewTicketResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class CreateNewTicketResponse
      */
     public function getCreateNewTicketResult()
     {
-        return $this->CreateNewTicketResult;
+      return $this->CreateNewTicketResult;
     }
 
     /**
      * @param string $CreateNewTicketResult
-     * @return CreateNewTicketResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\CreateNewTicketResponse
      */
     public function setCreateNewTicketResult($CreateNewTicketResult)
     {
-        $this->CreateNewTicketResult = $CreateNewTicketResult;
-        return $this;
+      $this->CreateNewTicketResult = $CreateNewTicketResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SubmitJobWithParallelProcessingResponse
      */
     public function __construct($SubmitJobWithParallelProcessingResult = null)
     {
-        $this->SubmitJobWithParallelProcessingResult = $SubmitJobWithParallelProcessingResult;
+      $this->SubmitJobWithParallelProcessingResult = $SubmitJobWithParallelProcessingResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SubmitJobWithParallelProcessingResponse
      */
     public function getSubmitJobWithParallelProcessingResult()
     {
-        return $this->SubmitJobWithParallelProcessingResult;
+      return $this->SubmitJobWithParallelProcessingResult;
     }
 
     /**
      * @param string $SubmitJobWithParallelProcessingResult
-     * @return SubmitJobWithParallelProcessingResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\SubmitJobWithParallelProcessingResponse
      */
     public function setSubmitJobWithParallelProcessingResult($SubmitJobWithParallelProcessingResult)
     {
-        $this->SubmitJobWithParallelProcessingResult = $SubmitJobWithParallelProcessingResult;
-        return $this;
+      $this->SubmitJobWithParallelProcessingResult = $SubmitJobWithParallelProcessingResult;
+      return $this;
     }
 
 }

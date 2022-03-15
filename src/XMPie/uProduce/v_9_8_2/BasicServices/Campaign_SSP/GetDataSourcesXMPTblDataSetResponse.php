@@ -15,7 +15,7 @@ class GetDataSourcesXMPTblDataSetResponse
      */
     public function __construct($GetDataSourcesXMPTblDataSetResult = null)
     {
-        $this->GetDataSourcesXMPTblDataSetResult = $GetDataSourcesXMPTblDataSetResult;
+      $this->GetDataSourcesXMPTblDataSetResult = $GetDataSourcesXMPTblDataSetResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetDataSourcesXMPTblDataSetResponse
      */
     public function getGetDataSourcesXMPTblDataSetResult()
     {
-        return $this->GetDataSourcesXMPTblDataSetResult;
+      return $this->GetDataSourcesXMPTblDataSetResult;
     }
 
     /**
      * @param XMPTblDataSet $GetDataSourcesXMPTblDataSetResult
-     * @return GetDataSourcesXMPTblDataSetResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Campaign_SSP\GetDataSourcesXMPTblDataSetResponse
      */
     public function setGetDataSourcesXMPTblDataSetResult($GetDataSourcesXMPTblDataSetResult)
     {
-        $this->GetDataSourcesXMPTblDataSetResult = $GetDataSourcesXMPTblDataSetResult;
-        return $this;
+      $this->GetDataSourcesXMPTblDataSetResult = $GetDataSourcesXMPTblDataSetResult;
+      return $this;
     }
 
 }

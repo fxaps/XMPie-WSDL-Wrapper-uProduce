@@ -2,11 +2,7 @@
 
 namespace XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP;
 
-use ArrayAccess;
-use Countable;
-use Iterator;
-
-class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
+class ArrayOfJobQueryPart implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
@@ -14,10 +10,10 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     protected $JobQueryPart = null;
 
-
+    
     public function __construct()
     {
-
+    
     }
 
     /**
@@ -25,17 +21,17 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function getJobQueryPart()
     {
-        return $this->JobQueryPart;
+      return $this->JobQueryPart;
     }
 
     /**
      * @param JobQueryPart[] $JobQueryPart
-     * @return ArrayOfJobQueryPart
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Jobs_SSP\ArrayOfJobQueryPart
      */
     public function setJobQueryPart(array $JobQueryPart = null)
     {
-        $this->JobQueryPart = $JobQueryPart;
-        return $this;
+      $this->JobQueryPart = $JobQueryPart;
+      return $this;
     }
 
     /**
@@ -46,7 +42,7 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function offsetExists($offset)
     {
-        return isset($this->JobQueryPart[$offset]);
+      return isset($this->JobQueryPart[$offset]);
     }
 
     /**
@@ -57,7 +53,7 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function offsetGet($offset)
     {
-        return $this->JobQueryPart[$offset];
+      return $this->JobQueryPart[$offset];
     }
 
     /**
@@ -69,11 +65,11 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function offsetSet($offset, $value)
     {
-        if (!isset($offset)) {
-            $this->JobQueryPart[] = $value;
-        } else {
-            $this->JobQueryPart[$offset] = $value;
-        }
+      if (!isset($offset)) {
+        $this->JobQueryPart[] = $value;
+      } else {
+        $this->JobQueryPart[$offset] = $value;
+      }
     }
 
     /**
@@ -84,7 +80,7 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function offsetUnset($offset)
     {
-        unset($this->JobQueryPart[$offset]);
+      unset($this->JobQueryPart[$offset]);
     }
 
     /**
@@ -94,7 +90,7 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function current()
     {
-        return current($this->JobQueryPart);
+      return current($this->JobQueryPart);
     }
 
     /**
@@ -105,7 +101,7 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function next()
     {
-        next($this->JobQueryPart);
+      next($this->JobQueryPart);
     }
 
     /**
@@ -115,7 +111,7 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function key()
     {
-        return key($this->JobQueryPart);
+      return key($this->JobQueryPart);
     }
 
     /**
@@ -125,7 +121,7 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function valid()
     {
-        return $this->key() !== null;
+      return $this->key() !== null;
     }
 
     /**
@@ -136,7 +132,7 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function rewind()
     {
-        reset($this->JobQueryPart);
+      reset($this->JobQueryPart);
     }
 
     /**
@@ -146,7 +142,7 @@ class ArrayOfJobQueryPart implements ArrayAccess, Iterator, Countable
      */
     public function count()
     {
-        return count($this->JobQueryPart);
+      return count($this->JobQueryPart);
     }
 
 }

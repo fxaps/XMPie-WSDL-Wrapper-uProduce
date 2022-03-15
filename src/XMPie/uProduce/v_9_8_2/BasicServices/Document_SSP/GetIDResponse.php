@@ -15,7 +15,7 @@ class GetIDResponse
      */
     public function __construct($GetIDResult = null)
     {
-        $this->GetIDResult = $GetIDResult;
+      $this->GetIDResult = $GetIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetIDResponse
      */
     public function getGetIDResult()
     {
-        return $this->GetIDResult;
+      return $this->GetIDResult;
     }
 
     /**
      * @param string $GetIDResult
-     * @return GetIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetIDResponse
      */
     public function setGetIDResult($GetIDResult)
     {
-        $this->GetIDResult = $GetIDResult;
-        return $this;
+      $this->GetIDResult = $GetIDResult;
+      return $this;
     }
 
 }

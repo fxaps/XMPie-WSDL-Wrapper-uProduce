@@ -33,10 +33,10 @@ class GetRecipientsCount
      */
     public function __construct($inUsername = null, $inPassword = null, $inPopulationOrContextId = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inPopulationOrContextId = $inPopulationOrContextId;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inPopulationOrContextId = $inPopulationOrContextId;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -44,17 +44,17 @@ class GetRecipientsCount
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetRecipientsCount
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetRecipientsCount
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -62,17 +62,17 @@ class GetRecipientsCount
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetRecipientsCount
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetRecipientsCount
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -80,17 +80,17 @@ class GetRecipientsCount
      */
     public function getInPopulationOrContextId()
     {
-        return $this->inPopulationOrContextId;
+      return $this->inPopulationOrContextId;
     }
 
     /**
      * @param string $inPopulationOrContextId
-     * @return GetRecipientsCount
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetRecipientsCount
      */
     public function setInPopulationOrContextId($inPopulationOrContextId)
     {
-        $this->inPopulationOrContextId = $inPopulationOrContextId;
-        return $this;
+      $this->inPopulationOrContextId = $inPopulationOrContextId;
+      return $this;
     }
 
     /**
@@ -98,17 +98,17 @@ class GetRecipientsCount
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return GetRecipientsCount
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\Population_SSP\GetRecipientsCount
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetResourceDownloadURLByIDResponse
      */
     public function __construct($GetResourceDownloadURLByIDResult = null)
     {
-        $this->GetResourceDownloadURLByIDResult = $GetResourceDownloadURLByIDResult;
+      $this->GetResourceDownloadURLByIDResult = $GetResourceDownloadURLByIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetResourceDownloadURLByIDResponse
      */
     public function getGetResourceDownloadURLByIDResult()
     {
-        return $this->GetResourceDownloadURLByIDResult;
+      return $this->GetResourceDownloadURLByIDResult;
     }
 
     /**
      * @param string $GetResourceDownloadURLByIDResult
-     * @return GetResourceDownloadURLByIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetResourceDownloadURLByIDResponse
      */
     public function setGetResourceDownloadURLByIDResult($GetResourceDownloadURLByIDResult)
     {
-        $this->GetResourceDownloadURLByIDResult = $GetResourceDownloadURLByIDResult;
-        return $this;
+      $this->GetResourceDownloadURLByIDResult = $GetResourceDownloadURLByIDResult;
+      return $this;
     }
 
 }

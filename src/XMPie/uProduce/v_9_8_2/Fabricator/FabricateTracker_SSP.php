@@ -63,10 +63,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEvent
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEvent
+    */
     public function AddEvent($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -81,10 +81,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return XMPDateTime
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return XMPDateTime
+    */
     public function XMPDateTime($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -99,10 +99,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfProperty
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfProperty
+    */
     public function ArrayOfProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -117,10 +117,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Property
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Property
+    */
     public function Property($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -135,10 +135,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEventResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEventResponse
+    */
     public function AddEventResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -153,10 +153,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEventType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEventType
+    */
     public function AddEventType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -171,10 +171,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEventTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEventTypeResponse
+    */
     public function AddEventTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -189,10 +189,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Delete
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Delete
+    */
     public function Delete($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -207,10 +207,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteResponse
+    */
     public function DeleteResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -225,10 +225,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEventForRecipients
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEventForRecipients
+    */
     public function AddEventForRecipients($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -243,10 +243,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfString
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfString
+    */
     public function ArrayOfString($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -261,10 +261,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEventForRecipientsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEventForRecipientsResponse
+    */
     public function AddEventForRecipientsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -279,10 +279,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEvents
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEvents
+    */
     public function AddEvents($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -297,10 +297,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfTrackEvent
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfTrackEvent
+    */
     public function ArrayOfTrackEvent($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -315,10 +315,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return TrackEvent
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return TrackEvent
+    */
     public function TrackEvent($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -333,10 +333,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEventsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEventsResponse
+    */
     public function AddEventsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -351,10 +351,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewJob
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewJob
+    */
     public function CreateNewJob($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -369,10 +369,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewJobResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewJobResponse
+    */
     public function CreateNewJobResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -387,10 +387,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCloudTrackingConfiguration
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCloudTrackingConfiguration
+    */
     public function SetCloudTrackingConfiguration($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -405,10 +405,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCloudTrackingConfigurationResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCloudTrackingConfigurationResponse
+    */
     public function SetCloudTrackingConfigurationResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -423,10 +423,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCloudTrackingConfiguration
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCloudTrackingConfiguration
+    */
     public function GetCloudTrackingConfiguration($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -441,10 +441,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCloudTrackingConfigurationResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCloudTrackingConfigurationResponse
+    */
     public function GetCloudTrackingConfigurationResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -459,10 +459,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCloudTrackingInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCloudTrackingInfo
+    */
     public function GetCloudTrackingInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -477,10 +477,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCloudTrackingInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCloudTrackingInfoResponse
+    */
     public function GetCloudTrackingInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -495,10 +495,10 @@ class FabricateTracker_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CloudTrackingInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CloudTrackingInfo
+    */
     public function CloudTrackingInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -511,6 +511,7 @@ class FabricateTracker_SSP
         }
         return $CloudTrackingInfo;
     }
+
 
 
 }

@@ -15,7 +15,7 @@ class SetFilterInADORsResponse
      */
     public function __construct($SetFilterInADORsResult = null)
     {
-        $this->SetFilterInADORsResult = $SetFilterInADORsResult;
+      $this->SetFilterInADORsResult = $SetFilterInADORsResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetFilterInADORsResponse
      */
     public function getSetFilterInADORsResult()
     {
-        return $this->SetFilterInADORsResult;
+      return $this->SetFilterInADORsResult;
     }
 
     /**
      * @param boolean $SetFilterInADORsResult
-     * @return SetFilterInADORsResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetFilterInADORsResponse
      */
     public function setSetFilterInADORsResult($SetFilterInADORsResult)
     {
-        $this->SetFilterInADORsResult = $SetFilterInADORsResult;
-        return $this;
+      $this->SetFilterInADORsResult = $SetFilterInADORsResult;
+      return $this;
     }
 
 }

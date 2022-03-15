@@ -45,12 +45,12 @@ class AddDestinationByID
      */
     public function __construct($inUsername = null, $inPassword = null, $inTicketID = null, $inDestinationID = null, $inDestinationParam = null, $inDeleteSource = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inTicketID = $inTicketID;
-        $this->inDestinationID = $inDestinationID;
-        $this->inDestinationParam = $inDestinationParam;
-        $this->inDeleteSource = $inDeleteSource;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inTicketID = $inTicketID;
+      $this->inDestinationID = $inDestinationID;
+      $this->inDestinationParam = $inDestinationParam;
+      $this->inDeleteSource = $inDeleteSource;
     }
 
     /**
@@ -58,17 +58,17 @@ class AddDestinationByID
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return AddDestinationByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddDestinationByID
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class AddDestinationByID
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return AddDestinationByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddDestinationByID
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class AddDestinationByID
      */
     public function getInTicketID()
     {
-        return $this->inTicketID;
+      return $this->inTicketID;
     }
 
     /**
      * @param string $inTicketID
-     * @return AddDestinationByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddDestinationByID
      */
     public function setInTicketID($inTicketID)
     {
-        $this->inTicketID = $inTicketID;
-        return $this;
+      $this->inTicketID = $inTicketID;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class AddDestinationByID
      */
     public function getInDestinationID()
     {
-        return $this->inDestinationID;
+      return $this->inDestinationID;
     }
 
     /**
      * @param string $inDestinationID
-     * @return AddDestinationByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddDestinationByID
      */
     public function setInDestinationID($inDestinationID)
     {
-        $this->inDestinationID = $inDestinationID;
-        return $this;
+      $this->inDestinationID = $inDestinationID;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class AddDestinationByID
      */
     public function getInDestinationParam()
     {
-        return $this->inDestinationParam;
+      return $this->inDestinationParam;
     }
 
     /**
      * @param string $inDestinationParam
-     * @return AddDestinationByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddDestinationByID
      */
     public function setInDestinationParam($inDestinationParam)
     {
-        $this->inDestinationParam = $inDestinationParam;
-        return $this;
+      $this->inDestinationParam = $inDestinationParam;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class AddDestinationByID
      */
     public function getInDeleteSource()
     {
-        return $this->inDeleteSource;
+      return $this->inDeleteSource;
     }
 
     /**
      * @param boolean $inDeleteSource
-     * @return AddDestinationByID
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\AddDestinationByID
      */
     public function setInDeleteSource($inDeleteSource)
     {
-        $this->inDeleteSource = $inDeleteSource;
-        return $this;
+      $this->inDeleteSource = $inDeleteSource;
+      return $this;
     }
 
 }

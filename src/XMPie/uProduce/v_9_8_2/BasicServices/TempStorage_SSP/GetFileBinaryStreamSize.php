@@ -27,9 +27,9 @@ class GetFileBinaryStreamSize
      */
     public function __construct($inUsername = null, $inPassword = null, $inFileToken = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inFileToken = $inFileToken;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inFileToken = $inFileToken;
     }
 
     /**
@@ -37,17 +37,17 @@ class GetFileBinaryStreamSize
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetFileBinaryStreamSize
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\GetFileBinaryStreamSize
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -55,17 +55,17 @@ class GetFileBinaryStreamSize
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetFileBinaryStreamSize
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\GetFileBinaryStreamSize
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -73,17 +73,17 @@ class GetFileBinaryStreamSize
      */
     public function getInFileToken()
     {
-        return $this->inFileToken;
+      return $this->inFileToken;
     }
 
     /**
      * @param string $inFileToken
-     * @return GetFileBinaryStreamSize
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\TempStorage_SSP\GetFileBinaryStreamSize
      */
     public function setInFileToken($inFileToken)
     {
-        $this->inFileToken = $inFileToken;
-        return $this;
+      $this->inFileToken = $inFileToken;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class SetAssetSourceExResponse
      */
     public function __construct($SetAssetSourceExResult = null)
     {
-        $this->SetAssetSourceExResult = $SetAssetSourceExResult;
+      $this->SetAssetSourceExResult = $SetAssetSourceExResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetAssetSourceExResponse
      */
     public function getSetAssetSourceExResult()
     {
-        return $this->SetAssetSourceExResult;
+      return $this->SetAssetSourceExResult;
     }
 
     /**
      * @param boolean $SetAssetSourceExResult
-     * @return SetAssetSourceExResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetAssetSourceExResponse
      */
     public function setSetAssetSourceExResult($SetAssetSourceExResult)
     {
-        $this->SetAssetSourceExResult = $SetAssetSourceExResult;
-        return $this;
+      $this->SetAssetSourceExResult = $SetAssetSourceExResult;
+      return $this;
     }
 
 }

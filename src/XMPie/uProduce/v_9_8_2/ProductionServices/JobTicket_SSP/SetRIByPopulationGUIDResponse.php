@@ -15,7 +15,7 @@ class SetRIByPopulationGUIDResponse
      */
     public function __construct($SetRIByPopulationGUIDResult = null)
     {
-        $this->SetRIByPopulationGUIDResult = $SetRIByPopulationGUIDResult;
+      $this->SetRIByPopulationGUIDResult = $SetRIByPopulationGUIDResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class SetRIByPopulationGUIDResponse
      */
     public function getSetRIByPopulationGUIDResult()
     {
-        return $this->SetRIByPopulationGUIDResult;
+      return $this->SetRIByPopulationGUIDResult;
     }
 
     /**
      * @param boolean $SetRIByPopulationGUIDResult
-     * @return SetRIByPopulationGUIDResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\SetRIByPopulationGUIDResponse
      */
     public function setSetRIByPopulationGUIDResult($SetRIByPopulationGUIDResult)
     {
-        $this->SetRIByPopulationGUIDResult = $SetRIByPopulationGUIDResult;
-        return $this;
+      $this->SetRIByPopulationGUIDResult = $SetRIByPopulationGUIDResult;
+      return $this;
     }
 
 }

@@ -45,12 +45,12 @@ class GetCorespondingJobIDAsString
      */
     public function __construct($inUsername = null, $inPassword = null, $inAccountName = null, $inCampaignName = null, $inICPName = null, $inIncludingSuspendedJobs = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inAccountName = $inAccountName;
-        $this->inCampaignName = $inCampaignName;
-        $this->inICPName = $inICPName;
-        $this->inIncludingSuspendedJobs = $inIncludingSuspendedJobs;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inAccountName = $inAccountName;
+      $this->inCampaignName = $inCampaignName;
+      $this->inICPName = $inICPName;
+      $this->inIncludingSuspendedJobs = $inIncludingSuspendedJobs;
     }
 
     /**
@@ -58,17 +58,17 @@ class GetCorespondingJobIDAsString
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetCorespondingJobIDAsString
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetCorespondingJobIDAsString
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -76,17 +76,17 @@ class GetCorespondingJobIDAsString
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetCorespondingJobIDAsString
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetCorespondingJobIDAsString
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -94,17 +94,17 @@ class GetCorespondingJobIDAsString
      */
     public function getInAccountName()
     {
-        return $this->inAccountName;
+      return $this->inAccountName;
     }
 
     /**
      * @param string $inAccountName
-     * @return GetCorespondingJobIDAsString
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetCorespondingJobIDAsString
      */
     public function setInAccountName($inAccountName)
     {
-        $this->inAccountName = $inAccountName;
-        return $this;
+      $this->inAccountName = $inAccountName;
+      return $this;
     }
 
     /**
@@ -112,17 +112,17 @@ class GetCorespondingJobIDAsString
      */
     public function getInCampaignName()
     {
-        return $this->inCampaignName;
+      return $this->inCampaignName;
     }
 
     /**
      * @param string $inCampaignName
-     * @return GetCorespondingJobIDAsString
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetCorespondingJobIDAsString
      */
     public function setInCampaignName($inCampaignName)
     {
-        $this->inCampaignName = $inCampaignName;
-        return $this;
+      $this->inCampaignName = $inCampaignName;
+      return $this;
     }
 
     /**
@@ -130,17 +130,17 @@ class GetCorespondingJobIDAsString
      */
     public function getInICPName()
     {
-        return $this->inICPName;
+      return $this->inICPName;
     }
 
     /**
      * @param string $inICPName
-     * @return GetCorespondingJobIDAsString
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetCorespondingJobIDAsString
      */
     public function setInICPName($inICPName)
     {
-        $this->inICPName = $inICPName;
-        return $this;
+      $this->inICPName = $inICPName;
+      return $this;
     }
 
     /**
@@ -148,17 +148,17 @@ class GetCorespondingJobIDAsString
      */
     public function getInIncludingSuspendedJobs()
     {
-        return $this->inIncludingSuspendedJobs;
+      return $this->inIncludingSuspendedJobs;
     }
 
     /**
      * @param boolean $inIncludingSuspendedJobs
-     * @return GetCorespondingJobIDAsString
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\InteractiveCampaign_SSP\GetCorespondingJobIDAsString
      */
     public function setInIncludingSuspendedJobs($inIncludingSuspendedJobs)
     {
-        $this->inIncludingSuspendedJobs = $inIncludingSuspendedJobs;
-        return $this;
+      $this->inIncludingSuspendedJobs = $inIncludingSuspendedJobs;
+      return $this;
     }
 
 }

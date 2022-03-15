@@ -749,10 +749,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsUMailExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsUMailExist
+    */
     public function IsUMailExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -767,10 +767,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsUMailExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsUMailExistResponse
+    */
     public function IsUMailExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -785,10 +785,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetUMailTemplate
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetUMailTemplate
+    */
     public function GetUMailTemplate($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -803,10 +803,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetUMailTemplateResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetUMailTemplateResponse
+    */
     public function GetUMailTemplateResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -821,10 +821,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetUMailOrigZip
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetUMailOrigZip
+    */
     public function GetUMailOrigZip($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -839,10 +839,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetUMailOrigZipResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetUMailOrigZipResponse
+    */
     public function GetUMailOrigZipResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -857,10 +857,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetUMailPCWT
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetUMailPCWT
+    */
     public function GetUMailPCWT($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -875,10 +875,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetUMailPCWTResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetUMailPCWTResponse
+    */
     public function GetUMailPCWTResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -893,10 +893,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetUMailPCThick
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetUMailPCThick
+    */
     public function GetUMailPCThick($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -911,10 +911,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetUMailPCThickResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetUMailPCThickResponse
+    */
     public function GetUMailPCThickResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -929,10 +929,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddPrint
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddPrint
+    */
     public function AddPrint($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -947,10 +947,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddPrintResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddPrintResponse
+    */
     public function AddPrintResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -965,10 +965,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddPrintByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddPrintByID
+    */
     public function AddPrintByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -983,10 +983,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddPrintByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddPrintByIDResponse
+    */
     public function AddPrintByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1001,10 +1001,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemovePrint
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemovePrint
+    */
     public function RemovePrint($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1019,10 +1019,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemovePrintResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemovePrintResponse
+    */
     public function RemovePrintResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1037,10 +1037,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsPrintExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsPrintExist
+    */
     public function IsPrintExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1055,10 +1055,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsPrintExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsPrintExistResponse
+    */
     public function IsPrintExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1073,10 +1073,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPrintID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPrintID
+    */
     public function GetPrintID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1091,10 +1091,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPrintIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPrintIDResponse
+    */
     public function GetPrintIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1109,10 +1109,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPrinter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPrinter
+    */
     public function GetPrinter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1127,10 +1127,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPrinterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPrinterResponse
+    */
     public function GetPrinterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1145,10 +1145,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsPrinterDeleteSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsPrinterDeleteSource
+    */
     public function IsPrinterDeleteSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1163,10 +1163,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsPrinterDeleteSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsPrinterDeleteSourceResponse
+    */
     public function IsPrinterDeleteSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1181,10 +1181,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddFFPM
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddFFPM
+    */
     public function AddFFPM($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1199,10 +1199,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddFFPMResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddFFPMResponse
+    */
     public function AddFFPMResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1217,10 +1217,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddFFPMByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddFFPMByID
+    */
     public function AddFFPMByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1235,10 +1235,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddFFPMByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddFFPMByIDResponse
+    */
     public function AddFFPMByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1253,10 +1253,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveFFPM
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveFFPM
+    */
     public function RemoveFFPM($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1271,10 +1271,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveFFPMResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveFFPMResponse
+    */
     public function RemoveFFPMResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1289,10 +1289,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFFPMExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFFPMExist
+    */
     public function IsFFPMExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1307,10 +1307,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFFPMExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFFPMExistResponse
+    */
     public function IsFFPMExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1325,10 +1325,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFFPMID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFFPMID
+    */
     public function GetFFPMID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1343,10 +1343,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFFPMIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFFPMIDResponse
+    */
     public function GetFFPMIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1361,10 +1361,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFFPMDeleteSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFFPMDeleteSource
+    */
     public function IsFFPMDeleteSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1379,10 +1379,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFFPMDeleteSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFFPMDeleteSourceResponse
+    */
     public function IsFFPMDeleteSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1397,10 +1397,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFFPMExecutablePath
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFFPMExecutablePath
+    */
     public function GetFFPMExecutablePath($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1415,10 +1415,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFFPMExecutablePathResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFFPMExecutablePathResponse
+    */
     public function GetFFPMExecutablePathResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1433,10 +1433,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFFPMQueueSpecs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFFPMQueueSpecs
+    */
     public function GetFFPMQueueSpecs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1451,10 +1451,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFFPMQueueSpecsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFFPMQueueSpecsResponse
+    */
     public function GetFFPMQueueSpecsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1469,10 +1469,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddRemoteCopy
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddRemoteCopy
+    */
     public function AddRemoteCopy($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1487,10 +1487,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddRemoteCopyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddRemoteCopyResponse
+    */
     public function AddRemoteCopyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1505,10 +1505,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddRemoteCopyByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddRemoteCopyByID
+    */
     public function AddRemoteCopyByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1523,10 +1523,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddRemoteCopyByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddRemoteCopyByIDResponse
+    */
     public function AddRemoteCopyByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1541,10 +1541,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveRemoteCopy
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveRemoteCopy
+    */
     public function RemoveRemoteCopy($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1559,10 +1559,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveRemoteCopyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveRemoteCopyResponse
+    */
     public function RemoveRemoteCopyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1577,10 +1577,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsRemoteCopyExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsRemoteCopyExist
+    */
     public function IsRemoteCopyExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1595,10 +1595,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsRemoteCopyExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsRemoteCopyExistResponse
+    */
     public function IsRemoteCopyExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1613,10 +1613,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRemoteCopyID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRemoteCopyID
+    */
     public function GetRemoteCopyID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1631,10 +1631,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRemoteCopyIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRemoteCopyIDResponse
+    */
     public function GetRemoteCopyIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1649,10 +1649,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRemoteCopyDestination
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRemoteCopyDestination
+    */
     public function GetRemoteCopyDestination($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1667,10 +1667,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRemoteCopyDestinationResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRemoteCopyDestinationResponse
+    */
     public function GetRemoteCopyDestinationResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1685,10 +1685,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsRemoteCopyDeleteSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsRemoteCopyDeleteSource
+    */
     public function IsRemoteCopyDeleteSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1703,10 +1703,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsRemoteCopyDeleteSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsRemoteCopyDeleteSourceResponse
+    */
     public function IsRemoteCopyDeleteSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1721,10 +1721,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddSecondaryRemoteCopy
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddSecondaryRemoteCopy
+    */
     public function AddSecondaryRemoteCopy($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1739,10 +1739,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddSecondaryRemoteCopyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddSecondaryRemoteCopyResponse
+    */
     public function AddSecondaryRemoteCopyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1757,10 +1757,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddSecondaryRemoteCopyByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddSecondaryRemoteCopyByID
+    */
     public function AddSecondaryRemoteCopyByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1775,10 +1775,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddSecondaryRemoteCopyByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddSecondaryRemoteCopyByIDResponse
+    */
     public function AddSecondaryRemoteCopyByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1793,10 +1793,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveSecondaryRemoteCopy
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveSecondaryRemoteCopy
+    */
     public function RemoveSecondaryRemoteCopy($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1811,10 +1811,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveSecondaryRemoteCopyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveSecondaryRemoteCopyResponse
+    */
     public function RemoveSecondaryRemoteCopyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1829,10 +1829,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsSecondaryRemoteCopyExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsSecondaryRemoteCopyExist
+    */
     public function IsSecondaryRemoteCopyExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1847,10 +1847,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsSecondaryRemoteCopyExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsSecondaryRemoteCopyExistResponse
+    */
     public function IsSecondaryRemoteCopyExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1865,10 +1865,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSecondaryRemoteCopyID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSecondaryRemoteCopyID
+    */
     public function GetSecondaryRemoteCopyID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1883,10 +1883,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSecondaryRemoteCopyIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSecondaryRemoteCopyIDResponse
+    */
     public function GetSecondaryRemoteCopyIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1901,10 +1901,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSecondaryRemoteCopyDestination
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSecondaryRemoteCopyDestination
+    */
     public function GetSecondaryRemoteCopyDestination($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1919,10 +1919,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSecondaryRemoteCopyDestinationResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSecondaryRemoteCopyDestinationResponse
+    */
     public function GetSecondaryRemoteCopyDestinationResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1937,10 +1937,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsSecondaryRemoteCopyDeleteSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsSecondaryRemoteCopyDeleteSource
+    */
     public function IsSecondaryRemoteCopyDeleteSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1955,10 +1955,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsSecondaryRemoteCopyDeleteSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsSecondaryRemoteCopyDeleteSourceResponse
+    */
     public function IsSecondaryRemoteCopyDeleteSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1973,10 +1973,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddJDFCopy
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddJDFCopy
+    */
     public function AddJDFCopy($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -1991,10 +1991,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddJDFCopyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddJDFCopyResponse
+    */
     public function AddJDFCopyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2009,10 +2009,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddJDFCopyByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddJDFCopyByID
+    */
     public function AddJDFCopyByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2027,10 +2027,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddJDFCopyByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddJDFCopyByIDResponse
+    */
     public function AddJDFCopyByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2045,10 +2045,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJDFCopy
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJDFCopy
+    */
     public function RemoveJDFCopy($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2063,10 +2063,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJDFCopyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJDFCopyResponse
+    */
     public function RemoveJDFCopyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2081,10 +2081,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsJDFCopyExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsJDFCopyExist
+    */
     public function IsJDFCopyExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2099,10 +2099,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsJDFCopyExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsJDFCopyExistResponse
+    */
     public function IsJDFCopyExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2117,10 +2117,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJDFCopyID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJDFCopyID
+    */
     public function GetJDFCopyID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2135,10 +2135,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJDFCopyIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJDFCopyIDResponse
+    */
     public function GetJDFCopyIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2153,10 +2153,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJDFCopyDestination
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJDFCopyDestination
+    */
     public function GetJDFCopyDestination($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2171,10 +2171,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJDFCopyDestinationResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJDFCopyDestinationResponse
+    */
     public function GetJDFCopyDestinationResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2189,10 +2189,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsJDFCopyDeleteSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsJDFCopyDeleteSource
+    */
     public function IsJDFCopyDeleteSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2207,10 +2207,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsJDFCopyDeleteSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsJDFCopyDeleteSourceResponse
+    */
     public function IsJDFCopyDeleteSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2225,10 +2225,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDistillJobOptionName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDistillJobOptionName
+    */
     public function SetDistillJobOptionName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2243,10 +2243,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDistillJobOptionNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDistillJobOptionNameResponse
+    */
     public function SetDistillJobOptionNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2261,10 +2261,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsJobTracked
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsJobTracked
+    */
     public function IsJobTracked($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2279,10 +2279,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsJobTrackedResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsJobTrackedResponse
+    */
     public function IsJobTrackedResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2297,10 +2297,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTouchPointID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTouchPointID
+    */
     public function SetTouchPointID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2315,10 +2315,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTouchPointIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTouchPointIDResponse
+    */
     public function SetTouchPointIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2333,10 +2333,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTouchPointID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTouchPointID
+    */
     public function GetTouchPointID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2351,10 +2351,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTouchPointIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTouchPointIDResponse
+    */
     public function GetTouchPointIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2369,10 +2369,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddTracking
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddTracking
+    */
     public function AddTracking($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2387,10 +2387,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfParameter
+    */
     public function ArrayOfParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2405,10 +2405,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Parameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Parameter
+    */
     public function Parameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2423,10 +2423,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddTrackingResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddTrackingResponse
+    */
     public function AddTrackingResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2441,10 +2441,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveTracking
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveTracking
+    */
     public function RemoveTracking($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2459,10 +2459,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveTrackingResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveTrackingResponse
+    */
     public function RemoveTrackingResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2477,10 +2477,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTrackingParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTrackingParameter
+    */
     public function SetTrackingParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2495,10 +2495,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTrackingParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTrackingParameterResponse
+    */
     public function SetTrackingParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2513,10 +2513,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTrackingParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTrackingParameters
+    */
     public function SetTrackingParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2531,10 +2531,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTrackingParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTrackingParametersResponse
+    */
     public function SetTrackingParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2549,10 +2549,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTrackingParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTrackingParameter
+    */
     public function GetTrackingParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2567,10 +2567,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTrackingParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTrackingParameterResponse
+    */
     public function GetTrackingParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2585,10 +2585,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTrackingParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTrackingParameters
+    */
     public function GetTrackingParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2603,10 +2603,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfString
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfString
+    */
     public function ArrayOfString($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2621,10 +2621,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTrackingParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTrackingParametersResponse
+    */
     public function GetTrackingParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2639,10 +2639,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveTrackingParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveTrackingParameter
+    */
     public function RemoveTrackingParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2657,10 +2657,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveTrackingParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveTrackingParameterResponse
+    */
     public function RemoveTrackingParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2675,10 +2675,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveTrackingParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveTrackingParameters
+    */
     public function RemoveTrackingParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2693,10 +2693,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveTrackingParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveTrackingParametersResponse
+    */
     public function RemoveTrackingParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2711,10 +2711,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllTrackingParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllTrackingParameters
+    */
     public function RemoveAllTrackingParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2729,10 +2729,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllTrackingParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllTrackingParametersResponse
+    */
     public function RemoveAllTrackingParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2747,10 +2747,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsTrackingADOR
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsTrackingADOR
+    */
     public function IsTrackingADOR($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2765,10 +2765,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsTrackingADORResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsTrackingADORResponse
+    */
     public function IsTrackingADORResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2783,10 +2783,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTrackingADORs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTrackingADORs
+    */
     public function GetTrackingADORs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2801,10 +2801,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTrackingADORsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTrackingADORsResponse
+    */
     public function GetTrackingADORsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2819,10 +2819,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDeliveryProvider
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDeliveryProvider
+    */
     public function SetDeliveryProvider($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2837,10 +2837,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailProviderInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailProviderInfo
+    */
     public function EmailProviderInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2855,10 +2855,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfEmailProviderParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfEmailProviderParameter
+    */
     public function ArrayOfEmailProviderParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2873,10 +2873,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailProviderParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailProviderParameter
+    */
     public function EmailProviderParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2891,10 +2891,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDeliveryProviderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDeliveryProviderResponse
+    */
     public function SetDeliveryProviderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2909,10 +2909,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDeliveryProviderByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDeliveryProviderByID
+    */
     public function SetDeliveryProviderByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2927,10 +2927,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDeliveryProviderByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDeliveryProviderByIDResponse
+    */
     public function SetDeliveryProviderByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2945,10 +2945,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProvider
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProvider
+    */
     public function GetDeliveryProvider($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2963,10 +2963,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderResponse
+    */
     public function GetDeliveryProviderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2981,10 +2981,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderID
+    */
     public function GetDeliveryProviderID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -2999,10 +2999,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDeliveryProviderIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDeliveryProviderIDResponse
+    */
     public function GetDeliveryProviderIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3017,10 +3017,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailHeader
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailHeader
+    */
     public function SetEmailHeader($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3035,10 +3035,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailHeaderInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailHeaderInfo
+    */
     public function EmailHeaderInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3053,10 +3053,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfEmailAddress
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfEmailAddress
+    */
     public function ArrayOfEmailAddress($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3071,10 +3071,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailAddress
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailAddress
+    */
     public function EmailAddress($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3089,10 +3089,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailHeaderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailHeaderResponse
+    */
     public function SetEmailHeaderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3107,10 +3107,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmailHeader
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmailHeader
+    */
     public function GetEmailHeader($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3125,10 +3125,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmailHeaderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmailHeaderResponse
+    */
     public function GetEmailHeaderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3143,10 +3143,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailBody
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailBody
+    */
     public function SetEmailBody($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3161,10 +3161,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailBodyInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailBodyInfo
+    */
     public function EmailBodyInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3179,10 +3179,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return EmailBodyOptions
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return EmailBodyOptions
+    */
     public function EmailBodyOptions($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3197,10 +3197,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return URLInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return URLInfo
+    */
     public function URLInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3215,10 +3215,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailBodyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailBodyResponse
+    */
     public function SetEmailBodyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3233,10 +3233,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailBodies
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailBodies
+    */
     public function SetEmailBodies($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3251,10 +3251,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfEmailBodyInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfEmailBodyInfo
+    */
     public function ArrayOfEmailBodyInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3269,10 +3269,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailBodiesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailBodiesResponse
+    */
     public function SetEmailBodiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3287,10 +3287,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEmailBody
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEmailBody
+    */
     public function AddEmailBody($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3305,10 +3305,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEmailBodyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEmailBodyResponse
+    */
     public function AddEmailBodyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3323,10 +3323,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailBodyByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailBodyByID
+    */
     public function SetEmailBodyByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3341,10 +3341,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailBodyByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailBodyByIDResponse
+    */
     public function SetEmailBodyByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3359,10 +3359,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailBodiesByIDs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailBodiesByIDs
+    */
     public function SetEmailBodiesByIDs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3377,10 +3377,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfEmailBodyOptions
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfEmailBodyOptions
+    */
     public function ArrayOfEmailBodyOptions($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3395,10 +3395,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailBodiesByIDsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailBodiesByIDsResponse
+    */
     public function SetEmailBodiesByIDsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3413,10 +3413,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEmailBodyByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEmailBodyByID
+    */
     public function AddEmailBodyByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3431,10 +3431,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddEmailBodyByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddEmailBodyByIDResponse
+    */
     public function AddEmailBodyByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3449,10 +3449,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllEmailBodies
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllEmailBodies
+    */
     public function RemoveAllEmailBodies($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3467,10 +3467,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllEmailBodiesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllEmailBodiesResponse
+    */
     public function RemoveAllEmailBodiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3485,10 +3485,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmailBodies
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmailBodies
+    */
     public function GetEmailBodies($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3503,10 +3503,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmailBodiesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmailBodiesResponse
+    */
     public function GetEmailBodiesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3521,10 +3521,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmailBodiesIDs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmailBodiesIDs
+    */
     public function GetEmailBodiesIDs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3539,10 +3539,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmailBodiesIDsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmailBodiesIDsResponse
+    */
     public function GetEmailBodiesIDsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3557,10 +3557,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmailBodyCount
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmailBodyCount
+    */
     public function GetEmailBodyCount($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3575,10 +3575,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmailBodyCountResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmailBodyCountResponse
+    */
     public function GetEmailBodyCountResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3593,10 +3593,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthEmailBody
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthEmailBody
+    */
     public function GetNthEmailBody($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3611,10 +3611,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthEmailBodyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthEmailBodyResponse
+    */
     public function GetNthEmailBodyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3629,10 +3629,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthEmailBodyID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthEmailBodyID
+    */
     public function GetNthEmailBodyID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3647,10 +3647,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthEmailBodyIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthEmailBodyIDResponse
+    */
     public function GetNthEmailBodyIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3665,10 +3665,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetMetaData
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetMetaData
+    */
     public function SetMetaData($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3683,10 +3683,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfProperty
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfProperty
+    */
     public function ArrayOfProperty($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3701,10 +3701,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Property
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Property
+    */
     public function Property($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3719,10 +3719,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetMetaDataResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetMetaDataResponse
+    */
     public function SetMetaDataResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3737,10 +3737,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetMetaData
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetMetaData
+    */
     public function GetMetaData($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3755,10 +3755,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetMetaDataResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetMetaDataResponse
+    */
     public function GetMetaDataResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3773,10 +3773,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAllMetaData
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAllMetaData
+    */
     public function GetAllMetaData($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3791,10 +3791,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAllMetaDataResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAllMetaDataResponse
+    */
     public function GetAllMetaDataResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3809,10 +3809,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetMetaDataSubGroups
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetMetaDataSubGroups
+    */
     public function GetMetaDataSubGroups($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3827,10 +3827,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetMetaDataSubGroupsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetMetaDataSubGroupsResponse
+    */
     public function GetMetaDataSubGroupsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3845,10 +3845,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveMetaData
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveMetaData
+    */
     public function RemoveMetaData($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3863,10 +3863,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveMetaDataResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveMetaDataResponse
+    */
     public function RemoveMetaDataResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3881,10 +3881,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveMetaDataGroup
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveMetaDataGroup
+    */
     public function RemoveMetaDataGroup($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3899,10 +3899,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveMetaDataGroupResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveMetaDataGroupResponse
+    */
     public function RemoveMetaDataGroupResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3917,10 +3917,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsMappingExists
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsMappingExists
+    */
     public function IsMappingExists($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3935,10 +3935,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsMappingExistsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsMappingExistsResponse
+    */
     public function IsMappingExistsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3953,10 +3953,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFieldMappings
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFieldMappings
+    */
     public function GetFieldMappings($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3971,10 +3971,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFieldMappingsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFieldMappingsResponse
+    */
     public function GetFieldMappingsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -3989,10 +3989,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return FieldMappings
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return FieldMappings
+    */
     public function FieldMappings($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4007,10 +4007,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfFieldMappingInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfFieldMappingInfo
+    */
     public function ArrayOfFieldMappingInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4025,10 +4025,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return FieldMappingInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return FieldMappingInfo
+    */
     public function FieldMappingInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4043,10 +4043,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFieldMapping
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFieldMapping
+    */
     public function SetFieldMapping($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4061,10 +4061,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFieldMappingResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFieldMappingResponse
+    */
     public function SetFieldMappingResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4079,10 +4079,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFieldMappingByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFieldMappingByID
+    */
     public function SetFieldMappingByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4097,10 +4097,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFieldMappingByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFieldMappingByIDResponse
+    */
     public function SetFieldMappingByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4115,10 +4115,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveFieldMapping
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveFieldMapping
+    */
     public function RemoveFieldMapping($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4133,10 +4133,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveFieldMappingResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveFieldMappingResponse
+    */
     public function RemoveFieldMappingResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4151,10 +4151,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthAssetSourcePriority
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthAssetSourcePriority
+    */
     public function GetNthAssetSourcePriority($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4169,10 +4169,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthAssetSourcePriorityResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthAssetSourcePriorityResponse
+    */
     public function GetNthAssetSourcePriorityResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4187,10 +4187,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPopulationGUID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPopulationGUID
+    */
     public function GetPopulationGUID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4205,10 +4205,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPopulationGUIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPopulationGUIDResponse
+    */
     public function GetPopulationGUIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4223,10 +4223,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIRange
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIRange
+    */
     public function SetRIRange($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4241,10 +4241,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIRangeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIRangeResponse
+    */
     public function SetRIRangeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4259,10 +4259,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRI
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRI
+    */
     public function SetRI($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4277,10 +4277,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RecipientsInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RecipientsInfo
+    */
     public function RecipientsInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4295,10 +4295,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Connection
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Connection
+    */
     public function Connection($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4313,10 +4313,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIResponse
+    */
     public function SetRIResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4331,10 +4331,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIs
+    */
     public function SetRIs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4349,10 +4349,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfRecipientsInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfRecipientsInfo
+    */
     public function ArrayOfRecipientsInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4367,10 +4367,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfConnection
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfConnection
+    */
     public function ArrayOfConnection($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4385,10 +4385,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIsResponse
+    */
     public function SetRIsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4403,10 +4403,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIByID
+    */
     public function SetRIByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4421,10 +4421,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIByIDResponse
+    */
     public function SetRIByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4439,10 +4439,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIByPopulationGUID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIByPopulationGUID
+    */
     public function SetRIByPopulationGUID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4457,10 +4457,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIByPopulationGUIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIByPopulationGUIDResponse
+    */
     public function SetRIByPopulationGUIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4475,10 +4475,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIsByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIsByID
+    */
     public function SetRIsByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4493,10 +4493,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIsByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIsByIDResponse
+    */
     public function SetRIsByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4511,10 +4511,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDefaultRI
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDefaultRI
+    */
     public function SetDefaultRI($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4529,10 +4529,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDefaultRIResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDefaultRIResponse
+    */
     public function SetDefaultRIResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4547,10 +4547,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllRIs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllRIs
+    */
     public function RemoveAllRIs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4565,10 +4565,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllRIsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllRIsResponse
+    */
     public function RemoveAllRIsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4583,10 +4583,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRIsCount
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRIsCount
+    */
     public function GetRIsCount($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4601,10 +4601,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRIsCountResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRIsCountResponse
+    */
     public function GetRIsCountResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4619,10 +4619,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRIFrom
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRIFrom
+    */
     public function GetRIFrom($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4637,10 +4637,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRIFromResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRIFromResponse
+    */
     public function GetRIFromResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4655,10 +4655,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRITo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRITo
+    */
     public function GetRITo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4673,10 +4673,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRIToResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRIToResponse
+    */
     public function GetRIToResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4691,10 +4691,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthRIRecipientIDListFileName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthRIRecipientIDListFileName
+    */
     public function GetNthRIRecipientIDListFileName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4709,10 +4709,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthRIRecipientIDListFileNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthRIRecipientIDListFileNameResponse
+    */
     public function GetNthRIRecipientIDListFileNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4727,10 +4727,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthRIRecipientIDListMergeType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthRIRecipientIDListMergeType
+    */
     public function GetNthRIRecipientIDListMergeType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4745,10 +4745,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthRIRecipientIDListMergeTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthRIRecipientIDListMergeTypeResponse
+    */
     public function GetNthRIRecipientIDListMergeTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4763,10 +4763,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthRIInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthRIInfo
+    */
     public function GetNthRIInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4781,10 +4781,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthRIInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthRIInfoResponse
+    */
     public function GetNthRIInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4799,10 +4799,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthRIDataSourceID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthRIDataSourceID
+    */
     public function GetNthRIDataSourceID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4817,10 +4817,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthRIDataSourceIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthRIDataSourceIDResponse
+    */
     public function GetNthRIDataSourceIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4835,10 +4835,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthRIDataSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthRIDataSource
+    */
     public function GetNthRIDataSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4853,10 +4853,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthRIDataSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthRIDataSourceResponse
+    */
     public function GetNthRIDataSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4871,10 +4871,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddRI
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddRI
+    */
     public function AddRI($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4889,10 +4889,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddRIResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddRIResponse
+    */
     public function AddRIResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4907,10 +4907,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddRIByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddRIByID
+    */
     public function AddRIByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4925,10 +4925,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddRIByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddRIByIDResponse
+    */
     public function AddRIByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4943,10 +4943,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddDefaultRI
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddDefaultRI
+    */
     public function AddDefaultRI($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4961,10 +4961,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddDefaultRIResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddDefaultRIResponse
+    */
     public function AddDefaultRIResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4979,10 +4979,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIOnDemandInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIOnDemandInfo
+    */
     public function SetRIOnDemandInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -4997,10 +4997,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetRIOnDemandInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetRIOnDemandInfoResponse
+    */
     public function SetRIOnDemandInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5015,10 +5015,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRIOnDemandRecipientID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRIOnDemandRecipientID
+    */
     public function GetRIOnDemandRecipientID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5033,10 +5033,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRIOnDemandRecipientIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRIOnDemandRecipientIDResponse
+    */
     public function GetRIOnDemandRecipientIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5051,10 +5051,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRIOnDemandRecipientInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRIOnDemandRecipientInfo
+    */
     public function GetRIOnDemandRecipientInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5069,10 +5069,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetRIOnDemandRecipientInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetRIOnDemandRecipientInfoResponse
+    */
     public function GetRIOnDemandRecipientInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5087,10 +5087,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobType
+    */
     public function SetJobType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5105,10 +5105,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobTypeResponse
+    */
     public function SetJobTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5123,10 +5123,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobType
+    */
     public function GetJobType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5141,10 +5141,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobTypeResponse
+    */
     public function GetJobTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5159,10 +5159,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobPriority
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobPriority
+    */
     public function GetJobPriority($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5177,10 +5177,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobPriorityResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobPriorityResponse
+    */
     public function GetJobPriorityResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5195,10 +5195,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobPriority
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobPriority
+    */
     public function SetJobPriority($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5213,10 +5213,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobPriorityResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobPriorityResponse
+    */
     public function SetJobPriorityResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5231,10 +5231,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobRequestUniqueID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobRequestUniqueID
+    */
     public function SetJobRequestUniqueID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5249,10 +5249,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobRequestUniqueIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobRequestUniqueIDResponse
+    */
     public function SetJobRequestUniqueIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5267,10 +5267,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobTrackingWebService
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobTrackingWebService
+    */
     public function SetJobTrackingWebService($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5285,10 +5285,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobTrackingWebServiceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobTrackingWebServiceResponse
+    */
     public function SetJobTrackingWebServiceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5303,10 +5303,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobTrackingWebService
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobTrackingWebService
+    */
     public function GetJobTrackingWebService($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5321,10 +5321,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobTrackingWebServiceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobTrackingWebServiceResponse
+    */
     public function GetJobTrackingWebServiceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5339,10 +5339,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobReportingWebService
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobReportingWebService
+    */
     public function SetJobReportingWebService($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5357,10 +5357,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobReportingWebServiceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobReportingWebServiceResponse
+    */
     public function SetJobReportingWebServiceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5375,10 +5375,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobReportingWebService
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobReportingWebService
+    */
     public function GetJobReportingWebService($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5393,10 +5393,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobReportingWebServiceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobReportingWebServiceResponse
+    */
     public function GetJobReportingWebServiceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5411,10 +5411,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobReportCallbackURL
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobReportCallbackURL
+    */
     public function SetJobReportCallbackURL($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5429,10 +5429,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobReportCallbackURLResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobReportCallbackURLResponse
+    */
     public function SetJobReportCallbackURLResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5447,10 +5447,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobReportCallbackURL
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobReportCallbackURL
+    */
     public function GetJobReportCallbackURL($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5465,10 +5465,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobReportCallbackURLResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobReportCallbackURLResponse
+    */
     public function GetJobReportCallbackURLResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5483,10 +5483,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetSplittedJobInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetSplittedJobInfo
+    */
     public function SetSplittedJobInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5501,10 +5501,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetSplittedJobInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetSplittedJobInfoResponse
+    */
     public function SetSplittedJobInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5519,10 +5519,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsSplittedJob
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsSplittedJob
+    */
     public function IsSplittedJob($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5537,10 +5537,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsSplittedJobResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsSplittedJobResponse
+    */
     public function IsSplittedJobResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5555,10 +5555,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsParallelProcessingJob
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsParallelProcessingJob
+    */
     public function IsParallelProcessingJob($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5573,10 +5573,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsParallelProcessingJobResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsParallelProcessingJobResponse
+    */
     public function IsParallelProcessingJobResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5591,10 +5591,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAutomaticSubSplitAndMerge
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAutomaticSubSplitAndMerge
+    */
     public function SetAutomaticSubSplitAndMerge($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5609,10 +5609,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAutomaticSubSplitAndMergeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAutomaticSubSplitAndMergeResponse
+    */
     public function SetAutomaticSubSplitAndMergeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5627,10 +5627,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsAutomaticSubSplitEnabled
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsAutomaticSubSplitEnabled
+    */
     public function IsAutomaticSubSplitEnabled($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5645,10 +5645,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsAutomaticSubSplitEnabledResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsAutomaticSubSplitEnabledResponse
+    */
     public function IsAutomaticSubSplitEnabledResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5663,10 +5663,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsAutomaticMergeEnabled
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsAutomaticMergeEnabled
+    */
     public function IsAutomaticMergeEnabled($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5681,10 +5681,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsAutomaticMergeEnabledResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsAutomaticMergeEnabledResponse
+    */
     public function IsAutomaticMergeEnabledResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5699,10 +5699,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsSubJob
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsSubJob
+    */
     public function IsSubJob($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5717,10 +5717,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsSubJobResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsSubJobResponse
+    */
     public function IsSubJobResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5735,10 +5735,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobInfo
+    */
     public function GetSubJobInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5753,10 +5753,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobInfoResponse
+    */
     public function GetSubJobInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5771,10 +5771,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SubJobInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SubJobInfo
+    */
     public function SubJobInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5789,10 +5789,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobIndex
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobIndex
+    */
     public function GetSubJobIndex($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5807,10 +5807,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobIndexResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobIndexResponse
+    */
     public function GetSubJobIndexResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5825,10 +5825,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobOrigFrom
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobOrigFrom
+    */
     public function GetSubJobOrigFrom($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5843,10 +5843,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobOrigFromResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobOrigFromResponse
+    */
     public function GetSubJobOrigFromResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5861,10 +5861,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobOrigTo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobOrigTo
+    */
     public function GetSubJobOrigTo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5879,10 +5879,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobOrigToResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobOrigToResponse
+    */
     public function GetSubJobOrigToResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5897,10 +5897,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobSplitCount
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobSplitCount
+    */
     public function GetSubJobSplitCount($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5915,10 +5915,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobSplitCountResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobSplitCountResponse
+    */
     public function GetSubJobSplitCountResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5933,10 +5933,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobSplitType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobSplitType
+    */
     public function GetSubJobSplitType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5951,10 +5951,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubJobSplitTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubJobSplitTypeResponse
+    */
     public function GetSubJobSplitTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5969,10 +5969,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobParameter
+    */
     public function SetJobParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -5987,10 +5987,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobParameterResponse
+    */
     public function SetJobParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6005,10 +6005,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobParameters
+    */
     public function SetJobParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6023,10 +6023,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJobParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJobParametersResponse
+    */
     public function SetJobParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6041,10 +6041,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobParameter
+    */
     public function GetJobParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6059,10 +6059,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobParameterResponse
+    */
     public function GetJobParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6077,10 +6077,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobParameters
+    */
     public function GetJobParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6095,10 +6095,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJobParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJobParametersResponse
+    */
     public function GetJobParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6113,10 +6113,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJobParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJobParameter
+    */
     public function RemoveJobParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6131,10 +6131,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJobParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJobParameterResponse
+    */
     public function RemoveJobParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6149,10 +6149,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJobParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJobParameters
+    */
     public function RemoveJobParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6167,10 +6167,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJobParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJobParametersResponse
+    */
     public function RemoveJobParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6185,10 +6185,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllJobParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllJobParameters
+    */
     public function RemoveAllJobParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6203,10 +6203,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllJobParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllJobParametersResponse
+    */
     public function RemoveAllJobParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6221,10 +6221,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailInfo
+    */
     public function SetEmailInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6239,10 +6239,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailInfoResponse
+    */
     public function SetEmailInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6257,10 +6257,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailAdorName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailAdorName
+    */
     public function SetEmailAdorName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6275,10 +6275,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmailAdorNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmailAdorNameResponse
+    */
     public function SetEmailAdorNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6293,10 +6293,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetSenderAdorName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetSenderAdorName
+    */
     public function SetSenderAdorName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6311,10 +6311,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetSenderAdorNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetSenderAdorNameResponse
+    */
     public function SetSenderAdorNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6329,10 +6329,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetSubjectAdorName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetSubjectAdorName
+    */
     public function SetSubjectAdorName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6347,10 +6347,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetSubjectAdorNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetSubjectAdorNameResponse
+    */
     public function SetSubjectAdorNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6365,10 +6365,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmbedEmailBody
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmbedEmailBody
+    */
     public function SetEmbedEmailBody($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6383,10 +6383,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEmbedEmailBodyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEmbedEmailBodyResponse
+    */
     public function SetEmbedEmailBodyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6401,10 +6401,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetProcessEmailOutputType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetProcessEmailOutputType
+    */
     public function SetProcessEmailOutputType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6419,10 +6419,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetProcessEmailOutputTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetProcessEmailOutputTypeResponse
+    */
     public function SetProcessEmailOutputTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6437,10 +6437,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOnDemandBaseURL
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOnDemandBaseURL
+    */
     public function SetOnDemandBaseURL($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6455,10 +6455,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOnDemandBaseURLResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOnDemandBaseURLResponse
+    */
     public function SetOnDemandBaseURLResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6473,10 +6473,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmailAdorName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmailAdorName
+    */
     public function GetEmailAdorName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6491,10 +6491,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmailAdorNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmailAdorNameResponse
+    */
     public function GetEmailAdorNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6509,10 +6509,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSenderAdorName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSenderAdorName
+    */
     public function GetSenderAdorName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6527,10 +6527,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSenderAdorNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSenderAdorNameResponse
+    */
     public function GetSenderAdorNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6545,10 +6545,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubjectAdorName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubjectAdorName
+    */
     public function GetSubjectAdorName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6563,10 +6563,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSubjectAdorNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSubjectAdorNameResponse
+    */
     public function GetSubjectAdorNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6581,10 +6581,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmbedEmailBody
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmbedEmailBody
+    */
     public function GetEmbedEmailBody($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6599,10 +6599,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEmbedEmailBodyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEmbedEmailBodyResponse
+    */
     public function GetEmbedEmailBodyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6617,10 +6617,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetProcessEmailOutputType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetProcessEmailOutputType
+    */
     public function GetProcessEmailOutputType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6635,10 +6635,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetProcessEmailOutputTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetProcessEmailOutputTypeResponse
+    */
     public function GetProcessEmailOutputTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6653,10 +6653,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOnDemandBaseURL
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOnDemandBaseURL
+    */
     public function GetOnDemandBaseURL($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6671,10 +6671,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOnDemandBaseURLResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOnDemandBaseURLResponse
+    */
     public function GetOnDemandBaseURLResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6689,10 +6689,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputFileNameOption
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputFileNameOption
+    */
     public function GetOutputFileNameOption($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6707,10 +6707,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputFileNameOptionResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputFileNameOptionResponse
+    */
     public function GetOutputFileNameOptionResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6725,10 +6725,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputInfo
+    */
     public function SetOutputInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6743,10 +6743,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputInfoResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputInfoResponse
+    */
     public function SetOutputInfoResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6761,10 +6761,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputParameter
+    */
     public function SetOutputParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6779,10 +6779,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputParameterResponse
+    */
     public function SetOutputParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6797,10 +6797,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputParameters
+    */
     public function SetOutputParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6815,10 +6815,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputParametersResponse
+    */
     public function SetOutputParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6833,10 +6833,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputParameter
+    */
     public function GetOutputParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6851,10 +6851,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputParameterResponse
+    */
     public function GetOutputParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6869,10 +6869,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputParameters
+    */
     public function GetOutputParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6887,10 +6887,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputParametersResponse
+    */
     public function GetOutputParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6905,10 +6905,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveOutputParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveOutputParameter
+    */
     public function RemoveOutputParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6923,10 +6923,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveOutputParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveOutputParameterResponse
+    */
     public function RemoveOutputParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6941,10 +6941,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveOutputParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveOutputParameters
+    */
     public function RemoveOutputParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6959,10 +6959,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveOutputParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveOutputParametersResponse
+    */
     public function RemoveOutputParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6977,10 +6977,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllOutputParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllOutputParameters
+    */
     public function RemoveAllOutputParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -6995,10 +6995,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllOutputParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllOutputParametersResponse
+    */
     public function RemoveAllOutputParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7013,10 +7013,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAppendJobID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAppendJobID
+    */
     public function SetAppendJobID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7031,10 +7031,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAppendJobIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAppendJobIDResponse
+    */
     public function SetAppendJobIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7049,10 +7049,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEnvJobName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEnvJobName
+    */
     public function SetEnvJobName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7067,10 +7067,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetEnvJobNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetEnvJobNameResponse
+    */
     public function SetEnvJobNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7085,10 +7085,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputMedia
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputMedia
+    */
     public function SetOutputMedia($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7103,10 +7103,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputMediaResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputMediaResponse
+    */
     public function SetOutputMediaResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7121,10 +7121,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputType
+    */
     public function SetOutputType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7139,10 +7139,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputTypeResponse
+    */
     public function SetOutputTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7157,10 +7157,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputFolder
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputFolder
+    */
     public function SetOutputFolder($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7175,10 +7175,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputFolderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputFolderResponse
+    */
     public function SetOutputFolderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7193,10 +7193,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputFileName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputFileName
+    */
     public function SetOutputFileName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7211,10 +7211,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetOutputFileNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetOutputFileNameResponse
+    */
     public function SetOutputFileNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7229,10 +7229,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAppendJobID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAppendJobID
+    */
     public function GetAppendJobID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7247,10 +7247,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAppendJobIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAppendJobIDResponse
+    */
     public function GetAppendJobIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7265,10 +7265,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDefaultCacheEnv
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDefaultCacheEnv
+    */
     public function GetDefaultCacheEnv($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7283,10 +7283,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDefaultCacheEnvResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDefaultCacheEnvResponse
+    */
     public function GetDefaultCacheEnvResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7301,10 +7301,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEnvJobName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEnvJobName
+    */
     public function GetEnvJobName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7319,10 +7319,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetEnvJobNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetEnvJobNameResponse
+    */
     public function GetEnvJobNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7337,10 +7337,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputMedia
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputMedia
+    */
     public function GetOutputMedia($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7355,10 +7355,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputMediaResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputMediaResponse
+    */
     public function GetOutputMediaResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7373,10 +7373,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputType
+    */
     public function GetOutputType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7391,10 +7391,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputTypeResponse
+    */
     public function GetOutputTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7409,10 +7409,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputFolder
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputFolder
+    */
     public function GetOutputFolder($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7427,10 +7427,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputFolderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputFolderResponse
+    */
     public function GetOutputFolderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7445,10 +7445,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputFileName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputFileName
+    */
     public function GetOutputFileName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7463,10 +7463,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetOutputFileNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetOutputFileNameResponse
+    */
     public function GetOutputFileNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7481,10 +7481,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddImposition
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddImposition
+    */
     public function AddImposition($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7499,10 +7499,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddImpositionResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddImpositionResponse
+    */
     public function AddImpositionResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7517,10 +7517,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveImposition
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveImposition
+    */
     public function RemoveImposition($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7535,10 +7535,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveImpositionResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveImpositionResponse
+    */
     public function RemoveImpositionResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7553,10 +7553,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsImpositionExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsImpositionExist
+    */
     public function IsImpositionExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7571,10 +7571,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsImpositionExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsImpositionExistResponse
+    */
     public function IsImpositionExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7589,10 +7589,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetImpositionParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetImpositionParameter
+    */
     public function SetImpositionParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7607,10 +7607,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetImpositionParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetImpositionParameterResponse
+    */
     public function SetImpositionParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7625,10 +7625,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetImpositionParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetImpositionParameters
+    */
     public function SetImpositionParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7643,10 +7643,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetImpositionParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetImpositionParametersResponse
+    */
     public function SetImpositionParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7661,10 +7661,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetImpositionParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetImpositionParameter
+    */
     public function GetImpositionParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7679,10 +7679,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetImpositionParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetImpositionParameterResponse
+    */
     public function GetImpositionParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7697,10 +7697,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetImpositionParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetImpositionParameters
+    */
     public function GetImpositionParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7715,10 +7715,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetImpositionParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetImpositionParametersResponse
+    */
     public function GetImpositionParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7733,10 +7733,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveImpositionParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveImpositionParameter
+    */
     public function RemoveImpositionParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7751,10 +7751,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveImpositionParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveImpositionParameterResponse
+    */
     public function RemoveImpositionParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7769,10 +7769,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveImpositionParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveImpositionParameters
+    */
     public function RemoveImpositionParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7787,10 +7787,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveImpositionParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveImpositionParametersResponse
+    */
     public function RemoveImpositionParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7805,10 +7805,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllImpositionParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllImpositionParameters
+    */
     public function RemoveAllImpositionParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7823,10 +7823,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllImpositionParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllImpositionParametersResponse
+    */
     public function RemoveAllImpositionParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7841,10 +7841,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddJDF
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddJDF
+    */
     public function AddJDF($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7859,10 +7859,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddJDFResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddJDFResponse
+    */
     public function AddJDFResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7877,10 +7877,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJDF
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJDF
+    */
     public function RemoveJDF($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7895,10 +7895,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJDFResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJDFResponse
+    */
     public function RemoveJDFResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7913,10 +7913,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsJDFExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsJDFExist
+    */
     public function IsJDFExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7931,10 +7931,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsJDFExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsJDFExistResponse
+    */
     public function IsJDFExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7949,10 +7949,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJDFParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJDFParameter
+    */
     public function SetJDFParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7967,10 +7967,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJDFParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJDFParameterResponse
+    */
     public function SetJDFParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -7985,10 +7985,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJDFParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJDFParameters
+    */
     public function SetJDFParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8003,10 +8003,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetJDFParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetJDFParametersResponse
+    */
     public function SetJDFParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8021,10 +8021,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJDFParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJDFParameter
+    */
     public function GetJDFParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8039,10 +8039,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJDFParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJDFParameterResponse
+    */
     public function GetJDFParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8057,10 +8057,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJDFParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJDFParameters
+    */
     public function GetJDFParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8075,10 +8075,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetJDFParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetJDFParametersResponse
+    */
     public function GetJDFParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8093,10 +8093,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJDFParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJDFParameter
+    */
     public function RemoveJDFParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8111,10 +8111,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJDFParameterResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJDFParameterResponse
+    */
     public function RemoveJDFParameterResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8129,10 +8129,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJDFParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJDFParameters
+    */
     public function RemoveJDFParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8147,10 +8147,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveJDFParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveJDFParametersResponse
+    */
     public function RemoveJDFParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8165,10 +8165,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllJDFParameters
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllJDFParameters
+    */
     public function RemoveAllJDFParameters($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8183,10 +8183,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllJDFParametersResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllJDFParametersResponse
+    */
     public function RemoveAllJDFParametersResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8201,10 +8201,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddCompression
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddCompression
+    */
     public function AddCompression($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8219,10 +8219,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddCompressionResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddCompressionResponse
+    */
     public function AddCompressionResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8237,10 +8237,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveCompression
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveCompression
+    */
     public function RemoveCompression($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8255,10 +8255,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveCompressionResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveCompressionResponse
+    */
     public function RemoveCompressionResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8273,10 +8273,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsCompressionExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsCompressionExist
+    */
     public function IsCompressionExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8291,10 +8291,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsCompressionExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsCompressionExistResponse
+    */
     public function IsCompressionExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8309,10 +8309,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsVPCCompression
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsVPCCompression
+    */
     public function IsVPCCompression($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8327,10 +8327,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsVPCCompressionResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsVPCCompressionResponse
+    */
     public function IsVPCCompressionResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8345,10 +8345,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddDestinationByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddDestinationByID
+    */
     public function AddDestinationByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8363,10 +8363,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddDestinationByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddDestinationByIDResponse
+    */
     public function AddDestinationByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8381,10 +8381,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddFTP
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddFTP
+    */
     public function AddFTP($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8399,10 +8399,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddFTPResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddFTPResponse
+    */
     public function AddFTPResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8417,10 +8417,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddFTPByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddFTPByID
+    */
     public function AddFTPByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8435,10 +8435,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddFTPByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddFTPByIDResponse
+    */
     public function AddFTPByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8453,10 +8453,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveFTP
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveFTP
+    */
     public function RemoveFTP($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8471,10 +8471,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveFTPResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveFTPResponse
+    */
     public function RemoveFTPResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8489,10 +8489,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFTPExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFTPExist
+    */
     public function IsFTPExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8507,10 +8507,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFTPExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFTPExistResponse
+    */
     public function IsFTPExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8525,10 +8525,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPID
+    */
     public function GetFTPID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8543,10 +8543,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPIDResponse
+    */
     public function GetFTPIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8561,10 +8561,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPAddress
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPAddress
+    */
     public function GetFTPAddress($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8579,10 +8579,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPAddressResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPAddressResponse
+    */
     public function GetFTPAddressResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8597,10 +8597,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPPort
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPPort
+    */
     public function GetFTPPort($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8615,10 +8615,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPPortResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPPortResponse
+    */
     public function GetFTPPortResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8633,10 +8633,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPUser
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPUser
+    */
     public function GetFTPUser($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8651,10 +8651,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPUserResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPUserResponse
+    */
     public function GetFTPUserResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8669,10 +8669,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPPassword
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPPassword
+    */
     public function GetFTPPassword($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8687,10 +8687,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPPasswordResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPPasswordResponse
+    */
     public function GetFTPPasswordResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8705,10 +8705,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPPassive
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPPassive
+    */
     public function GetFTPPassive($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8723,10 +8723,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFTPPassiveResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFTPPassiveResponse
+    */
     public function GetFTPPassiveResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8741,10 +8741,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFTPDeleteSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFTPDeleteSource
+    */
     public function IsFTPDeleteSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8759,10 +8759,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFTPDeleteSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFTPDeleteSourceResponse
+    */
     public function IsFTPDeleteSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8777,10 +8777,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddUMail
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddUMail
+    */
     public function AddUMail($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8795,10 +8795,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AddUMailResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AddUMailResponse
+    */
     public function AddUMailResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8813,10 +8813,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveUMail
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveUMail
+    */
     public function RemoveUMail($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8831,10 +8831,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveUMailResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveUMailResponse
+    */
     public function RemoveUMailResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8849,10 +8849,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewTicket
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewTicket
+    */
     public function CreateNewTicket($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8867,10 +8867,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewTicketResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewTicketResponse
+    */
     public function CreateNewTicketResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8885,10 +8885,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewTicketForDocument
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewTicketForDocument
+    */
     public function CreateNewTicketForDocument($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8903,10 +8903,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewTicketForDocumentResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewTicketForDocumentResponse
+    */
     public function CreateNewTicketForDocumentResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8921,10 +8921,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewTicketForPlan
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewTicketForPlan
+    */
     public function CreateNewTicketForPlan($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8939,10 +8939,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewTicketForPlanResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewTicketForPlanResponse
+    */
     public function CreateNewTicketForPlanResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8957,10 +8957,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewTicketForCampaign
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewTicketForCampaign
+    */
     public function CreateNewTicketForCampaign($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8975,10 +8975,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return CreateNewTicketForCampaignResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return CreateNewTicketForCampaignResponse
+    */
     public function CreateNewTicketForCampaignResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -8993,10 +8993,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RecycleTicketID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RecycleTicketID
+    */
     public function RecycleTicketID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9011,10 +9011,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RecycleTicketIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RecycleTicketIDResponse
+    */
     public function RecycleTicketIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9029,10 +9029,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadTicketFromFile
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadTicketFromFile
+    */
     public function LoadTicketFromFile($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9047,10 +9047,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadTicketFromFileResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadTicketFromFileResponse
+    */
     public function LoadTicketFromFileResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9065,10 +9065,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadJobTicket
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadJobTicket
+    */
     public function LoadJobTicket($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9083,10 +9083,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadJobTicketResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadJobTicketResponse
+    */
     public function LoadJobTicketResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9101,10 +9101,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadLastJobTicketOfDocument
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadLastJobTicketOfDocument
+    */
     public function LoadLastJobTicketOfDocument($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9119,10 +9119,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadLastJobTicketOfDocumentResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadLastJobTicketOfDocumentResponse
+    */
     public function LoadLastJobTicketOfDocumentResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9137,10 +9137,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadLastJobTicketOfPlan
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadLastJobTicketOfPlan
+    */
     public function LoadLastJobTicketOfPlan($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9155,10 +9155,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadLastJobTicketOfPlanResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadLastJobTicketOfPlanResponse
+    */
     public function LoadLastJobTicketOfPlanResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9173,10 +9173,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadTicketFromTicket
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadTicketFromTicket
+    */
     public function LoadTicketFromTicket($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9191,10 +9191,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadTicketFromTicketResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadTicketFromTicketResponse
+    */
     public function LoadTicketFromTicketResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9209,10 +9209,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTicketPropertyFromDB
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTicketPropertyFromDB
+    */
     public function GetTicketPropertyFromDB($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9227,10 +9227,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTicketPropertyFromDBResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTicketPropertyFromDBResponse
+    */
     public function GetTicketPropertyFromDBResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9245,10 +9245,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadTicketFromDB
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadTicketFromDB
+    */
     public function LoadTicketFromDB($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9263,10 +9263,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return LoadTicketFromDBResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return LoadTicketFromDBResponse
+    */
     public function LoadTicketFromDBResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9281,10 +9281,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SaveTicketToFile
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SaveTicketToFile
+    */
     public function SaveTicketToFile($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9299,10 +9299,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SaveTicketToFileResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SaveTicketToFileResponse
+    */
     public function SaveTicketToFileResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9317,10 +9317,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SaveNewTicketToDB
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SaveNewTicketToDB
+    */
     public function SaveNewTicketToDB($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9335,10 +9335,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SaveNewTicketToDBResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SaveNewTicketToDBResponse
+    */
     public function SaveNewTicketToDBResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9353,10 +9353,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return OverwriteTicketInDB
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return OverwriteTicketInDB
+    */
     public function OverwriteTicketInDB($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9371,10 +9371,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return OverwriteTicketInDBResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return OverwriteTicketInDBResponse
+    */
     public function OverwriteTicketInDBResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9389,10 +9389,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteTicketFromDB
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteTicketFromDB
+    */
     public function DeleteTicketFromDB($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9407,10 +9407,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DeleteTicketFromDBResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DeleteTicketFromDBResponse
+    */
     public function DeleteTicketFromDBResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9425,10 +9425,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTicketsFromDB
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTicketsFromDB
+    */
     public function GetTicketsFromDB($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9443,10 +9443,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTicketsFromDBResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTicketsFromDBResponse
+    */
     public function GetTicketsFromDBResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9461,10 +9461,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTicketsFromDBResult
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTicketsFromDBResult
+    */
     public function GetTicketsFromDBResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9479,10 +9479,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTemplatesFromDB
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTemplatesFromDB
+    */
     public function GetTemplatesFromDB($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9497,10 +9497,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTemplatesFromDBResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTemplatesFromDBResponse
+    */
     public function GetTemplatesFromDBResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9515,10 +9515,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTemplatesFromDBResult
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTemplatesFromDBResult
+    */
     public function GetTemplatesFromDBResult($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9533,10 +9533,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTicket
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTicket
+    */
     public function GetTicket($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9551,10 +9551,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTicketResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTicketResponse
+    */
     public function GetTicketResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9569,10 +9569,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTicketAndRecycleID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTicketAndRecycleID
+    */
     public function GetTicketAndRecycleID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9587,10 +9587,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetTicketAndRecycleIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetTicketAndRecycleIDResponse
+    */
     public function GetTicketAndRecycleIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9605,10 +9605,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTicketDefaultsForDocument
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTicketDefaultsForDocument
+    */
     public function SetTicketDefaultsForDocument($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9623,10 +9623,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTicketDefaultsForDocumentResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTicketDefaultsForDocumentResponse
+    */
     public function SetTicketDefaultsForDocumentResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9641,10 +9641,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTicketDefaultsForPlan
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTicketDefaultsForPlan
+    */
     public function SetTicketDefaultsForPlan($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9659,10 +9659,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTicketDefaultsForPlanResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTicketDefaultsForPlanResponse
+    */
     public function SetTicketDefaultsForPlanResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9677,10 +9677,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTicketDefaultsForCampaign
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTicketDefaultsForCampaign
+    */
     public function SetTicketDefaultsForCampaign($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9695,10 +9695,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetTicketDefaultsForCampaignResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetTicketDefaultsForCampaignResponse
+    */
     public function SetTicketDefaultsForCampaignResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9713,10 +9713,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPlan
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPlan
+    */
     public function SetPlan($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9731,10 +9731,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPlanResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPlanResponse
+    */
     public function SetPlanResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9749,10 +9749,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPlanByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPlanByID
+    */
     public function SetPlanByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9767,10 +9767,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPlanByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPlanByIDResponse
+    */
     public function SetPlanByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9785,10 +9785,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetUseTrivialPlan
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetUseTrivialPlan
+    */
     public function GetUseTrivialPlan($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9803,10 +9803,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetUseTrivialPlanResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetUseTrivialPlanResponse
+    */
     public function GetUseTrivialPlanResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9821,10 +9821,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetUseTrivialPlan
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetUseTrivialPlan
+    */
     public function SetUseTrivialPlan($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9839,10 +9839,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetUseTrivialPlanResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetUseTrivialPlanResponse
+    */
     public function SetUseTrivialPlanResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9857,10 +9857,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPlanPath
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPlanPath
+    */
     public function GetPlanPath($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9875,10 +9875,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPlanPathResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPlanPathResponse
+    */
     public function GetPlanPathResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9893,10 +9893,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPlanID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPlanID
+    */
     public function GetPlanID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9911,10 +9911,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPlanIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPlanIDResponse
+    */
     public function GetPlanIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9929,10 +9929,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCustomization
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCustomization
+    */
     public function SetCustomization($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9947,10 +9947,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return Customization
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return Customization
+    */
     public function Customization($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9965,10 +9965,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCustomizationResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCustomizationResponse
+    */
     public function SetCustomizationResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -9983,10 +9983,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCustomizations
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCustomizations
+    */
     public function SetCustomizations($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10001,10 +10001,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfCustomization
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfCustomization
+    */
     public function ArrayOfCustomization($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10019,10 +10019,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCustomizationsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCustomizationsResponse
+    */
     public function SetCustomizationsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10037,10 +10037,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveCustomization
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveCustomization
+    */
     public function RemoveCustomization($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10055,10 +10055,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveCustomizationResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveCustomizationResponse
+    */
     public function RemoveCustomizationResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10073,10 +10073,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllCustomizations
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllCustomizations
+    */
     public function RemoveAllCustomizations($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10091,10 +10091,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllCustomizationsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllCustomizationsResponse
+    */
     public function RemoveAllCustomizationsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10109,10 +10109,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCustomizationsCount
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCustomizationsCount
+    */
     public function GetCustomizationsCount($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10127,10 +10127,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCustomizationsCountResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCustomizationsCountResponse
+    */
     public function GetCustomizationsCountResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10145,10 +10145,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthCustomization
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthCustomization
+    */
     public function GetNthCustomization($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10163,10 +10163,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthCustomizationResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthCustomizationResponse
+    */
     public function GetNthCustomizationResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10181,10 +10181,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCustomizations
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCustomizations
+    */
     public function GetCustomizations($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10199,10 +10199,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCustomizationsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCustomizationsResponse
+    */
     public function GetCustomizationsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10217,10 +10217,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFilterInADOR
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFilterInADOR
+    */
     public function SetFilterInADOR($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10235,10 +10235,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFilterInADORResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFilterInADORResponse
+    */
     public function SetFilterInADORResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10253,10 +10253,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFilterInADORs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFilterInADORs
+    */
     public function SetFilterInADORs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10271,10 +10271,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFilterInADORsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFilterInADORsResponse
+    */
     public function SetFilterInADORsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10289,10 +10289,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveFilterInADOR
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveFilterInADOR
+    */
     public function RemoveFilterInADOR($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10307,10 +10307,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveFilterInADORResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveFilterInADORResponse
+    */
     public function RemoveFilterInADORResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10325,10 +10325,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllFilterInADORs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllFilterInADORs
+    */
     public function RemoveAllFilterInADORs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10343,10 +10343,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllFilterInADORsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllFilterInADORsResponse
+    */
     public function RemoveAllFilterInADORsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10361,10 +10361,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFilterInADORsCount
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFilterInADORsCount
+    */
     public function GetFilterInADORsCount($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10379,10 +10379,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFilterInADORsCountResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFilterInADORsCountResponse
+    */
     public function GetFilterInADORsCountResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10397,10 +10397,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthFilterInADOR
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthFilterInADOR
+    */
     public function GetNthFilterInADOR($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10415,10 +10415,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthFilterInADORResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthFilterInADORResponse
+    */
     public function GetNthFilterInADORResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10433,10 +10433,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFilterInADORs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFilterInADORs
+    */
     public function GetFilterInADORs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10451,10 +10451,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFilterInADORsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFilterInADORsResponse
+    */
     public function GetFilterInADORsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10469,10 +10469,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFilterOutADOR
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFilterOutADOR
+    */
     public function SetFilterOutADOR($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10487,10 +10487,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFilterOutADORResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFilterOutADORResponse
+    */
     public function SetFilterOutADORResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10505,10 +10505,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFilterOutADORs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFilterOutADORs
+    */
     public function SetFilterOutADORs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10523,10 +10523,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFilterOutADORsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFilterOutADORsResponse
+    */
     public function SetFilterOutADORsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10541,10 +10541,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveFilterOutADOR
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveFilterOutADOR
+    */
     public function RemoveFilterOutADOR($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10559,10 +10559,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveFilterOutADORResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveFilterOutADORResponse
+    */
     public function RemoveFilterOutADORResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10577,10 +10577,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllFilterOutADORs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllFilterOutADORs
+    */
     public function RemoveAllFilterOutADORs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10595,10 +10595,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllFilterOutADORsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllFilterOutADORsResponse
+    */
     public function RemoveAllFilterOutADORsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10613,10 +10613,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFilterOutADORsCount
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFilterOutADORsCount
+    */
     public function GetFilterOutADORsCount($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10631,10 +10631,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFilterOutADORsCountResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFilterOutADORsCountResponse
+    */
     public function GetFilterOutADORsCountResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10649,10 +10649,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthFilterOutADOR
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthFilterOutADOR
+    */
     public function GetNthFilterOutADOR($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10667,10 +10667,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthFilterOutADORResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthFilterOutADORResponse
+    */
     public function GetNthFilterOutADORResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10685,10 +10685,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFilterOutADORs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFilterOutADORs
+    */
     public function GetFilterOutADORs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10703,10 +10703,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFilterOutADORsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFilterOutADORsResponse
+    */
     public function GetFilterOutADORsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10721,10 +10721,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDocumentByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDocumentByID
+    */
     public function SetDocumentByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10739,10 +10739,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDocumentByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDocumentByIDResponse
+    */
     public function SetDocumentByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10757,10 +10757,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDocument
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDocument
+    */
     public function SetDocument($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10775,10 +10775,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDocumentResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDocumentResponse
+    */
     public function SetDocumentResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10793,10 +10793,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDocumentID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDocumentID
+    */
     public function GetDocumentID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10811,10 +10811,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDocumentIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDocumentIDResponse
+    */
     public function GetDocumentIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10829,10 +10829,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDocumentFolder
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDocumentFolder
+    */
     public function GetDocumentFolder($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10847,10 +10847,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDocumentFolderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDocumentFolderResponse
+    */
     public function GetDocumentFolderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10865,10 +10865,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDocumentName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDocumentName
+    */
     public function GetDocumentName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10883,10 +10883,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDocumentNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDocumentNameResponse
+    */
     public function GetDocumentNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10901,10 +10901,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDocumentType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDocumentType
+    */
     public function GetDocumentType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10919,10 +10919,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDocumentTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDocumentTypeResponse
+    */
     public function GetDocumentTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10937,10 +10937,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDocumentResourcesFolder
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDocumentResourcesFolder
+    */
     public function SetDocumentResourcesFolder($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10955,10 +10955,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDocumentResourcesFolderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDocumentResourcesFolderResponse
+    */
     public function SetDocumentResourcesFolderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10973,10 +10973,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDocumentResourcesFolder
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDocumentResourcesFolder
+    */
     public function GetDocumentResourcesFolder($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -10991,10 +10991,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetDocumentResourcesFolderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetDocumentResourcesFolderResponse
+    */
     public function GetDocumentResourcesFolderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11009,10 +11009,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetWebResourcesBasePath
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetWebResourcesBasePath
+    */
     public function SetWebResourcesBasePath($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11027,10 +11027,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetWebResourcesBasePathResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetWebResourcesBasePathResponse
+    */
     public function SetWebResourcesBasePathResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11045,10 +11045,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetWebResourcesBasePath
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetWebResourcesBasePath
+    */
     public function GetWebResourcesBasePath($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11063,10 +11063,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetWebResourcesBasePathResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetWebResourcesBasePathResponse
+    */
     public function GetWebResourcesBasePathResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11081,10 +11081,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAllowFriendly
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAllowFriendly
+    */
     public function SetAllowFriendly($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11099,10 +11099,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAllowFriendlyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAllowFriendlyResponse
+    */
     public function SetAllowFriendlyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11117,10 +11117,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAllowFriendly
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAllowFriendly
+    */
     public function GetAllowFriendly($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11135,10 +11135,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAllowFriendlyResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAllowFriendlyResponse
+    */
     public function GetAllowFriendlyResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11153,10 +11153,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFriendliness
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFriendliness
+    */
     public function SetFriendliness($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11171,10 +11171,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFriendlinessResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFriendlinessResponse
+    */
     public function SetFriendlinessResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11189,10 +11189,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFriendlyDomain
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFriendlyDomain
+    */
     public function GetFriendlyDomain($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11207,10 +11207,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFriendlyDomainResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFriendlyDomainResponse
+    */
     public function GetFriendlyDomainResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11225,10 +11225,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFriendlyFolder
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFriendlyFolder
+    */
     public function GetFriendlyFolder($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11243,10 +11243,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFriendlyFolderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFriendlyFolderResponse
+    */
     public function GetFriendlyFolderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11261,10 +11261,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFriendlyLandingPage
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFriendlyLandingPage
+    */
     public function GetFriendlyLandingPage($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11279,10 +11279,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFriendlyLandingPageResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFriendlyLandingPageResponse
+    */
     public function GetFriendlyLandingPageResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11297,10 +11297,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFriendlyUrlRedirectMode
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFriendlyUrlRedirectMode
+    */
     public function IsFriendlyUrlRedirectMode($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11315,10 +11315,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFriendlyUrlRedirectModeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFriendlyUrlRedirectModeResponse
+    */
     public function IsFriendlyUrlRedirectModeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11333,10 +11333,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFriendlyUrlUseRIDPrefixMode
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFriendlyUrlUseRIDPrefixMode
+    */
     public function IsFriendlyUrlUseRIDPrefixMode($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11351,10 +11351,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsFriendlyUrlUseRIDPrefixModeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsFriendlyUrlUseRIDPrefixModeResponse
+    */
     public function IsFriendlyUrlUseRIDPrefixModeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11369,10 +11369,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCampaignID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCampaignID
+    */
     public function SetCampaignID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11387,10 +11387,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetCampaignIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetCampaignIDResponse
+    */
     public function SetCampaignIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11405,10 +11405,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCampaignID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCampaignID
+    */
     public function GetCampaignID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11423,10 +11423,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetCampaignIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetCampaignIDResponse
+    */
     public function GetCampaignIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11441,10 +11441,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFonts
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFonts
+    */
     public function SetFonts($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11459,10 +11459,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFontsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFontsResponse
+    */
     public function SetFontsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11477,10 +11477,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFontsByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFontsByID
+    */
     public function SetFontsByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11495,10 +11495,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetFontsByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetFontsByIDResponse
+    */
     public function SetFontsByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11513,10 +11513,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFontsFolder
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFontsFolder
+    */
     public function GetFontsFolder($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11531,10 +11531,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetFontsFolderResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetFontsFolderResponse
+    */
     public function GetFontsFolderResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11549,10 +11549,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPortLink
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPortLink
+    */
     public function SetPortLink($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11567,10 +11567,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetPortLinkResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetPortLinkResponse
+    */
     public function SetPortLinkResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11585,10 +11585,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RefreshPortLink
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RefreshPortLink
+    */
     public function RefreshPortLink($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11603,10 +11603,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RefreshPortLinkResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RefreshPortLinkResponse
+    */
     public function RefreshPortLinkResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11621,10 +11621,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemovePortLink
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemovePortLink
+    */
     public function RemovePortLink($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11639,10 +11639,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemovePortLinkResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemovePortLinkResponse
+    */
     public function RemovePortLinkResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11657,10 +11657,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsPortLinkExist
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsPortLinkExist
+    */
     public function IsPortLinkExist($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11675,10 +11675,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return IsPortLinkExistResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return IsPortLinkExistResponse
+    */
     public function IsPortLinkExistResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11693,10 +11693,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPortLinkAccount
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPortLinkAccount
+    */
     public function GetPortLinkAccount($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11711,10 +11711,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPortLinkAccountResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPortLinkAccountResponse
+    */
     public function GetPortLinkAccountResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11729,10 +11729,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPortLinkCampaign
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPortLinkCampaign
+    */
     public function GetPortLinkCampaign($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11747,10 +11747,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPortLinkCampaignResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPortLinkCampaignResponse
+    */
     public function GetPortLinkCampaignResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11765,10 +11765,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPortLinkPortName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPortLinkPortName
+    */
     public function GetPortLinkPortName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11783,10 +11783,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetPortLinkPortNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetPortLinkPortNameResponse
+    */
     public function GetPortLinkPortNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11801,10 +11801,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDataSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDataSource
+    */
     public function SetDataSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11819,10 +11819,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDataSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDataSourceResponse
+    */
     public function SetDataSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11837,10 +11837,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDataSources
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDataSources
+    */
     public function SetDataSources($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11855,10 +11855,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDataSourcesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDataSourcesResponse
+    */
     public function SetDataSourcesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11873,10 +11873,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDataSourceByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDataSourceByID
+    */
     public function SetDataSourceByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11891,10 +11891,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDataSourceByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDataSourceByIDResponse
+    */
     public function SetDataSourceByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11909,10 +11909,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDataSourcesByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDataSourcesByID
+    */
     public function SetDataSourcesByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11927,10 +11927,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDataSourcesByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDataSourcesByIDResponse
+    */
     public function SetDataSourcesByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11945,10 +11945,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDefaultDataSources
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDefaultDataSources
+    */
     public function SetDefaultDataSources($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11963,10 +11963,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDefaultDataSourcesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDefaultDataSourcesResponse
+    */
     public function SetDefaultDataSourcesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11981,10 +11981,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllSchemaDataSources
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllSchemaDataSources
+    */
     public function RemoveAllSchemaDataSources($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -11999,10 +11999,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllSchemaDataSourcesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllSchemaDataSourcesResponse
+    */
     public function RemoveAllSchemaDataSourcesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12017,10 +12017,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveSchemaDataSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveSchemaDataSource
+    */
     public function RemoveSchemaDataSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12035,10 +12035,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveSchemaDataSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveSchemaDataSourceResponse
+    */
     public function RemoveSchemaDataSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12053,10 +12053,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemaDataSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemaDataSource
+    */
     public function GetSchemaDataSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12071,10 +12071,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemaDataSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemaDataSourceResponse
+    */
     public function GetSchemaDataSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12089,10 +12089,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemaDataSourceID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemaDataSourceID
+    */
     public function GetSchemaDataSourceID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12107,10 +12107,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemaDataSourceIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemaDataSourceIDResponse
+    */
     public function GetSchemaDataSourceIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12125,10 +12125,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemasNames
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemasNames
+    */
     public function GetSchemasNames($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12143,10 +12143,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemasNamesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemasNamesResponse
+    */
     public function GetSchemasNamesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12161,10 +12161,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemasDataSources
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemasDataSources
+    */
     public function GetSchemasDataSources($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12179,10 +12179,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemasDataSourcesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemasDataSourcesResponse
+    */
     public function GetSchemasDataSourcesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12197,10 +12197,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemaDataSourceIDs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemaDataSourceIDs
+    */
     public function GetSchemaDataSourceIDs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12215,10 +12215,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemaDataSourceIDsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemaDataSourceIDsResponse
+    */
     public function GetSchemaDataSourceIDsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12233,10 +12233,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemaDataSourcesCount
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemaDataSourcesCount
+    */
     public function GetSchemaDataSourcesCount($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12251,10 +12251,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetSchemaDataSourcesCountResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetSchemaDataSourcesCountResponse
+    */
     public function GetSchemaDataSourcesCountResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12269,10 +12269,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthSchemaName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthSchemaName
+    */
     public function GetNthSchemaName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12287,10 +12287,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthSchemaNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthSchemaNameResponse
+    */
     public function GetNthSchemaNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12305,10 +12305,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthSchemaDataSourceID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthSchemaDataSourceID
+    */
     public function GetNthSchemaDataSourceID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12323,10 +12323,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthSchemaDataSourceIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthSchemaDataSourceIDResponse
+    */
     public function GetNthSchemaDataSourceIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12341,10 +12341,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthSchemaDataSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthSchemaDataSource
+    */
     public function GetNthSchemaDataSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12359,10 +12359,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthSchemaDataSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthSchemaDataSourceResponse
+    */
     public function GetNthSchemaDataSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12377,10 +12377,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetResolveAssets
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetResolveAssets
+    */
     public function SetResolveAssets($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12395,10 +12395,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetResolveAssetsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetResolveAssetsResponse
+    */
     public function SetResolveAssetsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12413,10 +12413,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetResolveAssets
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetResolveAssets
+    */
     public function GetResolveAssets($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12431,10 +12431,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetResolveAssetsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetResolveAssetsResponse
+    */
     public function GetResolveAssetsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12449,10 +12449,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetConnectivityAssets
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetConnectivityAssets
+    */
     public function SetConnectivityAssets($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12467,10 +12467,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetConnectivityAssetsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetConnectivityAssetsResponse
+    */
     public function SetConnectivityAssetsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12485,10 +12485,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetConnectivityAssets
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetConnectivityAssets
+    */
     public function GetConnectivityAssets($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12503,10 +12503,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetConnectivityAssetsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetConnectivityAssetsResponse
+    */
     public function GetConnectivityAssetsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12521,10 +12521,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetsPrefix
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetsPrefix
+    */
     public function SetAssetsPrefix($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12539,10 +12539,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetsPrefixResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetsPrefixResponse
+    */
     public function SetAssetsPrefixResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12557,10 +12557,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetsPrefixType
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetsPrefixType
+    */
     public function GetAssetsPrefixType($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12575,10 +12575,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetsPrefixTypeResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetsPrefixTypeResponse
+    */
     public function GetAssetsPrefixTypeResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12593,10 +12593,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetsFixedPrefix
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetsFixedPrefix
+    */
     public function GetAssetsFixedPrefix($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12611,10 +12611,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetsFixedPrefixResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetsFixedPrefixResponse
+    */
     public function GetAssetsFixedPrefixResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12629,10 +12629,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSource
+    */
     public function SetAssetSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12647,10 +12647,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AssetSourceStruct
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AssetSourceStruct
+    */
     public function AssetSourceStruct($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12665,10 +12665,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSourceResponse
+    */
     public function SetAssetSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12683,10 +12683,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSourceEx
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSourceEx
+    */
     public function SetAssetSourceEx($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12701,10 +12701,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AssetSourceInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AssetSourceInfo
+    */
     public function AssetSourceInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12719,10 +12719,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfAssetSourceParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfAssetSourceParameter
+    */
     public function ArrayOfAssetSourceParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12737,10 +12737,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return AssetSourceParameter
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return AssetSourceParameter
+    */
     public function AssetSourceParameter($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12755,10 +12755,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSourceExResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSourceExResponse
+    */
     public function SetAssetSourceExResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12773,10 +12773,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSources
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSources
+    */
     public function SetAssetSources($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12791,10 +12791,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfAssetSourceStruct
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfAssetSourceStruct
+    */
     public function ArrayOfAssetSourceStruct($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12809,10 +12809,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfInt
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfInt
+    */
     public function ArrayOfInt($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12827,10 +12827,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSourcesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSourcesResponse
+    */
     public function SetAssetSourcesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12845,10 +12845,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSourcesEx
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSourcesEx
+    */
     public function SetAssetSourcesEx($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12863,10 +12863,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return ArrayOfAssetSourceInfo
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return ArrayOfAssetSourceInfo
+    */
     public function ArrayOfAssetSourceInfo($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12881,10 +12881,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSourcesExResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSourcesExResponse
+    */
     public function SetAssetSourcesExResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12899,10 +12899,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSourceByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSourceByID
+    */
     public function SetAssetSourceByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12917,10 +12917,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSourceByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSourceByIDResponse
+    */
     public function SetAssetSourceByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12935,10 +12935,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSourcesByID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSourcesByID
+    */
     public function SetAssetSourcesByID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12953,10 +12953,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetAssetSourcesByIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetAssetSourcesByIDResponse
+    */
     public function SetAssetSourcesByIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12971,10 +12971,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDefaultAssetSources
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDefaultAssetSources
+    */
     public function SetDefaultAssetSources($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -12989,10 +12989,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return SetDefaultAssetSourcesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return SetDefaultAssetSourcesResponse
+    */
     public function SetDefaultAssetSourcesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13007,10 +13007,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllAssetSources
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllAssetSources
+    */
     public function RemoveAllAssetSources($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13025,10 +13025,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAllAssetSourcesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAllAssetSourcesResponse
+    */
     public function RemoveAllAssetSourcesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13043,10 +13043,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAssetSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAssetSource
+    */
     public function RemoveAssetSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13061,10 +13061,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return RemoveAssetSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return RemoveAssetSourceResponse
+    */
     public function RemoveAssetSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13079,10 +13079,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSource
+    */
     public function GetAssetSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13097,10 +13097,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourceResponse
+    */
     public function GetAssetSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13115,10 +13115,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourceEx
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourceEx
+    */
     public function GetAssetSourceEx($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13133,10 +13133,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourceExResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourceExResponse
+    */
     public function GetAssetSourceExResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13151,10 +13151,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourceID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourceID
+    */
     public function GetAssetSourceID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13169,10 +13169,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourceIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourceIDResponse
+    */
     public function GetAssetSourceIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13187,10 +13187,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcePriority
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcePriority
+    */
     public function GetAssetSourcePriority($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13205,10 +13205,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcePriorityResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcePriorityResponse
+    */
     public function GetAssetSourcePriorityResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13223,10 +13223,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcesNames
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcesNames
+    */
     public function GetAssetSourcesNames($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13241,10 +13241,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcesNamesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcesNamesResponse
+    */
     public function GetAssetSourcesNamesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13259,10 +13259,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSources
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSources
+    */
     public function GetAssetSources($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13277,10 +13277,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcesResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcesResponse
+    */
     public function GetAssetSourcesResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13295,10 +13295,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcesEx
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcesEx
+    */
     public function GetAssetSourcesEx($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13313,10 +13313,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcesExResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcesExResponse
+    */
     public function GetAssetSourcesExResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13331,10 +13331,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcesIDs
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcesIDs
+    */
     public function GetAssetSourcesIDs($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13349,10 +13349,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcesIDsResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcesIDsResponse
+    */
     public function GetAssetSourcesIDsResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13367,10 +13367,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcesCount
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcesCount
+    */
     public function GetAssetSourcesCount($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13385,10 +13385,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetAssetSourcesCountResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetAssetSourcesCountResponse
+    */
     public function GetAssetSourcesCountResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13403,10 +13403,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthAssetSourceName
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthAssetSourceName
+    */
     public function GetNthAssetSourceName($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13421,10 +13421,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthAssetSourceNameResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthAssetSourceNameResponse
+    */
     public function GetNthAssetSourceNameResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13439,10 +13439,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthAssetSource
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthAssetSource
+    */
     public function GetNthAssetSource($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13457,10 +13457,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthAssetSourceResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthAssetSourceResponse
+    */
     public function GetNthAssetSourceResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13475,10 +13475,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthAssetSourceEx
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthAssetSourceEx
+    */
     public function GetNthAssetSourceEx($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13493,10 +13493,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthAssetSourceExResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthAssetSourceExResponse
+    */
     public function GetNthAssetSourceExResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13511,10 +13511,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthAssetSourceID
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthAssetSourceID
+    */
     public function GetNthAssetSourceID($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13529,10 +13529,10 @@ class FabricateJobTicket_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return GetNthAssetSourceIDResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return GetNthAssetSourceIDResponse
+    */
     public function GetNthAssetSourceIDResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -13545,6 +13545,7 @@ class FabricateJobTicket_SSP
         }
         return $GetNthAssetSourceIDResponse;
     }
+
 
 
 }

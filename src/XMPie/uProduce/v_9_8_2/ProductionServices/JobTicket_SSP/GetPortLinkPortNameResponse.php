@@ -15,7 +15,7 @@ class GetPortLinkPortNameResponse
      */
     public function __construct($GetPortLinkPortNameResult = null)
     {
-        $this->GetPortLinkPortNameResult = $GetPortLinkPortNameResult;
+      $this->GetPortLinkPortNameResult = $GetPortLinkPortNameResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetPortLinkPortNameResponse
      */
     public function getGetPortLinkPortNameResult()
     {
-        return $this->GetPortLinkPortNameResult;
+      return $this->GetPortLinkPortNameResult;
     }
 
     /**
      * @param string $GetPortLinkPortNameResult
-     * @return GetPortLinkPortNameResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\JobTicket_SSP\GetPortLinkPortNameResponse
      */
     public function setGetPortLinkPortNameResult($GetPortLinkPortNameResult)
     {
-        $this->GetPortLinkPortNameResult = $GetPortLinkPortNameResult;
-        return $this;
+      $this->GetPortLinkPortNameResult = $GetPortLinkPortNameResult;
+      return $this;
     }
 
 }

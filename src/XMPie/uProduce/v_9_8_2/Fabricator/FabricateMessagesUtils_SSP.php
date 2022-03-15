@@ -44,10 +44,10 @@ class FabricateMessagesUtils_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DecodeMessage
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DecodeMessage
+    */
     public function DecodeMessage($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -62,10 +62,10 @@ class FabricateMessagesUtils_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DecodeMessageResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DecodeMessageResponse
+    */
     public function DecodeMessageResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -80,10 +80,10 @@ class FabricateMessagesUtils_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DecodeContext
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DecodeContext
+    */
     public function DecodeContext($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -98,10 +98,10 @@ class FabricateMessagesUtils_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DecodeContextResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DecodeContextResponse
+    */
     public function DecodeContextResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -116,10 +116,10 @@ class FabricateMessagesUtils_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DecodeSeverity
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DecodeSeverity
+    */
     public function DecodeSeverity($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -134,10 +134,10 @@ class FabricateMessagesUtils_SSP
     }
 
 
-    /**
-     * @param array $paramAutoSet
-     * @return DecodeSeverityResponse
-     */
+   /**
+    * @param array $paramAutoSet
+    * @return DecodeSeverityResponse
+    */
     public function DecodeSeverityResponse($paramAutoSet = [])
     {
         $paramAutoSet = array_merge($this->paramAutoSet, $paramAutoSet);
@@ -150,6 +150,7 @@ class FabricateMessagesUtils_SSP
         }
         return $DecodeSeverityResponse;
     }
+
 
 
 }

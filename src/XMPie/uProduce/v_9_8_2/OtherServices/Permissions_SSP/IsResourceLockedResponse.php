@@ -15,7 +15,7 @@ class IsResourceLockedResponse
      */
     public function __construct($IsResourceLockedResult = null)
     {
-        $this->IsResourceLockedResult = $IsResourceLockedResult;
+      $this->IsResourceLockedResult = $IsResourceLockedResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class IsResourceLockedResponse
      */
     public function getIsResourceLockedResult()
     {
-        return $this->IsResourceLockedResult;
+      return $this->IsResourceLockedResult;
     }
 
     /**
      * @param boolean $IsResourceLockedResult
-     * @return IsResourceLockedResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\OtherServices\Permissions_SSP\IsResourceLockedResponse
      */
     public function setIsResourceLockedResult($IsResourceLockedResult)
     {
-        $this->IsResourceLockedResult = $IsResourceLockedResult;
-        return $this;
+      $this->IsResourceLockedResult = $IsResourceLockedResult;
+      return $this;
     }
 
 }

@@ -15,7 +15,7 @@ class GetOnDemandOutputResponse
      */
     public function __construct($GetOnDemandOutputResult = null)
     {
-        $this->GetOnDemandOutputResult = $GetOnDemandOutputResult;
+      $this->GetOnDemandOutputResult = $GetOnDemandOutputResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetOnDemandOutputResponse
      */
     public function getGetOnDemandOutputResult()
     {
-        return $this->GetOnDemandOutputResult;
+      return $this->GetOnDemandOutputResult;
     }
 
     /**
      * @param OnDemandOutputResult $GetOnDemandOutputResult
-     * @return GetOnDemandOutputResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Production_SSP\GetOnDemandOutputResponse
      */
     public function setGetOnDemandOutputResult($GetOnDemandOutputResult)
     {
-        $this->GetOnDemandOutputResult = $GetOnDemandOutputResult;
-        return $this;
+      $this->GetOnDemandOutputResult = $GetOnDemandOutputResult;
+      return $this;
     }
 
 }

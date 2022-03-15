@@ -15,7 +15,7 @@ class GetSheetSizesResponse
      */
     public function __construct($GetSheetSizesResult = null)
     {
-        $this->GetSheetSizesResult = $GetSheetSizesResult;
+      $this->GetSheetSizesResult = $GetSheetSizesResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetSheetSizesResponse
      */
     public function getGetSheetSizesResult()
     {
-        return $this->GetSheetSizesResult;
+      return $this->GetSheetSizesResult;
     }
 
     /**
      * @param ArrayOfString $GetSheetSizesResult
-     * @return GetSheetSizesResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetSheetSizesResponse
      */
     public function setGetSheetSizesResult($GetSheetSizesResult)
     {
-        $this->GetSheetSizesResult = $GetSheetSizesResult;
-        return $this;
+      $this->GetSheetSizesResult = $GetSheetSizesResult;
+      return $this;
     }
 
 }

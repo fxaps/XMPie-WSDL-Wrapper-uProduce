@@ -81,18 +81,18 @@ class GetThumbnailDownloadURL
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inThumbnailIndex = null, $inWidth = null, $inHeight = null, $inResolution = null, $inMimeType = null, $inIsInline = null, $inMacTypeHex = null, $inMacCreatorHex = null, $inReturnInternalURL = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDocumentID = $inDocumentID;
-        $this->inThumbnailIndex = $inThumbnailIndex;
-        $this->inWidth = $inWidth;
-        $this->inHeight = $inHeight;
-        $this->inResolution = $inResolution;
-        $this->inMimeType = $inMimeType;
-        $this->inIsInline = $inIsInline;
-        $this->inMacTypeHex = $inMacTypeHex;
-        $this->inMacCreatorHex = $inMacCreatorHex;
-        $this->inReturnInternalURL = $inReturnInternalURL;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDocumentID = $inDocumentID;
+      $this->inThumbnailIndex = $inThumbnailIndex;
+      $this->inWidth = $inWidth;
+      $this->inHeight = $inHeight;
+      $this->inResolution = $inResolution;
+      $this->inMimeType = $inMimeType;
+      $this->inIsInline = $inIsInline;
+      $this->inMacTypeHex = $inMacTypeHex;
+      $this->inMacCreatorHex = $inMacCreatorHex;
+      $this->inReturnInternalURL = $inReturnInternalURL;
     }
 
     /**
@@ -100,17 +100,17 @@ class GetThumbnailDownloadURL
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -118,17 +118,17 @@ class GetThumbnailDownloadURL
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -136,17 +136,17 @@ class GetThumbnailDownloadURL
      */
     public function getInDocumentID()
     {
-        return $this->inDocumentID;
+      return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInDocumentID($inDocumentID)
     {
-        $this->inDocumentID = $inDocumentID;
-        return $this;
+      $this->inDocumentID = $inDocumentID;
+      return $this;
     }
 
     /**
@@ -154,17 +154,17 @@ class GetThumbnailDownloadURL
      */
     public function getInThumbnailIndex()
     {
-        return $this->inThumbnailIndex;
+      return $this->inThumbnailIndex;
     }
 
     /**
      * @param int $inThumbnailIndex
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInThumbnailIndex($inThumbnailIndex)
     {
-        $this->inThumbnailIndex = $inThumbnailIndex;
-        return $this;
+      $this->inThumbnailIndex = $inThumbnailIndex;
+      return $this;
     }
 
     /**
@@ -172,17 +172,17 @@ class GetThumbnailDownloadURL
      */
     public function getInWidth()
     {
-        return $this->inWidth;
+      return $this->inWidth;
     }
 
     /**
      * @param int $inWidth
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInWidth($inWidth)
     {
-        $this->inWidth = $inWidth;
-        return $this;
+      $this->inWidth = $inWidth;
+      return $this;
     }
 
     /**
@@ -190,17 +190,17 @@ class GetThumbnailDownloadURL
      */
     public function getInHeight()
     {
-        return $this->inHeight;
+      return $this->inHeight;
     }
 
     /**
      * @param int $inHeight
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInHeight($inHeight)
     {
-        $this->inHeight = $inHeight;
-        return $this;
+      $this->inHeight = $inHeight;
+      return $this;
     }
 
     /**
@@ -208,17 +208,17 @@ class GetThumbnailDownloadURL
      */
     public function getInResolution()
     {
-        return $this->inResolution;
+      return $this->inResolution;
     }
 
     /**
      * @param int $inResolution
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInResolution($inResolution)
     {
-        $this->inResolution = $inResolution;
-        return $this;
+      $this->inResolution = $inResolution;
+      return $this;
     }
 
     /**
@@ -226,17 +226,17 @@ class GetThumbnailDownloadURL
      */
     public function getInMimeType()
     {
-        return $this->inMimeType;
+      return $this->inMimeType;
     }
 
     /**
      * @param string $inMimeType
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInMimeType($inMimeType)
     {
-        $this->inMimeType = $inMimeType;
-        return $this;
+      $this->inMimeType = $inMimeType;
+      return $this;
     }
 
     /**
@@ -244,17 +244,17 @@ class GetThumbnailDownloadURL
      */
     public function getInIsInline()
     {
-        return $this->inIsInline;
+      return $this->inIsInline;
     }
 
     /**
      * @param boolean $inIsInline
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInIsInline($inIsInline)
     {
-        $this->inIsInline = $inIsInline;
-        return $this;
+      $this->inIsInline = $inIsInline;
+      return $this;
     }
 
     /**
@@ -262,17 +262,17 @@ class GetThumbnailDownloadURL
      */
     public function getInMacTypeHex()
     {
-        return $this->inMacTypeHex;
+      return $this->inMacTypeHex;
     }
 
     /**
      * @param string $inMacTypeHex
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInMacTypeHex($inMacTypeHex)
     {
-        $this->inMacTypeHex = $inMacTypeHex;
-        return $this;
+      $this->inMacTypeHex = $inMacTypeHex;
+      return $this;
     }
 
     /**
@@ -280,17 +280,17 @@ class GetThumbnailDownloadURL
      */
     public function getInMacCreatorHex()
     {
-        return $this->inMacCreatorHex;
+      return $this->inMacCreatorHex;
     }
 
     /**
      * @param string $inMacCreatorHex
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInMacCreatorHex($inMacCreatorHex)
     {
-        $this->inMacCreatorHex = $inMacCreatorHex;
-        return $this;
+      $this->inMacCreatorHex = $inMacCreatorHex;
+      return $this;
     }
 
     /**
@@ -298,17 +298,17 @@ class GetThumbnailDownloadURL
      */
     public function getInReturnInternalURL()
     {
-        return $this->inReturnInternalURL;
+      return $this->inReturnInternalURL;
     }
 
     /**
      * @param boolean $inReturnInternalURL
-     * @return GetThumbnailDownloadURL
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\GetThumbnailDownloadURL
      */
     public function setInReturnInternalURL($inReturnInternalURL)
     {
-        $this->inReturnInternalURL = $inReturnInternalURL;
-        return $this;
+      $this->inReturnInternalURL = $inReturnInternalURL;
+      return $this;
     }
 
 }

@@ -39,11 +39,11 @@ class CreateNew
      */
     public function __construct($inUsername = null, $inPassword = null, $inDLLName = null, $inFuncName = null, $inProps = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDLLName = $inDLLName;
-        $this->inFuncName = $inFuncName;
-        $this->inProps = $inProps;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDLLName = $inDLLName;
+      $this->inFuncName = $inFuncName;
+      $this->inProps = $inProps;
     }
 
     /**
@@ -51,17 +51,17 @@ class CreateNew
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\CreateNew
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class CreateNew
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\CreateNew
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class CreateNew
      */
     public function getInDLLName()
     {
-        return $this->inDLLName;
+      return $this->inDLLName;
     }
 
     /**
      * @param string $inDLLName
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\CreateNew
      */
     public function setInDLLName($inDLLName)
     {
-        $this->inDLLName = $inDLLName;
-        return $this;
+      $this->inDLLName = $inDLLName;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class CreateNew
      */
     public function getInFuncName()
     {
-        return $this->inFuncName;
+      return $this->inFuncName;
     }
 
     /**
      * @param string $inFuncName
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\CreateNew
      */
     public function setInFuncName($inFuncName)
     {
-        $this->inFuncName = $inFuncName;
-        return $this;
+      $this->inFuncName = $inFuncName;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class CreateNew
      */
     public function getInProps()
     {
-        return $this->inProps;
+      return $this->inProps;
     }
 
     /**
      * @param ArrayOfProperty $inProps
-     * @return CreateNew
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\PlanPartsProvider_SSP\CreateNew
      */
     public function setInProps($inProps)
     {
-        $this->inProps = $inProps;
-        return $this;
+      $this->inProps = $inProps;
+      return $this;
     }
 
 }

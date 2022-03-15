@@ -39,11 +39,11 @@ class DeployOnDemandJob
      */
     public function __construct($inUsername = null, $inPassword = null, $inDocumentID = null, $inJobTicket = null, $inJobName = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inDocumentID = $inDocumentID;
-        $this->inJobTicket = $inJobTicket;
-        $this->inJobName = $inJobName;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inDocumentID = $inDocumentID;
+      $this->inJobTicket = $inJobTicket;
+      $this->inJobName = $inJobName;
     }
 
     /**
@@ -51,17 +51,17 @@ class DeployOnDemandJob
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return DeployOnDemandJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\DeployOnDemandJob
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class DeployOnDemandJob
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return DeployOnDemandJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\DeployOnDemandJob
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class DeployOnDemandJob
      */
     public function getInDocumentID()
     {
-        return $this->inDocumentID;
+      return $this->inDocumentID;
     }
 
     /**
      * @param string $inDocumentID
-     * @return DeployOnDemandJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\DeployOnDemandJob
      */
     public function setInDocumentID($inDocumentID)
     {
-        $this->inDocumentID = $inDocumentID;
-        return $this;
+      $this->inDocumentID = $inDocumentID;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class DeployOnDemandJob
      */
     public function getInJobTicket()
     {
-        return $this->inJobTicket;
+      return $this->inJobTicket;
     }
 
     /**
      * @param string $inJobTicket
-     * @return DeployOnDemandJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\DeployOnDemandJob
      */
     public function setInJobTicket($inJobTicket)
     {
-        $this->inJobTicket = $inJobTicket;
-        return $this;
+      $this->inJobTicket = $inJobTicket;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class DeployOnDemandJob
      */
     public function getInJobName()
     {
-        return $this->inJobName;
+      return $this->inJobName;
     }
 
     /**
      * @param string $inJobName
-     * @return DeployOnDemandJob
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Document_SSP\DeployOnDemandJob
      */
     public function setInJobName($inJobName)
     {
-        $this->inJobName = $inJobName;
-        return $this;
+      $this->inJobName = $inJobName;
+      return $this;
     }
 
 }

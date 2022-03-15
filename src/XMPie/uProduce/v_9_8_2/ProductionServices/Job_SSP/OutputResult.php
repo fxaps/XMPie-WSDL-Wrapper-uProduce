@@ -30,7 +30,7 @@ class OutputResult
      */
     public function __construct($m_SizeKB = null)
     {
-        $this->m_SizeKB = $m_SizeKB;
+      $this->m_SizeKB = $m_SizeKB;
     }
 
     /**
@@ -38,17 +38,17 @@ class OutputResult
      */
     public function getM_FileName()
     {
-        return $this->m_FileName;
+      return $this->m_FileName;
     }
 
     /**
      * @param string $m_FileName
-     * @return OutputResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\OutputResult
      */
     public function setM_FileName($m_FileName)
     {
-        $this->m_FileName = $m_FileName;
-        return $this;
+      $this->m_FileName = $m_FileName;
+      return $this;
     }
 
     /**
@@ -56,17 +56,17 @@ class OutputResult
      */
     public function getM_FilePath()
     {
-        return $this->m_FilePath;
+      return $this->m_FilePath;
     }
 
     /**
      * @param string $m_FilePath
-     * @return OutputResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\OutputResult
      */
     public function setM_FilePath($m_FilePath)
     {
-        $this->m_FilePath = $m_FilePath;
-        return $this;
+      $this->m_FilePath = $m_FilePath;
+      return $this;
     }
 
     /**
@@ -74,17 +74,17 @@ class OutputResult
      */
     public function getM_SizeKB()
     {
-        return $this->m_SizeKB;
+      return $this->m_SizeKB;
     }
 
     /**
      * @param float $m_SizeKB
-     * @return OutputResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\OutputResult
      */
     public function setM_SizeKB($m_SizeKB)
     {
-        $this->m_SizeKB = $m_SizeKB;
-        return $this;
+      $this->m_SizeKB = $m_SizeKB;
+      return $this;
     }
 
     /**
@@ -92,17 +92,17 @@ class OutputResult
      */
     public function getM_ModifDateStr()
     {
-        return $this->m_ModifDateStr;
+      return $this->m_ModifDateStr;
     }
 
     /**
      * @param string $m_ModifDateStr
-     * @return OutputResult
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\OutputResult
      */
     public function setM_ModifDateStr($m_ModifDateStr)
     {
-        $this->m_ModifDateStr = $m_ModifDateStr;
-        return $this;
+      $this->m_ModifDateStr = $m_ModifDateStr;
+      return $this;
     }
 
 }

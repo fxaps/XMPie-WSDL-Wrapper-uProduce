@@ -21,8 +21,8 @@ class GetDeliveryProvidersXMPTblDataSet
      */
     public function __construct($inUsername = null, $inPassword = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
     }
 
     /**
@@ -30,17 +30,17 @@ class GetDeliveryProvidersXMPTblDataSet
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetDeliveryProvidersXMPTblDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetDeliveryProvidersXMPTblDataSet
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -48,17 +48,17 @@ class GetDeliveryProvidersXMPTblDataSet
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetDeliveryProvidersXMPTblDataSet
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\BasicServices\Customer_SSP\GetDeliveryProvidersXMPTblDataSet
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
 }

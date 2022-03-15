@@ -15,7 +15,7 @@ class GetOutputResultDownloadURLResponse
      */
     public function __construct($GetOutputResultDownloadURLResult = null)
     {
-        $this->GetOutputResultDownloadURLResult = $GetOutputResultDownloadURLResult;
+      $this->GetOutputResultDownloadURLResult = $GetOutputResultDownloadURLResult;
     }
 
     /**
@@ -23,17 +23,17 @@ class GetOutputResultDownloadURLResponse
      */
     public function getGetOutputResultDownloadURLResult()
     {
-        return $this->GetOutputResultDownloadURLResult;
+      return $this->GetOutputResultDownloadURLResult;
     }
 
     /**
      * @param string $GetOutputResultDownloadURLResult
-     * @return GetOutputResultDownloadURLResponse
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\ProductionServices\Job_SSP\GetOutputResultDownloadURLResponse
      */
     public function setGetOutputResultDownloadURLResult($GetOutputResultDownloadURLResult)
     {
-        $this->GetOutputResultDownloadURLResult = $GetOutputResultDownloadURLResult;
-        return $this;
+      $this->GetOutputResultDownloadURLResult = $GetOutputResultDownloadURLResult;
+      return $this;
     }
 
 }

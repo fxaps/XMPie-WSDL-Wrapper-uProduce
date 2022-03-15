@@ -39,11 +39,11 @@ class GetUploadedFileTablesSchema
      */
     public function __construct($inUsername = null, $inPassword = null, $inFilePath = null, $inDataSourceType = null, $inDelimiter = null)
     {
-        $this->inUsername = $inUsername;
-        $this->inPassword = $inPassword;
-        $this->inFilePath = $inFilePath;
-        $this->inDataSourceType = $inDataSourceType;
-        $this->inDelimiter = $inDelimiter;
+      $this->inUsername = $inUsername;
+      $this->inPassword = $inPassword;
+      $this->inFilePath = $inFilePath;
+      $this->inDataSourceType = $inDataSourceType;
+      $this->inDelimiter = $inDelimiter;
     }
 
     /**
@@ -51,17 +51,17 @@ class GetUploadedFileTablesSchema
      */
     public function getInUsername()
     {
-        return $this->inUsername;
+      return $this->inUsername;
     }
 
     /**
      * @param string $inUsername
-     * @return GetUploadedFileTablesSchema
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetUploadedFileTablesSchema
      */
     public function setInUsername($inUsername)
     {
-        $this->inUsername = $inUsername;
-        return $this;
+      $this->inUsername = $inUsername;
+      return $this;
     }
 
     /**
@@ -69,17 +69,17 @@ class GetUploadedFileTablesSchema
      */
     public function getInPassword()
     {
-        return $this->inPassword;
+      return $this->inPassword;
     }
 
     /**
      * @param string $inPassword
-     * @return GetUploadedFileTablesSchema
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetUploadedFileTablesSchema
      */
     public function setInPassword($inPassword)
     {
-        $this->inPassword = $inPassword;
-        return $this;
+      $this->inPassword = $inPassword;
+      return $this;
     }
 
     /**
@@ -87,17 +87,17 @@ class GetUploadedFileTablesSchema
      */
     public function getInFilePath()
     {
-        return $this->inFilePath;
+      return $this->inFilePath;
     }
 
     /**
      * @param string $inFilePath
-     * @return GetUploadedFileTablesSchema
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetUploadedFileTablesSchema
      */
     public function setInFilePath($inFilePath)
     {
-        $this->inFilePath = $inFilePath;
-        return $this;
+      $this->inFilePath = $inFilePath;
+      return $this;
     }
 
     /**
@@ -105,17 +105,17 @@ class GetUploadedFileTablesSchema
      */
     public function getInDataSourceType()
     {
-        return $this->inDataSourceType;
+      return $this->inDataSourceType;
     }
 
     /**
      * @param string $inDataSourceType
-     * @return GetUploadedFileTablesSchema
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetUploadedFileTablesSchema
      */
     public function setInDataSourceType($inDataSourceType)
     {
-        $this->inDataSourceType = $inDataSourceType;
-        return $this;
+      $this->inDataSourceType = $inDataSourceType;
+      return $this;
     }
 
     /**
@@ -123,17 +123,17 @@ class GetUploadedFileTablesSchema
      */
     public function getInDelimiter()
     {
-        return $this->inDelimiter;
+      return $this->inDelimiter;
     }
 
     /**
      * @param string $inDelimiter
-     * @return GetUploadedFileTablesSchema
+     * @return \XMPieWsdlClient\XMPie\uProduce\v_9_8_2\UndocumentedServices\UpdateDataSource_SSP\GetUploadedFileTablesSchema
      */
     public function setInDelimiter($inDelimiter)
     {
-        $this->inDelimiter = $inDelimiter;
-        return $this;
+      $this->inDelimiter = $inDelimiter;
+      return $this;
     }
 
 }

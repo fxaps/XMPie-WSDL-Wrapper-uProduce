@@ -11,7 +11,7 @@
   "authors": [
     {
       "name": "Andrew Rajcany",
-      "email": "Andrew.Rajcany@aus.fujixerox.com"
+      "email": "andrew.rajcany.zj@fujifilm.com"
     }
   ],
   "type": "library",
@@ -20,7 +20,7 @@
     "ext-soap": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "*",
+    "phpunit/phpunit": "~8.5.0 || ^9.3",
     "ext-json": "*"
   },
   "license": "MIT",

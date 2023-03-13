@@ -20,12 +20,12 @@ use XMPieWsdlClient\XMPie\uProduce\v_x_y_z\Fabricator\ServiceFabricator;
  */
 class uProduceFactory
 {
-    private $xmpOptions;
-    private $soapOptions;
-    private $config;
+    private array $xmpOptions;
+    private array $soapOptions;
+    private array $config;
 
-    public $uProduceRequestFabricator;
-    public $uProduceServiceFabricator;
+    public RequestFabricator $uProduceRequestFabricator;
+    public ServiceFabricator $uProduceServiceFabricator;
 
     /**
      * uProduceFactory constructor.
@@ -34,7 +34,7 @@ class uProduceFactory
      * @param array $soapOptions
      * @param array $config
      */
-    public function __construct($xmpOptions = [], $soapOptions = [], $config = [])
+    public function __construct(array $xmpOptions = [], array $soapOptions = [], array $config = [])
     {
         $defaultConfig = [
             'security' => true,

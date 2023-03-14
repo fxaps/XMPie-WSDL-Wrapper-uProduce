@@ -40,7 +40,7 @@ class ArrayOfPlanFunction implements \ArrayAccess, \Iterator, \Countable
      * @param mixed $offset An offset to check for
      * @return boolean true on success or false on failure
      */
-    public function offsetExists($offset)
+    public function offsetExists($offset): bool
     {
       return isset($this->PlanFunction[$offset]);
     }
@@ -51,7 +51,7 @@ class ArrayOfPlanFunction implements \ArrayAccess, \Iterator, \Countable
      * @param mixed $offset The offset to retrieve
      * @return PlanFunction
      */
-    public function offsetGet($offset)
+    public function offsetGet($offset): PlanFunction
     {
       return $this->PlanFunction[$offset];
     }
@@ -63,7 +63,7 @@ class ArrayOfPlanFunction implements \ArrayAccess, \Iterator, \Countable
      * @param PlanFunction $value The value to set
      * @return void
      */
-    public function offsetSet($offset, $value)
+    public function offsetSet($offset, $value): void
     {
       if (!isset($offset)) {
         $this->PlanFunction[] = $value;
@@ -78,7 +78,7 @@ class ArrayOfPlanFunction implements \ArrayAccess, \Iterator, \Countable
      * @param mixed $offset The offset to unset
      * @return void
      */
-    public function offsetUnset($offset)
+    public function offsetUnset($offset): void
     {
       unset($this->PlanFunction[$offset]);
     }
@@ -88,7 +88,7 @@ class ArrayOfPlanFunction implements \ArrayAccess, \Iterator, \Countable
      *
      * @return PlanFunction Return the current element
      */
-    public function current()
+    public function current(): PlanFunction
     {
       return current($this->PlanFunction);
     }
@@ -99,7 +99,7 @@ class ArrayOfPlanFunction implements \ArrayAccess, \Iterator, \Countable
      *
      * @return void
      */
-    public function next()
+    public function next(): void
     {
       next($this->PlanFunction);
     }
@@ -109,7 +109,7 @@ class ArrayOfPlanFunction implements \ArrayAccess, \Iterator, \Countable
      *
      * @return string|null Return the key of the current element or null
      */
-    public function key()
+    public function key(): string|null
     {
       return key($this->PlanFunction);
     }
@@ -119,7 +119,7 @@ class ArrayOfPlanFunction implements \ArrayAccess, \Iterator, \Countable
      *
      * @return boolean Return the validity of the current position
      */
-    public function valid()
+    public function valid(): bool
     {
       return $this->key() !== null;
     }
@@ -130,7 +130,7 @@ class ArrayOfPlanFunction implements \ArrayAccess, \Iterator, \Countable
      *
      * @return void
      */
-    public function rewind()
+    public function rewind(): void
     {
       reset($this->PlanFunction);
     }
@@ -140,7 +140,7 @@ class ArrayOfPlanFunction implements \ArrayAccess, \Iterator, \Countable
      *
      * @return PlanFunction Return count of elements
      */
-    public function count()
+    public function count(): int
     {
       return count($this->PlanFunction);
     }

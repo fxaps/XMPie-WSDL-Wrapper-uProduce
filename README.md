@@ -21,4 +21,5 @@ composer require fxaps/xmpie-wsdl-wrapper-uproduce:10.1.*
 composer require fxaps/xmpie-wsdl-wrapper-uproduce:10.2.1.*
 composer require fxaps/xmpie-wsdl-wrapper-uproduce:11.1.*
 composer require fxaps/xmpie-wsdl-wrapper-uproduce:12.0.*
+composer require fxaps/xmpie-wsdl-wrapper-uproduce:13.2.*
 ```

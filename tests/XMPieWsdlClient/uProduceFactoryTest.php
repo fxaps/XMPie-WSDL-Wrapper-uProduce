@@ -1,9 +1,10 @@
 <?php
 
-namespace XMPieWsdlClient;
+namespace App\Test\XMPieWsdlClient;
 
 
 use PHPUnit\Framework\TestCase;
+use XMPieWsdlClient\uProduceFactory;
 
 class uProduceFactoryTest extends TestCase
 {
@@ -21,7 +22,7 @@ class uProduceFactoryTest extends TestCase
 
         $xmpOptions =
             [
-                'url' => 'localhost',
+                'url' => 'https://localhost/',
                 'username' => 'admin',
                 'password' => 'admin',
             ];
@@ -47,13 +48,13 @@ class uProduceFactoryTest extends TestCase
 
         $request = $requestFabricator->SystemManager_SSP()->GetProductInfo();
         $result = $serviceFabricator->SystemManager_SSP()->GetProductInfo($request)->getGetProductInfoResult();
-        $this->assertObjectHasAttribute('m_Name', $result);
-        $this->assertObjectHasAttribute('m_Type', $result);
-        $this->assertObjectHasAttribute('m_BuildNumber', $result);
-        $this->assertObjectHasAttribute('m_Version', $result);
-        $this->assertObjectHasAttribute('m_LicenseKey', $result);
-        $this->assertObjectHasAttribute('m_SystemID', $result);
-        $this->assertObjectHasAttribute('m_APIServer', $result);
+        $this->assertTrue(property_exists($result, 'm_Name'));
+        $this->assertTrue(property_exists($result, 'm_Type'));
+        $this->assertTrue(property_exists($result, 'm_BuildNumber'));
+        $this->assertTrue(property_exists($result, 'm_Version'));
+        $this->assertTrue(property_exists($result, 'm_LicenseKey'));
+        $this->assertTrue(property_exists($result, 'm_SystemID'));
+        $this->assertTrue(property_exists($result, 'm_APIServer'));
     }
 
 }
